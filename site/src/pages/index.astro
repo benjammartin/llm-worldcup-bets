@@ -42,6 +42,13 @@ const pending = state.bets.filter((b) => b.status === "pending")
 const settled = state.bets.filter((b) => b.status !== "pending")
   .sort((a, b) => b.kickoff.localeCompare(a.kickoff)).slice(0, 60);
 
+const modelCycleStats = Object.fromEntries(standings.map((s) => {
+  const bets = pending.filter((b) => b.model === s.name);
+  const exposure = bets.reduce((sum, b) => sum + b.stake, 0);
+  const avgOdds = bets.length ? bets.reduce((sum, b) => sum + b.odds, 0) / bets.length : 0;
+  return [s.name, { bets: bets.length, exposure, avgOdds }];
+}));
+
 const byMatch = (bets: Bet[]) => {
   const m = new Map<string, Bet[]>();
   for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
@@ -54,11 +61,34 @@ const pickLabel = (b: Bet) =>
   b.pick === "draw" ? "🤝 Draw"
   : b.pick === "home" ? `${flagOf(b.homeTeam)} ${b.homeTeam}`
   : `${flagOf(b.awayTeam)} ${b.awayTeam}`;
+const pickText = (pick: Bet["pick"], b: Bet) =>
+  pick === "draw" ? "Draw" : pick === "home" ? b.homeTeam : b.awayTeam;
+const matchInsight = (bets: Bet[]) => {
+  const counts = { home: 0, draw: 0, away: 0 } as Record<Bet["pick"], number>;
+  for (const b of bets) counts[b.pick] += 1;
+  const entries = (Object.entries(counts) as [Bet["pick"], number][])
+    .filter(([, count]) => count > 0)
+    .sort((a, b) => b[1] - a[1]);
+  const top = entries[0];
+  const split = entries.map(([pick, count]) => `${count} ${pickText(pick, bets[0])}`).join(" / ");
+  const biggest = [...bets].sort((a, b) => b.stake - a.stake)[0];
+  const verdict = top[1] === bets.length
+    ? `Consensus: ${top[1]}/${bets.length} pick ${pickText(top[0], bets[0])}`
+    : `Split: ${split}`;
+  return `${verdict} · biggest stake: ${biggest.model} ${money(biggest.stake)}`;
+};
 const kickoff = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 const lastUpdate = state.meta.lastSettleRun ?? state.meta.lastBetsRun;
 const todayFailures = state.meta.failures.slice(-6);
 const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
+const topExposure = Object.entries(modelCycleStats)
+  .filter(([, stats]) => stats.bets > 0)
+  .sort((a, b) => b[1].exposure - a[1].exposure)[0];
+const biggestSwing = [...pending].sort((a, b) => b.odds - a.odds)[0];
+const cycleSummary = pending.length === 0
+  ? "No live bets right now — the next 24h slate opens at 09:00 UTC."
+  : `${pendingMatches.length} matches in this 24h cycle · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
 
 const shareText = encodeURIComponent(
   `6 AIs get $10,000 each and bet on the next 24h cycle of World Cup matches. Current leader: ${leader.name} (${money(leader.roll)}).`
@@ -122,7 +152,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
     /* ── standings: market book ───────────────── */
     .standings { display: flex; flex-direction: column; gap: 5px; }
-    .standing { display: grid; grid-template-columns: 30px 24px minmax(72px, auto) 1fr auto auto;
+    .standing { display: grid; grid-template-columns: 30px 24px minmax(110px, auto) minmax(70px, 1fr) auto auto auto;
       align-items: center; gap: 10px; background: var(--panel); border: 1px solid var(--line);
       border-radius: 6px; padding: 9px 12px; position: relative; }
     .standing.first { border-color: color-mix(in srgb, var(--amber) 45%, var(--line)); background: linear-gradient(90deg, rgba(245,158,11,.06), var(--panel) 40%); }
@@ -130,6 +160,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .standing.first .rank { color: var(--amber); font-weight: 700; }
     .standing .name { font-weight: 700; display: flex; flex-direction: column; line-height: 1.15; }
     .model-id { color: var(--faint); font-size: 10px; font-weight: 400; letter-spacing: 0; text-transform: none; }
+    .cycle-risk { color: var(--faint); font-size: 11px; white-space: nowrap; text-align: right; }
     .pl-track { height: 6px; border-radius: 3px; background: var(--panel-2); position: relative; overflow: hidden; min-width: 60px; }
     .pl-bar { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
     .standing .delta { font-size: 12px; text-align: right; min-width: 84px; }
@@ -161,6 +192,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .match-meta { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
     .bet-count { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
     .match-ko { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+    .cycle-summary { color: var(--dim); background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+      padding: 10px 12px; margin: -4px 0 12px; font-size: 13px; }
+    .match-insight { color: var(--faint); border-bottom: 1px solid #14171c; padding: 8px 14px; font-size: 12px; }
     details { border-top: 1px solid #14171c; }
     details:first-of-type { border-top: none; }
     summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 24px 142px 1fr auto auto 24px;
@@ -186,6 +220,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     @media (max-width: 560px) {
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta { display: none; }
+      .cycle-risk { grid-column: 3 / 5; text-align: left; }
       summary { grid-template-columns: 22px 118px 1fr 22px; }
       .bet-stake, .bet-odds { grid-column: 2 / 4; grid-row: 2; text-align: left; font-size: 12px; }
       .bet-odds { grid-column: 3 / 4; text-align: right; }
@@ -245,6 +280,11 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               width:${(Math.abs(s.delta) / maxAbsDelta) * 50}%`}></span>}
             <span class="pl-bar" style="left:50%;width:1px;background:var(--line)"></span>
           </span>
+          <span class="cycle-risk">
+            {modelCycleStats[s.name].bets > 0
+              ? `Pending ${money(modelCycleStats[s.name].exposure)} · Avg odds ${modelCycleStats[s.name].avgOdds.toFixed(2)}`
+              : "No live exposure"}
+          </span>
           <span class={`delta ${s.delta > 0 ? "up" : s.delta < 0 ? "down" : "flat"}`}>
             {s.delta === 0 ? "±$0" : (s.delta > 0 ? "+$" : "−$") + Math.round(Math.abs(s.delta)).toLocaleString("en-US")}
           </span>
@@ -267,6 +307,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <section>
     <h2>Current 24h betting cycle <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
+    <p class="cycle-summary">{cycleSummary}</p>
     {pendingMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
@@ -276,6 +317,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
             <span class="match-ko">kicks off {kickoff(bets[0].kickoff)}</span>
           </span>
         </div>
+        <div class="match-insight">{matchInsight(bets)}</div>
         {bets.map((b) => (
           <details style={`--c:${COLORS[b.model] ?? "#fff"}`}>
             <summary>
