@@ -1,0 +1,26 @@
+name: morning-bets
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 09:00 UTC daily, before the earliest kickoffs
+  workflow_dispatch: {}
+concurrency: { group: state-writes, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  bets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run bets
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+      - name: Commit state
+        run: |
+          git config user.name "wc-bot"
+          git config user.email "wc-bot@users.noreply.github.com"
+          git add data site/public/og.png
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "data: bets $(date -u +%F)"
+          git pull --rebase && git push
