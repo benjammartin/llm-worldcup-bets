@@ -34,6 +34,19 @@ describe("chartSVG", () => {
     expect(pts.split(" ").length).toBeGreaterThanOrEqual(2);
   });
 
+  test("day-one tied series are visually separated instead of perfectly overlapping", () => {
+    const s = initialState(["Claude", "GPT-5", "Gemini", "Baseline"], 10_000, "2026-06-11T08:00:00Z");
+    const svg = chartSVG(s, 760, 540, { compact: true });
+    const firstYs = [...svg.matchAll(/<polyline points="[^,]+,([\d.]+)/g)].map((m) => m[1]);
+    expect(new Set(firstYs).size).toBe(4);
+  });
+
+  test("series with different bankrolls keep their real scaled y positions", () => {
+    const svg = chartSVG(demoState(), 1200, 630);
+    const firstYs = [...svg.matchAll(/<polyline points="[^,]+,([\d.]+)/g)].map((m) => m[1]);
+    expect(new Set(firstYs).size).toBe(1); // all start at the same bankroll
+  });
+
   test("baseline is dashed", () => {
     expect(chartSVG(demoState(), 1200, 630)).toContain("stroke-dasharray");
   });
