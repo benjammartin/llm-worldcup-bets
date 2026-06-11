@@ -22,4 +22,17 @@ describe("composeUpdate", () => {
     expect(text).toContain("1. Claude $11,850");
     expect(text.length).toBeLessThanOrEqual(280);
   });
+
+  test("never truncates the URL when moves are long", () => {
+    const s = initialState(["Claude"], 10_000, "2026-06-11T08:00:00Z");
+    const settled: Bet[] = Array.from({ length: 8 }, (_, i) => ({
+      id: `m1:Model${i}`, date: "d", matchId: "m1",
+      match: "Bosnia and Herzegovina vs United States", homeTeam: "Bosnia and Herzegovina",
+      awayTeam: "United States", kickoff: "k", model: `VeryLongModelName${i}`,
+      pick: "home" as const, stake: 123_456, odds: 1.85, reasoning: "", status: "lost" as const,
+    }));
+    const text = composeUpdate(s, "Bosnia and Herzegovina vs United States", "1-1", settled, "https://llm-worldcup-bets.vercel.app");
+    expect(text.length).toBeLessThanOrEqual(280);
+    expect(text.endsWith("https://llm-worldcup-bets.vercel.app")).toBe(true);
+  });
 });

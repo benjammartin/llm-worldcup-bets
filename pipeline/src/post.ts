@@ -22,7 +22,11 @@ export function composeUpdate(
     .map((n, i) => `${i + 1}. ${n} ${fmt(bankroll(s, n))}`)
     .join(" ");
 
-  return `FT: ${match} (${score})\n${moves}\n\n${standings}\n${siteUrl}`.slice(0, 280);
+  const head = `FT: ${match} (${score})\n`;
+  const tail = `\n\n${standings}\n${siteUrl}`;
+  const budget = 280 - head.length - tail.length;
+  const trimmedMoves = moves.length > budget ? moves.slice(0, Math.max(0, budget - 1)) + "…" : moves;
+  return `${head}${trimmedMoves}${tail}`;
 }
 
 export async function postToX(text: string, png: Buffer): Promise<void> {

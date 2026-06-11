@@ -39,5 +39,9 @@ writeFileSync(OG_PATH, png);
 console.log(`[settle] settled ${settledMatches.length} match(es)`);
 
 for (const sm of settledMatches) {
-  await postToX(composeUpdate(state, sm.match, sm.score, sm.bets, SITE_URL), png);
+  try {
+    await postToX(composeUpdate(state, sm.match, sm.score, sm.bets, SITE_URL), png);
+  } catch (e) {
+    console.error(`[post] failed for ${sm.match}: ${e}`);
+  }
 }
