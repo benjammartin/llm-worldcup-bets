@@ -14,7 +14,7 @@ const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
 const state = loadState(STATE_PATH, names, now);
 
 const odds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
-console.log(`[bets] ${odds.length} matches in the next 72h`);
+console.log(`[bets] ${odds.length} matches in the next 24h`);
 if (odds.length > 0) {
   await placeBets(state, odds, MODELS, callGateway, now);
   placeBaselineBets(state, odds, now);

@@ -12,7 +12,7 @@ const median = (xs: number[]): number => {
   return s.length % 2 ? s[mid] : Math.round(((s[mid - 1] + s[mid]) / 2) * 100) / 100;
 };
 
-const UPCOMING_WINDOW_HOURS = 72;
+const UPCOMING_WINDOW_HOURS = 24;
 
 export async function fetchTodaysOdds(
   apiKey: string,
