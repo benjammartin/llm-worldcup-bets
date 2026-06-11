@@ -43,4 +43,16 @@ describe("fetchTodaysOdds", () => {
     const bad = (async () => new Response("nope", { status: 401 })) as typeof fetch;
     await expect(fetchTodaysOdds("KEY", bad, new Date())).rejects.toThrow("the-odds-api 401");
   });
+
+  test("skips events whose bookmakers yield no prices for a side", async () => {
+    const fixture = [{
+      id: "evt3", sport_key: "soccer_fifa_world_cup",
+      commence_time: "2026-06-11T16:00:00Z",
+      home_team: "France", away_team: "Spain",
+      bookmakers: [{ key: "pinnacle", markets: [] }], // passes length check, no h2h prices
+    }];
+    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as typeof fetch;
+    const out = await fetchTodaysOdds("KEY", f, new Date("2026-06-11T08:00:00Z"));
+    expect(out).toEqual([]);
+  });
 });

@@ -42,5 +42,6 @@ export async function fetchTodaysOdds(
         kickoff: e.commence_time,
         odds: { home: median(prices.home), draw: median(prices.draw), away: median(prices.away) },
       };
-    });
+    })
+    .filter((m) => isFinite(m.odds.home) && isFinite(m.odds.draw) && isFinite(m.odds.away));
 }
