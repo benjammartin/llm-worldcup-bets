@@ -1,7 +1,7 @@
 name: morning-bets
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC daily, before the earliest kickoffs
+    - cron: "0 */6 * * *"  # Every 6h UTC; idempotent, only new matches get fresh bets
   workflow_dispatch: {}
 concurrency: { group: state-writes, cancel-in-progress: false }
 permissions: { contents: write }
