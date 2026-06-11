@@ -140,7 +140,8 @@ const shareUrl = `https://twitter.com/intent/tweet?text=${shareText}&url=${encod
       letter-spacing: .08em; cursor: pointer; text-decoration: none; }
     .share a:hover, .share button:hover { border-color: var(--amber); color: var(--amber); }
 
-    .chart svg { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
+    .chart { overflow: hidden; }
+    :global(.chart svg) { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
     .chart-mobile { display: none; }
     @media (max-width: 700px) { .chart-desktop { display: none; } .chart-mobile { display: block; } }
 
