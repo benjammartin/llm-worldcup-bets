@@ -15,11 +15,25 @@ const FIXTURE = [
       ]}]},
     ],
   },
-  { // kicks off in 3 days — must be filtered out
+  {
     id: "evt2", sport_key: "soccer_fifa_world_cup",
-    commence_time: "2026-06-14T16:00:00Z",
+    commence_time: "2026-06-13T16:00:00Z",
     home_team: "Brazil", away_team: "Japan",
-    bookmakers: [],
+    bookmakers: [
+      { key: "pinnacle", markets: [{ key: "h2h", outcomes: [
+        { name: "Brazil", price: 1.5 }, { name: "Japan", price: 6.0 }, { name: "Draw", price: 4.0 },
+      ]}]},
+    ],
+  },
+  { // outside the 72h upcoming window — must be filtered out
+    id: "evt3", sport_key: "soccer_fifa_world_cup",
+    commence_time: "2026-06-15T16:00:00Z",
+    home_team: "Germany", away_team: "Canada",
+    bookmakers: [
+      { key: "pinnacle", markets: [{ key: "h2h", outcomes: [
+        { name: "Germany", price: 1.4 }, { name: "Canada", price: 7.0 }, { name: "Draw", price: 4.5 },
+      ]}]},
+    ],
   },
 ];
 
@@ -30,12 +44,16 @@ const fakeFetch = (async (url: string | URL) => {
 }) as unknown as typeof fetch;
 
 describe("fetchTodaysOdds", () => {
-  test("returns median odds for matches within 24h", async () => {
+  test("returns median odds for matches within the upcoming 72h", async () => {
     const out = await fetchTodaysOdds("KEY", fakeFetch, new Date("2026-06-11T08:00:00Z"));
     expect(out).toEqual([{
       matchId: "evt1", homeTeam: "France", awayTeam: "Spain",
       kickoff: "2026-06-11T16:00:00Z",
       odds: { home: 1.85, draw: 3.55, away: 4.1 }, // median of 2 books = mean here
+    }, {
+      matchId: "evt2", homeTeam: "Brazil", awayTeam: "Japan",
+      kickoff: "2026-06-13T16:00:00Z",
+      odds: { home: 1.5, draw: 4.0, away: 6.0 },
     }]);
   });
 

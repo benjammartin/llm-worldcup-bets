@@ -12,6 +12,8 @@ const median = (xs: number[]): number => {
   return s.length % 2 ? s[mid] : Math.round(((s[mid - 1] + s[mid]) / 2) * 100) / 100;
 };
 
+const UPCOMING_WINDOW_HOURS = 72;
+
 export async function fetchTodaysOdds(
   apiKey: string,
   fetchFn: typeof fetch = fetch,
@@ -21,7 +23,7 @@ export async function fetchTodaysOdds(
   const res = await fetchFn(url);
   if (!res.ok) throw new Error(`the-odds-api ${res.status}`);
   const events = (await res.json()) as any[];
-  const horizon = now.getTime() + 24 * 3600 * 1000;
+  const horizon = now.getTime() + UPCOMING_WINDOW_HOURS * 3600 * 1000;
 
   return events
     .filter((e) => {

@@ -22,7 +22,7 @@ Your bankroll: $${bankroll.toFixed(2)}
 Your record: ${won} won / ${settled.length - won} lost. Last results:
 ${recent}
 
-Today's matches (decimal odds):
+Upcoming matches with available odds:
 ${lines}
 
 Place your bets. Rules:
