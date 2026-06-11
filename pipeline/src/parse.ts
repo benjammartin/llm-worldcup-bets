@@ -2,11 +2,11 @@ import type { Pick3 } from "./state";
 
 export interface RawBet { matchId: string; pick: Pick3; stake: number; reasoning: string; }
 
-const PICKS: Record<string, Pick3> = {
+const PICKS: Record<string, Pick3> = Object.assign(Object.create(null), {
   home: "home", draw: "draw", away: "away",
   "1": "home", x: "draw", "2": "away",
   "home win": "home", "away win": "away", tie: "draw",
-};
+});
 
 export function extractBets(text: string): RawBet[] {
   const start = Math.min(...["[", "{"].map((c) => {

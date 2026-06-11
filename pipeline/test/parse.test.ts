@@ -31,6 +31,12 @@ describe("extractBets", () => {
     expect(extractBets(txt)).toEqual([{ matchId: "m3", pick: "away", stake: 40, reasoning: "ok" }]);
   });
 
+  test("drops prototype-chain pick names like 'constructor'", () => {
+    const txt = `[{"matchId":"m1","pick":"constructor","stake":10,"reasoning":"?"},
+                  {"matchId":"m2","pick":"home","stake":20,"reasoning":"ok"}]`;
+    expect(extractBets(txt)).toEqual([{ matchId: "m2", pick: "home", stake: 20, reasoning: "ok" }]);
+  });
+
   test("throws on text with no JSON at all", () => {
     expect(() => extractBets("I refuse to gamble.")).toThrow();
   });
