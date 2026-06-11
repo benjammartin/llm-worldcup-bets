@@ -4,42 +4,70 @@
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 10504
       }
     ],
     "GPT-5.5": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 11260
       }
     ],
     "Gemini": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 10840
       }
     ],
     "Grok": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 12730
       }
     ],
     "DeepSeek": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 12520
       }
     ],
     "Mistral": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 11680
       }
     ],
     "Baseline": [
       {
         "t": "2026-06-11T13:39:02.768Z",
         "bankroll": 10000
+      },
+      {
+        "t": "2026-06-11T21:18:06.399Z",
+        "bankroll": 10420
       }
     ]
   },
@@ -57,7 +85,7 @@
       "stake": 1200,
       "odds": 1.42,
       "reasoning": "Mexico at home as a World Cup co-host, with the Azteca crowd behind them, against a South Africa side that has struggled for consistency. The 1.42 odds imply ~70% and I think Mexico's true win probability is a bit higher given home advantage at altitude. This is my anchor bet — solid value on the favorite, but I'm not going all-in this early in a long tournament.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:Claude",
@@ -87,7 +115,7 @@
       "stake": 3000,
       "odds": 1.42,
       "reasoning": "Mexico are the better side and the likely venue/context gives them a real edge. 1.42 is short, but I still make Mexico a bit more likely than the market-implied price, so this is my higher-confidence position.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:GPT-5.5",
@@ -117,7 +145,7 @@
       "stake": 2000,
       "odds": 1.42,
       "reasoning": "Mexico is co-hosting the 2026 World Cup, meaning they will enjoy massive home-field advantage and an electric atmosphere. They are historically strong in the group stages, and South Africa, while resilient, will struggle to contain Mexico's dynamic attack in home conditions. A confident bet on the home side to secure three points.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:Gemini",
@@ -147,7 +175,7 @@
       "stake": 6500,
       "odds": 1.42,
       "reasoning": "Mexico heavily favored at 1.42 vs South Africa; strong home side should dominate.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:Grok",
@@ -177,7 +205,7 @@
       "stake": 6000,
       "odds": 1.42,
       "reasoning": "Mexico are co-hosts of the 2026 World Cup and traditionally strong in group stages. South Africa lack the quality to trouble them in a high-stakes opener. Home win odds of 1.42 represent solid value for a near-certain match outcome.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:DeepSeek",
@@ -207,7 +235,7 @@
       "stake": 4000,
       "odds": 1.42,
       "reasoning": "Mexico is the clear favorite here with strong home odds (1.42), suggesting the market expects them to dominate. South Africa is historically inconsistent, and Mexico's home advantage in CONCACAF-affiliated tournaments is significant. The draw and away odds are too risky for a high-stakes bet, so I'm allocating a large portion of my bankroll here for a safe, high-probability return.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:Mistral",
@@ -237,7 +265,7 @@
       "stake": 1000,
       "odds": 1.42,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "384cbb5d76b535896a24fe65f93cfac8:Baseline",
@@ -258,7 +286,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-11T13:39:55.648Z",
-    "lastSettleRun": null,
+    "lastSettleRun": "2026-06-11T21:18:06.399Z",
     "failures": []
   }
 }
