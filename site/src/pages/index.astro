@@ -2,13 +2,13 @@
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { chartSVG } from "../../../pipeline/src/chart";
-import { SITE_URL } from "../../../pipeline/src/config";
+import { BASELINE_NAME, MODELS, SITE_URL, STARTING_BANKROLL } from "../../../pipeline/src/config";
 import { initialState, type Bet, type State } from "../../../pipeline/src/state";
 
 const statePath = fileURLToPath(new URL("../../../data/state.json", import.meta.url));
 const state: State = existsSync(statePath)
   ? JSON.parse(readFileSync(statePath, "utf8"))
-  : initialState(["Claude", "GPT-5", "Gemini", "Grok", "DeepSeek", "Mistral", "Baseline"], 10_000, new Date().toISOString());
+  : initialState([...MODELS.map((m) => m.name), BASELINE_NAME], STARTING_BANKROLL, new Date().toISOString());
 const svg = chartSVG(state, 1200, 630);
 
 const pending = state.bets.filter((b) => b.status === "pending")
@@ -18,8 +18,8 @@ const settled = state.bets.filter((b) => b.status !== "pending")
 
 const byMatch = (bets: Bet[]) => {
   const m = new Map<string, Bet[]>();
-  for (const b of bets) m.set(b.match, [...(m.get(b.match) ?? []), b]);
-  return [...m.entries()];
+  for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
+  return [...m.values()];
 };
 const badge = (s: string) => s === "won" ? "✅" : s === "lost" ? "❌" : s === "void" ? "↩︎" : "⏳";
 const kickoff = (iso: string) =>
@@ -51,9 +51,9 @@ const kickoff = (iso: string) =>
   <div class="chart" set:html={svg} />
 
   <h2>Pending bets</h2>
-  {byMatch(pending).map(([match, bets]) => (
+  {byMatch(pending).map((bets) => (
     <section>
-      <p class="meta">{match} — kicks off {kickoff(bets[0].kickoff)}</p>
+      <p class="meta">{bets[0].match} — kicks off {kickoff(bets[0].kickoff)}</p>
       {bets.map((b) => (
         <details>
           <summary><span class="model">{b.model}</span> {b.pick} · ${b.stake.toLocaleString()} @ {b.odds} {badge(b.status)}</summary>
@@ -64,9 +64,9 @@ const kickoff = (iso: string) =>
   ))}
 
   <h2>Recent results</h2>
-  {byMatch(settled).map(([match, bets]) => (
+  {byMatch(settled).map((bets) => (
     <section>
-      <p class="meta">{match}</p>
+      <p class="meta">{bets[0].match}</p>
       {bets.map((b) => (
         <details>
           <summary><span class="model">{b.model}</span> {b.pick} · ${b.stake.toLocaleString()} @ {b.odds} {badge(b.status)}</summary>
