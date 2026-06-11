@@ -37,6 +37,13 @@ export function chartSVG(s: State, w = 1200, h = 630, opts: ChartOpts = {}): str
   const [v0, v1] = [Math.min(...vals, 9_000) * 0.95, Math.max(...vals, 11_000) * 1.05];
   const x = (t: number) => pad.left + ((t - t0) / Math.max(1, t1 - t0)) * (w - pad.left - pad.right);
   const y = (v: number) => h - pad.bottom - ((v - v0) / (v1 - v0)) * (h - pad.top - pad.bottom);
+  const allBankrollsEqual = new Set(vals).size === 1;
+  const tieLane = (n: string) => {
+    if (!allBankrollsEqual || names.length <= 1) return 0;
+    const i = names.indexOf(n);
+    const gap = compact ? 7 : 5;
+    return (i - (names.length - 1) / 2) * gap;
+  };
 
   const grid = [0.25, 0.5, 0.75].map((f) => {
     const v = v0 + f * (v1 - v0);
@@ -45,7 +52,8 @@ export function chartSVG(s: State, w = 1200, h = 630, opts: ChartOpts = {}): str
   }).join("");
 
   const lines = names.map((n) => {
-    const pts = extended[n].map((p) => `${x(p.t)},${y(p.bankroll)}`).join(" ");
+    const lane = tieLane(n);
+    const pts = extended[n].map((p) => `${x(p.t)},${y(p.bankroll) + lane}`).join(" ");
     const dash = n === BASELINE_NAME ? ` stroke-dasharray="6 5"` : "";
     return `<polyline points="${pts}" fill="none" stroke="${COLORS[n] ?? "#fff"}" stroke-width="2.5"${dash}/>`;
   }).join("");
