@@ -14,7 +14,7 @@ const ALIASES: Record<string, string> = Object.assign(Object.create(null), {
 
 export function normalizeTeam(name: string): string {
   const clean = name.trim().toLowerCase()
-    .normalize("NFD").replace(/[̀-ͯ]/g, "");
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   return ALIASES[clean] ?? clean;
 }
 
