@@ -202,6 +202,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     summary::-webkit-details-marker { display: none; }
     summary:hover { background: var(--panel-2); }
     details[open] summary { background: var(--panel-2); }
+    summary .name { display: flex; flex-direction: column; min-width: 0; line-height: 1.15; }
+    summary .model-id { display: block; overflow-wrap: anywhere; }
     .bet-pick { color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .bet-stake { color: var(--txt); text-align: right; white-space: nowrap; }
     .bet-odds { color: var(--amber); font-size: 12px; white-space: nowrap; }
