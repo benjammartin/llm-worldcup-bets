@@ -24,11 +24,23 @@ export async function fetchFinished(
   const body = (await res.json()) as any;
   return (body.matches as any[])
     .filter((m) => m.status === "FINISHED" && m.score?.winner)
-    .map((m) => ({
-      homeTeam: m.homeTeam.name,
-      awayTeam: m.awayTeam.name,
-      result: WINNER[m.score.winner as string],
-      score: `${m.score.fullTime.home}-${m.score.fullTime.away}`,
-      utcDate: m.utcDate,
-    }));
+    .flatMap((m) => {
+      // 1X2 odds settle on the 90-minute result; for ET/pens matches,
+      // score.winner is the post-ET/pens winner and fullTime includes ET goals.
+      const duration = m.score.duration ?? "REGULAR";
+      const regular = duration === "REGULAR" ? m.score.fullTime : m.score.regularTime;
+      if (regular == null || regular.home == null || regular.away == null) return [];
+      const result: Pick3 =
+        regular.home > regular.away ? "home" :
+        regular.home < regular.away ? "away" :
+        "draw";
+      if (duration === "REGULAR" && !WINNER[m.score.winner as string]) return [];
+      return [{
+        homeTeam: m.homeTeam.name,
+        awayTeam: m.awayTeam.name,
+        result,
+        score: `${regular.home}-${regular.away}`,
+        utcDate: m.utcDate,
+      }];
+    });
 }
