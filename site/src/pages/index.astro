@@ -92,6 +92,16 @@ const cycleSummary = pending.length === 0
 const mobileCycleSummary = pending.length === 0
   ? "Next slate opens at 09:00 UTC."
   : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
+const headlineMatch = pendingMatches[0];
+const matchTitle = (bets: Bet[]) => `${flagOf(bets[0].homeTeam)} ${bets[0].homeTeam} vs ${bets[0].awayTeam} ${flagOf(bets[0].awayTeam)}`;
+const storylineTitle = pending.length === 0
+  ? "Waiting for the next slate"
+  : "Today’s AI picks are in";
+const storylineBody = pending.length === 0 || !headlineMatch
+  ? "The next 24h betting cycle opens at 09:00 UTC. Come back for the models’ picks, stakes, and verbatim reasoning."
+  : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed across the cycle.` : ""}`;
+const dailyShareText = encodeURIComponent(`${storylineTitle}: ${storylineBody}`);
+const dailyShareUrl = `https://twitter.com/intent/tweet?text=${dailyShareText}&url=${encodeURIComponent(SITE_URL)}`;
 
 const shareText = encodeURIComponent(
   `6 AIs get $10,000 each and bet on the next 24h cycle of World Cup matches. Current leader: ${leader.name} (${money(leader.roll)}).`
@@ -146,6 +156,16 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .tagline b { color: var(--txt); }
     .cycle-note { color: var(--faint); max-width: 760px; margin: 0 0 8px; font-size: 12px; }
     .cycle-note b { color: var(--amber); }
+
+    .storyline { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 18px;
+      background: linear-gradient(135deg, rgba(245,158,11,.12), rgba(13,15,18,.92) 45%);
+      border: 1px solid color-mix(in srgb, var(--amber) 34%, var(--line)); border-radius: 8px;
+      padding: 15px 16px; margin: 18px 0 2px; }
+    .storyline-kicker { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .14em; margin: 0 0 5px; }
+    .storyline-title { font-size: clamp(16px, 3.6vw, 22px); line-height: 1.15; margin: 0 0 7px; font-weight: 700; }
+    .storyline-body { color: var(--dim); margin: 0; max-width: 780px; }
+    .storyline-cta { border: 1px solid var(--amber); color: var(--amber); border-radius: 999px; padding: 9px 13px;
+      text-transform: uppercase; letter-spacing: .08em; font-size: 11px; white-space: nowrap; }
 
     h2 { color: var(--txt); font-size: 13px; text-transform: uppercase; letter-spacing: .14em;
       margin: 40px 0 12px; display: flex; align-items: center; gap: 10px; }
@@ -235,6 +255,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .ticker .lead { display: none; }
       h2 { margin-top: 26px; font-size: 12px; gap: 7px; }
       h2 .count { display: none; }
+      .storyline { grid-template-columns: 1fr; gap: 12px; padding: 12px; margin-top: 14px; }
+      .storyline-body { font-size: 12px; }
+      .storyline-cta { justify-self: start; }
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta, .cycle-risk { display: none; }
       .standing .model-id { display: none; }
@@ -290,6 +313,15 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <p class="tagline">6 AIs entered the World Cup with <b>$10,000</b> each. Bets open in <b>24-hour cycles</b>: for each cycle, every model picks every match kicking off in the next 24h and chooses its own stake against real bookmaker odds.</p>
     <p class="cycle-note">Reasoning is published <b>verbatim</b>. Results settle on the 90-minute score. Highest bankroll on July 19 wins.</p>
   </header>
+
+  <section class="storyline">
+    <div>
+      <p class="storyline-kicker">Today’s storyline</p>
+      <p class="storyline-title">{storylineTitle}</p>
+      <p class="storyline-body">{storylineBody}</p>
+    </div>
+    <a class="storyline-cta" href={dailyShareUrl} target="_blank" rel="noopener">Share today’s AI picks</a>
+  </section>
 
   <section>
     <h2>Leaderboard <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
