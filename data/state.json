@@ -238,11 +238,26 @@
       "odds": 2.7,
       "reasoning": "Always bet the favorite.",
       "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:Grok",
+      "date": "2026-06-11T11:15:15.975Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 2500,
+      "odds": 2.7,
+      "reasoning": "South Korea has the edge in squad depth and recent form over Czech Republic; the 2.7 odds offer solid value for a win in what should be a competitive but winnable match for the home side.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-11T09:03:27.217Z",
+    "lastBetsRun": "2026-06-11T11:15:15.975Z",
     "lastSettleRun": null,
     "failures": []
   }
