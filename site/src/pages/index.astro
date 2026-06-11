@@ -210,6 +210,11 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .bet-pick { color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .bet-stake { color: var(--txt); text-align: right; white-space: nowrap; }
     .bet-odds { color: var(--amber); font-size: 12px; white-space: nowrap; }
+    .reason-toggle { color: var(--amber); border: 1px solid color-mix(in srgb, var(--amber) 35%, var(--line));
+      border-radius: 999px; padding: 3px 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
+      white-space: nowrap; justify-self: end; }
+    .reason-toggle::after { content: " ↓"; }
+    details[open] .reason-toggle::after { content: " ↑"; }
     .reasoning { color: var(--dim); font-size: 13px; line-height: 1.6; padding: 10px 14px 14px 26px; margin: 0;
       white-space: pre-wrap; position: relative; }
     .reasoning::before { content: "›"; position: absolute; left: 14px; color: var(--c); font-weight: 700; }
@@ -239,11 +244,12 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .cycle-summary, .match-insight { font-size: 11px; padding: 8px 10px; }
       .match-head { padding: 10px; }
       .match-meta { width: 100%; justify-content: flex-start; gap: 8px; }
-      summary { grid-template-columns: 22px minmax(76px, 1fr) minmax(76px, 1fr) auto; padding: 8px 10px; gap: 8px; }
-      summary .model-id, summary > span:last-child { display: none; }
+      summary { grid-template-columns: 22px minmax(64px, 1fr) minmax(68px, 1fr) auto auto; padding: 8px 10px; gap: 6px; }
+      summary .model-id { display: none; }
       .bet-pick { font-size: 12px; }
       .bet-odds { display: none; }
       .bet-stake { text-align: right; font-size: 12px; }
+      .reason-toggle { padding: 3px 7px; font-size: 10px; }
       .reasoning { padding-left: 22px; font-size: 12px; }
     }
   </style>
@@ -349,7 +355,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               <span class="bet-pick">{pickLabel(b)}</span>
               <span class="bet-stake">${b.stake.toLocaleString()}</span>
               <span class="bet-odds">@ {b.odds}</span>
-              <span>{badge(b.status)}</span>
+              <span class="reason-toggle" aria-label={`Open ${b.model} reasoning`}>Why</span>
             </summary>
             <p class="reasoning">{b.reasoning}</p>
           </details>
@@ -377,7 +383,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               <span class="bet-pick">{pickLabel(b)}</span>
               <span class="bet-stake">${b.stake.toLocaleString()}</span>
               <span class="bet-odds">@ {b.odds}</span>
-              <span>{badge(b.status)}</span>
+              <span class="reason-toggle" aria-label={`Open ${b.model} reasoning`}>Why</span>
             </summary>
             <p class="reasoning">{b.reasoning}</p>
           </details>
