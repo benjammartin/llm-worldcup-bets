@@ -25,7 +25,7 @@ export async function placeBets(
 
     let raw;
     try {
-      raw = await attempt(llm, model.id, prompt, 2);
+      raw = await attempt(llm, model.id, prompt, 2, fresh.map((m) => m.matchId));
     } catch (e) {
       s.meta.failures.push({ date: now, model: model.name, reason: String(e) });
       continue;
@@ -50,11 +50,21 @@ export async function placeBets(
   s.meta.lastBetsRun = now;
 }
 
-async function attempt(llm: LLMFn, id: string, prompt: string, tries: number) {
+async function attempt(llm: LLMFn, id: string, prompt: string, tries: number, requiredMatchIds: string[]) {
   let lastErr: unknown;
   for (let i = 0; i < tries; i++) {
-    try { return extractBets(await llm(id, prompt)); }
+    try {
+      const bets = extractBets(await llm(id, prompt));
+      assertAllMatchesBet(bets, requiredMatchIds);
+      return bets;
+    }
     catch (e) { lastErr = e; }
   }
   throw lastErr;
+}
+
+function assertAllMatchesBet(raw: { matchId: string }[], requiredMatchIds: string[]) {
+  const got = new Set(raw.map((b) => b.matchId));
+  const missing = requiredMatchIds.filter((id) => !got.has(id));
+  if (missing.length > 0) throw new Error(`missing bets for matchIds: ${missing.join(", ")}`);
 }

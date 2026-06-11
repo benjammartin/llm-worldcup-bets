@@ -26,7 +26,7 @@ Today's matches (decimal odds):
 ${lines}
 
 Place your bets. Rules:
-- You may bet on any subset of today's matches (or skip all).
+- You MUST place exactly one bet for every listed match. Do not skip matches.
 - Max stake per match: 25% of your bankroll. Stakes are in dollars.
 - Your reasoning will be published VERBATIM on a public website next to your name. Be yourself.
 
