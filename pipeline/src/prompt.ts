@@ -27,7 +27,8 @@ ${lines}
 
 Place your bets. Rules:
 - You MUST place exactly one bet for every listed match. Do not skip matches.
-- Max stake per match: 25% of your bankroll. Stakes are in dollars.
+- You decide the stake for each match. Allocate your bankroll across the listed matches however you want; higher stake means higher confidence.
+- Stakes are in dollars. If your total stake exceeds your bankroll, the system will scale your stakes down proportionally while preserving your relative conviction.
 - Your reasoning will be published VERBATIM on a public website next to your name. Be yourself.
 
 Reply with ONLY a JSON array, no other text:

@@ -1,6 +1,5 @@
-import { MAX_STAKE_RATIO } from "./config";
 import type { MatchOdds } from "./odds";
-import { extractBets } from "./parse";
+import { extractBets, type RawBet } from "./parse";
 import { buildPrompt } from "./prompt";
 import { bankroll, type State } from "./state";
 
@@ -31,10 +30,10 @@ export async function placeBets(
       continue;
     }
 
-    for (const r of raw) {
+    for (const r of normalizeStakes(raw, roll)) {
       const match = byId.get(r.matchId);
       if (!match || s.bets.some((b) => b.id === `${r.matchId}:${model.name}`)) continue;
-      const stake = Math.round(Math.min(r.stake, roll * MAX_STAKE_RATIO) * 100) / 100;
+      const stake = r.stake;
       if (stake <= 0) continue;
       s.bets.push({
         id: `${match.matchId}:${model.name}`, date: now,
@@ -59,6 +58,17 @@ async function attempt(llm: LLMFn, id: string, prompt: string, tries: number, re
     catch (e) { lastErr = e; }
   }
   throw lastErr;
+}
+
+function normalizeStakes(raw: RawBet[], bankroll: number): RawBet[] {
+  const total = raw.reduce((sum, b) => sum + b.stake, 0);
+  if (total <= bankroll) return raw.map((b) => ({ ...b, stake: roundCents(b.stake) }));
+  const factor = bankroll / total;
+  return raw.map((b) => ({ ...b, stake: roundCents(b.stake * factor) }));
+}
+
+function roundCents(n: number): number {
+  return Math.round(n * 100) / 100;
 }
 
 function assertAllMatchesBet(raw: { matchId: string }[], requiredMatchIds: string[]) {

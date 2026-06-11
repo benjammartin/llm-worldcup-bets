@@ -13,7 +13,7 @@ const MODELS = [{ id: "test/model-a", name: "ModelA", color: "#fff" }];
 const NOW = "2026-06-11T08:00:00Z";
 
 describe("placeBets", () => {
-  test("records parsed bets with odds from the picked side, clamped to 25%", async () => {
+  test("records parsed bets with odds from the picked side and keeps LLM-chosen stakes within bankroll", async () => {
     const llm: LLMFn = async () =>
       `[{"matchId":"m1","pick":"home","stake":9000,"reasoning":"allez"},
         {"matchId":"m2","pick":"away","stake":1000,"reasoning":"upset"}]`;
@@ -21,8 +21,8 @@ describe("placeBets", () => {
     await placeBets(s, MATCHES, MODELS, llm, NOW);
     expect(s.bets).toHaveLength(2);
     expect(s.bets[0]).toMatchObject({
-      id: "m1:ModelA", pick: "home", stake: 2_500, odds: 1.8, status: "pending",
-    }); // 9000 clamped to 25% of 10k
+      id: "m1:ModelA", pick: "home", stake: 9_000, odds: 1.8, status: "pending",
+    });
     expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", odds: 6.0, stake: 1_000 });
   });
 
@@ -79,13 +79,13 @@ describe("placeBets", () => {
     expect(s.meta.failures[0].reason).toContain("missing bets for matchIds: m2");
   });
 
-  test("clamps each bet to 25% without suppressing later matches", async () => {
+  test("scales LLM-chosen stakes proportionally when the slate exceeds available bankroll", async () => {
     const llm: LLMFn = async () =>
-      `[{"matchId":"m1","pick":"home","stake":2500,"reasoning":"a"},
-        {"matchId":"m2","pick":"home","stake":2500,"reasoning":"b"}]`;
-    const s = initialState(["ModelA"], 3_000, NOW); // 25% cap = 750 each
+      `[{"matchId":"m1","pick":"home","stake":9000,"reasoning":"strong"},
+        {"matchId":"m2","pick":"home","stake":3000,"reasoning":"small"}]`;
+    const s = initialState(["ModelA"], 10_000, NOW);
     await placeBets(s, MATCHES, MODELS, llm, NOW);
-    expect(s.bets.map((b) => b.stake)).toEqual([750, 750]);
+    expect(s.bets.map((b) => b.stake)).toEqual([7_500, 2_500]);
   });
 
   test("adds missing future match bets even when existing pending stake already equals bankroll", async () => {
