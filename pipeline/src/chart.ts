@@ -19,9 +19,20 @@ export function chartSVG(s: State, w = 1200, h = 630, opts: ChartOpts = {}): str
     ? { top: 24, right: 30, bottom: 36, left: 96 }
     : { top: 70, right: 260, bottom: 30, left: 70 };
   const names = Object.keys(s.series);
-  const all = names.flatMap((n) => s.series[n]);
-  const ts = all.map((p) => new Date(p.t).getTime());
-  const [t0, t1] = [Math.min(...ts), Math.max(...ts) || 1];
+  const rawTs = names.flatMap((n) => s.series[n]).map((p) => new Date(p.t).getTime());
+  const t0 = Math.min(...rawTs);
+  // extend the time domain so single-point (day 1) series still draw a visible flat line
+  const t1 = Math.max(Math.max(...rawTs), t0 + 3600_000);
+  const extended: Record<string, { t: number; bankroll: number }[]> = Object.fromEntries(
+    names.map((n) => {
+      const pts = s.series[n].map((p) => ({ t: new Date(p.t).getTime(), bankroll: p.bankroll }));
+      const last = pts[pts.length - 1];
+      if (last.t < t1) pts.push({ t: t1, bankroll: last.bankroll });
+      return [n, pts];
+    }),
+  );
+  const all = names.flatMap((n) => extended[n]);
+  const ts = all.map((p) => p.t);
   const vals = all.map((p) => p.bankroll);
   const [v0, v1] = [Math.min(...vals, 9_000) * 0.95, Math.max(...vals, 11_000) * 1.05];
   const x = (t: number) => pad.left + ((t - t0) / Math.max(1, t1 - t0)) * (w - pad.left - pad.right);
@@ -34,7 +45,7 @@ export function chartSVG(s: State, w = 1200, h = 630, opts: ChartOpts = {}): str
   }).join("");
 
   const lines = names.map((n) => {
-    const pts = s.series[n].map((p) => `${x(new Date(p.t).getTime())},${y(p.bankroll)}`).join(" ");
+    const pts = extended[n].map((p) => `${x(p.t)},${y(p.bankroll)}`).join(" ");
     const dash = n === BASELINE_NAME ? ` stroke-dasharray="6 5"` : "";
     return `<polyline points="${pts}" fill="none" stroke="${COLORS[n] ?? "#fff"}" stroke-width="2.5"${dash}/>`;
   }).join("");
@@ -45,7 +56,7 @@ export function chartSVG(s: State, w = 1200, h = 630, opts: ChartOpts = {}): str
 <text x="${w - pad.right + 28}" y="${ly + 3}" fill="#000" font-size="14" font-weight="bold">${n}  ${fmt(bankroll(s, n))}</text>`;
   }).join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" font-family="Space Mono, monospace">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-family="Space Mono, monospace">
 <rect width="${w}" height="${h}" fill="#0a0a0a"/>
 ${compact ? "" : `<text x="${pad.left}" y="40" fill="#f9fafb" font-size="22" font-weight="bold">LLM WORLD CUP BETS</text>
 <text x="${pad.left}" y="60" fill="#6b7280" font-size="13">6 AIs · $10,000 each · every match of the World Cup</text>`}

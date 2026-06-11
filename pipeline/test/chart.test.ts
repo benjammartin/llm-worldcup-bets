@@ -23,6 +23,17 @@ describe("chartSVG", () => {
     expect(svg.indexOf("Claude")).toBeLessThan(svg.indexOf("GPT-5"));
   });
 
+  test("has a viewBox so browsers scale it proportionally", () => {
+    expect(chartSVG(demoState(), 1200, 630)).toContain('viewBox="0 0 1200 630"');
+  });
+
+  test("single-point series still draw a visible flat line", () => {
+    const s = initialState(["Claude"], 10_000, "2026-06-11T08:00:00Z");
+    const svg = chartSVG(s, 1200, 630);
+    const pts = svg.match(/<polyline points="([^"]+)"/)?.[1] ?? "";
+    expect(pts.split(" ").length).toBeGreaterThanOrEqual(2);
+  });
+
   test("baseline is dashed", () => {
     expect(chartSVG(demoState(), 1200, 630)).toContain("stroke-dasharray");
   });
