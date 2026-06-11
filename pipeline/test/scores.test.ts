@@ -19,7 +19,7 @@ const fakeFetch = (async (url: string | URL, init?: RequestInit) => {
   expect(String(url)).toContain("competitions/WC/matches");
   expect((init?.headers as Record<string, string>)["X-Auth-Token"]).toBe("TOKEN");
   return new Response(JSON.stringify(FIXTURE), { status: 200 });
-}) as typeof fetch;
+}) as unknown as typeof fetch;
 
 describe("fetchFinished", () => {
   test("maps FINISHED matches to results, skips in-play", async () => {
@@ -43,7 +43,7 @@ describe("fetchFinished", () => {
         score: { winner: "HOME_TEAM", duration: "EXTRA_TIME",
           fullTime: { home: 2, away: 1 }, regularTime: { home: 1, away: 1 } } },
     ]};
-    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as typeof fetch;
+    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchFinished("TOKEN", "2026-06-28", "2026-06-30", f);
     expect(out).toEqual([
       { homeTeam: "France", awayTeam: "Italy", result: "draw", score: "1-1", utcDate: "2026-06-29T20:00:00Z" },
@@ -57,7 +57,7 @@ describe("fetchFinished", () => {
         homeTeam: { name: "France" }, awayTeam: { name: "Spain" },
         score: { winner: "SOMETHING_NEW", duration: "REGULAR", fullTime: { home: 2, away: 0 } } },
     ]};
-    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as typeof fetch;
+    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchFinished("TOKEN", "2026-06-09", "2026-06-12", f);
     expect(out).toEqual([]);
   });

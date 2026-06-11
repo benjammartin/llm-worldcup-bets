@@ -27,7 +27,7 @@ const fakeFetch = (async (url: string | URL) => {
   expect(String(url)).toContain("soccer_fifa_world_cup");
   expect(String(url)).toContain("apiKey=KEY");
   return new Response(JSON.stringify(FIXTURE), { status: 200 });
-}) as typeof fetch;
+}) as unknown as typeof fetch;
 
 describe("fetchTodaysOdds", () => {
   test("returns median odds for matches within 24h", async () => {
@@ -40,7 +40,7 @@ describe("fetchTodaysOdds", () => {
   });
 
   test("throws on non-200", async () => {
-    const bad = (async () => new Response("nope", { status: 401 })) as typeof fetch;
+    const bad = (async () => new Response("nope", { status: 401 })) as unknown as typeof fetch;
     await expect(fetchTodaysOdds("KEY", bad, new Date())).rejects.toThrow("the-odds-api 401");
   });
 
@@ -51,7 +51,7 @@ describe("fetchTodaysOdds", () => {
       home_team: "France", away_team: "Spain",
       bookmakers: [{ key: "pinnacle", markets: [] }], // passes length check, no h2h prices
     }];
-    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as typeof fetch;
+    const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchTodaysOdds("KEY", f, new Date("2026-06-11T08:00:00Z"));
     expect(out).toEqual([]);
   });
