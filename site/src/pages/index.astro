@@ -57,7 +57,7 @@ const todayFailures = state.meta.failures.slice(-6);
 const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
 
 const shareText = encodeURIComponent(
-  `6 AIs are betting $10,000 each on every World Cup match, against real odds. Current leader: ${leader.name} (${money(leader.roll)}).`
+  `6 AIs get $10,000 each and bet on the next 24h cycle of World Cup matches. Current leader: ${leader.name} (${money(leader.roll)}).`
 );
 const shareUrl = `https://twitter.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(SITE_URL)}`;
 const POSTHOG_KEY = import.meta.env.PUBLIC_POSTHOG_KEY ?? "";
@@ -68,9 +68,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LLM World Cup Bets — 6 AIs, $10,000 each</title>
-  <meta name="description" content="6 AIs bet virtual money on every World Cup 2026 match against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt." />
+  <meta name="description" content="6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt." />
   <meta property="og:title" content="LLM World Cup Bets" />
-  <meta property="og:description" content="6 AIs, $10,000 each, betting on every match of the World Cup. Who goes broke first?" />
+  <meta property="og:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
   <meta property="og:image" content={`${SITE_URL}/og.png`} />
   <meta name="twitter:card" content="summary_large_image" />
   <style>
@@ -107,10 +107,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     h1 .accent { color: var(--amber); }
     .tagline { color: var(--dim); max-width: 760px; margin: 12px 0 14px; font-size: clamp(13px, 2.6vw, 14px); }
     .tagline b { color: var(--txt); }
-    .specs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
-    .specs span { border: 1px solid var(--line); color: var(--dim); border-radius: 4px;
-      font-size: 11px; text-transform: uppercase; letter-spacing: .06em; padding: 4px 8px; }
-    .specs span b { color: var(--amber); font-weight: 700; }
+    .cycle-note { color: var(--faint); max-width: 760px; margin: 0 0 8px; font-size: 12px; }
+    .cycle-note b { color: var(--amber); }
 
     h2 { color: var(--txt); font-size: 13px; text-transform: uppercase; letter-spacing: .14em;
       margin: 40px 0 12px; display: flex; align-items: center; gap: 10px; }
@@ -158,10 +156,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .match-meta { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
     .bet-count { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
     .match-ko { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
-    .model-strip { display: flex; flex-wrap: wrap; gap: 6px; padding: 9px 14px; border-bottom: 1px solid var(--line); background: #0a0c0f; }
-    .model-chip { display: inline-flex; align-items: center; gap: 5px; border: 1px solid color-mix(in srgb, var(--c) 55%, var(--line));
-      color: var(--dim); border-radius: 999px; padding: 3px 8px; font-size: 11px; }
-    .model-chip .dot { width: 7px; height: 7px; margin: 0; }
     details { border-top: 1px solid #14171c; }
     details:first-of-type { border-top: none; }
     summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 24px 92px 1fr auto auto 24px;
@@ -219,20 +213,15 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <div class="ticker">
     <span class="live">Live</span>
     <span>Matchday {matchday}/39</span>
+    <span>24h betting cycle</span>
     <span>{pending.length} pending bets</span>
     <span class="lead">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
   </div>
 
   <header>
     <h1>LLM WORLD CUP<br/><span class="accent">BETS</span> ⚽</h1>
-    <p class="tagline">6 AIs entered the World Cup with <b>$10,000</b> each. Every day, every match, they bet against real bookmaker odds — and their reasoning is published <b>verbatim</b>. Highest bankroll on July 19 wins.</p>
-    <div class="specs">
-      <span><b>$10K</b> start</span>
-      <span><b>25%</b> max stake</span>
-      <span><b>~25</b> bookmakers</span>
-      <span><b>104</b> matches</span>
-      <span>settled on <b>90'</b></span>
-    </div>
+    <p class="tagline">6 AIs entered the World Cup with <b>$10,000</b> each. Bets open in <b>24-hour cycles</b>: for each cycle, every model picks every match kicking off in the next 24h and chooses its own stake against real bookmaker odds.</p>
+    <p class="cycle-note">Reasoning is published <b>verbatim</b>. Results settle on the 90-minute score. Highest bankroll on July 19 wins.</p>
   </header>
 
   <section>
@@ -272,7 +261,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section>
-    <h2>Pending bets <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
+    <h2>Current 24h betting cycle <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
     {pendingMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
@@ -281,13 +270,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
             <span class="bet-count">{bets.length} bets</span>
             <span class="match-ko">kicks off {kickoff(bets[0].kickoff)}</span>
           </span>
-        </div>
-        <div class="model-strip" aria-label={`Models with pending bets for ${bets[0].match}`}>
-          {bets.map((b) => (
-            <span class="model-chip" style={`--c:${COLORS[b.model] ?? "#fff"}`}>
-              <span class="dot"></span>{b.model}
-            </span>
-          ))}
         </div>
         {bets.map((b) => (
           <details style={`--c:${COLORS[b.model] ?? "#fff"}`}>
@@ -306,7 +288,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
         ))}
       </div>
     ))}
-    {pending.length === 0 && <p class="failures">No pending bets — next bets land at 09:00 UTC.</p>}
+    {pending.length === 0 && <p class="failures">No active 24h cycle bets — next slate opens at 09:00 UTC.</p>}
   </section>
 
   <section>
@@ -341,8 +323,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <footer>
-    Virtual money only — not financial advice. Same prompt for every model. Odds: median across ~25 bookmakers
-    (the-odds-api). Results: football-data.org, settled on the 90-minute score.<br/>
+    Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
+    Odds: median across ~25 bookmakers (the-odds-api). Results: football-data.org, settled on the 90-minute score.<br/>
     <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>
 </body>
