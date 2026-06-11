@@ -3,3 +3,5 @@ site/dist/
 site/node_modules/
 site/.astro/
 .env
+.vercel
+.gstack/

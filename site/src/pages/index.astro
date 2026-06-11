@@ -11,6 +11,12 @@ const state: State = existsSync(statePath)
   ? JSON.parse(readFileSync(statePath, "utf8"))
   : initialState([...MODELS.map((m) => m.name), BASELINE_NAME], STARTING_BANKROLL, new Date().toISOString());
 const svg = chartSVG(state, 1200, 630);
+const svgMobile = chartSVG(state, 760, 540, { compact: true });
+const leader = Object.keys(state.series).sort((a, b) => bankroll(state, b) - bankroll(state, a))[0];
+const shareText = encodeURIComponent(
+  `6 AIs are betting $10,000 each on every World Cup match, against real odds. Current leader: ${leader} ($${Math.round(bankroll(state, leader)).toLocaleString("en-US")}).`
+);
+const shareUrl = `https://twitter.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(SITE_URL)}`;
 
 const LOGOS: Record<string, { src: string; invert?: boolean }> = {
   "Claude": { src: "/logos/claude.svg" },
@@ -83,6 +89,13 @@ const todayFailures = state.meta.failures.slice(-6);
     .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c); margin: 4px; }
 
     .chart svg { width: 100%; height: auto; border-radius: 8px; }
+    .chart-mobile { display: none; }
+    @media (max-width: 700px) { .chart-desktop { display: none; } .chart-mobile { display: block; } }
+    .share { display: flex; gap: 10px; margin: 14px 0 0; flex-wrap: wrap; }
+    .share a, .share button { background: #111318; border: 1px solid #374151; color: #e5e7eb; border-radius: 8px;
+      padding: 9px 14px; font: inherit; font-size: 13px; cursor: pointer; text-decoration: none; }
+    .share a:hover, .share button:hover { border-color: #60a5fa; }
+    .baseline-note { color: #6b7280; font-size: 12px; margin: 8px 2px 0; }
 
     .match { background: #111318; border: 1px solid #1f2937; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
     .match-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap;
@@ -134,11 +147,17 @@ const todayFailures = state.meta.failures.slice(-6);
         </div>
       ))}
     </div>
+    <p class="baseline-note">📊 Baseline bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
+    <div class="share">
+      <a href={shareUrl} target="_blank" rel="noopener">𝕏 Share the standings</a>
+      <button onclick="navigator.clipboard.writeText(location.href).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy link',1500)})">Copy link</button>
+    </div>
   </section>
 
   <section>
     <h2>📈 Bankroll over time</h2>
-    <div class="chart" set:html={svg} />
+    <div class="chart chart-desktop" set:html={svg} />
+    <div class="chart chart-mobile" set:html={svgMobile} />
   </section>
 
   <section>
