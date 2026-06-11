@@ -1,0 +1,249 @@
+{
+  "series": {
+    "Claude": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "GPT-5": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "Gemini": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "Grok": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "DeepSeek": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "Mistral": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ],
+    "Baseline": [
+      {
+        "t": "2026-06-11T09:03:27.217Z",
+        "bankroll": 10000
+      }
+    ]
+  },
+  "bets": [
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:Claude",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 2000,
+      "odds": 1.44,
+      "reasoning": "Mexico at 1.44 represents solid value as the clear favorite. While the return is modest, this builds the bankroll with lower risk. Group stage matches favor the stronger team.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:Claude",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 1500,
+      "odds": 2.7,
+      "reasoning": "South Korea at 2.7 offers better value than Czech Republic at 2.88. As a co-host nation in 2026, South Korea will have significant home advantage and motivation. The odds are close enough that home field could be the deciding factor.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:GPT-5",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "GPT-5",
+      "pick": "home",
+      "stake": 2000,
+      "odds": 1.44,
+      "reasoning": "Mexico are hosts and historically very strong on home soil, with crowd and altitude advantages that tend to suppress upsets. South Africa are a tier below on recent form and rarely beat top‑20 sides away. The 1.44 line implies ~69–70%; I have Mexico closer to 72–74%, a modest edge suitable for a medium stake.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:GPT-5",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "GPT-5",
+      "pick": "away",
+      "stake": 600,
+      "odds": 2.88,
+      "reasoning": "Near coin‑flip matchup. At 2.88 the Czech Republic are slightly undervalued on a neutral venue; I rate their win chance ~36–38% vs a ~35% break‑even. Small value, small stake.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:Gemini",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 1500,
+      "odds": 1.44,
+      "reasoning": "My analysis of the provided odds indicates a high probability (~69.4%) for a Mexico victory. While the return is modest, this represents a statistically sound opportunity to build capital early in the tournament. The primary objective on Day 1 is positive bankroll growth with managed risk. This bet aligns with that objective.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:Gemini",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "Gemini",
+      "pick": "draw",
+      "stake": 500,
+      "odds": 3.1,
+      "reasoning": "The odds for this match are tightly clustered, suggesting a high degree of uncertainty with no clear favorite. The implied probabilities are approximately 37.0% (Home), 32.3% (Draw), and 34.7% (Away). Given the near-equal likelihood of the outcomes, the draw at 3.1 decimal odds presents the most attractive value proposition. This is a calculated risk to capitalize on market pricing for an even contest.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:Grok",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 2500,
+      "odds": 1.44,
+      "reasoning": "Mexico should comfortably beat South Africa at home. 1.44 is decent value for the favorite in a lopsided matchup.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:DeepSeek",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 2500,
+      "odds": 1.44,
+      "reasoning": "Mexico is heavily favored with short odds (1.44), suggesting high implied probability (~69%). South Africa is weaker, and home advantage for Mexico makes this a relatively safe bet to build bankroll early.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:DeepSeek",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "DeepSeek",
+      "pick": "draw",
+      "stake": 2500,
+      "odds": 3.1,
+      "reasoning": "South Korea vs Czech Republic is a tight match with near-even odds. Draw at 3.1 offers good value given both teams' defensive tendencies and balanced strength. I'm betting on a low-scoring stalemate.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:Mistral",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 2500,
+      "odds": 1.44,
+      "reasoning": "Mexico is the clear favorite in this matchup with the lowest odds (1.44), suggesting bookmakers and likely public sentiment favor them heavily. South Africa has struggled in recent international friendlies, while Mexico has shown more consistency, even if not at their peak. The risk-reward here is favorable: a 25% stake on the favorite offers a solid return (~$1100 profit) with a high probability of success. Avoiding the draw or away bet, which are far riskier for minimal upside.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:Mistral",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "Mistral",
+      "pick": "draw",
+      "stake": 1500,
+      "odds": 3.1,
+      "reasoning": "This match is a toss-up with very close odds for all outcomes. South Korea and Czech Republic are evenly matched, and neither team has a clear edge. The draw (3.1) offers the best value here—it's the least likely outcome to be overbet by the public, and the payout (~$3150) is attractive for a 15% stake. Betting on either team to win would require stronger evidence of dominance, which isn't present in this case.",
+      "status": "pending"
+    },
+    {
+      "id": "80d82d1113934bfbea4ce8daf37a2433:Baseline",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "80d82d1113934bfbea4ce8daf37a2433",
+      "match": "Mexico vs South Africa",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoff": "2026-06-11T19:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 1000,
+      "odds": 1.44,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
+    },
+    {
+      "id": "384cbb5d76b535896a24fe65f93cfac8:Baseline",
+      "date": "2026-06-11T09:03:27.217Z",
+      "matchId": "384cbb5d76b535896a24fe65f93cfac8",
+      "match": "South Korea vs Czech Republic",
+      "homeTeam": "South Korea",
+      "awayTeam": "Czech Republic",
+      "kickoff": "2026-06-12T02:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 1000,
+      "odds": 2.7,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
+    }
+  ],
+  "meta": {
+    "promptVersion": 1,
+    "lastBetsRun": "2026-06-11T09:03:27.217Z",
+    "lastSettleRun": null,
+    "failures": []
+  }
+}
