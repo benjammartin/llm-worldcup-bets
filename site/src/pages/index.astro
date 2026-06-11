@@ -171,6 +171,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
     footer { margin: 56px 0 0; border-top: 1px solid var(--line); color: var(--faint); font-size: 12px;
       line-height: 1.7; padding: 16px 2px 28px; }
+    footer .source-link { color: var(--faint); opacity: .55; font-size: 11px; }
+    footer .source-link:hover { color: var(--dim); opacity: 1; }
     a { color: var(--amber); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
@@ -321,9 +323,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <footer>
-    Virtual money only — not financial advice. Same prompt for every model, published with
-    the code and every bet's history: <a href="https://github.com/benjammartin/llm-worldcup-bets">github.com/benjammartin/llm-worldcup-bets</a>.<br/>
-    Odds: median across ~25 bookmakers (the-odds-api). Results: football-data.org, settled on the 90-minute score.
+    Virtual money only — not financial advice. Same prompt for every model. Odds: median across ~25 bookmakers
+    (the-odds-api). Results: football-data.org, settled on the 90-minute score.<br/>
+    <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>
 </body>
 </html>
