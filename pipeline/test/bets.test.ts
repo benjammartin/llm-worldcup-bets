@@ -79,12 +79,29 @@ describe("placeBets", () => {
     expect(s.meta.failures[0].reason).toContain("missing bets for matchIds: m2");
   });
 
-  test("clamps total stakes to available bankroll minus pending", async () => {
+  test("clamps each bet to 25% without suppressing later matches", async () => {
     const llm: LLMFn = async () =>
       `[{"matchId":"m1","pick":"home","stake":2500,"reasoning":"a"},
         {"matchId":"m2","pick":"home","stake":2500,"reasoning":"b"}]`;
     const s = initialState(["ModelA"], 3_000, NOW); // 25% cap = 750 each
     await placeBets(s, MATCHES, MODELS, llm, NOW);
     expect(s.bets.map((b) => b.stake)).toEqual([750, 750]);
+  });
+
+  test("adds missing future match bets even when existing pending stake already equals bankroll", async () => {
+    const llm: LLMFn = async () =>
+      `[{"matchId":"m2","pick":"away","stake":2500,"reasoning":"still must pick"}]`;
+    const s = initialState(["ModelA"], 10_000, NOW);
+    s.bets.push({
+      id: "m1:ModelA", date: NOW, matchId: "m1", match: "France vs Spain",
+      homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z",
+      model: "ModelA", pick: "home", stake: 10_000, odds: 1.8,
+      reasoning: "already committed", status: "pending",
+    });
+
+    await placeBets(s, MATCHES, MODELS, llm, NOW);
+
+    expect(s.bets).toHaveLength(2);
+    expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 2_500, pick: "away" });
   });
 });

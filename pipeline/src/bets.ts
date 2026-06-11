@@ -2,7 +2,7 @@ import { MAX_STAKE_RATIO } from "./config";
 import type { MatchOdds } from "./odds";
 import { extractBets } from "./parse";
 import { buildPrompt } from "./prompt";
-import { bankroll, pendingStake, type State } from "./state";
+import { bankroll, type State } from "./state";
 
 export type LLMFn = (modelId: string, prompt: string) => Promise<string>;
 export interface ModelSpec { id: string; name: string; color: string; }
@@ -31,13 +31,11 @@ export async function placeBets(
       continue;
     }
 
-    let available = roll - pendingStake(s, model.name);
     for (const r of raw) {
       const match = byId.get(r.matchId);
       if (!match || s.bets.some((b) => b.id === `${r.matchId}:${model.name}`)) continue;
-      const stake = Math.round(Math.min(r.stake, roll * MAX_STAKE_RATIO, available) * 100) / 100;
+      const stake = Math.round(Math.min(r.stake, roll * MAX_STAKE_RATIO) * 100) / 100;
       if (stake <= 0) continue;
-      available -= stake;
       s.bets.push({
         id: `${match.matchId}:${model.name}`, date: now,
         matchId: match.matchId, match: `${match.homeTeam} vs ${match.awayTeam}`,
