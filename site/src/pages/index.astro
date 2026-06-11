@@ -43,6 +43,8 @@ const byMatch = (bets: Bet[]) => {
   for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
   return [...m.values()];
 };
+const pendingMatches = byMatch(pending);
+const settledMatches = byMatch(settled);
 const badge = (s: string) => s === "won" ? "✅" : s === "lost" ? "❌" : s === "void" ? "↩︎" : "⏳";
 const pickLabel = (b: Bet) =>
   b.pick === "draw" ? "🤝 Draw"
@@ -153,7 +155,13 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       padding: 11px 14px; border-bottom: 1px solid var(--line); background: var(--panel-2); }
     .match-title { font-weight: 700; font-size: 15px; }
     .match-title .vs { color: var(--faint); font-weight: 400; font-size: 12px; padding: 0 2px; }
+    .match-meta { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
+    .bet-count { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
     .match-ko { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+    .model-strip { display: flex; flex-wrap: wrap; gap: 6px; padding: 9px 14px; border-bottom: 1px solid var(--line); background: #0a0c0f; }
+    .model-chip { display: inline-flex; align-items: center; gap: 5px; border: 1px solid color-mix(in srgb, var(--c) 55%, var(--line));
+      color: var(--dim); border-radius: 999px; padding: 3px 8px; font-size: 11px; }
+    .model-chip .dot { width: 7px; height: 7px; margin: 0; }
     details { border-top: 1px solid #14171c; }
     details:first-of-type { border-top: none; }
     summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 24px 92px 1fr auto auto 24px;
@@ -264,12 +272,22 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section>
-    <h2>Pending bets <span class="count">· {pending.length}</span></h2>
-    {byMatch(pending).map((bets) => (
+    <h2>Pending bets <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
+    {pendingMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
           <span class="match-title">{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} <span class="vs">vs</span> {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</span>
-          <span class="match-ko">kicks off {kickoff(bets[0].kickoff)}</span>
+          <span class="match-meta">
+            <span class="bet-count">{bets.length} bets</span>
+            <span class="match-ko">kicks off {kickoff(bets[0].kickoff)}</span>
+          </span>
+        </div>
+        <div class="model-strip" aria-label={`Models with pending bets for ${bets[0].match}`}>
+          {bets.map((b) => (
+            <span class="model-chip" style={`--c:${COLORS[b.model] ?? "#fff"}`}>
+              <span class="dot"></span>{b.model}
+            </span>
+          ))}
         </div>
         {bets.map((b) => (
           <details style={`--c:${COLORS[b.model] ?? "#fff"}`}>
@@ -293,7 +311,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <section>
     <h2>Recent results</h2>
-    {byMatch(settled).map((bets) => (
+    {settledMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
           <span class="match-title">{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} <span class="vs">vs</span> {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</span>
