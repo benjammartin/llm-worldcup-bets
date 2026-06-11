@@ -89,6 +89,9 @@ const biggestSwing = [...pending].sort((a, b) => b.odds - a.odds)[0];
 const cycleSummary = pending.length === 0
   ? "No live bets right now — the next 24h slate opens at 09:00 UTC."
   : `${pendingMatches.length} matches in this 24h cycle · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
+const mobileCycleSummary = pending.length === 0
+  ? "Next slate opens at 09:00 UTC."
+  : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
 
 const shareText = encodeURIComponent(
   `6 AIs get $10,000 each and bet on the next 24h cycle of World Cup matches. Current leader: ${leader.name} (${money(leader.roll)}).`
@@ -211,6 +214,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       white-space: pre-wrap; position: relative; }
     .reasoning::before { content: "›"; position: absolute; left: 14px; color: var(--c); font-weight: 700; }
     .failures { color: var(--faint); font-size: 13px; }
+    .mobile-only { display: none; }
 
     footer { margin: 56px 0 0; border-top: 1px solid var(--line); color: var(--faint); font-size: 12px;
       line-height: 1.7; padding: 16px 2px 28px; }
@@ -220,12 +224,27 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     a:hover { text-decoration: underline; }
 
     @media (max-width: 560px) {
+      body { padding: 0 10px; font-size: 13px; }
+      header { padding-top: 18px; }
+      .ticker { gap: 10px; font-size: 10px; }
+      .ticker .lead { display: none; }
+      h2 { margin-top: 26px; font-size: 12px; gap: 7px; }
+      h2 .count { display: none; }
       .standing { grid-template-columns: 22px 22px 1fr auto; }
-      .pl-track, .standing .delta { display: none; }
-      .cycle-risk { grid-column: 3 / 5; text-align: left; }
-      summary { grid-template-columns: 22px 118px 1fr 22px; }
-      .bet-stake, .bet-odds { grid-column: 2 / 4; grid-row: 2; text-align: left; font-size: 12px; }
-      .bet-odds { grid-column: 3 / 4; text-align: right; }
+      .pl-track, .standing .delta, .cycle-risk { display: none; }
+      .standing .model-id { display: none; }
+      .baseline-note { display: none; }
+      .desktop-only { display: none; }
+      .mobile-only { display: inline; }
+      .cycle-summary, .match-insight { font-size: 11px; padding: 8px 10px; }
+      .match-head { padding: 10px; }
+      .match-meta { width: 100%; justify-content: flex-start; gap: 8px; }
+      summary { grid-template-columns: 22px minmax(76px, 1fr) minmax(76px, 1fr) auto; padding: 8px 10px; gap: 8px; }
+      summary .model-id, summary > span:last-child { display: none; }
+      .bet-pick { font-size: 12px; }
+      .bet-odds { display: none; }
+      .bet-stake { text-align: right; font-size: 12px; }
+      .reasoning { padding-left: 22px; font-size: 12px; }
     }
   </style>
   {POSTHOG_KEY && (
@@ -309,7 +328,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <section>
     <h2>Current 24h betting cycle <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
-    <p class="cycle-summary">{cycleSummary}</p>
+    <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
     {pendingMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
