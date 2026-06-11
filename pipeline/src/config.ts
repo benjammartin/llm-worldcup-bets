@@ -14,4 +14,4 @@ export const PROMPT_VERSION = 1;
 export const STATE_PATH = "data/state.json";
 export const OG_PATH = "site/public/og.png";
 export const FONT_PATH = "og/fonts/SpaceMono-Bold.ttf";
-export const SITE_URL = process.env.PUBLIC_SITE_URL ?? "https://llm-worldcup-bets.vercel.app";
+export const SITE_URL = process.env.PUBLIC_SITE_URL ?? "https://llmworldcup.xyz";
