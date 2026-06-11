@@ -1,10 +1,10 @@
 export const MODELS = [
-  { id: "anthropic/claude-sonnet-4.5", name: "Claude",   color: "#d97706" },
-  { id: "openai/gpt-5",                name: "GPT-5",    color: "#10a37f" },
-  { id: "google/gemini-2.5-pro",       name: "Gemini",   color: "#4285f4" },
-  { id: "xai/grok-4.3",                  name: "Grok",     color: "#e5e7eb" },
-  { id: "deepseek/deepseek-v3.2",      name: "DeepSeek", color: "#7c3aed" },
-  { id: "mistral/mistral-large-3",       name: "Mistral",  color: "#ef4444" },
+  { id: "anthropic/claude-fable-5",     name: "Claude",  color: "#d97706" },
+  { id: "openai/gpt-5.5",              name: "GPT-5.5", color: "#10a37f" },
+  { id: "google/gemini-3.5-flash",     name: "Gemini",  color: "#4285f4" },
+  { id: "xai/grok-4.3",                name: "Grok",    color: "#e5e7eb" },
+  { id: "deepseek/deepseek-v4-pro",    name: "DeepSeek", color: "#7c3aed" },
+  { id: "mistral/mistral-large-3",     name: "Mistral", color: "#ef4444" },
 ];
 export const BASELINE_NAME = "Baseline";
 export const STARTING_BANKROLL = 10_000;
