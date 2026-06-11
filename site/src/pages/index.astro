@@ -25,6 +25,10 @@ const COLORS: Record<string, string> = Object.fromEntries([
   ...MODELS.map((m) => [m.name, m.color]),
   [BASELINE_NAME, "#6b7280"],
 ]);
+const MODEL_DETAILS: Record<string, string> = Object.fromEntries([
+  ...MODELS.map((m) => [m.name, m.id.replace(/^[^/]+\//, "")]),
+  [BASELINE_NAME, "10% favorite rule"],
+]);
 
 const money = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
 const standings = Object.keys(state.series)
@@ -124,7 +128,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .standing.first { border-color: color-mix(in srgb, var(--amber) 45%, var(--line)); background: linear-gradient(90deg, rgba(245,158,11,.06), var(--panel) 40%); }
     .standing .rank { color: var(--faint); font-size: 12px; }
     .standing.first .rank { color: var(--amber); font-weight: 700; }
-    .standing .name { font-weight: 700; }
+    .standing .name { font-weight: 700; display: flex; flex-direction: column; line-height: 1.15; }
+    .model-id { color: var(--faint); font-size: 10px; font-weight: 400; letter-spacing: 0; text-transform: none; }
     .pl-track { height: 6px; border-radius: 3px; background: var(--panel-2); position: relative; overflow: hidden; min-width: 60px; }
     .pl-bar { position: absolute; top: 0; bottom: 0; border-radius: 3px; }
     .standing .delta { font-size: 12px; text-align: right; min-width: 84px; }
@@ -158,7 +163,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .match-ko { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
     details { border-top: 1px solid #14171c; }
     details:first-of-type { border-top: none; }
-    summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 24px 92px 1fr auto auto 24px;
+    summary { cursor: pointer; list-style: none; display: grid; grid-template-columns: 24px 142px 1fr auto auto 24px;
       align-items: center; gap: 8px; padding: 9px 14px; font-size: 13px; }
     summary::-webkit-details-marker { display: none; }
     summary:hover { background: var(--panel-2); }
@@ -181,7 +186,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     @media (max-width: 560px) {
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta { display: none; }
-      summary { grid-template-columns: 22px 80px 1fr 22px; }
+      summary { grid-template-columns: 22px 118px 1fr 22px; }
       .bet-stake, .bet-odds { grid-column: 2 / 4; grid-row: 2; text-align: left; font-size: 12px; }
       .bet-odds { grid-column: 3 / 4; text-align: right; }
     }
@@ -233,7 +238,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
           {LOGOS[s.name]
             ? <img class={`logo${LOGOS[s.name].invert ? " invert" : ""}`} src={LOGOS[s.name].src} alt={s.name} width="20" height="20" />
             : <span class="dot" title="Always bets the favorite"></span>}
-          <span class="name">{s.name}</span>
+          <span class="name">{s.name}<span class="model-id">{MODEL_DETAILS[s.name]}</span></span>
           <span class="pl-track">
             {s.delta !== 0 && <span class="pl-bar" style={`background:${s.delta > 0 ? "var(--up)" : "var(--down)"};
               left:${s.delta > 0 ? "50%" : `${50 - (Math.abs(s.delta) / maxAbsDelta) * 50}%`};
@@ -277,7 +282,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               {LOGOS[b.model]
                 ? <img class={`logo${LOGOS[b.model].invert ? " invert" : ""}`} src={LOGOS[b.model].src} alt={b.model} width="20" height="20" />
                 : <span class="dot"></span>}
-              <b>{b.model}</b>
+              <span class="name"><b>{b.model}</b><span class="model-id">{MODEL_DETAILS[b.model]}</span></span>
               <span class="bet-pick">{pickLabel(b)}</span>
               <span class="bet-stake">${b.stake.toLocaleString()}</span>
               <span class="bet-odds">@ {b.odds}</span>
@@ -305,7 +310,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               {LOGOS[b.model]
                 ? <img class={`logo${LOGOS[b.model].invert ? " invert" : ""}`} src={LOGOS[b.model].src} alt={b.model} width="20" height="20" />
                 : <span class="dot"></span>}
-              <b>{b.model}</b>
+              <span class="name"><b>{b.model}</b><span class="model-id">{MODEL_DETAILS[b.model]}</span></span>
               <span class="bet-pick">{pickLabel(b)}</span>
               <span class="bet-stake">${b.stake.toLocaleString()}</span>
               <span class="bet-odds">@ {b.odds}</span>
