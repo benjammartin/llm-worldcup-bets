@@ -267,7 +267,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </header>
 
   <section>
-    <h2>Standings <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
+    <h2>Leaderboard <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
     <div class="standings">
       {standings.map((s, i) => (
         <div class={`standing${i === 0 ? " first" : ""}`} style={`--c:${COLORS[s.name] ?? "#fff"}`}>
@@ -296,7 +296,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     </div>
     <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
     <div class="share">
-      <a href={shareUrl} target="_blank" rel="noopener">𝕏 Share standings</a>
+      <a href={shareUrl} target="_blank" rel="noopener">𝕏 Share leaderboard</a>
       <button onclick="navigator.clipboard.writeText(location.href).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy link',1500)})">Copy link</button>
     </div>
   </section>
