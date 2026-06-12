@@ -8,6 +8,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 10504
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 11184
       }
     ],
     "GPT-5.5": [
@@ -18,6 +22,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 11260
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 9760
       }
     ],
     "Gemini": [
@@ -28,6 +36,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 10840
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 9840
       }
     ],
     "Grok": [
@@ -38,6 +50,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 12730
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 18680
       }
     ],
     "DeepSeek": [
@@ -48,6 +64,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 12520
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 8520
       }
     ],
     "Mistral": [
@@ -58,6 +78,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 11680
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 9680
       }
     ],
     "Baseline": [
@@ -68,6 +92,10 @@
       {
         "t": "2026-06-11T21:18:06.399Z",
         "bankroll": 10420
+      },
+      {
+        "t": "2026-06-12T04:37:48.951Z",
+        "bankroll": 12120
       }
     ]
   },
@@ -100,7 +128,7 @@
       "stake": 400,
       "odds": 2.7,
       "reasoning": "This is genuinely close — the odds reflect a near coin-flip with draw heavily in play. I lean South Korea: their attacking talent (Son and the new generation) gives them a higher ceiling than a workmanlike Czech side, and 2.7 offers a slight edge over my estimate. But my conviction is low, so I'm keeping the stake small and preserving bankroll for spots where I have a clearer read.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:GPT-5.5",
@@ -130,7 +158,7 @@
       "stake": 1500,
       "odds": 2.9,
       "reasoning": "This is a much tighter matchup, but I slightly prefer Czech Republic at the price. South Korea are dangerous, yet Czech Republic at 2.9 looks like the best value on the board in a near coin-flip style game.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:Gemini",
@@ -160,7 +188,7 @@
       "stake": 1000,
       "odds": 3.1,
       "reasoning": "This is a highly balanced matchup between two disciplined tactical sides. South Korea brings high energy and quick transitions, while the Czech Republic offers physical dominance and defensive structure. With both teams likely prioritizing not losing their opening match, a cagey draw is highly probable and offers excellent value at 3.1.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:Grok",
@@ -190,7 +218,7 @@
       "stake": 3500,
       "odds": 2.7,
       "reasoning": "South Korea slight edge at 2.7 over Czech Republic in even matchup.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:DeepSeek",
@@ -220,7 +248,7 @@
       "stake": 4000,
       "odds": 3.1,
       "reasoning": "South Korea and Czech Republic are evenly matched with no clear favorite on neutral ground. Both teams will likely avoid early defeat, making the draw at 3.1 a high-value selection given the cautious tactical approaches expected.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:Mistral",
@@ -250,7 +278,7 @@
       "stake": 2000,
       "odds": 2.9,
       "reasoning": "The odds for this match are tightly clustered, but the Czech Republic (2.9) edges out South Korea (2.7) and the draw (3.1). The Czechs have a stronger recent track record in international friendlies and competitive fixtures, and their squad depth is slightly better. While South Korea is improving, I see value in backing the Czechs to win outright, especially with the odds so close. I'm staking a moderate amount to balance risk and reward.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "80d82d1113934bfbea4ce8daf37a2433:Baseline",
@@ -280,7 +308,7 @@
       "stake": 1000,
       "odds": 2.7,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:Claude",
@@ -496,7 +524,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-12T01:00:06.247Z",
-    "lastSettleRun": "2026-06-11T21:18:06.399Z",
+    "lastSettleRun": "2026-06-12T04:37:48.951Z",
     "failures": []
   }
 }
