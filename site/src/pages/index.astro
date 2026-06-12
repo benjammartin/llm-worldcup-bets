@@ -80,6 +80,7 @@ const matchInsight = (bets: Bet[]) => {
 const kickoff = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 const lastUpdate = state.meta.lastSettleRun ?? state.meta.lastBetsRun;
+const ogImageVersion = encodeURIComponent(lastUpdate ?? state.meta.generatedAt);
 const todayFailures = state.meta.failures.slice(-6);
 const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
 const topExposure = Object.entries(modelCycleStats)
@@ -118,7 +119,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <meta name="description" content="6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt." />
   <meta property="og:title" content="LLM World Cup Bets" />
   <meta property="og:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
-  <meta property="og:image" content={`${SITE_URL}/og.png`} />
+  <meta property="og:image" content={`${SITE_URL}/og.png?v=${ogImageVersion}`} />
   <meta name="twitter:card" content="summary_large_image" />
   <style>
     @font-face { font-family: "Space Mono"; src: url("/fonts/SpaceMono-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
