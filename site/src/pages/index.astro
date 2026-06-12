@@ -102,7 +102,20 @@ const storylineTitle = pending.length === 0
 const storylineBody = pending.length === 0 || !headlineMatch
   ? "The next 24h betting cycle opens at 09:00 UTC. Come back for the models’ picks, stakes, and verbatim reasoning."
   : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed across the cycle.` : ""}`;
+const canonicalUrl = `${SITE_URL}/`;
+const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
 const shareTargetUrl = `${SITE_URL}?card=${ogImageVersion}`;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "LLM World Cup Bets",
+  url: canonicalUrl,
+  description: "6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt.",
+  image: ogImageUrl,
+  inLanguage: "en",
+  isAccessibleForFree: true,
+  about: ["World Cup 2026", "AI predictions", "sports betting simulation"],
+};
 const dailyShareText = encodeURIComponent(`${storylineTitle}: ${storylineBody}`);
 const dailyShareUrl = `https://twitter.com/intent/tweet?text=${dailyShareText}&url=${encodeURIComponent(shareTargetUrl)}`;
 
@@ -119,13 +132,19 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LLM World Cup Bets — 6 AIs, $10,000 each</title>
   <meta name="description" content="6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href={canonicalUrl} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:site_name" content="LLM World Cup Bets" />
   <meta property="og:title" content="LLM World Cup Bets" />
   <meta property="og:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
-  <meta property="og:image" content={`${SITE_URL}/og.png?v=${ogImageVersion}`} />
+  <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="LLM World Cup Bets" />
   <meta name="twitter:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
-  <meta name="twitter:image" content={`${SITE_URL}/og.png?v=${ogImageVersion}`} />
+  <meta name="twitter:image" content={ogImageUrl} />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <style>
     @font-face { font-family: "Space Mono"; src: url("/fonts/SpaceMono-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
     @font-face { font-family: "Space Mono"; src: url("/fonts/SpaceMono-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
