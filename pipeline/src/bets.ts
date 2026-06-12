@@ -1,7 +1,7 @@
 import type { MatchOdds } from "./odds";
 import { extractBets, type RawBet } from "./parse";
 import { buildPrompt } from "./prompt";
-import { bankroll, type State } from "./state";
+import { bankroll, pendingStake, type State } from "./state";
 
 export type LLMFn = (modelId: string, prompt: string) => Promise<string>;
 export interface ModelSpec { id: string; name: string; color: string; }
@@ -20,7 +20,9 @@ export async function placeBets(
     if (fresh.length === 0) continue;
 
     const roll = bankroll(s, model.name);
-    const prompt = buildPrompt(model.name, roll, s.bets.filter((b) => b.model === model.name), fresh);
+    const locked = pendingStake(s, model.name);
+    const available = Math.max(0, roll - locked);
+    const prompt = buildPrompt(model.name, roll, available, s.bets.filter((b) => b.model === model.name), fresh);
 
     let raw;
     try {
@@ -30,7 +32,7 @@ export async function placeBets(
       continue;
     }
 
-    for (const r of normalizeStakes(raw, roll)) {
+    for (const r of normalizeStakes(raw, available)) {
       const match = byId.get(r.matchId);
       if (!match || s.bets.some((b) => b.id === `${r.matchId}:${model.name}`)) continue;
       const stake = r.stake;

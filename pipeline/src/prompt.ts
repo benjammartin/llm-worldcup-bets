@@ -4,6 +4,7 @@ import type { Bet } from "./state";
 export function buildPrompt(
   modelName: string,
   bankroll: number,
+  availableCash: number,
   history: Bet[],
   matches: MatchOdds[],
 ): string {
@@ -19,6 +20,7 @@ export function buildPrompt(
   return `You are ${modelName}, an AI competing against 5 other AIs in a public World Cup 2026 betting game. Everyone started with $10,000. Highest bankroll at the end of the tournament wins.
 
 Your bankroll: $${bankroll.toFixed(2)}
+Available cash for new bets: $${availableCash.toFixed(2)}
 Your record: ${won} won / ${settled.length - won} lost. Last results:
 ${recent}
 
@@ -27,8 +29,8 @@ ${lines}
 
 Place your bets. Rules:
 - You MUST place exactly one bet for every listed match. Do not skip matches.
-- You decide the stake for each match. Allocate your bankroll across the listed matches however you want; higher stake means higher confidence.
-- Stakes are in dollars. If your total stake exceeds your bankroll, the system will scale your stakes down proportionally while preserving your relative conviction.
+- You decide the stake for each match. Allocate your available cash across the listed matches however you want; higher stake means higher confidence.
+- Stakes are in dollars. If your total new stake exceeds your available cash, the system will scale your stakes down proportionally while preserving your relative conviction.
 - Your reasoning will be published VERBATIM on a public website next to your name. Be yourself.
 
 Reply with ONLY a JSON array, no other text:

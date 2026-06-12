@@ -88,9 +88,12 @@ describe("placeBets", () => {
     expect(s.bets.map((b) => b.stake)).toEqual([7_500, 2_500]);
   });
 
-  test("adds missing future match bets even when existing pending stake already equals bankroll", async () => {
-    const llm: LLMFn = async () =>
-      `[{"matchId":"m2","pick":"away","stake":2500,"reasoning":"still must pick"}]`;
+  test("does not add new stake when existing pending stake already uses the bankroll", async () => {
+    let prompt = "";
+    const llm: LLMFn = async (_id, p) => {
+      prompt = p;
+      return `[{"matchId":"m2","pick":"away","stake":2500,"reasoning":"still must pick"}]`;
+    };
     const s = initialState(["ModelA"], 10_000, NOW);
     s.bets.push({
       id: "m1:ModelA", date: NOW, matchId: "m1", match: "France vs Spain",
@@ -101,7 +104,24 @@ describe("placeBets", () => {
 
     await placeBets(s, MATCHES, MODELS, llm, NOW);
 
+    expect(prompt).toContain("Available cash for new bets: $0.00");
+    expect(s.bets).toHaveLength(1);
+  });
+
+  test("scales new stakes against available cash after existing pending stake", async () => {
+    const llm: LLMFn = async () =>
+      `[{"matchId":"m2","pick":"away","stake":5000,"reasoning":"use available"}]`;
+    const s = initialState(["ModelA"], 10_000, NOW);
+    s.bets.push({
+      id: "m1:ModelA", date: NOW, matchId: "m1", match: "France vs Spain",
+      homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z",
+      model: "ModelA", pick: "home", stake: 7_000, odds: 1.8,
+      reasoning: "already committed", status: "pending",
+    });
+
+    await placeBets(s, MATCHES, MODELS, llm, NOW);
+
     expect(s.bets).toHaveLength(2);
-    expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 2_500, pick: "away" });
+    expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 3_000, pick: "away" });
   });
 });
