@@ -77,6 +77,28 @@ const matchInsight = (bets: Bet[]) => {
     : `Split: ${split}`;
   return `${verdict} · biggest stake: ${biggest.model} ${money(biggest.stake)}`;
 };
+const resultOrder: Record<Bet["status"], number> = { won: 0, lost: 1, void: 2, pending: 3 };
+const settledBetRows = (bets: Bet[]) =>
+  [...bets].sort((a, b) => resultOrder[a.status] - resultOrder[b.status] || b.stake - a.stake || a.model.localeCompare(b.model));
+const betPnl = (b: Bet) => b.status === "won" ? b.stake * (b.odds - 1) : b.status === "lost" ? -b.stake : 0;
+const pnlText = (b: Bet) => {
+  const pnl = betPnl(b);
+  if (pnl === 0) return "$0";
+  return `${pnl > 0 ? "+" : "−"}$${Math.round(Math.abs(pnl)).toLocaleString("en-US")}`;
+};
+const resultLabel = (b: Bet) => b.status === "won" ? "Won" : b.status === "lost" ? "Lost" : b.status === "void" ? "Void" : "Pending";
+const settledInsight = (bets: Bet[]) => {
+  const winners = bets.filter((b) => b.status === "won");
+  const losses = bets.filter((b) => b.status === "lost");
+  const voids = bets.filter((b) => b.status === "void");
+  if (winners.length > 0) {
+    const winningPick = pickText(winners[0].pick, winners[0]);
+    const biggestWin = [...winners].sort((a, b) => betPnl(b) - betPnl(a))[0];
+    return `Result: ${winningPick} wins · ${winners.length}/${bets.length} models cashed · biggest win: ${biggestWin.model} ${pnlText(biggestWin)} · ${losses.length} lost`;
+  }
+  if (voids.length === bets.length) return `Result voided · all ${bets.length} stakes returned`;
+  return `No model picked the winning result · all ${losses.length} settled bets lost`;
+};
 const kickoff = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 const lastUpdate = state.meta.lastSettleRun ?? state.meta.lastBetsRun;
@@ -255,6 +277,18 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .bet-pick { color: var(--dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .bet-stake { color: var(--txt); text-align: right; white-space: nowrap; }
     .bet-odds { color: var(--amber); font-size: 12px; white-space: nowrap; }
+    .result-summary { grid-template-columns: 24px 142px minmax(150px, 1fr) minmax(78px, auto) 54px minmax(74px, auto) 72px; }
+    .result-insight { color: var(--txt); border-bottom: 1px solid #14171c; padding: 9px 14px; font-size: 12px; }
+    .result-legend { color: var(--dim); background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+      padding: 10px 12px; margin: -4px 0 12px; font-size: 13px; }
+    .result-pill { border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; font-size: 11px;
+      text-align: center; text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
+    .result-pill.won { color: var(--up); border-color: color-mix(in srgb, var(--up) 45%, var(--line)); background: rgba(34,197,94,.08); }
+    .result-pill.lost { color: var(--down); border-color: color-mix(in srgb, var(--down) 45%, var(--line)); background: rgba(239,68,68,.08); }
+    .result-pill.void { color: var(--faint); }
+    .result-pnl { font-weight: 700; text-align: right; white-space: nowrap; }
+    .result-row.won summary { background: linear-gradient(90deg, rgba(34,197,94,.055), transparent 58%); }
+    .result-row.lost summary { opacity: .78; }
     .reason-toggle { color: var(--amber); border: 1px solid color-mix(in srgb, var(--amber) 35%, var(--line));
       border-radius: 999px; padding: 3px 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
       white-space: nowrap; justify-self: end; }
@@ -289,13 +323,16 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .baseline-note { display: none; }
       .desktop-only { display: none; }
       .mobile-only { display: inline; }
-      .cycle-summary, .match-insight { font-size: 11px; padding: 8px 10px; }
+      .cycle-summary, .match-insight, .result-legend, .result-insight { font-size: 11px; padding: 8px 10px; }
       .match-head { padding: 10px; }
       .match-meta { width: 100%; justify-content: flex-start; gap: 8px; }
       summary { grid-template-columns: 22px minmax(64px, 1fr) minmax(68px, 1fr) auto auto; padding: 8px 10px; gap: 6px; }
+      .result-summary { grid-template-columns: 22px minmax(64px, 1fr) minmax(76px, 1fr) auto auto; }
       summary .model-id { display: none; }
       .bet-pick { font-size: 12px; }
       .bet-odds { display: none; }
+      .result-pill { font-size: 10px; padding: 2px 6px; }
+      .result-pnl { font-size: 12px; }
       .bet-stake { text-align: right; font-size: 12px; }
       .reason-toggle { padding: 3px 7px; font-size: 10px; }
       .reasoning { padding-left: 22px; font-size: 12px; }
@@ -423,23 +460,26 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section>
-    <h2>Recent results</h2>
+    <h2>Recent results <span class="count">· winners first, P/L shown per bet</span></h2>
+    <p class="result-legend">Each settled match now shows the winning outcome, how many models cashed, and every model’s profit/loss. Green rows won; red rows lost; profit is net return after stake.</p>
     {settledMatches.map((bets) => (
       <div class="match">
         <div class="match-head">
           <span class="match-title">{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} <span class="vs">vs</span> {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</span>
           <span class="match-ko">{kickoff(bets[0].kickoff)}</span>
         </div>
-        {bets.map((b) => (
-          <details style={`--c:${COLORS[b.model] ?? "#fff"}`}>
-            <summary>
+        <div class="result-insight">{settledInsight(bets)}</div>
+        {settledBetRows(bets).map((b) => (
+          <details class={`result-row ${b.status}`} style={`--c:${COLORS[b.model] ?? "#fff"}`}>
+            <summary class="result-summary">
               {LOGOS[b.model]
                 ? <img class={`logo${LOGOS[b.model].invert ? " invert" : ""}`} src={LOGOS[b.model].src} alt={b.model} width="20" height="20" />
                 : <span class="dot"></span>}
               <span class="name"><b>{b.model}</b><span class="model-id">{MODEL_DETAILS[b.model]}</span></span>
               <span class="bet-pick">{pickLabel(b)}</span>
-              <span class="bet-stake">${b.stake.toLocaleString()}</span>
+              <span class={`result-pill ${b.status}`}>{resultLabel(b)}</span>
               <span class="bet-odds">@ {b.odds}</span>
+              <span class={`result-pnl ${betPnl(b) > 0 ? "up" : betPnl(b) < 0 ? "down" : "flat"}`}>{pnlText(b)}</span>
               <span class="reason-toggle" aria-label={`Open ${b.model} reasoning`}>Why</span>
             </summary>
             <p class="reasoning">{b.reasoning}</p>
