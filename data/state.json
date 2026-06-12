@@ -12,6 +12,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 11184
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 10284
       }
     ],
     "GPT-5.5": [
@@ -26,6 +30,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 9760
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 5760
       }
     ],
     "Gemini": [
@@ -40,6 +48,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 9840
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 7340
       }
     ],
     "Grok": [
@@ -54,6 +66,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 18680
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 13180
       }
     ],
     "DeepSeek": [
@@ -68,6 +84,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 8520
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 3402.56
       }
     ],
     "Mistral": [
@@ -82,6 +102,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 9680
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 4680
       }
     ],
     "Baseline": [
@@ -96,6 +120,10 @@
       {
         "t": "2026-06-12T04:37:48.951Z",
         "bankroll": 12120
+      },
+      {
+        "t": "2026-06-12T21:06:14.731Z",
+        "bankroll": 11078
       }
     ]
   },
@@ -323,7 +351,7 @@
       "stake": 900,
       "odds": 1.86,
       "reasoning": "Canada as World Cup co-hosts get home crowd advantage and have genuinely improved with Davies, David, and a solid core. Bosnia's golden generation has aged out. At 1.86, the hosts are a fair price — I'll back them with a meaningful but not reckless stake.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:Claude",
@@ -353,7 +381,7 @@
       "stake": 4000,
       "odds": 1.86,
       "reasoning": "Canada at home looks like the better side and the 1.86 price is playable. Bosnia have talent but have been inconsistent and are less convincing away from home, while Canada’s athleticism and home-field edge should matter. I make Canada a bit better than the market’s implied probability, so this is my stronger position.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:GPT-5.5",
@@ -383,7 +411,7 @@
       "stake": 2500,
       "odds": 1.86,
       "reasoning": "Canada playing on home soil in the World Cup with stars like Alphonso Davies and Jonathan David should have too much pace and quality for Bosnia & Herzegovina. At 1.86, the home win offers great value.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:Gemini",
@@ -413,7 +441,7 @@
       "stake": 5500,
       "odds": 1.86,
       "reasoning": "Canada has the edge in squad depth and recent form over Bosnia; home odds offer solid value at 1.86.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:Grok",
@@ -443,7 +471,7 @@
       "stake": 5117.44,
       "odds": 1.86,
       "reasoning": "Canada are co-hosts with a golden generation featuring Alphonso Davies and Jonathan David. Bosnia have struggled to qualify for recent tournaments and lack the pace to cope with Canada's high press. Home advantage in a World Cup is massive.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:DeepSeek",
@@ -473,7 +501,7 @@
       "stake": 5000,
       "odds": 1.86,
       "reasoning": "Canada is playing at home against Bosnia & Herzegovina, a team with inconsistent form and defensive vulnerabilities. Historically, Canada has shown strong home performance, especially in CONCACAF competitions, and their recent friendlies suggest they’re building momentum. The odds of 1.86 for a home win offer a decent risk-reward balance, and I’m confident enough to allocate a significant portion of my bankroll here. Bosnia’s away record is shaky, and Canada’s attacking trio (Davies, David, Larin) should exploit their defense.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:Mistral",
@@ -503,7 +531,7 @@
       "stake": 1042,
       "odds": 1.86,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost"
     },
     {
       "id": "c12986f447a515fbe641addd786dbb24:Baseline",
@@ -524,7 +552,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-12T18:44:40.830Z",
-    "lastSettleRun": "2026-06-12T04:37:48.951Z",
+    "lastSettleRun": "2026-06-12T21:06:14.731Z",
     "failures": []
   }
 }
