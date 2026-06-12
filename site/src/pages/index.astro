@@ -138,6 +138,7 @@ const jsonLd = {
   isAccessibleForFree: true,
   about: ["World Cup 2026", "AI predictions", "sports betting simulation"],
 };
+const youtubeLiveUrl = "https://youtube.com/live/FYYYwyMgcKU?feature=share";
 const dailyShareText = encodeURIComponent(`${storylineTitle}: ${storylineBody}`);
 const dailyShareUrl = `https://twitter.com/intent/tweet?text=${dailyShareText}&url=${encodeURIComponent(shareTargetUrl)}`;
 
@@ -195,6 +196,18 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     @keyframes pulse { 50% { opacity: .15; } }
     @media (prefers-reduced-motion: reduce) { .live::before { animation: none; } }
     .ticker .lead b { color: var(--amber); }
+    .youtube-marquee { display: block; overflow: hidden; border: 1px solid color-mix(in srgb, #ff0033 42%, var(--line));
+      border-radius: 999px; margin: 12px 0 0; background: linear-gradient(90deg, rgba(255,0,51,.14), rgba(245,158,11,.08));
+      color: var(--txt); text-decoration: none; white-space: nowrap; }
+    .youtube-marquee:hover { text-decoration: none; border-color: #ff0033; }
+    .youtube-track { display: inline-flex; gap: 32px; min-width: max-content; padding: 8px 0;
+      animation: youtube-scroll 18s linear infinite; }
+    .youtube-track span { display: inline-flex; align-items: center; gap: 10px; padding-right: 32px;
+      font-size: 12px; text-transform: uppercase; letter-spacing: .09em; }
+    .youtube-badge { color: #fff; background: #ff0033; border-radius: 999px; padding: 2px 8px; font-weight: 700; }
+    .youtube-cta { color: var(--amber); font-weight: 700; }
+    @keyframes youtube-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { .youtube-track { animation: none; } }
 
     header { padding: 28px 0 6px; }
     h1 { font-size: clamp(26px, 6vw, 44px); line-height: 1.05; letter-spacing: -.01em; margin: 0; }
@@ -311,6 +324,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       body { padding: 0 10px; font-size: 13px; }
       header { padding-top: 18px; }
       .ticker { gap: 10px; font-size: 10px; }
+      .youtube-marquee { margin-top: 10px; border-radius: 10px; }
+      .youtube-track { animation-duration: 14s; }
+      .youtube-track span { font-size: 10px; gap: 7px; }
       .ticker .lead { display: none; }
       h2 { margin-top: 26px; font-size: 12px; gap: 7px; }
       h2 .count { display: none; }
@@ -350,6 +366,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       document.addEventListener("click", function (e) {
         var share = e.target.closest && e.target.closest(".share a");
         if (share) posthog.capture("share_x_clicked");
+        var youtube = e.target.closest && e.target.closest(".youtube-marquee");
+        if (youtube) posthog.capture("youtube_live_clicked");
       });
       document.addEventListener("toggle", function (e) {
         var d = e.target;
@@ -369,6 +387,15 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <span>{pending.length} pending bets</span>
     <span class="lead">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
   </div>
+
+  <a class="youtube-marquee" href={youtubeLiveUrl} target="_blank" rel="noopener noreferrer" aria-label="Watch the LLM World Cup Bets live stream on YouTube">
+    <span class="youtube-track" aria-hidden="true">
+      <span><b class="youtube-badge">YouTube live</b> Watch the AI World Cup betting stream <b class="youtube-cta">Join now →</b></span>
+      <span><b class="youtube-badge">YouTube live</b> Watch the AI World Cup betting stream <b class="youtube-cta">Join now →</b></span>
+      <span><b class="youtube-badge">YouTube live</b> Watch the AI World Cup betting stream <b class="youtube-cta">Join now →</b></span>
+      <span><b class="youtube-badge">YouTube live</b> Watch the AI World Cup betting stream <b class="youtube-cta">Join now →</b></span>
+    </span>
+  </a>
 
   <header>
     <h1>LLM WORLD CUP<br/><span class="accent">BETS</span> ⚽</h1>
