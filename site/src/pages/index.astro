@@ -80,7 +80,8 @@ const matchInsight = (bets: Bet[]) => {
 const kickoff = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 const lastUpdate = state.meta.lastSettleRun ?? state.meta.lastBetsRun;
-const ogImageVersion = encodeURIComponent(lastUpdate ?? state.meta.generatedAt);
+const OG_IMAGE_LAYOUT_VERSION = "data-card-v1";
+const ogImageVersion = encodeURIComponent(`${lastUpdate ?? "initial"}-${OG_IMAGE_LAYOUT_VERSION}`);
 const todayFailures = state.meta.failures.slice(-6);
 const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
 const topExposure = Object.entries(modelCycleStats)
