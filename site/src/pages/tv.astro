@@ -1,0 +1,335 @@
+---
+// /tv — 1920x1080 broadcast page for the 24/7 YouTube live stream (OBS browser source).
+// Auto-rotates scenes, auto-reloads to pick up new deploys. No interaction.
+import { readFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { chartSVG } from "../../../pipeline/src/chart";
+import { BASELINE_NAME, MODELS, STARTING_BANKROLL } from "../../../pipeline/src/config";
+import { initialState, bankroll, type Bet, type State } from "../../../pipeline/src/state";
+import { flagOf } from "../flags";
+
+const statePath = fileURLToPath(new URL("../../../data/state.json", import.meta.url));
+const state: State = existsSync(statePath)
+  ? JSON.parse(readFileSync(statePath, "utf8"))
+  : initialState([...MODELS.map((m) => m.name), BASELINE_NAME], STARTING_BANKROLL, new Date().toISOString());
+
+const COLORS: Record<string, string> = Object.fromEntries([
+  ...MODELS.map((m) => [m.name, m.color]),
+  [BASELINE_NAME, "#6b7280"],
+]);
+const LOGOS: Record<string, { src: string; invert?: boolean }> = {
+  "Claude": { src: "/logos/claude.svg" },
+  "GPT-5": { src: "/logos/gpt-5.svg", invert: true },
+  "Gemini": { src: "/logos/gemini.svg" },
+  "Grok": { src: "/logos/grok.svg", invert: true },
+  "DeepSeek": { src: "/logos/deepseek.svg" },
+  "Mistral": { src: "/logos/mistral.svg" },
+};
+
+const money = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
+const standings = Object.keys(state.series)
+  .sort((a, b) => bankroll(state, b) - bankroll(state, a))
+  .map((name) => ({ name, roll: bankroll(state, name), delta: bankroll(state, name) - STARTING_BANKROLL }));
+const maxAbsDelta = Math.max(100, ...standings.map((s) => Math.abs(s.delta)));
+const leader = standings[0];
+
+const pending = state.bets.filter((b) => b.status === "pending")
+  .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
+const settled = state.bets.filter((b) => b.status !== "pending")
+  .sort((a, b) => b.kickoff.localeCompare(a.kickoff)).slice(0, 14);
+
+const byMatch = (bets: Bet[]) => {
+  const m = new Map<string, Bet[]>();
+  for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
+  return [...m.values()];
+};
+const pendingMatches = byMatch(pending);
+const settledMatches = byMatch(settled);
+
+const pickLabel = (b: Bet) =>
+  b.pick === "draw" ? "🤝 Draw"
+  : b.pick === "home" ? `${flagOf(b.homeTeam)} ${b.homeTeam}`
+  : `${flagOf(b.awayTeam)} ${b.awayTeam}`;
+const badge = (s: string) => s === "won" ? "✅" : s === "lost" ? "❌" : s === "void" ? "↩︎" : "⏳";
+const kickoffShort = (iso: string) =>
+  new Date(iso).toLocaleString("en-GB", { weekday: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
+
+const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
+const svg = chartSVG(state, 1700, 760);
+
+// Quotes for the reasoning spotlight: pending first, padded with latest settled.
+const quoteBets = [...pending, ...settled].slice(0, 20).map((b) => ({
+  model: b.model, color: COLORS[b.model] ?? "#6b7280",
+  pick: pickLabel(b), stake: money(b.stake), odds: b.odds,
+  match: `${flagOf(b.homeTeam)} ${b.homeTeam} vs ${b.awayTeam} ${flagOf(b.awayTeam)}`,
+  status: b.status, reasoning: b.reasoning,
+}));
+const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
+const ticker = pending.map((b) =>
+  `${b.model} ${money(b.stake)} on ${pickLabel(b)} @ ${b.odds}`).join("  ·  ");
+---
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>LLM World Cup Bets — TV</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    @font-face { font-family: "Space Mono"; src: url("/fonts/SpaceMono-Regular.ttf") format("truetype"); font-weight: 400; }
+    @font-face { font-family: "Space Mono"; src: url("/fonts/SpaceMono-Bold.ttf") format("truetype"); font-weight: 700; }
+    :root {
+      --bg: #050607; --panel: #0d0f12; --panel-2: #12151a; --line: #1c2128;
+      --txt: #e7e9ea; --dim: #8b949e; --faint: #555e6a;
+      --amber: #f59e0b; --up: #22c55e; --down: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--bg);
+      color: var(--txt); font-family: "Space Mono", ui-monospace, monospace;
+      font-variant-numeric: tabular-nums; }
+    body::after { content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 50;
+      background: repeating-linear-gradient(0deg, transparent 0 3px, rgba(255,255,255,.012) 3px 4px); }
+
+    /* ── top bar ── */
+    .topbar { height: 96px; display: flex; align-items: center; gap: 40px; padding: 0 48px;
+      border-bottom: 1px solid var(--line); font-size: 24px; text-transform: uppercase; letter-spacing: .08em; }
+    .live { color: var(--up); font-weight: 700; display: inline-flex; align-items: center; gap: 14px; }
+    .live::before { content: ""; width: 16px; height: 16px; border-radius: 50%; background: var(--up);
+      animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .15; } }
+    .topbar .dim { color: var(--dim); }
+    .topbar .lead b { color: var(--amber); }
+    .topbar .spacer { flex: 1; }
+    .countdown { color: var(--txt); }
+    .countdown b { color: var(--amber); }
+    .clock { color: var(--faint); }
+    .brand { font-weight: 700; font-size: 26px; letter-spacing: .04em; }
+    .brand .accent { color: var(--amber); }
+
+    /* ── stage / scenes ── */
+    .stage { position: relative; height: calc(1080px - 96px - 84px); }
+    .scene { position: absolute; inset: 0; padding: 48px 64px; opacity: 0;
+      transition: opacity .8s ease; pointer-events: none; }
+    .scene.on { opacity: 1; }
+    .scene h2 { font-size: 30px; text-transform: uppercase; letter-spacing: .14em;
+      display: flex; align-items: center; gap: 18px; margin-bottom: 34px; }
+    .scene h2::before { content: ""; width: 10px; height: 30px; background: var(--amber); }
+    .scene h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+    .scene h2 .count { color: var(--faint); letter-spacing: 0; }
+
+    /* leaderboard */
+    .standings { display: flex; flex-direction: column; gap: 14px; }
+    .standing { display: grid; grid-template-columns: 70px 48px 320px 1fr 220px 260px;
+      align-items: center; gap: 26px; background: var(--panel); border: 1px solid var(--line);
+      border-radius: 10px; padding: 18px 30px; font-size: 30px; }
+    .standing.first { border-color: color-mix(in srgb, var(--amber) 45%, var(--line));
+      background: linear-gradient(90deg, rgba(245,158,11,.07), var(--panel) 40%); }
+    .standing .rank { color: var(--faint); font-size: 24px; }
+    .standing.first .rank { color: var(--amber); font-weight: 700; }
+    .standing .name { font-weight: 700; }
+    .logo { width: 40px; height: 40px; display: block; }
+    .logo.invert { filter: invert(1); }
+    .dot { width: 22px; height: 22px; border-radius: 50%; background: var(--c); margin: 9px; }
+    .pl-track { height: 12px; border-radius: 6px; background: var(--panel-2); position: relative; overflow: hidden; }
+    .pl-bar { position: absolute; top: 0; bottom: 0; border-radius: 6px; }
+    .standing .delta { font-size: 26px; text-align: right; }
+    .standing .roll { font-weight: 700; font-size: 34px; text-align: right; }
+    .up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--faint); }
+    .baseline-note { color: var(--faint); font-size: 22px; margin-top: 22px; }
+    .baseline-note b { color: var(--dim); }
+
+    /* bets grid */
+    .matches { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+    .matches.single { grid-template-columns: minmax(0, 1100px); justify-content: center; }
+    .match { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 24px 28px; }
+    .match h3 { font-size: 30px; margin-bottom: 6px; }
+    .match .ko { color: var(--faint); font-size: 21px; margin-bottom: 18px; }
+    .bet { display: grid; grid-template-columns: 44px 200px 1fr 170px 110px; align-items: center;
+      gap: 16px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 25px; }
+    .bet .model { font-weight: 700; }
+    .bet .pick { color: var(--dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .bet .stake { text-align: right; font-weight: 700; }
+    .bet .odds { color: var(--faint); }
+    .bet .result { text-align: right; }
+
+    /* reasoning spotlight */
+    #scene-quote .inner { max-width: 1500px; margin: 30px auto 0; }
+    .q-head { display: flex; align-items: center; gap: 24px; font-size: 30px; margin-bottom: 30px; }
+    .q-head .q-model { font-weight: 700; font-size: 38px; }
+    .q-head .q-bet { color: var(--dim); }
+    .q-text { font-size: 38px; line-height: 1.55; color: var(--txt); }
+    .q-text::before { content: "“"; color: var(--amber); }
+    .q-text::after { content: "”"; color: var(--amber); }
+    .q-match { margin-top: 34px; color: var(--faint); font-size: 26px; }
+
+    /* chart */
+    .chart svg { display: block; width: 1700px; height: auto; border: 1px solid var(--line); border-radius: 10px; }
+
+    /* ── bottom ticker ── */
+    .bottombar { height: 84px; border-top: 1px solid var(--line); display: flex; align-items: center;
+      overflow: hidden; position: relative; }
+    .marquee { white-space: nowrap; font-size: 26px; color: var(--dim);
+      animation: scroll 60s linear infinite; padding-left: 100%; }
+    .marquee b { color: var(--txt); }
+    @keyframes scroll { to { transform: translateX(-100%); } }
+    .url-badge { position: absolute; right: 0; top: 0; bottom: 0; display: flex; align-items: center;
+      background: var(--bg); border-left: 1px solid var(--line); padding: 0 40px;
+      font-weight: 700; font-size: 28px; color: var(--amber); z-index: 2; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span class="live">Live</span>
+    <span class="dim">Matchday {matchday}/39</span>
+    <span class="lead dim">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
+    <span class="spacer"></span>
+    <span class="countdown" id="countdown"></span>
+    <span class="clock" id="clock"></span>
+    <span class="brand">LLM WORLD CUP <span class="accent">BETS</span></span>
+  </div>
+
+  <div class="stage">
+    <section class="scene on" id="scene-board">
+      <h2>Leaderboard <span class="count">· 6 AIs + 1 if-statement · $10,000 each</span></h2>
+      <div class="standings">
+        {standings.map((s, i) => (
+          <div class={`standing${i === 0 ? " first" : ""}`}>
+            <span class="rank">{String(i + 1).padStart(2, "0")}</span>
+            {LOGOS[s.name]
+              ? <img class={`logo${LOGOS[s.name].invert ? " invert" : ""}`} src={LOGOS[s.name].src} alt="" />
+              : <span class="dot" style={`--c:${COLORS[s.name]}`}></span>}
+            <span class="name">{s.name}</span>
+            <div class="pl-track">
+              <div class="pl-bar" style={`background:${s.delta >= 0 ? "var(--up)" : "var(--down)"};
+                left:${s.delta >= 0 ? 50 : 50 - (Math.abs(s.delta) / maxAbsDelta) * 50}%;
+                width:${(Math.abs(s.delta) / maxAbsDelta) * 50}%`}></div>
+            </div>
+            <span class={`delta ${s.delta > 0 ? "up" : s.delta < 0 ? "down" : "flat"}`}>
+              {s.delta === 0 ? "±$0" : `${s.delta > 0 ? "+" : "−"}${money(Math.abs(s.delta)).slice(0)}`}
+            </span>
+            <span class="roll">{money(s.roll)}</span>
+          </div>
+        ))}
+      </div>
+      <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
+    </section>
+
+    {pendingMatches.length > 0 && (
+      <section class="scene" id="scene-bets">
+        <h2>Current 24h cycle <span class="count">· {pending.length} live bets</span></h2>
+        <div class={`matches${pendingMatches.length === 1 ? " single" : ""}`}>
+          {pendingMatches.slice(0, 4).map((bets) => (
+            <div class="match">
+              <h3>{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} vs {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</h3>
+              <p class="ko">kicks off {kickoffShort(bets[0].kickoff)}</p>
+              {bets.map((b) => (
+                <div class="bet">
+                  <span>⏳</span>
+                  <span class="model" style={`color:${COLORS[b.model]}`}>{b.model}</span>
+                  <span class="pick">{pickLabel(b)}</span>
+                  <span class="stake">{money(b.stake)}</span>
+                  <span class="odds">@ {b.odds}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {quoteBets.length > 0 && (
+      <section class="scene" id="scene-quote">
+        <h2>Why they bet <span class="count">· verbatim reasoning</span></h2>
+        <div class="inner">
+          <div class="q-head">
+            <span class="q-model" id="q-model"></span>
+            <span class="q-bet" id="q-bet"></span>
+          </div>
+          <p class="q-text" id="q-text"></p>
+          <p class="q-match" id="q-match"></p>
+        </div>
+      </section>
+    )}
+
+    {settledMatches.length > 0 && (
+      <section class="scene" id="scene-results">
+        <h2>Latest results</h2>
+        <div class={`matches${settledMatches.length === 1 ? " single" : ""}`}>
+          {settledMatches.slice(0, 2).map((bets) => (
+            <div class="match">
+              <h3>{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} vs {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</h3>
+              <p class="ko">{kickoffShort(bets[0].kickoff)}</p>
+              {bets.map((b) => (
+                <div class="bet">
+                  <span>{badge(b.status)}</span>
+                  <span class="model" style={`color:${COLORS[b.model]}`}>{b.model}</span>
+                  <span class="pick">{pickLabel(b)}</span>
+                  <span class="stake">{money(b.stake)}</span>
+                  <span class="odds">@ {b.odds}</span>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="scene" id="scene-chart">
+      <h2>Bankroll over time</h2>
+      <div class="chart" set:html={svg}></div>
+    </section>
+  </div>
+
+  <div class="bottombar">
+    <div class="marquee">{ticker ? `LIVE BETS  ·  ${ticker}  ·  ` : "LLM WORLD CUP BETS · 6 AIs, $10,000 each, every match of the World Cup · "}every bet + verbatim reasoning on <b>llmworldcup.xyz</b></div>
+    <div class="url-badge">llmworldcup.xyz</div>
+  </div>
+
+  <script is:inline define:vars={{ quoteBets, kickoffs }}>
+    // Scene rotation
+    const scenes = [...document.querySelectorAll(".scene")];
+    const SCENE_MS = 22_000;
+    let si = 0;
+    setInterval(() => {
+      scenes[si].classList.remove("on");
+      si = (si + 1) % scenes.length;
+      scenes[si].classList.add("on");
+    }, SCENE_MS);
+
+    // Reasoning spotlight rotation
+    if (quoteBets.length) {
+      let qi = -1;
+      const rot = () => {
+        qi = (qi + 1) % quoteBets.length;
+        const q = quoteBets[qi];
+        const el = (id) => document.getElementById(id);
+        el("q-model").textContent = q.model;
+        el("q-model").style.color = q.color;
+        el("q-bet").textContent = `${q.stake} on ${q.pick} @ ${q.odds}`;
+        const MAXQ = 420;
+        el("q-text").textContent = q.reasoning.length > MAXQ ? q.reasoning.slice(0, MAXQ).trimEnd() + "…" : q.reasoning;
+        el("q-match").textContent = q.match;
+      };
+      rot();
+      setInterval(rot, 11_000);
+    }
+
+    // Clock + countdown to next kickoff
+    const pad = (n) => String(n).padStart(2, "0");
+    const tick = () => {
+      const now = new Date();
+      document.getElementById("clock").textContent =
+        `${pad(now.getUTCHours())}:${pad(now.getUTCMinutes())}:${pad(now.getUTCSeconds())} UTC`;
+      const next = kickoffs.map((k) => new Date(k)).find((k) => k > now);
+      const cd = document.getElementById("countdown");
+      if (next) {
+        const s = Math.floor((next - now) / 1000);
+        cd.innerHTML = `Next kickoff in <b>${Math.floor(s / 3600)}h ${pad(Math.floor(s / 60) % 60)}m ${pad(s % 60)}s</b>`;
+      } else { cd.textContent = ""; }
+    };
+    tick();
+    setInterval(tick, 1000);
+
+    // Pick up fresh data: reload between scene changes, every ~6 minutes.
+    setTimeout(() => location.reload(), 6 * 60_000 - 3_000);
+  </script>
+</body>
+</html>
