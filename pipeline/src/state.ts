@@ -19,6 +19,8 @@ export interface Bet {
   odds: number;      // decimal odds for the pick
   reasoning: string; // published verbatim
   status: BetStatus;
+  settledResult?: Pick3 | "void";
+  settledScore?: string;
 }
 
 export interface SeriesPoint { t: string; bankroll: number; }

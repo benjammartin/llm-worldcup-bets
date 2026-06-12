@@ -40,4 +40,14 @@ describe("applySettlement", () => {
     expect(s.series["Claude"].length).toBe(2);
     expect(s.series["Claude"][1].bankroll).toBe(1_000);
   });
+
+  test("persists the settled result and score on every bet so the UI can explain all-lost matches", () => {
+    const s = initialState(["Claude"], 1_000, "2026-06-11T08:00:00Z");
+    const b = bet({ pick: "home" });
+    s.bets.push(b);
+    applySettlement(s, b, "away", "2026-06-11T18:00:00Z", "0-1");
+    expect(b.status).toBe("lost");
+    expect(b.settledResult).toBe("away");
+    expect(b.settledScore).toBe("0-1");
+  });
 });

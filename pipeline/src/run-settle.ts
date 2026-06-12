@@ -25,7 +25,7 @@ const settledMatches: { match: string; score: string; bets: typeof pending }[] =
 for (const fm of finished) {
   const bets = pending.filter((b) => b.status === "pending" && sameMatch(b.homeTeam, b.awayTeam, fm.homeTeam, fm.awayTeam));
   if (bets.length === 0) continue;
-  for (const b of bets) applySettlement(state, b, fm.result, now);
+  for (const b of bets) applySettlement(state, b, fm.result, now, fm.score);
   settledMatches.push({ match: bets[0].match, score: fm.score, bets });
 }
 

@@ -7,8 +7,10 @@ export function settleDelta(bet: Bet, result: MatchResult): number {
   return bet.pick === result ? bet.stake * (bet.odds - 1) : -bet.stake;
 }
 
-export function applySettlement(s: State, bet: Bet, result: MatchResult, t: string): void {
+export function applySettlement(s: State, bet: Bet, result: MatchResult, t: string, score?: string): void {
   bet.status = result === "void" ? "void" : bet.pick === result ? "won" : "lost";
+  bet.settledResult = result;
+  if (score) bet.settledScore = score;
   const next = Math.max(0, bankroll(s, bet.model) + settleDelta(bet, result));
   s.series[bet.model].push({ t, bankroll: Math.round(next * 100) / 100 });
 }

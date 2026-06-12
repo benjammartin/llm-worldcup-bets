@@ -87,17 +87,28 @@ const pnlText = (b: Bet) => {
   return `${pnl > 0 ? "+" : "−"}$${Math.round(Math.abs(pnl)).toLocaleString("en-US")}`;
 };
 const resultLabel = (b: Bet) => b.status === "won" ? "Won" : b.status === "lost" ? "Lost" : b.status === "void" ? "Void" : "Pending";
+const settledOutcomeLabel = (bets: Bet[]) => {
+  const result = bets.find((b) => b.settledResult)?.settledResult;
+  const score = bets.find((b) => b.settledScore)?.settledScore;
+  if (result && result !== "void") return `${pickText(result, bets[0])}${score ? ` wins ${score}` : " wins"}`;
+  if (result === "void") return score ? `Result voided ${score}` : "Result voided";
+  const winners = bets.filter((b) => b.status === "won");
+  if (winners.length > 0) return `${pickText(winners[0].pick, winners[0])} wins`;
+  const losingPicks = [...new Set(bets.filter((b) => b.status === "lost").map((b) => b.pick))];
+  if (losingPicks.length === 1) return `not ${pickText(losingPicks[0], bets[0])}`;
+  return "the winning result";
+};
 const settledInsight = (bets: Bet[]) => {
+  const outcome = settledOutcomeLabel(bets);
   const winners = bets.filter((b) => b.status === "won");
   const losses = bets.filter((b) => b.status === "lost");
   const voids = bets.filter((b) => b.status === "void");
   if (winners.length > 0) {
-    const winningPick = pickText(winners[0].pick, winners[0]);
     const biggestWin = [...winners].sort((a, b) => betPnl(b) - betPnl(a))[0];
-    return `Result: ${winningPick} wins · ${winners.length}/${bets.length} models cashed · biggest win: ${biggestWin.model} ${pnlText(biggestWin)} · ${losses.length} lost`;
+    return `Result: ${outcome} · ${winners.length}/${bets.length} models cashed · biggest win: ${biggestWin.model} ${pnlText(biggestWin)} · ${losses.length} lost`;
   }
-  if (voids.length === bets.length) return `Result voided · all ${bets.length} stakes returned`;
-  return `No model picked the winning result · all ${losses.length} settled bets lost`;
+  if (voids.length === bets.length) return `${outcome} · all ${bets.length} stakes returned`;
+  return `Result: ${outcome} · no model cashed · all ${losses.length} settled bets lost`;
 };
 const kickoff = (iso: string) =>
   new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
