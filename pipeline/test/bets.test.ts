@@ -13,7 +13,7 @@ const MODELS = [{ id: "test/model-a", name: "ModelA", color: "#fff" }];
 const NOW = "2026-06-11T08:00:00Z";
 
 describe("placeBets", () => {
-  test("records parsed bets with odds from the picked side and keeps LLM-chosen stakes within bankroll", async () => {
+  test("records parsed bets with odds from the picked side and caps each LLM-chosen stake at 25% of bankroll", async () => {
     const llm: LLMFn = async () =>
       `[{"matchId":"m1","pick":"home","stake":9000,"reasoning":"allez"},
         {"matchId":"m2","pick":"away","stake":1000,"reasoning":"upset"}]`;
@@ -21,7 +21,7 @@ describe("placeBets", () => {
     await placeBets(s, MATCHES, MODELS, llm, NOW);
     expect(s.bets).toHaveLength(2);
     expect(s.bets[0]).toMatchObject({
-      id: "m1:ModelA", pick: "home", stake: 9_000, odds: 1.8, status: "pending",
+      id: "m1:ModelA", pick: "home", stake: 2_500, odds: 1.8, status: "pending",
     });
     expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", odds: 6.0, stake: 1_000 });
   });
@@ -79,13 +79,13 @@ describe("placeBets", () => {
     expect(s.meta.failures[0].reason).toContain("missing bets for matchIds: m2");
   });
 
-  test("scales LLM-chosen stakes proportionally when the slate exceeds available bankroll", async () => {
+  test("caps every individual stake before proportional slate scaling", async () => {
     const llm: LLMFn = async () =>
       `[{"matchId":"m1","pick":"home","stake":9000,"reasoning":"strong"},
         {"matchId":"m2","pick":"home","stake":3000,"reasoning":"small"}]`;
     const s = initialState(["ModelA"], 10_000, NOW);
     await placeBets(s, MATCHES, MODELS, llm, NOW);
-    expect(s.bets.map((b) => b.stake)).toEqual([7_500, 2_500]);
+    expect(s.bets.map((b) => b.stake)).toEqual([2_500, 2_500]);
   });
 
   test("does not add new stake when existing pending stake already uses the bankroll", async () => {
@@ -122,6 +122,6 @@ describe("placeBets", () => {
     await placeBets(s, MATCHES, MODELS, llm, NOW);
 
     expect(s.bets).toHaveLength(2);
-    expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 3_000, pick: "away" });
+    expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 2_500, pick: "away" });
   });
 });

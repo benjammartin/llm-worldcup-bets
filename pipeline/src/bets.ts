@@ -1,3 +1,4 @@
+import { MAX_STAKE_RATIO } from "./config";
 import type { MatchOdds } from "./odds";
 import { extractBets, type RawBet } from "./parse";
 import { buildPrompt } from "./prompt";
@@ -32,7 +33,7 @@ export async function placeBets(
       continue;
     }
 
-    for (const r of normalizeStakes(raw, available)) {
+    for (const r of normalizeStakes(raw, available, roll)) {
       const match = byId.get(r.matchId);
       if (!match || s.bets.some((b) => b.id === `${r.matchId}:${model.name}`)) continue;
       const stake = r.stake;
@@ -62,11 +63,13 @@ async function attempt(llm: LLMFn, id: string, prompt: string, tries: number, re
   throw lastErr;
 }
 
-function normalizeStakes(raw: RawBet[], bankroll: number): RawBet[] {
-  const total = raw.reduce((sum, b) => sum + b.stake, 0);
-  if (total <= bankroll) return raw.map((b) => ({ ...b, stake: roundCents(b.stake) }));
-  const factor = bankroll / total;
-  return raw.map((b) => ({ ...b, stake: roundCents(b.stake * factor) }));
+function normalizeStakes(raw: RawBet[], availableCash: number, roll: number): RawBet[] {
+  const maxPerBet = Math.max(0, roll * MAX_STAKE_RATIO);
+  const capped = raw.map((b) => ({ ...b, stake: Math.min(b.stake, maxPerBet) }));
+  const total = capped.reduce((sum, b) => sum + b.stake, 0);
+  if (total <= availableCash) return capped.map((b) => ({ ...b, stake: roundCents(b.stake) }));
+  const factor = availableCash / total;
+  return capped.map((b) => ({ ...b, stake: roundCents(b.stake * factor) }));
 }
 
 function roundCents(n: number): number {

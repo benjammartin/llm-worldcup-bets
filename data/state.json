@@ -393,7 +393,7 @@
       "kickoff": "2026-06-13T01:00:00Z",
       "model": "GPT-5.5",
       "pick": "home",
-      "stake": 3500,
+      "stake": 1440.0,
       "odds": 1.93,
       "reasoning": "USA at home against Paraguay is not a free square, but 1.93 is attractive enough. Paraguay can be stubborn and physical, yet the US have more attacking depth and the venue advantage. I expect the USA to control more of the match and create the better chances, so I’m backing the home win.",
       "status": "pending"
@@ -423,7 +423,7 @@
       "kickoff": "2026-06-13T01:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 2500,
+      "stake": 1835.0,
       "odds": 1.93,
       "reasoning": "The USA, co-hosts of the tournament, possess a highly talented squad playing in front of a passionate home crowd. Paraguay is a gritty side but struggles to score goals consistently. Expecting the USMNT to secure a crucial victory at 1.93.",
       "status": "pending"
@@ -453,7 +453,7 @@
       "kickoff": "2026-06-13T01:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 5500,
+      "stake": 3295.0,
       "odds": 1.93,
       "reasoning": "USA is the stronger side and should handle Paraguay at home; 1.93 is fair given the quality gap.",
       "status": "pending"
@@ -483,7 +483,7 @@
       "kickoff": "2026-06-13T01:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 3402.56,
+      "stake": 850.64,
       "odds": 1.93,
       "reasoning": "USA are also co-hosts, boasting a talented squad with Champions League experience. Paraguay are defensively solid but lack firepower. The American crowd will be a 12th man. Expect a comfortable win.",
       "status": "pending"
@@ -513,7 +513,7 @@
       "kickoff": "2026-06-13T01:00:00Z",
       "model": "Mistral",
       "pick": "home",
-      "stake": 3000,
+      "stake": 1170.0,
       "odds": 1.93,
       "reasoning": "The USA is a strong favorite at home against Paraguay, with odds of 1.93 reflecting their superior squad depth and recent form. Paraguay has struggled in away matches, particularly against top-tier CONCACAF and CONMEBOL teams, and their defensive rigidity might play into the USA’s fast-paced attack. While the draw is tempting at 3.45, the USA’s home advantage and tactical flexibility make them the safer pick. I’m allocating a slightly smaller stake here compared to Canada’s match due to the slightly lower odds, but still high confidence.",
       "status": "pending"
