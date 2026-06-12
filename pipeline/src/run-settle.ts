@@ -33,7 +33,7 @@ if (settledMatches.length === 0) { console.log("[settle] nothing new"); process.
 
 state.meta.lastSettleRun = now;
 saveState(STATE_PATH, state);
-const png = renderPNG(chartSVG(state), FONT_PATH);
+const png = renderPNG(chartSVG(state, 1200, 630, { og: true }), FONT_PATH);
 mkdirSync(dirname(OG_PATH), { recursive: true });
 writeFileSync(OG_PATH, png);
 console.log(`[settle] settled ${settledMatches.length} match(es)`);

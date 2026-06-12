@@ -26,6 +26,6 @@ if (process.env.DRY_RUN) {
 } else {
   saveState(STATE_PATH, state);
   mkdirSync(dirname(OG_PATH), { recursive: true });
-  writeFileSync(OG_PATH, renderPNG(chartSVG(state), FONT_PATH));
+  writeFileSync(OG_PATH, renderPNG(chartSVG(state, 1200, 630, { og: true }), FONT_PATH));
   console.log(`[bets] saved ${state.bets.filter((b) => b.status === "pending").length} pending bets`);
 }
