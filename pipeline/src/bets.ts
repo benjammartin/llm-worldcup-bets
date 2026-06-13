@@ -13,6 +13,7 @@ export async function placeBets(
   models: ModelSpec[],
   llm: LLMFn,
   now: string,
+  fifaReportContext = "",
 ): Promise<void> {
   const byId = new Map(matches.map((m) => [m.matchId, m]));
 
@@ -23,7 +24,7 @@ export async function placeBets(
     const roll = bankroll(s, model.name);
     const locked = pendingStake(s, model.name);
     const available = Math.max(0, roll - locked);
-    const prompt = buildPrompt(model.name, roll, available, s.bets.filter((b) => b.model === model.name), fresh);
+    const prompt = buildPrompt(model.name, roll, available, s.bets.filter((b) => b.model === model.name), fresh, fifaReportContext);
 
     let raw;
     try {

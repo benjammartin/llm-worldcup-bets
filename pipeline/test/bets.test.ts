@@ -143,4 +143,19 @@ describe("placeBets", () => {
     expect(s.bets).toHaveLength(2);
     expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 2_500, pick: "away" });
   });
+
+  test("passes official FIFA report context into the model prompt when supplied", async () => {
+    let prompt = "";
+    const llm: LLMFn = async (_id, p) => {
+      prompt = p;
+      return `[{"matchId":"m1","pick":"home","stake":100,"reasoning":"fifa context"},
+        {"matchId":"m2","pick":"away","stake":200,"reasoning":"fifa context"}]`;
+    };
+    const s = initialState(["ModelA"], 10_000, NOW);
+
+    await placeBets(s, MATCHES, MODELS, llm, NOW, "Official FIFA Training Centre context");
+
+    expect(prompt).toContain("Official FIFA Training Centre context");
+    expect(prompt).toContain("odds remain the primary probability signal");
+  });
 });

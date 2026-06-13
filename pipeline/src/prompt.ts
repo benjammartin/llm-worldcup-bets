@@ -8,6 +8,7 @@ export function buildPrompt(
   availableCash: number,
   history: Bet[],
   matches: MatchOdds[],
+  fifaReportContext = "",
 ): string {
   const settled = history.filter((b) => b.status === "won" || b.status === "lost");
   const won = settled.filter((b) => b.status === "won").length;
@@ -30,7 +31,10 @@ ${recent}
 
 Upcoming matches with available odds:
 ${lines}
-
+${fifaReportContext ? `
+${fifaReportContext}
+Use it as qualitative context only; odds remain the primary probability signal.
+` : ""}
 Place your bets. Rules:
 - You MUST place exactly one bet for every listed match. Do not skip matches.
 - You decide the stake for each match. Allocate your available cash across the listed matches however you want; higher stake means higher confidence.
