@@ -29,7 +29,7 @@ export function composeUpdate(
   return `${head}${trimmedMoves}${tail}`;
 }
 
-export async function postToX(text: string, png: Buffer): Promise<void> {
+export async function postToX(text: string, png?: Buffer): Promise<void> {
   const { X_APP_KEY, X_APP_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET } = process.env;
   if (!X_APP_KEY || !X_APP_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_SECRET) {
     console.log("[post] X credentials missing — skipping post");
@@ -39,6 +39,10 @@ export async function postToX(text: string, png: Buffer): Promise<void> {
     appKey: X_APP_KEY, appSecret: X_APP_SECRET,
     accessToken: X_ACCESS_TOKEN, accessSecret: X_ACCESS_SECRET,
   });
-  const mediaId = await client.v1.uploadMedia(png, { mimeType: "image/png" });
-  await client.v2.tweet({ text, media: { media_ids: [mediaId] } });
+  if (png) {
+    const mediaId = await client.v1.uploadMedia(png, { mimeType: "image/png" });
+    await client.v2.tweet({ text, media: { media_ids: [mediaId] } });
+  } else {
+    await client.v2.tweet(text);
+  }
 }

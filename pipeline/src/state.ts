@@ -32,6 +32,7 @@ export interface State {
     promptVersion: number;
     lastBetsRun: string | null;
     lastSettleRun: string | null;
+    lastCyclePostKey?: string | null;
     failures: { date: string; model: string; reason: string }[];
   };
 }
@@ -40,7 +41,7 @@ export function initialState(names: string[], start: number, t: string): State {
   return {
     series: Object.fromEntries(names.map((n) => [n, [{ t, bankroll: start }]])),
     bets: [],
-    meta: { promptVersion: PROMPT_VERSION, lastBetsRun: null, lastSettleRun: null, failures: [] },
+    meta: { promptVersion: PROMPT_VERSION, lastBetsRun: null, lastSettleRun: null, lastCyclePostKey: null, failures: [] },
   };
 }
 
