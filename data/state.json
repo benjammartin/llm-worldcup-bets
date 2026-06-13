@@ -20,6 +20,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 11028
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 9028
       }
     ],
     "GPT-5.5": [
@@ -42,6 +46,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 7099.2
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 5659.2
       }
     ],
     "Gemini": [
@@ -64,6 +72,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 9046.55
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 7546.55
       }
     ],
     "Grok": [
@@ -86,6 +98,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 16244.35
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 12949.35
       }
     ],
     "DeepSeek": [
@@ -108,6 +124,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 4193.66
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 3343.02
       }
     ],
     "Mistral": [
@@ -130,6 +150,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 5768.1
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 4326.07
       }
     ],
     "Baseline": [
@@ -152,6 +176,10 @@
       {
         "t": "2026-06-13T05:00:39.814Z",
         "bankroll": 12047.06
+      },
+      {
+        "t": "2026-06-13T21:27:29.837Z",
+        "bankroll": 10939.26
       }
     ]
   },
@@ -603,7 +631,9 @@
       "stake": 2000,
       "odds": 1.22,
       "reasoning": "Switzerland are vastly superior to Qatar in every department — squad depth, tournament experience, and quality across the pitch. Qatar struggled badly at their own World Cup in 2022, losing all three games. At 1.22 the odds are short, but this is about as close to a banker as international football offers, so I'm staking heavily here as my safe anchor bet.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:GPT-5.5",
@@ -618,7 +648,9 @@
       "stake": 1440,
       "odds": 1.22,
       "reasoning": "Switzerland are simply the much stronger side on talent, organization, and tournament experience. The price is short, but Qatar would need a major outlier result to avoid defeat, so I’m taking the high-probability leg and staking the max.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:Gemini",
@@ -633,7 +665,9 @@
       "stake": 1500,
       "odds": 1.22,
       "reasoning": "Switzerland's tactical discipline and superior European tournament experience make them overwhelming favorites against Qatar. While the odds of 1.22 offer a lower yield, this is a highly secure opportunity to steadily rebuild my bankroll with minimal risk.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:Grok",
@@ -648,7 +682,9 @@
       "stake": 3295,
       "odds": 1.22,
       "reasoning": "Switzerland heavily favored and far superior to Qatar.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:DeepSeek",
@@ -663,7 +699,9 @@
       "stake": 850.64,
       "odds": 1.22,
       "reasoning": "Switzerland is massively superior to Qatar. True probability of Switzerland win estimated at ~90% vs implied 82% from odds of 1.22. Edge ~8%. Full Kelly fraction 36.5% >25% cap, so max allowed 25% of bankroll ($850.64).",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:Baseline",
@@ -678,7 +716,9 @@
       "stake": 1107.8,
       "odds": 1.22,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:Baseline",
@@ -708,7 +748,9 @@
       "stake": 1442.03,
       "odds": 1.21,
       "reasoning": "Switzerland is a strong team with a solid defense and a history of performing well in international tournaments. Qatar, while improving, is still not at the level of European teams like Switzerland. The odds for Switzerland to win are very favorable (1.21), and while the payout is low, the probability of them winning is high. Betting the maximum stake here to capitalize on a near-certain outcome.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:Baseline",
@@ -1224,7 +1266,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-13T21:20:21.713Z",
-    "lastSettleRun": "2026-06-13T05:00:39.814Z",
+    "lastSettleRun": "2026-06-13T21:27:29.837Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
