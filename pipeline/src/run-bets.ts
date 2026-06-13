@@ -6,7 +6,7 @@ import { chartSVG } from "./chart";
 import { BASELINE_NAME, FONT_PATH, MODELS, OG_PATH, SITE_URL, STATE_PATH } from "./config";
 import { callGateway } from "./gateway";
 import { fetchTodaysOdds } from "./odds";
-import { fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
+import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
 import { renderPNG } from "./og";
 import { postToX } from "./post";
 import { composeCycleShare } from "./share";
@@ -22,6 +22,13 @@ let fifaReportContext = "";
 if (odds.length > 0) {
   try {
     const reports = await fetchFifaReports();
+    for (const report of reports) {
+      try {
+        report.details = await fetchFifaReportDetails(report);
+      } catch (e) {
+        console.log(`[bets] FIFA report details unavailable for M${String(report.matchNo).padStart(2, "0")} — ${String(e)}`);
+      }
+    }
     fifaReportContext = formatFifaReportContext(odds, reports);
     console.log(`[bets] FIFA report context: ${fifaReportContext ? `${fifaReportContext.split("\n").length - 1} relevant reports` : "none relevant"}`);
   } catch (e) {

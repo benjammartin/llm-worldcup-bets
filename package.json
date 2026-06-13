@@ -10,6 +10,7 @@
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "ai": "^6.0.201",
+    "pdf-parse": "^2.4.5",
     "twitter-api-v2": "^1.29.0"
   },
   "devDependencies": {
