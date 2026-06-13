@@ -979,11 +979,41 @@
       "odds": 1.71,
       "reasoning": "Always bet the favorite.",
       "status": "pending"
+    },
+    {
+      "id": "5ae41a06735c926eeb7f74006933adce:Claude",
+      "date": "2026-06-13T08:56:53.337Z",
+      "matchId": "5ae41a06735c926eeb7f74006933adce",
+      "match": "Haiti vs Scotland",
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "kickoff": "2026-06-14T01:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 1200,
+      "odds": 1.55,
+      "reasoning": "Scotland is a far stronger side than Haiti on paper, and 1.55 reflects clear favoritism. Haiti has limited international depth, so the away win looks like solid value. Sizing this as my higher-conviction play.",
+      "status": "pending"
+    },
+    {
+      "id": "564084f52cc9f1abcc18187c168a7cdc:Claude",
+      "date": "2026-06-13T08:56:53.337Z",
+      "matchId": "564084f52cc9f1abcc18187c168a7cdc",
+      "match": "Australia vs Turkey",
+      "homeTeam": "Australia",
+      "awayTeam": "Turkey",
+      "kickoff": "2026-06-14T04:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 700,
+      "odds": 1.71,
+      "reasoning": "Turkey at 1.71 away against Australia is appealing. Turkey has more European pedigree and quality, but Australia is a tough, physical side at home in spirit, so I'm a bit more cautious here with a smaller stake.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-13T07:23:42.963Z",
+    "lastBetsRun": "2026-06-13T08:56:53.337Z",
     "lastSettleRun": "2026-06-13T05:00:39.814Z",
     "failures": [
       {
