@@ -487,62 +487,23 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
     <p class="hero-sub">Watch them bet, panic, and go broke.</p>
     <p class="hero-proof">AI gambling reality show: every 24h cycle, every model bets every World Cup match against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
-    <a class="hero-cta" href="#current-cycle">Watch today’s AI bets</a>
+    <a class="hero-cta" href="#current-cycle">Jump to today’s bets</a>
   </header>
 
-  <section class="stats-grid" aria-label="Live betting numbers">
-    <div class="stat-card"><b>6 AIs</b><span>public model roster</span></div>
+  <section class="stats-grid" aria-label="Bankroll and today's betting numbers">
+    <div class="stat-card"><b>{leader.name}</b><span>bankroll leader · {money(leader.roll)}</span></div>
     <div class="stat-card"><b>{money(STARTING_BANKROLL)}</b><span>starting bankroll each</span></div>
-    <div class="stat-card"><b>{pendingMatches.length} matches</b><span>current 24h cycle</span></div>
-    <div class="stat-card"><b>{money(totalPendingExposure)}</b><span>currently exposed</span></div>
+    <div class="stat-card"><b>{money(totalPendingExposure)}</b><span>exposed in today's bets</span></div>
     <div class="stat-card"><b>{pending.length}</b><span>live AI bets today</span></div>
+    <div class="stat-card"><b>{pendingMatches.length} matches</b><span>current 24h cycle</span></div>
     <div class="stat-card"><b>{money(totalModelLosses)}</b><span>lost by models so far</span></div>
-    <div class="stat-card"><b>1 baseline</b><span>dumb if-statement</span></div>
+    <div class="stat-card"><b>6 AIs</b><span>public model roster</span></div>
     <div class="stat-card"><b>{dumberThanBaseline.length}</b><span>AIs below baseline</span></div>
   </section>
 
-  <section class="storyline">
-    <div>
-      <p class="storyline-kicker">Today’s storyline</p>
-      <p class="storyline-title">{storylineTitle}</p>
-      <p class="storyline-body">{storylineBody}</p>
-    </div>
-    <a class="storyline-cta" href={dailyShareUrl} target="_blank" rel="noopener">Share today’s AI picks</a>
-  </section>
-
-  <section class="drama-grid">
-    <div class="drama-card">
-      <p class="drama-kicker">Today’s stupidest bet</p>
-      {stupidestBet ? (
-        <>
-          <p class="drama-title">{stupidestBet.model} put {money(stupidestBet.stake)} on {pickText(stupidestBet.pick, stupidestBet)}.</p>
-          <p class="drama-copy">If it loses, {stupidestBet.model} drops to roughly #{stupidestIfLosesRank}. Consensus or collective hallucination?</p>
-        </>
-      ) : (
-        <>
-          <p class="drama-title">No live stupidity yet.</p>
-          <p class="drama-copy">The next 24h cycle opens at 09:00 UTC.</p>
-        </>
-      )}
-    </div>
-    <div class="baseline-card">
-      <p class="drama-kicker">The dumb baseline</p>
-      <p class="drama-title">Always bets 10% on the favorite.</p>
-      <p class="drama-copy">Any AI below it is officially <b>dumber than an if-statement</b>. Current shame list: {dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "nobody — yet"}.</p>
-    </div>
-  </section>
-
+  <!-- Priority order: bankroll/leaderboard first, then today's bets. Viral/shame modules are below the fold. -->
   <section>
-    <h2>AI shame board <span class="count">· screenshot bait</span></h2>
-    <div class="shame-board">
-      {shameRows.map((row) => (
-        <div class="shame-item"><b>{row.label}</b><span>{row.value}</span></div>
-      ))}
-    </div>
-  </section>
-
-  <section>
-    <h2>Leaderboard <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
+    <h2>Bankroll leaderboard <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
     <div class="standings">
       {standings.map((s, i) => (
         <div class={`standing${i === 0 ? " first" : ""}`} style={`--c:${COLORS[s.name] ?? "#fff"}`}>
@@ -583,7 +544,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section id="current-cycle">
-    <h2>Current 24h betting cycle <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
+    <h2>Today’s bets <span class="count">· current 24h cycle · {pending.length} bets / {pendingMatches.length} matches</span></h2>
     <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
     {pendingMatches.map((bets) => (
       <div class="match">
@@ -620,6 +581,47 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       </div>
     ))}
     {pending.length === 0 && <p class="failures">No active 24h cycle bets — next slate opens at 09:00 UTC.</p>}
+  </section>
+
+
+  <section class="storyline">
+    <div>
+      <p class="storyline-kicker">Today’s storyline</p>
+      <p class="storyline-title">{storylineTitle}</p>
+      <p class="storyline-body">{storylineBody}</p>
+    </div>
+    <a class="storyline-cta" href={dailyShareUrl} target="_blank" rel="noopener">Share today’s AI picks</a>
+  </section>
+
+  <section class="drama-grid">
+    <div class="drama-card">
+      <p class="drama-kicker">Today’s stupidest bet</p>
+      {stupidestBet ? (
+        <>
+          <p class="drama-title">{stupidestBet.model} put {money(stupidestBet.stake)} on {pickText(stupidestBet.pick, stupidestBet)}.</p>
+          <p class="drama-copy">If it loses, {stupidestBet.model} drops to roughly #{stupidestIfLosesRank}. Consensus or collective hallucination?</p>
+        </>
+      ) : (
+        <>
+          <p class="drama-title">No live stupidity yet.</p>
+          <p class="drama-copy">The next 24h cycle opens at 09:00 UTC.</p>
+        </>
+      )}
+    </div>
+    <div class="baseline-card">
+      <p class="drama-kicker">The dumb baseline</p>
+      <p class="drama-title">Always bets 10% on the favorite.</p>
+      <p class="drama-copy">Any AI below it is officially <b>dumber than an if-statement</b>. Current shame list: {dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "nobody — yet"}.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>AI shame board <span class="count">· screenshot bait</span></h2>
+    <div class="shame-board">
+      {shameRows.map((row) => (
+        <div class="shame-item"><b>{row.label}</b><span>{row.value}</span></div>
+      ))}
+    </div>
   </section>
 
   <section>
