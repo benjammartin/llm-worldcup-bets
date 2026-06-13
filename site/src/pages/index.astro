@@ -37,6 +37,10 @@ const standings = Object.keys(state.series)
   .map((name) => ({ name, roll: bankroll(state, name), delta: bankroll(state, name) - STARTING_BANKROLL }));
 const maxAbsDelta = Math.max(100, ...standings.map((s) => Math.abs(s.delta)));
 const leader = standings[0];
+const baselineStanding = standings.find((s) => s.name === BASELINE_NAME);
+const dumberThanBaseline = baselineStanding
+  ? standings.filter((s) => s.name !== BASELINE_NAME && s.roll < baselineStanding.roll)
+  : [];
 
 const pending = state.bets.filter((b) => b.status === "pending")
   .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
@@ -78,6 +82,7 @@ const matchInsight = (bets: Bet[]) => {
     : `Split: ${split}`;
   return `${verdict} · biggest stake: ${biggest.model} ${money(biggest.stake)}`;
 };
+const totalPendingExposure = pending.reduce((sum, b) => sum + b.stake, 0);
 const resultOrder: Record<Bet["status"], number> = { won: 0, lost: 1, void: 2, pending: 3 };
 const settledBetRows = (bets: Bet[]) =>
   [...bets].sort((a, b) => resultOrder[a.status] - resultOrder[b.status] || b.stake - a.stake || a.model.localeCompare(b.model));
@@ -87,6 +92,30 @@ const pnlText = (b: Bet) => {
   if (pnl === 0) return "$0";
   return `${pnl > 0 ? "+" : "−"}$${Math.round(Math.abs(pnl)).toLocaleString("en-US")}`;
 };
+const lostBets = settled.filter((b) => b.status === "lost");
+const modelLostBets = lostBets.filter((b) => b.model !== BASELINE_NAME);
+const totalModelLosses = modelLostBets.reduce((sum, b) => sum + b.stake, 0);
+const biggestLoss = [...modelLostBets].sort((a, b) => b.stake - a.stake)[0];
+const biggestPendingStake = [...pending.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.stake - a.stake)[0];
+const mostCowardly = [...pending.filter((b) => b.model !== BASELINE_NAME && b.stake > 0)].sort((a, b) => a.stake - b.stake)[0];
+const worstOddsTaken = [...state.bets.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.odds - a.odds)[0];
+const longestExcuse = [...state.bets.filter((b) => b.model !== BASELINE_NAME && b.reasoning)].sort((a, b) => b.reasoning.length - a.reasoning.length)[0];
+const stupidestBet = biggestPendingStake ?? biggestLoss;
+const stupidestIfLosesRank = stupidestBet
+  ? [...standings.filter((s) => s.name !== stupidestBet.model), {
+      name: stupidestBet.model,
+      roll: bankroll(state, stupidestBet.model) - stupidestBet.stake,
+      delta: bankroll(state, stupidestBet.model) - stupidestBet.stake - STARTING_BANKROLL,
+    }].sort((a, b) => b.roll - a.roll).findIndex((s) => s.name === stupidestBet.model) + 1
+  : 0;
+const shameRows = [
+  biggestLoss && { label: "Biggest disaster", value: `${biggestLoss.model} lost ${money(biggestLoss.stake)} on ${pickText(biggestLoss.pick, biggestLoss)}.` },
+  worstOddsTaken && { label: "Worst odds taken", value: `${worstOddsTaken.model} took ${worstOddsTaken.odds.toFixed(2)} on ${pickText(worstOddsTaken.pick, worstOddsTaken)}.` },
+  mostCowardly && { label: "Most cowardly", value: `${mostCowardly.model} risked only ${money(mostCowardly.stake)} on ${pickText(mostCowardly.pick, mostCowardly)}.` },
+  biggestPendingStake && { label: "Most overconfident", value: `${biggestPendingStake.model} put ${money(biggestPendingStake.stake)} on ${pickText(biggestPendingStake.pick, biggestPendingStake)}.` },
+  longestExcuse && { label: "Most human-sounding excuse", value: `${longestExcuse.model}: “${longestExcuse.reasoning.slice(0, 112)}${longestExcuse.reasoning.length > 112 ? "…" : ""}”` },
+  { label: "Dumber than baseline", value: dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "Nobody — for now." },
+].filter(Boolean) as { label: string; value: string }[];
 const resultLabel = (b: Bet) => b.status === "won" ? "Won" : b.status === "lost" ? "Lost" : b.status === "void" ? "Void" : "Pending";
 const settledOutcomeLabel = (bets: Bet[]) => {
   const result = bets.find((b) => b.settledResult)?.settledResult;
@@ -144,11 +173,11 @@ const jsonLd = {
   "@type": "WebSite",
   name: "LLM World Cup Bets",
   url: canonicalUrl,
-  description: "6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt.",
+  description: "We gave 6 AIs $10,000 each to bet on the World Cup. Watch the AI gambling reality show: live bankrolls, stupid bets, shame board, verbatim reasoning.",
   image: ogImageUrl,
   inLanguage: "en",
   isAccessibleForFree: true,
-  about: ["World Cup 2026", "AI predictions", "sports betting simulation"],
+  about: ["World Cup 2026", "AI gambling reality show", "AI predictions", "sports betting simulation"],
 };
 const youtubeLiveUrl = "https://youtube.com/live/FYYYwyMgcKU?feature=share";
 const dailyShareText = encodeURIComponent(`${storylineTitle}: ${storylineBody}`);
@@ -168,19 +197,19 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LLM World Cup Bets — 6 AIs, $10,000 each</title>
-  <meta name="description" content="6 AIs bet virtual money on each 24-hour cycle of World Cup 2026 matches against real bookmaker odds. Live bankrolls, verbatim reasoning, public prompt." />
+  <title>6 AIs. $10,000 each. One World Cup.</title>
+  <meta name="description" content="We gave 6 AIs $10,000 each to bet on the World Cup. Watch them bet, panic, and go broke: live bankrolls, stupid bets, shame board, and verbatim reasoning." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href={canonicalUrl} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:site_name" content="LLM World Cup Bets" />
-  <meta property="og:title" content="LLM World Cup Bets" />
-  <meta property="og:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
+  <meta property="og:title" content="6 AIs. $10,000 each. One World Cup." />
+  <meta property="og:description" content="Watch the AI gambling reality show: live World Cup bets, stupid losses, and a dumb if-statement baseline humiliating models." />
   <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="LLM World Cup Bets" />
-  <meta name="twitter:description" content="6 AIs, $10,000 each, betting on each 24-hour slate of World Cup matches. Who goes broke first?" />
+  <meta name="twitter:title" content="6 AIs. $10,000 each. One World Cup." />
+  <meta name="twitter:description" content="Watch them bet, panic, and go broke. AI World Cup gambling reality show." />
   <meta name="twitter:image" content={ogImageUrl} />
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <style>
@@ -225,6 +254,15 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     @media (prefers-reduced-motion: reduce) { .youtube-track { animation: none; } }
 
     header { padding: 28px 0 6px; }
+    .hero { padding: 34px 0 12px; }
+    .hero h1 { font-size: clamp(34px, 8.4vw, 76px); line-height: .94; letter-spacing: -.055em; margin: 0; max-width: 980px; }
+    .hero h1 .accent { color: var(--amber); }
+    .hero-sub { color: var(--txt); max-width: 820px; margin: 16px 0 12px; font-size: clamp(17px, 3vw, 25px); line-height: 1.25; }
+    .hero-sub b { color: var(--amber); }
+    .hero-proof { color: var(--dim); max-width: 760px; margin: 0 0 18px; font-size: 13px; }
+    .hero-cta { display: inline-flex; align-items: center; border: 1px solid var(--amber); background: var(--amber); color: #050607;
+      border-radius: 999px; padding: 11px 16px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
+    .hero-cta:hover { text-decoration: none; filter: brightness(1.06); }
     h1 { font-size: clamp(26px, 6vw, 44px); line-height: 1.05; letter-spacing: -.01em; margin: 0; }
     h1 .accent { color: var(--amber); }
     .tagline { color: var(--dim); max-width: 760px; margin: 12px 0 14px; font-size: clamp(13px, 2.6vw, 14px); }
@@ -241,6 +279,21 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .storyline-body { color: var(--dim); margin: 0; max-width: 780px; }
     .storyline-cta { border: 1px solid var(--amber); color: var(--amber); border-radius: 999px; padding: 9px 13px;
       text-transform: uppercase; letter-spacing: .08em; font-size: 11px; white-space: nowrap; }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 8px; }
+    .stat-card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+    .stat-card b { display: block; color: var(--txt); font-size: clamp(18px, 3.2vw, 26px); line-height: 1.05; }
+    .stat-card span { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+    .drama-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: 12px; margin-top: 12px; }
+    .drama-card { background: linear-gradient(135deg, rgba(239,68,68,.12), rgba(13,15,18,.96) 45%); border: 1px solid color-mix(in srgb, var(--down) 36%, var(--line)); border-radius: 10px; padding: 16px; }
+    .drama-kicker { color: var(--down); margin: 0 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; font-weight: 700; }
+    .drama-title { margin: 0 0 10px; font-size: clamp(20px, 4vw, 34px); line-height: 1.05; font-weight: 700; }
+    .drama-copy { color: var(--dim); margin: 0; }
+    .baseline-card { background: linear-gradient(135deg, rgba(245,158,11,.10), rgba(13,15,18,.96) 48%); border: 1px solid color-mix(in srgb, var(--amber) 32%, var(--line)); border-radius: 10px; padding: 16px; }
+    .baseline-card b { color: var(--amber); }
+    .shame-board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .shame-item { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
+    .shame-item b { color: var(--amber); display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 6px; }
+    .shame-item span { color: var(--txt); }
 
     h2 { color: var(--txt); font-size: 13px; text-transform: uppercase; letter-spacing: .14em;
       margin: 40px 0 12px; display: flex; align-items: center; gap: 10px; }
@@ -344,6 +397,11 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     @media (max-width: 560px) {
       body { padding: 0 10px; font-size: 13px; }
       header { padding-top: 18px; }
+      .hero { padding-top: 22px; }
+      .hero h1 { font-size: clamp(38px, 13vw, 58px); }
+      .hero-sub { font-size: 17px; }
+      .stats-grid, .drama-grid, .shame-board { grid-template-columns: 1fr; }
+      .stat-card { padding: 10px; }
       .ticker { gap: 10px; font-size: 10px; }
       .youtube-marquee { margin-top: 10px; border-radius: 10px; }
       .youtube-track { animation-duration: 14s; }
@@ -425,11 +483,23 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     </span>
   </a>
 
-  <header>
-    <h1>LLM WORLD CUP<br/><span class="accent">BETS</span> ⚽</h1>
-    <p class="tagline">6 AIs entered the World Cup with <b>$10,000</b> each. Bets open in <b>24-hour cycles</b>: for each cycle, every model picks every match kicking off in the next 24h and chooses its own stake against real bookmaker odds.</p>
-    <p class="cycle-note">Reasoning is published <b>verbatim</b>. Results settle on the 90-minute score. Highest bankroll on July 19 wins.</p>
+  <header class="hero">
+    <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
+    <p class="hero-sub">Watch them bet, panic, and go broke.</p>
+    <p class="hero-proof">AI gambling reality show: every 24h cycle, every model bets every World Cup match against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
+    <a class="hero-cta" href="#current-cycle">Watch today’s AI bets</a>
   </header>
+
+  <section class="stats-grid" aria-label="Live betting numbers">
+    <div class="stat-card"><b>6 AIs</b><span>public model roster</span></div>
+    <div class="stat-card"><b>{money(STARTING_BANKROLL)}</b><span>starting bankroll each</span></div>
+    <div class="stat-card"><b>{pendingMatches.length} matches</b><span>current 24h cycle</span></div>
+    <div class="stat-card"><b>{money(totalPendingExposure)}</b><span>currently exposed</span></div>
+    <div class="stat-card"><b>{pending.length}</b><span>live AI bets today</span></div>
+    <div class="stat-card"><b>{money(totalModelLosses)}</b><span>lost by models so far</span></div>
+    <div class="stat-card"><b>1 baseline</b><span>dumb if-statement</span></div>
+    <div class="stat-card"><b>{dumberThanBaseline.length}</b><span>AIs below baseline</span></div>
+  </section>
 
   <section class="storyline">
     <div>
@@ -438,6 +508,37 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       <p class="storyline-body">{storylineBody}</p>
     </div>
     <a class="storyline-cta" href={dailyShareUrl} target="_blank" rel="noopener">Share today’s AI picks</a>
+  </section>
+
+  <section class="drama-grid">
+    <div class="drama-card">
+      <p class="drama-kicker">Today’s stupidest bet</p>
+      {stupidestBet ? (
+        <>
+          <p class="drama-title">{stupidestBet.model} put {money(stupidestBet.stake)} on {pickText(stupidestBet.pick, stupidestBet)}.</p>
+          <p class="drama-copy">If it loses, {stupidestBet.model} drops to roughly #{stupidestIfLosesRank}. Consensus or collective hallucination?</p>
+        </>
+      ) : (
+        <>
+          <p class="drama-title">No live stupidity yet.</p>
+          <p class="drama-copy">The next 24h cycle opens at 09:00 UTC.</p>
+        </>
+      )}
+    </div>
+    <div class="baseline-card">
+      <p class="drama-kicker">The dumb baseline</p>
+      <p class="drama-title">Always bets 10% on the favorite.</p>
+      <p class="drama-copy">Any AI below it is officially <b>dumber than an if-statement</b>. Current shame list: {dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "nobody — yet"}.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>AI shame board <span class="count">· screenshot bait</span></h2>
+    <div class="shame-board">
+      {shameRows.map((row) => (
+        <div class="shame-item"><b>{row.label}</b><span>{row.value}</span></div>
+      ))}
+    </div>
   </section>
 
   <section>
@@ -481,7 +582,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <div class="chart chart-mobile" set:html={svgMobile} />
   </section>
 
-  <section>
+  <section id="current-cycle">
     <h2>Current 24h betting cycle <span class="count">· {pending.length} bets / {pendingMatches.length} matches</span></h2>
     <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
     {pendingMatches.map((bets) => (
@@ -556,9 +657,10 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <footer>
-    Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
-    Odds: median across ~25 bookmakers (the-odds-api). Results: football-data.org, settled on the 90-minute score.<br/>
-    <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
+    <strong>Built because benchmarks are boring. Let the models lose money instead.</strong><br/>
+    Share this with someone who thinks AI is rational. Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
+    Odds: median across ~25 bookmakers. Results: football-data.org, settled on the 90-minute score.<br/>
+    <a href={shareUrl} target="_blank" rel="noopener">Share the AI carnage</a> · <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>
 </body>
 </html>

@@ -63,55 +63,57 @@ function ogSVG(s: State, w: number, h: number): string {
   const counts = { home: 0, draw: 0, away: 0 } as Record<Pick3, number>;
   for (const b of headlineBets) counts[b.pick] += 1;
   const topPick = (Object.entries(counts) as [Pick3, number][]).sort((a, b) => b[1] - a[1])[0];
-  const headline = headlineMatch && topPick?.[1]
-    ? `${headlineMatch.homeTeam} vs ${headlineMatch.awayTeam}: ${topPick[1]}/${headlineBets.length} pick ${pickText(topPick[0], headlineMatch)}`
-    : "Next 24h slate loading";
+  const biggestLoss = [...s.bets.filter((b) => b.status === "lost" && b.model !== BASELINE_NAME)].sort((a, b) => b.stake - a.stake)[0];
+  const biggestPending = [...pending.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.stake - a.stake)[0];
+  const thumbnailBet = biggestLoss ?? biggestPending;
+  const mainHeadline = thumbnailBet
+    ? biggestLoss
+      ? `${thumbnailBet.model} JUST LOST ${fmt(thumbnailBet.stake)}`
+      : `${thumbnailBet.model} BET ${fmt(thumbnailBet.stake)} ON ${pickText(thumbnailBet.pick, thumbnailBet).toUpperCase()}`
+    : "6 AIs ARE BETTING $10,000";
+  const subHeadline = headlineMatch && topPick?.[1]
+    ? `${headlineMatch.homeTeam} vs ${headlineMatch.awayTeam} · ${topPick[1]}/${headlineBets.length} pick ${pickText(topPick[0], headlineMatch)}`
+    : "Watch them bet, panic, and go broke";
 
-  const rows = standings.slice(0, 6).map((r, i) => {
-    const y = 214 + i * 52;
+  const rows = standings.slice(0, 4).map((r, i) => {
+    const y = 386 + i * 30;
     const color = COLORS[r.name] ?? "#fff";
     const deltaColor = r.delta >= 0 ? "#22c55e" : "#ef4444";
     return `<g>
-      <text x="72" y="${y}" fill="#6b7280" font-size="22" font-weight="700">${i + 1}</text>
-      <circle cx="118" cy="${y - 7}" r="10" fill="${color}"/>
-      <text x="142" y="${y}" fill="#f9fafb" font-size="30" font-weight="700">${xml(r.name)}</text>
-      <text x="430" y="${y}" fill="#f9fafb" font-size="30" font-weight="700" text-anchor="end">${fmt(r.roll)}</text>
-      <text x="460" y="${y}" fill="${deltaColor}" font-size="20" font-weight="700">${signed(r.delta)}</text>
+      <text x="624" y="${y}" fill="#6b7280" font-size="22" font-weight="700">${i + 1}</text>
+      <circle cx="670" cy="${y - 7}" r="10" fill="${color}"/>
+      <text x="694" y="${y}" fill="#f9fafb" font-size="30" font-weight="700">${xml(r.name)}</text>
+      <text x="982" y="${y}" fill="#f9fafb" font-size="30" font-weight="700" text-anchor="end">${fmt(r.roll)}</text>
+      <text x="1012" y="${y}" fill="${deltaColor}" font-size="20" font-weight="700">${signed(r.delta)}</text>
     </g>`;
   }).join("");
 
-  const [headlineA, headlineB = ""] = truncate(headline, 54).replace(": ", ":| ").split("|");
-
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-family="Space Mono, monospace">
-  <rect width="${w}" height="${h}" fill="#050607"/>
-  <rect x="32" y="28" width="1136" height="574" rx="34" fill="#0d0f12" stroke="#1c2128" stroke-width="2"/>
-  <text x="70" y="82" fill="#f59e0b" font-size="22" font-weight="700" letter-spacing="3">LIVE 24H SLATE</text>
-  <text x="70" y="130" fill="#f9fafb" font-size="42" font-weight="800">LLM World Cup Bets</text>
-  <text x="70" y="166" fill="#8b949e" font-size="20">Current bankrolls + pending bets</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22070a"/>
+      <stop offset="0.46" stop-color="#050607"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="${w}" height="${h}" fill="url(#bg)"/>
+  <rect x="28" y="24" width="1144" height="582" rx="34" fill="rgba(5,6,7,.72)" stroke="#f59e0b" stroke-width="3"/>
+  <text x="70" y="88" fill="#f59e0b" font-size="26" font-weight="800" letter-spacing="4">AI WORLD CUP BETS</text>
+  <text x="70" y="166" fill="#f9fafb" font-size="58" font-weight="900">${xml(truncate(mainHeadline, 34))}</text>
+  <text x="70" y="220" fill="#f9fafb" font-size="38" font-weight="800">6 AIs · $10,000 each · one World Cup</text>
+  <text x="70" y="260" fill="#8b949e" font-size="24">${xml(truncate(subHeadline, 70))}</text>
 
-  <text x="72" y="214" fill="#8b949e" font-size="16" letter-spacing="2">RANK</text>
-  <text x="142" y="214" fill="#8b949e" font-size="16" letter-spacing="2">MODEL</text>
-  <text x="430" y="214" fill="#8b949e" font-size="16" letter-spacing="2" text-anchor="end">BANKROLL</text>
-  <text x="460" y="214" fill="#8b949e" font-size="16" letter-spacing="2">P/L</text>
-  <g transform="translate(0 48)">${rows}</g>
+  <rect x="70" y="306" width="470" height="170" rx="24" fill="#111827" stroke="#263241"/>
+  <text x="104" y="356" fill="#8b949e" font-size="20" font-weight="800">CURRENT CARNAGE</text>
+  <text x="104" y="410" fill="#f9fafb" font-size="42" font-weight="900">${xml(fmt(totalPending))} exposed</text>
+  <text x="104" y="450" fill="#f59e0b" font-size="25" font-weight="800">${matchIds.size} matches · ${pending.length} live bets</text>
 
-  <rect x="650" y="74" width="452" height="140" rx="24" fill="#111827" stroke="#263241"/>
-  <text x="682" y="116" fill="#8b949e" font-size="18" font-weight="700">CURRENT LEADER</text>
-  <text x="682" y="164" fill="#f9fafb" font-size="42" font-weight="800">${xml(leader.name)}</text>
-  <text x="1068" y="164" fill="#f9fafb" font-size="38" font-weight="800" text-anchor="end">${fmt(leader.roll)}</text>
-  <text x="1068" y="194" fill="${leader.delta >= 0 ? "#22c55e" : "#ef4444"}" font-size="22" font-weight="800" text-anchor="end">${signed(leader.delta)}</text>
+  <rect x="590" y="306" width="510" height="170" rx="24" fill="#0a0a0a" stroke="#1c2128"/>
+  <text x="624" y="356" fill="#8b949e" font-size="20" font-weight="800">LEADERBOARD SNAPSHOT</text>
+  <g>${rows}</g>
 
-  <rect x="650" y="238" width="452" height="140" rx="24" fill="#0a0a0a" stroke="#1c2128"/>
-  <text x="682" y="280" fill="#f59e0b" font-size="22" font-weight="800">${matchIds.size} matches · ${pending.length} pending bets</text>
-  <text x="682" y="322" fill="#f9fafb" font-size="30" font-weight="800">${xml(fmt(totalPending))} exposed</text>
-  <text x="682" y="356" fill="#8b949e" font-size="18">${xml(topExposure ? `Most exposed: ${topExposure[0]} ${fmt(topExposure[1])}` : "No exposure yet")}</text>
-
-  <rect x="650" y="402" width="452" height="126" rx="24" fill="#0a0a0a" stroke="#1c2128"/>
-  <text x="682" y="442" fill="#8b949e" font-size="18" font-weight="700">TOP STORY</text>
-  <text x="682" y="480" fill="#f9fafb" font-size="23" font-weight="700">${xml(headlineA)}</text>
-  <text x="682" y="512" fill="#f9fafb" font-size="23" font-weight="700">${xml(headlineB)}</text>
-
-  <text x="70" y="570" fill="#555e6a" font-size="18">llmworldcup.xyz</text>
+  <text x="70" y="548" fill="#f59e0b" font-size="24" font-weight="800">If your favorite AI can’t beat an if-statement, should it run your company?</text>
+  <text x="70" y="582" fill="#555e6a" font-size="20">llmworldcup.xyz</text>
 </svg>`;
 }
 
