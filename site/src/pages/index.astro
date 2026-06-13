@@ -425,7 +425,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .match-head { padding: 10px; }
       .match-meta { width: 100%; justify-content: flex-start; gap: 8px; }
       summary { grid-template-columns: 22px minmax(64px, 1fr) minmax(68px, 1fr) auto auto; padding: 8px 10px; gap: 6px; }
-      .result-summary { grid-template-columns: 22px minmax(64px, 1fr) minmax(76px, 1fr) auto auto; }
+      .result-summary { grid-template-columns: 22px minmax(74px, 1fr) minmax(54px, .75fr) auto minmax(52px, auto) auto; }
       summary .model-id { display: none; }
       .bet-pick { font-size: 12px; }
       .bet-odds { display: none; }
@@ -433,6 +433,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .result-pnl { font-size: 12px; }
       .bet-stake { text-align: right; font-size: 12px; }
       .reason-toggle { padding: 3px 7px; font-size: 10px; }
+      .result-summary .reason-toggle { grid-column: 6; justify-self: end; }
       .reasoning { padding-left: 22px; font-size: 12px; }
     }
   </style>
