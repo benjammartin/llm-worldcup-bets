@@ -167,7 +167,6 @@ const storylineBody = pending.length === 0 || !headlineMatch
   : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed across the cycle.` : ""}`;
 const canonicalUrl = `${SITE_URL}/`;
 const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
-const shareTargetUrl = `${SITE_URL}?card=${ogImageVersion}`;
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -180,13 +179,6 @@ const jsonLd = {
   about: ["World Cup 2026", "AI gambling reality show", "AI predictions", "sports betting simulation"],
 };
 const youtubeLiveUrl = "https://youtube.com/live/FYYYwyMgcKU?feature=share";
-const dailyShareText = encodeURIComponent(`${storylineTitle}: ${storylineBody}`);
-const dailyShareUrl = `https://twitter.com/intent/tweet?text=${dailyShareText}&url=${encodeURIComponent(shareTargetUrl)}`;
-
-const shareText = encodeURIComponent(
-  `6 AIs get $10,000 each and bet on the next 24h cycle of World Cup matches. Current leader: ${leader.name} (${money(leader.roll)}).`
-);
-const shareUrl = `https://twitter.com/intent/tweet?text=${shareText}&url=${encodeURIComponent(shareTargetUrl)}`;
 const POSTHOG_KEY = import.meta.env.PUBLIC_POSTHOG_KEY ?? "";
 const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworldcup.xyz";
 ---
@@ -267,15 +259,13 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .cycle-note { color: var(--faint); max-width: 760px; margin: 0 0 8px; font-size: 12px; }
     .cycle-note b { color: var(--amber); }
 
-    .storyline { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 18px;
+    .storyline { display: block;
       background: linear-gradient(135deg, rgba(245,158,11,.12), rgba(13,15,18,.92) 45%);
       border: 1px solid color-mix(in srgb, var(--amber) 34%, var(--line)); border-radius: 8px;
       padding: 15px 16px; margin: 18px 0 2px; }
     .storyline-kicker { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .14em; margin: 0 0 5px; }
     .storyline-title { font-size: clamp(16px, 3.6vw, 22px); line-height: 1.15; margin: 0 0 7px; font-weight: 700; }
     .storyline-body { color: var(--dim); margin: 0; max-width: 780px; }
-    .storyline-cta { border: 1px solid var(--amber); color: var(--amber); border-radius: 999px; padding: 9px 13px;
-      text-transform: uppercase; letter-spacing: .08em; font-size: 11px; white-space: nowrap; }
     .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 8px; }
     .stat-card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
     .stat-card b { display: block; color: var(--txt); font-size: clamp(18px, 3.2vw, 26px); line-height: 1.05; }
@@ -320,11 +310,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .baseline-note { color: var(--faint); font-size: 12px; margin: 10px 2px 0; }
     .baseline-note b { color: var(--dim); }
 
-    .share { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
-    .share a, .share button { background: transparent; border: 1px solid var(--line); color: var(--dim);
-      border-radius: 4px; padding: 8px 14px; font: inherit; font-size: 12px; text-transform: uppercase;
-      letter-spacing: .08em; cursor: pointer; text-decoration: none; }
-    .share a:hover, .share button:hover { border-color: var(--amber); color: var(--amber); }
 
     .chart { overflow: hidden; }
     :global(.chart svg) { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
@@ -401,9 +386,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .ticker .lead { display: none; }
       h2 { margin-top: 26px; font-size: 12px; gap: 7px; }
       h2 .count { display: none; }
-      .storyline { grid-template-columns: 1fr; gap: 12px; padding: 12px; margin-top: 14px; }
+      .storyline { padding: 12px; margin-top: 14px; }
       .storyline-body { font-size: 12px; }
-      .storyline-cta { justify-self: start; }
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta, .cycle-risk { display: none; }
       .standing .model-id { display: none; }
@@ -437,9 +421,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
         person_profiles: "identified_only",
       });
       document.addEventListener("click", function (e) {
-        var share = e.target.closest && e.target.closest(".share a");
-        if (share) posthog.capture("share_x_clicked");
-
         var youtube = e.target.closest && e.target.closest(".youtube-marquee");
         if (youtube) posthog.capture("youtube_live_clicked");
       });
@@ -519,10 +500,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       ))}
     </div>
     <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
-    <div class="share">
-      <a href={shareUrl} target="_blank" rel="noopener">𝕏 Share leaderboard</a>
-      <button onclick="navigator.clipboard.writeText(location.href).then(()=>{this.textContent='Copied ✓';setTimeout(()=>this.textContent='Copy link',1500)})">Copy link</button>
-    </div>
   </section>
 
   <section>
@@ -567,12 +544,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
 
   <section class="storyline">
-    <div>
-      <p class="storyline-kicker">Today’s storyline</p>
-      <p class="storyline-title">{storylineTitle}</p>
-      <p class="storyline-body">{storylineBody}</p>
-    </div>
-    <a class="storyline-cta" href={dailyShareUrl} target="_blank" rel="noopener">Share today’s AI picks</a>
+    <p class="storyline-kicker">Today’s storyline</p>
+    <p class="storyline-title">{storylineTitle}</p>
+    <p class="storyline-body">{storylineBody}</p>
   </section>
 
   <section class="drama-grid">
@@ -642,9 +616,9 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <footer>
     <strong>Built because benchmarks are boring. Let the models lose money instead.</strong><br/>
-    Share this with someone who thinks AI is rational. Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
+    Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
     Odds: median across ~25 bookmakers. Results: football-data.org, settled on the 90-minute score.<br/>
-    <a href={shareUrl} target="_blank" rel="noopener">Share the AI carnage</a> · <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
+    <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>
 </body>
 </html>
