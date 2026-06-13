@@ -2,7 +2,7 @@ import { MAX_STAKE_RATIO } from "./config";
 import type { MatchOdds } from "./odds";
 import { extractBets, type RawBet } from "./parse";
 import { buildPrompt } from "./prompt";
-import { bankroll, pendingStake, type State } from "./state";
+import { bankroll, type State } from "./state";
 
 export type LLMFn = (modelId: string, prompt: string) => Promise<string>;
 export interface ModelSpec { id: string; fallbackIds?: string[]; name: string; color: string; }
@@ -18,25 +18,28 @@ export async function placeBets(
   const byId = new Map(matches.map((m) => [m.matchId, m]));
 
   for (const model of models) {
-    const fresh = matches.filter((m) => !s.bets.some((b) => b.id === `${m.matchId}:${model.name}`));
-    if (fresh.length === 0) continue;
+    const editable = matches.filter((m) => canPlaceOrReplace(s, model.name, m.matchId, m.kickoff, now));
+    if (editable.length === 0) continue;
 
+    const editableIds = new Set(editable.map((m) => m.matchId));
     const roll = bankroll(s, model.name);
-    const locked = pendingStake(s, model.name);
+    const locked = lockedPendingStake(s, model.name, editableIds);
     const available = Math.max(0, roll - locked);
-    const prompt = buildPrompt(model.name, roll, available, s.bets.filter((b) => b.model === model.name), fresh, fifaReportContext);
+    const prompt = buildPrompt(model.name, roll, available, s.bets.filter((b) => b.model === model.name), editable, fifaReportContext);
 
     let raw;
     try {
-      raw = await attempt(llm, [model.id, ...(model.fallbackIds ?? [])], prompt, 2, fresh.map((m) => m.matchId));
+      raw = await attempt(llm, [model.id, ...(model.fallbackIds ?? [])], prompt, 2, editable.map((m) => m.matchId));
     } catch (e) {
       s.meta.failures.push({ date: now, model: model.name, reason: String(e) });
       continue;
     }
 
+    s.bets = s.bets.filter((b) => !(b.model === model.name && editableIds.has(b.matchId) && b.status === "pending"));
+
     for (const r of normalizeStakes(raw, available, roll)) {
       const match = byId.get(r.matchId);
-      if (!match || s.bets.some((b) => b.id === `${r.matchId}:${model.name}`)) continue;
+      if (!match || !editableIds.has(r.matchId)) continue;
       const stake = r.stake;
       if (stake <= 0) continue;
       s.bets.push({
@@ -77,6 +80,18 @@ function normalizeStakes(raw: RawBet[], availableCash: number, roll: number): Ra
 
 function roundCents(n: number): number {
   return Math.round(n * 100) / 100;
+}
+
+function canPlaceOrReplace(s: State, model: string, matchId: string, kickoff: string, now: string): boolean {
+  if (Date.parse(kickoff) <= Date.parse(now)) return false;
+  const existing = s.bets.find((b) => b.id === `${matchId}:${model}`);
+  return !existing || existing.status === "pending";
+}
+
+function lockedPendingStake(s: State, model: string, editableIds: Set<string>): number {
+  return s.bets
+    .filter((b) => b.model === model && b.status === "pending" && !editableIds.has(b.matchId))
+    .reduce((sum, b) => sum + b.stake, 0);
 }
 
 function assertAllMatchesBet(raw: { matchId: string }[], requiredMatchIds: string[]) {

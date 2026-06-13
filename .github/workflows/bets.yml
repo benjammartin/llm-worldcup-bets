@@ -1,7 +1,7 @@
 name: morning-bets
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6h UTC; idempotent, only new matches get fresh bets
+    - cron: "0 */3 * * *"  # Every 3h UTC; open pre-kickoff bets can be rebalanced
   workflow_dispatch: {}
 concurrency: { group: state-writes, cancel-in-progress: false }
 permissions: { contents: write }

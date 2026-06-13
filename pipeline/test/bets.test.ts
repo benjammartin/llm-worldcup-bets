@@ -107,27 +107,36 @@ describe("placeBets", () => {
     expect(s.bets.map((b) => b.stake)).toEqual([2_500, 2_500]);
   });
 
-  test("does not add new stake when existing pending stake already uses the bankroll", async () => {
+  test("replaces unstarted pending bets so a model can rebalance before kickoff", async () => {
     let prompt = "";
     const llm: LLMFn = async (_id, p) => {
       prompt = p;
-      return `[{"matchId":"m2","pick":"away","stake":2500,"reasoning":"still must pick"}]`;
+      return `[{"matchId":"m1","pick":"draw","stake":1500,"reasoning":"rebalance old"},
+        {"matchId":"m2","pick":"away","stake":2500,"reasoning":"add new"}]`;
     };
     const s = initialState(["ModelA"], 10_000, NOW);
     s.bets.push({
-      id: "m1:ModelA", date: NOW, matchId: "m1", match: "France vs Spain",
+      id: "m1:ModelA", date: "2026-06-11T07:00:00Z", matchId: "m1", match: "France vs Spain",
       homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z",
       model: "ModelA", pick: "home", stake: 10_000, odds: 1.8,
-      reasoning: "already committed", status: "pending",
+      reasoning: "all-in before later match appeared", status: "pending",
     });
 
     await placeBets(s, MATCHES, MODELS, llm, NOW);
 
-    expect(prompt).toContain("Available cash for new bets: $0.00");
-    expect(s.bets).toHaveLength(1);
+    expect(prompt).toContain("Available cash for open bets: $10000.00");
+    expect(s.bets).toHaveLength(2);
+    expect(s.bets.find((b) => b.matchId === "m1")).toMatchObject({
+      id: "m1:ModelA", pick: "draw", stake: 1_500, odds: 3.5,
+      reasoning: "rebalance old", date: NOW,
+    });
+    expect(s.bets.find((b) => b.matchId === "m2")).toMatchObject({
+      id: "m2:ModelA", pick: "away", stake: 2_500, odds: 6,
+    });
   });
 
-  test("scales new stakes against available cash after existing pending stake", async () => {
+  test("keeps already-started pending bets locked and scales only against remaining cash", async () => {
+    const afterM1Kickoff = "2026-06-11T17:00:00Z";
     const llm: LLMFn = async () =>
       `[{"matchId":"m2","pick":"away","stake":5000,"reasoning":"use available"}]`;
     const s = initialState(["ModelA"], 10_000, NOW);
@@ -135,12 +144,13 @@ describe("placeBets", () => {
       id: "m1:ModelA", date: NOW, matchId: "m1", match: "France vs Spain",
       homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z",
       model: "ModelA", pick: "home", stake: 7_000, odds: 1.8,
-      reasoning: "already committed", status: "pending",
+      reasoning: "locked after kickoff", status: "pending",
     });
 
-    await placeBets(s, MATCHES, MODELS, llm, NOW);
+    await placeBets(s, MATCHES, MODELS, llm, afterM1Kickoff);
 
     expect(s.bets).toHaveLength(2);
+    expect(s.bets[0]).toMatchObject({ id: "m1:ModelA", stake: 7_000, pick: "home" });
     expect(s.bets[1]).toMatchObject({ id: "m2:ModelA", stake: 2_500, pick: "away" });
   });
 

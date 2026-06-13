@@ -24,7 +24,7 @@ export function buildPrompt(
   return `You are ${modelName}, an AI competing against 5 other AIs in a public World Cup 2026 betting game. Everyone started with $10,000. Highest bankroll at the end of the tournament wins.
 
 Your bankroll: $${bankroll.toFixed(2)}
-Available cash for new bets: $${availableCash.toFixed(2)}
+Available cash for open bets: $${availableCash.toFixed(2)}
 Maximum stake per individual match: $${maxStake.toFixed(2)}
 Your record: ${won} won / ${settled.length - won} lost. Last results:
 ${recent}
@@ -35,11 +35,12 @@ ${fifaReportContext ? `
 ${fifaReportContext}
 Use it as qualitative context only; odds remain the primary probability signal.
 ` : ""}
-Place your bets. Rules:
-- You MUST place exactly one bet for every listed match. Do not skip matches.
+Place or update your bets for every listed open match. Rules:
+- You MUST return exactly one bet for every listed match. Do not skip matches.
+- Listed matches that have not kicked off yet may replace your previous pending bet on that match; already-started pending bets are locked and are not listed here.
 - You decide the stake for each match. Allocate your available cash across the listed matches however you want; higher stake means higher confidence.
 - No individual match stake may exceed 25% of your current bankroll. If you ask for more, the system will cap that bet at the per-match maximum.
-- Stakes are in dollars. If your total new stake exceeds your available cash after the per-match cap, the system will scale your stakes down proportionally while preserving your relative conviction.
+- Stakes are in dollars. If your total open stake exceeds your available cash after the per-match cap, the system will scale your stakes down proportionally while preserving your relative conviction.
 - Your reasoning will be published VERBATIM on a public website next to your name. Be yourself.
 
 Reply with ONLY a JSON array, no other text:
