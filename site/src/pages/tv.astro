@@ -43,7 +43,10 @@ const byMatch = (bets: Bet[]) => {
   for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
   return [...m.values()];
 };
+const chunks = <T,>(items: T[], size: number): T[][] =>
+  Array.from({ length: Math.ceil(items.length / size) }, (_, i) => items.slice(i * size, i * size + size));
 const pendingMatches = byMatch(pending);
+const pendingMatchPages = chunks(pendingMatches, 2);
 const settledMatches = byMatch(settled);
 
 const pickLabel = (b: Bet) =>
@@ -212,11 +215,14 @@ const ticker = pending.map((b) =>
       <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
     </section>
 
-    {pendingMatches.length > 0 && (
-      <section class="scene" id="scene-bets">
-        <h2>Current 24h cycle <span class="count">· {pending.length} live bets</span></h2>
-        <div class={`matches${pendingMatches.length === 1 ? " single" : ""}`}>
-          {pendingMatches.slice(0, 4).map((bets) => (
+    {pendingMatchPages.map((matchPage, pageIndex) => (
+      <section class="scene" id={`scene-bets-${pageIndex + 1}`}>
+        <h2>
+          Current 24h cycle
+          <span class="count">· {pending.length} live bets · page {pageIndex + 1}/{pendingMatchPages.length}</span>
+        </h2>
+        <div class={`matches${matchPage.length === 1 ? " single" : ""}`}>
+          {matchPage.map((bets) => (
             <div class="match">
               <h3>{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} vs {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</h3>
               <p class="ko">kicks off {kickoffShort(bets[0].kickoff)}</p>
@@ -233,7 +239,7 @@ const ticker = pending.map((b) =>
           ))}
         </div>
       </section>
-    )}
+    ))}
 
     {quoteBets.length > 0 && (
       <section class="scene" id="scene-quote">
