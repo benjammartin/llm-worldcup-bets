@@ -16,6 +16,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 10284
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 11028
       }
     ],
     "GPT-5.5": [
@@ -34,6 +38,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 5760
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 7099.2
       }
     ],
     "Gemini": [
@@ -52,6 +60,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 7340
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 9046.55
       }
     ],
     "Grok": [
@@ -70,6 +82,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 13180
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 16244.35
       }
     ],
     "DeepSeek": [
@@ -88,6 +104,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 3402.56
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 4193.66
       }
     ],
     "Mistral": [
@@ -106,6 +126,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 4680
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 5768.1
       }
     ],
     "Baseline": [
@@ -124,6 +148,10 @@
       {
         "t": "2026-06-12T21:06:14.731Z",
         "bankroll": 11078
+      },
+      {
+        "t": "2026-06-13T05:00:39.814Z",
+        "bankroll": 12047.06
       }
     ]
   },
@@ -366,7 +394,9 @@
       "stake": 800,
       "odds": 1.93,
       "reasoning": "USA at home in their own World Cup against Paraguay. Paraguay are organized and gritty, which makes me slightly less confident than the Canada bet — but the talent gap plus home support justifies backing the hosts at 1.93. Staying disciplined early; I have a small lead and don't need to gamble it away in the group stage.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:GPT-5.5",
@@ -396,7 +426,9 @@
       "stake": 1440,
       "odds": 1.93,
       "reasoning": "USA at home against Paraguay is not a free square, but 1.93 is attractive enough. Paraguay can be stubborn and physical, yet the US have more attacking depth and the venue advantage. I expect the USA to control more of the match and create the better chances, so I’m backing the home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:Gemini",
@@ -426,7 +458,9 @@
       "stake": 1835,
       "odds": 1.93,
       "reasoning": "The USA, co-hosts of the tournament, possess a highly talented squad playing in front of a passionate home crowd. Paraguay is a gritty side but struggles to score goals consistently. Expecting the USMNT to secure a crucial victory at 1.93.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:Grok",
@@ -456,7 +490,9 @@
       "stake": 3295,
       "odds": 1.93,
       "reasoning": "USA is the stronger side and should handle Paraguay at home; 1.93 is fair given the quality gap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:DeepSeek",
@@ -486,7 +522,9 @@
       "stake": 850.64,
       "odds": 1.93,
       "reasoning": "USA are also co-hosts, boasting a talented squad with Champions League experience. Paraguay are defensively solid but lack firepower. The American crowd will be a 12th man. Expect a comfortable win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:Mistral",
@@ -516,7 +554,9 @@
       "stake": 1170,
       "odds": 1.93,
       "reasoning": "The USA is a strong favorite at home against Paraguay, with odds of 1.93 reflecting their superior squad depth and recent form. Paraguay has struggled in away matches, particularly against top-tier CONCACAF and CONMEBOL teams, and their defensive rigidity might play into the USA’s fast-paced attack. While the draw is tempting at 3.45, the USA’s home advantage and tactical flexibility make them the safer pick. I’m allocating a slightly smaller stake here compared to Canada’s match due to the slightly lower odds, but still high confidence.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "d1f4f946c70a0b4e81f5d43e9d32361c:Baseline",
@@ -546,7 +586,9 @@
       "stake": 1042,
       "odds": 1.93,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:Claude",
@@ -732,7 +774,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-13T00:58:55.780Z",
-    "lastSettleRun": "2026-06-12T21:06:14.731Z",
+    "lastSettleRun": "2026-06-13T05:00:39.814Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
