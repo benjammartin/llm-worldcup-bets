@@ -55,6 +55,25 @@ describe("placeBets", () => {
     expect(s.meta.failures[0].model).toBe("ModelA");
   });
 
+  test("falls back to alternate model ids when the primary provider id is unavailable", async () => {
+    const called: string[] = [];
+    const llm: LLMFn = async (id) => {
+      called.push(id);
+      if (id === "primary/missing") throw new Error("GatewayModelNotFoundError");
+      return `[{"matchId":"m1","pick":"home","stake":100,"reasoning":"a"},
+        {"matchId":"m2","pick":"away","stake":200,"reasoning":"b"}]`;
+    };
+    const s = initialState(["ModelA"], 10_000, NOW);
+
+    await placeBets(s, MATCHES, [
+      { id: "primary/missing", fallbackIds: ["fallback/working"], name: "ModelA", color: "#fff" },
+    ], llm, NOW);
+
+    expect(called).toEqual(["primary/missing", "primary/missing", "fallback/working"]);
+    expect(s.bets.map((b) => b.id)).toEqual(["m1:ModelA", "m2:ModelA"]);
+    expect(s.meta.failures).toHaveLength(0);
+  });
+
   test("retries when a model skips one of today's matches", async () => {
     let calls = 0;
     const llm: LLMFn = async () => {

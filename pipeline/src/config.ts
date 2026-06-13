@@ -1,5 +1,10 @@
 export const MODELS = [
-  { id: "anthropic/claude-opus-4.8",    name: "Claude",  color: "#d97706" },
+  {
+    id: "anthropic/claude-opus-4.8",
+    fallbackIds: ["anthropic/claude-sonnet-4.5", "anthropic/claude-sonnet-4"],
+    name: "Claude",
+    color: "#d97706",
+  },
   { id: "openai/gpt-5.5",              name: "GPT-5.5", color: "#10a37f" },
   { id: "google/gemini-3.5-flash",     name: "Gemini",  color: "#4285f4" },
   { id: "xai/grok-4.3",                name: "Grok",    color: "#e5e7eb" },

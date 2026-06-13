@@ -5,7 +5,7 @@ import { buildPrompt } from "./prompt";
 import { bankroll, pendingStake, type State } from "./state";
 
 export type LLMFn = (modelId: string, prompt: string) => Promise<string>;
-export interface ModelSpec { id: string; name: string; color: string; }
+export interface ModelSpec { id: string; fallbackIds?: string[]; name: string; color: string; }
 
 export async function placeBets(
   s: State,
@@ -27,7 +27,7 @@ export async function placeBets(
 
     let raw;
     try {
-      raw = await attempt(llm, model.id, prompt, 2, fresh.map((m) => m.matchId));
+      raw = await attempt(llm, [model.id, ...(model.fallbackIds ?? [])], prompt, 2, fresh.map((m) => m.matchId));
     } catch (e) {
       s.meta.failures.push({ date: now, model: model.name, reason: String(e) });
       continue;
@@ -50,15 +50,17 @@ export async function placeBets(
   s.meta.lastBetsRun = now;
 }
 
-async function attempt(llm: LLMFn, id: string, prompt: string, tries: number, requiredMatchIds: string[]) {
+async function attempt(llm: LLMFn, ids: string[], prompt: string, tries: number, requiredMatchIds: string[]) {
   let lastErr: unknown;
-  for (let i = 0; i < tries; i++) {
-    try {
-      const bets = extractBets(await llm(id, prompt));
-      assertAllMatchesBet(bets, requiredMatchIds);
-      return bets;
+  for (const id of ids) {
+    for (let i = 0; i < tries; i++) {
+      try {
+        const bets = extractBets(await llm(id, prompt));
+        assertAllMatchesBet(bets, requiredMatchIds);
+        return bets;
+      }
+      catch (e) { lastErr = e; }
     }
-    catch (e) { lastErr = e; }
   }
   throw lastErr;
 }
