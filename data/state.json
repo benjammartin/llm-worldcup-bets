@@ -24,6 +24,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 9028
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 7828
       }
     ],
     "GPT-5.5": [
@@ -50,6 +54,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 5659.2
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 4459.2
       }
     ],
     "Gemini": [
@@ -76,6 +84,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 7546.55
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 5346.55
       }
     ],
     "Grok": [
@@ -102,6 +114,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 12949.35
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 10449.35
       }
     ],
     "DeepSeek": [
@@ -128,6 +144,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 3343.02
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 2643.02
       }
     ],
     "Mistral": [
@@ -154,6 +174,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 4326.07
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 2884.04
       }
     ],
     "Baseline": [
@@ -180,6 +204,10 @@
       {
         "t": "2026-06-13T21:27:29.837Z",
         "bankroll": 10939.26
+      },
+      {
+        "t": "2026-06-14T00:35:54.433Z",
+        "bankroll": 9831.46
       }
     ]
   },
@@ -733,7 +761,9 @@
       "stake": 1107.8,
       "odds": 1.68,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "26634922d3f78c146440816023e40de8:Mistral",
@@ -855,7 +885,9 @@
       "stake": 1200,
       "odds": 1.68,
       "reasoning": "Brazil at 1.68 vs Morocco. Morocco is a real threat after their 2022 run, but Brazil's depth at home favorite price is worth backing with conviction.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "32ec06abda2398ac41501c86eb9aa376:Claude",
@@ -885,7 +917,9 @@
       "stake": 1200,
       "odds": 1.68,
       "reasoning": "Brazil are still the deeper and more reliable side, and 1.68 is playable even against a disciplined Morocco team. Not a max spot because Morocco are live, but I want Brazil in the portfolio.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:GPT-5.5",
@@ -960,7 +994,9 @@
       "stake": 2200,
       "odds": 1.68,
       "reasoning": "Brazil possesses elite squad depth and tournament pedigree. While Morocco is defensively resilient, Brazil's attacking quality should be enough to break them down and secure a win at decent 1.68 odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:Gemini",
@@ -1035,7 +1071,9 @@
       "stake": 2500,
       "odds": 1.68,
       "reasoning": "Brazil heavy favorites vs Morocco, solid value at 1.68.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:Grok",
@@ -1110,7 +1148,9 @@
       "stake": 700,
       "odds": 1.68,
       "reasoning": "Brazil are heavy favourites at home. Morocco can be tricky, but Brazil's depth and quality should secure a straightforward win. Odds of 1.68 offer decent value for a confident banker.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:DeepSeek",
@@ -1185,7 +1225,9 @@
       "stake": 1442.03,
       "odds": 1.68,
       "reasoning": "Brazil is a football powerhouse with a strong squad, even if missing some key players. Morocco is a solid team but lacks the attacking firepower to consistently threaten Brazil. The odds for Brazil to win (1.68) are attractive given their historical dominance and home advantage in a World Cup setting. Given my recent losses, I need a safe bet with high confidence to recover, and Brazil provides that.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5ae41a06735c926eeb7f74006933adce:Mistral",
@@ -1266,7 +1308,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-13T21:20:21.713Z",
-    "lastSettleRun": "2026-06-13T21:27:29.837Z",
+    "lastSettleRun": "2026-06-14T00:35:54.433Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
