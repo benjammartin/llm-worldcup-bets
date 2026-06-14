@@ -1204,6 +1204,32 @@
         "model": "Mistral",
         "reason": "Error: missing bets for matchIds: d79edbd6aaeb578d33e313446b18d333"
       }
+    ],
+    "upcomingMatches": [
+      {
+        "matchId": "d79edbd6aaeb578d33e313446b18d333",
+        "homeTeam": "Germany",
+        "awayTeam": "Curaçao",
+        "kickoff": "2026-06-14T17:00:00Z"
+      },
+      {
+        "matchId": "32ec06abda2398ac41501c86eb9aa376",
+        "homeTeam": "Netherlands",
+        "awayTeam": "Japan",
+        "kickoff": "2026-06-14T20:00:00Z"
+      },
+      {
+        "matchId": "05752bb341e197001387b64f3a06b9b2",
+        "homeTeam": "Ivory Coast",
+        "awayTeam": "Ecuador",
+        "kickoff": "2026-06-14T23:00:00Z"
+      },
+      {
+        "matchId": "b55f9569de3f4d731bc5537ff5ff43e4",
+        "homeTeam": "Sweden",
+        "awayTeam": "Tunisia",
+        "kickoff": "2026-06-15T02:00:00Z"
+      }
     ]
   }
 }
