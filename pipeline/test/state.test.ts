@@ -2,7 +2,7 @@ import { describe, expect, test } from "bun:test";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
-  initialState, loadState, saveState, bankroll, pendingStake, type State,
+  initialState, loadState, saveState, bankroll, pendingStake, rememberUpcomingMatches, type State,
 } from "../src/state";
 
 const T0 = "2026-06-11T08:00:00Z";
@@ -40,5 +40,17 @@ describe("state", () => {
     );
     expect(bankroll(s, "Claude")).toBe(8_000);
     expect(pendingStake(s, "Claude")).toBe(500);
+  });
+
+  test("rememberUpcomingMatches stores the visible upcoming schedule without stale started matches", () => {
+    const s = initialState(["Claude"], 10_000, T0);
+    rememberUpcomingMatches(s, [
+      { matchId: "started", homeTeam: "Old", awayTeam: "Game", kickoff: "2026-06-11T07:59:59Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "next", homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z", odds: { home: 1.8, draw: 3.5, away: 4 } },
+    ], T0);
+
+    expect(s.meta.upcomingMatches).toEqual([
+      { matchId: "next", homeTeam: "France", awayTeam: "Spain", kickoff: "2026-06-11T16:00:00Z" },
+    ]);
   });
 });

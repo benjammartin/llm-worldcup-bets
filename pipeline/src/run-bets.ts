@@ -10,13 +10,14 @@ import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } fro
 import { renderPNG } from "./og";
 import { postToX } from "./post";
 import { composeCycleShare } from "./share";
-import { loadState, saveState } from "./state";
+import { loadState, rememberUpcomingMatches, saveState } from "./state";
 
 const now = new Date().toISOString();
 const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
 const state = loadState(STATE_PATH, names, now);
 
 const allOdds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
+rememberUpcomingMatches(state, allOdds, now);
 const odds = matchesInBettingWindow(allOdds, new Date(now));
 console.log(`[bets] ${allOdds.length} matches in the next 24h; ${odds.length} in the pre-kickoff betting window`);
 const pruned = prunePrematurePendingBets(state, odds, now);

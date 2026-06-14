@@ -61,6 +61,10 @@ const byMatch = (bets: Bet[]) => {
 };
 const pendingMatches = byMatch(pending);
 const settledMatches = byMatch(settled);
+const upcomingMatches = (state.meta.upcomingMatches ?? [])
+  .filter((m) => Date.parse(m.kickoff) > Date.now())
+  .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
+const visibleMatchCount = pending.length > 0 ? pendingMatches.length : upcomingMatches.length;
 const badge = (s: string) => s === "won" ? "✅" : s === "lost" ? "❌" : s === "void" ? "↩︎" : "⏳";
 const pickLabel = (b: Bet) =>
   b.pick === "draw" ? "🤝 Draw"
@@ -152,19 +156,19 @@ const topExposure = Object.entries(modelCycleStats)
   .sort((a, b) => b[1].exposure - a[1].exposure)[0];
 const biggestSwing = [...pending].sort((a, b) => b.odds - a.odds)[0];
 const cycleSummary = pending.length === 0
-  ? "No live bets right now — the next 24h slate opens at 09:00 UTC."
-  : `${pendingMatches.length} matches in this 24h cycle · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
+  ? "No live bets right now — upcoming matches are listed below; AI bets open 30 minutes before kickoff."
+  : `${pendingMatches.length} matches currently open · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
 const mobileCycleSummary = pending.length === 0
-  ? "Next slate opens at 09:00 UTC."
+  ? "Bets open 30 min before kickoff."
   : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
 const headlineMatch = pendingMatches[0];
 const matchTitle = (bets: Bet[]) => `${flagOf(bets[0].homeTeam)} ${bets[0].homeTeam} vs ${bets[0].awayTeam} ${flagOf(bets[0].awayTeam)}`;
 const storylineTitle = pending.length === 0
-  ? "Waiting for the next slate"
+  ? "Waiting for the betting window"
   : "Today’s AI picks are in";
 const storylineBody = pending.length === 0 || !headlineMatch
-  ? "The next 24h betting cycle opens at 09:00 UTC. Come back for the models’ picks, stakes, and verbatim reasoning."
-  : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed across the cycle.` : ""}`;
+  ? "Upcoming matches stay visible, but the models only place bets in the final 30 minutes before kickoff. Come back then for picks, stakes, and verbatim reasoning."
+  : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed on open matches.` : ""}`;
 const canonicalUrl = `${SITE_URL}/`;
 const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
 const jsonLd = {
@@ -328,6 +332,10 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .cycle-summary { color: var(--dim); background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
       padding: 10px 12px; margin: -4px 0 12px; font-size: 13px; }
     .match-insight { color: var(--faint); border-bottom: 1px solid #14171c; padding: 8px 14px; font-size: 12px; }
+    .upcoming-card { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; margin-bottom: 8px; padding: 11px 14px;
+      display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+    .upcoming-card .match-title { font-size: 14px; }
+    .upcoming-status { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
 
     details { border-top: 1px solid #14171c; }
     details:first-of-type { border-top: none; }
@@ -438,7 +446,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <div class="ticker">
     <span class="live">Live</span>
     <span>Matchday {matchday}/39</span>
-    <span>24h betting cycle</span>
+    <span>Bets open T-30 min</span>
     <span>{pending.length} pending bets</span>
     <span class="lead">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
   </div>
@@ -455,8 +463,8 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <header class="hero">
     <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
     <p class="hero-sub">Watch them bet, panic, and go broke.</p>
-    <p class="hero-proof">AI gambling reality show: every 24h cycle, every model bets every World Cup match against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
-    <a class="hero-cta" href="#current-cycle">Jump to today’s bets</a>
+    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 30 minutes before kickoff against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
+    <a class="hero-cta" href="#current-cycle">Jump to matches</a>
   </header>
 
   <section class="stats-grid" aria-label="Bankroll and today's betting numbers">
@@ -464,7 +472,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <div class="stat-card"><b>{money(STARTING_BANKROLL)}</b><span>starting bankroll each</span></div>
     <div class="stat-card"><b>{money(totalPendingExposure)}</b><span>exposed in today's bets</span></div>
     <div class="stat-card"><b>{pending.length}</b><span>live AI bets today</span></div>
-    <div class="stat-card"><b>{pendingMatches.length} matches</b><span>current 24h cycle</span></div>
+    <div class="stat-card"><b>{visibleMatchCount} matches</b><span>{pending.length > 0 ? "open betting window" : "upcoming schedule"}</span></div>
     <div class="stat-card"><b>{money(totalModelLosses)}</b><span>lost by models so far</span></div>
     <div class="stat-card"><b>6 AIs</b><span>public model roster</span></div>
     <div class="stat-card"><b>{dumberThanBaseline.length}</b><span>AIs below baseline</span></div>
@@ -509,7 +517,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section id="current-cycle">
-    <h2>Today’s bets <span class="count">· current 24h cycle · {pending.length} bets / {pendingMatches.length} matches</span></h2>
+    <h2>Today’s matches <span class="count">· bets open 30 min before kickoff · {pending.length} bets / {visibleMatchCount} matches</span></h2>
     <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
     {pendingMatches.map((bets) => (
       <div class="match">
@@ -539,7 +547,16 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
         ))}
       </div>
     ))}
-    {pending.length === 0 && <p class="failures">No active 24h cycle bets — next slate opens at 09:00 UTC.</p>}
+    {pending.length === 0 && upcomingMatches.map((m) => (
+      <div class="upcoming-card">
+        <span class="match-title">{flagOf(m.homeTeam)} {m.homeTeam} <span class="vs">vs</span> {m.awayTeam} {flagOf(m.awayTeam)}</span>
+        <span class="match-meta">
+          <span class="match-ko">kicks off {kickoff(m.kickoff)}</span>
+          <span class="upcoming-status">AI bets open 30 min before kickoff</span>
+        </span>
+      </div>
+    ))}
+    {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 30 minutes before kickoff.</p>}
   </section>
 
 
@@ -560,7 +577,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       ) : (
         <>
           <p class="drama-title">No live stupidity yet.</p>
-          <p class="drama-copy">The next 24h cycle opens at 09:00 UTC.</p>
+          <p class="drama-copy">Bets open 30 minutes before the next kickoff.</p>
         </>
       )}
     </div>
@@ -616,7 +633,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <footer>
     <strong>Built because benchmarks are boring. Let the models lose money instead.</strong><br/>
-    Virtual money only — not financial advice. Bets are generated per 24-hour match cycle using the same prompt for every model.
+    Virtual money only — not financial advice. Bets are generated 30 minutes before each kickoff using the same prompt for every model.
     Odds: median across ~25 bookmakers. Results: football-data.org, settled on the 90-minute score.<br/>
     <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>

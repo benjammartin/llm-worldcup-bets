@@ -1,6 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { PROMPT_VERSION, STARTING_BANKROLL } from "./config";
+import type { MatchOdds } from "./odds";
 
 export type Pick3 = "home" | "draw" | "away";
 export type BetStatus = "pending" | "won" | "lost" | "void";
@@ -24,6 +25,7 @@ export interface Bet {
 }
 
 export interface SeriesPoint { t: string; bankroll: number; }
+export interface UpcomingMatch { matchId: string; homeTeam: string; awayTeam: string; kickoff: string; }
 
 export interface State {
   series: Record<string, SeriesPoint[]>;
@@ -33,6 +35,7 @@ export interface State {
     lastBetsRun: string | null;
     lastSettleRun: string | null;
     lastCyclePostKey?: string | null;
+    upcomingMatches?: UpcomingMatch[];
     failures: { date: string; model: string; reason: string }[];
   };
 }
@@ -53,6 +56,19 @@ export function loadState(path: string, names: string[], t: string): State {
 export function saveState(path: string, s: State): void {
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, JSON.stringify(s, null, 2) + "\n");
+}
+
+export function rememberUpcomingMatches(s: State, matches: MatchOdds[], now: string): void {
+  const nowMs = Date.parse(now);
+  s.meta.upcomingMatches = matches
+    .filter((m) => Date.parse(m.kickoff) > nowMs)
+    .sort((a, b) => a.kickoff.localeCompare(b.kickoff))
+    .map((m) => ({
+      matchId: m.matchId,
+      homeTeam: m.homeTeam,
+      awayTeam: m.awayTeam,
+      kickoff: m.kickoff,
+    }));
 }
 
 export function bankroll(s: State, model: string): number {
