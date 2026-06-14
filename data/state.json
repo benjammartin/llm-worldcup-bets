@@ -28,6 +28,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 7828
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 8638
       }
     ],
     "GPT-5.5": [
@@ -58,6 +62,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 4459.2
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 5269.2
       }
     ],
     "Gemini": [
@@ -88,6 +96,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 5346.55
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 6318.55
       }
     ],
     "Grok": [
@@ -118,6 +130,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 10449.35
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 12069.35
       }
     ],
     "DeepSeek": [
@@ -148,6 +164,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 2643.02
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 3075.02
       }
     ],
     "Mistral": [
@@ -178,6 +198,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 2884.04
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 3273.39
       }
     ],
     "Baseline": [
@@ -208,6 +232,10 @@
       {
         "t": "2026-06-14T00:35:54.433Z",
         "bankroll": 9831.46
+      },
+      {
+        "t": "2026-06-14T05:07:38.223Z",
+        "bankroll": 10494.05
       }
     ]
   },
@@ -795,7 +823,9 @@
       "stake": 1204.71,
       "odds": 1.55,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:Baseline",
@@ -840,7 +870,9 @@
       "stake": 1500,
       "odds": 1.54,
       "reasoning": "Scotland at 1.54 against minnows Haiti is strong value. Quality gap is enormous, low-risk pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:Claude",
@@ -889,7 +921,9 @@
       "stake": 1500,
       "odds": 1.54,
       "reasoning": "Scotland should have the physicality and overall squad quality edge here. The price is short, but I make them a stronger favorite than the odds imply.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:Gemini",
@@ -921,7 +955,9 @@
       "stake": 1800,
       "odds": 1.54,
       "reasoning": "Scotland's structured European style, physical presence, and midfield discipline make them heavy favorites against Haiti. 1.54 represents solid value for a relatively safe fixture.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:Grok",
@@ -953,7 +989,9 @@
       "stake": 3000,
       "odds": 1.54,
       "reasoning": "Scotland clearly superior to Haiti, good odds at 1.54.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:DeepSeek",
@@ -985,7 +1023,9 @@
       "stake": 800,
       "odds": 1.54,
       "reasoning": "Scotland are the stronger side by a clear margin. Haiti may be spirited, but the gulf in class and Scotland's solid away form make the 1.54 a solid anchor for the round. High stake reflects high confidence.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f6c8748a16516e0998f95de14235432a:Mistral",
@@ -1017,7 +1057,9 @@
       "stake": 721.02,
       "odds": 1.54,
       "reasoning": "Scotland is a much more established team compared to Haiti, who are relative minnows in international football. The odds for Scotland (1.54) are low, but the likelihood of them winning is high. I’m allocating a moderate stake here because while the return isn’t huge, the risk is minimal. This is a calculated, low-risk bet to supplement my Brazil wager.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:Mistral",
@@ -1488,7 +1530,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-14T04:35:41.600Z",
-    "lastSettleRun": "2026-06-14T00:35:54.433Z",
+    "lastSettleRun": "2026-06-14T05:07:38.223Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
