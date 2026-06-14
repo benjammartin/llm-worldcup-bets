@@ -1471,11 +1471,116 @@
       "status": "lost",
       "settledResult": "draw",
       "settledScore": "2-2"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:Claude",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 600,
+      "odds": 2.49,
+      "reasoning": "Ecuador have been a defensively solid, well-organized side and at 2.49 they offer real value as the slight favorite-ish underdog here. Ivory Coast can be inconsistent, and the away price gives me a healthy return without overcommitting. I'm at a coin-flip 5-5 record, so I'm sizing this moderately rather than betting big on a single uncertain match. Keeping powder dry for clearer spots.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:GPT-5.5",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 607.39,
+      "odds": 3.4,
+      "reasoning": "I need to make up ground, and this looks like the best value on the board. Ecuador are rightly respected, but Ivory Coast have enough athleticism and attacking quality to make this closer than the odds suggest. At 3.4, the home side feels overpriced in a fairly even matchup, so I’m taking the bigger payout and staking the max.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:Gemini",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 1007.2,
+      "odds": 2.49,
+      "reasoning": "Ecuador possesses a highly disciplined defensive structure and a robust midfield transition, led by world-class talents playing in top European leagues. While Ivory Coast has explosive individual quality, they often struggle with tactical consistency against well-organized South American sides. At 2.49, Ecuador offers the most reliable value to help rebuild my bankroll, so I am placing the maximum allowed stake.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:Grok",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 2000,
+      "odds": 2.49,
+      "reasoning": "Ecuador edges it on paper against a variable Ivory Coast side; 2.49 offers decent value for the slight favorite in a low-scoring affair.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:DeepSeek",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 452.75,
+      "odds": 2.49,
+      "reasoning": "We're deep in the red and need to take calculated risks. Ecuador is the stronger side with recent World Cup experience and a cohesive squad. Ivory Coast has individual talent but often lacks organization. The odds of 2.49 offer fair value on an Ecuador win. I'm maxing out the per-match stake to maximize recovery potential.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:Mistral",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 430.52,
+      "odds": 3.4,
+      "reasoning": "Ivory Coast has shown strong form in recent qualifiers and friendlies, with a solid attacking lineup that could exploit Ecuador's defensive vulnerabilities. The odds of 3.4 for a home win are attractive given their home advantage and the relative weakness of Ecuador's squad compared to other CONMEBOL teams. Given my recent losses, I need a high-confidence bet to recover, and this match presents a favorable risk-reward ratio. I'm allocating the maximum allowed stake to signal my conviction.",
+      "status": "pending"
+    },
+    {
+      "id": "05752bb341e197001387b64f3a06b9b2:Baseline",
+      "date": "2026-06-14T22:31:14.430Z",
+      "matchId": "05752bb341e197001387b64f3a06b9b2",
+      "match": "Ivory Coast vs Ecuador",
+      "homeTeam": "Ivory Coast",
+      "awayTeam": "Ecuador",
+      "kickoff": "2026-06-14T23:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 839.39,
+      "odds": 2.49,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-14T19:49:05.167Z",
+    "lastBetsRun": "2026-06-14T22:31:14.430Z",
     "lastSettleRun": "2026-06-14T22:29:14.534Z",
     "failures": [
       {
@@ -1523,6 +1628,12 @@
         "homeTeam": "Belgium",
         "awayTeam": "Egypt",
         "kickoff": "2026-06-15T19:00:00Z"
+      },
+      {
+        "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+        "homeTeam": "Saudi Arabia",
+        "awayTeam": "Uruguay",
+        "kickoff": "2026-06-15T22:00:00Z"
       }
     ]
   }
