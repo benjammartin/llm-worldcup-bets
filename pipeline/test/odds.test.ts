@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { fetchTodaysOdds } from "../src/odds";
+import { fetchTodaysOdds, matchesInBettingWindow } from "../src/odds";
 
 const FIXTURE = [
   {
@@ -68,5 +68,20 @@ describe("fetchTodaysOdds", () => {
     const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchTodaysOdds("KEY", f, new Date("2026-06-11T08:00:00Z"));
     expect(out).toEqual([]);
+  });
+});
+
+describe("matchesInBettingWindow", () => {
+  test("only opens bets during the final 30 minutes before kickoff", () => {
+    const matches = [
+      { matchId: "too-early", homeTeam: "A", awayTeam: "B", kickoff: "2026-06-11T16:31:00Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "window-edge", homeTeam: "C", awayTeam: "D", kickoff: "2026-06-11T16:30:00Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "inside-window", homeTeam: "E", awayTeam: "F", kickoff: "2026-06-11T16:09:00Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "started", homeTeam: "G", awayTeam: "H", kickoff: "2026-06-11T15:59:59Z", odds: { home: 2, draw: 3, away: 4 } },
+    ];
+
+    const out = matchesInBettingWindow(matches, new Date("2026-06-11T16:00:00Z"));
+
+    expect(out.map((m) => m.matchId)).toEqual(["window-edge", "inside-window"]);
   });
 });

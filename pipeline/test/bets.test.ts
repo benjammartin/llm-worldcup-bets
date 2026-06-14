@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { placeBets, type LLMFn } from "../src/bets";
+import { placeBets, prunePrematurePendingBets, type LLMFn } from "../src/bets";
 import type { MatchOdds } from "../src/odds";
 import { initialState } from "../src/state";
 
@@ -167,5 +167,23 @@ describe("placeBets", () => {
 
     expect(prompt).toContain("Official FIFA Training Centre context");
     expect(prompt).toContain("odds remain the primary probability signal");
+  });
+});
+
+describe("prunePrematurePendingBets", () => {
+  test("removes old future pending bets outside the current betting window but keeps started and open-window bets", () => {
+    const s = initialState(["ModelA"], 10_000, NOW);
+    s.bets.push(
+      { id: "too-early:ModelA", date: NOW, matchId: "too-early", match: "A vs B", homeTeam: "A", awayTeam: "B", kickoff: "2026-06-11T18:00:00Z", model: "ModelA", pick: "home", stake: 100, odds: 2, reasoning: "old daily bet", status: "pending" },
+      { id: "open:ModelA", date: NOW, matchId: "open", match: "C vs D", homeTeam: "C", awayTeam: "D", kickoff: "2026-06-11T16:20:00Z", model: "ModelA", pick: "home", stake: 200, odds: 2, reasoning: "can be replaced", status: "pending" },
+      { id: "started:ModelA", date: NOW, matchId: "started", match: "E vs F", homeTeam: "E", awayTeam: "F", kickoff: "2026-06-11T15:00:00Z", model: "ModelA", pick: "away", stake: 300, odds: 3, reasoning: "locked", status: "pending" },
+    );
+
+    const removed = prunePrematurePendingBets(s, [
+      { matchId: "open", homeTeam: "C", awayTeam: "D", kickoff: "2026-06-11T16:20:00Z", odds: { home: 2, draw: 3, away: 4 } },
+    ], "2026-06-11T16:00:00Z");
+
+    expect(removed).toBe(1);
+    expect(s.bets.map((b) => b.matchId)).toEqual(["open", "started"]);
   });
 });

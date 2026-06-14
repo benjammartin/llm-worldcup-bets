@@ -1,11 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { placeBaselineBets } from "./baseline";
-import { placeBets } from "./bets";
+import { placeBets, prunePrematurePendingBets } from "./bets";
 import { chartSVG } from "./chart";
 import { BASELINE_NAME, FONT_PATH, MODELS, OG_PATH, SITE_URL, STATE_PATH } from "./config";
 import { callGateway } from "./gateway";
-import { fetchTodaysOdds } from "./odds";
+import { fetchTodaysOdds, matchesInBettingWindow } from "./odds";
 import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
 import { renderPNG } from "./og";
 import { postToX } from "./post";
@@ -16,8 +16,11 @@ const now = new Date().toISOString();
 const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
 const state = loadState(STATE_PATH, names, now);
 
-const odds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
-console.log(`[bets] ${odds.length} matches in the next 24h`);
+const allOdds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
+const odds = matchesInBettingWindow(allOdds, new Date(now));
+console.log(`[bets] ${allOdds.length} matches in the next 24h; ${odds.length} in the pre-kickoff betting window`);
+const pruned = prunePrematurePendingBets(state, odds, now);
+if (pruned > 0) console.log(`[bets] pruned ${pruned} premature pending bets outside the betting window`);
 let fifaReportContext = "";
 if (odds.length > 0) {
   try {

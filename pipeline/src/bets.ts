@@ -7,6 +7,18 @@ import { bankroll, type State } from "./state";
 export type LLMFn = (modelId: string, prompt: string) => Promise<string>;
 export interface ModelSpec { id: string; fallbackIds?: string[]; name: string; color: string; }
 
+export function prunePrematurePendingBets(s: State, openWindowMatches: MatchOdds[], now: string): number {
+  const openWindowIds = new Set(openWindowMatches.map((m) => m.matchId));
+  const before = s.bets.length;
+  const nowMs = Date.parse(now);
+  s.bets = s.bets.filter((b) => {
+    if (b.status !== "pending") return true;
+    if (Date.parse(b.kickoff) <= nowMs) return true;
+    return openWindowIds.has(b.matchId);
+  });
+  return before - s.bets.length;
+}
+
 export async function placeBets(
   s: State,
   matches: MatchOdds[],

@@ -1,9 +1,25 @@
+import { BETTING_WINDOW_MINUTES } from "./config";
+
 export interface MatchOdds {
   matchId: string;
   homeTeam: string;
   awayTeam: string;
   kickoff: string;
   odds: { home: number; draw: number; away: number };
+}
+
+export function matchesInBettingWindow(
+  matches: MatchOdds[],
+  now: Date = new Date(),
+  windowMinutes = BETTING_WINDOW_MINUTES,
+): MatchOdds[] {
+  const nowMs = now.getTime();
+  const windowMs = windowMinutes * 60 * 1000;
+  return matches.filter((m) => {
+    const kickoffMs = Date.parse(m.kickoff);
+    const msUntilKickoff = kickoffMs - nowMs;
+    return msUntilKickoff > 0 && msUntilKickoff <= windowMs;
+  });
 }
 
 const median = (xs: number[]): number => {
