@@ -1334,6 +1334,12 @@
         "homeTeam": "Spain",
         "awayTeam": "Cape Verde",
         "kickoff": "2026-06-15T16:00:00Z"
+      },
+      {
+        "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
+        "homeTeam": "Belgium",
+        "awayTeam": "Egypt",
+        "kickoff": "2026-06-15T19:00:00Z"
       }
     ]
   }
