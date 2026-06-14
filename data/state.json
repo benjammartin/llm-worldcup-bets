@@ -32,6 +32,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 8638
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 7938
       }
     ],
     "GPT-5.5": [
@@ -66,6 +70,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 5269.2
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 4319.2
       }
     ],
     "Gemini": [
@@ -100,6 +108,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 6318.55
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 5318.55
       }
     ],
     "Grok": [
@@ -134,6 +146,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 12069.35
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 10569.35
       }
     ],
     "DeepSeek": [
@@ -168,6 +184,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 3075.02
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 2414.27
       }
     ],
     "Mistral": [
@@ -202,6 +222,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 3273.39
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 2273.39
       }
     ],
     "Baseline": [
@@ -236,6 +260,10 @@
       {
         "t": "2026-06-14T05:07:38.223Z",
         "bankroll": 10494.05
+      },
+      {
+        "t": "2026-06-14T07:02:47.952Z",
+        "bankroll": 9289.34
       }
     ]
   },
@@ -840,7 +868,9 @@
       "stake": 1204.71,
       "odds": 1.71,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Baseline",
@@ -1074,7 +1104,9 @@
       "stake": 1000,
       "odds": 1.7,
       "reasoning": "Turkey has been in good form recently and has a strong squad with experienced players. Australia is decent but lacks the consistency to reliably beat top-tier teams. The odds for Turkey (1.7) are favorable, and I see value in betting on them to win. This is a mid-risk, mid-reward bet to diversify my portfolio.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Mistral",
@@ -1134,7 +1166,9 @@
       "stake": 700,
       "odds": 1.69,
       "reasoning": "Turkey at 1.69 away looks like the right side. They have the stronger, more experienced squad and Australia tends to struggle against technical European teams. Moderate stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:GPT-5.5",
@@ -1149,7 +1183,9 @@
       "stake": 950,
       "odds": 1.69,
       "reasoning": "Turkey are the stronger side on paper and the 1.69 price is still playable. Australia are organized and can make this awkward, but I trust Turkey's attacking quality more, so this gets a meaningful but not max stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:Gemini",
@@ -1164,7 +1200,9 @@
       "stake": 1000,
       "odds": 1.69,
       "reasoning": "Turkey's technical quality, led by a creative midfield, should prove too much for Australia's defense. The away win at 1.69 is a solid value bet.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:Grok",
@@ -1179,7 +1217,9 @@
       "stake": 1500,
       "odds": 1.69,
       "reasoning": "Turkey is the stronger side overall and the 1.69 away odds offer decent value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "564084f52cc9f1abcc18187c168a7cdc:DeepSeek",
@@ -1194,7 +1234,9 @@
       "stake": 660.75,
       "odds": 1.69,
       "reasoning": "Turkey are strong favourites on paper and the 1.69 away price is justified. I'll back them to handle Australia comfortably.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "05752bb341e197001387b64f3a06b9b2:Baseline",
@@ -1530,7 +1572,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-14T04:35:41.600Z",
-    "lastSettleRun": "2026-06-14T05:07:38.223Z",
+    "lastSettleRun": "2026-06-14T07:02:47.952Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
