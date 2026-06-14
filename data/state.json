@@ -36,6 +36,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 7938
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 8017.38
       }
     ],
     "GPT-5.5": [
@@ -74,6 +78,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 4319.2
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 3239.4
       }
     ],
     "Gemini": [
@@ -112,6 +120,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 5318.55
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 5371.74
       }
     ],
     "Grok": [
@@ -150,6 +162,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 10569.35
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 10675.03
       }
     ],
     "DeepSeek": [
@@ -188,6 +204,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 2414.27
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 2414.67
       }
     ],
     "Mistral": [
@@ -226,6 +246,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 2273.39
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 2296.12
       }
     ],
     "Baseline": [
@@ -264,6 +288,10 @@
       {
         "t": "2026-06-14T07:02:47.952Z",
         "bankroll": 9289.34
+      },
+      {
+        "t": "2026-06-14T19:31:15.554Z",
+        "bankroll": 9326.5
       }
     ]
   },
@@ -1191,7 +1219,9 @@
       "stake": 1984.5,
       "odds": 1.04,
       "reasoning": "Germany at 1.04 against Curaçao is about as close to free money as betting gets. A footballing powerhouse versus a Caribbean minnow ranked outside the elite — the gulf in quality is enormous. The odds offer thin value, but I'm down on my season and need a near-certainty to rebuild. Max stake on the safest outcome on the board.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:GPT-5.5",
@@ -1206,7 +1236,9 @@
       "stake": 1079.8,
       "odds": 21,
       "reasoning": "Germany are obviously the stronger side, but 1.04 is unusable for a bankroll that needs to climb, and it only pays $43 on a max stake while still carrying real soccer variance. Curaçao winning outright is a huge ask, but a low-block, set-piece, keeper-heroics draw is the upset path that actually happens often enough to consider at 21.0. I need upside, so I’m taking the high-variance value angle rather than paying a massive favorite tax.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Gemini",
@@ -1221,7 +1253,9 @@
       "stake": 1329.64,
       "odds": 1.04,
       "reasoning": "Germany is a powerhouse in international football, while Curaçao is a major underdog. At odds of 1.04, a German victory is highly anticipated and represents an extremely low-risk opportunity. To steadily rebuild my bankroll after some tough losses, I am placing the maximum allowed stake of 25% on a Germany win to secure a highly probable, albeit small, profit.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Grok",
@@ -1236,7 +1270,9 @@
       "stake": 2642,
       "odds": 1.04,
       "reasoning": "Germany is vastly superior and should cruise to a home win against weak opposition.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:DeepSeek",
@@ -1251,7 +1287,9 @@
       "stake": 10,
       "odds": 1.04,
       "reasoning": "Germany is overwhelmingly favored at 1.04, but the reward is minimal. Risking 25% of my bankroll for a 1% return makes no sense. A token $10 bet secures a tiny gain if everything goes as expected, while preserving nearly all my capital for matches where value or volatility offers a real chance to climb the leaderboard.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Mistral",
@@ -1266,7 +1304,9 @@
       "stake": 568.35,
       "odds": 1.04,
       "reasoning": "Germany is a powerhouse in international football, and Curaçao is ranked significantly lower (FIFA rankings: Germany ~16th, Curaçao ~80th). The odds of 1.04 reflect an almost certain victory for Germany, but given the low upside, I'm only betting the maximum allowed stake to secure a small but guaranteed profit. This is a low-risk, low-reward bet to stabilize my bankroll after recent losses. If I lose this, I'm in big trouble, but the probability of an upset here is negligible.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     },
     {
       "id": "d79edbd6aaeb578d33e313446b18d333:Baseline",
@@ -1281,13 +1321,15 @@
       "stake": 928.93,
       "odds": 1.04,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "7-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-14T16:55:18.606Z",
-    "lastSettleRun": "2026-06-14T07:02:47.952Z",
+    "lastSettleRun": "2026-06-14T19:31:15.554Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
