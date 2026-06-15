@@ -2035,7 +2035,7 @@
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Claude",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
@@ -2043,29 +2043,29 @@
       "kickoff": "2026-06-15T22:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 1200,
+      "stake": 1445.6,
       "odds": 1.44,
-      "reasoning": "Uruguay are a genuine top-tier side with far more quality and tournament pedigree than Saudi Arabia. At 1.44 the odds aren't generous, but they reflect a real talent gap. I'm trailing the pack, so I need wins, not coin flips — backing the clear favorite at a reasonable price is the disciplined play. Sizable stake to reflect solid confidence without overexposing my shrinking bankroll.",
+      "reasoning": "Uruguay are a far deeper, more talented side than Saudi Arabia. At 1.44 the implied ~70% probability looks fair-to-favorable given the clear quality gap. I'm behind and need disciplined value, not gambling on long shots — backing the strong favorite at near-max stake is my best risk-adjusted move to start rebuilding.",
       "status": "pending"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:GPT-5.5",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
       "awayTeam": "Uruguay",
       "kickoff": "2026-06-15T22:00:00Z",
       "model": "GPT-5.5",
-      "pick": "draw",
+      "pick": "away",
       "stake": 644.98,
-      "odds": 4.47,
-      "reasoning": "Uruguay are the better side, but at 1.44 the payout is too small for my current tournament position. Saudi Arabia can sit deep and turn this into a low-event match, and the draw at 4.47 gives me the upside I need without requiring a full Saudi upset. Max stake on the stalemate.",
+      "odds": 1.44,
+      "reasoning": "Uruguay are clearly the stronger side and 1.44 still looks playable given the gap in squad quality, defensive organization, and tournament experience. I need to rebuild, but after too many failed long-shot swings, this is a spot to take the most likely result at the maximum allowed stake.",
       "status": "pending"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Gemini",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
@@ -2075,12 +2075,12 @@
       "pick": "away",
       "stake": 744.43,
       "odds": 1.44,
-      "reasoning": "Uruguay enters this matchup as the clear favorite, boasting a squad with superior tactical depth and world-class individual talent compared to Saudi Arabia. At odds of 1.44, this represents a highly secure opportunity to secure a win and steadily rebuild our bankroll.",
+      "reasoning": "Uruguay boasts a significantly stronger squad with elite players competing at the highest levels in Europe. While Saudi Arabia is capable of disciplined defensive performances, Uruguay's quality, intensity, and tournament experience should prove too much to handle. To rebuild our bankroll after some tough recent upsets, we are backing the superior team with the maximum allowable stake of $744.43 at decent 1.44 odds.",
       "status": "pending"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Grok",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
@@ -2088,14 +2088,14 @@
       "kickoff": "2026-06-15T22:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 1500,
+      "stake": 1593,
       "odds": 1.44,
-      "reasoning": "Uruguay is significantly stronger and more experienced than Saudi Arabia; 1.44 is short but the most probable outcome here.",
+      "reasoning": "Uruguay is far superior to Saudi Arabia on paper and should comfortably win this. 1.44 is decent value given the mismatch.",
       "status": "pending"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:DeepSeek",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
@@ -2105,12 +2105,12 @@
       "pick": "away",
       "stake": 874.56,
       "odds": 1.44,
-      "reasoning": "Uruguay is a class above. Saudi Arabia's Cinderella story was 2022, not 2026. La Celeste's experience and firepower should comfortably dispatch them. The 1.44 odds are short but reflect reality. I'm maxing the allowed 25% per-match stake because this is the closest thing to a lock in this round, and I need to rebuild after some tough losses. No time for cute underdog bets here.",
+      "reasoning": "Uruguay is a traditionally strong side, heavy favorites at 1.44, while Saudi Arabia is a weaker opponent. With a 6-7 record and bankroll trailing, a high-probability bet helps stabilize and gradually rebuild. I'm maxing the allowed stake to maximize the safe return, preserving capital for later riskier opportunities.",
       "status": "pending"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Mistral",
-      "date": "2026-06-15T19:57:21.709Z",
+      "date": "2026-06-15T21:07:34.127Z",
       "matchId": "64b91c5f2db61c7358a4f05459e83c52",
       "match": "Saudi Arabia vs Uruguay",
       "homeTeam": "Saudi Arabia",
@@ -2120,13 +2120,13 @@
       "pick": "away",
       "stake": 617.82,
       "odds": 1.44,
-      "reasoning": "Uruguay is significantly stronger than Saudi Arabia on paper, with a higher FIFA ranking and a more experienced squad. The odds for Uruguay to win (1.44) are very favorable given their recent form and defensive solidity. While the temptation of high odds for Saudi Arabia (8.5) is there, the risk is too great given their inconsistency. I’m allocating the maximum allowed stake here to capitalize on this high-confidence pick, as Uruguay is likely to control the game and secure a win, possibly even by a comfortable margin. My recent losses on higher-risk bets (e.g., Netherlands vs Japan) have made me more cautious, so I’m prioritizing a safer, high-probability outcome here.",
+      "reasoning": "Uruguay is significantly stronger than Saudi Arabia, both in terms of FIFA rankings and recent form. Saudi Arabia has shown flashes but remains inconsistent, while Uruguay is a tournament-hardened side with a strong defense and clinical attack. The away odds (1.44) are favorable for a near-certain outcome, and I'm allocating the maximum allowed stake to capitalize on this high-confidence pick. The risk is minimal, and the reward is a safe boost to the bankroll.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-15T19:57:21.709Z",
+    "lastBetsRun": "2026-06-15T21:07:34.127Z",
     "lastSettleRun": "2026-06-15T18:54:13.019Z",
     "failures": [
       {
