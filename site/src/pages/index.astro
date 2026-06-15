@@ -37,11 +37,6 @@ const standings = Object.keys(state.series)
   .map((name) => ({ name, roll: bankroll(state, name), delta: bankroll(state, name) - STARTING_BANKROLL }));
 const maxAbsDelta = Math.max(100, ...standings.map((s) => Math.abs(s.delta)));
 const leader = standings[0];
-const baselineStanding = standings.find((s) => s.name === BASELINE_NAME);
-const dumberThanBaseline = baselineStanding
-  ? standings.filter((s) => s.name !== BASELINE_NAME && s.roll < baselineStanding.roll)
-  : [];
-
 const pending = state.bets.filter((b) => b.status === "pending")
   .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
 const settled = state.bets.filter((b) => b.status !== "pending")
@@ -96,29 +91,6 @@ const pnlText = (b: Bet) => {
   if (pnl === 0) return "$0";
   return `${pnl > 0 ? "+" : "−"}$${Math.round(Math.abs(pnl)).toLocaleString("en-US")}`;
 };
-const lostBets = settled.filter((b) => b.status === "lost");
-const modelLostBets = lostBets.filter((b) => b.model !== BASELINE_NAME);
-const biggestLoss = [...modelLostBets].sort((a, b) => b.stake - a.stake)[0];
-const biggestPendingStake = [...pending.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.stake - a.stake)[0];
-const mostCowardly = [...pending.filter((b) => b.model !== BASELINE_NAME && b.stake > 0)].sort((a, b) => a.stake - b.stake)[0];
-const worstOddsTaken = [...state.bets.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.odds - a.odds)[0];
-const longestExcuse = [...state.bets.filter((b) => b.model !== BASELINE_NAME && b.reasoning)].sort((a, b) => b.reasoning.length - a.reasoning.length)[0];
-const stupidestBet = biggestPendingStake ?? biggestLoss;
-const stupidestIfLosesRank = stupidestBet
-  ? [...standings.filter((s) => s.name !== stupidestBet.model), {
-      name: stupidestBet.model,
-      roll: bankroll(state, stupidestBet.model) - stupidestBet.stake,
-      delta: bankroll(state, stupidestBet.model) - stupidestBet.stake - STARTING_BANKROLL,
-    }].sort((a, b) => b.roll - a.roll).findIndex((s) => s.name === stupidestBet.model) + 1
-  : 0;
-const shameRows = [
-  biggestLoss && { label: "Biggest disaster", value: `${biggestLoss.model} lost ${money(biggestLoss.stake)} on ${pickText(biggestLoss.pick, biggestLoss)}.` },
-  worstOddsTaken && { label: "Worst odds taken", value: `${worstOddsTaken.model} took ${worstOddsTaken.odds.toFixed(2)} on ${pickText(worstOddsTaken.pick, worstOddsTaken)}.` },
-  mostCowardly && { label: "Most cowardly", value: `${mostCowardly.model} risked only ${money(mostCowardly.stake)} on ${pickText(mostCowardly.pick, mostCowardly)}.` },
-  biggestPendingStake && { label: "Most overconfident", value: `${biggestPendingStake.model} put ${money(biggestPendingStake.stake)} on ${pickText(biggestPendingStake.pick, biggestPendingStake)}.` },
-  longestExcuse && { label: "Most human-sounding excuse", value: `${longestExcuse.model}: “${longestExcuse.reasoning.slice(0, 112)}${longestExcuse.reasoning.length > 112 ? "…" : ""}”` },
-  { label: "Dumber than baseline", value: dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "Nobody — for now." },
-].filter(Boolean) as { label: string; value: string }[];
 const resultLabel = (b: Bet) => b.status === "won" ? "Won" : b.status === "lost" ? "Lost" : b.status === "void" ? "Void" : "Pending";
 const settledOutcomeLabel = (bets: Bet[]) => {
   const result = bets.find((b) => b.settledResult)?.settledResult;
@@ -189,7 +161,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:site_name" content="LLM World Cup Bets" />
   <meta property="og:title" content="6 AIs. $10,000 each. One World Cup." />
-  <meta property="og:description" content="Watch the AI gambling reality show: live World Cup bets, stupid losses, and a dumb if-statement baseline humiliating models." />
+  <meta property="og:description" content="Watch the AI gambling reality show: live World Cup bets, bankrolls, model picks, and verbatim reasoning." />
   <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="6 AIs. $10,000 each. One World Cup." />
@@ -254,18 +226,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .cycle-note { color: var(--faint); max-width: 760px; margin: 0 0 8px; font-size: 12px; }
     .cycle-note b { color: var(--amber); }
 
-    .drama-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: 12px; margin-top: 12px; }
-    .drama-card { background: linear-gradient(135deg, rgba(239,68,68,.12), rgba(13,15,18,.96) 45%); border: 1px solid color-mix(in srgb, var(--down) 36%, var(--line)); border-radius: 10px; padding: 16px; }
-    .drama-kicker { color: var(--down); margin: 0 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; font-weight: 700; }
-    .drama-title { margin: 0 0 10px; font-size: clamp(20px, 4vw, 34px); line-height: 1.05; font-weight: 700; }
-    .drama-copy { color: var(--dim); margin: 0; }
-    .baseline-card { background: linear-gradient(135deg, rgba(245,158,11,.10), rgba(13,15,18,.96) 48%); border: 1px solid color-mix(in srgb, var(--amber) 32%, var(--line)); border-radius: 10px; padding: 16px; }
-    .baseline-card b { color: var(--amber); }
-    .shame-board { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-    .shame-item { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
-    .shame-item b { color: var(--amber); display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 6px; }
-    .shame-item span { color: var(--txt); }
-
     h2 { color: var(--txt); font-size: 13px; text-transform: uppercase; letter-spacing: .14em;
       margin: 40px 0 12px; display: flex; align-items: center; gap: 10px; }
     h2::before { content: ""; width: 5px; height: 16px; background: var(--amber); }
@@ -291,10 +251,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .logo { width: 20px; height: 20px; display: block; }
     .logo.invert { filter: invert(1); }
     .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--c); margin: 4px; }
-    .baseline-note { color: var(--faint); font-size: 12px; margin: 10px 2px 0; }
-    .baseline-note b { color: var(--dim); }
-
-
     .chart { overflow: hidden; }
     :global(.chart svg) { display: block; width: 100%; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
     .chart-mobile { display: none; }
@@ -365,7 +321,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .hero { padding-top: 22px; }
       .hero h1 { font-size: clamp(38px, 13vw, 58px); }
       .hero-sub { font-size: 17px; }
-      .drama-grid, .shame-board { grid-template-columns: 1fr; }
       .ticker { gap: 10px; font-size: 10px; }
       .youtube-marquee { margin-top: 10px; border-radius: 10px; }
       .youtube-track { animation-duration: 14s; }
@@ -376,7 +331,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta, .cycle-risk { display: none; }
       .standing .model-id { display: none; }
-      .baseline-note { display: none; }
       .desktop-only { display: none; }
       .mobile-only { display: inline; }
       .cycle-summary, .match-insight, .result-legend, .result-insight { font-size: 11px; padding: 8px 10px; }
@@ -440,7 +394,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <header class="hero">
     <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
     <p class="hero-sub">Watch them bet, panic, and go broke.</p>
-    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 50 minutes before kickoff against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
+    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 50 minutes before kickoff against real bookmaker odds. Reasoning is published verbatim.</p>
     <a class="hero-cta" href="#current-cycle">Jump to matches</a>
   </header>
 
@@ -473,7 +427,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
         </div>
       ))}
     </div>
-    <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
   </section>
 
   <section>
@@ -523,37 +476,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       </div>
     ))}
     {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 50 minutes before kickoff.</p>}
-  </section>
-
-  <section class="drama-grid">
-    <div class="drama-card">
-      <p class="drama-kicker">Today’s stupidest bet</p>
-      {stupidestBet ? (
-        <>
-          <p class="drama-title">{stupidestBet.model} put {money(stupidestBet.stake)} on {pickText(stupidestBet.pick, stupidestBet)}.</p>
-          <p class="drama-copy">If it loses, {stupidestBet.model} drops to roughly #{stupidestIfLosesRank}. Consensus or collective hallucination?</p>
-        </>
-      ) : (
-        <>
-          <p class="drama-title">No live stupidity yet.</p>
-          <p class="drama-copy">Bets open 50 minutes before the next kickoff.</p>
-        </>
-      )}
-    </div>
-    <div class="baseline-card">
-      <p class="drama-kicker">The dumb baseline</p>
-      <p class="drama-title">Always bets 10% on the favorite.</p>
-      <p class="drama-copy">Any AI below it is officially <b>dumber than an if-statement</b>. Current shame list: {dumberThanBaseline.length ? dumberThanBaseline.map((s) => s.name).join(", ") : "nobody — yet"}.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>AI shame board <span class="count">· screenshot bait</span></h2>
-    <div class="shame-board">
-      {shameRows.map((row) => (
-        <div class="shame-item"><b>{row.label}</b><span>{row.value}</span></div>
-      ))}
-    </div>
   </section>
 
   <section>
