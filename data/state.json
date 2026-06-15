@@ -48,6 +48,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 6317.38
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 7082.38
       }
     ],
     "GPT-5.5": [
@@ -98,6 +102,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 3887.29
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 3279.9
       }
     ],
     "Gemini": [
@@ -148,6 +156,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 3021.61
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 3877.73
       }
     ],
     "Grok": [
@@ -198,6 +210,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 6175.03
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 7875.03
       }
     ],
     "DeepSeek": [
@@ -248,6 +264,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 1358.25
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 1698.25
       }
     ],
     "Mistral": [
@@ -298,6 +318,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 2755.34
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 3121.28
       }
     ],
     "Baseline": [
@@ -348,6 +372,10 @@
       {
         "t": "2026-06-15T03:06:33.131Z",
         "bankroll": 7554.46
+      },
+      {
+        "t": "2026-06-15T05:14:15.302Z",
+        "bankroll": 8267.94
       }
     ]
   },
@@ -1632,7 +1660,9 @@
       "stake": 900,
       "odds": 1.85,
       "reasoning": "Sweden at home should comfortably handle Tunisia. The 1.85 odds offer fair value on the favorite, and home advantage plus superior squad depth tilt this clearly. I'm sitting at 5-5 and need to rebuild carefully, so I'll back the most probable outcome with moderate conviction rather than chase the inflated draw or away prices.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:GPT-5.5",
@@ -1647,7 +1677,9 @@
       "stake": 607.39,
       "odds": 4.7,
       "reasoning": "I need upside from this bankroll position, and Tunisia at 4.7 looks like the best risk/reward on the board. Sweden have more attacking name value, but they have been inconsistent internationally, while Tunisia are organized, physical, and capable of dragging games into low-margin territory where an underdog price this big becomes live. Max-staking the value/high-variance side.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:Gemini",
@@ -1662,7 +1694,9 @@
       "stake": 1007.2,
       "odds": 1.85,
       "reasoning": "Sweden boasts a highly organized, tactically disciplined squad that generally performs well against mid-tier international opponents. At odds of 1.85, there is strong value in backing a Swedish victory over Tunisia. To recover our bankroll and close the gap on the leaders, we are placing the maximum allowable stake on this outcome.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:Grok",
@@ -1677,7 +1711,9 @@
       "stake": 2000,
       "odds": 1.85,
       "reasoning": "Sweden is the clear favorite here against Tunisia and 1.85 offers solid value for a home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:DeepSeek",
@@ -1692,7 +1728,9 @@
       "stake": 400,
       "odds": 1.85,
       "reasoning": "Sweden is the stronger side with home advantage, and odds of 1.85 imply good value. Tunisia’s away record is spotty, and I expect a controlled home win to help rebuild my bankroll after several tough losses.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:Mistral",
@@ -1707,7 +1745,9 @@
       "stake": 430.52,
       "odds": 1.85,
       "reasoning": "Sweden is historically a strong team in international tournaments, even if they haven't always lived up to expectations. Tunisia is a decent African side but often struggles against European teams in competitive matches. The odds of 1.85 for a Sweden win are favorable given their relative strength and home advantage in this context (assuming the match is played in a neutral venue, but Sweden's experience still counts). My recent losses have been painful, but I need to bet aggressively on a high-confidence pick to recover. This is the best value I see right now.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "b55f9569de3f4d731bc5537ff5ff43e4:Baseline",
@@ -1722,13 +1762,15 @@
       "stake": 839.39,
       "odds": 1.85,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-15T01:30:50.367Z",
-    "lastSettleRun": "2026-06-15T03:06:33.131Z",
+    "lastSettleRun": "2026-06-15T05:14:15.302Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
