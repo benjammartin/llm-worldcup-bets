@@ -32,11 +32,17 @@ const standings = Object.keys(state.series)
   .map((name) => ({ name, roll: bankroll(state, name), delta: bankroll(state, name) - STARTING_BANKROLL }));
 const maxAbsDelta = Math.max(100, ...standings.map((s) => Math.abs(s.delta)));
 const leader = standings[0];
+const baselineStanding = standings.find((s) => s.name === BASELINE_NAME) ?? standings[standings.length - 1];
+const baselineRank = standings.findIndex((s) => s.name === BASELINE_NAME) + 1;
+const aiCount = standings.filter((s) => s.name !== BASELINE_NAME).length;
+const aisBeatingBaseline = standings.filter((s) => s.name !== BASELINE_NAME && s.roll > baselineStanding.roll).length;
+const aiLeader = standings.find((s) => s.name !== BASELINE_NAME) ?? leader;
 
 const pending = state.bets.filter((b) => b.status === "pending")
   .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
-const settled = state.bets.filter((b) => b.status !== "pending")
-  .sort((a, b) => b.kickoff.localeCompare(a.kickoff)).slice(0, 14);
+const settledAll = state.bets.filter((b) => b.status !== "pending")
+  .sort((a, b) => b.kickoff.localeCompare(a.kickoff));
+const settled = settledAll.slice(0, 14);
 
 const byMatch = (bets: Bet[]) => {
   const m = new Map<string, Bet[]>();
@@ -47,7 +53,6 @@ const chunks = <T,>(items: T[], size: number): T[][] =>
   Array.from({ length: Math.ceil(items.length / size) }, (_, i) => items.slice(i * size, i * size + size));
 const pendingMatches = byMatch(pending);
 const pendingMatchPages = chunks(pendingMatches, 2);
-const settledMatches = byMatch(settled);
 
 const pickLabel = (b: Bet) =>
   b.pick === "draw" ? "🤝 Draw"
@@ -59,6 +64,37 @@ const kickoffShort = (iso: string) =>
 
 const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
 const svg = chartSVG(state, 1700, 760);
+const resultMoney = (b: Bet) =>
+  b.status === "won" ? b.stake * (b.odds - 1)
+  : b.status === "lost" ? -b.stake
+  : 0;
+const resultLabel = (b: Bet) =>
+  b.settledResult === "void" ? "Void"
+  : b.settledResult === "draw" ? "Draw"
+  : b.settledResult === "home" ? b.homeTeam
+  : b.settledResult === "away" ? b.awayTeam
+  : "Pending";
+const signedMoney = (n: number) => n === 0 ? "±$0" : `${n > 0 ? "+" : "−"}${money(Math.abs(n))}`;
+const settledMatchesFull = byMatch(settledAll);
+const latestResultBets = settledMatchesFull[0] ?? [];
+const latestResult = latestResultBets[0];
+const latestWinner = latestResult ? resultLabel(latestResult) : null;
+const resultHeadline = latestResult
+  ? latestWinner === "Draw"
+    ? `${latestResult.homeTeam} vs ${latestResult.awayTeam} ended draw${latestResult.settledScore ? ` (${latestResult.settledScore})` : ""}`
+    : `${latestWinner} beat ${latestWinner === latestResult.homeTeam ? latestResult.awayTeam : latestResult.homeTeam}${latestResult.settledScore ? ` ${latestResult.settledScore}` : ""}`
+  : null;
+const biggestMove = settledAll.length
+  ? [...settledAll].sort((a, b) => Math.abs(resultMoney(b)) - Math.abs(resultMoney(a)))[0]
+  : null;
+const nextMatchBets = pendingMatches[0] ?? [];
+const nextMatch = nextMatchBets[0] ?? state.meta.upcomingMatches?.[0] ?? null;
+const topRisk = pending.length ? [...pending].sort((a, b) => b.stake - a.stake)[0] : null;
+const story = latestResult
+  ? `${resultHeadline}. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
+  : pending.length
+    ? `${pending.length} bets are live for the current 24h cycle. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
+    : `The baseline ranks #${baselineRank}. ${aisBeatingBaseline}/${aiCount} AIs are beating a simple favorite rule.`;
 
 // Quotes for the reasoning spotlight: pending first, padded with latest settled.
 const quoteBets = [...pending, ...settled].slice(0, 20).map((b) => ({
@@ -68,8 +104,6 @@ const quoteBets = [...pending, ...settled].slice(0, 20).map((b) => ({
   status: b.status, reasoning: b.reasoning,
 }));
 const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
-const ticker = pending.map((b) =>
-  `${b.model} ${money(b.stake)} on ${pickLabel(b)} @ ${b.odds}`).join("  ·  ");
 ---
 <html lang="en">
 <head>
@@ -117,6 +151,37 @@ const ticker = pending.map((b) =>
     .scene h2::before { content: ""; width: 10px; height: 30px; background: var(--amber); }
     .scene h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
     .scene h2 .count { color: var(--faint); letter-spacing: 0; }
+
+    /* story screen */
+    .hero { height: 100%; display: grid; grid-template-columns: 1.15fr .85fr; gap: 44px; align-items: stretch; }
+    .hero-main { border: 1px solid color-mix(in srgb, var(--amber) 45%, var(--line)); border-radius: 18px;
+      background: radial-gradient(circle at 20% 0%, rgba(245,158,11,.18), transparent 34%), var(--panel);
+      padding: 58px; display: flex; flex-direction: column; justify-content: space-between; }
+    .eyebrow { color: var(--amber); font-size: 28px; text-transform: uppercase; letter-spacing: .16em; }
+    .story { font-size: 78px; line-height: 1.06; font-weight: 700; letter-spacing: -.05em; max-width: 1040px; }
+    .hero-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .metric { background: rgba(255,255,255,.035); border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
+    .metric .label { color: var(--faint); font-size: 18px; text-transform: uppercase; letter-spacing: .12em; }
+    .metric .value { margin-top: 12px; font-size: 42px; font-weight: 700; }
+    .metric.good .value { color: var(--up); } .metric.bad .value { color: var(--down); } .metric.hot .value { color: var(--amber); }
+    .side-stack { display: grid; gap: 26px; }
+    .story-card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 34px; }
+    .story-card h3 { color: var(--dim); font-size: 22px; text-transform: uppercase; letter-spacing: .14em; margin-bottom: 18px; }
+    .story-card .big { font-size: 46px; line-height: 1.1; font-weight: 700; }
+    .story-card .sub { margin-top: 12px; color: var(--faint); font-size: 24px; }
+    .story-card .pl { margin-top: 18px; font-size: 34px; font-weight: 700; }
+    .story-card .pl.hot { color: var(--amber); }
+
+    /* last result feature */
+    .result-feature { display: grid; grid-template-columns: .9fr 1.1fr; gap: 36px; }
+    .score-card { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 42px; }
+    .score-card .teams { font-size: 54px; line-height: 1.15; font-weight: 700; }
+    .score-card .winner { margin-top: 34px; color: var(--amber); font-size: 42px; }
+    .score-card .score { margin-top: 18px; color: var(--dim); font-size: 34px; }
+    .result-list { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 24px 30px; }
+    .result-row { display: grid; grid-template-columns: 52px 210px 1fr 170px 170px; align-items: center; gap: 18px;
+      padding: 14px 0; border-top: 1px solid var(--line); font-size: 26px; }
+    .result-row:first-child { border-top: 0; }
 
     /* leaderboard */
     .standings { display: flex; flex-direction: column; gap: 14px; }
@@ -166,14 +231,18 @@ const ticker = pending.map((b) =>
     /* chart */
     .chart svg { display: block; width: 1700px; height: auto; border: 1px solid var(--line); border-radius: 10px; }
 
-    /* ── bottom ticker ── */
-    .bottombar { height: 84px; border-top: 1px solid var(--line); display: flex; align-items: center;
-      overflow: hidden; position: relative; }
+    /* ── bottom lower third ── */
+    .bottombar { height: 84px; border-top: 1px solid var(--line); display: grid; grid-template-columns: auto 1fr auto;
+      align-items: center; overflow: hidden; position: relative; background: #07080a; }
+    .lower-live { align-self: stretch; display: flex; align-items: center; gap: 12px; padding: 0 34px;
+      background: var(--up); color: #041007; font-size: 26px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }
+    .lower-main { white-space: nowrap; overflow: hidden; font-size: 24px; padding: 0 28px; color: var(--txt); }
+    .lower-main b { color: var(--amber); }
     .marquee { white-space: nowrap; font-size: 26px; color: var(--dim);
       animation: scroll 60s linear infinite; padding-left: 100%; }
     .marquee b { color: var(--txt); }
     @keyframes scroll { to { transform: translateX(-100%); } }
-    .url-badge { position: absolute; right: 0; top: 0; bottom: 0; display: flex; align-items: center;
+    .url-badge { align-self: stretch; display: flex; align-items: center;
       background: var(--bg); border-left: 1px solid var(--line); padding: 0 40px;
       font-weight: 700; font-size: 28px; color: var(--amber); z-index: 2; }
   </style>
@@ -190,7 +259,62 @@ const ticker = pending.map((b) =>
   </div>
 
   <div class="stage">
-    <section class="scene on" id="scene-board">
+    <section class="scene on" id="scene-story">
+      <div class="hero">
+        <div class="hero-main">
+          <p class="eyebrow">Main story</p>
+          <p class="story">{story}</p>
+          <div class="hero-meta">
+            <div class={`metric ${aisBeatingBaseline >= Math.ceil(aiCount / 2) ? "good" : "bad"}`}>
+              <p class="label">AIs beating baseline</p>
+              <p class="value">{aisBeatingBaseline}/{aiCount}</p>
+            </div>
+            <div class="metric hot">
+              <p class="label">Baseline rank</p>
+              <p class="value">#{baselineRank}</p>
+            </div>
+            <div class="metric">
+              <p class="label">Leader</p>
+              <p class="value">{leader.name}</p>
+            </div>
+          </div>
+        </div>
+        <div class="side-stack">
+          <div class="story-card">
+            <h3>Top AI</h3>
+            <p class="big">{aiLeader.name}</p>
+            <p class={`pl ${aiLeader.delta >= 0 ? "up" : "down"}`}>{signedMoney(aiLeader.delta)}</p>
+            <p class="sub">{money(aiLeader.roll)} bankroll</p>
+          </div>
+          <div class="story-card">
+            <h3>Next match</h3>
+            {nextMatch ? (
+              <>
+                <p class="big">{flagOf(nextMatch.homeTeam)} {nextMatch.homeTeam}<br />vs {nextMatch.awayTeam} {flagOf(nextMatch.awayTeam)}</p>
+                <p class="sub">{kickoffShort(nextMatch.kickoff)}</p>
+              </>
+            ) : <p class="big">Waiting for schedule</p>}
+          </div>
+          <div class="story-card">
+            <h3>Biggest risk now</h3>
+            {topRisk ? (
+              <>
+                <p class="big">{topRisk.model}</p>
+                <p class="pl hot">Stake {money(topRisk.stake)}</p>
+                <p class="sub">on {pickLabel(topRisk)} @ {topRisk.odds}</p>
+              </>
+            ) : biggestMove ? (
+              <>
+                <p class="big">{biggestMove.model} · {signedMoney(resultMoney(biggestMove))}</p>
+                <p class="sub">{biggestMove.homeTeam} vs {biggestMove.awayTeam}</p>
+              </>
+            ) : <p class="big">No bets yet</p>}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" id="scene-board">
       <h2>Leaderboard <span class="count">· 6 AIs + 1 if-statement · $10,000 each</span></h2>
       <div class="standings">
         {standings.map((s, i) => (
@@ -255,25 +379,27 @@ const ticker = pending.map((b) =>
       </section>
     )}
 
-    {settledMatches.length > 0 && (
+    {latestResult && (
       <section class="scene" id="scene-results">
-        <h2>Latest results</h2>
-        <div class={`matches${settledMatches.length === 1 ? " single" : ""}`}>
-          {settledMatches.slice(0, 2).map((bets) => (
-            <div class="match">
-              <h3>{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} vs {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</h3>
-              <p class="ko">{kickoffShort(bets[0].kickoff)}</p>
-              {bets.map((b) => (
-                <div class="bet">
-                  <span>{badge(b.status)}</span>
-                  <span class="model" style={`color:${COLORS[b.model]}`}>{b.model}</span>
-                  <span class="pick">{pickLabel(b)}</span>
-                  <span class="stake">{money(b.stake)}</span>
-                  <span class="odds">@ {b.odds}</span>
-                </div>
-              ))}
-            </div>
-          ))}
+        <h2>Last result <span class="count">· winner, losers, bankroll impact</span></h2>
+        <div class="result-feature">
+          <div class="score-card">
+            <p class="teams">{flagOf(latestResult.homeTeam)} {latestResult.homeTeam}<br />vs {latestResult.awayTeam} {flagOf(latestResult.awayTeam)}</p>
+            <p class="winner">Winner: {latestWinner}</p>
+            {latestResult.settledScore && <p class="score">Final score: {latestResult.settledScore}</p>}
+            <p class="score">{kickoffShort(latestResult.kickoff)}</p>
+          </div>
+          <div class="result-list">
+            {latestResultBets.map((b) => (
+              <div class="result-row">
+                <span>{badge(b.status)}</span>
+                <span class="model" style={`color:${COLORS[b.model]}`}>{b.model}</span>
+                <span class="pick">{pickLabel(b)}</span>
+                <span class="stake">{money(b.stake)}</span>
+                <span class={`delta ${resultMoney(b) > 0 ? "up" : resultMoney(b) < 0 ? "down" : "flat"}`}>{signedMoney(resultMoney(b))}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     )}
@@ -285,7 +411,10 @@ const ticker = pending.map((b) =>
   </div>
 
   <div class="bottombar">
-    <div class="marquee">{ticker ? `LIVE BETS  ·  ${ticker}  ·  ` : "LLM WORLD CUP BETS · 6 AIs, $10,000 each, every match of the World Cup · "}every bet + verbatim reasoning on <b>llmworldcup.xyz</b></div>
+    <div class="lower-live">Live</div>
+    <div class="lower-main">
+      Leader <b>{leader.name} {money(leader.roll)}</b> · Baseline <b>#{baselineRank} {money(baselineStanding.roll)}</b> · AIs over baseline <b>{aisBeatingBaseline}/{aiCount}</b>{nextMatch ? ` · Next ${nextMatch.homeTeam} vs ${nextMatch.awayTeam} ${kickoffShort(nextMatch.kickoff)}` : ""}
+    </div>
     <div class="url-badge">llmworldcup.xyz</div>
   </div>
 
