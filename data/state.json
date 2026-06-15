@@ -1888,7 +1888,7 @@
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Claude",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1896,14 +1896,14 @@
       "kickoff": "2026-06-15T19:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1000,
-      "odds": 1.6,
-      "reasoning": "Belgium are a clear class above Egypt with their deep European-based talent pool. Home at 1.6 isn't huge value but it's the safe play, and after a .500 record I want a solid favorite rather than chasing long odds. Moderate stake to rebuild without overexposing on a single match.",
+      "stake": 1200,
+      "odds": 1.53,
+      "reasoning": "Belgium are a class above Egypt with deeper talent across the pitch. At 1.53 the home win offers fair value for a strong favorite. I'm sitting at break-even after a rough patch, so I want a solid but not reckless stake on a high-probability outcome rather than chasing longshots.",
       "status": "pending"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:GPT-5.5",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1912,13 +1912,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 819.98,
-      "odds": 6,
-      "reasoning": "I need upside from this bankroll position, and Egypt at 6.00 looks like the best risk-reward on the board. Belgium deserve to be favored, but not to this extent on a neutral World Cup stage against an organized Egypt side with real counterattacking and set-piece danger. Taking the max shot on the upset.",
+      "odds": 6.68,
+      "reasoning": "Belgium are deserved favorites, but at this point in the tournament my bankroll needs upside more than a small favorite payout. Egypt at 6.68 is a high-variance play with enough counterattacking and set-piece threat to be worth taking at max stake.",
       "status": "pending"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Gemini",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1927,13 +1927,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 969.43,
-      "odds": 1.6,
-      "reasoning": "Belgium enters this matchup as the clear favorite. Despite being in a transitional phase, their squad depth and individual quality, led by world-class playmakers, give them a significant edge over Egypt. Egypt remains heavily reliant on Mohamed Salah, and if Belgium can contain him, Egypt's attacking threat is severely diminished. At 1.60, backing Belgium to secure a victory is the most logical value bet to help rebuild our bankroll.",
+      "odds": 1.53,
+      "reasoning": "Belgium enters this matchup as the clear favorite, boasting superior squad depth and tactical versatility compared to Egypt. While Egypt remains a threat on the counter-attack, Belgium's midfield control and attacking quality should prove decisive. We are placing the maximum allowed stake on a Belgium victory to steadily rebuild our bankroll with a high-probability outcome.",
       "status": "pending"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Grok",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1941,14 +1941,14 @@
       "kickoff": "2026-06-15T19:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 1968.76,
-      "odds": 1.6,
-      "reasoning": "Belgium has far superior squad depth and recent form compared to Egypt; 1.6 offers solid value on the home win in what should be a controlled match.",
+      "stake": 1968,
+      "odds": 1.53,
+      "reasoning": "Belgium vastly superior on paper, Egypt unlikely to pull off an upset even away from home. Max stake on the clear favorite.",
       "status": "pending"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:DeepSeek",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1956,14 +1956,14 @@
       "kickoff": "2026-06-15T19:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 200,
-      "odds": 1.6,
-      "reasoning": "Belgium are strong and expected to win. Egypt may park the bus but Belgian quality should prevail. Odds at 1.6 offer fair value. Stake is moderate to manage risk.",
+      "stake": 424.56,
+      "odds": 1.53,
+      "reasoning": "Belgium has a significantly stronger squad than Egypt, even considering Egypt's Mohamed Salah. Belgium's depth and quality should control this match. After several aggressive bets that didn't pay off, I'm opting for a high-probability home win to stabilize my shrinking bankroll. I'm risking the maximum allowed per match to maximize the safe return.",
       "status": "pending"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Mistral",
-      "date": "2026-06-15T16:54:44.544Z",
+      "date": "2026-06-15T18:37:07.994Z",
       "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
       "match": "Belgium vs Egypt",
       "homeTeam": "Belgium",
@@ -1972,14 +1972,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 780.32,
-      "odds": 1.6,
-      "reasoning": "Belgium is a strong team with a solid track record in recent tournaments, even if they haven't won a major trophy yet. Egypt is no pushover, but Belgium's squad depth and attacking prowess (Lukaku, De Bruyne, etc.) give them a clear edge at home odds of 1.6. The draw and away odds are tempting, but Belgium's consistency in qualifiers and friendlies suggests they're the safer bet here. I'm allocating the maximum stake to reflect high confidence in this outcome.",
+      "odds": 1.53,
+      "reasoning": "Belgium is a strong team with a solid attacking lineup (Lukaku, De Bruyne, etc.) and Egypt, while defensively solid, lacks the firepower to consistently threaten top-tier teams. The odds for Belgium to win (1.53) are attractive given their historical performance and current form. I'm allocating the maximum allowed stake here due to the favorable risk-reward ratio and my need to recover from recent losses. The draw (4.35) is tempting, but Belgium's recent results (e.g., wins over England and Austria) suggest they should control this match.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-15T16:54:44.544Z",
+    "lastBetsRun": "2026-06-15T18:37:07.994Z",
     "lastSettleRun": "2026-06-15T05:14:15.302Z",
     "failures": [
       {
