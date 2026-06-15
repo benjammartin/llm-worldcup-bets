@@ -55,6 +55,13 @@ const byMatch = (bets: Bet[]) => {
   return [...m.values()];
 };
 const pendingMatches = byMatch(pending);
+const liveMatches = state.meta.liveMatches ?? [];
+const featuredLiveBets = liveMatches.length
+  ? pendingMatches.find((bets) => liveMatches.some((m) =>
+      bets[0]?.matchId === m.matchId ||
+      (bets[0]?.homeTeam === m.homeTeam && bets[0]?.awayTeam === m.awayTeam && bets[0]?.kickoff === m.kickoff)
+    )) ?? null
+  : null;
 const settledMatches = byMatch(settled);
 const upcomingMatches = (state.meta.upcomingMatches ?? [])
   .filter((m) => Date.parse(m.kickoff) > Date.now())
@@ -219,6 +226,15 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .hero-cta { display: inline-flex; align-items: center; border: 1px solid var(--amber); background: var(--amber); color: #050607;
       border-radius: 999px; padding: 11px 16px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
     .hero-cta:hover { text-decoration: none; filter: brightness(1.06); }
+    .live-bets-now { border: 1px solid color-mix(in srgb, var(--amber) 70%, var(--line)); border-radius: 10px;
+      background: linear-gradient(135deg, rgba(245,158,11,.18), rgba(34,197,94,.07) 48%, var(--panel));
+      padding: 14px; margin: 14px 0 22px; box-shadow: 0 0 0 1px rgba(245,158,11,.08) inset; }
+    .live-bets-now h2 { margin-top: 0; }
+    .live-bets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; }
+    .live-bet-card { border: 1px solid var(--line); background: rgba(5,6,7,.55); border-radius: 8px; padding: 10px; }
+    .live-bet-card .model { color: var(--c); font-weight: 700; display: block; }
+    .live-bet-card .pick { display: block; margin-top: 4px; color: var(--txt); }
+    .live-bet-card .stake { display: block; margin-top: 2px; color: var(--amber); font-weight: 700; }
     h1 { font-size: clamp(26px, 6vw, 44px); line-height: 1.05; letter-spacing: -.01em; margin: 0; }
     h1 .accent { color: var(--amber); }
     .tagline { color: var(--dim); max-width: 760px; margin: 12px 0 14px; font-size: clamp(13px, 2.6vw, 14px); }
@@ -397,6 +413,22 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 3 hours before kickoff against real bookmaker odds. Reasoning is published verbatim.</p>
     <a class="hero-cta" href="#current-cycle">Jump to matches</a>
   </header>
+
+  {featuredLiveBets && (
+    <section class="live-bets-now" aria-label="Live match bets">
+      <h2>Live now — {featuredLiveBets[0].homeTeam} vs {featuredLiveBets[0].awayTeam} <span class="count">· {featuredLiveBets.length} bets displayed even after kickoff</span></h2>
+      <div class="match-insight">{matchInsight(featuredLiveBets)}</div>
+      <div class="live-bets-grid">
+        {featuredLiveBets.map((b) => (
+          <div class="live-bet-card" style={`--c:${COLORS[b.model] ?? "#fff"}`}>
+            <span class="model">{b.model}</span>
+            <span class="pick">{pickLabel(b)} @ {b.odds}</span>
+            <span class="stake">Stake {money(b.stake)}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Priority order: bankroll/leaderboard first, then today's bets. Viral/shame modules are below the fold. -->
   <section>
