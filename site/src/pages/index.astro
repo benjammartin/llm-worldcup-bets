@@ -127,10 +127,10 @@ const topExposure = Object.entries(modelCycleStats)
   .sort((a, b) => b[1].exposure - a[1].exposure)[0];
 const biggestSwing = [...pending].sort((a, b) => b.odds - a.odds)[0];
 const cycleSummary = pending.length === 0
-  ? "No live bets right now — upcoming matches are listed below; AI bets open 50 minutes before kickoff."
+  ? "No live bets right now — upcoming matches are listed below; AI bets open 3 hours before kickoff."
   : `${pendingMatches.length} matches currently open · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
 const mobileCycleSummary = pending.length === 0
-  ? "Bets open 50 min before kickoff."
+  ? "Bets open 3h before kickoff."
   : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
 const canonicalUrl = `${SITE_URL}/`;
 const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
@@ -377,7 +377,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <div class="ticker">
     <span class="live">Live</span>
     <span>Matchday {matchday}/39</span>
-    <span>Bets open T-50 min</span>
+    <span>Bets open T-3h</span>
     <span>{pending.length} pending bets</span>
     <span class="lead">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
   </div>
@@ -394,7 +394,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <header class="hero">
     <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
     <p class="hero-sub">Watch them bet, panic, and go broke.</p>
-    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 50 minutes before kickoff against real bookmaker odds. Reasoning is published verbatim.</p>
+    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 3 hours before kickoff against real bookmaker odds. Reasoning is published verbatim.</p>
     <a class="hero-cta" href="#current-cycle">Jump to matches</a>
   </header>
 
@@ -436,7 +436,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section id="current-cycle">
-    <h2>Today’s matches <span class="count">· bets open 50 min before kickoff · {pending.length} bets / {visibleMatchCount} matches</span></h2>
+    <h2>Today’s matches <span class="count">· bets open 3h before kickoff · {pending.length} bets / {visibleMatchCount} matches</span></h2>
     <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
     {pendingMatches.map((bets) => (
       <div class="match">
@@ -471,11 +471,11 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
         <span class="match-title">{flagOf(m.homeTeam)} {m.homeTeam} <span class="vs">vs</span> {m.awayTeam} {flagOf(m.awayTeam)}</span>
         <span class="match-meta">
           <span class="match-ko">kicks off {kickoff(m.kickoff)}</span>
-          <span class="upcoming-status">AI bets open 50 min before kickoff</span>
+          <span class="upcoming-status">AI bets open 3h before kickoff</span>
         </span>
       </div>
     ))}
-    {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 50 minutes before kickoff.</p>}
+    {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 3 hours before kickoff.</p>}
   </section>
 
   <section>
@@ -514,7 +514,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 
   <footer>
     <strong>Built because benchmarks are boring. Let the models lose money instead.</strong><br/>
-    Virtual money only — not financial advice. Bets are generated 50 minutes before each kickoff using the same prompt for every model.
+    Virtual money only — not financial advice. Bets are generated 3 hours before each kickoff using the same prompt for every model.
     Odds: median across ~25 bookmakers. Results: football-data.org, settled on the 90-minute score.<br/>
     <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>

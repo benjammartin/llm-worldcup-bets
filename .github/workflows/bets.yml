@@ -1,7 +1,7 @@
 name: morning-bets
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Every 10 min UTC; bets open in the final 50 min before kickoff
+    - cron: "*/10 * * * *"  # Best-effort GitHub schedule; bets open in the final 3h before kickoff
   workflow_dispatch: {}
 concurrency: { group: state-writes, cancel-in-progress: false }
 permissions: { contents: write }

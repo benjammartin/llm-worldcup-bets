@@ -72,10 +72,10 @@ describe("fetchTodaysOdds", () => {
 });
 
 describe("matchesInBettingWindow", () => {
-  test("only opens bets during the final 50 minutes before kickoff", () => {
+  test("only opens bets during the final 3 hours before kickoff", () => {
     const matches = [
-      { matchId: "too-early", homeTeam: "A", awayTeam: "B", kickoff: "2026-06-11T16:51:00Z", odds: { home: 2, draw: 3, away: 4 } },
-      { matchId: "window-edge", homeTeam: "C", awayTeam: "D", kickoff: "2026-06-11T16:50:00Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "too-early", homeTeam: "A", awayTeam: "B", kickoff: "2026-06-11T19:01:00Z", odds: { home: 2, draw: 3, away: 4 } },
+      { matchId: "window-edge", homeTeam: "C", awayTeam: "D", kickoff: "2026-06-11T19:00:00Z", odds: { home: 2, draw: 3, away: 4 } },
       { matchId: "inside-window", homeTeam: "E", awayTeam: "F", kickoff: "2026-06-11T16:09:00Z", odds: { home: 2, draw: 3, away: 4 } },
       { matchId: "started", homeTeam: "G", awayTeam: "H", kickoff: "2026-06-11T15:59:59Z", odds: { home: 2, draw: 3, away: 4 } },
     ];
