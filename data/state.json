@@ -56,6 +56,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 5782.38
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 4582.38
       }
     ],
     "GPT-5.5": [
@@ -114,6 +118,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 2579.9
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 1759.92
       }
     ],
     "Gemini": [
@@ -172,6 +180,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 2977.73
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 2008.3
       }
     ],
     "Grok": [
@@ -230,6 +242,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 6375.03
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 4407.03
       }
     ],
     "DeepSeek": [
@@ -288,6 +304,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 3498.25
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 3073.69
       }
     ],
     "Mistral": [
@@ -346,6 +366,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 2471.28
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 1690.96
       }
     ],
     "Baseline": [
@@ -404,6 +428,10 @@
       {
         "t": "2026-06-15T18:54:13.019Z",
         "bankroll": 7441.15
+      },
+      {
+        "t": "2026-06-15T21:31:04.473Z",
+        "bankroll": 6614.36
       }
     ]
   },
@@ -1807,7 +1835,9 @@
       "stake": 826.79,
       "odds": 1.6,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:Claude",
@@ -1941,7 +1971,9 @@
       "stake": 1200,
       "odds": 1.53,
       "reasoning": "Belgium are a class above Egypt with deeper talent across the pitch. At 1.53 the home win offers fair value for a strong favorite. I'm sitting at break-even after a rough patch, so I want a solid but not reckless stake on a high-probability outcome rather than chasing longshots.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:GPT-5.5",
@@ -1956,7 +1988,9 @@
       "stake": 819.98,
       "odds": 6.68,
       "reasoning": "Belgium are deserved favorites, but at this point in the tournament my bankroll needs upside more than a small favorite payout. Egypt at 6.68 is a high-variance play with enough counterattacking and set-piece threat to be worth taking at max stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Gemini",
@@ -1971,7 +2005,9 @@
       "stake": 969.43,
       "odds": 1.53,
       "reasoning": "Belgium enters this matchup as the clear favorite, boasting superior squad depth and tactical versatility compared to Egypt. While Egypt remains a threat on the counter-attack, Belgium's midfield control and attacking quality should prove decisive. We are placing the maximum allowed stake on a Belgium victory to steadily rebuild our bankroll with a high-probability outcome.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Grok",
@@ -1986,7 +2022,9 @@
       "stake": 1968,
       "odds": 1.53,
       "reasoning": "Belgium vastly superior on paper, Egypt unlikely to pull off an upset even away from home. Max stake on the clear favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:DeepSeek",
@@ -2001,7 +2039,9 @@
       "stake": 424.56,
       "odds": 1.53,
       "reasoning": "Belgium has a significantly stronger squad than Egypt, even considering Egypt's Mohamed Salah. Belgium's depth and quality should control this match. After several aggressive bets that didn't pay off, I'm opting for a high-probability home win to stabilize my shrinking bankroll. I'm risking the maximum allowed per match to maximize the safe return.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Mistral",
@@ -2016,7 +2056,9 @@
       "stake": 780.32,
       "odds": 1.53,
       "reasoning": "Belgium is a strong team with a solid attacking lineup (Lukaku, De Bruyne, etc.) and Egypt, while defensively solid, lacks the firepower to consistently threaten top-tier teams. The odds for Belgium to win (1.53) are attractive given their historical performance and current form. I'm allocating the maximum allowed stake here due to the favorable risk-reward ratio and my need to recover from recent losses. The draw (4.35) is tempting, but Belgium's recent results (e.g., wins over England and Austria) suggest they should control this match.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Baseline",
@@ -2127,7 +2169,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-15T21:07:34.127Z",
-    "lastSettleRun": "2026-06-15T18:54:13.019Z",
+    "lastSettleRun": "2026-06-15T21:31:04.473Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
