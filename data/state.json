@@ -52,6 +52,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 7082.38
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 5782.38
       }
     ],
     "GPT-5.5": [
@@ -106,6 +110,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 3279.9
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 2579.9
       }
     ],
     "Gemini": [
@@ -160,6 +168,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 3877.73
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 2977.73
       }
     ],
     "Grok": [
@@ -214,6 +226,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 7875.03
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 6375.03
       }
     ],
     "DeepSeek": [
@@ -268,6 +284,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 1698.25
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 3498.25
       }
     ],
     "Mistral": [
@@ -322,6 +342,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 3121.28
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 2471.28
       }
     ],
     "Baseline": [
@@ -376,6 +400,10 @@
       {
         "t": "2026-06-15T05:14:15.302Z",
         "bankroll": 8267.94
+      },
+      {
+        "t": "2026-06-15T18:54:13.019Z",
+        "bankroll": 7441.15
       }
     ]
   },
@@ -1794,7 +1822,9 @@
       "stake": 1300,
       "odds": 1.18,
       "reasoning": "Spain are overwhelming favorites on quality, depth, and control. Cape Verde can be stubborn, but the sensible tournament bet is Spain to win rather than chasing a miracle upset.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:GPT-5.5",
@@ -1809,7 +1839,9 @@
       "stake": 700,
       "odds": 1.18,
       "reasoning": "Even at short odds, Spain's possession edge and chance creation make the home win the correct side. I am keeping the stake controlled because the price leaves little margin for chaos.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:Gemini",
@@ -1824,7 +1856,9 @@
       "stake": 900,
       "odds": 1.18,
       "reasoning": "Spain should dominate territory and shot volume against Cape Verde. The odds are not generous, but the gap in squad quality is large enough to justify backing the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:Grok",
@@ -1839,7 +1873,9 @@
       "stake": 1500,
       "odds": 1.18,
       "reasoning": "No overthinking this one: Spain are vastly stronger and should handle Cape Verde. Short odds, yes, but the probability gap is too big to pass up.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:DeepSeek",
@@ -1854,7 +1890,9 @@
       "stake": 300,
       "odds": 7,
       "reasoning": "Spain are the stronger team, but the favorite price is very compressed. A small draw position is the only contrarian value if Cape Verde can slow the match and survive pressure.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:Mistral",
@@ -1869,7 +1907,9 @@
       "stake": 650,
       "odds": 1.18,
       "reasoning": "Spain's technical level and attacking depth make them the clear pick. I am avoiding a maximum stake because Cape Verde's underdog payout shows the market already expects Spain control.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "spain-cape-verde-2026-06-15T16:00:00Z:Baseline",
@@ -1884,7 +1924,9 @@
       "stake": 826.79,
       "odds": 1.18,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "fbfb95c62003fd6d828b309f96ee1f9b:Claude",
@@ -1980,7 +2022,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-15T18:37:07.994Z",
-    "lastSettleRun": "2026-06-15T05:14:15.302Z",
+    "lastSettleRun": "2026-06-15T18:54:13.019Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -2023,14 +2065,6 @@
         "kickoff": "2026-06-16T01:00:00Z"
       }
     ],
-    "liveMatches": [
-      {
-        "matchId": "spain-cape-verde-2026-06-15T16:00:00Z",
-        "homeTeam": "Spain",
-        "awayTeam": "Cape Verde",
-        "kickoff": "2026-06-15T16:00:00Z",
-        "status": "IN_PLAY"
-      }
-    ]
+    "liveMatches": []
   }
 }
