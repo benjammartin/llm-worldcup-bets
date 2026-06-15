@@ -100,8 +100,6 @@ const liveMatchBetCount = liveMatch
   : 0;
 const story = liveMatch && liveMatchHasBets
   ? `${liveMatch.homeTeam} vs ${liveMatch.awayTeam} is live with ${liveMatchBetCount} AI bets in play.`
-  : liveMatch
-  ? `${liveMatch.homeTeam} vs ${liveMatch.awayTeam} is live, but no AI bets were generated before kickoff.`
   : latestResult
   ? `${resultHeadline}. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
   : pending.length
@@ -290,13 +288,6 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
           </div>
         </div>
         <div class="side-stack">
-          {liveMatch && !liveMatchHasBets && (
-            <div class="story-card">
-              <h3>Now live · missed pre-kickoff</h3>
-              <p class="big">{flagOf(liveMatch.homeTeam)} {liveMatch.homeTeam}<br />vs {liveMatch.awayTeam} {flagOf(liveMatch.awayTeam)}</p>
-              <p class="sub">No AI bets generated before kickoff</p>
-            </div>
-          )}
           <div class="story-card">
             <h3>Top AI</h3>
             <p class="big">{aiLeader.name}</p>
@@ -431,7 +422,7 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
     <div class="lower-live">Live</div>
     <div class="lower-main">
       <div class="lower-scroll">
-        {liveMatch ? `Now live ${liveMatch.homeTeam} vs ${liveMatch.awayTeam}${liveMatchHasBets ? "" : " · no AI bets were generated pre-kickoff"} · ` : ""}Leader <b>{leader.name} {money(leader.roll)}</b> · Baseline <b>#{baselineRank} {money(baselineStanding.roll)}</b> · AIs over baseline <b>{aisBeatingBaseline}/{aiCount}</b>{nextMatch && !liveMatch ? ` · Next ${nextMatch.homeTeam} vs ${nextMatch.awayTeam} ${kickoffShort(nextMatch.kickoff)}` : ""} · Every bet + reasoning on <b>llmworldcup.xyz</b> ·
+        {liveMatch && liveMatchHasBets ? `Now live ${liveMatch.homeTeam} vs ${liveMatch.awayTeam} · ` : ""}Leader <b>{leader.name} {money(leader.roll)}</b> · Baseline <b>#{baselineRank} {money(baselineStanding.roll)}</b> · AIs over baseline <b>{aisBeatingBaseline}/{aiCount}</b>{nextMatch && !liveMatch ? ` · Next ${nextMatch.homeTeam} vs ${nextMatch.awayTeam} ${kickoffShort(nextMatch.kickoff)}` : ""} · Every bet + reasoning on <b>llmworldcup.xyz</b> ·
       </div>
     </div>
     <div class="url-badge">llmworldcup.xyz</div>
