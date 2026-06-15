@@ -98,7 +98,6 @@ const pnlText = (b: Bet) => {
 };
 const lostBets = settled.filter((b) => b.status === "lost");
 const modelLostBets = lostBets.filter((b) => b.model !== BASELINE_NAME);
-const totalModelLosses = modelLostBets.reduce((sum, b) => sum + b.stake, 0);
 const biggestLoss = [...modelLostBets].sort((a, b) => b.stake - a.stake)[0];
 const biggestPendingStake = [...pending.filter((b) => b.model !== BASELINE_NAME)].sort((a, b) => b.stake - a.stake)[0];
 const mostCowardly = [...pending.filter((b) => b.model !== BASELINE_NAME && b.stake > 0)].sort((a, b) => a.stake - b.stake)[0];
@@ -161,14 +160,6 @@ const cycleSummary = pending.length === 0
 const mobileCycleSummary = pending.length === 0
   ? "Bets open 50 min before kickoff."
   : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
-const headlineMatch = pendingMatches[0];
-const matchTitle = (bets: Bet[]) => `${flagOf(bets[0].homeTeam)} ${bets[0].homeTeam} vs ${bets[0].awayTeam} ${flagOf(bets[0].awayTeam)}`;
-const storylineTitle = pending.length === 0
-  ? "Waiting for the betting window"
-  : "Today’s AI picks are in";
-const storylineBody = pending.length === 0 || !headlineMatch
-  ? "Upcoming matches stay visible, but the models only place bets in the final 50 minutes before kickoff. Come back then for picks, stakes, and verbatim reasoning."
-  : `${matchTitle(headlineMatch)} — ${matchInsight(headlineMatch).replace(" · biggest stake:", ". Biggest stake:")}.${topExposure ? ` ${topExposure[0]} has ${money(topExposure[1].exposure)} exposed on open matches.` : ""}`;
 const canonicalUrl = `${SITE_URL}/`;
 const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
 const jsonLd = {
@@ -263,17 +254,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .cycle-note { color: var(--faint); max-width: 760px; margin: 0 0 8px; font-size: 12px; }
     .cycle-note b { color: var(--amber); }
 
-    .storyline { display: block;
-      background: linear-gradient(135deg, rgba(245,158,11,.12), rgba(13,15,18,.92) 45%);
-      border: 1px solid color-mix(in srgb, var(--amber) 34%, var(--line)); border-radius: 8px;
-      padding: 15px 16px; margin: 18px 0 2px; }
-    .storyline-kicker { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .14em; margin: 0 0 5px; }
-    .storyline-title { font-size: clamp(16px, 3.6vw, 22px); line-height: 1.15; margin: 0 0 7px; font-weight: 700; }
-    .storyline-body { color: var(--dim); margin: 0; max-width: 780px; }
-    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 8px; }
-    .stat-card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; }
-    .stat-card b { display: block; color: var(--txt); font-size: clamp(18px, 3.2vw, 26px); line-height: 1.05; }
-    .stat-card span { color: var(--faint); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
     .drama-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: 12px; margin-top: 12px; }
     .drama-card { background: linear-gradient(135deg, rgba(239,68,68,.12), rgba(13,15,18,.96) 45%); border: 1px solid color-mix(in srgb, var(--down) 36%, var(--line)); border-radius: 10px; padding: 16px; }
     .drama-kicker { color: var(--down); margin: 0 0 8px; font-size: 11px; text-transform: uppercase; letter-spacing: .14em; font-weight: 700; }
@@ -385,8 +365,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .hero { padding-top: 22px; }
       .hero h1 { font-size: clamp(38px, 13vw, 58px); }
       .hero-sub { font-size: 17px; }
-      .stats-grid, .drama-grid, .shame-board { grid-template-columns: 1fr; }
-      .stat-card { padding: 10px; }
+      .drama-grid, .shame-board { grid-template-columns: 1fr; }
       .ticker { gap: 10px; font-size: 10px; }
       .youtube-marquee { margin-top: 10px; border-radius: 10px; }
       .youtube-track { animation-duration: 14s; }
@@ -394,8 +373,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       .ticker .lead { display: none; }
       h2 { margin-top: 26px; font-size: 12px; gap: 7px; }
       h2 .count { display: none; }
-      .storyline { padding: 12px; margin-top: 14px; }
-      .storyline-body { font-size: 12px; }
       .standing { grid-template-columns: 22px 22px 1fr auto; }
       .pl-track, .standing .delta, .cycle-risk { display: none; }
       .standing .model-id { display: none; }
@@ -466,17 +443,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 50 minutes before kickoff against real bookmaker odds. Reasoning is published verbatim. The dumb baseline is just an if-statement.</p>
     <a class="hero-cta" href="#current-cycle">Jump to matches</a>
   </header>
-
-  <section class="stats-grid" aria-label="Bankroll and today's betting numbers">
-    <div class="stat-card"><b>{leader.name}</b><span>bankroll leader · {money(leader.roll)}</span></div>
-    <div class="stat-card"><b>{money(STARTING_BANKROLL)}</b><span>starting bankroll each</span></div>
-    <div class="stat-card"><b>{money(totalPendingExposure)}</b><span>exposed in today's bets</span></div>
-    <div class="stat-card"><b>{pending.length}</b><span>live AI bets today</span></div>
-    <div class="stat-card"><b>{visibleMatchCount} matches</b><span>{pending.length > 0 ? "open betting window" : "upcoming schedule"}</span></div>
-    <div class="stat-card"><b>{money(totalModelLosses)}</b><span>lost by models so far</span></div>
-    <div class="stat-card"><b>6 AIs</b><span>public model roster</span></div>
-    <div class="stat-card"><b>{dumberThanBaseline.length}</b><span>AIs below baseline</span></div>
-  </section>
 
   <!-- Priority order: bankroll/leaderboard first, then today's bets. Viral/shame modules are below the fold. -->
   <section>
@@ -557,13 +523,6 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       </div>
     ))}
     {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 50 minutes before kickoff.</p>}
-  </section>
-
-
-  <section class="storyline">
-    <p class="storyline-kicker">Today’s storyline</p>
-    <p class="storyline-title">{storylineTitle}</p>
-    <p class="storyline-body">{storylineBody}</p>
   </section>
 
   <section class="drama-grid">
