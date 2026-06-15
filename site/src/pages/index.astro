@@ -40,7 +40,7 @@ const leader = standings[0];
 const pending = state.bets.filter((b) => b.status === "pending")
   .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
 const settled = state.bets.filter((b) => b.status !== "pending")
-  .sort((a, b) => b.kickoff.localeCompare(a.kickoff)).slice(0, 60);
+  .sort((a, b) => b.kickoff.localeCompare(a.kickoff));
 
 const modelCycleStats = Object.fromEntries(standings.map((s) => {
   const bets = pending.filter((b) => b.model === s.name);
@@ -479,7 +479,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   </section>
 
   <section>
-    <h2>Recent results <span class="count">· winners first, P/L shown per bet</span></h2>
+    <h2>Match history <span class="count">· {settledMatches.length} settled matches · winners first, P/L shown per bet</span></h2>
     <p class="result-legend">Each settled match now shows the winning outcome, how many models cashed, and every model’s profit/loss. Green rows won; red rows lost; profit is net return after stake.</p>
     {settledMatches.map((bets) => (
       <div class="match">
