@@ -26,6 +26,7 @@ export interface Bet {
 
 export interface SeriesPoint { t: string; bankroll: number; }
 export interface UpcomingMatch { matchId: string; homeTeam: string; awayTeam: string; kickoff: string; }
+export interface LiveMatch extends UpcomingMatch { status: string; }
 
 export interface State {
   series: Record<string, SeriesPoint[]>;
@@ -36,6 +37,7 @@ export interface State {
     lastSettleRun: string | null;
     lastCyclePostKey?: string | null;
     upcomingMatches?: UpcomingMatch[];
+    liveMatches?: LiveMatch[];
     failures: { date: string; model: string; reason: string }[];
   };
 }
@@ -68,6 +70,20 @@ export function rememberUpcomingMatches(s: State, matches: MatchOdds[], now: str
       homeTeam: m.homeTeam,
       awayTeam: m.awayTeam,
       kickoff: m.kickoff,
+    }));
+}
+
+export function rememberLiveMatches(s: State, matches: LiveMatch[], now: string): void {
+  const nowMs = Date.parse(now);
+  s.meta.liveMatches = matches
+    .filter((m) => Date.parse(m.kickoff) <= nowMs)
+    .sort((a, b) => b.kickoff.localeCompare(a.kickoff))
+    .map((m) => ({
+      matchId: m.matchId,
+      homeTeam: m.homeTeam,
+      awayTeam: m.awayTeam,
+      kickoff: m.kickoff,
+      status: m.status,
     }));
 }
 

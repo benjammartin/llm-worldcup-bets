@@ -1917,6 +1917,15 @@
         "awayTeam": "New Zealand",
         "kickoff": "2026-06-16T01:00:00Z"
       }
+    ],
+    "liveMatches": [
+      {
+        "matchId": "spain-cape-verde-2026-06-15T16:00:00Z",
+        "homeTeam": "Spain",
+        "awayTeam": "Cape Verde",
+        "kickoff": "2026-06-15T16:00:00Z",
+        "status": "IN_PLAY"
+      }
     ]
   }
 }

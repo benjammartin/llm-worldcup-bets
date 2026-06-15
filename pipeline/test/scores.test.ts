@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { fetchFinished } from "../src/scores";
+import { fetchFinished, fetchLiveMatches } from "../src/scores";
 
 const FIXTURE = {
   matches: [
@@ -60,5 +60,12 @@ describe("fetchFinished", () => {
     const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchFinished("TOKEN", "2026-06-09", "2026-06-12", f);
     expect(out).toEqual([]);
+  });
+
+  test("maps live matches for TV context", async () => {
+    const out = await fetchLiveMatches("TOKEN", "2026-06-11", "2026-06-11", fakeFetch);
+    expect(out).toEqual([
+      { matchId: "Brazil-Japan-2026-06-11T22:00:00Z", homeTeam: "Brazil", awayTeam: "Japan", kickoff: "2026-06-11T22:00:00Z", status: "IN_PLAY" },
+    ]);
   });
 });

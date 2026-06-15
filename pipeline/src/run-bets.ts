@@ -9,8 +9,9 @@ import { fetchTodaysOdds, matchesInBettingWindow } from "./odds";
 import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
 import { renderPNG } from "./og";
 import { postToX } from "./post";
+import { fetchLiveMatches } from "./scores";
 import { composeCycleShare } from "./share";
-import { loadState, rememberUpcomingMatches, saveState } from "./state";
+import { loadState, rememberLiveMatches, rememberUpcomingMatches, saveState } from "./state";
 
 const now = new Date().toISOString();
 const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
@@ -18,6 +19,16 @@ const state = loadState(STATE_PATH, names, now);
 
 const allOdds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
 rememberUpcomingMatches(state, allOdds, now);
+if (process.env.FOOTBALL_DATA_TOKEN) {
+  try {
+    const today = now.slice(0, 10);
+    const liveMatches = await fetchLiveMatches(process.env.FOOTBALL_DATA_TOKEN, today, today);
+    rememberLiveMatches(state, liveMatches, now);
+    console.log(`[bets] ${liveMatches.length} live matches from football-data`);
+  } catch (e) {
+    console.log(`[bets] live match context unavailable — ${String(e)}`);
+  }
+}
 const odds = matchesInBettingWindow(allOdds, new Date(now));
 console.log(`[bets] ${allOdds.length} matches in the next 24h; ${odds.length} in the pre-kickoff betting window`);
 const pruned = prunePrematurePendingBets(state, odds, now);

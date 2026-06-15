@@ -1,4 +1,4 @@
-import type { Pick3 } from "./state";
+import type { LiveMatch, Pick3 } from "./state";
 
 export interface FinishedMatch {
   homeTeam: string;
@@ -11,6 +11,27 @@ export interface FinishedMatch {
 const WINNER: Record<string, Pick3> = Object.assign(Object.create(null), {
   HOME_TEAM: "home", AWAY_TEAM: "away", DRAW: "draw",
 });
+
+export async function fetchLiveMatches(
+  token: string,
+  dateFrom: string, // YYYY-MM-DD
+  dateTo: string,
+  fetchFn: typeof fetch = fetch,
+): Promise<LiveMatch[]> {
+  const url = `https://api.football-data.org/v4/competitions/WC/matches?dateFrom=${dateFrom}&dateTo=${dateTo}`;
+  const res = await fetchFn(url, { headers: { "X-Auth-Token": token } });
+  if (!res.ok) throw new Error(`football-data ${res.status}`);
+  const body = (await res.json()) as any;
+  return (body.matches as any[])
+    .filter((m) => ["IN_PLAY", "PAUSED", "LIVE"].includes(m.status))
+    .map((m) => ({
+      matchId: String(m.id ?? `${m.homeTeam?.name}-${m.awayTeam?.name}-${m.utcDate}`),
+      homeTeam: m.homeTeam.name,
+      awayTeam: m.awayTeam.name,
+      kickoff: m.utcDate,
+      status: m.status,
+    }));
+}
 
 export async function fetchFinished(
   token: string,

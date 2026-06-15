@@ -40,6 +40,11 @@ const aiLeader = standings.find((s) => s.name !== BASELINE_NAME) ?? leader;
 
 const pending = state.bets.filter((b) => b.status === "pending")
   .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
+const liveMatches = state.meta.liveMatches ?? [];
+const liveMatch = liveMatches[0] ?? null;
+const liveMatchHasBets = liveMatch
+  ? pending.some((b) => b.matchId === liveMatch.matchId || (b.homeTeam === liveMatch.homeTeam && b.awayTeam === liveMatch.awayTeam && b.kickoff === liveMatch.kickoff))
+  : false;
 const settledAll = state.bets.filter((b) => b.status !== "pending")
   .sort((a, b) => b.kickoff.localeCompare(a.kickoff));
 const settled = settledAll.slice(0, 14);
@@ -88,9 +93,11 @@ const biggestMove = settledAll.length
   ? [...settledAll].sort((a, b) => Math.abs(resultMoney(b)) - Math.abs(resultMoney(a)))[0]
   : null;
 const nextMatchBets = pendingMatches[0] ?? [];
-const nextMatch = nextMatchBets[0] ?? state.meta.upcomingMatches?.[0] ?? null;
+const nextMatch = liveMatch ?? nextMatchBets[0] ?? state.meta.upcomingMatches?.[0] ?? null;
 const topRisk = pending.length ? [...pending].sort((a, b) => b.stake - a.stake)[0] : null;
-const story = latestResult
+const story = liveMatch && !liveMatchHasBets
+  ? `${liveMatch.homeTeam} vs ${liveMatch.awayTeam} is live, but no AI bets were generated before kickoff.`
+  : latestResult
   ? `${resultHeadline}. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
   : pending.length
     ? `${pending.length} bets are live for the current 24h cycle. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
@@ -278,6 +285,13 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
           </div>
         </div>
         <div class="side-stack">
+          {liveMatch && !liveMatchHasBets && (
+            <div class="story-card">
+              <h3>Now live · missed pre-kickoff</h3>
+              <p class="big">{flagOf(liveMatch.homeTeam)} {liveMatch.homeTeam}<br />vs {liveMatch.awayTeam} {flagOf(liveMatch.awayTeam)}</p>
+              <p class="sub">No AI bets generated before kickoff</p>
+            </div>
+          )}
           <div class="story-card">
             <h3>Top AI</h3>
             <p class="big">{aiLeader.name}</p>
@@ -412,7 +426,7 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
     <div class="lower-live">Live</div>
     <div class="lower-main">
       <div class="lower-scroll">
-        Leader <b>{leader.name} {money(leader.roll)}</b> · Baseline <b>#{baselineRank} {money(baselineStanding.roll)}</b> · AIs over baseline <b>{aisBeatingBaseline}/{aiCount}</b>{nextMatch ? ` · Next ${nextMatch.homeTeam} vs ${nextMatch.awayTeam} ${kickoffShort(nextMatch.kickoff)}` : ""} · Every bet + reasoning on <b>llmworldcup.xyz</b> ·
+        {liveMatch ? `Now live ${liveMatch.homeTeam} vs ${liveMatch.awayTeam}${liveMatchHasBets ? "" : " · no AI bets were generated pre-kickoff"} · ` : ""}Leader <b>{leader.name} {money(leader.roll)}</b> · Baseline <b>#{baselineRank} {money(baselineStanding.roll)}</b> · AIs over baseline <b>{aisBeatingBaseline}/{aiCount}</b>{nextMatch && !liveMatch ? ` · Next ${nextMatch.homeTeam} vs ${nextMatch.awayTeam} ${kickoffShort(nextMatch.kickoff)}` : ""} · Every bet + reasoning on <b>llmworldcup.xyz</b> ·
       </div>
     </div>
     <div class="url-badge">llmworldcup.xyz</div>
