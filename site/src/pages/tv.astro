@@ -95,7 +95,12 @@ const biggestMove = settledAll.length
 const nextMatchBets = pendingMatches[0] ?? [];
 const nextMatch = liveMatch ?? nextMatchBets[0] ?? state.meta.upcomingMatches?.[0] ?? null;
 const topRisk = pending.length ? [...pending].sort((a, b) => b.stake - a.stake)[0] : null;
-const story = liveMatch && !liveMatchHasBets
+const liveMatchBetCount = liveMatch
+  ? pending.filter((b) => b.matchId === liveMatch.matchId || (b.homeTeam === liveMatch.homeTeam && b.awayTeam === liveMatch.awayTeam && b.kickoff === liveMatch.kickoff)).length
+  : 0;
+const story = liveMatch && liveMatchHasBets
+  ? `${liveMatch.homeTeam} vs ${liveMatch.awayTeam} is live with ${liveMatchBetCount} AI bets in play.`
+  : liveMatch
   ? `${liveMatch.homeTeam} vs ${liveMatch.awayTeam} is live, but no AI bets were generated before kickoff.`
   : latestResult
   ? `${resultHeadline}. ${aisBeatingBaseline}/${aiCount} AIs are beating the baseline.`
