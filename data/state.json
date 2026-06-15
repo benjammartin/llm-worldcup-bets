@@ -2164,11 +2164,116 @@
       "odds": 1.44,
       "reasoning": "Uruguay is significantly stronger than Saudi Arabia, both in terms of FIFA rankings and recent form. Saudi Arabia has shown flashes but remains inconsistent, while Uruguay is a tournament-hardened side with a strong defense and clinical attack. The away odds (1.44) are favorable for a near-certain outcome, and I'm allocating the maximum allowed stake to capitalize on this high-confidence pick. The risk is minimal, and the reward is a safe boost to the bankroll.",
       "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:Claude",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 700,
+      "odds": 1.79,
+      "reasoning": "Iran are clear favorites at home against New Zealand. The 1.79 price reflects a strong but not certain edge. After getting burned by overstaking favorites recently, I'm keeping this measured rather than going all-in. Iran's organized defense and home crowd should be enough against a weaker NZ side.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:GPT-5.5",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 439.98,
+      "odds": 1.79,
+      "reasoning": "Iran looks like the stronger side here and 1.79 is playable given the matchup. With my bankroll damaged I need to be aggressive when I see a favorite I trust, so I’m staking the max rather than trying to grind small edges.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:Gemini",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 502.07,
+      "odds": 1.79,
+      "reasoning": "Iran possesses superior squad depth and far more experience at the highest international level compared to New Zealand. Historically, Iran is tough to break down and highly disciplined, whereas New Zealand often struggles against technically superior opponents outside of Oceania. At 1.79, the home win represents strong value, and I am maximizing my stake within the allowed limit to kickstart a bankroll recovery.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:Grok",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 1100,
+      "odds": 1.79,
+      "reasoning": "Iran is clearly the stronger side here and the 1.79 odds look fair value. With only one match available I'll max out my per-bet limit to put conviction behind it.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:DeepSeek",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 500,
+      "odds": 1.79,
+      "reasoning": "Iran brings superior World Cup pedigree and a higher FIFA ranking (top 30) against a New Zealand side that typically struggles outside Oceania. The neutral venue shouldn't erase the quality gap. At 1.79 odds, the implied probability undervalues Iran's consistency against lower-tier opponents. I'm allocating $500 to reflect strong confidence while managing risk within my bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:Mistral",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 422.74,
+      "odds": 1.79,
+      "reasoning": "Iran is playing at home (or at least in a neutral venue with strong support), and New Zealand is not historically a powerhouse in international football. The odds (1.79) suggest Iran is the favorite, and given my recent losses, I need a safer bet to recover some ground. The stake is maxed out to reflect high confidence in this pick, as I can't afford another loss right now. Iran's defensive solidity and home advantage make them a solid choice over New Zealand, who often struggle against stronger Asian teams.",
+      "status": "pending"
+    },
+    {
+      "id": "ec51b9c44ad5e34552f3ab53f7262813:Baseline",
+      "date": "2026-06-15T22:02:55.806Z",
+      "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
+      "match": "Iran vs New Zealand",
+      "homeTeam": "Iran",
+      "awayTeam": "New Zealand",
+      "kickoff": "2026-06-16T01:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 661.44,
+      "odds": 1.79,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-15T21:07:34.127Z",
+    "lastBetsRun": "2026-06-15T22:02:55.806Z",
     "lastSettleRun": "2026-06-15T21:31:04.473Z",
     "failures": [
       {
@@ -2194,12 +2299,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "64b91c5f2db61c7358a4f05459e83c52",
-        "homeTeam": "Saudi Arabia",
-        "awayTeam": "Uruguay",
-        "kickoff": "2026-06-15T22:00:00Z"
-      },
-      {
         "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
         "homeTeam": "Iran",
         "awayTeam": "New Zealand",
@@ -2210,6 +2309,12 @@
         "homeTeam": "France",
         "awayTeam": "Senegal",
         "kickoff": "2026-06-16T19:00:00Z"
+      },
+      {
+        "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+        "homeTeam": "Iraq",
+        "awayTeam": "Norway",
+        "kickoff": "2026-06-16T22:00:00Z"
       }
     ],
     "liveMatches": []
