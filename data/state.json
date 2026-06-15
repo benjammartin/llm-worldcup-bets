@@ -2017,11 +2017,116 @@
       "odds": 1.53,
       "reasoning": "Belgium is a strong team with a solid attacking lineup (Lukaku, De Bruyne, etc.) and Egypt, while defensively solid, lacks the firepower to consistently threaten top-tier teams. The odds for Belgium to win (1.53) are attractive given their historical performance and current form. I'm allocating the maximum allowed stake here due to the favorable risk-reward ratio and my need to recover from recent losses. The draw (4.35) is tempting, but Belgium's recent results (e.g., wins over England and Austria) suggest they should control this match.",
       "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:Claude",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 1000,
+      "odds": 1.44,
+      "reasoning": "Uruguay are a top-tier side with real World Cup pedigree facing a Saudi Arabia team that's a clear step below. At 1.44 the value is modest, but the gap in quality is wide enough that I'm comfortable putting real money on it. I've been bitten lately backing 'safe' favorites, so I'm sizing this firmly but not maxing out — disciplined conviction over greed.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:GPT-5.5",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "away",
+      "stake": 644.98,
+      "odds": 1.44,
+      "reasoning": "Uruguay are clearly the stronger side and 1.44 is short but still the best probability-adjusted position on this board. With my bankroll damaged, I need to press edges rather than punt blindly on huge prices, so I’m staking the maximum allowed on the most likely result.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:Gemini",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 744.43,
+      "odds": 1.44,
+      "reasoning": "Uruguay enters this matchup as the clear superior side in terms of squad depth, tactical structure, and individual quality. While Saudi Arabia is capable of disciplined defensive performances, Uruguay's dynamic attack and solid midfield control should prove too strong. Given my need to rebuild my bankroll after some tough upsets, I am backing the favorites with the maximum allowed stake to secure a highly probable victory.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:Grok",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 1593,
+      "odds": 1.44,
+      "reasoning": "Uruguay vastly superior to Saudi Arabia in quality and form; away win at 1.44 is the clear value pick here.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:DeepSeek",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 874.56,
+      "odds": 1.44,
+      "reasoning": "Uruguay are clear favorites, and I need a reliable win to stabilize my bankroll after recent losses. The odds of 1.44 offer solid value; I'm betting the maximum allowed to maximize recovery.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:Mistral",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 617.82,
+      "odds": 1.44,
+      "reasoning": "Uruguay is a significantly stronger team than Saudi Arabia, both historically and in recent form. While the odds for Uruguay (1.44) are not particularly generous, they reflect a high probability of victory. Given my recent losses, I need a high-confidence bet to recover some ground. The stake is maxed out to reflect this conviction, as Uruguay is the clear favorite and should win comfortably in a World Cup setting. The risk is minimal compared to betting on the underdog or draw.",
+      "status": "pending"
+    },
+    {
+      "id": "64b91c5f2db61c7358a4f05459e83c52:Baseline",
+      "date": "2026-06-15T19:12:35.026Z",
+      "matchId": "64b91c5f2db61c7358a4f05459e83c52",
+      "match": "Saudi Arabia vs Uruguay",
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Uruguay",
+      "kickoff": "2026-06-15T22:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 744.12,
+      "odds": 1.44,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-15T18:37:07.994Z",
+    "lastBetsRun": "2026-06-15T19:12:35.026Z",
     "lastSettleRun": "2026-06-15T18:54:13.019Z",
     "failures": [
       {
@@ -2047,12 +2152,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "fbfb95c62003fd6d828b309f96ee1f9b",
-        "homeTeam": "Belgium",
-        "awayTeam": "Egypt",
-        "kickoff": "2026-06-15T19:00:00Z"
-      },
-      {
         "matchId": "64b91c5f2db61c7358a4f05459e83c52",
         "homeTeam": "Saudi Arabia",
         "awayTeam": "Uruguay",
@@ -2063,6 +2162,12 @@
         "homeTeam": "Iran",
         "awayTeam": "New Zealand",
         "kickoff": "2026-06-16T01:00:00Z"
+      },
+      {
+        "matchId": "73a4fcd14cc9766b9b9bfd50b8ca153a",
+        "homeTeam": "France",
+        "awayTeam": "Senegal",
+        "kickoff": "2026-06-16T19:00:00Z"
       }
     ],
     "liveMatches": []
