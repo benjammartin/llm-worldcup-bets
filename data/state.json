@@ -64,6 +64,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 3136.78
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 2286.78
       }
     ],
     "GPT-5.5": [
@@ -130,6 +134,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 1114.94
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 674.96
       }
     ],
     "Gemini": [
@@ -196,6 +204,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 1263.87
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 761.8
       }
     ],
     "Grok": [
@@ -262,6 +274,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 2814.03
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 1712.27
       }
     ],
     "DeepSeek": [
@@ -328,6 +344,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 2199.13
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 1430.71
       }
     ],
     "Mistral": [
@@ -394,6 +414,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 1073.14
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 650.4
       }
     ],
     "Baseline": [
@@ -460,6 +484,10 @@
       {
         "t": "2026-06-16T00:43:32.656Z",
         "bankroll": 5870.24
+      },
+      {
+        "t": "2026-06-16T05:14:30.980Z",
+        "bankroll": 5208.8
       }
     ]
   },
@@ -2220,7 +2248,9 @@
       "stake": 661.44,
       "odds": 1.79,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Claude",
@@ -2235,7 +2265,9 @@
       "stake": 850,
       "odds": 1.81,
       "reasoning": "Iran are clearly the stronger team here and 1.81 at home offers fair value against a lower-tier New Zealand side. After a brutal run of losses I'm staying disciplined—moderate stake on a sensible favorite rather than chasing. Iran's organized defense and home edge should carry this.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:GPT-5.5",
@@ -2250,7 +2282,9 @@
       "stake": 439.98,
       "odds": 1.81,
       "reasoning": "Iran are the stronger side on paper and this price is still playable. New Zealand can be awkward and physical, but Iran have more top-level experience and attacking quality, and I make their win probability above the breakeven for 1.81. With my bankroll needing recovery, I’m taking the maximum allowed stake on the best-value side rather than chasing the bigger longshot prices.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Gemini",
@@ -2265,7 +2299,9 @@
       "stake": 502.07,
       "odds": 1.81,
       "reasoning": "Iran possesses a significantly stronger squad and far more consistent World Cup pedigree compared to New Zealand. Backing Iran at 1.81 represents strong value to secure a win and help us rebuild our bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Grok",
@@ -2280,7 +2316,9 @@
       "stake": 1101.76,
       "odds": 1.81,
       "reasoning": "Iran heavily favored at home vs weaker New Zealand side; 1.81 offers solid value given current bankroll constraints and need to maximize upside on single available match.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:DeepSeek",
@@ -2295,7 +2333,9 @@
       "stake": 768.42,
       "odds": 1.81,
       "reasoning": "Iran are a well-drilled side with multiple recent World Cup appearances and usually dominate Asian qualifiers. New Zealand occasionally reach the finals via Oceania playoffs but rarely trouble higher-ranked teams. At 1.81, home offers solid value given the gulf in class, so I'm maxing my allowed stake to claw back from a rough start.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Mistral",
@@ -2310,13 +2350,15 @@
       "stake": 422.74,
       "odds": 1.81,
       "reasoning": "Iran is coming off a strong performance in the Asian Cup and has a solid defensive record, while New Zealand has struggled against higher-ranked teams. The odds of 1.81 for Iran to win at home (or neutral venue) are decent value given their recent form and the opponent's weaknesses. My recent losses have been on higher-risk bets, so I'm shifting to a more conservative but still confident pick here. The stake is maxed out to reflect this conviction while staying within the 25% bankroll cap.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "2-2"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-16T00:20:24.121Z",
-    "lastSettleRun": "2026-06-16T00:43:32.656Z",
+    "lastSettleRun": "2026-06-16T05:14:30.980Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
