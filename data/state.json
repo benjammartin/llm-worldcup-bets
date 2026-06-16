@@ -2341,12 +2341,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
-        "homeTeam": "Iran",
-        "awayTeam": "New Zealand",
-        "kickoff": "2026-06-16T01:00:00Z"
-      },
-      {
         "matchId": "73a4fcd14cc9766b9b9bfd50b8ca153a",
         "homeTeam": "France",
         "awayTeam": "Senegal",
@@ -2357,6 +2351,12 @@
         "homeTeam": "Iraq",
         "awayTeam": "Norway",
         "kickoff": "2026-06-16T22:00:00Z"
+      },
+      {
+        "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
+        "homeTeam": "Argentina",
+        "awayTeam": "Algeria",
+        "kickoff": "2026-06-17T01:00:00Z"
       }
     ],
     "liveMatches": []
