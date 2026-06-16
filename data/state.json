@@ -2623,7 +2623,7 @@
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Claude",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
@@ -2632,28 +2632,28 @@
       "model": "Claude",
       "pick": "home",
       "stake": 640.3,
-      "odds": 1.44,
-      "reasoning": "Argentina are vastly superior to Algeria and playing at full strength. 1.44 is the only logical side here. After a brutal run of favorites letting me down, I'm sticking with quality but keeping it to the per-match cap rather than overexposing my shrinking bankroll. This is the safest spot on the board.",
+      "odds": 1.45,
+      "reasoning": "Argentina are the reigning champions with elite squad depth facing a clearly weaker Algeria. At 1.45 the implied probability (~69%) feels fair-to-low for this quality gap. After a string of favorites failing me, I'm staying selective and only betting the cleanest mismatch on the board, at my per-match max.",
       "status": "pending"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:GPT-5.5",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
       "awayTeam": "Algeria",
       "kickoff": "2026-06-17T01:00:00Z",
       "model": "GPT-5.5",
-      "pick": "away",
+      "pick": "draw",
       "stake": 126.56,
-      "odds": 8.1,
-      "reasoning": "I’m far behind and need upside, not small favorite profits. Argentina are clearly stronger, but Algeria at 8.1 is the only outcome here that can materially repair my bankroll if the upset hits. Max-stake volatility play.",
+      "odds": 4.48,
+      "reasoning": "I need upside from a short bankroll, and Argentina at 1.45 does not move the needle enough. Algeria are capable of making this ugly and compact, so the draw at 4.48 is the best risk/reward spot for both value and tournament-chasing variance.",
       "status": "pending"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Gemini",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
@@ -2662,13 +2662,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 213.31,
-      "odds": 1.44,
-      "reasoning": "After a devastating run of upsets that severely depleted my bankroll, I got back on track with a France win. Argentina is a world-class squad and should secure a comfortable victory against Algeria. I am going with the maximum allowed stake of $213.31 on a home win to steadily rebuild my bankroll. No room for reckless risks anymore; we play the high-probability outcomes.",
+      "odds": 1.45,
+      "reasoning": "After a devastating losing streak where heavy favorites let me down, I stabilized slightly with France's win. I must continue rebuilding my bankroll carefully. Argentina at 1.45 against Algeria is a strong, high-probability option. While Algeria can be stubborn, Argentina's world-class quality should prevail in a tournament setting. I am maxing out my allowed stake of $213.31 on a home win to steadily claw my way back into the competition.",
       "status": "pending"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Grok",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
@@ -2677,13 +2677,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 479.44,
-      "odds": 1.44,
-      "reasoning": "Argentina's squad depth and experience make them overwhelming favorites here; 1.44 is solid value on the home side.",
+      "odds": 1.45,
+      "reasoning": "Argentina vastly superior to Algeria on paper; 1.45 is solid value for the heavy favorite in a must-win group stage match.",
       "status": "pending"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:DeepSeek",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
@@ -2691,14 +2691,14 @@
       "kickoff": "2026-06-17T01:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 400.6,
-      "odds": 1.44,
-      "reasoning": "Argentina are overwhelming favorites against Algeria. With odds of 1.44, the implied probability is high, and we need to rebuild our bankroll. We're placing the maximum permissible stake to capitalize on this mismatch, while staying within risk limits.",
+      "stake": 300,
+      "odds": 1.45,
+      "reasoning": "Argentina is the clear favorite with superior squad depth. At 1.45 odds, a home win offers safe but steady returns. I'm placing a moderate stake to conserve funds for later matches.",
       "status": "pending"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Mistral",
-      "date": "2026-06-16T22:58:21.941Z",
+      "date": "2026-06-16T23:39:17.935Z",
       "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
       "match": "Argentina vs Algeria",
       "homeTeam": "Argentina",
@@ -2707,14 +2707,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 182.11,
-      "odds": 1.44,
-      "reasoning": "Argentina is a football powerhouse with a strong squad, even without some of their aging stars. Algeria is a decent African side but lacks the consistency and depth to challenge Argentina at their best. The odds (1.44) are fair for a home win, and given my recent losing streak, I need a high-confidence bet to stabilize my bankroll. I'm allocating the maximum allowed stake here to maximize potential recovery, as Argentina is the safest pick in this matchup.",
+      "odds": 1.45,
+      "reasoning": "Argentina is a powerhouse with a strong recent track record, including winning the 2022 World Cup. Algeria is a decent African side but lacks the consistency and star power to challenge Argentina, especially in a friendly or low-stakes match. The odds of 1.45 for a home win are fair but not overly generous, so I'm placing the maximum allowed stake here to reflect my high confidence in Argentina's ability to control the game and secure a win. This is a safer bet compared to the recent high-risk, high-reward bets I've placed, which have not panned out well. Time to play it a bit safer and rebuild the bankroll.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-16T22:58:21.941Z",
+    "lastBetsRun": "2026-06-16T23:39:17.935Z",
     "lastSettleRun": "2026-06-16T22:14:44.900Z",
     "failures": [
       {
@@ -2762,6 +2762,12 @@
         "homeTeam": "England",
         "awayTeam": "Croatia",
         "kickoff": "2026-06-17T20:00:00Z"
+      },
+      {
+        "matchId": "87afdb85c977b451e1c00f5e3e632601",
+        "homeTeam": "Ghana",
+        "awayTeam": "Panama",
+        "kickoff": "2026-06-17T23:00:00Z"
       }
     ],
     "liveMatches": []
