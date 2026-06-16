@@ -2182,7 +2182,7 @@
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Claude",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2191,13 +2191,13 @@
       "model": "Claude",
       "pick": "home",
       "stake": 850,
-      "odds": 1.8,
-      "reasoning": "Iran is the clearly stronger side with home advantage against a weaker New Zealand. 1.8 implies ~56% but I rate Iran's chances higher, so there's value. After a rough run I'm sizing moderately rather than chasing losses.",
+      "odds": 1.81,
+      "reasoning": "Iran are clearly the stronger team here and 1.81 at home offers fair value against a lower-tier New Zealand side. After a brutal run of losses I'm staying disciplined—moderate stake on a sensible favorite rather than chasing. Iran's organized defense and home edge should carry this.",
       "status": "pending"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:GPT-5.5",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2206,13 +2206,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 439.98,
-      "odds": 1.8,
-      "reasoning": "Iran look clearly stronger than New Zealand on talent, tournament experience, and defensive structure. At 1.80 I think the home side is still playable value, and given my low bankroll I need to press edges with the maximum allowed stake.",
+      "odds": 1.81,
+      "reasoning": "Iran are the stronger side on paper and this price is still playable. New Zealand can be awkward and physical, but Iran have more top-level experience and attacking quality, and I make their win probability above the breakeven for 1.81. With my bankroll needing recovery, I’m taking the maximum allowed stake on the best-value side rather than chasing the bigger longshot prices.",
       "status": "pending"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Gemini",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2221,13 +2221,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 502.07,
-      "odds": 1.8,
-      "reasoning": "Iran is historically a highly disciplined and resilient side in tournament football, possessing significantly more World Cup experience and tactical depth than New Zealand. At 1.80 odds, a home win represents the most reliable path to start rebuilding our bankroll. We are committing the maximum allowed stake of $502.07 to this outcome.",
+      "odds": 1.81,
+      "reasoning": "Iran possesses a significantly stronger squad and far more consistent World Cup pedigree compared to New Zealand. Backing Iran at 1.81 represents strong value to secure a win and help us rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Grok",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2235,14 +2235,14 @@
       "kickoff": "2026-06-16T01:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 1101,
-      "odds": 1.8,
-      "reasoning": "Iran should be clear favorites here at home against New Zealand; 1.8 is solid value given the quality gap.",
+      "stake": 1101.76,
+      "odds": 1.81,
+      "reasoning": "Iran heavily favored at home vs weaker New Zealand side; 1.81 offers solid value given current bankroll constraints and need to maximize upside on single available match.",
       "status": "pending"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:DeepSeek",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2251,13 +2251,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 768.42,
-      "odds": 1.8,
-      "reasoning": "Iran is a strong Asian team with World Cup experience, while New Zealand usually struggles at this level. Home win is the most likely outcome, and odds 1.80 offer decent value to recover from our losing streak.",
+      "odds": 1.81,
+      "reasoning": "Iran are a well-drilled side with multiple recent World Cup appearances and usually dominate Asian qualifiers. New Zealand occasionally reach the finals via Oceania playoffs but rarely trouble higher-ranked teams. At 1.81, home offers solid value given the gulf in class, so I'm maxing my allowed stake to claw back from a rough start.",
       "status": "pending"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Mistral",
-      "date": "2026-06-15T23:39:12.412Z",
+      "date": "2026-06-16T00:20:24.121Z",
       "matchId": "ec51b9c44ad5e34552f3ab53f7262813",
       "match": "Iran vs New Zealand",
       "homeTeam": "Iran",
@@ -2266,14 +2266,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 422.74,
-      "odds": 1.8,
-      "reasoning": "Iran is playing at home (assuming this is a neutral venue but historically Iran performs better in Asian/AFC contexts) and has a strong defensive record. New Zealand is decent but often struggles against technically superior teams. The odds (1.8) are reasonable for a home win, and given my recent losses, I need a high-confidence bet to recover. I'm allocating the maximum allowed stake here to maximize potential recovery while keeping risk manageable.",
+      "odds": 1.81,
+      "reasoning": "Iran is coming off a strong performance in the Asian Cup and has a solid defensive record, while New Zealand has struggled against higher-ranked teams. The odds of 1.81 for Iran to win at home (or neutral venue) are decent value given their recent form and the opponent's weaknesses. My recent losses have been on higher-risk bets, so I'm shifting to a more conservative but still confident pick here. The stake is maxed out to reflect this conviction while staying within the 25% bankroll cap.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-15T23:39:12.412Z",
+    "lastBetsRun": "2026-06-16T00:20:24.121Z",
     "lastSettleRun": "2026-06-15T21:31:04.473Z",
     "failures": [
       {
