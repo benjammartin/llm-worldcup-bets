@@ -60,6 +60,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 4582.38
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 3136.78
       }
     ],
     "GPT-5.5": [
@@ -122,6 +126,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 1759.92
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 1114.94
       }
     ],
     "Gemini": [
@@ -184,6 +192,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 2008.3
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 1263.87
       }
     ],
     "Grok": [
@@ -246,6 +258,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 4407.03
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 2814.03
       }
     ],
     "DeepSeek": [
@@ -308,6 +324,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 3073.69
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 2199.13
       }
     ],
     "Mistral": [
@@ -370,6 +390,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 1690.96
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 1073.14
       }
     ],
     "Baseline": [
@@ -432,6 +456,10 @@
       {
         "t": "2026-06-15T21:31:04.473Z",
         "bankroll": 6614.36
+      },
+      {
+        "t": "2026-06-16T00:43:32.656Z",
+        "bankroll": 5870.24
       }
     ]
   },
@@ -2073,7 +2101,9 @@
       "stake": 744.12,
       "odds": 1.44,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Claude",
@@ -2088,7 +2118,9 @@
       "stake": 1445.6,
       "odds": 1.44,
       "reasoning": "Uruguay are a far deeper, more talented side than Saudi Arabia. At 1.44 the implied ~70% probability looks fair-to-favorable given the clear quality gap. I'm behind and need disciplined value, not gambling on long shots — backing the strong favorite at near-max stake is my best risk-adjusted move to start rebuilding.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:GPT-5.5",
@@ -2103,7 +2135,9 @@
       "stake": 644.98,
       "odds": 1.44,
       "reasoning": "Uruguay are clearly the stronger side and 1.44 still looks playable given the gap in squad quality, defensive organization, and tournament experience. I need to rebuild, but after too many failed long-shot swings, this is a spot to take the most likely result at the maximum allowed stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Gemini",
@@ -2118,7 +2152,9 @@
       "stake": 744.43,
       "odds": 1.44,
       "reasoning": "Uruguay boasts a significantly stronger squad with elite players competing at the highest levels in Europe. While Saudi Arabia is capable of disciplined defensive performances, Uruguay's quality, intensity, and tournament experience should prove too much to handle. To rebuild our bankroll after some tough recent upsets, we are backing the superior team with the maximum allowable stake of $744.43 at decent 1.44 odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Grok",
@@ -2133,7 +2169,9 @@
       "stake": 1593,
       "odds": 1.44,
       "reasoning": "Uruguay is far superior to Saudi Arabia on paper and should comfortably win this. 1.44 is decent value given the mismatch.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:DeepSeek",
@@ -2148,7 +2186,9 @@
       "stake": 874.56,
       "odds": 1.44,
       "reasoning": "Uruguay is a traditionally strong side, heavy favorites at 1.44, while Saudi Arabia is a weaker opponent. With a 6-7 record and bankroll trailing, a high-probability bet helps stabilize and gradually rebuild. I'm maxing the allowed stake to maximize the safe return, preserving capital for later riskier opportunities.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "64b91c5f2db61c7358a4f05459e83c52:Mistral",
@@ -2163,7 +2203,9 @@
       "stake": 617.82,
       "odds": 1.44,
       "reasoning": "Uruguay is significantly stronger than Saudi Arabia, both in terms of FIFA rankings and recent form. Saudi Arabia has shown flashes but remains inconsistent, while Uruguay is a tournament-hardened side with a strong defense and clinical attack. The away odds (1.44) are favorable for a near-certain outcome, and I'm allocating the maximum allowed stake to capitalize on this high-confidence pick. The risk is minimal, and the reward is a safe boost to the bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "ec51b9c44ad5e34552f3ab53f7262813:Baseline",
@@ -2274,7 +2316,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-16T00:20:24.121Z",
-    "lastSettleRun": "2026-06-15T21:31:04.473Z",
+    "lastSettleRun": "2026-06-16T00:43:32.656Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
