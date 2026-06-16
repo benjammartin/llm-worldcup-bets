@@ -2476,7 +2476,7 @@
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Claude",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
@@ -2485,13 +2485,13 @@
       "model": "Claude",
       "pick": "away",
       "stake": 571.7,
-      "odds": 1.21,
-      "reasoning": "I'm down to $2286 after a brutal run of favorites letting me down. Time to be disciplined: Norway at 1.21 away to Iraq is the clear value here. Norway, with Haaland and a strong squad, should comfortably handle Iraq. The odds reflect genuine class difference, not false confidence. I'm maxing my stake at the per-match cap because this is the safest single bet available and I need to start rebuilding. Low return per dollar, but high probability — exactly what I need to stop the bleeding.",
+      "odds": 1.22,
+      "reasoning": "Norway is a clearly superior side away to Iraq, and the 1.22 price reflects that. I'm down badly and chasing margins won't fix it - I need to stop bleeding on coin-flip favorites and back the genuinely strong team. Norway has the talent and form to win this comfortably. Max stake on the most reliable outcome on the board.",
       "status": "pending"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:GPT-5.5",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
@@ -2501,12 +2501,12 @@
       "pick": "draw",
       "stake": 168.74,
       "odds": 7,
-      "reasoning": "Norway are the rightful favorite, but 1.21 is too short for a World Cup match where a compact underdog can turn this into a low-event game. At my current bankroll position I need upside, and the draw at 7 offers a better risk/reward profile than laying heavy juice on Norway.",
+      "reasoning": "Norway are rightly favored, but at my bankroll position I need upside, not a tiny favorite payout. Iraq can be stubborn and compact, and a 0-0 or 1-1 is a realistic upset path. The draw at 7.0 gives enough leverage to matter while being more plausible than the outright Iraq win.",
       "status": "pending"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Gemini",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
@@ -2515,13 +2515,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 190.45,
-      "odds": 1.21,
-      "reasoning": "After a difficult run of results, my immediate priority is to stop the bleeding and rebuild my bankroll with high-probability outcomes. Norway possesses superior squad depth and world-class talent compared to Iraq, making them heavy favorites. While the 1.21 odds offer a modest return, a highly secure victory is exactly what I need to establish a stable foundation and begin my climb back up the leaderboard. I am backing Norway with the maximum allowed individual stake of $190.45.",
+      "odds": 1.22,
+      "reasoning": "Norway, featuring world-class players like Erling Haaland and Martin Ødegaard, are heavily favored against Iraq. Given my recent losing streak and depleted bankroll, I need to focus on high-probability outcomes to rebuild. I am placing the maximum allowed stake of $190.45 on a Norway victory.",
       "status": "pending"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Grok",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
@@ -2530,28 +2530,28 @@
       "model": "Grok",
       "pick": "away",
       "stake": 428,
-      "odds": 1.21,
-      "reasoning": "Norway is the clear favorite here with superior team quality; low odds but safest pick given my current bankroll situation and need for steady returns.",
+      "odds": 1.22,
+      "reasoning": "Norway is the massive favorite here at 1.22; Iraq has no realistic chance against them. Max stake on the heavy favorite to try clawing back some bankroll.",
       "status": "pending"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:DeepSeek",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
       "awayTeam": "Norway",
       "kickoff": "2026-06-16T22:00:00Z",
       "model": "DeepSeek",
-      "pick": "away",
+      "pick": "draw",
       "stake": 357.68,
-      "odds": 1.21,
-      "reasoning": "Norway is heavily favored at 1.21 against Iraq. This is a low-risk bet to stabilize after recent losses. We need to protect the remaining bankroll while adding a small, steady return. Upsets are possible but unlikely; discipline is key to staying alive in the competition.",
+      "odds": 7,
+      "reasoning": "Sitting on $1,430 with a losing record, I need to take a calculated risk to climb back. Norway are massive favourites but these World Cup qualifiers sometimes produce shock results. A draw at 7.00 offers a huge potential return – $2,146 profit – which would more than double my bankroll and put me right back in contention. I’m allocating the maximum allowed 25% of my bankroll ($357.68) to this bet, accepting the risk because even if it loses I’ll still have over $1,000 to fight on.",
       "status": "pending"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Mistral",
-      "date": "2026-06-16T20:16:15.781Z",
+      "date": "2026-06-16T21:23:01.104Z",
       "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
       "match": "Iraq vs Norway",
       "homeTeam": "Iraq",
@@ -2560,14 +2560,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 162.6,
-      "odds": 1.21,
-      "reasoning": "Given my recent losing streak, I need to play it safer and capitalize on what looks like a clear favorite. Norway is ranked significantly higher than Iraq (FIFA rankings: Norway ~43, Iraq ~70) and has a stronger squad, especially in attack. The odds (1.21) are low, but it's a near-certainty bet to recover some losses. I'm allocating the maximum allowed stake here to maximize potential recovery while minimizing risk. If this loses, I'm in serious trouble, but the risk-reward balance favors Norway heavily.",
+      "odds": 1.22,
+      "reasoning": "Given my current bankroll and recent losses, I need a high-confidence bet to recover. Norway is significantly stronger than Iraq in FIFA rankings and recent form, with odds of 1.22 offering a safe but meaningful return. The low risk aligns with my need to stabilize my bankroll, even if the upside is limited. I’m allocating the maximum allowed stake here to maximize potential recovery while avoiding reckless bets.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-16T20:16:15.781Z",
+    "lastBetsRun": "2026-06-16T21:23:01.104Z",
     "lastSettleRun": "2026-06-16T05:14:30.980Z",
     "failures": [
       {
