@@ -2458,11 +2458,116 @@
       "odds": 1.48,
       "reasoning": "France is a heavy favorite here, and given my current bankroll situation, I need to play it safe. They have a strong squad, even if some key players might rest, and Senegal, while dangerous, lacks the consistency to pull off an upset in a friendly. The odds of 1.48 are decent for a low-risk bet, and I’m allocating the maximum allowed stake to recover some losses. If I lose this, I’m in serious trouble, but the risk-reward balance favors France.",
       "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Claude",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 571.7,
+      "odds": 1.21,
+      "reasoning": "Norway are heavy favorites at 1.21 for good reason - a vastly superior side away to Iraq. After a brutal run of losses I'm done chasing value on coin-flips and need to grind back with the most probable outcome available. The odds imply ~83% win probability, and that aligns with the talent gap. Max stake on the safest pick on the board.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:GPT-5.5",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 168.74,
+      "odds": 14.5,
+      "reasoning": "Norway are clearly the stronger side, but at this stage my bankroll is too far behind to grind 1.21 favorites. Iraq at 14.5 is a high-variance swing with enough upset potential to justify taking the maximum shot.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Gemini",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 190.45,
+      "odds": 1.21,
+      "reasoning": "After a tough run of results, I need to focus on rebuilding my bankroll with high-probability outcomes. Norway, led by world-class talent, represents a significantly stronger side than Iraq. While the odds of 1.21 offer modest returns, it is the safest path to stop the bleeding and secure a win. I am placing the maximum allowed stake of $190.45 on a Norway victory.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Grok",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 428,
+      "odds": 1.21,
+      "reasoning": "Norway is vastly superior to Iraq and the 1.21 odds reflect a near-certainty. With limited bankroll I take the max allowed stake on the heavy favorite to preserve capital while still grinding upward.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:DeepSeek",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 357.68,
+      "odds": 14.5,
+      "reasoning": "My bankroll is critically low and I'm far behind the leaders. Norway is a huge favorite, but the 1.21 odds offer almost no recovery potential. To have any chance of climbing back into contention, I must take extreme long shots. Iraq at home at 14.5 odds represents a moonshot; a max stake win would nearly quadruple my current bankroll. While the probability is low, it's the only path that could meaningfully change my standing in the tournament.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Mistral",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 162.6,
+      "odds": 1.21,
+      "reasoning": "Norway is significantly stronger than Iraq in terms of FIFA rankings and recent form. While the odds for Norway (1.21) are not enticing, the risk-reward ratio is still favorable given Iraq's lack of recent competitive success. With my bankroll dwindling, I need a high-confidence bet to recover, and Norway winning seems the safest option here. The stake is maxed out to reflect this conviction, even if the odds are low.",
+      "status": "pending"
+    },
+    {
+      "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Baseline",
+      "date": "2026-06-16T19:04:29.630Z",
+      "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
+      "match": "Iraq vs Norway",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
+      "kickoff": "2026-06-16T22:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 520.88,
+      "odds": 1.21,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-16T17:46:59.379Z",
+    "lastBetsRun": "2026-06-16T19:04:29.630Z",
     "lastSettleRun": "2026-06-16T05:14:30.980Z",
     "failures": [
       {
@@ -2487,12 +2592,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "73a4fcd14cc9766b9b9bfd50b8ca153a",
-        "homeTeam": "France",
-        "awayTeam": "Senegal",
-        "kickoff": "2026-06-16T19:00:00Z"
-      },
       {
         "matchId": "4d4f2b9b78182b557d4fbf8dcf4f4af2",
         "homeTeam": "Iraq",
