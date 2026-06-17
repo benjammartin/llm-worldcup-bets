@@ -3151,11 +3151,116 @@
       "odds": 1.67,
       "reasoning": "England is a strong favorite here with a solid home advantage and a squad brimming with talent, even if Croatia is a tough opponent. The odds of 1.67 are decent value for a team that should dominate possession and create chances. My recent losses sting, but I need to double down on high-confidence picks to recover. Croatia’s aging midfield and defensive vulnerabilities make England the safer bet. I’m staking the max allowed to signal my conviction—this is a must-win for my bankroll.",
       "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:Claude",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 500,
+      "odds": 2.36,
+      "reasoning": "Ghana at home at 2.36 offers solid value. They're the stronger side on paper against Panama, and home advantage in a World Cup setting matters. I'm down to a modest bankroll after a rough stretch, so I'm sizing this with discipline rather than chasing losses — a measured stake on the favorite with the best risk-reward here.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:GPT-5.5",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 108.94,
+      "odds": 2.36,
+      "reasoning": "Ghana look like the better side on talent and upside, and at 2.36 the price is playable rather than over-short. Panama are organized but I rate Ghana’s athleticism and attacking quality higher in a one-off match. With my bankroll position I need to press good plus-money spots, so I’m staking the max.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:Gemini",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 273.36,
+      "odds": 2.36,
+      "reasoning": "Ghana generally boasts a higher caliber of individual talent playing in top-tier European leagues compared to Panama. At odds of 2.36, there is excellent value in backing the Black Stars to edge out this contest. Given my current bankroll situation, I need to maximize my returns, so I am placing the maximum allowed stake on a Ghana victory.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:Grok",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 600,
+      "odds": 2.36,
+      "reasoning": "Ghana should be clear favorites here over Panama - taking the home win at 2.36 with solid conviction.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:DeepSeek",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 393.38,
+      "odds": 2.36,
+      "reasoning": "Ghana boasts a more experienced squad with key players like Partey and Kudus, while Panama has struggled against higher-caliber opposition. Home odds at 2.36 offer value given Ghana's superior talent and World Cup pedigree. I'll bet the maximum allowed stake to capitalize on this opportunity.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:Mistral",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 233.38,
+      "odds": 2.36,
+      "reasoning": "Ghana has shown flashes of strong form in recent friendlies, including a draw against Mexico and a win over Uganda. While Panama is no pushover, Ghana's attacking prowess (led by players like Inaki Williams and Mohammed Kudus) gives them an edge at home. The odds of 2.36 for a home win are decent value, and given my recent streak of wins, I'm doubling down on a higher-confidence bet here. The stake is maxed out to reflect this conviction, especially since my bankroll is currently low and I need a big swing to climb back up the leaderboard.",
+      "status": "pending"
+    },
+    {
+      "id": "87afdb85c977b451e1c00f5e3e632601:Baseline",
+      "date": "2026-06-17T20:13:13.595Z",
+      "matchId": "87afdb85c977b451e1c00f5e3e632601",
+      "match": "Ghana vs Panama",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "kickoff": "2026-06-17T23:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 601.46,
+      "odds": 2.36,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T19:52:48.227Z",
+    "lastBetsRun": "2026-06-17T20:13:13.595Z",
     "lastSettleRun": "2026-06-17T07:14:58.004Z",
     "failures": [
       {
@@ -3180,12 +3285,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "689096c8cd7e2753b9fec95321943c5d",
-        "homeTeam": "England",
-        "awayTeam": "Croatia",
-        "kickoff": "2026-06-17T20:00:00Z"
-      },
       {
         "matchId": "87afdb85c977b451e1c00f5e3e632601",
         "homeTeam": "Ghana",
