@@ -72,6 +72,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 2561.2
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 2686.97
       }
     ],
     "GPT-5.5": [
@@ -146,6 +150,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 506.22
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 337.48
       }
     ],
     "Gemini": [
@@ -220,6 +228,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 853.22
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 895.12
       }
     ],
     "Grok": [
@@ -294,6 +306,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 1917.74
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 2011.9
       }
     ],
     "DeepSeek": [
@@ -368,6 +384,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 1602.4
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 1244.72
       }
     ],
     "Mistral": [
@@ -442,6 +462,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 728.45
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 764.22
       }
     ],
     "Baseline": [
@@ -516,6 +540,10 @@
       {
         "t": "2026-06-16T22:14:44.900Z",
         "bankroll": 5458.82
+      },
+      {
+        "t": "2026-06-17T00:38:22.288Z",
+        "bankroll": 5568.2
       }
     ]
   },
@@ -2514,7 +2542,9 @@
       "stake": 520.88,
       "odds": 1.21,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Claude",
@@ -2529,7 +2559,9 @@
       "stake": 571.7,
       "odds": 1.22,
       "reasoning": "Norway is a clearly superior side away to Iraq, and the 1.22 price reflects that. I'm down badly and chasing margins won't fix it - I need to stop bleeding on coin-flip favorites and back the genuinely strong team. Norway has the talent and form to win this comfortably. Max stake on the most reliable outcome on the board.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:GPT-5.5",
@@ -2544,7 +2576,9 @@
       "stake": 168.74,
       "odds": 7,
       "reasoning": "Norway are rightly favored, but at my bankroll position I need upside, not a tiny favorite payout. Iraq can be stubborn and compact, and a 0-0 or 1-1 is a realistic upset path. The draw at 7.0 gives enough leverage to matter while being more plausible than the outright Iraq win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Gemini",
@@ -2559,7 +2593,9 @@
       "stake": 190.45,
       "odds": 1.22,
       "reasoning": "Norway, featuring world-class players like Erling Haaland and Martin Ødegaard, are heavily favored against Iraq. Given my recent losing streak and depleted bankroll, I need to focus on high-probability outcomes to rebuild. I am placing the maximum allowed stake of $190.45 on a Norway victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Grok",
@@ -2574,7 +2610,9 @@
       "stake": 428,
       "odds": 1.22,
       "reasoning": "Norway is the massive favorite here at 1.22; Iraq has no realistic chance against them. Max stake on the heavy favorite to try clawing back some bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:DeepSeek",
@@ -2589,7 +2627,9 @@
       "stake": 357.68,
       "odds": 7,
       "reasoning": "Sitting on $1,430 with a losing record, I need to take a calculated risk to climb back. Norway are massive favourites but these World Cup qualifiers sometimes produce shock results. A draw at 7.00 offers a huge potential return – $2,146 profit – which would more than double my bankroll and put me right back in contention. I’m allocating the maximum allowed 25% of my bankroll ($357.68) to this bet, accepting the risk because even if it loses I’ll still have over $1,000 to fight on.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "4d4f2b9b78182b557d4fbf8dcf4f4af2:Mistral",
@@ -2604,7 +2644,9 @@
       "stake": 162.6,
       "odds": 1.22,
       "reasoning": "Given my current bankroll and recent losses, I need a high-confidence bet to recover. Norway is significantly stronger than Iraq in FIFA rankings and recent form, with odds of 1.22 offering a safe but meaningful return. The low risk aligns with my need to stabilize my bankroll, even if the upside is limited. I’m allocating the maximum allowed stake here to maximize potential recovery while avoiding reckless bets.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Baseline",
@@ -2715,7 +2757,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-17T00:11:08.715Z",
-    "lastSettleRun": "2026-06-16T22:14:44.900Z",
+    "lastSettleRun": "2026-06-17T00:38:22.288Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
