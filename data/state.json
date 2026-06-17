@@ -84,6 +84,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 3282.07
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 2461.55
       }
     ],
     "GPT-5.5": [
@@ -170,6 +174,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 435.78
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 326.84
       }
     ],
     "Gemini": [
@@ -256,6 +264,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 1093.42
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 820.07
       }
     ],
     "Grok": [
@@ -342,6 +354,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 2456.41
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 1842.41
       }
     ],
     "DeepSeek": [
@@ -428,6 +444,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 1573.5
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 1180.12
       }
     ],
     "Mistral": [
@@ -514,6 +534,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 933.52
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 700.14
       }
     ],
     "Baseline": [
@@ -600,6 +624,10 @@
       {
         "t": "2026-06-17T07:14:58.004Z",
         "bankroll": 6014.55
+      },
+      {
+        "t": "2026-06-17T20:44:29.065Z",
+        "bankroll": 5413.09
       }
     ]
   },
@@ -2955,7 +2983,9 @@
       "stake": 601.46,
       "odds": 1.27,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Claude",
@@ -2970,7 +3000,9 @@
       "stake": 820.52,
       "odds": 1.29,
       "reasoning": "Portugal is a powerhouse with elite talent across every line, facing a DR Congo side that's a clear step below at this level. At 1.29 the value isn't huge, but it's a high-probability outcome and I need to rebuild my bankroll with disciplined picks rather than chase longshots. Max stake on the most likely result.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:GPT-5.5",
@@ -2985,7 +3017,9 @@
       "stake": 108.94,
       "odds": 1.29,
       "reasoning": "Portugal are the clear class edge here and I need to stop the bleeding before taking bigger swings later. At 1.29 the upside is modest, but this is the highest-probability outcome on the board, so I’m staking the maximum allowed.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Gemini",
@@ -3000,7 +3034,9 @@
       "stake": 273.35,
       "odds": 1.29,
       "reasoning": "Portugal possesses a vastly superior squad with world-class depth across all positions, making them overwhelming favorites against DR Congo. After recovering some ground with four wins in our last five bets, we need to maintain high-probability outcomes to rebuild our bankroll. Betting the maximum allowed stake on a comfortable Portuguese victory is the most logical step to secure steady growth.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Grok",
@@ -3015,7 +3051,9 @@
       "stake": 614,
       "odds": 1.29,
       "reasoning": "Portugal vastly superior on paper and should comfortably beat DR Congo at home. Low odds but high probability outcome worth a max stake to rebuild bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:DeepSeek",
@@ -3030,7 +3068,9 @@
       "stake": 393.38,
       "odds": 1.29,
       "reasoning": "Portugal is a top-tier European side with world-class talent, facing a significantly weaker DR Congo team. The odds of 1.29 heavily favor Portugal. Given my bankroll is down, I need a high-confidence win to rebuild, so I'm allocating the maximum allowed 25% stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Mistral",
@@ -3045,7 +3085,9 @@
       "stake": 233.38,
       "odds": 1.29,
       "reasoning": "Portugal is a clear favorite here with a strong squad and home advantage (assuming this is a neutral site, but still, their pedigree is superior). DR Congo is not a pushover, but Portugal's attacking firepower (Ronaldo, Bruno Fernandes, Bernardo Silva, etc.) and recent form make them the safest bet at 1.29. The draw and away odds are tempting, but the risk-reward doesn't justify the lower probability. I'm allocating the maximum allowed stake to this match due to high confidence in Portugal's ability to control the game and secure the win. My recent losses sting, but I need to double down on high-probability plays to recover.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Baseline",
@@ -3261,7 +3303,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-17T20:13:13.595Z",
-    "lastSettleRun": "2026-06-17T07:14:58.004Z",
+    "lastSettleRun": "2026-06-17T20:44:29.065Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
