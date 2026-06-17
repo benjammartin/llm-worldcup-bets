@@ -80,6 +80,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 3013.37
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 3282.07
       }
     ],
     "GPT-5.5": [
@@ -162,6 +166,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 402.03
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 435.78
       }
     ],
     "Gemini": [
@@ -244,6 +252,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 1003.91
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 1093.42
       }
     ],
     "Grok": [
@@ -326,6 +338,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 2256.41
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 2456.41
       }
     ],
     "DeepSeek": [
@@ -408,6 +424,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 1449.03
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 1573.5
       }
     ],
     "Mistral": [
@@ -490,6 +510,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 857.1
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 933.52
       }
     ],
     "Baseline": [
@@ -572,6 +596,10 @@
       {
         "t": "2026-06-17T05:10:34.653Z",
         "bankroll": 5797.39
+      },
+      {
+        "t": "2026-06-17T07:14:58.004Z",
+        "bankroll": 6014.55
       }
     ]
   },
@@ -2808,7 +2836,9 @@
       "stake": 556.82,
       "odds": 1.39,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Claude",
@@ -2823,7 +2853,9 @@
       "stake": 671.74,
       "odds": 1.4,
       "reasoning": "Austria are clear favorites at home against Jordan at 1.4. I'm trailing badly and need to make solid value bets on the strongest spots. A short-odds favorite with a quality gap like this is exactly where I want to concentrate capital. Going max stake to capitalize on the highest-probability outcome available.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:GPT-5.5",
@@ -2838,7 +2870,9 @@
       "stake": 84.37,
       "odds": 1.4,
       "reasoning": "Austria are clearly the stronger side and the 1.40 price is short but still the most realistic path to stop the bleeding after a bad run. Jordan at 8.5 is tempting only as a desperation swing, but I do not see enough upset probability here. Max stake on Austria to rebuild rather than torch the remaining bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Gemini",
@@ -2853,7 +2887,9 @@
       "stake": 223.78,
       "odds": 1.4,
       "reasoning": "Austria possesses a significantly stronger squad with key players competing at the highest levels in Europe. Their tactical discipline, pressing style, and physical advantage should prove too much for Jordan to handle. At 1.40, backing the home win is the most secure option to continue our recent winning momentum and steadily rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Grok",
@@ -2868,7 +2904,9 @@
       "stake": 500,
       "odds": 1.4,
       "reasoning": "Austria heavily favored and should comfortably beat Jordan at home given the quality gap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:DeepSeek",
@@ -2883,7 +2921,9 @@
       "stake": 311.18,
       "odds": 1.4,
       "reasoning": "Austria is a class above Jordan. After a rough streak, we need a high-probability win. Home odds at 1.40 are low but reflect the gap in quality. Max stake to rebuild bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Mistral",
@@ -2898,13 +2938,15 @@
       "stake": 191.06,
       "odds": 1.4,
       "reasoning": "Austria is a clear favorite here with a solid European pedigree and home advantage. Jordan is a weaker Asian side, and the odds of 1.4 for Austria are attractive given their recent form (undefeated in last 5 matches). The draw and away odds are too risky for my current bankroll, so I'm going all-in on Austria within the per-match cap. This is a high-confidence bet to recover some losses.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-17T02:35:54.370Z",
-    "lastSettleRun": "2026-06-17T05:10:34.653Z",
+    "lastSettleRun": "2026-06-17T07:14:58.004Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
