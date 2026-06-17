@@ -2959,7 +2959,7 @@
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Claude",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
@@ -2968,28 +2968,28 @@
       "model": "Claude",
       "pick": "home",
       "stake": 820.52,
-      "odds": 1.28,
-      "reasoning": "Portugal are a footballing powerhouse facing DR Congo, a significant gap in quality. At 1.28 the value isn't huge, but it's a high-probability outcome and I'm sitting at a deflated bankroll that needs reliable wins to climb back. Maxing my stake on the safest pick available.",
+      "odds": 1.29,
+      "reasoning": "Portugal is a powerhouse with elite talent across every line, facing a DR Congo side that's a clear step below at this level. At 1.29 the value isn't huge, but it's a high-probability outcome and I need to rebuild my bankroll with disciplined picks rather than chase longshots. Max stake on the most likely result.",
       "status": "pending"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:GPT-5.5",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
       "awayTeam": "DR Congo",
       "kickoff": "2026-06-17T17:00:00Z",
       "model": "GPT-5.5",
-      "pick": "draw",
+      "pick": "home",
       "stake": 108.94,
-      "odds": 5.63,
-      "reasoning": "Bankroll is too low to grind favorites at 1.28, so I need upside while still choosing a plausible result. Portugal are clearly stronger, but group-stage favorites can rotate, start slowly, or settle for control rather than a blowout. DR Congo's best path is a compact, physical defensive game that keeps this close. At 5.63, the draw is the best risk/reward chase spot here.",
+      "odds": 1.29,
+      "reasoning": "Portugal are the clear class edge here and I need to stop the bleeding before taking bigger swings later. At 1.29 the upside is modest, but this is the highest-probability outcome on the board, so I’m staking the maximum allowed.",
       "status": "pending"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Gemini",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
@@ -2998,13 +2998,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 273.35,
-      "odds": 1.28,
-      "reasoning": "Portugal possesses a vastly superior squad compared to DR Congo and should secure a decisive victory here. To maintain my recent winning momentum and steadily rebuild my bankroll, I am staking the maximum allowed 25% on a highly probable home win.",
+      "odds": 1.29,
+      "reasoning": "Portugal possesses a vastly superior squad with world-class depth across all positions, making them overwhelming favorites against DR Congo. After recovering some ground with four wins in our last five bets, we need to maintain high-probability outcomes to rebuild our bankroll. Betting the maximum allowed stake on a comfortable Portuguese victory is the most logical step to secure steady growth.",
       "status": "pending"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Grok",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
@@ -3012,14 +3012,14 @@
       "kickoff": "2026-06-17T17:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 600,
-      "odds": 1.28,
-      "reasoning": "Portugal is vastly superior to DR Congo and the 1.28 odds represent solid value on the heavy favorite.",
+      "stake": 614,
+      "odds": 1.29,
+      "reasoning": "Portugal vastly superior on paper and should comfortably beat DR Congo at home. Low odds but high probability outcome worth a max stake to rebuild bankroll.",
       "status": "pending"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:DeepSeek",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
@@ -3028,13 +3028,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 393.38,
-      "odds": 1.28,
-      "reasoning": "Portugal is a top-tier side with far superior depth and tournament experience compared to DR Congo, who face a massive talent gap. At odds of 1.28, the home win offers a high-probability return to steadily rebuild my depleted bankroll. I'm maxing the per-match stake to maximize recovery while still respecting risk limits, as an upset here seems very unlikely.",
+      "odds": 1.29,
+      "reasoning": "Portugal is a top-tier European side with world-class talent, facing a significantly weaker DR Congo team. The odds of 1.29 heavily favor Portugal. Given my bankroll is down, I need a high-confidence win to rebuild, so I'm allocating the maximum allowed 25% stake.",
       "status": "pending"
     },
     {
       "id": "6cc871c121a1869b4612d3fb22fa9d55:Mistral",
-      "date": "2026-06-17T15:40:29.868Z",
+      "date": "2026-06-17T16:51:16.703Z",
       "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
       "match": "Portugal vs DR Congo",
       "homeTeam": "Portugal",
@@ -3043,14 +3043,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 233.38,
-      "odds": 1.28,
-      "reasoning": "Portugal is a clear favorite here with odds of 1.28, reflecting their strong form and superior squad compared to DR Congo. While the draw and away odds are tempting for a potential upset, the risk-reward balance heavily favors backing Portugal. Given my recent losses, I need a high-confidence bet to stabilize my bankroll, and this match offers the safest return. I'm allocating the maximum allowed stake to maximize recovery potential while minimizing unnecessary risk.",
+      "odds": 1.29,
+      "reasoning": "Portugal is a clear favorite here with a strong squad and home advantage (assuming this is a neutral site, but still, their pedigree is superior). DR Congo is not a pushover, but Portugal's attacking firepower (Ronaldo, Bruno Fernandes, Bernardo Silva, etc.) and recent form make them the safest bet at 1.29. The draw and away odds are tempting, but the risk-reward doesn't justify the lower probability. I'm allocating the maximum allowed stake to this match due to high confidence in Portugal's ability to control the game and secure the win. My recent losses sting, but I need to double down on high-probability plays to recover.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T15:40:29.868Z",
+    "lastBetsRun": "2026-06-17T16:51:16.703Z",
     "lastSettleRun": "2026-06-17T07:14:58.004Z",
     "failures": [
       {
@@ -3098,6 +3098,12 @@
         "homeTeam": "Uzbekistan",
         "awayTeam": "Colombia",
         "kickoff": "2026-06-18T02:00:00Z"
+      },
+      {
+        "matchId": "66ebb9e3f949caded535d97ce686ca09",
+        "homeTeam": "Czech Republic",
+        "awayTeam": "South Africa",
+        "kickoff": "2026-06-18T16:00:00Z"
       }
     ],
     "liveMatches": []
