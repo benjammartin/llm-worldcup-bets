@@ -2770,7 +2770,7 @@
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Claude",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2780,12 +2780,12 @@
       "pick": "home",
       "stake": 671.74,
       "odds": 1.4,
-      "reasoning": "Austria are clear favorites at home against Jordan at 1.4. After a rough run, I'm backing the strong fundamentals here. Austria's quality and depth should overcome Jordan comfortably. This is the safest pick on the board, so I'm putting my max stake on it to start rebuilding the bankroll.",
+      "reasoning": "Austria are clear favorites at home against Jordan at 1.4. I'm trailing badly and need to make solid value bets on the strongest spots. A short-odds favorite with a quality gap like this is exactly where I want to concentrate capital. Going max stake to capitalize on the highest-probability outcome available.",
       "status": "pending"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:GPT-5.5",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2795,12 +2795,12 @@
       "pick": "home",
       "stake": 84.37,
       "odds": 1.4,
-      "reasoning": "Austria are the clearly stronger side and 1.40 is still playable given the gap in squad quality and consistency. With only one open match, I’m staking the maximum allowed to rebuild steadily rather than chasing another low-probability upset.",
+      "reasoning": "Austria are clearly the stronger side and the 1.40 price is short but still the most realistic path to stop the bleeding after a bad run. Jordan at 8.5 is tempting only as a desperation swing, but I do not see enough upset probability here. Max stake on Austria to rebuild rather than torch the remaining bankroll.",
       "status": "pending"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Gemini",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2810,12 +2810,12 @@
       "pick": "home",
       "stake": 223.78,
       "odds": 1.4,
-      "reasoning": "Austria possesses a significantly stronger squad with players competing in Europe's top leagues, giving them a clear tactical and physical edge over Jordan. After a tough run of results, we need a reliable outcome to rebuild our bankroll. Austria at 1.4 offers a highly probable victory, justifying the maximum allowed stake of $223.78.",
+      "reasoning": "Austria possesses a significantly stronger squad with key players competing at the highest levels in Europe. Their tactical discipline, pressing style, and physical advantage should prove too much for Jordan to handle. At 1.40, backing the home win is the most secure option to continue our recent winning momentum and steadily rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Grok",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2825,12 +2825,12 @@
       "pick": "home",
       "stake": 500,
       "odds": 1.4,
-      "reasoning": "Austria heavily favored over Jordan and at 1.4 offers solid value for the likely home win.",
+      "reasoning": "Austria heavily favored and should comfortably beat Jordan at home given the quality gap.",
       "status": "pending"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:DeepSeek",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2840,12 +2840,12 @@
       "pick": "home",
       "stake": 311.18,
       "odds": 1.4,
-      "reasoning": "Austria is heavily favored at home against Jordan, a much weaker team. This is a must-win bet to recover from recent losses. Odds of 1.4 reflect a high probability event. I'm going all-in with the maximum allowed stake to maximize bankroll recovery.",
+      "reasoning": "Austria is a class above Jordan. After a rough streak, we need a high-probability win. Home odds at 1.40 are low but reflect the gap in quality. Max stake to rebuild bankroll.",
       "status": "pending"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Mistral",
-      "date": "2026-06-17T01:32:47.893Z",
+      "date": "2026-06-17T02:35:54.370Z",
       "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
       "match": "Austria vs Jordan",
       "homeTeam": "Austria",
@@ -2855,13 +2855,13 @@
       "pick": "home",
       "stake": 191.06,
       "odds": 1.4,
-      "reasoning": "Austria is a clear favorite here with a solid European pedigree and home advantage. Jordan, while improving, is still an underdog in this matchup. The odds of 1.4 for Austria are reasonable, and given my recent losses, I need a safer bet to stabilize my bankroll. The stake is set at the maximum allowed to maximize potential recovery while adhering to risk management rules. Let's hope for a straightforward win.",
+      "reasoning": "Austria is a clear favorite here with a solid European pedigree and home advantage. Jordan is a weaker Asian side, and the odds of 1.4 for Austria are attractive given their recent form (undefeated in last 5 matches). The draw and away odds are too risky for my current bankroll, so I'm going all-in on Austria within the per-match cap. This is a high-confidence bet to recover some losses.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T01:32:47.893Z",
+    "lastBetsRun": "2026-06-17T02:35:54.370Z",
     "lastSettleRun": "2026-06-17T00:38:22.288Z",
     "failures": [
       {
@@ -2909,6 +2909,12 @@
         "homeTeam": "Ghana",
         "awayTeam": "Panama",
         "kickoff": "2026-06-17T23:00:00Z"
+      },
+      {
+        "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+        "homeTeam": "Uzbekistan",
+        "awayTeam": "Colombia",
+        "kickoff": "2026-06-18T02:00:00Z"
       }
     ],
     "liveMatches": []
