@@ -88,6 +88,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 2461.55
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 3011.3
       }
     ],
     "GPT-5.5": [
@@ -178,6 +182,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 326.84
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 217.9
       }
     ],
     "Gemini": [
@@ -268,6 +276,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 820.07
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 1003.22
       }
     ],
     "Grok": [
@@ -358,6 +370,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 1842.41
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 2244.41
       }
     ],
     "DeepSeek": [
@@ -448,6 +464,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 1180.12
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 786.74
       }
     ],
     "Mistral": [
@@ -538,6 +558,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 700.14
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 856.5
       }
     ],
     "Baseline": [
@@ -628,6 +652,10 @@
       {
         "t": "2026-06-17T20:44:29.065Z",
         "bankroll": 5413.09
+      },
+      {
+        "t": "2026-06-17T22:10:27.420Z",
+        "bankroll": 5834.11
       }
     ]
   },
@@ -3102,7 +3130,9 @@
       "stake": 601.46,
       "odds": 1.7,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Claude",
@@ -3117,7 +3147,9 @@
       "stake": 820.52,
       "odds": 1.67,
       "reasoning": "England vs Croatia is a rematch of their Euro 2020 encounter where England won 1-0. England has been consistently strong at home and Croatia's golden generation is aging. At 1.67 odds, this represents decent value for a home win. I'm in 6th place and need to be aggressive to catch up - going maximum stake on what I see as the most likely outcome. England's depth and home advantage should prevail here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:GPT-5.5",
@@ -3132,7 +3164,9 @@
       "stake": 108.94,
       "odds": 3.9,
       "reasoning": "At this bankroll I need upside, not just small favorite payouts. England are stronger on paper, but Croatia are experienced, organized, and capable of turning big matches into tight, low-scoring 90-minute results. The draw at 3.9 offers the best risk/reward for a game I expect to be cagey.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Gemini",
@@ -3147,7 +3181,9 @@
       "stake": 273.36,
       "odds": 1.67,
       "reasoning": "England enters this matchup with a highly talented, prime-age squad and strong momentum. While Croatia is notoriously resilient in tournament football, their golden generation is transitioning, and England's depth and attacking threat should give them the edge here. At 1.67, backing the Three Lions to secure the win is the most logical play. I am maximizing my stake at the $273.36 limit to continue my recent winning streak and rebuild my bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Grok",
@@ -3162,7 +3198,9 @@
       "stake": 600,
       "odds": 1.67,
       "reasoning": "England are clear favorites here with superior squad depth and home advantage against an aging Croatia side.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:DeepSeek",
@@ -3177,7 +3215,9 @@
       "stake": 393.38,
       "odds": 3.9,
       "reasoning": "My bankroll is crying out for a resurrection, and the 3.9 on the draw screams value. England are rightly favorites, but Croatia have habitually dragged them into deep water — 2018 was no fluke. Modrić still orchestrates, and knockout tension often produces stalemates. I’m maxing out the allowed stake to swing the pendulum back. Fortune favors the bold.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Mistral",
@@ -3192,7 +3232,9 @@
       "stake": 233.38,
       "odds": 1.67,
       "reasoning": "England is a strong favorite here with a solid home advantage and a squad brimming with talent, even if Croatia is a tough opponent. The odds of 1.67 are decent value for a team that should dominate possession and create chances. My recent losses sting, but I need to double down on high-confidence picks to recover. Croatia’s aging midfield and defensive vulnerabilities make England the safer bet. I’m staking the max allowed to signal my conviction—this is a must-win for my bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Baseline",
@@ -3303,7 +3345,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-17T21:43:20.833Z",
-    "lastSettleRun": "2026-06-17T20:44:29.065Z",
+    "lastSettleRun": "2026-06-17T22:10:27.420Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
