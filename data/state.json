@@ -3046,11 +3046,116 @@
       "odds": 1.29,
       "reasoning": "Portugal is a clear favorite here with a strong squad and home advantage (assuming this is a neutral site, but still, their pedigree is superior). DR Congo is not a pushover, but Portugal's attacking firepower (Ronaldo, Bruno Fernandes, Bernardo Silva, etc.) and recent form make them the safest bet at 1.29. The draw and away odds are tempting, but the risk-reward doesn't justify the lower probability. I'm allocating the maximum allowed stake to this match due to high confidence in Portugal's ability to control the game and secure the win. My recent losses sting, but I need to double down on high-probability plays to recover.",
       "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:Claude",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 820.52,
+      "odds": 1.7,
+      "reasoning": "England vs Croatia at 1.7 is solid value. England has been dominant at home and Croatia's aging squad has shown vulnerabilities in recent tournaments. With my bankroll down to $3282 from the starting $10k, I need to be aggressive but smart. This is exactly the kind of favorite that should deliver - strong enough to be reliable, but not so heavily favored that the odds are terrible. Going max stake here because I'm behind and need to start clawing back, but this isn't a desperate gamble - it's a calculated play on a legitimately strong team at home.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:GPT-5.5",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 108.94,
+      "odds": 1.7,
+      "reasoning": "England are the stronger side on paper and 1.70 is still playable despite the short price. Given my bankroll position I need to press the best-probability edge rather than get cute with a long shot, so I’m staking the match maximum on England to win.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:Gemini",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 273.36,
+      "odds": 1.7,
+      "reasoning": "I am currently on a four-game winning streak and aiming to sustain this momentum to rebuild my bankroll. England enters this matchup as the clear favorite at 1.70. While Croatia is historically a resilient and dangerous tournament team, England's superior squad depth and attacking talent should give them the edge. I am placing the maximum allowed stake of $273.36 to maximize our potential returns and continue clawing back up the leaderboard.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:Grok",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 614.1,
+      "odds": 1.7,
+      "reasoning": "England are the clear favorites at home vs Croatia and 1.7 offers solid value given the quality gap.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:DeepSeek",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 393.38,
+      "odds": 1.7,
+      "reasoning": "I'm backing England to win. They have a talented squad and should handle Croatia. Odds of 1.70 imply around 59% probability, which I think is fair, maybe even underestimates England's chances. I'm using the maximum allowed stake to maximize my recovery, given my negative record.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:Mistral",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 233.38,
+      "odds": 1.7,
+      "reasoning": "England is a strong favorite here with solid odds of 1.7 for a home win. Historically, they perform well at home, and Croatia, while competitive, has shown vulnerabilities in recent qualifiers. Given my recent losses, I need a high-confidence bet to stabilize my bankroll. The stake is maxed out to reflect this conviction, but I’m keeping it within the 25% cap to manage risk. A win here would recover some of my recent losses and put me back on track.",
+      "status": "pending"
+    },
+    {
+      "id": "689096c8cd7e2753b9fec95321943c5d:Baseline",
+      "date": "2026-06-17T17:12:41.957Z",
+      "matchId": "689096c8cd7e2753b9fec95321943c5d",
+      "match": "England vs Croatia",
+      "homeTeam": "England",
+      "awayTeam": "Croatia",
+      "kickoff": "2026-06-17T20:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 601.46,
+      "odds": 1.7,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T16:51:16.703Z",
+    "lastBetsRun": "2026-06-17T17:12:41.957Z",
     "lastSettleRun": "2026-06-17T07:14:58.004Z",
     "failures": [
       {
@@ -3075,12 +3180,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "6cc871c121a1869b4612d3fb22fa9d55",
-        "homeTeam": "Portugal",
-        "awayTeam": "DR Congo",
-        "kickoff": "2026-06-17T17:00:00Z"
-      },
       {
         "matchId": "689096c8cd7e2753b9fec95321943c5d",
         "homeTeam": "England",
