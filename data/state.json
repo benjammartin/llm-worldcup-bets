@@ -3064,7 +3064,7 @@
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Claude",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
@@ -3072,14 +3072,14 @@
       "kickoff": "2026-06-17T20:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 820.52,
+      "stake": 700,
       "odds": 1.71,
-      "reasoning": "I'm in 5th place out of 6 AIs with a small bankroll. Time for aggressive action. England vs Croatia at 1.71 is decent value - England has home advantage and stronger recent form. Croatia's aging squad struggled in recent tournaments. With only $3282 left versus the $10k starting stack, conservative play guarantees last place. Going all-in on England to either climb back into contention or go out swinging. Fortune favors the bold when you're already behind.",
+      "reasoning": "England at home against Croatia is the clear value. Croatia's golden generation is aging and England have superior depth and pace. 1.71 implies ~58% which feels right for a quality home side. I'm down on my season so I need conviction picks - this is one. Backing the favorite with a solid but not reckless stake.",
       "status": "pending"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:GPT-5.5",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
@@ -3089,12 +3089,12 @@
       "pick": "draw",
       "stake": 108.94,
       "odds": 3.8,
-      "reasoning": "I need upside from this bankroll position, and England-Croatia feels closer than the headline odds suggest. England are stronger on paper, but Croatia are usually disciplined in tournament matches and can drag games into tight, low-scoring territory. At 3.8, the draw is the best risk/reward spot for me here, so I’m staking the maximum.",
+      "reasoning": "England are the stronger side on paper, but Croatia are exactly the kind of tournament team that can slow a match down, control tempo, and keep it tight. At 3.8, the draw gives a better risk/reward profile than laying 1.71 on England, especially given my bankroll position and need to gain ground.",
       "status": "pending"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Gemini",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
@@ -3104,12 +3104,12 @@
       "pick": "home",
       "stake": 273.36,
       "odds": 1.71,
-      "reasoning": "England enters this match as the clear favorite with a deep, highly talented squad. While Croatia is always a tough, tournament-hardened opponent, England's pace and offensive depth should prove too much to handle. At 1.71 odds, backing the Three Lions is our best opportunity to continue our recent strong run of form and rebuild our bankroll.",
+      "reasoning": "England enters this match with a highly talented and deep squad, making them strong favorites. While Croatia is a disciplined and historically tough opponent, England's offensive versatility should prove to be the difference. At odds of 1.71, backing the home win offers solid value. I am placing the maximum allowed stake of $273.36 to capitalize on this high-confidence selection and continue rebuilding our bankroll after a strong recent run of four wins in our last five bets.",
       "status": "pending"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Grok",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
@@ -3119,27 +3119,27 @@
       "pick": "home",
       "stake": 600,
       "odds": 1.71,
-      "reasoning": "England are clear favorites at home against Croatia and the 1.71 odds offer solid value for a team expected to control the match.",
+      "reasoning": "England heavily favored against an aging Croatia side. Solid value at 1.71 for the home win given the quality gap.",
       "status": "pending"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:DeepSeek",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
       "awayTeam": "Croatia",
       "kickoff": "2026-06-17T20:00:00Z",
       "model": "DeepSeek",
-      "pick": "draw",
+      "pick": "home",
       "stake": 393.38,
-      "odds": 3.8,
-      "reasoning": "England are favorites but Croatia have a history of grinding out draws in big tournaments. With Modric orchestrating, they can neutralize England's attack. 3.8 odds offer great value. Going for the draw to catch up in the standings.",
+      "odds": 1.71,
+      "reasoning": "England are strong favorites at these odds, with a deep squad heading into 2026. Croatia’s golden generation is aging, and England’s home advantage should be decisive. Confident in a home win to boost my bankroll.",
       "status": "pending"
     },
     {
       "id": "689096c8cd7e2753b9fec95321943c5d:Mistral",
-      "date": "2026-06-17T17:56:25.072Z",
+      "date": "2026-06-17T19:02:05.726Z",
       "matchId": "689096c8cd7e2753b9fec95321943c5d",
       "match": "England vs Croatia",
       "homeTeam": "England",
@@ -3149,13 +3149,13 @@
       "pick": "home",
       "stake": 233.38,
       "odds": 1.71,
-      "reasoning": "England vs Croatia is a high-stakes match with England playing at home, which historically provides a significant advantage in terms of fan support and familiarity. England's squad depth and recent form in major tournaments (e.g., reaching the Euro 2020 final and World Cup 2018 semifinals) suggest they are strong contenders. Croatia, while resilient, are aging in key positions (e.g., Modrić, Kovačić) and may struggle against England's pace and physicality. The odds of 1.71 for England to win are reasonable given their home advantage and overall quality. I'm allocating the maximum allowed stake here to reflect my high confidence in this pick, especially after a string of recent wins that I want to capitalize on.",
+      "reasoning": "England is a strong favorite here with a solid home advantage and a history of performing well in major tournaments. Croatia is still a competitive side but has shown vulnerabilities in recent qualifiers, especially away from home. The odds of 1.71 for England to win are reasonable, and given my recent streak of wins (4 in a row), I'm doubling down on a team I trust. The stake is at the maximum allowed to reflect my high confidence in this outcome.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T17:56:25.072Z",
+    "lastBetsRun": "2026-06-17T19:02:05.726Z",
     "lastSettleRun": "2026-06-17T07:14:58.004Z",
     "failures": [
       {
@@ -3203,6 +3203,12 @@
         "homeTeam": "Czech Republic",
         "awayTeam": "South Africa",
         "kickoff": "2026-06-18T16:00:00Z"
+      },
+      {
+        "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
+        "homeTeam": "Switzerland",
+        "awayTeam": "Bosnia & Herzegovina",
+        "kickoff": "2026-06-18T19:00:00Z"
       }
     ],
     "liveMatches": []
