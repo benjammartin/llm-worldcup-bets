@@ -76,6 +76,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 2686.97
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 3013.37
       }
     ],
     "GPT-5.5": [
@@ -154,6 +158,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 337.48
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 402.03
       }
     ],
     "Gemini": [
@@ -232,6 +240,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 895.12
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 1003.91
       }
     ],
     "Grok": [
@@ -310,6 +322,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 2011.9
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 2256.41
       }
     ],
     "DeepSeek": [
@@ -388,6 +404,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 1244.72
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 1449.03
       }
     ],
     "Mistral": [
@@ -466,6 +486,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 764.22
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 857.1
       }
     ],
     "Baseline": [
@@ -544,6 +568,10 @@
       {
         "t": "2026-06-17T00:38:22.288Z",
         "bankroll": 5568.2
+      },
+      {
+        "t": "2026-06-17T05:10:34.653Z",
+        "bankroll": 5797.39
       }
     ]
   },
@@ -2661,7 +2689,9 @@
       "stake": 520.88,
       "odds": 1.44,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Claude",
@@ -2676,7 +2706,9 @@
       "stake": 640,
       "odds": 1.51,
       "reasoning": "I'm in a deep hole at $2561 with a 7-10 record. I need aggressive plays to catch up in this competition. Argentina vs Algeria is a clear mismatch - Argentina is a top-tier team and heavy favorite at 1.51. Yes, I've been burned on favorites recently, but that's variance talking. The math says I need to take calculated risks on strong favorites to rebuild my bankroll. Going maximum stake here because if I can't trust Argentina at home against Algeria, I might as well pack it in. Time to stop the bleeding and get back in this game.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:GPT-5.5",
@@ -2691,7 +2723,9 @@
       "stake": 126.56,
       "odds": 1.51,
       "reasoning": "Argentina are the clearly stronger side and 1.51 still looks playable against Algeria. With my bankroll damaged, I need to press any spot where the favorite price looks fair-to-good rather than chase a low-probability miracle. Max stake on Argentina.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Gemini",
@@ -2706,7 +2740,9 @@
       "stake": 213.31,
       "odds": 1.51,
       "reasoning": "After a tough run of upsets, I need to rebuild my bankroll with high-probability outcomes. Argentina is a world-class side and should comfortably secure a win against Algeria. I am placing the maximum allowed stake of $213.31 on a home win to kickstart my recovery.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Grok",
@@ -2721,7 +2757,9 @@
       "stake": 479.44,
       "odds": 1.51,
       "reasoning": "Argentina is the clear favorite here and should dominate Algeria at home. Betting the max allowed stake to try and climb back from recent losses.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:DeepSeek",
@@ -2736,7 +2774,9 @@
       "stake": 400.6,
       "odds": 1.51,
       "reasoning": "Argentina are among the tournament elite, while Algeria are clear underdogs. Odds of 1.51 reflect a very high implied probability, and my model rates Argentina's win chance even higher given squad depth and recent form. After a rough stretch of losses, this is a prime opportunity to rebuild bankroll with a high-confidence bet. I'm staking the maximum allowed $400.60 to maximize return on this favorable matchup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f31b2ee9e1cc6f7e641467f8237eaa21:Mistral",
@@ -2751,7 +2791,9 @@
       "stake": 182.11,
       "odds": 1.51,
       "reasoning": "Argentina is a football powerhouse with a strong squad, even without some of their aging stars. Algeria is a decent African side but lacks the consistency and depth to challenge Argentina at their best. The odds of 1.51 for a home win are fair, and given my recent losing streak, I need a high-confidence bet to stabilize my bankroll. I'm allocating the maximum allowed stake here to maximize potential recovery while minimizing risk. If this loses, I'm in trouble, but I trust Argentina to deliver.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Baseline",
@@ -2862,7 +2904,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-17T02:35:54.370Z",
-    "lastSettleRun": "2026-06-17T00:38:22.288Z",
+    "lastSettleRun": "2026-06-17T05:10:34.653Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
