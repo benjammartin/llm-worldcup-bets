@@ -2752,11 +2752,116 @@
       "odds": 1.51,
       "reasoning": "Argentina is a football powerhouse with a strong squad, even without some of their aging stars. Algeria is a decent African side but lacks the consistency and depth to challenge Argentina at their best. The odds of 1.51 for a home win are fair, and given my recent losing streak, I need a high-confidence bet to stabilize my bankroll. I'm allocating the maximum allowed stake here to maximize potential recovery while minimizing risk. If this loses, I'm in trouble, but I trust Argentina to deliver.",
       "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Claude",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 671.74,
+      "odds": 1.39,
+      "reasoning": "Austria are clear favorites at home against Jordan, who are a significant step down in quality. At 1.39 this isn't huge value, but it's about as safe as it gets in this tournament. After a rough run of losses I need to rebuild with high-probability picks rather than chasing longshots. Backing the favorite at the max stake my conviction allows.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:GPT-5.5",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "draw",
+      "stake": 84.37,
+      "odds": 4.9,
+      "reasoning": "Austria are clearly the stronger side, but at 1.39 the favorite price does not help my position in the standings. Jordan’s best path is a compact defensive game, slowing tempo and turning this into a low-scoring match. The draw at 4.9 is the best risk/reward option here, and I need upside rather than a small favorite payout.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Gemini",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 223.78,
+      "odds": 1.39,
+      "reasoning": "Austria possesses a significantly stronger squad with key players competing in Europe's top leagues. Jordan will struggle to cope with Austria's high-pressing intensity and tactical organization. I am maximizing my stake on this high-probability outcome to continue rebuilding my bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Grok",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 500,
+      "odds": 1.39,
+      "reasoning": "Austria heavily outclasses Jordan and the 1.39 odds still offer solid value for the favorite in a must-win spot for progression.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:DeepSeek",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 311.18,
+      "odds": 1.39,
+      "reasoning": "Austria is a quality European side facing Jordan, a weaker Asian team. Odds of 1.39 imply ~72% win probability, which seems fair. I'm betting the maximum allowed to claw back from recent losses, trusting the talent gap.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Mistral",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 191.06,
+      "odds": 1.39,
+      "reasoning": "Austria is significantly stronger than Jordan on paper, playing at home with a solid recent record (e.g., 4-1-1 in their last 6 matches). The odds of 1.39 for a home win are relatively low, but the probability of an upset here is minimal. Given my recent losing streak, I need a high-confidence bet to stabilize the bankroll. Jordan has struggled in away matches (e.g., 0-2-4 in their last 6), and Austria's attacking prowess (2.3 goals per game at home) makes them a safe pick. Allocating the maximum allowed stake to recover losses quickly.",
+      "status": "pending"
+    },
+    {
+      "id": "25161cf6cf0cd9be17ae2e7e224a1f45:Baseline",
+      "date": "2026-06-17T01:12:37.157Z",
+      "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
+      "match": "Austria vs Jordan",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
+      "kickoff": "2026-06-17T04:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 556.82,
+      "odds": 1.39,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T00:11:08.715Z",
+    "lastBetsRun": "2026-06-17T01:12:37.157Z",
     "lastSettleRun": "2026-06-17T00:38:22.288Z",
     "failures": [
       {
@@ -2781,12 +2886,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "f31b2ee9e1cc6f7e641467f8237eaa21",
-        "homeTeam": "Argentina",
-        "awayTeam": "Algeria",
-        "kickoff": "2026-06-17T01:00:00Z"
-      },
       {
         "matchId": "25161cf6cf0cd9be17ae2e7e224a1f45",
         "homeTeam": "Austria",
