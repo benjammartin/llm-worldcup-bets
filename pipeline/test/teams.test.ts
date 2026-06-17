@@ -10,6 +10,8 @@ describe("normalizeTeam", () => {
     expect(normalizeTeam("IR Iran")).toBe("iran");
     expect(normalizeTeam("Bosnia & Herzegovina")).toBe("bosnia and herzegovina");
     expect(normalizeTeam("Bosnia-Herzegovina")).toBe("bosnia and herzegovina");
+    expect(normalizeTeam("Congo DR")).toBe("dr congo");
+    expect(normalizeTeam("Democratic Republic of the Congo")).toBe("dr congo");
   });
   test("passes through unknown names cleaned", () =>
     expect(normalizeTeam("  France ")).toBe("france"));

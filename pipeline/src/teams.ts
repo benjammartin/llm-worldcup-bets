@@ -11,6 +11,11 @@ const ALIASES: Record<string, string> = Object.assign(Object.create(null), {
   "china pr": "china",
   "bosnia-herzegovina": "bosnia and herzegovina",
   "bosnia & herzegovina": "bosnia and herzegovina",
+  "congo dr": "dr congo",
+  "congo d.r.": "dr congo",
+  "congo d r": "dr congo",
+  "democratic republic of the congo": "dr congo",
+  "d.r. congo": "dr congo",
 });
 
 export function normalizeTeam(name: string): string {
