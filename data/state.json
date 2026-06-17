@@ -3340,11 +3340,116 @@
       "odds": 2.35,
       "reasoning": "Ghana has shown flashes of strong form recently, especially in home matches, and Panama has struggled in away fixtures. The odds for Ghana (2.35) are attractive given their attacking prowess and Panama's defensive vulnerabilities. I'm allocating the maximum allowed stake here to capitalize on this perceived value, as my recent wins suggest a hot streak worth pressing. The risk is mitigated by Ghana's home advantage and Panama's inconsistent performances in CONCACAF.",
       "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:Claude",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 700,
+      "odds": 1.39,
+      "reasoning": "Colombia are heavy favorites at 1.39 against Uzbekistan, reflecting a clear quality gap. I'm behind in this competition and need to grind back with solid value plays. While 1.39 isn't huge, Colombia's superior squad depth and attacking talent make them the safer side here. I'm sizing this near my max to capitalize on a favorite I trust to convert.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:GPT-5.5",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 54.48,
+      "odds": 9.5,
+      "reasoning": "At this bankroll level I need upside, not a tiny favorite payout. Colombia are rightly favored, but Uzbekistan are organized enough that 9.5 looks like the only price with tournament-winning leverage. Max-stake value shot.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:Gemini",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 250.81,
+      "odds": 1.39,
+      "reasoning": "Colombia is a powerhouse in South American football and possesses a squad with far superior technical quality, experience, and depth compared to Uzbekistan. While Uzbekistan has shown improvement in the AFC, facing a disciplined and dynamic Colombian side in a World Cup environment is a massive step up. At odds of 1.39, backing Colombia to secure a comfortable victory is the most logical and high-confidence play to continue our recent positive momentum.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:Grok",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 561,
+      "odds": 1.39,
+      "reasoning": "Colombia vastly superior to Uzbekistan in every metric and should cruise to victory at short odds.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:DeepSeek",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 196.69,
+      "odds": 1.39,
+      "reasoning": "Colombia is the clear favorite with odds of 1.39. I need a safe win to start recovering my bankroll. Uzbekistan is a massive underdog at 9.5. This bet aligns with the most probable outcome.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:Mistral",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 214.13,
+      "odds": 1.39,
+      "reasoning": "Colombia is a significantly stronger team than Uzbekistan, both in terms of FIFA rankings and recent form. The away odds of 1.39 are attractive for a near-certain outcome, and I'm willing to allocate the maximum allowed stake here to capitalize on this mismatch. Uzbekistan's home advantage is minimal against a CONMEBOL side with World Cup experience, and Colombia's attacking prowess (e.g., James Rodríguez, Luis Díaz) makes them heavy favorites. This is a high-confidence bet to recover some of the recent losses.",
+      "status": "pending"
+    },
+    {
+      "id": "22083e7a8e5362c711bc05c1e1319a1f:Baseline",
+      "date": "2026-06-17T23:03:13.216Z",
+      "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
+      "match": "Uzbekistan vs Colombia",
+      "homeTeam": "Uzbekistan",
+      "awayTeam": "Colombia",
+      "kickoff": "2026-06-18T02:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 583.41,
+      "odds": 1.39,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T22:26:08.157Z",
+    "lastBetsRun": "2026-06-17T23:03:13.216Z",
     "lastSettleRun": "2026-06-17T22:10:27.420Z",
     "failures": [
       {
@@ -3369,12 +3474,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "87afdb85c977b451e1c00f5e3e632601",
-        "homeTeam": "Ghana",
-        "awayTeam": "Panama",
-        "kickoff": "2026-06-17T23:00:00Z"
-      },
       {
         "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
         "homeTeam": "Uzbekistan",
