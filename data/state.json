@@ -3253,7 +3253,7 @@
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Claude",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3261,14 +3261,14 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 615.39,
+      "stake": 500,
       "odds": 2.35,
-      "reasoning": "I'm in 6th place with $2461.55, well behind the leader. I need to take calculated risks to catch up. Ghana vs Panama: Ghana has more World Cup pedigree and international experience. They've competed in multiple World Cups (2006, 2010, 2014) with notable runs, while Panama has limited top-tier experience. At 2.35 odds for Ghana home, this represents decent value. The draw (3.19) and away (3.3) odds suggest the bookmakers see this as relatively balanced, but I believe Ghana's superior talent pool and experience gives them the edge. Going max stake here - I need big wins to climb the leaderboard, and this is a reasonable spot to be aggressive given my position.",
+      "reasoning": "Ghana at home are favorites at 2.35 with the most balanced expected value here. They have stronger squad depth and footballing pedigree than Panama, and home advantage matters. I'm down from $10k so I won't overcommit to a single 2.35 favorite that still carries real upset risk on neutral-to-home turf — a moderate stake keeps me in the game without gambling my recovery on one match.",
       "status": "pending"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:GPT-5.5",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3276,14 +3276,14 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "GPT-5.5",
       "pick": "home",
-      "stake": 81.71,
+      "stake": 54.48,
       "odds": 2.35,
-      "reasoning": "Ghana look like the stronger side on talent and athletic profile, and 2.35 feels a bit too generous against Panama. With my bankroll badly behind the field, I need upside rather than tiny conservative edges, so I’m taking the best perceived value and using the full per-match max.",
+      "reasoning": "Ghana look like the better side on talent and athleticism, and 2.35 is a playable price against Panama. With my bankroll damaged I need to press any edge, so I’m staking the max.",
       "status": "pending"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Gemini",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3291,14 +3291,14 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 205.02,
+      "stake": 250.81,
       "odds": 2.35,
-      "reasoning": "Ghana possesses superior individual quality and tournament pedigree compared to Panama. At odds of 2.35, backing the Black Stars represents excellent value. We are maximizing our stake to the limit of $205.02 to aggressively rebuild our bankroll after the recent upset.",
+      "reasoning": "Ghana's squad boasts superior individual quality and experience in high-stakes tournaments compared to Panama. With key players competing in elite European leagues, the Black Stars are well-positioned to edge out a competitive but technically limited Panama side. At 2.35, the home win offers excellent value for our maximum allowed stake.",
       "status": "pending"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Grok",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3306,14 +3306,14 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 460,
+      "stake": 561,
       "odds": 2.35,
-      "reasoning": "Ghana should be clear favorites here over Panama - taking max stake on the home win for value at 2.35",
+      "reasoning": "Ghana is the stronger side and 2.35 offers decent value against Panama.",
       "status": "pending"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:DeepSeek",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3321,14 +3321,14 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 250,
+      "stake": 150,
       "odds": 2.35,
-      "reasoning": "Ghana has a stronger squad with players in top European leagues, while Panama is less consistent. World Cup neutral ground, but Ghana's quality should prevail. After mixed recent results, I'm betting moderate amount to manage risk.",
+      "reasoning": "Ghana is historically stronger and has home advantage. Panama is a solid underdog but I expect Ghana to edge it with their attacking quality. I'm staking a moderate amount given my recent losing streak, but this is the only match so I'm committing a reasonable portion to a likely home win at decent odds.",
       "status": "pending"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Mistral",
-      "date": "2026-06-17T21:43:20.833Z",
+      "date": "2026-06-17T22:26:08.157Z",
       "matchId": "87afdb85c977b451e1c00f5e3e632601",
       "match": "Ghana vs Panama",
       "homeTeam": "Ghana",
@@ -3336,15 +3336,15 @@
       "kickoff": "2026-06-17T23:00:00Z",
       "model": "Mistral",
       "pick": "home",
-      "stake": 175.03,
+      "stake": 214.13,
       "odds": 2.35,
-      "reasoning": "At $700.14, I'm in desperation mode but still need to play smart. Ghana is the clear favorite here (2.35 odds) and has home advantage in this hypothetical matchup. Panama is not a strong side, and Ghana's recent form (even if inconsistent) suggests they should handle this. The 25% cap is $175.03, so I'm going all-in on this match to maximize potential recovery. The draw (3.19) is tempting, but Ghana's attacking style makes them more likely to win outright. If this loses, I'm nearly out, but I need a win to stay in the game.",
+      "reasoning": "Ghana has shown flashes of strong form recently, especially in home matches, and Panama has struggled in away fixtures. The odds for Ghana (2.35) are attractive given their attacking prowess and Panama's defensive vulnerabilities. I'm allocating the maximum allowed stake here to capitalize on this perceived value, as my recent wins suggest a hot streak worth pressing. The risk is mitigated by Ghana's home advantage and Panama's inconsistent performances in CONCACAF.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T21:43:20.833Z",
+    "lastBetsRun": "2026-06-17T22:26:08.157Z",
     "lastSettleRun": "2026-06-17T22:10:27.420Z",
     "failures": [
       {
@@ -3392,6 +3392,12 @@
         "homeTeam": "Switzerland",
         "awayTeam": "Bosnia & Herzegovina",
         "kickoff": "2026-06-18T19:00:00Z"
+      },
+      {
+        "matchId": "fa9502285b257b03e62968d50d9229fc",
+        "homeTeam": "Canada",
+        "awayTeam": "Qatar",
+        "kickoff": "2026-06-18T22:00:00Z"
       }
     ],
     "liveMatches": []
