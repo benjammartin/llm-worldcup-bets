@@ -3814,7 +3814,7 @@
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Claude",
-      "date": "2026-06-18T20:19:56.015Z",
+      "date": "2026-06-18T21:15:10.414Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3822,14 +3822,14 @@
       "kickoff": "2026-06-18T22:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 813.08,
+      "stake": 700,
       "odds": 1.3,
-      "reasoning": "Canada controlled their opener with 52.8% possession, 1.49 xG and crushed final-third receptions 143-51 against Bosnia. Qatar was dominated by Switzerland (0.52 xG, just 6 shots, 28.8% possession). At home as a strong favorite, Canada at 1.3 is a high-probability play. Backing it confidently at max stake since the underlying performance data aligns firmly with the odds.",
+      "reasoning": "Canada showed clear quality dominance in their opener vs Bosnia (xG 1.49-0.76, 52.8% possession, 143 final-third receptions to 51), while Qatar were thoroughly outclassed by Switzerland (xG 0.52-3.14, just 28.8% possession, 41 final-third receptions). The eye test and underlying numbers both point to a major gap, and 1.3 odds reflect that. Canada are clear favorites at home-style conditions. I'll size meaningfully but not max out at this low price since 1.3 leaves little margin and upsets happen.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
-      "date": "2026-06-18T20:19:56.015Z",
+      "date": "2026-06-18T21:15:10.414Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3839,12 +3839,12 @@
       "pick": "home",
       "stake": 44.43,
       "odds": 1.3,
-      "reasoning": "Canada are short at 1.30, but the market signal and the match-report context point the same way. Canada created a solid edge against Bosnia, while Qatar’s 1-1 with Switzerland looks very fortunate on the underlying numbers: 0.52-3.14 xG, 6-26 shots, and huge deficits in possession, final-third receptions, line breaks, and progressions. I need to rebuild, but forcing a longshot here would be gambling against both the odds and the performance data. Max stake on the strongest side.",
+      "reasoning": "Canada are a short price, but the matchup data supports them: they were clearly superior to Bosnia in chance quality and territory, while Qatar were heavily outplayed by Switzerland despite escaping with a draw. Odds remain the main guide, and 1.30 implies Canada should win this most of the time. With only one match listed and a small bankroll, I’m staking the per-match max on the strongest side rather than trying to force a longshot.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
-      "date": "2026-06-18T20:19:56.015Z",
+      "date": "2026-06-18T21:15:10.414Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3854,12 +3854,12 @@
       "pick": "home",
       "stake": 268.52,
       "odds": 1.3,
-      "reasoning": "Canada put up solid underlying metrics in their opener against Bosnia (1.49 xG to 0.76) but was held to a draw. Qatar, on the other hand, was incredibly fortunate to escape with a 1-1 draw against Switzerland, conceding a massive 3.14 xG while generating just 0.52. Playing on North American soil as co-hosts, Canada's dynamic attack should exploit Qatar's defensive weakness. At 1.30, the home win is highly probable, and we are backing them with the maximum allowed stake to rebuild our bankroll.",
+      "reasoning": "Canada put up solid underlying numbers in their 1-1 draw against Bosnia and Herzegovina (1.49 xG to 0.76), showing good control and attacking intent. Meanwhile, Qatar was extremely fortunate to escape with a 1-1 draw against Switzerland, conceding an overwhelming 3.14 xG and 26 shots while generating just 0.52 xG themselves. Canada's superior offensive efficiency and control should prove too much for a Qatar side that struggled heavily to contain Switzerland's attack. Backing Canada to secure the win at 1.3 odds with maximum conviction.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Grok",
-      "date": "2026-06-18T20:19:56.015Z",
+      "date": "2026-06-18T21:15:10.414Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3869,12 +3869,12 @@
       "pick": "home",
       "stake": 600,
       "odds": 1.3,
-      "reasoning": "Canada showed strong underlying metrics vs Bosnia; Qatar were dominated by Switzerland. Home at 1.3 is solid value.",
+      "reasoning": "Canada showed solid underlying numbers in their 1-1 draw vs Bosnia (xG 1.49-0.76, strong possession and progression metrics), while Qatar were completely dominated by Switzerland (xG 0.52-3.14, abysmal chance creation). The 1.3 odds on Canada at home look like clear value against a much weaker opponent.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
-      "date": "2026-06-18T20:19:56.015Z",
+      "date": "2026-06-18T21:15:10.414Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3884,13 +3884,13 @@
       "pick": "home",
       "stake": 198.76,
       "odds": 1.3,
-      "reasoning": "Canada's match report against Bosnia showed they controlled the game (xG 1.49-0.76, possession 52.8%-29.9%, final-third receptions 143-51). Qatar's report against Switzerland was terrible (xG 0.52-3.14, possession 28.8%-58.7%, final-third receptions 41-245). The odds of 1.3 for Canada reflect that gap. I'm maxing out my per-match cap to try to rebuild bankroll with a home win.",
+      "reasoning": "Canada, as co-host, showed strong underlying numbers against Bosnia (1.49 xG, 143 final-third receptions, solid possession). Qatar were massively outplayed by Switzerland (0.52 vs 3.14 xG, 41 vs 245 final-third receptions) and extremely fortunate to draw. Home advantage and superior quality make Canada a clear favourite at 1.3. I’ll stake the full per-match max as a calculated rebuild step.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T20:19:56.015Z",
+    "lastBetsRun": "2026-06-18T21:15:10.414Z",
     "lastSettleRun": "2026-06-18T18:36:05.936Z",
     "failures": [
       {
@@ -3930,6 +3930,11 @@
       },
       {
         "date": "2026-06-18T20:19:56.015Z",
+        "model": "Mistral",
+        "reason": "Error: missing bets for matchIds: fa9502285b257b03e62968d50d9229fc"
+      },
+      {
+        "date": "2026-06-18T21:15:10.414Z",
         "model": "Mistral",
         "reason": "Error: missing bets for matchIds: fa9502285b257b03e62968d50d9229fc"
       }
