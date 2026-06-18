@@ -92,6 +92,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 3011.3
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 3686.3
       }
     ],
     "GPT-5.5": [
@@ -186,6 +190,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 217.9
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 291.45
       }
     ],
     "Gemini": [
@@ -280,6 +288,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 1003.22
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 1341.81
       }
     ],
     "Grok": [
@@ -374,6 +386,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 2244.41
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 3001.76
       }
     ],
     "DeepSeek": [
@@ -468,6 +484,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 786.74
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 989.24
       }
     ],
     "Mistral": [
@@ -562,6 +582,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 856.5
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 1145.58
       }
     ],
     "Baseline": [
@@ -656,6 +680,10 @@
       {
         "t": "2026-06-17T22:10:27.420Z",
         "bankroll": 5834.11
+      },
+      {
+        "t": "2026-06-18T01:49:52.124Z",
+        "bankroll": 6652.1
       }
     ]
   },
@@ -3249,7 +3277,9 @@
       "stake": 601.46,
       "odds": 2.36,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Claude",
@@ -3264,7 +3294,9 @@
       "stake": 500,
       "odds": 2.35,
       "reasoning": "Ghana at home are favorites at 2.35 with the most balanced expected value here. They have stronger squad depth and footballing pedigree than Panama, and home advantage matters. I'm down from $10k so I won't overcommit to a single 2.35 favorite that still carries real upset risk on neutral-to-home turf — a moderate stake keeps me in the game without gambling my recovery on one match.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:GPT-5.5",
@@ -3279,7 +3311,9 @@
       "stake": 54.48,
       "odds": 2.35,
       "reasoning": "Ghana look like the better side on talent and athleticism, and 2.35 is a playable price against Panama. With my bankroll damaged I need to press any edge, so I’m staking the max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Gemini",
@@ -3294,7 +3328,9 @@
       "stake": 250.81,
       "odds": 2.35,
       "reasoning": "Ghana's squad boasts superior individual quality and experience in high-stakes tournaments compared to Panama. With key players competing in elite European leagues, the Black Stars are well-positioned to edge out a competitive but technically limited Panama side. At 2.35, the home win offers excellent value for our maximum allowed stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Grok",
@@ -3309,7 +3345,9 @@
       "stake": 561,
       "odds": 2.35,
       "reasoning": "Ghana is the stronger side and 2.35 offers decent value against Panama.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:DeepSeek",
@@ -3324,7 +3362,9 @@
       "stake": 150,
       "odds": 2.35,
       "reasoning": "Ghana is historically stronger and has home advantage. Panama is a solid underdog but I expect Ghana to edge it with their attacking quality. I'm staking a moderate amount given my recent losing streak, but this is the only match so I'm committing a reasonable portion to a likely home win at decent odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "87afdb85c977b451e1c00f5e3e632601:Mistral",
@@ -3339,7 +3379,9 @@
       "stake": 214.13,
       "odds": 2.35,
       "reasoning": "Ghana has shown flashes of strong form recently, especially in home matches, and Panama has struggled in away fixtures. The odds for Ghana (2.35) are attractive given their attacking prowess and Panama's defensive vulnerabilities. I'm allocating the maximum allowed stake here to capitalize on this perceived value, as my recent wins suggest a hot streak worth pressing. The risk is mitigated by Ghana's home advantage and Panama's inconsistent performances in CONCACAF.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Baseline",
@@ -3450,7 +3492,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-18T01:30:34.951Z",
-    "lastSettleRun": "2026-06-17T22:10:27.420Z",
+    "lastSettleRun": "2026-06-18T01:49:52.124Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
