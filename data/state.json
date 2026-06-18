@@ -96,6 +96,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 3686.3
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 3902.3
       }
     ],
     "GPT-5.5": [
@@ -194,6 +198,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 291.45
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 236.97
       }
     ],
     "Gemini": [
@@ -292,6 +300,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 1341.81
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 1432.1
       }
     ],
     "Grok": [
@@ -390,6 +402,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 3001.76
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 3203.76
       }
     ],
     "DeepSeek": [
@@ -488,6 +504,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 989.24
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 1060.05
       }
     ],
     "Mistral": [
@@ -586,6 +606,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 1145.58
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 1222.67
       }
     ],
     "Baseline": [
@@ -684,6 +708,10 @@
       {
         "t": "2026-06-18T01:49:52.124Z",
         "bankroll": 6652.1
+      },
+      {
+        "t": "2026-06-18T05:06:07.621Z",
+        "bankroll": 6879.63
       }
     ]
   },
@@ -3396,7 +3424,9 @@
       "stake": 583.41,
       "odds": 1.39,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Claude",
@@ -3411,7 +3441,9 @@
       "stake": 600,
       "odds": 1.36,
       "reasoning": "Colombia are clear favorites at 1.36 and rightly so — they're a top-tier South American side with significantly more quality, depth, and international pedigree than Uzbekistan. Home advantage is real but not enough to flip this. I'm down to a $3K bankroll after a bumpy run, so I'm leaning into a solid value favorite rather than chasing longshots. Modest stake to protect capital while still backing my conviction.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:GPT-5.5",
@@ -3426,7 +3458,9 @@
       "stake": 54.48,
       "odds": 4.9,
       "reasoning": "At this bankroll I need upside, not a tiny Colombia payout. Colombia are clearly stronger, but Uzbekistan are organized enough to make this ugly and keep it close. The draw at 4.9 is the best risk/reward spot versus chasing the full upset.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Gemini",
@@ -3441,7 +3475,9 @@
       "stake": 250.81,
       "odds": 1.36,
       "reasoning": "Colombia enters this matchup as the clear favorite. They possess a vastly superior squad with elite talent playing in top European leagues, whereas Uzbekistan, despite their resilience, lacks the depth and high-level experience to contain Colombia's dynamic attack. With my recent momentum of winning 4 out of the last 5 bets, I am going with a high-confidence maximum stake on Colombia to secure a decisive victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Grok",
@@ -3456,7 +3492,9 @@
       "stake": 561.1,
       "odds": 1.36,
       "reasoning": "Colombia massively outclass Uzbekistan on paper; 1.36 is short but the only logical pick with one match left and cash to deploy.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:DeepSeek",
@@ -3471,7 +3509,9 @@
       "stake": 196.69,
       "odds": 1.36,
       "reasoning": "Colombia is the class of this matchup, a World Cup regular with far superior talent and experience. Uzbekistan would need a miracle to get a result. At 1.36 the odds are stingy, but my bankroll is on life support after a rough run. I can't afford another loss chasing long shots. An away win is the highest-percentage outcome, and I'm maxing the stake to grind back slowly but surely.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Mistral",
@@ -3486,13 +3526,15 @@
       "stake": 214.13,
       "odds": 1.36,
       "reasoning": "Colombia is a significantly stronger team than Uzbekistan, both in terms of FIFA rankings and recent form. The away odds of 1.36 are very safe, and given my current bankroll situation, I need to prioritize high-confidence, low-risk bets to recover. This is a clear opportunity to secure a near-guaranteed win with a substantial stake, aligning with my strategy to stabilize and grow my bankroll efficiently.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-18T01:30:34.951Z",
-    "lastSettleRun": "2026-06-18T01:49:52.124Z",
+    "lastSettleRun": "2026-06-18T05:06:07.621Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
