@@ -3799,7 +3799,7 @@
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Claude",
-      "date": "2026-06-18T19:20:29.517Z",
+      "date": "2026-06-18T19:35:45.016Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3807,14 +3807,14 @@
       "kickoff": "2026-06-18T22:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 700,
+      "stake": 813.08,
       "odds": 1.31,
-      "reasoning": "Canada looked solid against Bosnia (1.49 xG, dominant possession and territory), while Qatar got dismantled by Switzerland (0.52 xG conceding 26 shots). At 1.31 the home odds are fair given the gulf in quality. I'm behind in this game so I can't bet huge on low odds, but this is a high-probability spot worth a meaningful stake to grind back.",
+      "reasoning": "Canada looked the stronger side in their opener against Bosnia (1.49 xG, 52.8% possession, dominant final-third receptions 143-51) and only drew due to finishing. Qatar were thoroughly outplayed by Switzerland (0.52 xG, smashed 26-6 on shots, 28.8% possession). The 1.31 home price implies ~76% and feels fair to slightly generous given the gulf in quality and home/neutral momentum. I'm behind on bankroll and need to stack value where the data and odds align — this is my clearest spot, so I'll go to my max stake.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
-      "date": "2026-06-18T19:20:29.517Z",
+      "date": "2026-06-18T19:35:45.016Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3824,12 +3824,12 @@
       "pick": "home",
       "stake": 44.43,
       "odds": 1.31,
-      "reasoning": "Canada are short but the odds and match reports both point the same way. Canada outplayed Bosnia on xG and territory, while Qatar were heavily outshot and out-created by Switzerland despite scraping a 1-1. With only one open match, I’m staking the maximum on the most likely winner rather than chasing a low-probability upset.",
+      "reasoning": "Canada are the clear odds-on side and the FIFA reports support that market view: Canada’s 1-1 with Bosnia came with a solid xG edge and strong territorial numbers, while Qatar’s 1-1 with Switzerland was extremely fortunate on xG and shot volume. At 1.31 there is limited upside, but with my bankroll damaged I still prefer taking the most likely positive-EV outcome rather than forcing a low-probability upset. Max stake on Canada.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
-      "date": "2026-06-18T19:20:29.517Z",
+      "date": "2026-06-18T19:35:45.016Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3839,12 +3839,12 @@
       "pick": "home",
       "stake": 268.52,
       "odds": 1.31,
-      "reasoning": "Canada dominated their opening match against Bosnia and Herzegovina (xG 1.49 to 0.76) despite drawing. Meanwhile, Qatar's 1-1 draw against Switzerland was incredibly fortunate, as they conceded an overwhelming 3.14 xG and 26 shots while generating just 0.52 xG. With Canada playing on home soil in this tournament and possessing a far superior squad, Qatar's defensive luck is highly likely to run out. Backing Canada to secure the three points at 1.31.",
+      "reasoning": "Canada dominated their opening match against Bosnia and Herzegovina (1.49 vs 0.76 xG) but were held to a draw. Meanwhile, Qatar got incredibly lucky to escape with a 1-1 draw against Switzerland, conceding a massive 3.14 xG and 26 shots while generating just 0.52 xG. Qatar's defensive fragility will be punished by a dynamic Canadian attack playing with home-field advantage. At 1.31 odds, Canada is a highly confident selection to secure all three points.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Grok",
-      "date": "2026-06-18T19:20:29.517Z",
+      "date": "2026-06-18T19:35:45.016Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3854,12 +3854,12 @@
       "pick": "home",
       "stake": 600,
       "odds": 1.31,
-      "reasoning": "Canada dominated Bosnia in xG and most underlying metrics while Qatar were thoroughly outplayed by Switzerland (0.52 xG, 6 shots). Canada at home should be a clear favorite against a weak Qatar side; 1.31 offers solid value given the gap in recent form and quality.",
+      "reasoning": "Canada showed solid underlying metrics (xG 1.49, strong progression and reception numbers) in their last outing while Qatar were dominated (xG 0.52, heavily outshot and outpossessed). Home side is the clear value at 1.31 given the quality gap.",
       "status": "pending"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
-      "date": "2026-06-18T19:20:29.517Z",
+      "date": "2026-06-18T19:35:45.016Z",
       "matchId": "fa9502285b257b03e62968d50d9229fc",
       "match": "Canada vs Qatar",
       "homeTeam": "Canada",
@@ -3869,13 +3869,13 @@
       "pick": "home",
       "stake": 198.76,
       "odds": 1.31,
-      "reasoning": "Canada dominated Bosnia with 1.49 xG and 52.8% possession, while Qatar were completely outplayed by Switzerland (0.52 vs 3.14 xG, 26 shots conceded). Home win odds of 1.31 reflect Canada's superiority. Qatar lucky to draw. Max stake at 25% of bankroll for this confident pick.",
+      "reasoning": "Canada dominated Bosnia with 1.49 xG and 143 final-third receptions, while Qatar were thoroughly outplayed by Switzerland, conceding 3.14 xG. The 1.31 odds for a Canada win properly reflect the mismatch. Betting max stake to capitalize on the clear favorite.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T19:20:29.517Z",
+    "lastBetsRun": "2026-06-18T19:35:45.016Z",
     "lastSettleRun": "2026-06-18T18:36:05.936Z",
     "failures": [
       {
@@ -3905,6 +3905,11 @@
       },
       {
         "date": "2026-06-18T19:20:29.517Z",
+        "model": "Mistral",
+        "reason": "Error: missing bets for matchIds: fa9502285b257b03e62968d50d9229fc"
+      },
+      {
+        "date": "2026-06-18T19:35:45.016Z",
         "model": "Mistral",
         "reason": "Error: missing bets for matchIds: fa9502285b257b03e62968d50d9229fc"
       }
