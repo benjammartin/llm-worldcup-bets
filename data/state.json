@@ -3652,7 +3652,7 @@
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Claude",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3660,14 +3660,14 @@
       "kickoff": "2026-06-18T19:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 975,
-      "odds": 1.55,
-      "reasoning": "Switzerland dominated Qatar with 3.14 xG vs 0.52, 26 shots vs 6, and 58.7% possession. They created 245 final-third receptions compared to Qatar's 41 and broke lines 122 times vs 58. Bosnia drew with Canada but were outplayed significantly (0.76 xG vs 1.49, 51 final-third receptions vs 143). Switzerland's attacking quality is clear from the Qatar match - they just couldn't finish their chances. Bosnia's defensive vulnerabilities against Canada suggest they'll struggle against Switzerland's superior ball progression and chance creation. At 1.55 odds with Switzerland's form, this represents solid value. Going maximum stake as I need to climb the leaderboard from $3902 and this is my strongest conviction play.",
+      "stake": 700,
+      "odds": 1.56,
+      "reasoning": "Switzerland were dominant vs Qatar (3.14 xG, 26 shots, 58.7% possession), while Bosnia limped to a 1-1 draw vs Canada with weak underlying numbers (0.76 xG, 29.9% possession). Home at 1.56 offers fair value on the clearly superior side. Sized firmly but with risk control given my current bankroll.",
       "status": "pending"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:GPT-5.5",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3676,13 +3676,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 59.24,
-      "odds": 1.55,
-      "reasoning": "Odds make Switzerland the clear primary side, and the training reports support that rather than contradict it: Switzerland dominated Qatar on xG, shots, possession and final-third activity despite only drawing, while Bosnia were outcreated by Canada and produced limited attacking threat. With only one open match and a low bankroll, I’m taking the maximum allowed stake on the best-probability outcome rather than chasing the long draw/away prices.",
+      "odds": 1.56,
+      "reasoning": "Odds make Switzerland the clear favorite and the match reports support that signal: Switzerland created a huge 3.14 xG and 26-shot performance vs Qatar despite only drawing, while Bosnia were heavily outplayed territorially and on xG by Canada. At 1.56 this is not a huge payout, but it looks like the strongest side and best probability spot, so I’m staking the maximum allowed.",
       "status": "pending"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Gemini",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3691,13 +3691,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 358.02,
-      "odds": 1.55,
-      "reasoning": "Switzerland completely dominated their opening match against Qatar, racking up an impressive 3.14 xG and 26 shots, but were held to a 1-1 draw due to poor finishing. Bosnia & Herzegovina, on the other hand, were thoroughly outplayed by Canada (conceding 1.49 xG while generating just 0.76 xG). Switzerland is the far superior side here, and at 1.55 odds, they are a strong bet to secure the three points if their finishing regresses to the mean.",
+      "odds": 1.56,
+      "reasoning": "Switzerland's opening match against Qatar was a statistical anomaly; they completely dominated with 3.14 xG, 26 shots, and 245 final-third receptions, yet somehow only walked away with a 1-1 draw. Bosnia & Herzegovina, meanwhile, were heavily outplayed by Canada (1.49 vs 0.76 xG) but managed to snatch a point. Switzerland is by far the superior team here, and their underlying metrics suggest they will find their finishing boots in this matchup. At 1.56 odds, backing the Swiss is a high-conviction play, so I am putting the maximum allowed stake of $358.02 on a home win.",
       "status": "pending"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Grok",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3706,13 +3706,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 800,
-      "odds": 1.55,
-      "reasoning": "Switzerland dominated Qatar (xG 3.14-0.52, 26 shots) while Bosnia were outclassed by Canada (low possession and final-third entries). Switzerland are clear favorites at 1.55 and merit max stake.",
+      "odds": 1.56,
+      "reasoning": "Switzerland dominated Qatar in their last match (xG 3.14-0.52) while Bosnia looked limited against Canada. Home side is clear value at 1.56.",
       "status": "pending"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:DeepSeek",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3721,13 +3721,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 265.01,
-      "odds": 1.55,
-      "reasoning": "Switzerland's underlying numbers vs Qatar (xG 3.14, 26 shots, 245 final-third receptions) show elite attacking dominance despite a wasteful finishing day. Bosnia's performance against Canada (0.76 xG, 29.9% possession, 51 final-third receptions) indicates a passive low block with limited offensive threat. At 1.55 odds (~62% implied probability), Switzerland are clear favorites to break down Bosnia's defense. We stake the maximum allowed ($265.01, 25% of bankroll) to maximize recovery in a game where the odds offer solid value relative to the true talent gap.",
+      "odds": 1.56,
+      "reasoning": "Switzerland massively underperformed their xG (3.14) in a dominant draw vs Qatar, while Bosnia were outplayed by Canada (0.76 xG, 29.9% possession) yet scraped a draw. The odds (1.56 home) reflect Switzerland's superior quality and I expect their finishing to regress positively against a limited Bosnia side. Max per-match stake applied to optimize upside given the single match slate.",
       "status": "pending"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Mistral",
-      "date": "2026-06-18T17:27:27.091Z",
+      "date": "2026-06-18T18:23:21.873Z",
       "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
       "match": "Switzerland vs Bosnia & Herzegovina",
       "homeTeam": "Switzerland",
@@ -3736,14 +3736,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 305.67,
-      "odds": 1.55,
-      "reasoning": "Switzerland's recent performance against Qatar was dominant in every attacking metric: xG (3.14 vs 0.52), shots (26 vs 6), possession (58.7% vs 28.8%), and final-third receptions (245 vs 41). Bosnia & Herzegovina's draw with Canada was less impressive, with lower possession (29.9%) and fewer final-third receptions (51) despite Canada's struggles in attack. The odds (1.55 for Switzerland) are favorable given their clear qualitative and quantitative superiority, and my recent success with high-confidence home bets (e.g., England, Ghana) supports this allocation. The stake is maxed to reflect strong conviction.",
+      "odds": 1.56,
+      "reasoning": "Switzerland's dominant performance against Qatar in M08 is a strong qualitative signal: they outshot Qatar 26-6 (7-3 on target), generated 3.14 xG vs. 0.52, and completely controlled possession (58.7% vs. 28.8%) and territorial dominance (final-third receptions 245-41, line breaks 122-58). Bosnia & Herzegovina's draw with Canada in M03 was less impressive: they were out-possessed (29.9% vs. 52.8%), out-shot (8-13), and had far fewer final-third receptions (51 vs. 143). While Canada is a decent side, Switzerland's attacking and defensive metrics are elite, and the odds (1.56 for home) suggest the market hasn't fully priced in their superiority. The draw (4.2) and away (6.25) odds are less attractive given Switzerland's form and Bosnia's struggles. Allocating the maximum stake here to capitalize on the value.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T17:27:27.091Z",
+    "lastBetsRun": "2026-06-18T18:23:21.873Z",
     "lastSettleRun": "2026-06-18T05:06:07.621Z",
     "failures": [
       {
