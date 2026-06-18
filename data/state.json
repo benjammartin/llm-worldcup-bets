@@ -3781,11 +3781,101 @@
       "odds": 1.56,
       "reasoning": "Switzerland's dominant performance against Qatar in M08 is a strong qualitative signal: they outshot Qatar 26-6 (7-3 on target), generated 3.14 xG vs. 0.52, and completely controlled possession (58.7% vs. 28.8%) and territorial dominance (final-third receptions 245-41, line breaks 122-58). Bosnia & Herzegovina's draw with Canada in M03 was less impressive: they were out-possessed (29.9% vs. 52.8%), out-shot (8-13), and had far fewer final-third receptions (51 vs. 143). While Canada is a decent side, Switzerland's attacking and defensive metrics are elite, and the odds (1.56 for home) suggest the market hasn't fully priced in their superiority. The draw (4.2) and away (6.25) odds are less attractive given Switzerland's form and Bosnia's struggles. Allocating the maximum stake here to capitalize on the value.",
       "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:Claude",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 650,
+      "odds": 1.31,
+      "reasoning": "Canada outclassed a solid Bosnia side in the metrics (1.49 xG, 52.8% possession, 143 final-third receptions) while Qatar were thoroughly outplayed by Switzerland (0.52 xG, 6 shots, 28.8% possession). Both the odds and the FIFA data point the same direction. At 1.31 it's a short price but a genuinely high-probability outcome, so I'll back it with confidence while keeping stake disciplined given the thin margin.",
+      "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "draw",
+      "stake": 44.43,
+      "odds": 5.6,
+      "reasoning": "Canada are clearly the stronger side and the market rightly has them as favorites, especially with Qatar being badly outshot and out-xG’d by Switzerland. But at my current bankroll, a 1.31 favorite does not move the needle in this competition. The draw at 5.6 is the best upside angle: Canada already drew 1-1 despite territorial dominance, while Qatar showed they can survive pressure and turn a lopsided chance profile into a 1-1 result. Small probability, but live enough to justify the max stake given the standings.",
+      "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 268.52,
+      "odds": 1.31,
+      "reasoning": "Canada showed strong underlying metrics in their 1-1 draw against Bosnia and Herzegovina, controlling possession and generating an xG of 1.49 compared to Bosnia's 0.76. Meanwhile, Qatar's 1-1 draw against Switzerland was extremely fortunate, as they conceded 26 shots and an xG of 3.14 while generating just 0.52 xG themselves. Canada's superior offensive structure and control should comfortably exploit Qatar's defensive vulnerabilities. Backing Canada at 1.31 with the maximum allowed stake of $268.52.",
+      "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:Grok",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 600,
+      "odds": 1.31,
+      "reasoning": "Canada's underlying numbers vs Bosnia (xG 1.49-0.76, strong progression/possession) dwarf Qatar's collapse vs Switzerland (xG 0.52-3.14, minimal final-third output). At 1.31 the home side is the clear value play with my remaining bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 198.76,
+      "odds": 1.31,
+      "reasoning": "Canada heavy favorites. Qatar's xG was 0.52 vs Switzerland's 3.14 in their 1-1 draw, indicating poor performance masked by result. Canada's 1.49 xG vs Bosnia shows attacking threat. Betting home win.",
+      "status": "pending"
+    },
+    {
+      "id": "fa9502285b257b03e62968d50d9229fc:Baseline",
+      "date": "2026-06-18T19:12:43.109Z",
+      "matchId": "fa9502285b257b03e62968d50d9229fc",
+      "match": "Canada vs Qatar",
+      "homeTeam": "Canada",
+      "awayTeam": "Qatar",
+      "kickoff": "2026-06-18T22:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 619.17,
+      "odds": 1.31,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T18:23:21.873Z",
+    "lastBetsRun": "2026-06-18T19:12:43.109Z",
     "lastSettleRun": "2026-06-18T18:36:05.936Z",
     "failures": [
       {
@@ -3807,15 +3897,14 @@
         "date": "2026-06-14T04:35:41.600Z",
         "model": "Mistral",
         "reason": "Error: missing bets for matchIds: d79edbd6aaeb578d33e313446b18d333"
+      },
+      {
+        "date": "2026-06-18T19:12:43.109Z",
+        "model": "Mistral",
+        "reason": "Error: missing bets for matchIds: fa9502285b257b03e62968d50d9229fc"
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-        "homeTeam": "Switzerland",
-        "awayTeam": "Bosnia & Herzegovina",
-        "kickoff": "2026-06-18T19:00:00Z"
-      },
       {
         "matchId": "fa9502285b257b03e62968d50d9229fc",
         "homeTeam": "Canada",
@@ -3827,6 +3916,12 @@
         "homeTeam": "Mexico",
         "awayTeam": "South Korea",
         "kickoff": "2026-06-19T01:00:00Z"
+      },
+      {
+        "matchId": "065b3573e875f8d23803357f73e5b99e",
+        "homeTeam": "USA",
+        "awayTeam": "Australia",
+        "kickoff": "2026-06-19T19:00:00Z"
       }
     ],
     "liveMatches": []
