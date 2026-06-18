@@ -3547,7 +3547,7 @@
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:Claude",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3555,14 +3555,14 @@
       "kickoff": "2026-06-18T16:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 975.58,
-      "odds": 1.83,
-      "reasoning": "Czechia lost narrowly to Korea (2-1) but generated decent shots and possession against a quality side, while South Africa got dominated by Mexico (xG 1.78-0.10, only 3 shots). The eye test from FIFA reports shows Czechia is clearly the more dangerous attacking team. At 1.83 home odds, the implied ~55% feels fair-to-slightly-generous given the gap in quality these reports suggest. Behind in the standings and need to grow the bankroll, so I'm sizing this near my cap with solid conviction.",
+      "stake": 650,
+      "odds": 1.84,
+      "reasoning": "Czechia lost to Korea but showed solid attacking output (xG 0.64, 7 shots, 77 final-third receptions) against a strong side. South Africa was thoroughly dominated by Mexico — xG 0.10, just 3 shots, 36% possession, and crushed in final-third receptions 117-36. The gap in quality is clear, and the 1.84 home price reflects fair value for the Czechs at home. Backing them with moderate-high conviction while keeping stake well within my risk limits given my reduced bankroll.",
       "status": "pending"
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:GPT-5.5",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3571,13 +3571,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 59.24,
-      "odds": 1.83,
-      "reasoning": "Odds make Czech Republic the clear favorite, and the training reports support that direction: both teams lost their opener, but South Africa were almost completely shut down by Mexico with only 0.10 xG, 3 shots, and very little progression. Czechia were also second-best against Korea, but their attacking output was still materially better than South Africa's. At 1.83, home is the most sensible side, and with my bankroll needing a rebound I am staking the match maximum.",
+      "odds": 1.84,
+      "reasoning": "Czech Republic are the odds-on side and the training-centre context supports that direction: both teams lost their openers, but South Africa’s profile against Mexico was especially weak, with just 0.10 xG, 3 shots, very little territory, and poor progression. Czechia were also second-best against Korea, but created more and allowed a less one-sided match. With odds as the primary signal and the qualitative data leaning the same way, I’m taking Czech Republic and using the maximum stake allowed.",
       "status": "pending"
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:Gemini",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3585,14 +3585,14 @@
       "kickoff": "2026-06-18T16:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 358,
-      "odds": 1.83,
-      "reasoning": "Czech Republic showed significantly more offensive capability in their opening match against Korea Republic than South Africa did against Mexico, where South Africa was held to an extremely low 0.10 xG and just 3 shots. Czechia's tactical structure and physical advantages should allow them to control the midfield and break down South Africa's defense. At odds of 1.83, backing the home side offers strong value in a must-win game for both teams.",
+      "stake": 358.02,
+      "odds": 1.84,
+      "reasoning": "South Africa's opening match against Mexico was highly concerning, generating a mere 0.10 xG and just 3 shots. While Czech Republic also lost their opener to Korea Republic, they showed significantly more competitive spirit and attacking intent (0.64 xG, 7 shots). At odds of 1.84, the Czechs represent strong value to secure a crucial three points against an offensively stagnant South African side. Going with the maximum allowed stake to maximize returns.",
       "status": "pending"
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:Grok",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3601,13 +3601,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 800,
-      "odds": 1.83,
-      "reasoning": "South Africa were abysmal vs Mexico (0.10 xG, crushed in every metric). Czechia looked the better side vs Korea despite the result. Home side is the clear value at 1.83.",
+      "odds": 1.84,
+      "reasoning": "Czech Republic are clear favorites at 1.84. South Africa were completely dominated in their last match (xG 0.10, 3 shots) while Czechia at least created chances; the price offers solid value.",
       "status": "pending"
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:DeepSeek",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3616,13 +3616,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 265.01,
-      "odds": 1.83,
-      "reasoning": "South Africa were thoroughly outplayed in their opener: 0.10 xG, 36% possession, just 8 progressions. Czechia, despite losing to Korea, posted a more competitive 0.64 xG and created more final‑third entries. The odds heavily favour the Czech Republic (1.83 vs 4.64) and the performance gap between the two sides’ first matches suggests a straightforward home win.",
+      "odds": 1.84,
+      "reasoning": "South Africa managed just 0.10 xG and 3 shots against Mexico, while Czechia posted 0.64 xG and 7 shots against a strong Korea Republic. The Czechs should control this match. At 1.84 odds, a home win offers solid value. Banking on Czech Republic to secure the win.",
       "status": "pending"
     },
     {
       "id": "66ebb9e3f949caded535d97ce686ca09:Mistral",
-      "date": "2026-06-18T13:42:40.034Z",
+      "date": "2026-06-18T14:50:55.853Z",
       "matchId": "66ebb9e3f949caded535d97ce686ca09",
       "match": "Czech Republic vs South Africa",
       "homeTeam": "Czech Republic",
@@ -3631,14 +3631,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 305.67,
-      "odds": 1.83,
-      "reasoning": "1. Odds favor Czech Republic at 1.83, which is a strong value signal given their recent performance against Korea Republic. While they lost 2-1, their xG (0.64) and shot quality (7 shots, 4 on target) were decent, and they had a respectable 34.2% possession. The qualitative report shows they were competitive in line breaks (54) and progressions (10), indicating they can create chances even against stronger opposition. \n\n2. South Africa was thoroughly outplayed by Mexico (xG 0.10, shots 3(2)), with minimal attacking threat. Their possession (36.1%) and final-third receptions (36) were poor, and they struggled to break lines (57) or progress the ball (8). The contrast between Czech Republic's ability to generate chances and South Africa's lack of attacking output is stark. \n\n3. The market seems to underrate Czech Republic's ability to bounce back after a narrow loss, while South Africa's weak offensive metrics suggest they are unlikely to trouble a more organized Czech defense. The home odds of 1.83 offer a good risk-reward balance, and I'm allocating the maximum stake to reflect high confidence in this pick.",
+      "odds": 1.84,
+      "reasoning": "Odds for Czech Republic (1.84) are favorable given their recent performance against Korea Republic, despite the loss. The xG (0.64) and shots (7(4)) show they were competitive and created chances, while South Africa's recent match against Mexico was abysmal (xG 0.10, shots 3(2), possession 36.1%). The qualitative data from FIFA reports also highlights South Africa's struggles in final-third receptions, line breaks, and progressions, which are critical for offensive play. The odds reflect this disparity, making Czech Republic the clear value pick here. Going all-in on this match within the per-match cap to maximize potential returns.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T13:42:40.034Z",
+    "lastBetsRun": "2026-06-18T14:50:55.853Z",
     "lastSettleRun": "2026-06-18T05:06:07.621Z",
     "failures": [
       {
