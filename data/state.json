@@ -3928,11 +3928,116 @@
       "odds": 1.3,
       "reasoning": "Canada, as co-host, showed strong underlying numbers against Bosnia (1.49 xG, 143 final-third receptions, solid possession). Qatar were massively outplayed by Switzerland (0.52 vs 3.14 xG, 41 vs 245 final-third receptions) and extremely fortunate to draw. Home advantage and superior quality make Canada a clear favourite at 1.3. I’ll stake the full per-match max as a calculated rebuild step.",
       "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Claude",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 550,
+      "odds": 2.07,
+      "reasoning": "Mexico impressed in their opener (xG 1.78-0.10, 16 shots, 57% possession) and play at home where they're favored at 2.07. Korea also looked sharp beating Czechia, so this isn't a slam dunk, but home advantage plus Mexico's territorial dominance tilts the value to the hosts. Moderate stake reflecting solid but not overwhelming conviction.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:GPT-5.5",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 52.73,
+      "odds": 2.07,
+      "reasoning": "Odds are still the anchor, and Mexico are the market favorite at 2.07. The FIFA report backs up that view qualitatively: Mexico’s opener was extremely controlled, with a 1.78-0.10 xG edge, 16-3 shots, and huge advantages in final-third receptions and progressions. Korea also looked good against Czechia, so this is not a slam dunk, but Mexico’s combination of market edge, home/host context, and stronger underlying dominance makes home the best side. Given my bankroll position, I need to press my highest-conviction spots, so I’m staking the match maximum.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Gemini",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 318.64,
+      "odds": 2.07,
+      "reasoning": "Mexico demonstrated elite defensive control in their opening match against South Africa, conceding just 0.10 xG and 3 shots while dominating possession. South Korea also had a strong showing against Czechia, but allowed more opportunities. At odds of 2.07, Mexico represents excellent value to win this matchup given their superior defensive structure and territorial dominance.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Grok",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 712.94,
+      "odds": 2.07,
+      "reasoning": "Mexico showed clear dominance vs South Africa (xG 1.78-0.10, strong progression/pressure metrics). South Korea looked solid vs Czechia but Mexico at home is the superior side here; 2.07 offers value over the alternatives.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:DeepSeek",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 235.86,
+      "odds": 2.07,
+      "reasoning": "Mexico showed dominant control against South Africa, conceding just 0.10 xG and a single shot on target, while generating high final‑third receptions and line breaks. South Korea impressed against Czechia but allowed 0.64 xG and looked more open defensively. Playing on home continent as a co‑host, Mexico’s balance and defensive organisation give them a clear edge. The home odds at 2.07 fairly reflect the probability and offer value to rebuild bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Mistral",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 272.05,
+      "odds": 2.07,
+      "reasoning": "Mexico's recent performance against South Africa was dominant, with a significantly higher xG (1.78 vs. 0.10), more shots, possession, and final-third receptions. Their attacking metrics (line breaks, progressions) were also far superior. South Korea, while solid in their win over Czechia, faced a team that had just lost to Switzerland and were not as defensively robust as Mexico. The odds (2.07 for Mexico) are favorable given their form and the qualitative edge in their last outing. Betting the maximum allowed stake here due to high confidence in Mexico's ability to control the game and capitalize on their attacking prowess.",
+      "status": "pending"
+    },
+    {
+      "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Baseline",
+      "date": "2026-06-18T22:04:33.720Z",
+      "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
+      "match": "Mexico vs South Korea",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Korea",
+      "kickoff": "2026-06-19T01:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 657.01,
+      "odds": 2.07,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-18T21:15:10.414Z",
+    "lastBetsRun": "2026-06-18T22:04:33.720Z",
     "lastSettleRun": "2026-06-18T21:40:18.859Z",
     "failures": [
       {
@@ -3983,12 +4088,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "fa9502285b257b03e62968d50d9229fc",
-        "homeTeam": "Canada",
-        "awayTeam": "Qatar",
-        "kickoff": "2026-06-18T22:00:00Z"
-      },
-      {
         "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
         "homeTeam": "Mexico",
         "awayTeam": "South Korea",
@@ -3999,6 +4098,12 @@
         "homeTeam": "USA",
         "awayTeam": "Australia",
         "kickoff": "2026-06-19T19:00:00Z"
+      },
+      {
+        "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+        "homeTeam": "Scotland",
+        "awayTeam": "Morocco",
+        "kickoff": "2026-06-19T22:00:00Z"
       }
     ],
     "liveMatches": []
