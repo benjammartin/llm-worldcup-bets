@@ -3358,7 +3358,7 @@
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Claude",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
@@ -3368,27 +3368,27 @@
       "pick": "away",
       "stake": 600,
       "odds": 1.38,
-      "reasoning": "Colombia are heavy favorites at 1.38 for good reason — they're a strong, established side with serious attacking talent, while Uzbekistan are a step below at this level. The home odds of 9.5 reflect how lopsided this is. I'm down to half my starting stack after a coin-flip record, so I need to favor value plays where the favorite is genuinely likely to win. 1.38 isn't huge juice but Colombia's quality makes this a solid spot. Sizing it meaningfully but not maxing out given the modest odds.",
+      "reasoning": "Colombia are a far superior, experienced side against a World Cup debutant. 1.38 implies ~72% which is fair-to-generous given the clear quality gap. Backing the favorite for steady value rather than chasing the longshot home/draw prices — disciplined sizing while rebuilding my bankroll.",
       "status": "pending"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:GPT-5.5",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
       "awayTeam": "Colombia",
       "kickoff": "2026-06-18T02:00:00Z",
       "model": "GPT-5.5",
-      "pick": "away",
+      "pick": "home",
       "stake": 54.48,
-      "odds": 1.38,
-      "reasoning": "Colombia are the clear stronger side on paper and this is not the spot to get cute. Uzbekistan can be organized and awkward, but Colombia should have the technical edge, more attacking quality, and more ways to win. At my bankroll level I need to press advantages, so I’m staking the max on the most likely outcome.",
+      "odds": 9.25,
+      "reasoning": "Bankroll is too low to grind favorites, so I need upside. Colombia are clearly stronger, but 9.25 on Uzbekistan is the kind of high-variance spot I have to take to have any chance of climbing back into the contest.",
       "status": "pending"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Gemini",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
@@ -3398,12 +3398,12 @@
       "pick": "away",
       "stake": 250.81,
       "odds": 1.38,
-      "reasoning": "Colombia enters this matchup as the clear favorite with superior squad depth and tactical quality compared to Uzbekistan. At odds of 1.38, they represent a highly probable victory. To rebuild my bankroll, I am placing the maximum allowed stake of $250.81 on Colombia to secure the win.",
+      "reasoning": "Colombia possesses a vastly superior squad with world-class talent and extensive tournament experience compared to Uzbekistan. While Uzbekistan has made strides in Asian football, they are outclassed here. At 1.38 odds, Colombia is a highly reliable selection, and I am placing the maximum allowed stake of $250.81 to safely rebuild my bankroll.",
       "status": "pending"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Grok",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
@@ -3411,14 +3411,14 @@
       "kickoff": "2026-06-18T02:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 561.1,
+      "stake": 500,
       "odds": 1.38,
-      "reasoning": "Colombia is significantly stronger than Uzbekistan and should win this match comfortably despite the low odds.",
+      "reasoning": "Colombia vastly superior to Uzbekistan on paper; 1.38 is short but the only logical pick here with limited matches left.",
       "status": "pending"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:DeepSeek",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
@@ -3428,12 +3428,12 @@
       "pick": "away",
       "stake": 196.69,
       "odds": 1.38,
-      "reasoning": "Colombia is heavily favored for good reason; they have superior squad quality and form. Uzbekistan at home might make it competitive, but the 1.38 odds offer value for a safe bet to protect and grow my dwindling bankroll.",
+      "reasoning": "Colombia is a South American powerhouse with consistent World Cup appearances, well above Uzbekistan in FIFA rankings and squad quality. Odds of 1.38 reflect overwhelming favoritism. I'm putting the maximum allowed stake to steadily rebuild my bankroll with a high-probability outcome.",
       "status": "pending"
     },
     {
       "id": "22083e7a8e5362c711bc05c1e1319a1f:Mistral",
-      "date": "2026-06-17T23:46:26.429Z",
+      "date": "2026-06-18T00:19:28.019Z",
       "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
       "match": "Uzbekistan vs Colombia",
       "homeTeam": "Uzbekistan",
@@ -3443,13 +3443,13 @@
       "pick": "away",
       "stake": 214.13,
       "odds": 1.38,
-      "reasoning": "Colombia is a significantly stronger team than Uzbekistan, both in terms of FIFA rankings and recent form. The away odds of 1.38 are very favorable for a side that should comfortably win this match. Given the disparity in quality, I'm willing to allocate the maximum allowed stake here to capitalize on this near-certain outcome. The risk is minimal, and the reward is solid for a low-risk bet.",
+      "reasoning": "Colombia is a significantly stronger team than Uzbekistan, both in terms of FIFA rankings and recent form. The away odds of 1.38 are attractive for a side that should comfortably win this match. Given the disparity in quality, I'm willing to allocate the maximum allowed stake here for a high-confidence bet. The risk is low, and the reward is decent for a near-certain outcome.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-17T23:46:26.429Z",
+    "lastBetsRun": "2026-06-18T00:19:28.019Z",
     "lastSettleRun": "2026-06-17T22:10:27.420Z",
     "failures": [
       {
