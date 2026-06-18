@@ -104,6 +104,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 3252.3
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 3644.3
       }
     ],
     "GPT-5.5": [
@@ -210,6 +214,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 177.73
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 210.9
       }
     ],
     "Gemini": [
@@ -316,6 +324,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 1074.08
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 1274.57
       }
     ],
     "Grok": [
@@ -422,6 +434,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 2403.76
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 2851.76
       }
     ],
     "DeepSeek": [
@@ -528,6 +544,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 795.04
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 943.45
       }
     ],
     "Mistral": [
@@ -634,6 +654,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 917
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 1088.18
       }
     ],
     "Baseline": [
@@ -740,6 +764,10 @@
       {
         "t": "2026-06-18T18:36:05.936Z",
         "bankroll": 6191.67
+      },
+      {
+        "t": "2026-06-18T21:40:18.859Z",
+        "bankroll": 6570.05
       }
     ]
   },
@@ -3690,7 +3718,9 @@
       "stake": 687.96,
       "odds": 1.55,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Claude",
@@ -3705,7 +3735,9 @@
       "stake": 700,
       "odds": 1.56,
       "reasoning": "Switzerland were dominant vs Qatar (3.14 xG, 26 shots, 58.7% possession), while Bosnia limped to a 1-1 draw vs Canada with weak underlying numbers (0.76 xG, 29.9% possession). Home at 1.56 offers fair value on the clearly superior side. Sized firmly but with risk control given my current bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:GPT-5.5",
@@ -3720,7 +3752,9 @@
       "stake": 59.24,
       "odds": 1.56,
       "reasoning": "Odds make Switzerland the clear favorite and the match reports support that signal: Switzerland created a huge 3.14 xG and 26-shot performance vs Qatar despite only drawing, while Bosnia were heavily outplayed territorially and on xG by Canada. At 1.56 this is not a huge payout, but it looks like the strongest side and best probability spot, so I’m staking the maximum allowed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Gemini",
@@ -3735,7 +3769,9 @@
       "stake": 358.02,
       "odds": 1.56,
       "reasoning": "Switzerland's opening match against Qatar was a statistical anomaly; they completely dominated with 3.14 xG, 26 shots, and 245 final-third receptions, yet somehow only walked away with a 1-1 draw. Bosnia & Herzegovina, meanwhile, were heavily outplayed by Canada (1.49 vs 0.76 xG) but managed to snatch a point. Switzerland is by far the superior team here, and their underlying metrics suggest they will find their finishing boots in this matchup. At 1.56 odds, backing the Swiss is a high-conviction play, so I am putting the maximum allowed stake of $358.02 on a home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Grok",
@@ -3750,7 +3786,9 @@
       "stake": 800,
       "odds": 1.56,
       "reasoning": "Switzerland dominated Qatar in their last match (xG 3.14-0.52) while Bosnia looked limited against Canada. Home side is clear value at 1.56.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:DeepSeek",
@@ -3765,7 +3803,9 @@
       "stake": 265.01,
       "odds": 1.56,
       "reasoning": "Switzerland massively underperformed their xG (3.14) in a dominant draw vs Qatar, while Bosnia were outplayed by Canada (0.76 xG, 29.9% possession) yet scraped a draw. The odds (1.56 home) reflect Switzerland's superior quality and I expect their finishing to regress positively against a limited Bosnia side. Max per-match stake applied to optimize upside given the single match slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Mistral",
@@ -3780,7 +3820,9 @@
       "stake": 305.67,
       "odds": 1.56,
       "reasoning": "Switzerland's dominant performance against Qatar in M08 is a strong qualitative signal: they outshot Qatar 26-6 (7-3 on target), generated 3.14 xG vs. 0.52, and completely controlled possession (58.7% vs. 28.8%) and territorial dominance (final-third receptions 245-41, line breaks 122-58). Bosnia & Herzegovina's draw with Canada in M03 was less impressive: they were out-possessed (29.9% vs. 52.8%), out-shot (8-13), and had far fewer final-third receptions (51 vs. 143). While Canada is a decent side, Switzerland's attacking and defensive metrics are elite, and the odds (1.56 for home) suggest the market hasn't fully priced in their superiority. The draw (4.2) and away (6.25) odds are less attractive given Switzerland's form and Bosnia's struggles. Allocating the maximum stake here to capitalize on the value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-1"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Baseline",
@@ -3891,7 +3933,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-18T21:15:10.414Z",
-    "lastSettleRun": "2026-06-18T18:36:05.936Z",
+    "lastSettleRun": "2026-06-18T21:40:18.859Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
