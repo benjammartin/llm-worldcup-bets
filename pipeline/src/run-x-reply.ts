@@ -37,8 +37,8 @@ const replyText = `Track the LLM bankrolls here:\n${siteUrl}`;
 const mode = process.env.POST_MODE?.trim() || "reply";
 const dryRun = process.env.DRY_RUN !== "0";
 
-if (!["reply", "quote"].includes(mode)) {
-  console.error(`[x-reply] POST_MODE must be reply or quote, got: ${mode}`);
+if (!["reply", "quote", "post"].includes(mode)) {
+  console.error(`[x-reply] POST_MODE must be reply, quote, or post, got: ${mode}`);
   process.exit(1);
 }
 
@@ -73,7 +73,9 @@ if (!client) {
 
 const first = mode === "quote"
   ? await client.v2.tweet({ text, quote_tweet_id: targetTweetId })
-  : await client.v2.tweet({ text, reply: { in_reply_to_tweet_id: targetTweetId } });
+  : mode === "reply"
+    ? await client.v2.tweet({ text, reply: { in_reply_to_tweet_id: targetTweetId } })
+    : await client.v2.tweet({ text });
 console.log(`[x-reply] posted ${mode} challenge ${first.data.id}`);
 const second = await client.v2.tweet({ text: replyText, reply: { in_reply_to_tweet_id: first.data.id } });
 console.log(`[x-reply] posted link reply ${second.data.id}`);

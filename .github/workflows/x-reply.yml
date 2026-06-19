@@ -11,11 +11,11 @@ on:
         required: true
         type: string
       post_mode:
-        description: "reply replies to target; quote quote-tweets target"
+        description: "reply replies to target; quote quote-tweets target; post posts standalone"
         required: true
         default: "reply"
         type: choice
-        options: ["reply", "quote"]
+        options: ["reply", "quote", "post"]
       site_url:
         description: "Site URL for the automatic follow-up reply"
         required: true
