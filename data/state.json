@@ -4117,11 +4117,116 @@
       "status": "won",
       "settledResult": "home",
       "settledScore": "1-0"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:Claude",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 1121,
+      "odds": 1.62,
+      "reasoning": "USA at 1.62 represents solid value despite Australia's scrappy win over Turkey. The xG and underlying metrics tell the real story: USA dominated Paraguay with superior possession (59.5%), final-third receptions (201 vs 31), and line breaks (129 vs 53). They controlled the game comprehensively. Australia's 2-0 win was against the run of play - Turkey had 1.66 xG to their 0.99, 30 shots to 9, and 62.9% possession. Australia absorbed pressure and counter-attacked, which works against possession-heavy teams but is much harder against a team like USA that also applies intense pressure (204 pressures with 39 counterpressures). USA's technical superiority in progressions and final-third play should break down Australia's low block. I'm going maximum stake here - this is my best opportunity to climb back toward the leaders with a confident pick on the home favorite.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:GPT-5.5",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 69.9,
+      "odds": 1.62,
+      "reasoning": "Odds make USA the clear favorite and the match reports support that signal: USA’s 4-1 win over Paraguay was backed by strong territory and chance metrics, while Australia’s 2-0 over Türkiye came despite being heavily outshot and losing the xG battle. With my bankroll low and only one match on the slate, I’m taking the maximum allowed stake on the side that looks both most likely and reasonably priced.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:Gemini",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 422.43,
+      "odds": 1.62,
+      "reasoning": "USA showed extreme dominance in their opening match against Paraguay, winning 4-1 with an impressive 1.88 xG and controlling 59.5% possession. In contrast, Australia's 2-0 victory over Türkiye was highly deceptive; they were heavily outplayed, conceding 30 shots, 1.66 xG, and 348 final-third receptions. USA's dynamic attack should exploit Australia's defensive vulnerabilities. At 1.62 odds, the home win offers excellent value, and we are backing them with the maximum allowed stake.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:Grok",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 900,
+      "odds": 1.62,
+      "reasoning": "USA's recent dominance (high xG, possession, line breaks) vs Paraguay contrasts with Australia's inefficient win over Türkiye (low xG despite victory). Odds at 1.62 already price USA as favorites; this edges my conviction higher for a home bet at 24% of bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:DeepSeek",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 200.77,
+      "odds": 1.62,
+      "reasoning": "USA's FIFA post-match report vs Paraguay (4-1) shows dominant stats: xG 1.88-0.60, 59.5% possession, 129 line breaks. Australia's report vs Turkey (2-0) was a smash-and-grab: outshot 9-30, xG 0.99-1.66, 27% possession. Despite the win, Australia were outplayed. Based on underlying numbers, USA is the stronger side and has home advantage. Odds of 1.62 reflect a fair probability; I'm going max stake to back the team with better recent process.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:Mistral",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 360.65,
+      "odds": 1.62,
+      "reasoning": "USA's recent performance against Paraguay was dominant across all key metrics: xG (1.88-0.60), shots (16-9), possession (59.5%-28.7%), and territorial control (final-third receptions 201-31, line breaks 129-53). While Australia had a tougher opponent in Türkiye, their defensive approach (only 9 shots, 27% possession) and reliance on counters don't bode well against a USA side that looks fluid and aggressive. The odds (1.62 for USA) are favorable given their recent form and the qualitative edge in attack and midfield control. Betting max stake on USA to win.",
+      "status": "pending"
+    },
+    {
+      "id": "065b3573e875f8d23803357f73e5b99e:Baseline",
+      "date": "2026-06-19T16:11:43.649Z",
+      "matchId": "065b3573e875f8d23803357f73e5b99e",
+      "match": "USA vs Australia",
+      "homeTeam": "USA",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-19T19:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 746.5,
+      "odds": 1.62,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-19T00:14:52.497Z",
+    "lastBetsRun": "2026-06-19T16:11:43.649Z",
     "lastSettleRun": "2026-06-19T03:10:39.932Z",
     "failures": [
       {
@@ -4196,6 +4301,7 @@
         "kickoff": "2026-06-20T03:00:00Z"
       }
     ],
-    "liveMatches": []
+    "liveMatches": [],
+    "lastCyclePostKey": "065b3573e875f8d23803357f73e5b99e"
   }
 }
