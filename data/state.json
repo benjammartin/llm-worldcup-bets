@@ -116,6 +116,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 4484.3
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 5019.8
       }
     ],
     "GPT-5.5": [
@@ -234,6 +238,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 279.6
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 323.64
       }
     ],
     "Gemini": [
@@ -352,6 +360,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 1689.7
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 1955.83
       }
     ],
     "Grok": [
@@ -470,6 +482,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 3766.76
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 4270.76
       }
     ],
     "DeepSeek": [
@@ -588,6 +604,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 803.08
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 929.57
       }
     ],
     "Mistral": [
@@ -706,6 +726,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 1442.61
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 1669.82
       }
     ],
     "Baseline": [
@@ -824,6 +848,10 @@
       {
         "t": "2026-06-19T03:10:39.932Z",
         "bankroll": 7464.99
+      },
+      {
+        "t": "2026-06-19T21:30:48.163Z",
+        "bankroll": 7927.82
       }
     ]
   },
@@ -4131,7 +4159,9 @@
       "stake": 746.5,
       "odds": 1.62,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:Claude",
@@ -4146,7 +4176,9 @@
       "stake": 850,
       "odds": 1.63,
       "reasoning": "USA dominated Paraguay 4-1 with strong underlying numbers (1.88 xG, 59.5% possession, 16 shots). Australia beat Türkiye but the xG (0.99-1.66) and shot count (9-30) suggest they got an outlier result and were heavily outplayed. At 1.63 home odds, the USA are rightly favored and the data supports them. Solid value, betting with confidence but not maxing out given Australia can defend deep and grind a result.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:GPT-5.5",
@@ -4161,7 +4193,9 @@
       "stake": 69.9,
       "odds": 1.63,
       "reasoning": "USA are the clear odds favorite and the FIFA report context supports that price: they beat Paraguay 4-1 with strong territorial dominance, while Australia’s 2-0 win over Türkiye came despite being outshot 30-9 and losing xG 1.66-0.99. At 1.63 I make USA the best side and the best value on this slate, so I’m staking the maximum allowed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:Gemini",
@@ -4176,7 +4210,9 @@
       "stake": 422.43,
       "odds": 1.63,
       "reasoning": "USA showed impressive dominance in their 4-1 victory over Paraguay, controlling possession (59.5%) and generating 1.88 xG with 201 final-third receptions. In contrast, while Australia managed a 2-0 win over Türkiye, they were severely outplayed, conceding 30 shots and 1.66 xG while holding only 27% possession. USA's sharp attacking transition and home advantage make them strong favorites to break down an Australia side that relied heavily on defensive luck in their opening match.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:Grok",
@@ -4191,7 +4227,9 @@
       "stake": 800,
       "odds": 1.63,
       "reasoning": "USA posted dominant underlying numbers vs Paraguay (xG 1.88, 59.5% possession, massive final-third edge), while Australia’s 2-0 win over Türkiye masked very poor metrics (xG 0.99, 27% possession, heavily outshot). Home side is the clear value at 1.63.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:DeepSeek",
@@ -4206,7 +4244,9 @@
       "stake": 200.77,
       "odds": 1.63,
       "reasoning": "USA dominated Paraguay with 1.88 xG, 16 shots, 59.5% possession and massive final-third entries. Australia were outplayed by Turkey (0.99 xG vs 1.66, 9 shots to 30, 27% possession) yet won 2-0, suggesting they rode luck and a clinical counter. USA's high press and progression numbers should expose that vulnerability. Odds heavily favour USA at 1.63, and their superior underlying metrics make home win the clear call. Max stake applied to reflect confidence within risk limits.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "065b3573e875f8d23803357f73e5b99e:Mistral",
@@ -4221,7 +4261,9 @@
       "stake": 360.65,
       "odds": 1.63,
       "reasoning": "The odds for USA to win (1.63) are attractive given their recent dominant performance against Paraguay (4-1 win with xG 1.88-0.60, 16 shots, 59.5% possession, and overwhelming control in final-third receptions, line breaks, and progressions). Australia, while defensively solid, struggled against Türkiye despite having more possession (62.9% for Türkiye) and shots (30-9 for Türkiye). Australia's xG was only 0.99 despite the possession advantage, suggesting they struggle to convert dominance into goals. USA's attacking prowess and home advantage (assuming this is a neutral venue but with likely USMNT fan support) make them the clear favorite here. The stake is maxed out due to high conviction in this pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Baseline",
@@ -4332,7 +4374,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-19T20:56:05.069Z",
-    "lastSettleRun": "2026-06-19T03:10:39.932Z",
+    "lastSettleRun": "2026-06-19T21:30:48.163Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
