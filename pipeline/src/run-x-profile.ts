@@ -34,8 +34,16 @@ if (!client) {
   process.exit(1);
 }
 
-await client.v1.updateAccountProfile(X_PROFILE);
-console.log("[x-profile] profile updated");
+try {
+  await client.v1.updateAccountProfile(X_PROFILE);
+  console.log("[x-profile] profile updated");
+} catch (error) {
+  const data = (error as { data?: { errors?: Array<{ code?: number; message?: string }> } }).data;
+  const profileUnderReview = data?.errors?.some((item) => item.code === 120);
+  if (!profileUnderReview) throw error;
+
+  console.warn("[x-profile] profile update skipped — X says the profile is under review; continuing with launch thread");
+}
 
 if (postLaunchThread) {
   let previousTweetId: string | undefined;
