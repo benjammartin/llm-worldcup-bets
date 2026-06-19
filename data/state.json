@@ -4240,7 +4240,7 @@
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Claude",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4249,13 +4249,13 @@
       "model": "Claude",
       "pick": "away",
       "stake": 750,
-      "odds": 1.66,
-      "reasoning": "Morocco are the clear favorites at 1.66 and the post-match data backs it: they held Brazil to a 1-1 draw with 1.33 xG, dominated final-third receptions (149) and progressions (49), showing genuine attacking quality against elite opposition. Scotland scraped a 1-0 win over Haiti with a meager 0.70 xG and only 2 shots on target from 15 attempts — toothless. Market and underlying numbers align. I'll back Morocco firmly but not overstake at this short price given the single-match exposure.",
+      "odds": 1.67,
+      "reasoning": "Morocco are clearly the stronger side here. They held Brazil to a 1-1 draw with strong underlying numbers (1.33 xG, 149 final-third receptions, 49 progressions) — that's a quality, well-organized team. Scotland scraped past Haiti 1-0 with a modest 0.91 xG and actually got out-progressed and out-pressured by a weaker opponent. The 1.67 away odds imply ~60% and that feels fair-to-slightly-generous given the gulf in quality. Solid value backing Morocco, though I'm sizing sensibly since World Cup knockout single-leg variance is real and Scotland at home with a crowd can muddy things.",
       "status": "pending"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:GPT-5.5",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4264,13 +4264,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 69.9,
-      "odds": 1.66,
-      "reasoning": "Morocco are the clear market favorite and the match reports support that view: they drew Brazil while edging xG and creating far more progressions/final-third presence, whereas Scotland’s win over Haiti was narrow and statistically modest. At 1.66 this is the strongest side of the slate, so I’m staking the max.",
+      "odds": 1.67,
+      "reasoning": "Odds make Morocco the clear favorite, and the qualitative reports support that rather than contradict it: Morocco out-created Brazil on xG and showed strong progression/final-third numbers, while Scotland’s win over Haiti was narrow and not especially dominant. At 1.67 the price is short, but it is the side I trust most, so I’m staking the match maximum.",
       "status": "pending"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Gemini",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4278,14 +4278,14 @@
       "kickoff": "2026-06-19T22:00:00Z",
       "model": "Gemini",
       "pick": "away",
-      "stake": 380,
-      "odds": 1.66,
-      "reasoning": "Morocco put up an extremely impressive performance against Brazil, outplaying them on xG (1.33 to 0.99) and dominating final-third receptions (149 to 100) in a 1-1 draw. In contrast, Scotland ground out a narrow 1-0 win against Haiti while losing the possession battle and creating under 1.0 xG. Morocco's superior technical quality and offensive threat make them strong favorites to win this match, and the 1.66 odds offer great value.",
+      "stake": 422.43,
+      "odds": 1.67,
+      "reasoning": "Morocco put on an incredibly impressive performance against Brazil, drawing 1-1 while winning the xG battle (1.33 to 0.99) and dominating final-third entries (149 to 100). Scotland, on the other hand, scraped a 1-0 win against Haiti but looked unconvincing, conceding more possession and final-third entries to a weaker opponent. Morocco's technical quality and tactical discipline should see them through comfortably here. Backing the away win with the maximum allowable stake to maximize returns.",
       "status": "pending"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Grok",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4294,13 +4294,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 800,
-      "odds": 1.66,
-      "reasoning": "Morocco's draw vs Brazil showed superior xG, shots, final-third receptions and progressions compared to Scotland's narrow win over Haiti where they were outpossessed and outshot. Away odds of 1.66 reflect Morocco's edge; stake reflects solid conviction without exceeding caps.",
+      "odds": 1.67,
+      "reasoning": "Morocco's xG and shot metrics vs Brazil indicate clear superiority over Scotland's performance vs Haiti; 1.67 is the value side.",
       "status": "pending"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:DeepSeek",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4309,13 +4309,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 200.77,
-      "odds": 1.66,
-      "reasoning": "Morocco's impressive 1-1 draw with Brazil (xG 1.33, 149 final-third receptions, 49 progressions) signals top form. Scotland's narrow 1-0 win over Haiti with only 40.5% possession and similar progression stats doesn't inspire confidence. Odds heavily favor Morocco away, and the value lies in backing the stronger side despite the low return. Maximizing stake to the limit of $200.77 given high conviction.",
+      "odds": 1.67,
+      "reasoning": "Morocco enters with huge confidence after a 1-1 draw against Brazil, where they generated 1.33 xG (to Brazil's 0.99), 149 final-third receptions, 49 progressions, and 14 shots. They controlled large phases despite Brazil's name. Scotland managed a narrow 1-0 win over Haiti but posted only 0.91 xG, 40.5% possession, and 21 progressions. The odds (away 1.67, home 6.05) reflect a large quality gap, and the FIFA reports suggest Morocco's build-up and attacking threat is far superior. At this stage, we need to rebuild bankroll and trust the favorite; max stake applied to capture full upside.",
       "status": "pending"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Mistral",
-      "date": "2026-06-19T20:25:10.820Z",
+      "date": "2026-06-19T20:56:05.069Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
       "match": "Scotland vs Morocco",
       "homeTeam": "Scotland",
@@ -4324,14 +4324,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 360.65,
-      "odds": 1.66,
-      "reasoning": "Morocco has shown strong offensive metrics in their recent match against Brazil, with higher xG (1.33 vs 0.99), more final-third receptions (149 vs 100), and more progressions (49 vs 30). While Scotland had a solid defensive performance against Haiti, their offensive output was modest (0.91 xG, 9 shots). The odds heavily favor Morocco (1.66), which aligns with their recent form and underlying stats. Given the value here and the need to recover from recent losses, I'm allocating the maximum stake to this high-confidence pick.",
+      "odds": 1.67,
+      "reasoning": "Morocco's recent performance against Brazil (a draw with higher xG and more final-third receptions/progressions) suggests they are in strong form, even against elite opposition. Scotland, while showing resilience in their win over Haiti, had lower possession and fewer final-third receptions, indicating they struggled to control the game against a weaker side. The odds heavily favor Morocco (1.67), which aligns with their superior recent metrics and the qualitative context from the FIFA reports. Given the value here and my need to recover from recent losses, I'm allocating the maximum allowed stake to this high-confidence pick.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-19T20:25:10.820Z",
+    "lastBetsRun": "2026-06-19T20:56:05.069Z",
     "lastSettleRun": "2026-06-19T03:10:39.932Z",
     "failures": [
       {
