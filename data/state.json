@@ -108,6 +108,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 3644.3
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 3854.3
       }
     ],
     "GPT-5.5": [
@@ -218,6 +222,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 210.9
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 224.23
       }
     ],
     "Gemini": [
@@ -328,6 +336,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 1274.57
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 1355.13
       }
     ],
     "Grok": [
@@ -438,6 +450,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 2851.76
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 3031.76
       }
     ],
     "DeepSeek": [
@@ -548,6 +564,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 943.45
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 1003.08
       }
     ],
     "Mistral": [
@@ -658,6 +678,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 1088.18
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 1156.96
       }
     ],
     "Baseline": [
@@ -768,6 +792,10 @@
       {
         "t": "2026-06-18T21:40:18.859Z",
         "bankroll": 6570.05
+      },
+      {
+        "t": "2026-06-19T00:42:51.950Z",
+        "bankroll": 6761.99
       }
     ]
   },
@@ -3837,7 +3865,9 @@
       "stake": 619.17,
       "odds": 1.31,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Mistral",
@@ -3852,7 +3882,9 @@
       "stake": 229.25,
       "odds": 1.3,
       "reasoning": "Canada's recent performance against Bosnia and Herzegovina shows strong offensive metrics (xG 1.49, 13 shots, 52.8% possession) despite the draw, indicating they are creating high-quality chances. Qatar, on the other hand, struggled against Switzerland, with significantly lower possession (28.8%), final-third receptions (41 vs. Canada's 143), and line breaks (58 vs. Canada's 84). The odds heavily favor Canada (1.3), and their attacking prowess combined with Qatar's defensive vulnerabilities makes them the clear favorite. Betting the maximum stake here to capitalize on the high probability of a Canada win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Claude",
@@ -3867,7 +3899,9 @@
       "stake": 700,
       "odds": 1.3,
       "reasoning": "Canada showed clear quality dominance in their opener vs Bosnia (xG 1.49-0.76, 52.8% possession, 143 final-third receptions to 51), while Qatar were thoroughly outclassed by Switzerland (xG 0.52-3.14, just 28.8% possession, 41 final-third receptions). The eye test and underlying numbers both point to a major gap, and 1.3 odds reflect that. Canada are clear favorites at home-style conditions. I'll size meaningfully but not max out at this low price since 1.3 leaves little margin and upsets happen.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
@@ -3882,7 +3916,9 @@
       "stake": 44.43,
       "odds": 1.3,
       "reasoning": "Canada are a short price, but the matchup data supports them: they were clearly superior to Bosnia in chance quality and territory, while Qatar were heavily outplayed by Switzerland despite escaping with a draw. Odds remain the main guide, and 1.30 implies Canada should win this most of the time. With only one match listed and a small bankroll, I’m staking the per-match max on the strongest side rather than trying to force a longshot.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
@@ -3897,7 +3933,9 @@
       "stake": 268.52,
       "odds": 1.3,
       "reasoning": "Canada put up solid underlying numbers in their 1-1 draw against Bosnia and Herzegovina (1.49 xG to 0.76), showing good control and attacking intent. Meanwhile, Qatar was extremely fortunate to escape with a 1-1 draw against Switzerland, conceding an overwhelming 3.14 xG and 26 shots while generating just 0.52 xG themselves. Canada's superior offensive efficiency and control should prove too much for a Qatar side that struggled heavily to contain Switzerland's attack. Backing Canada to secure the win at 1.3 odds with maximum conviction.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:Grok",
@@ -3912,7 +3950,9 @@
       "stake": 600,
       "odds": 1.3,
       "reasoning": "Canada showed solid underlying numbers in their 1-1 draw vs Bosnia (xG 1.49-0.76, strong possession and progression metrics), while Qatar were completely dominated by Switzerland (xG 0.52-3.14, abysmal chance creation). The 1.3 odds on Canada at home look like clear value against a much weaker opponent.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
@@ -3927,7 +3967,9 @@
       "stake": 198.76,
       "odds": 1.3,
       "reasoning": "Canada, as co-host, showed strong underlying numbers against Bosnia (1.49 xG, 143 final-third receptions, solid possession). Qatar were massively outplayed by Switzerland (0.52 vs 3.14 xG, 41 vs 245 final-third receptions) and extremely fortunate to draw. Home advantage and superior quality make Canada a clear favourite at 1.3. I’ll stake the full per-match max as a calculated rebuild step.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "6-0"
     },
     {
       "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Baseline",
@@ -4038,7 +4080,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-19T00:14:52.497Z",
-    "lastSettleRun": "2026-06-18T21:40:18.859Z",
+    "lastSettleRun": "2026-06-19T00:42:51.950Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
