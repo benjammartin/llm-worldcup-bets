@@ -48,16 +48,14 @@ try {
 if (postLaunchThread) {
   let previousTweetId: string | undefined;
   for (const text of LAUNCH_THREAD) {
-    const tweet = previousTweetId
-      ? await client.v1.reply(text, previousTweetId)
-      : await client.v1.tweet(text);
-    previousTweetId = tweet.id_str;
+    const tweet = await client.v2.tweet(previousTweetId ? { text, reply: { in_reply_to_tweet_id: previousTweetId } } : { text });
+    previousTweetId = tweet.data.id;
     console.log(`[x-profile] posted launch tweet ${previousTweetId}`);
   }
 
   if (previousTweetId) {
-    const reply = await client.v1.reply(LAUNCH_LINK_REPLY, previousTweetId);
-    console.log(`[x-profile] posted launch link reply ${reply.id_str}`);
+    const reply = await client.v2.tweet({ text: LAUNCH_LINK_REPLY, reply: { in_reply_to_tweet_id: previousTweetId } });
+    console.log(`[x-profile] posted launch link reply ${reply.data.id}`);
   }
 } else {
   console.log("[x-profile] launch thread skipped — set POST_LAUNCH_THREAD=1 to post it");
