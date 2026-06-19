@@ -39,10 +39,10 @@ try {
   console.log("[x-profile] profile updated");
 } catch (error) {
   const data = (error as { data?: { errors?: Array<{ code?: number; message?: string }> } }).data;
-  const profileUnderReview = data?.errors?.some((item) => item.code === 120);
-  if (!profileUnderReview) throw error;
+  const profileUpdateBlocked = data?.errors?.some((item) => item.code === 120 || item.code === 131);
+  if (!profileUpdateBlocked) throw error;
 
-  console.warn("[x-profile] profile update skipped — X says the profile is under review; continuing with launch thread");
+  console.warn("[x-profile] profile update skipped — X rejected the profile update for now; continuing with launch thread");
 }
 
 if (postLaunchThread) {
