@@ -20,10 +20,11 @@ describe("composeUpdate", () => {
     expect(text).toContain("Claude +$850");
     expect(text).toContain("Grok -$2,000");
     expect(text).toContain("1. Claude $11,850");
+    expect(text).not.toContain("https://example.com");
     expect(text.length).toBeLessThanOrEqual(280);
   });
 
-  test("never truncates the URL when moves are long", () => {
+  test("keeps external links out of the original tweet", () => {
     const s = initialState(["Claude"], 10_000, "2026-06-11T08:00:00Z");
     const settled: Bet[] = Array.from({ length: 8 }, (_, i) => ({
       id: `m1:Model${i}`, date: "d", matchId: "m1",
@@ -33,6 +34,6 @@ describe("composeUpdate", () => {
     }));
     const text = composeUpdate(s, "Bosnia and Herzegovina vs United States", "1-1", settled, "https://llm-worldcup-bets.vercel.app");
     expect(text.length).toBeLessThanOrEqual(280);
-    expect(text.endsWith("https://llm-worldcup-bets.vercel.app")).toBe(true);
+    expect(text).not.toContain("https://llm-worldcup-bets.vercel.app");
   });
 });

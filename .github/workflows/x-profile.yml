@@ -1,0 +1,26 @@
+name: x-profile
+on:
+  workflow_dispatch:
+    inputs:
+      post_launch_thread:
+        description: "Post the launch thread after updating the profile"
+        required: true
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+permissions: { contents: read }
+jobs:
+  x-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run x:profile
+        env:
+          DRY_RUN: "0"
+          POST_LAUNCH_THREAD: ${{ inputs.post_launch_thread == 'true' && '1' || '0' }}
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}

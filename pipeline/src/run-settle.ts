@@ -3,7 +3,7 @@ import { dirname } from "node:path";
 import { chartSVG } from "./chart";
 import { BASELINE_NAME, FONT_PATH, MODELS, OG_PATH, SITE_URL, STATE_PATH } from "./config";
 import { renderPNG } from "./og";
-import { composeUpdate, postToX } from "./post";
+import { composeUpdate, postToXWithReply } from "./post";
 import { fetchFinished } from "./scores";
 import { applySettlement } from "./settle";
 import { loadState, saveState } from "./state";
@@ -40,7 +40,7 @@ console.log(`[settle] settled ${settledMatches.length} match(es)`);
 
 for (const sm of settledMatches) {
   try {
-    await postToX(composeUpdate(state, sm.match, sm.score, sm.bets, SITE_URL), png);
+    await postToXWithReply(composeUpdate(state, sm.match, sm.score, sm.bets), SITE_URL, png);
   } catch (e) {
     console.error(`[post] failed for ${sm.match}: ${e}`);
   }

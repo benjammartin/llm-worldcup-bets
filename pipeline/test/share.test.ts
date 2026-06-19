@@ -34,5 +34,8 @@ describe("share copy", () => {
     expect(text).toContain("1/1 picked Scotland");
     expect(text).toContain("Biggest: Grok $4,000");
     expect(text).toContain("🇦🇺 Australia v Turkey 🇹🇷");
+    expect(composeCycleShare([
+      bet({ matchId: "early", id: "early:Grok", match: "Haiti vs Scotland", homeTeam: "Haiti", awayTeam: "Scotland", kickoff: "2026-06-14T01:00:00Z", model: "Grok", pick: "away", stake: 4_000 }),
+    ])).not.toContain("http");
   });
 });

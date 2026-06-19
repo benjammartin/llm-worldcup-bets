@@ -5,6 +5,7 @@
   "scripts": {
     "bets": "bun pipeline/src/run-bets.ts",
     "settle": "bun pipeline/src/run-settle.ts",
+    "x:profile": "bun pipeline/src/run-x-profile.ts",
     "test": "bun test"
   },
   "dependencies": {

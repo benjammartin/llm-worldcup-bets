@@ -8,7 +8,7 @@ import { callGateway } from "./gateway";
 import { fetchTodaysOdds, matchesInBettingWindow } from "./odds";
 import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
 import { renderPNG } from "./og";
-import { postToX } from "./post";
+import { postToXWithReply } from "./post";
 import { fetchLiveMatches } from "./scores";
 import { composeCycleShare } from "./share";
 import { loadState, rememberLiveMatches, rememberUpcomingMatches, saveState } from "./state";
@@ -70,7 +70,7 @@ if (process.env.DRY_RUN) {
   const hasXCreds = process.env.X_APP_KEY && process.env.X_APP_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_SECRET;
   if (newBets.length > 0 && cyclePostKey && state.meta.lastCyclePostKey !== cyclePostKey && hasXCreds) {
     try {
-      await postToX(composeCycleShare(cycleBets, SITE_URL));
+      await postToXWithReply(composeCycleShare(cycleBets), SITE_URL);
       state.meta.lastCyclePostKey = cyclePostKey;
       console.log(`[bets] posted cycle summary for ${cycleMatchIds.size} matches`);
     } catch (e) {

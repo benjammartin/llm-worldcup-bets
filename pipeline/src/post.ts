@@ -3,8 +3,17 @@ import { bankroll, type Bet, type State } from "./state";
 
 const fmt = (n: number) => `$${Math.round(Math.abs(n)).toLocaleString("en-US")}`;
 
+function xClient(): TwitterApi | null {
+  const { X_APP_KEY, X_APP_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET } = process.env;
+  if (!X_APP_KEY || !X_APP_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_SECRET) return null;
+  return new TwitterApi({
+    appKey: X_APP_KEY, appSecret: X_APP_SECRET,
+    accessToken: X_ACCESS_TOKEN, accessSecret: X_ACCESS_SECRET,
+  });
+}
+
 export function composeUpdate(
-  s: State, match: string, score: string, settled: Bet[], siteUrl: string,
+  s: State, match: string, score: string, settled: Bet[], _siteUrl?: string,
 ): string {
   const moves = settled
     .filter((b) => b.status !== "void")
@@ -23,26 +32,37 @@ export function composeUpdate(
     .join(" ");
 
   const head = `FT: ${match} (${score})\n`;
-  const tail = `\n\n${standings}\n${siteUrl}`;
+  const tail = `\n\n${standings}`;
   const budget = 280 - head.length - tail.length;
   const trimmedMoves = moves.length > budget ? moves.slice(0, Math.max(0, budget - 1)) + "…" : moves;
   return `${head}${trimmedMoves}${tail}`;
 }
 
 export async function postToX(text: string, png?: Buffer): Promise<void> {
-  const { X_APP_KEY, X_APP_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET } = process.env;
-  if (!X_APP_KEY || !X_APP_SECRET || !X_ACCESS_TOKEN || !X_ACCESS_SECRET) {
+  const client = xClient();
+  if (!client) {
     console.log("[post] X credentials missing — skipping post");
     return;
   }
-  const client = new TwitterApi({
-    appKey: X_APP_KEY, appSecret: X_APP_SECRET,
-    accessToken: X_ACCESS_TOKEN, accessSecret: X_ACCESS_SECRET,
-  });
   if (png) {
     const mediaId = await client.v1.uploadMedia(png, { mimeType: "image/png" });
     await client.v2.tweet({ text, media: { media_ids: [mediaId] } });
   } else {
     await client.v2.tweet(text);
   }
+}
+
+export async function postToXWithReply(text: string, replyText: string, png?: Buffer): Promise<void> {
+  const client = xClient();
+  if (!client) {
+    console.log("[post] X credentials missing — skipping post");
+    return;
+  }
+  const first = png
+    ? await client.v2.tweet({
+        text,
+        media: { media_ids: [await client.v1.uploadMedia(png, { mimeType: "image/png" })] },
+      })
+    : await client.v2.tweet(text);
+  await client.v2.tweet({ text: replyText, reply: { in_reply_to_tweet_id: first.data.id } });
 }
