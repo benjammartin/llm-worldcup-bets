@@ -323,7 +323,7 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
     </section>
 
     <section class="scene" id="scene-board">
-      <h2>Leaderboard <span class="count">· 6 AIs + 1 if-statement · $10,000 each</span></h2>
+      <h2>Leaderboard <span class="count">· 6 AIs + 1 baseline · $10,000 each</span></h2>
       <div class="standings">
         {standings.map((s, i) => (
           <div class={`standing${i === 0 ? " first" : ""}`}>
@@ -344,7 +344,7 @@ const kickoffs = [...new Set(pending.map((b) => b.kickoff))].sort();
           </div>
         ))}
       </div>
-      <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite, every match. Any AI below it is officially dumber than an if-statement.</p>
+      <p class="baseline-note">— <b>Baseline</b> bets 10% on the favorite every match, as a simple benchmark.</p>
     </section>
 
     {pendingMatchPages.map((matchPage, pageIndex) => (

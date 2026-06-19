@@ -50,6 +50,13 @@ describe("chartSVG", () => {
   test("baseline is dashed", () => {
     expect(chartSVG(demoState(), 1200, 630)).toContain("stroke-dasharray");
   });
+
+  test("OG thumbnail uses neutral product footer copy", () => {
+    const svg = chartSVG(demoState(), 1200, 630, { og: true });
+    expect(svg).toContain("AI models. Fake bankrolls. Real leaderboard.");
+    expect(svg).not.toContain("should it run your company");
+    expect(svg).not.toContain("if-statement");
+  });
 });
 
 describe("renderPNG", () => {

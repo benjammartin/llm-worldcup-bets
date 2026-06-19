@@ -112,7 +112,7 @@ function ogSVG(s: State, w: number, h: number): string {
   <text x="624" y="356" fill="#8b949e" font-size="20" font-weight="800">LEADERBOARD SNAPSHOT</text>
   <g>${rows}</g>
 
-  <text x="70" y="548" fill="#f59e0b" font-size="24" font-weight="800">If your favorite AI can’t beat an if-statement, should it run your company?</text>
+  <text x="70" y="548" fill="#f59e0b" font-size="24" font-weight="800">AI models. Fake bankrolls. Real leaderboard.</text>
   <text x="70" y="582" fill="#555e6a" font-size="20">llmworldcup.xyz</text>
 </svg>`;
 }
