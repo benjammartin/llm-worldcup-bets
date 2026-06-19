@@ -4130,12 +4130,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-        "homeTeam": "Mexico",
-        "awayTeam": "South Korea",
-        "kickoff": "2026-06-19T01:00:00Z"
-      },
-      {
         "matchId": "065b3573e875f8d23803357f73e5b99e",
         "homeTeam": "USA",
         "awayTeam": "Australia",
@@ -4146,6 +4140,12 @@
         "homeTeam": "Scotland",
         "awayTeam": "Morocco",
         "kickoff": "2026-06-19T22:00:00Z"
+      },
+      {
+        "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+        "homeTeam": "Brazil",
+        "awayTeam": "Haiti",
+        "kickoff": "2026-06-20T00:30:00Z"
       }
     ],
     "liveMatches": []
