@@ -4296,21 +4296,6 @@
       "status": "pending"
     },
     {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:Claude",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "Claude",
-      "pick": "home",
-      "stake": 1254.95,
-      "odds": 1.11,
-      "reasoning": "Brazil at 1.11 against Haiti is as close to a lock as you get in football. Yes, they drew with Morocco, but that was against a legitimately good team. Haiti lost to Scotland 0-1 and had inferior metrics across the board. Brazil will be motivated to bounce back and assert dominance. At 1.11 odds, I need a 90% win probability to break even on expected value, and Brazil should exceed that against Haiti comfortably. With my bankroll situation (down from $10k to $5k), I need to maximize returns on high-probability outcomes while still taking calculated risks. Putting the bulk of my remaining cash on Brazil makes sense - it's the safest bet on the slate.",
-      "status": "pending"
-    },
-    {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:GPT-5.5",
       "date": "2026-06-19T21:32:39.454Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
@@ -4323,21 +4308,6 @@
       "stake": 80.91,
       "odds": 1.67,
       "reasoning": "Morocco at 1.67 is the strongest play on this slate. The odds already make them clear favorites, and the FIFA report supports that: Morocco were at least Brazil's equal in the opener, winning xG 1.33-0.99 and showing much stronger progression/final-third numbers. Scotland beat Haiti, but only narrowly on xG and overall territory. I’ll take the better team at a playable price and stake the max.",
-      "status": "pending"
-    },
-    {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:GPT-5.5",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "GPT-5.5",
-      "pick": "home",
-      "stake": 30,
-      "odds": 1.11,
-      "reasoning": "Brazil should beat Haiti, but 1.11 leaves very little upside and Haiti’s opener against Scotland was not a complete mismatch statistically. I still need one bet here and Brazil are overwhelmingly the most likely winner, especially after only drawing Morocco, but I’m keeping the stake modest because the payout is thin.",
       "status": "pending"
     },
     {
@@ -4356,21 +4326,6 @@
       "status": "pending"
     },
     {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:Gemini",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "Gemini",
-      "pick": "home",
-      "stake": 488.95,
-      "odds": 1.11,
-      "reasoning": "Brazil will be eager to secure three points after their opening draw against Morocco. The gap in quality between Brazil and Haiti is immense. Haiti struggled to create high-quality chances against Scotland, and Brazil's attacking talent should comfortably break down their defense. While the 1.11 odds offer low yield, this is an extremely high-probability outcome to safely boost the bankroll.",
-      "status": "pending"
-    },
-    {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Grok",
       "date": "2026-06-19T21:32:39.454Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
@@ -4383,21 +4338,6 @@
       "stake": 850,
       "odds": 1.67,
       "reasoning": "Morocco heavily favored at 1.67 away; odds are the primary signal and Scotland's home price of 6 looks inflated given Morocco's quality.",
-      "status": "pending"
-    },
-    {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:Grok",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "Grok",
-      "pick": "home",
-      "stake": 1067,
-      "odds": 1.11,
-      "reasoning": "Brazil at 1.11 is a near-certainty against Haiti; odds remain the dominant probability input despite any qualitative reports.",
       "status": "pending"
     },
     {
@@ -4416,21 +4356,6 @@
       "status": "pending"
     },
     {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:DeepSeek",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "DeepSeek",
-      "pick": "home",
-      "stake": 232.39,
-      "odds": 1.11,
-      "reasoning": "Brazil are heavy favorites at 1.11 against a Haiti team that lost to Scotland. Despite Brazil's underwhelming draw vs Morocco, the gulf in class is massive, and a home win is near-certain. Low-risk return to preserve bankroll.",
-      "status": "pending"
-    },
-    {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Mistral",
       "date": "2026-06-19T21:32:39.454Z",
       "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
@@ -4443,21 +4368,6 @@
       "stake": 417.45,
       "odds": 1.67,
       "reasoning": "Morocco has shown strong performance in their recent match against Brazil, with higher xG (1.33 vs 0.99), more shots (14 vs 12), and significantly better final-third receptions (149 vs 100) and progressions (49 vs 30). While Scotland had a narrow win against Haiti, their underlying metrics (xG 0.91 vs 0.70, possession 40.5%) were less dominant than Morocco's against a stronger Brazil side. The odds favor Morocco (1.67) as the away team, and their recent performance suggests they are undervalued here. Betting the maximum stake on Morocco to win.",
-      "status": "pending"
-    },
-    {
-      "id": "ef0f74a991d3e35798ae5af77667bce1:Mistral",
-      "date": "2026-06-19T21:32:39.454Z",
-      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-      "match": "Brazil vs Haiti",
-      "homeTeam": "Brazil",
-      "awayTeam": "Haiti",
-      "kickoff": "2026-06-20T00:30:00Z",
-      "model": "Mistral",
-      "pick": "home",
-      "stake": 417.45,
-      "odds": 1.11,
-      "reasoning": "Brazil is a clear favorite here with odds of 1.11, and their recent performance against Morocco (despite a draw) shows they are a top-tier team. Haiti's recent match against Scotland was competitive, but their xG (0.70) and shots (15 with only 2 on target) suggest they struggle to convert chances. Brazil's xG (0.99) and shot quality (5 on target) against Morocco indicate they create high-quality chances. The draw and away odds are too long to justify, so I'm taking the safe bet on Brazil to win, allocating the maximum stake.",
       "status": "pending"
     },
     {
@@ -4474,11 +4384,101 @@
       "odds": 1.11,
       "reasoning": "Always bet the favorite.",
       "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:Claude",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 850,
+      "odds": 1.11,
+      "reasoning": "Brazil at 1.11 is a heavy favorite against Haiti, and rightly so. Haiti lost 0-1 to Scotland with just 0.70 xG and only 2 shots on target across 15 attempts — limited cutting edge. Brazil drew Morocco 1-1 but generated 5 shots on target and showed real attacking volume against a strong opponent. The talent and depth gap here is enormous. At 1.11 the margin is thin, but it's close to a lock, so I'll stake meaningfully while respecting that low odds cap upside. The only real risk is Brazil resting starters or a freak result, which the price already reflects.",
+      "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:GPT-5.5",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "GPT-5.5",
+      "pick": "draw",
+      "stake": 80.91,
+      "odds": 11.05,
+      "reasoning": "Brazil are obviously the most likely winner, but at 1.11 the upside is too small for my bankroll position. Haiti’s report vs Scotland was more competitive than the result line suggests, while Brazil’s opener vs Morocco was not dominant on xG. I need variance to climb back into contention, so I’m taking the draw at 11.05 with the max allowed stake rather than grinding a tiny Brazil return.",
+      "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:Gemini",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 488.96,
+      "odds": 1.11,
+      "reasoning": "Brazil is the overwhelming favorite here at 1.11. Although their opening 1-1 draw against Morocco was slightly underwhelming, the gap in quality between Brazil and Haiti (who lost 1-0 to Scotland) is immense. While the odds offer low yield, a maximum stake on a highly probable home win is the safest way to steadily rebuild our bankroll in this tournament stage.",
+      "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:Grok",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 1067,
+      "odds": 1.11,
+      "reasoning": "Brazil heavily favored vs Haiti per odds (1.11 implies ~85-90% win prob after margin). Recent Brazil-Morocco draw shows they are not invincible but still far superior to Haiti, who lost to Scotland despite decent xG. High conviction on home win.",
+      "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:DeepSeek",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 232.39,
+      "odds": 1.11,
+      "reasoning": "Brazil are massive favourites against Haiti, and while the 1.11 odds offer little value, an upset is extremely unlikely. Haiti lost to Scotland and looked limited; Brazil may have drawn with Morocco but possess far too much quality. With a low bankroll, locking in a near-certain win, even at short odds, is the safest way to rebuild.",
+      "status": "pending"
+    },
+    {
+      "id": "ef0f74a991d3e35798ae5af77667bce1:Mistral",
+      "date": "2026-06-19T22:03:35.418Z",
+      "matchId": "ef0f74a991d3e35798ae5af77667bce1",
+      "match": "Brazil vs Haiti",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "kickoff": "2026-06-20T00:30:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 417.45,
+      "odds": 1.11,
+      "reasoning": "Brazil is a clear favorite here with odds of 1.11, reflecting their historical dominance and superior squad quality. The post-match report against Morocco shows Brazil had a respectable xG (0.99) and created more high-quality chances (5 shots on target vs. Morocco's 3), despite the draw. Haiti's recent match against Scotland was competitive, but their xG (0.70) and shot quality (only 2 shots on target) suggest they struggle to convert possession into dangerous opportunities. Brazil's defensive solidity and attacking prowess make them a safe bet, even at these short odds. Allocating the maximum stake here due to the high probability of a Brazil win.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-19T21:32:39.454Z",
+    "lastBetsRun": "2026-06-19T22:03:35.418Z",
     "lastSettleRun": "2026-06-19T21:30:48.163Z",
     "failures": [
       {
@@ -4528,12 +4528,6 @@
       }
     ],
     "upcomingMatches": [
-      {
-        "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
-        "homeTeam": "Scotland",
-        "awayTeam": "Morocco",
-        "kickoff": "2026-06-19T22:00:00Z"
-      },
       {
         "matchId": "ef0f74a991d3e35798ae5af77667bce1",
         "homeTeam": "Brazil",
