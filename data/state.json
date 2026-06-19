@@ -4222,11 +4222,116 @@
       "odds": 1.63,
       "reasoning": "The odds for USA to win (1.63) are attractive given their recent dominant performance against Paraguay (4-1 win with xG 1.88-0.60, 16 shots, 59.5% possession, and overwhelming control in final-third receptions, line breaks, and progressions). Australia, while defensively solid, struggled against Türkiye despite having more possession (62.9% for Türkiye) and shots (30-9 for Türkiye). Australia's xG was only 0.99 despite the possession advantage, suggesting they struggle to convert dominance into goals. USA's attacking prowess and home advantage (assuming this is a neutral venue but with likely USMNT fan support) make them the clear favorite here. The stake is maxed out due to high conviction in this pick.",
       "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:Claude",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 850,
+      "odds": 1.67,
+      "reasoning": "Morocco drew Brazil with better xG (1.33-0.99) and dominated final-third receptions and progressions, while Scotland scraped past Haiti 0.91 xG and were out-pressured. Deeper, more in-form squad. 1.67 offers fair value on the stronger side, though single-match upset risk keeps me off max stake.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:GPT-5.5",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "away",
+      "stake": 69.9,
+      "odds": 1.67,
+      "reasoning": "Morocco are a clear odds-on side and the training-centre context supports that rather than contradicting it: they drew Brazil while creating the better xG and had strong final-third/progression numbers. Scotland got the result against Haiti, but the underlying match was narrow and not dominant. With only one match on the slate and a small bankroll, I’m taking the strongest probability edge available and staking the max.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:Gemini",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 422.43,
+      "odds": 1.67,
+      "reasoning": "Morocco's impressive 1-1 draw against Brazil, where they actually won the xG battle (1.33 to 0.99) and dominated final-third receptions (149 to 100), shows they are in excellent tournament form. In contrast, Scotland scraped a 1-0 win against Haiti while conceding 15 shots and holding only 40.5% possession. Morocco's superior technical quality and tactical setup should allow them to control this match and secure the victory. I am maximizing my stake on the away win.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:Grok",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 800,
+      "odds": 1.67,
+      "reasoning": "Morocco looked the better side in a draw vs Brazil (higher xG, shots, final-third receptions and progressions) while Scotland's narrow win over Haiti came against inferior opposition with similar underlying numbers. Away at 1.67 is the value pick.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:DeepSeek",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 200.77,
+      "odds": 1.67,
+      "reasoning": "Morocco's 1-1 draw with Brazil (xG 1.33 vs 0.99) shows they can compete at a high level. Scotland's narrow 1-0 win over Haiti with mediocre xG (0.91-0.70) is unconvincing. Odds heavily favor Morocco (1.67), and I see no value in home or draw. Betting max allowed given bankroll limits, as this is a strong opportunity to grow my stack.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:Mistral",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 360.65,
+      "odds": 1.67,
+      "reasoning": "Morocco's recent performance against Brazil (a draw with higher xG and more final-third receptions/progressions) suggests they are in strong form, despite Brazil's reputation. Scotland, while showing decent defensive metrics against Haiti, had lower possession and fewer final-third receptions, indicating they struggled to create sustained pressure. The odds heavily favor Morocco (1.67), which aligns with their recent qualitative and quantitative performance. Given the value here and the need to recover from recent losses, I'm allocating the maximum allowed stake to this high-confidence pick.",
+      "status": "pending"
+    },
+    {
+      "id": "4cd769aa7bae0ad9762bd69b80ef2903:Baseline",
+      "date": "2026-06-19T19:02:13.477Z",
+      "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
+      "match": "Scotland vs Morocco",
+      "homeTeam": "Scotland",
+      "awayTeam": "Morocco",
+      "kickoff": "2026-06-19T22:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 746.5,
+      "odds": 1.67,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-19T18:10:55.716Z",
+    "lastBetsRun": "2026-06-19T19:02:13.477Z",
     "lastSettleRun": "2026-06-19T03:10:39.932Z",
     "failures": [
       {
@@ -4277,12 +4382,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "065b3573e875f8d23803357f73e5b99e",
-        "homeTeam": "USA",
-        "awayTeam": "Australia",
-        "kickoff": "2026-06-19T19:00:00Z"
-      },
-      {
         "matchId": "4cd769aa7bae0ad9762bd69b80ef2903",
         "homeTeam": "Scotland",
         "awayTeam": "Morocco",
@@ -4308,6 +4407,6 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "065b3573e875f8d23803357f73e5b99e"
+    "lastCyclePostKey": "4cd769aa7bae0ad9762bd69b80ef2903"
   }
 }
