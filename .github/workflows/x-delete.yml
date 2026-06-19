@@ -1,0 +1,24 @@
+name: x-delete
+on:
+  workflow_dispatch:
+    inputs:
+      tweet_ids:
+        description: "Tweet IDs or status URLs to delete, separated by spaces or commas"
+        required: true
+        type: string
+permissions: { contents: read }
+jobs:
+  x-delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run x:delete
+        env:
+          DRY_RUN: "0"
+          TWEET_IDS: ${{ inputs.tweet_ids }}
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}

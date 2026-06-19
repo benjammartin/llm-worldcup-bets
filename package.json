@@ -7,6 +7,7 @@
     "settle": "bun pipeline/src/run-settle.ts",
     "x:profile": "bun pipeline/src/run-x-profile.ts",
     "x:reply": "bun pipeline/src/run-x-reply.ts",
+    "x:delete": "bun pipeline/src/run-x-delete.ts",
     "test": "bun test"
   },
   "dependencies": {
