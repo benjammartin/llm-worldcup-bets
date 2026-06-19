@@ -10,6 +10,12 @@ on:
         description: "Main reply text. Must not contain links."
         required: true
         type: string
+      post_mode:
+        description: "reply replies to target; quote quote-tweets target"
+        required: true
+        default: "reply"
+        type: choice
+        options: ["reply", "quote"]
       site_url:
         description: "Site URL for the automatic follow-up reply"
         required: true
@@ -28,6 +34,7 @@ jobs:
           DRY_RUN: "0"
           TARGET_TWEET_ID: ${{ inputs.target_tweet_id }}
           TWEET_TEXT: ${{ inputs.tweet_text }}
+          POST_MODE: ${{ inputs.post_mode }}
           SITE_URL: ${{ inputs.site_url }}
           X_APP_KEY: ${{ secrets.X_APP_KEY }}
           X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
