@@ -46,9 +46,9 @@ export async function postToX(text: string, png?: Buffer): Promise<void> {
   }
   if (png) {
     const mediaId = await client.v1.uploadMedia(png, { mimeType: "image/png" });
-    await client.v2.tweet({ text, media: { media_ids: [mediaId] } });
+    await client.v1.tweet(text, { media_ids: mediaId });
   } else {
-    await client.v2.tweet(text);
+    await client.v1.tweet(text);
   }
 }
 
@@ -59,10 +59,7 @@ export async function postToXWithReply(text: string, replyText: string, png?: Bu
     return;
   }
   const first = png
-    ? await client.v2.tweet({
-        text,
-        media: { media_ids: [await client.v1.uploadMedia(png, { mimeType: "image/png" })] },
-      })
-    : await client.v2.tweet(text);
-  await client.v2.tweet({ text: replyText, reply: { in_reply_to_tweet_id: first.data.id } });
+    ? await client.v1.tweet(text, { media_ids: await client.v1.uploadMedia(png, { mimeType: "image/png" }) })
+    : await client.v1.tweet(text);
+  await client.v1.reply(replyText, first.id_str);
 }
