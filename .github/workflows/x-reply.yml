@@ -1,0 +1,35 @@
+name: x-reply
+on:
+  workflow_dispatch:
+    inputs:
+      target_tweet_id:
+        description: "Tweet ID or status URL to reply to"
+        required: true
+        type: string
+      tweet_text:
+        description: "Main reply text. Must not contain links."
+        required: true
+        type: string
+      site_url:
+        description: "Site URL for the automatic follow-up reply"
+        required: true
+        default: "https://llmworldcup.xyz"
+        type: string
+permissions: { contents: read }
+jobs:
+  x-reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run x:reply
+        env:
+          DRY_RUN: "0"
+          TARGET_TWEET_ID: ${{ inputs.target_tweet_id }}
+          TWEET_TEXT: ${{ inputs.tweet_text }}
+          SITE_URL: ${{ inputs.site_url }}
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}

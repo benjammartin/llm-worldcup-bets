@@ -6,6 +6,7 @@
     "bets": "bun pipeline/src/run-bets.ts",
     "settle": "bun pipeline/src/run-settle.ts",
     "x:profile": "bun pipeline/src/run-x-profile.ts",
+    "x:reply": "bun pipeline/src/run-x-reply.ts",
     "test": "bun test"
   },
   "dependencies": {
