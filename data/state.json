@@ -4188,6 +4188,12 @@
         "homeTeam": "Brazil",
         "awayTeam": "Haiti",
         "kickoff": "2026-06-20T00:30:00Z"
+      },
+      {
+        "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
+        "homeTeam": "Turkey",
+        "awayTeam": "Paraguay",
+        "kickoff": "2026-06-20T03:00:00Z"
       }
     ],
     "liveMatches": []
