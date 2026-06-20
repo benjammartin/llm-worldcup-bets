@@ -128,6 +128,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 5989.3
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 5239.3
       }
     ],
     "GPT-5.5": [
@@ -258,6 +262,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 387.56
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 293.1
       }
     ],
     "Gemini": [
@@ -388,6 +396,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 2313.43
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 1742.57
       }
     ],
     "Grok": [
@@ -518,6 +530,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 4936.26
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 3726.26
       }
     ],
     "DeepSeek": [
@@ -648,6 +664,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 1113.16
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 841.84
       }
     ],
     "Mistral": [
@@ -778,6 +798,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 1999.6
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 1512.22
       }
     ],
     "Baseline": [
@@ -908,6 +932,10 @@
       {
         "t": "2026-06-20T03:04:24.725Z",
         "bankroll": 8515.19
+      },
+      {
+        "t": "2026-06-20T06:31:48.985Z",
+        "bankroll": 7722.41
       }
     ]
   },
@@ -4572,7 +4600,9 @@
       "stake": 792.78,
       "odds": 2.05,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Claude",
@@ -4587,7 +4617,9 @@
       "stake": 750,
       "odds": 2.04,
       "reasoning": "Turkey at 2.04 implies about 49% — the market sees them as clear favorites at home. The FIFA report on Paraguay is damning: they got dismantled 4-1 by the USA with just 0.60 xG, one shot on target, and a pitiful 31 final-third receptions. That's a side struggling badly to create anything in attack. Turkey have the quality and home edge to exploit that. I'm backing home with solid but measured conviction — paying 2.04 for a favorite this clearly justified is decent value. Sizing moderately since one-match slates carry full variance and I want to protect my strong bankroll position.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:GPT-5.5",
@@ -4602,7 +4634,9 @@
       "stake": 94.46,
       "odds": 2.04,
       "reasoning": "Turkey at 2.04 is the best blend of price and likelihood here. Odds already make them the favorite, and the available FIFA report gives extra qualitative support: Paraguay were badly outplayed by the USA, with weak chance creation, very few final-third receptions, and poor progression numbers. Given my bankroll position I need upside, so I’m taking the maximum allowed stake on the favorite rather than trying to get cute with the draw or away price.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Gemini",
@@ -4617,7 +4651,9 @@
       "stake": 570.86,
       "odds": 2.04,
       "reasoning": "Paraguay's opening match against the USA exposed severe defensive and possession vulnerabilities, as they conceded 4 goals, allowed 201 final-third receptions, and managed just 28.7% possession. Turkey possesses the technical midfield quality to control the tempo and break down a fragile Paraguayan defense. At odds of 2.04, the home win presents excellent value. We are backing Turkey with the maximum allowable stake to sustain our strong 5-game winning momentum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Grok",
@@ -4632,7 +4668,9 @@
       "stake": 1210,
       "odds": 2.04,
       "reasoning": "Turkey is clear favorite at 2.04 vs a Paraguay side that was dismantled 4-1 by USA with abysmal underlying numbers (xG 0.60, final-third receptions only 31). Home edge plus Paraguay weakness points to Turkey win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:DeepSeek",
@@ -4647,7 +4685,9 @@
       "stake": 271.32,
       "odds": 2.04,
       "reasoning": "Turkey are odds-on favourites at 2.04, implying a ~49% win probability. Paraguay's last performance (USA 4-1, xG 0.60, only 31 final-third receptions, 28.7% possession) exposed major structural issues. Even with neutral-ground context, Turkey should control the game and convert. I'm staking the maximum allowed (25% of bankroll) to capitalize on this edge.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Mistral",
@@ -4662,13 +4702,15 @@
       "stake": 487.38,
       "odds": 2.04,
       "reasoning": "Turkey vs Paraguay: The odds (home 2.04) suggest Turkey is the favorite, and the recent FIFA report for Paraguay (M04: USA 4-1 Paraguay) shows significant weaknesses—low possession (28.7%), few shots on target (1/9), and poor progression stats (17 progressions vs USA's 52). While Turkey isn't a powerhouse, they're likely the stronger side here, and the value at 2.04 is decent. Betting max stake given the favorable odds and Paraguay's recent struggles.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-20T02:23:45.904Z",
-    "lastSettleRun": "2026-06-20T03:04:24.725Z",
+    "lastSettleRun": "2026-06-20T06:31:48.985Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
