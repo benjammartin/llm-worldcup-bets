@@ -4828,7 +4828,7 @@
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Claude",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4836,14 +4836,14 @@
       "kickoff": "2026-06-20T20:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 800,
-      "odds": 1.45,
-      "reasoning": "Germany at 1.45 is the obvious play here. Their 7-1 demolition of Curacao with 4.17 xG and 26 shots shows a team firing on all cylinders. Against Ivory Coast they're rightly favored, and the odds imply roughly 69% home probability which I find fair-to-slightly-generous given Germany's depth and form. The away side at 7 and draw at 4.93 offer no value. I'm sizing this as a solid but not reckless bet — 1.45 means modest reward, so I won't overstake, but the confidence is real.",
+      "stake": 1021.95,
+      "odds": 1.43,
+      "reasoning": "Germany demolished Curaçao 7-1 with dominant underlying metrics (4.17 xG, 26 shots, 57.8% possession, 252 final-third receptions vs 61). Now facing Ivory Coast, the odds at 1.43 for a German home win represent solid value. Germany's attacking prowess and control are evident from their match report. While Ivory Coast are a respectable side, the gap in quality and Germany's tournament form make this a strong play. Betting maximum stake as this is the only match available and represents my highest-conviction opportunity to grow the bankroll in a competitive field where I'm currently behind the starting amount.",
       "status": "pending"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:GPT-5.5",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4852,13 +4852,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 50.36,
-      "odds": 1.45,
-      "reasoning": "Germany are a clear odds-on favorite at 1.45, and the available FIFA report supports that market view: their 7-1 over Curacao was backed by dominant underlying numbers, including 4.17 xG, 26 shots, and massive final-third reception volume. Ivory Coast are a much tougher opponent than Curacao, so I am not treating this as free money, but Germany look like the strongest side in this slate and I need to press edges aggressively from my current bankroll position. Max stake on Germany home.",
+      "odds": 1.43,
+      "reasoning": "Germany are the clear market favorite at 1.43, and the available FIFA report supports that signal: their 7-1 win over Curacao came with overwhelming chance creation, territory and shot volume. Ivory Coast are a more serious opponent, so I am not treating this as risk-free, but the odds still point to Germany as the most likely winner. With only one open match and a small bankroll, I am staking the match maximum on the strongest probability side rather than chasing a low-probability upset.",
       "status": "pending"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Gemini",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4867,13 +4867,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 317.85,
-      "odds": 1.45,
-      "reasoning": "Germany demonstrated incredible attacking efficiency in their 7-1 victory over Curaçao, generating an impressive 4.17 xG from 26 shots and controlling the game with 57.8% possession. Their ability to progress the ball and penetrate the final third (252 receptions) is elite. While Ivory Coast will offer a more physical and structured challenge, Germany's tactical cohesion and superior technical quality make them heavy favorites. At 1.45 odds, this is a highly secure option to deploy our maximum single-match stake of $435.64 as we focus on rebuilding our bankroll.",
+      "odds": 1.43,
+      "reasoning": "Germany demonstrated elite offensive fluency in their 7-1 opening win against Curaçao, racking up 4.17 xG and 252 final-third receptions. While Ivory Coast will offer a more physical challenge, Germany's high-pressing efficiency and superior squad depth make them clear favorites. At 1.43, a home win represents the safest path to capital growth in our current recovery phase.",
       "status": "pending"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Grok",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4882,13 +4882,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 740.96,
-      "odds": 1.45,
-      "reasoning": "Germany are clear favorites with strong recent dominance (7-1 xG 4.17-0.40 vs Curaçao). Odds of 1.45 imply ~69% implied probability which aligns with team quality gap vs Ivory Coast; stake high to reflect conviction.",
+      "odds": 1.43,
+      "reasoning": "Germany's 7-1 demolition of Curaçao with elite xG, shots, and progression metrics signals a massive gap in quality; Ivory Coast lacks the tools to compete at that level, so home at 1.43 remains the highest-conviction outcome even if the price is short.",
       "status": "pending"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:DeepSeek",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4897,13 +4897,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 151.8,
-      "odds": 1.45,
-      "reasoning": "Germany is a strong favorite, implied probability ~69%, and their recent 7-1 win over Curaçao with a 4.17 xG and dominant possession suggests they should handle Ivory Coast comfortably. I max the stake within my risk limit to leverage this high-confidence pick.",
+      "odds": 1.43,
+      "reasoning": "Germany demonstrated overwhelming attacking quality in their 7-1 win over Curaçao (xG 4.17, 252 final-third receptions, 125 line breaks). Against Ivory Coast, the odds heavily favor a Germany win at 1.43, indicating strong market confidence. With only one match available, I'm maximizing my stake under the bankroll cap to leverage this high-probability outcome.",
       "status": "pending"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Mistral",
-      "date": "2026-06-20T18:38:06.527Z",
+      "date": "2026-06-20T19:09:50.172Z",
       "matchId": "f1ab0f69832972a329243522ceaa7804",
       "match": "Germany vs Ivory Coast",
       "homeTeam": "Germany",
@@ -4912,14 +4912,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 273.33,
-      "odds": 1.45,
-      "reasoning": "Germany's post-match report against Curaçao is dominant across all key metrics: xG (4.17 vs 0.40), shots (26 vs 8), possession (57.8% vs 35.3%), and final-third receptions (252 vs 61). Their attacking prowess and control were overwhelming, even against a team that pressed them (339 pressures for Curaçao). The odds (1.45 for home win) reflect Germany's clear superiority, and while the payout is modest, the probability of a win is high. Given my recent losses, I'm prioritizing a high-confidence bet to recover ground, capping the stake at the maximum allowed to maximize potential returns while managing risk.",
+      "odds": 1.43,
+      "reasoning": "Germany's recent performance against Curaçao was dominant, with overwhelming xG, shots, possession, and final-third receptions. The qualitative report highlights their attacking prowess and control, which aligns with the low home odds (1.43). While Ivory Coast is not a weak team, the odds suggest Germany is heavily favored, and their recent form supports backing them. The stake is maximized to reflect high confidence, given the strong probability signal from both the odds and the qualitative context.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-20T18:38:06.527Z",
+    "lastBetsRun": "2026-06-20T19:09:50.172Z",
     "lastSettleRun": "2026-06-20T06:31:48.985Z",
     "failures": [
       {
@@ -4992,6 +4992,12 @@
         "homeTeam": "Spain",
         "awayTeam": "Saudi Arabia",
         "kickoff": "2026-06-21T16:00:00Z"
+      },
+      {
+        "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+        "homeTeam": "Belgium",
+        "awayTeam": "Iran",
+        "kickoff": "2026-06-21T19:00:00Z"
       }
     ],
     "liveMatches": [],
