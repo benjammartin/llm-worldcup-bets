@@ -4723,7 +4723,7 @@
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Claude",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4732,13 +4732,13 @@
       "model": "Claude",
       "pick": "home",
       "stake": 850,
-      "odds": 1.72,
-      "reasoning": "Netherlands home favorites at 1.72 (~58% implied). They controlled possession and final-third territory vs Japan despite a flat finish (only 0.63 xG), suggesting underlying control. Sweden looked sharp in their 5-1, so I'm respecting the upset risk and not maxing out, but the Dutch home edge and odds signal point to backing the favorite at a moderate stake.",
+      "odds": 1.71,
+      "reasoning": "Netherlands home-favored at 1.71 (~58% implied) with the deeper, more talented squad. Sweden's 5-1 and 2.09 xG came against weak Tunisia, so I discount it slightly. The Dutch attack stuttered (0.63 xG vs Japan), so I'm not going max stake, but home advantage plus quality edge make this a solid lean. Moderate conviction backing the favorite.",
       "status": "pending"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:GPT-5.5",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4747,13 +4747,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 50.36,
-      "odds": 4.7,
-      "reasoning": "Odds make Netherlands the rightful favorite, but Sweden at 4.7 is the only price here with enough upside for my position. The training reports add some support: Sweden’s 5-1 over Tunisia came with a strong 2.09 xG and 7 shots on target, while Netherlands’ 2-2 with Japan was less convincing underneath at just 0.63 xG despite decent territorial control. Opponent quality matters, so I’m not treating Sweden as the better team outright, but I think the away win has more upset potential than the market price implies. Max stake because I need to chase bankroll growth, not grind small favorites.",
+      "odds": 4.75,
+      "reasoning": "Taking the high-upside value shot on Sweden at 4.75. Odds are still the primary signal and Netherlands are rightly favored, but the recent match reports make Sweden look more live than this price implies: Sweden generated 2.09 xG and 7 shots on target in a dominant 5-1 win, while Netherlands only produced 0.63 xG in a 2-2 draw with Japan. With my bankroll needing a comeback, I’m staking the max on the underdog rather than taking the short favorite.",
       "status": "pending"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Gemini",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4762,13 +4762,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 317.85,
-      "odds": 1.72,
-      "reasoning": "Netherlands drew their opening match against a disciplined Japanese side but controlled possession (54.9%) and final-third entries (156). While Sweden's 5-1 win over Tunisia looks impressive on paper, Tunisia offered far less resistance. Netherlands remains the class of this matchup and at 1.72, they represent strong value to bounce back with a crucial victory. Going with the maximum allowed stake to rebuild our bankroll.",
+      "odds": 1.71,
+      "reasoning": "While Sweden's 5-1 win over Tunisia looks impressive, Tunisia's defensive frailties heavily inflated that scoreline. The Netherlands drew 2-2 with a highly disciplined Japan side, and despite a low xG of 0.63, they showed clinical finishing and controlled possession well. Sweden's style should offer more transitional space than Japan did, which suits the Dutch attackers. At 1.71, the Netherlands are strong favorites for a reason, and we expect their superior squad depth to secure three points here as we look to rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Grok",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4777,13 +4777,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 740.96,
-      "odds": 1.72,
-      "reasoning": "Odds correctly price Netherlands as clear favorites at 1.72. Sweden's strong result came against weak opposition while Netherlands showed enough quality to stay competitive; home side remains the value pick.",
+      "odds": 1.71,
+      "reasoning": "Netherlands are the clear class above here and get best value on the 1.71 home win. Their underlying numbers vs Japan were solid even in a draw, while Sweden's thrashing of Tunisia came against far inferior opposition. Odds imply ~58% home win probability which aligns with my read.",
       "status": "pending"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:DeepSeek",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4792,13 +4792,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 151.8,
-      "odds": 1.72,
-      "reasoning": "Netherlands controlled Japan (xG 0.63-0.34, 156 final-third receptions, 88 line breaks) but conceded from low xG; underlying numbers suggest they're stronger than the draw suggests. Sweden's 5-1 win over Tunisia flattered them – xG only 2.09, Tunisia had more line breaks (76) and pressures. Market odds put Netherlands at 1.72, which I see as fair value. Maxing my per-match limit on home.",
+      "odds": 1.71,
+      "reasoning": "Netherlands are favorites with home odds of 1.71. Their last match against Japan showed control in possession (54.9%) and final-third entries (156 vs 120) despite a 2-2 draw. Sweden beat Tunisia 5-1 but faced a weaker side. Home advantage and underlying stats suggest Netherlands should win. I'm staking the max 25% of bankroll on a home victory.",
       "status": "pending"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Mistral",
-      "date": "2026-06-20T15:21:04.807Z",
+      "date": "2026-06-20T16:01:49.501Z",
       "matchId": "4f0c518545b0096c68326daf25bffc1e",
       "match": "Netherlands vs Sweden",
       "homeTeam": "Netherlands",
@@ -4807,14 +4807,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 273.33,
-      "odds": 1.72,
-      "reasoning": "While the Netherlands had a disappointing draw against Japan (xG 0.63-0.34), their underlying metrics (shots, possession, final-third receptions, line breaks) suggest they were the better side and unlucky not to win. Sweden, on the other hand, dominated Tunisia in a 5-1 win but with an inflated xG (2.09) that may overstate their true quality—possession was nearly equal, and Tunisia had more pressures. The odds favor the Netherlands (1.72) as the more consistent and higher-quality side, with Sweden's attacking output potentially overrated. Given my recent success with home favorites (4/5 in last slate) and the value here, I'm going all-in on the per-match max stake for the Netherlands to win.",
+      "odds": 1.71,
+      "reasoning": "The Netherlands vs Sweden match presents a compelling case for backing the home side. While the odds (1.71) suggest a slight edge, the qualitative context from the FIFA reports reinforces this. The Netherlands showed resilience in their 2-2 draw against Japan, dominating key metrics like possession (54.9%), final-third receptions (156), and line breaks (88), despite a lower xG (0.63). Sweden, on the other hand, had a strong offensive showing against Tunisia (xG 2.09, 13 shots, 7 on target), but their defensive metrics were less impressive (e.g., 223 pressures conceded). The Netherlands' ability to control possession and create chances, combined with Sweden's potential defensive vulnerabilities, makes the home side a safer bet. The stake is maximized to reflect high confidence, given the odds and qualitative data alignment.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-20T15:21:04.807Z",
+    "lastBetsRun": "2026-06-20T16:01:49.501Z",
     "lastSettleRun": "2026-06-20T06:31:48.985Z",
     "failures": [
       {
@@ -4887,6 +4887,12 @@
         "homeTeam": "Tunisia",
         "awayTeam": "Japan",
         "kickoff": "2026-06-21T04:00:00Z"
+      },
+      {
+        "matchId": "73529a242e319a86bf3d00ddb4accc37",
+        "homeTeam": "Spain",
+        "awayTeam": "Saudi Arabia",
+        "kickoff": "2026-06-21T16:00:00Z"
       }
     ],
     "liveMatches": [],
