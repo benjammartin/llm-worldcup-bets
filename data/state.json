@@ -136,6 +136,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 5756.8
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 6255.26
       }
     ],
     "GPT-5.5": [
@@ -274,6 +278,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 242.74
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 261.08
       }
     ],
     "Gemini": [
@@ -412,6 +420,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 1961.89
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 2120.2
       }
     ],
     "Grok": [
@@ -550,6 +562,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 2985.3
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 3245.21
       }
     ],
     "DeepSeek": [
@@ -688,6 +704,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 946.58
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 1021.88
       }
     ],
     "Mistral": [
@@ -826,6 +846,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 1700.82
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 1836.75
       }
     ],
     "Baseline": [
@@ -964,6 +988,10 @@
       {
         "t": "2026-06-20T19:30:17.351Z",
         "bankroll": 8278.42
+      },
+      {
+        "t": "2026-06-20T22:26:15.806Z",
+        "bankroll": 8649.1
       }
     ]
   },
@@ -4866,7 +4894,9 @@
       "stake": 772.24,
       "odds": 1.48,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Claude",
@@ -4881,7 +4911,9 @@
       "stake": 1132.87,
       "odds": 1.44,
       "reasoning": "Germany at 1.44 against Ivory Coast represents solid value. The training report shows Germany dominated Curaçao with 4.17 xG, 26 shots, and superior final-third activity (252 vs 61 receptions). While Curaçao is weaker than Ivory Coast, Germany's quality shines through in their metrics. At 1.44 odds, the implied probability is 69.4%, and I believe Germany's actual win probability is higher given their tournament pedigree and form. I'm down to $5756 from $10k starting bankroll, so I need to be aggressive with high-confidence plays to catch up. This is my max stake - going all-in on what should be a straightforward German victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:GPT-5.5",
@@ -4896,7 +4928,9 @@
       "stake": 41.68,
       "odds": 1.44,
       "reasoning": "Germany are the clear market favorite at 1.44, and the FIFA report from their 7-1 win over Curaçao supports the idea that they are creating overwhelming attacking volume: 4.17 xG, 26 shots, 252 final-third receptions and 125 line breaks. Ivory Coast are stronger than Curaçao, so I am not treating that result as automatic proof, but the combination of market signal and Germany’s demonstrated dominance makes home the best pick. With my bankroll low, I need to press my strongest edges, so I’m staking the per-match max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Gemini",
@@ -4911,7 +4945,9 @@
       "stake": 359.8,
       "odds": 1.44,
       "reasoning": "Germany demonstrated elite offensive efficiency in their previous match, dismantling Curaçao 7-1 while generating 4.17 xG and 26 shots. Their ability to dominate possession (57.8%) and break lines (125 line breaks) suggests they will control the tempo against Ivory Coast. Although Ivory Coast will offer a more physical test than Curaçao, Germany's tactical discipline and superior squad depth make them highly likely to secure the three points. We back the home win with our maximum allowed stake of $490.47 to steadily rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Grok",
@@ -4926,7 +4962,9 @@
       "stake": 590.7,
       "odds": 1.44,
       "reasoning": "Germany's post-match metrics vs Curaçao show overwhelming dominance (xG 4.17-0.40, 26 shots, high line breaks and final-third receptions). Ivory Coast lacks comparable quality, making the 1.44 home odds attractive despite the short price. High stake reflects strong conviction in the mismatch.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:DeepSeek",
@@ -4941,7 +4979,9 @@
       "stake": 171.13,
       "odds": 1.44,
       "reasoning": "Germany are strong favorites after a 7-1 rout of Curaçao with dominant underlying numbers (xG 4.17-0.40, shots 26-8). Ivory Coast are clear underdogs. Home win at 1.44 offers solid value and aligns with all available signals. Betting the maximum allowed stake to maximize upside in my catch-up strategy.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Mistral",
@@ -4956,7 +4996,9 @@
       "stake": 308.94,
       "odds": 1.44,
       "reasoning": "Germany's post-match report against Curaçao is dominant across all key metrics: xG (4.17 vs 0.40), shots (26 vs 8), possession (57.8% vs 35.3%), and final-third receptions (252 vs 61). Their attacking prowess and control were overwhelming, and while Curaçao is not a direct comparison to Ivory Coast, the qualitative gap in team strength is clear. The odds (1.44 for Germany) are favorable given their form and the market's implied probability (~69%), which feels conservative. With a 25% bankroll stake, I'm betting heavily on Germany to continue their strong performance and cover the spread comfortably. The risk is low, and the reward aligns with my confidence in their ability to dominate weaker opposition.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Baseline",
@@ -5067,7 +5109,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-20T22:17:10.578Z",
-    "lastSettleRun": "2026-06-20T19:30:17.351Z",
+    "lastSettleRun": "2026-06-20T22:26:15.806Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5152,32 +5194,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 33,
-        "won": 20,
+        "totalBets": 34,
+        "won": 21,
         "lost": 13,
         "void": 0,
-        "totalStake": 30626.280000000002,
-        "totalReturn": -4243.205599999999,
-        "roi": -0.1385478615097883,
-        "avgOdds": 1.653939393939394,
+        "totalStake": 31759.15,
+        "totalReturn": -3744.7427999999995,
+        "roi": -0.11791067456150431,
+        "avgOdds": 1.6476470588235295,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:Claude",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 600,
-            "odds": 1.36,
-            "reasoning": "Colombia are clear favorites at 1.36 and rightly so — they're a top-tier South American side with significantly more quality, depth, and international pedigree than Uzbekistan. Home advantage is real but not enough to flip this. I'm down to a $3K bankroll after a bumpy run, so I'm leaning into a solid value favorite rather than chasing longshots. Modest stake to protect capital while still backing my conviction.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:Claude",
             "date": "2026-06-18T14:50:55.853Z",
@@ -5330,37 +5355,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:Claude",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1132.87,
+            "odds": 1.44,
+            "reasoning": "Germany at 1.44 against Ivory Coast represents solid value. The training report shows Germany dominated Curaçao with 4.17 xG, 26 shots, and superior final-third activity (252 vs 61 receptions). While Curaçao is weaker than Ivory Coast, Germany's quality shines through in their metrics. At 1.44 odds, the implied probability is 69.4%, and I believe Germany's actual win probability is higher given their tournament pedigree and form. I'm down to $5756 from $10k starting bankroll, so I need to be aggressive with high-confidence plays to catch up. This is my max stake - going all-in on what should be a straightforward German victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 33,
-        "won": 13,
+        "totalBets": 34,
+        "won": 14,
         "lost": 20,
         "void": 0,
-        "totalStake": 22206.8,
-        "totalReturn": -9757.276600000001,
-        "roi": -0.43938237837058924,
-        "avgOdds": 3.156969696969698,
+        "totalStake": 22248.48,
+        "totalReturn": -9738.9374,
+        "roi": -0.4377349553767269,
+        "avgOdds": 3.106470588235295,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:GPT-5.5",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 54.48,
-            "odds": 4.9,
-            "reasoning": "At this bankroll I need upside, not a tiny Colombia payout. Colombia are clearly stronger, but Uzbekistan are organized enough to make this ugly and keep it close. The draw at 4.9 is the best risk/reward spot versus chasing the full upset.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:GPT-5.5",
             "date": "2026-06-18T14:50:55.853Z",
@@ -5513,37 +5538,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:GPT-5.5",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 41.68,
+            "odds": 1.44,
+            "reasoning": "Germany are the clear market favorite at 1.44, and the FIFA report from their 7-1 win over Curaçao supports the idea that they are creating overwhelming attacking volume: 4.17 xG, 26 shots, 252 final-third receptions and 125 line breaks. Ivory Coast are stronger than Curaçao, so I am not treating that result as automatic proof, but the combination of market signal and Germany’s demonstrated dominance makes home the best pick. With my bankroll low, I need to press my strongest edges, so I’m staking the per-match max.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 33,
-        "won": 19,
+        "totalBets": 34,
+        "won": 20,
         "lost": 14,
         "void": 0,
-        "totalStake": 26857.510000000006,
-        "totalReturn": -8038.119900000001,
-        "roi": -0.29928760707898827,
-        "avgOdds": 1.6660606060606062,
+        "totalStake": 27217.310000000005,
+        "totalReturn": -7879.807900000001,
+        "roi": -0.2895145736297966,
+        "avgOdds": 1.6594117647058824,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:Gemini",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 250.81,
-            "odds": 1.36,
-            "reasoning": "Colombia enters this matchup as the clear favorite. They possess a vastly superior squad with elite talent playing in top European leagues, whereas Uzbekistan, despite their resilience, lacks the depth and high-level experience to contain Colombia's dynamic attack. With my recent momentum of winning 4 out of the last 5 bets, I am going with a high-confidence maximum stake on Colombia to secure a decisive victory.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:Gemini",
             "date": "2026-06-18T14:50:55.853Z",
@@ -5696,37 +5721,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:Gemini",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 359.8,
+            "odds": 1.44,
+            "reasoning": "Germany demonstrated elite offensive efficiency in their previous match, dismantling Curaçao 7-1 while generating 4.17 xG and 26 shots. Their ability to dominate possession (57.8%) and break lines (125 line breaks) suggests they will control the tempo against Ivory Coast. Although Ivory Coast will offer a more physical test than Curaçao, Germany's tactical discipline and superior squad depth make them highly likely to secure the three points. We back the home win with our maximum allowed stake of $490.47 to steadily rebuild our bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 33,
-        "won": 19,
+        "totalBets": 34,
+        "won": 20,
         "lost": 14,
         "void": 0,
-        "totalStake": 55867.33,
-        "totalReturn": -7014.695999999999,
-        "roi": -0.12555989341176674,
-        "avgOdds": 1.7542424242424244,
+        "totalStake": 56458.03,
+        "totalReturn": -6754.787999999999,
+        "roi": -0.11964264427929913,
+        "avgOdds": 1.745,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:Grok",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 561.1,
-            "odds": 1.36,
-            "reasoning": "Colombia massively outclass Uzbekistan on paper; 1.36 is short but the only logical pick with one match left and cash to deploy.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:Grok",
             "date": "2026-06-18T14:50:55.853Z",
@@ -5879,37 +5904,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:Grok",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 590.7,
+            "odds": 1.44,
+            "reasoning": "Germany's post-match metrics vs Curaçao show overwhelming dominance (xG 4.17-0.40, 26 shots, high line breaks and final-third receptions). Ivory Coast lacks comparable quality, making the 1.44 home odds attractive despite the short price. High stake reflects strong conviction in the mismatch.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 33,
-        "won": 17,
+        "totalBets": 34,
+        "won": 18,
         "lost": 16,
         "void": 0,
-        "totalStake": 27391.46999999999,
-        "totalReturn": -9053.4432,
-        "roi": -0.3305205306615528,
-        "avgOdds": 2.123636363636364,
+        "totalStake": 27562.59999999999,
+        "totalReturn": -8978.145999999999,
+        "roi": -0.3257365415454276,
+        "avgOdds": 2.1035294117647063,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:DeepSeek",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 196.69,
-            "odds": 1.36,
-            "reasoning": "Colombia is the class of this matchup, a World Cup regular with far superior talent and experience. Uzbekistan would need a miracle to get a result. At 1.36 the odds are stingy, but my bankroll is on life support after a rough run. I can't afford another loss chasing long shots. An away win is the highest-percentage outcome, and I'm maxing the stake to grind back slowly but surely.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:DeepSeek",
             "date": "2026-06-18T14:50:55.853Z",
@@ -6062,37 +6087,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:DeepSeek",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 171.13,
+            "odds": 1.44,
+            "reasoning": "Germany are strong favorites after a 7-1 rout of Curaçao with dominant underlying numbers (xG 4.17-0.40, shots 26-8). Ivory Coast are clear underdogs. Home win at 1.44 offers solid value and aligns with all available signals. Betting the maximum allowed stake to maximize upside in my catch-up strategy.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 33,
-        "won": 20,
+        "totalBets": 34,
+        "won": 21,
         "lost": 13,
         "void": 0,
-        "totalStake": 25911.670000000006,
-        "totalReturn": -8299.182799999997,
-        "roi": -0.320287453491033,
-        "avgOdds": 1.6875757575757575,
+        "totalStake": 26220.610000000004,
+        "totalReturn": -8163.249199999997,
+        "roi": -0.31132949233446494,
+        "avgOdds": 1.6802941176470587,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:Mistral",
-            "date": "2026-06-18T01:30:34.951Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 214.13,
-            "odds": 1.36,
-            "reasoning": "Colombia is a significantly stronger team than Uzbekistan, both in terms of FIFA rankings and recent form. The away odds of 1.36 are very safe, and given my current bankroll situation, I need to prioritize high-confidence, low-risk bets to recover. This is a clear opportunity to secure a near-guaranteed win with a substantial stake, aligning with my strategy to stabilize and grow my bankroll efficiently.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:Mistral",
             "date": "2026-06-18T14:50:55.853Z",
@@ -6245,37 +6270,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:Mistral",
+            "date": "2026-06-20T19:52:16.801Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 308.94,
+            "odds": 1.44,
+            "reasoning": "Germany's post-match report against Curaçao is dominant across all key metrics: xG (4.17 vs 0.40), shots (26 vs 8), possession (57.8% vs 35.3%), and final-third receptions (252 vs 61). Their attacking prowess and control were overwhelming, and while Curaçao is not a direct comparison to Ivory Coast, the qualitative gap in team strength is clear. The odds (1.44 for Germany) are favorable given their form and the market's implied probability (~69%), which feels conservative. With a 25% bankroll stake, I'm betting heavily on Germany to continue their strong performance and cover the spread comfortably. The risk is low, and the reward aligns with my confidence in their ability to dominate weaker opposition.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 33,
-        "won": 20,
+        "totalBets": 34,
+        "won": 21,
         "lost": 13,
         "void": 0,
-        "totalStake": 26318.66999999999,
-        "totalReturn": -1721.5841000000005,
-        "roi": -0.06541303568911351,
-        "avgOdds": 1.6557575757575758,
+        "totalStake": 27090.909999999993,
+        "totalReturn": -1350.9089000000004,
+        "roi": -0.049865763091752946,
+        "avgOdds": 1.6505882352941175,
         "recentBets": [
-          {
-            "id": "22083e7a8e5362c711bc05c1e1319a1f:Baseline",
-            "date": "2026-06-17T23:03:13.216Z",
-            "matchId": "22083e7a8e5362c711bc05c1e1319a1f",
-            "match": "Uzbekistan vs Colombia",
-            "homeTeam": "Uzbekistan",
-            "awayTeam": "Colombia",
-            "kickoff": "2026-06-18T02:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 583.41,
-            "odds": 1.39,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "66ebb9e3f949caded535d97ce686ca09:Baseline",
             "date": "2026-06-18T13:12:44.302Z",
@@ -6428,6 +6453,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-1"
+          },
+          {
+            "id": "f1ab0f69832972a329243522ceaa7804:Baseline",
+            "date": "2026-06-20T17:09:32.102Z",
+            "matchId": "f1ab0f69832972a329243522ceaa7804",
+            "match": "Germany vs Ivory Coast",
+            "homeTeam": "Germany",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-20T20:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 772.24,
+            "odds": 1.48,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
