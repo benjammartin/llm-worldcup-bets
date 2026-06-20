@@ -4534,7 +4534,7 @@
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Claude",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4542,14 +4542,14 @@
       "kickoff": "2026-06-20T03:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 650,
-      "odds": 2.07,
-      "reasoning": "Turkey at home is the favorite at 2.07, implying around 48% probability, and they get the slight edge playing on the front foot. The FIFA report on Paraguay is brutal: in their match they were thoroughly dominated, posting just 0.60 xG, 28.7% possession, and only 31 final-third receptions against 201. That's a team struggling to create or hold the ball. Turkey has the attacking quality to exploit that. I'll back the home side with moderate confidence rather than chasing the away or draw, since Paraguay can still grind defensively. Sizing this in the middle of my range to keep my lead intact while the value sits on Turkey.",
+      "stake": 750,
+      "odds": 2.04,
+      "reasoning": "Turkey at 2.04 implies about 49% — the market sees them as clear favorites at home. The FIFA report on Paraguay is damning: they got dismantled 4-1 by the USA with just 0.60 xG, one shot on target, and a pitiful 31 final-third receptions. That's a side struggling badly to create anything in attack. Turkey have the quality and home edge to exploit that. I'm backing home with solid but measured conviction — paying 2.04 for a favorite this clearly justified is decent value. Sizing moderately since one-match slates carry full variance and I want to protect my strong bankroll position.",
       "status": "pending"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:GPT-5.5",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4558,13 +4558,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 94.46,
-      "odds": 2.07,
-      "reasoning": "Turkey are only a modest favorite by the market, but Paraguay’s available post-match profile was very poor: they were outshot and out-created by the USA, with big gaps in final-third receptions, line breaks, and progressions. Odds remain the main signal, and 2.07 on Turkey is enough upside for our short bankroll position, so I’m taking the favorite at the maximum allowed stake.",
+      "odds": 2.04,
+      "reasoning": "Turkey at 2.04 is the best blend of price and likelihood here. Odds already make them the favorite, and the available FIFA report gives extra qualitative support: Paraguay were badly outplayed by the USA, with weak chance creation, very few final-third receptions, and poor progression numbers. Given my bankroll position I need upside, so I’m taking the maximum allowed stake on the favorite rather than trying to get cute with the draw or away price.",
       "status": "pending"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Gemini",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4573,13 +4573,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 570.86,
-      "odds": 2.07,
-      "reasoning": "Paraguay struggled significantly in their match against the USA, conceding four goals while showing extremely poor progression metrics (only 17 progressions and 31 final-third receptions). Turkey possesses the technical quality to control the midfield and exploit Paraguay's defensive transitions. At odds of 2.07, the home win offers excellent value, and we are backing them with the maximum stake to continue our five-game winning streak.",
+      "odds": 2.04,
+      "reasoning": "Paraguay's opening match against the USA exposed severe defensive and possession vulnerabilities, as they conceded 4 goals, allowed 201 final-third receptions, and managed just 28.7% possession. Turkey possesses the technical midfield quality to control the tempo and break down a fragile Paraguayan defense. At odds of 2.04, the home win presents excellent value. We are backing Turkey with the maximum allowable stake to sustain our strong 5-game winning momentum.",
       "status": "pending"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Grok",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4587,14 +4587,14 @@
       "kickoff": "2026-06-20T03:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 1000,
-      "odds": 2.07,
-      "reasoning": "Turkey at 2.07 offers solid value as the clear favorite; Paraguay's dismal underlying numbers vs USA (xG 0.60, minimal progression) point to ongoing weakness that a home side should exploit.",
+      "stake": 1210,
+      "odds": 2.04,
+      "reasoning": "Turkey is clear favorite at 2.04 vs a Paraguay side that was dismantled 4-1 by USA with abysmal underlying numbers (xG 0.60, final-third receptions only 31). Home edge plus Paraguay weakness points to Turkey win.",
       "status": "pending"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:DeepSeek",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4603,13 +4603,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 271.32,
-      "odds": 2.07,
-      "reasoning": "Paraguay were absolutely dominated by the USA in their last match – 1.88 to 0.60 xG, only 28.7% possession, and just 1 shot on target. Turkey at home at 2.07 looks great value against a Paraguay side that struggles to retain the ball and create chances. I'm going max stake on the home win to climb back up the leaderboard.",
+      "odds": 2.04,
+      "reasoning": "Turkey are odds-on favourites at 2.04, implying a ~49% win probability. Paraguay's last performance (USA 4-1, xG 0.60, only 31 final-third receptions, 28.7% possession) exposed major structural issues. Even with neutral-ground context, Turkey should control the game and convert. I'm staking the maximum allowed (25% of bankroll) to capitalize on this edge.",
       "status": "pending"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Mistral",
-      "date": "2026-06-20T01:20:16.211Z",
+      "date": "2026-06-20T02:23:45.904Z",
       "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
       "match": "Turkey vs Paraguay",
       "homeTeam": "Turkey",
@@ -4618,14 +4618,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 487.38,
-      "odds": 2.07,
-      "reasoning": "Turkey vs Paraguay: The recent FIFA Training Centre report for Paraguay (M04) shows they were thoroughly outplayed by the USA, with massive deficits in xG (0.60 vs 1.88), shots (9 vs 16), possession (28.7% vs 59.5%), and key attacking metrics like final-third receptions (31 vs 201) and progressions (17 vs 52). While this was against a strong USA side, Turkey is also a formidable team with home advantage. The odds (home 2.07) suggest Turkey is the favorite, and Paraguay's recent performance raises serious questions about their ability to compete. Betting max stake on Turkey to win, given their likely dominance in key performance areas and the value in the odds.",
+      "odds": 2.04,
+      "reasoning": "Turkey vs Paraguay: The odds (home 2.04) suggest Turkey is the favorite, and the recent FIFA report for Paraguay (M04: USA 4-1 Paraguay) shows significant weaknesses—low possession (28.7%), few shots on target (1/9), and poor progression stats (17 progressions vs USA's 52). While Turkey isn't a powerhouse, they're likely the stronger side here, and the value at 2.04 is decent. Betting max stake given the favorable odds and Paraguay's recent struggles.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-20T01:20:16.211Z",
+    "lastBetsRun": "2026-06-20T02:23:45.904Z",
     "lastSettleRun": "2026-06-20T00:33:56.934Z",
     "failures": [
       {
