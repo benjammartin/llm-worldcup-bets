@@ -120,6 +120,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 5019.8
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 5857.3
       }
     ],
     "GPT-5.5": [
@@ -242,6 +246,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 323.64
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 377.85
       }
     ],
     "Gemini": [
@@ -364,6 +372,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 1955.83
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 2283.43
       }
     ],
     "Grok": [
@@ -486,6 +498,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 4270.76
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 4840.26
       }
     ],
     "DeepSeek": [
@@ -608,6 +624,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 929.57
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 1085.27
       }
     ],
     "Mistral": [
@@ -730,6 +750,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 1669.82
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 1949.51
       }
     ],
     "Baseline": [
@@ -852,6 +876,10 @@
       {
         "t": "2026-06-19T21:30:48.163Z",
         "bankroll": 7927.82
+      },
+      {
+        "t": "2026-06-20T00:33:56.934Z",
+        "bankroll": 8427.98
       }
     ]
   },
@@ -4278,7 +4306,9 @@
       "stake": 746.5,
       "odds": 1.67,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Claude",
@@ -4293,7 +4323,9 @@
       "stake": 1250,
       "odds": 1.67,
       "reasoning": "Morocco at 1.67 is solid value here. They just drew 1-1 with Brazil and actually outperformed them on xG (1.33 vs 0.99), had more final-third receptions (149 vs 100), and more progressions (49 vs 30). Meanwhile, Scotland barely scraped past Haiti 1-0 with only a marginal xG advantage (0.91 vs 0.70). Morocco's performance against a top-tier team like Brazil suggests they're operating at a much higher level than Scotland. The odds imply Morocco has about 60% win probability, which feels right or even conservative given the quality gap. Going heavy here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:GPT-5.5",
@@ -4308,7 +4340,9 @@
       "stake": 80.91,
       "odds": 1.67,
       "reasoning": "Morocco at 1.67 is the strongest play on this slate. The odds already make them clear favorites, and the FIFA report supports that: Morocco were at least Brazil's equal in the opener, winning xG 1.33-0.99 and showing much stronger progression/final-third numbers. Scotland beat Haiti, but only narrowly on xG and overall territory. I’ll take the better team at a playable price and stake the max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Gemini",
@@ -4323,7 +4357,9 @@
       "stake": 488.95,
       "odds": 1.67,
       "reasoning": "Morocco's opening match against Brazil was highly impressive, outshooting them and winning the xG battle (1.33 to 0.99) in a 1-1 draw. Scotland, on the other hand, was unconvincing in their 1-0 win over Haiti, allowing 15 shots and holding only 40.5% possession. Morocco's superior quality and tactical discipline make them strong favorites here, and the 1.67 odds represent excellent value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Grok",
@@ -4338,7 +4374,9 @@
       "stake": 850,
       "odds": 1.67,
       "reasoning": "Morocco heavily favored at 1.67 away; odds are the primary signal and Scotland's home price of 6 looks inflated given Morocco's quality.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:DeepSeek",
@@ -4353,7 +4391,9 @@
       "stake": 232.39,
       "odds": 1.67,
       "reasoning": "Morocco impressed against Brazil with 1.33 xG and a draw, while Scotland only scraped a 1-0 win over Haiti with subpar metrics. Morocco's away form looks strong; at 1.67 odds, they represent good value to beat a limited Scotland side.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "4cd769aa7bae0ad9762bd69b80ef2903:Mistral",
@@ -4368,7 +4408,9 @@
       "stake": 417.45,
       "odds": 1.67,
       "reasoning": "Morocco has shown strong performance in their recent match against Brazil, with higher xG (1.33 vs 0.99), more shots (14 vs 12), and significantly better final-third receptions (149 vs 100) and progressions (49 vs 30). While Scotland had a narrow win against Haiti, their underlying metrics (xG 0.91 vs 0.70, possession 40.5%) were less dominant than Morocco's against a stronger Brazil side. The odds favor Morocco (1.67) as the away team, and their recent performance suggests they are undervalued here. Betting the maximum stake on Morocco to win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:Baseline",
@@ -4584,7 +4626,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-20T00:04:30.761Z",
-    "lastSettleRun": "2026-06-19T21:30:48.163Z",
+    "lastSettleRun": "2026-06-20T00:33:56.934Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
