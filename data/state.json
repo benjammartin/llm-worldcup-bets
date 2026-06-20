@@ -124,6 +124,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 5857.3
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 5989.3
       }
     ],
     "GPT-5.5": [
@@ -250,6 +254,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 377.85
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 387.56
       }
     ],
     "Gemini": [
@@ -376,6 +384,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 2283.43
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 2313.43
       }
     ],
     "Grok": [
@@ -502,6 +514,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 4840.26
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 4936.26
       }
     ],
     "DeepSeek": [
@@ -628,6 +644,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 1085.27
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 1113.16
       }
     ],
     "Mistral": [
@@ -754,6 +774,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 1949.51
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 1999.6
       }
     ],
     "Baseline": [
@@ -880,6 +904,10 @@
       {
         "t": "2026-06-20T00:33:56.934Z",
         "bankroll": 8427.98
+      },
+      {
+        "t": "2026-06-20T03:04:24.725Z",
+        "bankroll": 8515.19
       }
     ]
   },
@@ -4425,7 +4453,9 @@
       "stake": 792.78,
       "odds": 1.11,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:Claude",
@@ -4440,7 +4470,9 @@
       "stake": 1100,
       "odds": 1.12,
       "reasoning": "Brazil at 1.12 is a near-lock against Haiti. Their report shows a tough 1-1 vs Morocco, but Haiti just lost 0-1 to Scotland with only 0.70 xG and weak final-third penetration. The class gap is enormous. Low odds mean modest return, but this is about as safe as it gets, so I'll back it heavily for steady value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:GPT-5.5",
@@ -4455,7 +4487,9 @@
       "stake": 80.91,
       "odds": 1.12,
       "reasoning": "Brazil are very short, so the upside is limited, but this is still the safest spot on the slate. Haiti were competitive in a narrow loss to Scotland, while Brazil were not dominant against Morocco, so I do not love the price at 1.12. Still, odds remain the main signal and the talent gap is enormous. With only two matches available and a need to rebuild bankroll, I am taking the high-probability Brazil win at the maximum allowed stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:Gemini",
@@ -4470,7 +4504,9 @@
       "stake": 250,
       "odds": 1.12,
       "reasoning": "Brazil is an overwhelming favorite against Haiti. While the 1.12 odds offer low yields, this is an extremely safe pick to secure a small profit and continue rebuilding our bankroll after a solid run of recent wins.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:Grok",
@@ -4485,7 +4521,9 @@
       "stake": 800,
       "odds": 1.12,
       "reasoning": "Brazil heavily favored at 1.12 despite average recent xG; Haiti look limited per their report and should be outclassed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:DeepSeek",
@@ -4500,7 +4538,9 @@
       "stake": 232.39,
       "odds": 1.12,
       "reasoning": "Brazil are overwhelming favorites at 1.12. Haiti managed just 0.70 xG and lost to Scotland, while Brazil’s draw with Morocco was a respectable performance. Even a flat Brazil should beat Haiti comfortably. Max stake for near-guaranteed bankroll growth.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "ef0f74a991d3e35798ae5af77667bce1:Mistral",
@@ -4515,7 +4555,9 @@
       "stake": 417.45,
       "odds": 1.12,
       "reasoning": "Brazil is a heavy favorite here (1.12 odds), and while their recent performance against Morocco was underwhelming (1-1 draw), the xG (0.99 vs. 1.33) and other metrics (e.g., final-third receptions 100-149 in favor of Morocco) suggest they were unlucky not to win. Haiti, meanwhile, lost 1-0 to Scotland despite generating 0.70 xG and having more shots (15 vs. 9). Their possession and attacking metrics were decent, but they lacked clinical finishing. Brazil’s squad depth and historical dominance in such matchups make them a safe bet, even if the odds are low. The 1.12 odds imply a ~89% win probability, which feels conservative given Brazil’s pedigree and Haiti’s defensive vulnerabilities. I’m allocating the maximum stake here due to the high confidence in Brazil covering the spread.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Baseline",
@@ -4626,7 +4668,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-20T02:23:45.904Z",
-    "lastSettleRun": "2026-06-20T00:33:56.934Z",
+    "lastSettleRun": "2026-06-20T03:04:24.725Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
