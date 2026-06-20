@@ -4,6 +4,7 @@ import { placeBaselineBets } from "./baseline";
 import { placeBets, prunePrematurePendingBets } from "./bets";
 import { chartSVG } from "./chart";
 import { BASELINE_NAME, FONT_PATH, MODELS, OG_PATH, SITE_URL, STATE_PATH } from "./config";
+import { updatePerformance } from "./performance";
 import { callGateway } from "./gateway";
 import { fetchTodaysOdds, matchesInBettingWindow } from "./odds";
 import { fetchFifaReportDetails, fetchFifaReports, formatFifaReportContext } from "./fifa-reports";
@@ -16,6 +17,7 @@ import { loadState, rememberLiveMatches, rememberUpcomingMatches, saveState } fr
 const now = new Date().toISOString();
 const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
 const state = loadState(STATE_PATH, names, now);
+updatePerformance(state, names);
 
 const allOdds = await fetchTodaysOdds(process.env.ODDS_API_KEY!);
 rememberUpcomingMatches(state, allOdds, now);

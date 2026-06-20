@@ -3,6 +3,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { chartSVG } from "../../../pipeline/src/chart";
 import { BASELINE_NAME, MODELS, SITE_URL, STARTING_BANKROLL } from "../../../pipeline/src/config";
+import { computeAllPerformances, getModelStakeMultiplier } from "../../../pipeline/src/performance";
 
 import { initialState, bankroll, type Bet, type State } from "../../../pipeline/src/state";
 import { flagOf } from "../flags";
@@ -13,6 +14,7 @@ const state: State = existsSync(statePath)
   : initialState([...MODELS.map((m) => m.name), BASELINE_NAME], STARTING_BANKROLL, new Date().toISOString());
 const svg = chartSVG(state, 1200, 630);
 const svgMobile = chartSVG(state, 760, 540, { compact: true });
+const performances = computeAllPerformances(state.bets, Object.keys(state.series));
 
 const LOGOS: Record<string, { src: string; invert?: boolean }> = {
   "Claude": { src: "/logos/claude.svg" },
@@ -433,6 +435,22 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <h2>Bankroll over time</h2>
     <div class="chart chart-desktop" set:html={svg} />
     <div class="chart chart-mobile" set:html={svgMobile} />
+  </section>
+
+  <section>
+    <h2>Performance Insights <span class="count">· stake multipliers based on ROI</span></h2>
+    <p class="cycle-summary">Stake limits adjust automatically based on each model's recent ROI and sample size (multiplier range: 0.5–1.5×). Models with higher confidence can risk more per bet.</p>
+    <div class="standings">
+      {Object.entries(performances).map(([model, perf]) => (
+        <div class="standing" style={`--c:${COLORS[model] ?? \"#fff\"}`}>
+          <span class="name\">{model}</span>
+          <span class=\"model-id\">ROI: {(perf.roi * 100).toFixed(1)}%</span>
+          <span class=\"model-id\">Win rate: {perf.totalBets > 0 ? ((perf.won / perf.totalBets) * 100).toFixed(1) : 0}%</span>
+          <span class=\"model-id\">Avg odds: {perf.avgOdds.toFixed(2)}</span>
+          <span class=\"model-id\">Multiplier: {getModelStakeMultiplier(state, model).toFixed(2)}</span>
+        </div>
+      ))}
+    </div>
   </section>
 
   <section id="current-cycle">

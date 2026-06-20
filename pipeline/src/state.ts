@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { PROMPT_VERSION, STARTING_BANKROLL } from "./config";
 import type { MatchOdds } from "./odds";
+import type { ModelPerformance } from "./performance";
 
 export type Pick3 = "home" | "draw" | "away";
 export type BetStatus = "pending" | "won" | "lost" | "void";
@@ -39,6 +40,7 @@ export interface State {
     upcomingMatches?: UpcomingMatch[];
     liveMatches?: LiveMatch[];
     failures: { date: string; model: string; reason: string }[];
+    performance?: Record<string, ModelPerformance>;
   };
 }
 
@@ -46,7 +48,7 @@ export function initialState(names: string[], start: number, t: string): State {
   return {
     series: Object.fromEntries(names.map((n) => [n, [{ t, bankroll: start }]])),
     bets: [],
-    meta: { promptVersion: PROMPT_VERSION, lastBetsRun: null, lastSettleRun: null, lastCyclePostKey: null, failures: [] },
+    meta: { promptVersion: PROMPT_VERSION, lastBetsRun: null, lastSettleRun: null, lastCyclePostKey: null, failures: [], performance: {} },
   };
 }
 

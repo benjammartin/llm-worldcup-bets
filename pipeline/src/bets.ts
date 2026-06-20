@@ -1,4 +1,5 @@
 import { MAX_STAKE_RATIO } from "./config";
+import { getModelStakeMultiplier } from "./performance";
 import type { MatchOdds } from "./odds";
 import { extractBets, type RawBet } from "./parse";
 import { buildPrompt } from "./prompt";
@@ -49,7 +50,7 @@ export async function placeBets(
 
     s.bets = s.bets.filter((b) => !(b.model === model.name && editableIds.has(b.matchId) && b.status === "pending"));
 
-    for (const r of normalizeStakes(raw, available, roll)) {
+    for (const r of normalizeStakes(raw, available, roll, s, model.name)) {
       const match = byId.get(r.matchId);
       if (!match || !editableIds.has(r.matchId)) continue;
       const stake = r.stake;
@@ -81,8 +82,9 @@ async function attempt(llm: LLMFn, ids: string[], prompt: string, tries: number,
   throw lastErr;
 }
 
-function normalizeStakes(raw: RawBet[], availableCash: number, roll: number): RawBet[] {
-  const maxPerBet = Math.max(0, roll * MAX_STAKE_RATIO);
+function normalizeStakes(raw: RawBet[], availableCash: number, roll: number, state: State, model: string): RawBet[] {
+  const multiplier = getModelStakeMultiplier(state, model);
+  const maxPerBet = Math.max(0, roll * MAX_STAKE_RATIO * multiplier);
   const capped = raw.map((b) => ({ ...b, stake: Math.min(b.stake, maxPerBet) }));
   const total = capped.reduce((sum, b) => sum + b.stake, 0);
   if (total <= availableCash) return capped.map((b) => ({ ...b, stake: roundCents(b.stake) }));

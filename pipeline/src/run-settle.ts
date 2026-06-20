@@ -2,6 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 import { chartSVG } from "./chart";
 import { BASELINE_NAME, FONT_PATH, MODELS, OG_PATH, SITE_URL, STATE_PATH } from "./config";
+import { updatePerformance } from "./performance";
 import { renderPNG } from "./og";
 import { composeUpdate, postToXWithReply } from "./post";
 import { fetchFinished } from "./scores";
@@ -32,6 +33,7 @@ for (const fm of finished) {
 if (settledMatches.length === 0) { console.log("[settle] nothing new"); process.exit(0); }
 
 state.meta.lastSettleRun = now;
+updatePerformance(state, names);
 saveState(STATE_PATH, state);
 const png = renderPNG(chartSVG(state, 1200, 630, { og: true }), FONT_PATH);
 mkdirSync(dirname(OG_PATH), { recursive: true });
