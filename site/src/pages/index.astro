@@ -442,12 +442,12 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <p class="cycle-summary">Stake limits adjust automatically based on each model's recent ROI and sample size (multiplier range: 0.5–1.5×). Models with higher confidence can risk more per bet.</p>
     <div class="standings">
       {Object.entries(performances).map(([model, perf]) => (
-        <div class="standing" style={`--c:${COLORS[model] ?? \"#fff\"}`}>
-          <span class="name\">{model}</span>
-          <span class=\"model-id\">ROI: {(perf.roi * 100).toFixed(1)}%</span>
-          <span class=\"model-id\">Win rate: {perf.totalBets > 0 ? ((perf.won / perf.totalBets) * 100).toFixed(1) : 0}%</span>
-          <span class=\"model-id\">Avg odds: {perf.avgOdds.toFixed(2)}</span>
-          <span class=\"model-id\">Multiplier: {getModelStakeMultiplier(state, model).toFixed(2)}</span>
+        <div class="standing" style={`--c:${COLORS[model] ?? "#fff"}`}>
+          <span class="name">{model}</span>
+          <span class="model-id">ROI: {(perf.roi * 100).toFixed(1)}%</span>
+          <span class="model-id">Win rate: {perf.totalBets > 0 ? ((perf.won / perf.totalBets) * 100).toFixed(1) : 0}%</span>
+          <span class="model-id">Avg odds: {perf.avgOdds.toFixed(2)}</span>
+          <span class="model-id">Multiplier: {getModelStakeMultiplier(state, model).toFixed(2)}</span>
         </div>
       ))}
     </div>
