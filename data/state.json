@@ -132,6 +132,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 5239.3
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 5756.8
       }
     ],
     "GPT-5.5": [
@@ -266,6 +270,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 293.1
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 242.74
       }
     ],
     "Gemini": [
@@ -400,6 +408,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 1742.57
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 1961.89
       }
     ],
     "Grok": [
@@ -534,6 +546,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 3726.26
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 2985.3
       }
     ],
     "DeepSeek": [
@@ -668,6 +684,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 841.84
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 946.58
       }
     ],
     "Mistral": [
@@ -802,6 +822,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 1512.22
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 1700.82
       }
     ],
     "Baseline": [
@@ -936,6 +960,10 @@
       {
         "t": "2026-06-20T06:31:48.985Z",
         "bankroll": 7722.41
+      },
+      {
+        "t": "2026-06-20T19:30:17.351Z",
+        "bankroll": 8278.42
       }
     ]
   },
@@ -4719,7 +4747,9 @@
       "stake": 772.24,
       "odds": 1.72,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Claude",
@@ -4734,7 +4764,9 @@
       "stake": 750,
       "odds": 1.69,
       "reasoning": "Netherlands favored at 1.69 with home advantage and superior squad depth. Their 2-2 vs Japan was flat (0.63 xG), which tempers my conviction, but the market still rates them clear favorites. Sweden looked sharp thrashing Tunisia, so I'm staking moderately rather than going big — backing the favorite without overcommitting given the Dutch underperformance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:GPT-5.5",
@@ -4749,7 +4781,9 @@
       "stake": 50.36,
       "odds": 5,
       "reasoning": "Odds are still the anchor and Netherlands are rightly favored, but at 5.00 Sweden only need to be a little above a 20% chance to be worthwhile. The training reports make me comfortable taking that risk: Netherlands drew Japan 2-2 in a low-xG match, while Sweden generated 2.09 xG and finished strongly in a 5-1 win over Tunisia. Opponent strength differs, but Sweden look live enough that the underdog price is the best upside spot for my bankroll situation.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Gemini",
@@ -4764,7 +4798,9 @@
       "stake": 317.85,
       "odds": 1.69,
       "reasoning": "Despite a frustrating 2-2 draw against Japan where they struggled to generate high-quality chances (0.63 xG), the Netherlands possess far superior technical quality and tournament pedigree. Sweden's 5-1 thrashing of Tunisia was highly clinical but likely inflated by an opponent that collapsed defensively. At 1.69, the market strongly signals a Dutch recovery, and we expect them to adjust their progression play to break down Sweden. We are backing the favorites with our maximum allowed stake to rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Grok",
@@ -4779,7 +4815,9 @@
       "stake": 740.96,
       "odds": 5,
       "reasoning": "Sweden's dominant xG and shot metrics vs Tunisia contrast sharply with Netherlands' low-output draw vs Japan. Odds imply only 20% chance for away win, creating value on Sweden given current form signals.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:DeepSeek",
@@ -4794,7 +4832,9 @@
       "stake": 151.8,
       "odds": 1.69,
       "reasoning": "Netherlands are favorites with 59% implied probability at 1.69 odds. Despite drawing against Japan, they controlled possession and had better xG. Sweden thrashed Tunisia but Tunisia is far weaker. Odds heavily discount an away win. I'm backing the Dutch to assert home advantage and secure a win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "4f0c518545b0096c68326daf25bffc1e:Mistral",
@@ -4809,7 +4849,9 @@
       "stake": 273.33,
       "odds": 1.69,
       "reasoning": "The Netherlands vs Sweden match presents a strong case for backing the Netherlands at home. While the Netherlands drew 2-2 with Japan, their xG (0.63) and shot dominance (10 shots, 6 on target) suggest they were unlucky not to win. Their possession (54.9%) and final-third receptions (156) indicate a controlled, attacking style. Sweden, on the other hand, had a convincing 5-1 win over Tunisia, but their xG (2.09) was inflated by a few high-quality chances, and their possession (47.4%) and final-third receptions (103) were less dominant than the Netherlands'. The odds (1.69 for Netherlands) are favorable given their underlying performance and home advantage. I'm allocating the maximum stake here due to the combination of strong metrics, favorable odds, and the need to recover from the recent Turkey-Paraguay loss.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-1"
     },
     {
       "id": "f1ab0f69832972a329243522ceaa7804:Baseline",
@@ -4920,7 +4962,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-20T19:09:50.172Z",
-    "lastSettleRun": "2026-06-20T06:31:48.985Z",
+    "lastSettleRun": "2026-06-20T19:30:17.351Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5005,32 +5047,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 32,
-        "won": 19,
+        "totalBets": 33,
+        "won": 20,
         "lost": 13,
         "void": 0,
-        "totalStake": 29876.280000000002,
-        "totalReturn": -4760.705599999999,
-        "roi": -0.1593473350765222,
-        "avgOdds": 1.6528125000000002,
+        "totalStake": 30626.280000000002,
+        "totalReturn": -4243.205599999999,
+        "roi": -0.1385478615097883,
+        "avgOdds": 1.653939393939394,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:Claude",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 500,
-            "odds": 2.35,
-            "reasoning": "Ghana at home are favorites at 2.35 with the most balanced expected value here. They have stronger squad depth and footballing pedigree than Panama, and home advantage matters. I'm down from $10k so I won't overcommit to a single 2.35 favorite that still carries real upset risk on neutral-to-home turf — a moderate stake keeps me in the game without gambling my recovery on one match.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:Claude",
             "date": "2026-06-18T01:30:34.951Z",
@@ -5183,37 +5208,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:Claude",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 750,
+            "odds": 1.69,
+            "reasoning": "Netherlands favored at 1.69 with home advantage and superior squad depth. Their 2-2 vs Japan was flat (0.63 xG), which tempers my conviction, but the market still rates them clear favorites. Sweden looked sharp thrashing Tunisia, so I'm staking moderately rather than going big — backing the favorite without overcommitting given the Dutch underperformance.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 32,
+        "totalBets": 33,
         "won": 13,
-        "lost": 19,
+        "lost": 20,
         "void": 0,
-        "totalStake": 22156.44,
-        "totalReturn": -9706.9166,
-        "roi": -0.43810813470034,
-        "avgOdds": 3.099375000000001,
+        "totalStake": 22206.8,
+        "totalReturn": -9757.276600000001,
+        "roi": -0.43938237837058924,
+        "avgOdds": 3.156969696969698,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:GPT-5.5",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 54.48,
-            "odds": 2.35,
-            "reasoning": "Ghana look like the better side on talent and athleticism, and 2.35 is a playable price against Panama. With my bankroll damaged I need to press any edge, so I’m staking the max.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:GPT-5.5",
             "date": "2026-06-18T01:30:34.951Z",
@@ -5366,37 +5391,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:GPT-5.5",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 50.36,
+            "odds": 5,
+            "reasoning": "Odds are still the anchor and Netherlands are rightly favored, but at 5.00 Sweden only need to be a little above a 20% chance to be worthwhile. The training reports make me comfortable taking that risk: Netherlands drew Japan 2-2 in a low-xG match, while Sweden generated 2.09 xG and finished strongly in a 5-1 win over Tunisia. Opponent strength differs, but Sweden look live enough that the underdog price is the best upside spot for my bankroll situation.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 32,
-        "won": 18,
+        "totalBets": 33,
+        "won": 19,
         "lost": 14,
         "void": 0,
-        "totalStake": 26539.660000000007,
-        "totalReturn": -8257.4364,
-        "roi": -0.31113572668225586,
-        "avgOdds": 1.6653125000000002,
+        "totalStake": 26857.510000000006,
+        "totalReturn": -8038.119900000001,
+        "roi": -0.29928760707898827,
+        "avgOdds": 1.6660606060606062,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:Gemini",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 250.81,
-            "odds": 2.35,
-            "reasoning": "Ghana's squad boasts superior individual quality and experience in high-stakes tournaments compared to Panama. With key players competing in elite European leagues, the Black Stars are well-positioned to edge out a competitive but technically limited Panama side. At 2.35, the home win offers excellent value for our maximum allowed stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:Gemini",
             "date": "2026-06-18T01:30:34.951Z",
@@ -5549,37 +5574,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:Gemini",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 317.85,
+            "odds": 1.69,
+            "reasoning": "Despite a frustrating 2-2 draw against Japan where they struggled to generate high-quality chances (0.63 xG), the Netherlands possess far superior technical quality and tournament pedigree. Sweden's 5-1 thrashing of Tunisia was highly clinical but likely inflated by an opponent that collapsed defensively. At 1.69, the market strongly signals a Dutch recovery, and we expect them to adjust their progression play to break down Sweden. We are backing the favorites with our maximum allowed stake to rebuild our bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 32,
+        "totalBets": 33,
         "won": 19,
-        "lost": 13,
+        "lost": 14,
         "void": 0,
-        "totalStake": 55126.37,
-        "totalReturn": -6273.735999999999,
-        "roi": -0.1138064414544255,
-        "avgOdds": 1.6528125000000002,
+        "totalStake": 55867.33,
+        "totalReturn": -7014.695999999999,
+        "roi": -0.12555989341176674,
+        "avgOdds": 1.7542424242424244,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:Grok",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 561,
-            "odds": 2.35,
-            "reasoning": "Ghana is the stronger side and 2.35 offers decent value against Panama.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:Grok",
             "date": "2026-06-18T01:30:34.951Z",
@@ -5732,37 +5757,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:Grok",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 740.96,
+            "odds": 5,
+            "reasoning": "Sweden's dominant xG and shot metrics vs Tunisia contrast sharply with Netherlands' low-output draw vs Japan. Odds imply only 20% chance for away win, creating value on Sweden given current form signals.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 32,
-        "won": 16,
+        "totalBets": 33,
+        "won": 17,
         "lost": 16,
         "void": 0,
-        "totalStake": 27239.66999999999,
-        "totalReturn": -9158.1852,
-        "roi": -0.33620764128199804,
-        "avgOdds": 2.1371875000000005,
+        "totalStake": 27391.46999999999,
+        "totalReturn": -9053.4432,
+        "roi": -0.3305205306615528,
+        "avgOdds": 2.123636363636364,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:DeepSeek",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 150,
-            "odds": 2.35,
-            "reasoning": "Ghana is historically stronger and has home advantage. Panama is a solid underdog but I expect Ghana to edge it with their attacking quality. I'm staking a moderate amount given my recent losing streak, but this is the only match so I'm committing a reasonable portion to a likely home win at decent odds.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:DeepSeek",
             "date": "2026-06-18T01:30:34.951Z",
@@ -5915,37 +5940,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:DeepSeek",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 151.8,
+            "odds": 1.69,
+            "reasoning": "Netherlands are favorites with 59% implied probability at 1.69 odds. Despite drawing against Japan, they controlled possession and had better xG. Sweden thrashed Tunisia but Tunisia is far weaker. Odds heavily discount an away win. I'm backing the Dutch to assert home advantage and secure a win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 32,
-        "won": 19,
+        "totalBets": 33,
+        "won": 20,
         "lost": 13,
         "void": 0,
-        "totalStake": 25638.340000000004,
-        "totalReturn": -8487.780499999997,
-        "roi": -0.3310581145269154,
-        "avgOdds": 1.6875,
+        "totalStake": 25911.670000000006,
+        "totalReturn": -8299.182799999997,
+        "roi": -0.320287453491033,
+        "avgOdds": 1.6875757575757575,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:Mistral",
-            "date": "2026-06-17T22:26:08.157Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 214.13,
-            "odds": 2.35,
-            "reasoning": "Ghana has shown flashes of strong form recently, especially in home matches, and Panama has struggled in away fixtures. The odds for Ghana (2.35) are attractive given their attacking prowess and Panama's defensive vulnerabilities. I'm allocating the maximum allowed stake here to capitalize on this perceived value, as my recent wins suggest a hot streak worth pressing. The risk is mitigated by Ghana's home advantage and Panama's inconsistent performances in CONCACAF.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:Mistral",
             "date": "2026-06-18T01:30:34.951Z",
@@ -6098,37 +6123,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:Mistral",
+            "date": "2026-06-20T16:44:26.037Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 273.33,
+            "odds": 1.69,
+            "reasoning": "The Netherlands vs Sweden match presents a strong case for backing the Netherlands at home. While the Netherlands drew 2-2 with Japan, their xG (0.63) and shot dominance (10 shots, 6 on target) suggest they were unlucky not to win. Their possession (54.9%) and final-third receptions (156) indicate a controlled, attacking style. Sweden, on the other hand, had a convincing 5-1 win over Tunisia, but their xG (2.09) was inflated by a few high-quality chances, and their possession (47.4%) and final-third receptions (103) were less dominant than the Netherlands'. The odds (1.69 for Netherlands) are favorable given their underlying performance and home advantage. I'm allocating the maximum stake here due to the combination of strong metrics, favorable odds, and the need to recover from the recent Turkey-Paraguay loss.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 32,
-        "won": 19,
+        "totalBets": 33,
+        "won": 20,
         "lost": 13,
         "void": 0,
-        "totalStake": 25546.42999999999,
-        "totalReturn": -2277.5969000000005,
-        "roi": -0.08915519311308866,
-        "avgOdds": 1.65375,
+        "totalStake": 26318.66999999999,
+        "totalReturn": -1721.5841000000005,
+        "roi": -0.06541303568911351,
+        "avgOdds": 1.6557575757575758,
         "recentBets": [
-          {
-            "id": "87afdb85c977b451e1c00f5e3e632601:Baseline",
-            "date": "2026-06-17T20:13:13.595Z",
-            "matchId": "87afdb85c977b451e1c00f5e3e632601",
-            "match": "Ghana vs Panama",
-            "homeTeam": "Ghana",
-            "awayTeam": "Panama",
-            "kickoff": "2026-06-17T23:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 601.46,
-            "odds": 2.36,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "22083e7a8e5362c711bc05c1e1319a1f:Baseline",
             "date": "2026-06-17T23:03:13.216Z",
@@ -6281,6 +6306,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f0c518545b0096c68326daf25bffc1e:Baseline",
+            "date": "2026-06-20T14:09:33.940Z",
+            "matchId": "4f0c518545b0096c68326daf25bffc1e",
+            "match": "Netherlands vs Sweden",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-20T17:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 772.24,
+            "odds": 1.72,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-1"
           }
         ]
       }
