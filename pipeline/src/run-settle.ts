@@ -14,6 +14,9 @@ const now = new Date().toISOString();
 const names = [...MODELS.map((m) => m.name), BASELINE_NAME];
 const state = loadState(STATE_PATH, names, now);
 
+updatePerformance(state, names);
+saveState(STATE_PATH, state);
+
 const pending = state.bets.filter((b) => b.status === "pending");
 if (pending.length === 0) { console.log("[settle] no pending bets"); process.exit(0); }
 
