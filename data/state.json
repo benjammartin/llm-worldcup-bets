@@ -4734,6 +4734,12 @@
         "homeTeam": "Ecuador",
         "awayTeam": "Curaçao",
         "kickoff": "2026-06-21T00:00:00Z"
+      },
+      {
+        "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+        "homeTeam": "Tunisia",
+        "awayTeam": "Japan",
+        "kickoff": "2026-06-21T04:00:00Z"
       }
     ],
     "liveMatches": [],
