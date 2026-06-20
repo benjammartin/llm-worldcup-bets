@@ -5017,7 +5017,7 @@
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Claude",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5025,14 +5025,14 @@
       "kickoff": "2026-06-21T00:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1100,
+      "stake": 1241.72,
       "odds": 1.17,
-      "reasoning": "Ecuador at 1.17 is a heavy favorite against Curaçao, a significant gap in quality and depth. Despite Ecuador's narrow loss to Côte d'Ivoire, they showed strong attacking volume (12 shots, near-even possession) against a tougher opponent. Curaçao represents a much softer test. The 1.17 odds imply ~85% probability, which feels fair to slightly conservative for this mismatch. I'm staking solidly but not maxing out — low odds mean limited upside, so I size to a confident-but-measured level rather than overcommitting on a short-priced favorite.",
+      "reasoning": "Ecuador are heavy favorites at 1.17 against Curaçao, a significant gap in quality. Even though Ecuador lost a tight game to Côte d'Ivoire (xG 1.36 shows they created chances), they're a solid World Cup side facing a minnow. Low odds mean modest return, but this is about as safe as it gets. Sizing it firm but not maxing out given the thin value at 1.17.",
       "status": "pending"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:GPT-5.5",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5042,12 +5042,12 @@
       "pick": "draw",
       "stake": 44.87,
       "odds": 8.5,
-      "reasoning": "Ecuador are clearly the rightful favorite and the odds are the main signal here, but at this bankroll position I need upside more than a tiny favorite return. Ecuador’s report vs Côte d’Ivoire showed they were competitive but not dominant, with only 1 shot on target from 12 attempts, so I’ll take the high-variance route that Curaçao can keep this tight long enough for a draw.",
+      "reasoning": "Ecuador are rightly heavy favourites, but at 1.17 the upside is tiny for my current bankroll position. The FIFA report from Ecuador's 1-0 loss to Côte d'Ivoire showed they were competitive on xG but had only 1 shot on target and limited progressions, so a low-scoring match is plausible if Curaçao can stay organized. This is a strategic high-variance play: the draw at 8.5 is much less likely than Ecuador winning, but it offers the kind of payout I need to climb from a small bankroll.",
       "status": "pending"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Gemini",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5057,12 +5057,12 @@
       "pick": "home",
       "stake": 390.56,
       "odds": 1.17,
-      "reasoning": "Ecuador is heavily favored at 1.17 against Curaçao. Despite their narrow 1-0 loss to Côte d'Ivoire where they still generated 1.36 xG, Ecuador possesses vastly superior quality, physical dominance, and tournament experience compared to Curaçao. This is a crucial match for Ecuador to secure three points, and they are highly likely to dominate. We are maximizing our stake at the 25% bankroll limit ($530.05) on this high-probability outcome to steadily rebuild our bankroll.",
+      "reasoning": "Ecuador is the heavy favorite at 1.17. After a tough 1-0 loss to Côte d'Ivoire where they still managed 1.36 xG and 12 shots, Ecuador must win this match to stay in contention for the knockout stage. Curaçao is outclassed here, and Ecuador's motivation will be at an all-time high. I am placing the maximum allowed stake of $530.05 on a comfortable Ecuador victory to secure a highly probable return and continue rebuilding my bankroll.",
       "status": "pending"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Grok",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5072,12 +5072,12 @@
       "pick": "home",
       "stake": 643.73,
       "odds": 1.17,
-      "reasoning": "Ecuador heavily favored at 1.17 vs weak Curaçao side; recent loss to Ivory Coast irrelevant here as matchup heavily tilts home. Max stake given strong odds signal and single match available.",
+      "reasoning": "Ecuador remain far stronger than Curaçao despite the recent loss to Ivory Coast; 1.17 is the only realistic outcome given the talent gap and odds as primary signal.",
       "status": "pending"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:DeepSeek",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5087,12 +5087,12 @@
       "pick": "home",
       "stake": 185.15,
       "odds": 1.17,
-      "reasoning": "Ecuador is heavily favored against Curaçao. Despite a narrow loss to Ivory Coast, their underlying numbers (xG, possession) were competitive. Curaçao is a minnow with little attacking threat. Home win probability is high (~85%). I'm staking the maximum allowed to secure a modest return and gradually rebuild bankroll.",
+      "reasoning": "Ecuador are overwhelming favourites at 1.17 against minnows Curaçao. The post-match report from their 1-0 loss to Côte d'Ivoire shows Ecuador were competitive (xG 1.36 vs 1.88, more possession). The gulf in class is massive, and home advantage should secure a routine win. To grow the bankroll steadily I'm maxing the allowed 25% stake on the safest leg.",
       "status": "pending"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Mistral",
-      "date": "2026-06-20T22:46:50.676Z",
+      "date": "2026-06-20T23:19:10.410Z",
       "matchId": "681895f294b670b4c7b14495dfb583bc",
       "match": "Ecuador vs Curaçao",
       "homeTeam": "Ecuador",
@@ -5102,13 +5102,13 @@
       "pick": "home",
       "stake": 335,
       "odds": 1.17,
-      "reasoning": "Ecuador is the clear favorite here with odds of 1.17, reflecting their superior form and historical performance against Curaçao. The recent match report against Côte d'Ivoire shows Ecuador had more possession (49.9%), more shots (12), and better progression metrics (16 vs. 39 for Côte d'Ivoire, but still competitive). While they lost 1-0, their xG (1.36) was not far off Côte d'Ivoire's (1.88), and they created more chances in terms of shots and final-third receptions. Curaçao is a much weaker opponent, and Ecuador's home advantage in this tournament context makes them a safe bet. The high odds for draw (8.5) and away (16.74) suggest these are unlikely outcomes, so I'm allocating the maximum allowed stake to this low-risk, high-confidence pick.",
+      "reasoning": "Ecuador is coming off a narrow 1-0 loss to Ivory Coast, but the match stats show they were competitive: higher possession (49.9%), more final-third receptions (97), and nearly equal shots (12 vs. 15). Their xG (1.36) was respectable, and they created more progressions (16) than Ivory Coast (39, but likely inflated by counter-attacking opportunities). Curaçao is a much weaker opponent—ranked 80+ in FIFA rankings and not a traditional football powerhouse. The odds (home 1.17) reflect Ecuador's clear superiority, and while the payout is low, the risk is minimal. Given my recent losses, I need a safe, high-probability bet to rebuild my bankroll. This is a no-brainer.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-20T22:46:50.676Z",
+    "lastBetsRun": "2026-06-20T23:19:10.410Z",
     "lastSettleRun": "2026-06-20T22:26:15.806Z",
     "failures": [
       {
