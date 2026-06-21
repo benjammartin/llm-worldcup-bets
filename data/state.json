@@ -5692,11 +5692,116 @@
       "odds": 1.39,
       "reasoning": "Uruguay's dominance in their match against Saudi Arabia is striking—massive xG (1.50 vs 1.06), shots (27 vs 7), possession (63.3% vs 27.1%), and territorial control (final-third receptions 222 vs 60, line breaks 128 vs 54). While they only drew 1-1, the underlying metrics suggest they were unlucky not to win. Cape Verde, meanwhile, were thoroughly outplayed by Spain (xG 0.13 vs 2.26, shots 6 vs 27, possession 25.4% vs 65.7%) and barely threatened. The odds (1.39 for Uruguay) are generous given their superiority in key performance metrics. Betting max stake on Uruguay to win, as the qualitative and quantitative data align strongly in their favor.",
       "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:Claude",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 850,
+      "odds": 1.59,
+      "reasoning": "Egypt at 1.59 (~63% implied) is the clear value. They held Belgium to a 1-1 draw, outpressuring a top European side, while New Zealand was outplayed in line breaks and progressions even in their draw with Iran. Egypt is the more structured, disciplined side here. Sizing at a moderate level rather than max — single-match variance is real, NZ can score, and I'm protecting a diminished bankroll while still backing my read.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:GPT-5.5",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 129.07,
+      "odds": 6,
+      "reasoning": "Egypt are rightly favored by the market, but at 1.59 there is not enough upside for my position in the standings. New Zealand were genuinely competitive vs Iran: 14 shots, 8 on target, 1.47 xG, more line breaks and final-third receptions. Egypt’s draw with Belgium was impressive, especially their pressing, but they only produced 0.73 xG and were out-gained in the final third. At 6.00, New Zealand are the high-variance play with a plausible path if their attacking volume carries over.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:Gemini",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 289.75,
+      "odds": 1.59,
+      "reasoning": "Egypt showed impressive defensive resilience in their 1-1 draw against Belgium, conceding only 1.07 xG. In contrast, New Zealand's defense looked vulnerable against Iran, allowing 1.85 xG and 17 shots. Egypt's tactical discipline and superior individual quality should allow them to control the game and exploit New Zealand's defensive gaps. Backing Egypt to win at 1.59 represents the most reliable value on this slate.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:Grok",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 464.83,
+      "odds": 1.59,
+      "reasoning": "Egypt's underlying numbers vs Belgium (despite the draw) show organized defending and efficiency, while New Zealand's draw vs Iran featured higher xG concession and fewer line breaks. Away side at 1.59 offers the clearest edge over the inflated home/draw prices.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:DeepSeek",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 138.3,
+      "odds": 1.59,
+      "reasoning": "Egypt are clear favourites at 1.59. The FIFA reports show Egypt more than held their own against Belgium (1-1 draw) with an aggressive press (258 pressures, 68 in final third) and decent defensive organisation. New Zealand also fought hard against Iran (2-2) but lacked control in progression (22 vs 31). Egypt's superior quality and tournament pedigree should see them win. Stake moderate—odds are short and bankroll preservation matters.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:Mistral",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 249.48,
+      "odds": 1.59,
+      "reasoning": "Odds are the primary signal here, and Egypt's away odds (1.59) are the most attractive. The qualitative context from the FIFA reports shows Egypt held Belgium to a draw despite being outplayed in possession and final-third receptions, indicating defensive resilience. New Zealand's recent match against Iran was open and attacking (high xG, shots, and line breaks), suggesting they may struggle against a more organized defense like Egypt's. The market seems to underrate Egypt's ability to grind out results, making the away bet the best value play.",
+      "status": "pending"
+    },
+    {
+      "id": "c1ec9a65f4b4cf74477b368a7d6282de:Baseline",
+      "date": "2026-06-21T22:06:05.855Z",
+      "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+      "match": "New Zealand vs Egypt",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Egypt",
+      "kickoff": "2026-06-22T01:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 747.94,
+      "odds": 1.59,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T21:34:23.731Z",
+    "lastBetsRun": "2026-06-21T22:06:05.855Z",
     "lastSettleRun": "2026-06-21T21:28:40.012Z",
     "failures": [
       {
@@ -5752,12 +5857,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "852a3abe6d46820720febc0fedebff9a",
-        "homeTeam": "Uruguay",
-        "awayTeam": "Cape Verde",
-        "kickoff": "2026-06-21T22:00:00Z"
-      },
-      {
         "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
         "homeTeam": "New Zealand",
         "awayTeam": "Egypt",
@@ -5777,7 +5876,7 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "852a3abe6d46820720febc0fedebff9a",
+    "lastCyclePostKey": "c1ec9a65f4b4cf74477b368a7d6282de",
     "performance": {
       "Claude": {
         "model": "Claude",
