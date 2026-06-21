@@ -5398,11 +5398,116 @@
       "odds": 1.1,
       "reasoning": "Spain are overwhelming favorites with 1.1 odds implying ~91% win probability. Despite a goalless draw vs Cabo Verde, they created 2.26 xG and dominated possession. Saudi Arabia drew with Uruguay but were outplayed, registering only 27% possession and an xG of 1.06 from few shots. I expect Spain to convert their dominance into a win, so I'm placing the maximum allowed stake on the home team.",
       "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 1082.51,
+      "odds": 1.41,
+      "reasoning": "Belgium at 1.41 is a fair price for a clear favorite. Their post-match data vs Egypt shows total control: 181 final-third receptions to 96 and 106 line breaks to 78 — they create volume even when finishing is poor. Iran drew New Zealand and posted decent xG but lacks the quality to break down Belgium over 90 minutes. Solid value on the home side, sizing meaningfully but not maxing out given Iran's defensive resilience could keep it tight.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 95.67,
+      "odds": 1.41,
+      "reasoning": "Belgium are the clear market side and the reports support that direction: against Egypt they had a big territorial edge with 181 final-third receptions and 106 line breaks, while Iran’s 2-2 with New Zealand was more open and they allowed 8 shots on target. The price is short, but with only one match on the slate I’d rather press the most likely outcome at the max stake than get cute chasing a longshot.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 349.57,
+      "odds": 1.41,
+      "reasoning": "Belgium dominated Egypt in underlying performance metrics (181 final-third receptions, 106 line breaks) despite the frustrating 1-1 draw. Iran, on the other hand, showed significant defensive vulnerabilities in their 2-2 draw against New Zealand, allowing 8 shots on target and 1.47 xG. Belgium has the quality to exploit these defensive gaps. At odds of 1.41, a home win is the most secure bet on the board, and I am placing the maximum allowable stake of $474.39 to continue rebuilding my bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 570.06,
+      "odds": 1.41,
+      "reasoning": "Belgium remains the clear class above Iran on paper and the 1.41 price is still the sharpest signal. Iran's draw-heavy recent result vs New Zealand and Belgium's controlled if unspectacular showing vs Egypt do not change the underlying gap enough to justify the inflated 8.13 on the visitors. Stake at the 25% cap to reflect conviction while respecting bankroll constraints.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 166.07,
+      "odds": 1.41,
+      "reasoning": "Belgium heavily favored at home against Iran. Despite both teams drawing their opening matches, Belgium's underlying numbers are stronger and they have the quality to secure a win. Max stake to maximize return while staying within bankroll limits.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 300.27,
+      "odds": 1.41,
+      "reasoning": "Belgium vs Iran: The odds strongly favor Belgium (1.41), and the qualitative context from the FIFA Training Centre reports supports this. Belgium had a dominant performance against Egypt in their last match, with significantly higher final-third receptions (181 vs 96), line breaks (106 vs 78), and progressions (36 vs 22), despite the draw. Iran, while showing decent attacking metrics against New Zealand (xG 1.85), struggled defensively and only drew. Belgium's superior attacking metrics and Iran's defensive vulnerabilities make the home win a high-confidence pick. Allocating the maximum allowed stake here due to the strong probability signal and qualitative edge.",
+      "status": "pending"
+    },
+    {
+      "id": "5f92f257386ec5bf7c6e2498a21f3a61:Baseline",
+      "date": "2026-06-21T16:09:37.208Z",
+      "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+      "match": "Belgium vs Iran",
+      "homeTeam": "Belgium",
+      "awayTeam": "Iran",
+      "kickoff": "2026-06-21T19:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 821.91,
+      "odds": 1.41,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T15:43:16.922Z",
+    "lastBetsRun": "2026-06-21T16:09:37.208Z",
     "lastSettleRun": "2026-06-21T07:04:20.055Z",
     "failures": [
       {
@@ -5458,12 +5563,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "73529a242e319a86bf3d00ddb4accc37",
-        "homeTeam": "Spain",
-        "awayTeam": "Saudi Arabia",
-        "kickoff": "2026-06-21T16:00:00Z"
-      },
-      {
         "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
         "homeTeam": "Belgium",
         "awayTeam": "Iran",
@@ -5483,7 +5582,7 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "73529a242e319a86bf3d00ddb4accc37",
+    "lastCyclePostKey": "5f92f257386ec5bf7c6e2498a21f3a61",
     "performance": {
       "Claude": {
         "model": "Claude",
