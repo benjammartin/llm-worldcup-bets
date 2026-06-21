@@ -144,6 +144,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 5013.54
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 5486.54
       }
     ],
     "GPT-5.5": [
@@ -290,6 +294,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 597.61
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 552.74
       }
     ],
     "Gemini": [
@@ -436,6 +444,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 1729.64
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 1897.58
       }
     ],
     "Grok": [
@@ -582,6 +594,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 2601.48
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 2878.28
       }
     ],
     "DeepSeek": [
@@ -728,6 +744,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 836.73
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 916.34
       }
     ],
     "Mistral": [
@@ -874,6 +894,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 1501.75
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 1645.8
       }
     ],
     "Baseline": [
@@ -1020,6 +1044,10 @@
       {
         "t": "2026-06-21T03:06:05.750Z",
         "bankroll": 7821.26
+      },
+      {
+        "t": "2026-06-21T07:04:20.055Z",
+        "bankroll": 8219.12
       }
     ]
   },
@@ -5160,7 +5188,9 @@
       "stake": 864.91,
       "odds": 1.46,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:Claude",
@@ -5175,7 +5205,9 @@
       "stake": 1100,
       "odds": 1.43,
       "reasoning": "Japan are clearly the stronger side here. They held Netherlands to a 2-2 draw showing they can compete with elite teams, while Tunisia just got dismantled 5-1 by Sweden with a meager 0.34 xG. The away odds of 1.43 imply ~70% probability which feels fair, maybe even slightly generous. Japan's quality and Tunisia's defensive collapse against Sweden make this a confident pick. Staking solidly but respecting that 1.43 is a low-value line, so not maxing out.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:GPT-5.5",
@@ -5190,7 +5222,9 @@
       "stake": 44.87,
       "odds": 8.1,
       "reasoning": "Japan are clearly the more likely winner and the odds say that plainly, but my bankroll position is desperate enough that a small favorite win does almost nothing for my chances in the overall contest. Tunisia were poor against Sweden, yet 8.1 is the only outcome here with enough upside to materially change my tournament position. This is a strategic longshot bet, not a claim that Tunisia are the most likely result.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:Gemini",
@@ -5205,7 +5239,9 @@
       "stake": 390.56,
       "odds": 1.43,
       "reasoning": "Japan showed great resilience in their 2-2 draw against a strong Netherlands side, while Tunisia struggled significantly in their 5-1 loss to Sweden, allowing a high volume of chances. Japan's technical quality and organization should easily carry them to a victory here. Placing the maximum single-match stake of $530.05 on the away win at 1.43 odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:Grok",
@@ -5220,7 +5256,9 @@
       "stake": 643.73,
       "odds": 1.43,
       "reasoning": "Japan looked solid in the xG/possession battle vs Netherlands while Tunisia was completely outclassed by Sweden; 1.43 on the away side is the clear value pick here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:DeepSeek",
@@ -5235,7 +5273,9 @@
       "stake": 185.15,
       "odds": 1.43,
       "reasoning": "Japan held Netherlands to a draw and showed resilience despite low xG. Tunisia were crushed 5-1 by Sweden with terrible xG differential. Away odds 1.43 imply ~70% probability, reflecting the mismatch. Bet max allowed on away win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:Mistral",
@@ -5250,13 +5290,15 @@
       "stake": 335,
       "odds": 1.43,
       "reasoning": "Japan's recent performance against the Netherlands was solid despite the draw, with higher pressures and comparable line breaks/progressions. Tunisia was dismantled by Sweden, showing defensive frailty (5 goals conceded) and offensive impotence (only 0.34 xG). The odds heavily favor Japan (1.43), and the qualitative context aligns with this. Betting max stake on Japan to win away, as the value is clear and the risk is low given Tunisia's recent form and Japan's resilience even against a top side like the Netherlands.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-4"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-21T02:35:43.548Z",
-    "lastSettleRun": "2026-06-21T03:06:05.750Z",
+    "lastSettleRun": "2026-06-21T07:04:20.055Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5335,32 +5377,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 35,
-        "won": 21,
+        "totalBets": 36,
+        "won": 22,
         "lost": 14,
         "void": 0,
-        "totalStake": 33000.87,
-        "totalReturn": -4986.462799999999,
-        "roi": -0.15110094976283955,
-        "avgOdds": 1.6337142857142857,
+        "totalStake": 34100.87,
+        "totalReturn": -4513.462799999999,
+        "roi": -0.13235623607256938,
+        "avgOdds": 1.6280555555555556,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Claude",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 700,
-            "odds": 1.56,
-            "reasoning": "Switzerland were dominant vs Qatar (3.14 xG, 26 shots, 58.7% possession), while Bosnia limped to a 1-1 draw vs Canada with weak underlying numbers (0.76 xG, 29.9% possession). Home at 1.56 offers fair value on the clearly superior side. Sized firmly but with risk control given my current bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:Claude",
             "date": "2026-06-18T21:15:10.414Z",
@@ -5513,37 +5538,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:Claude",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1100,
+            "odds": 1.43,
+            "reasoning": "Japan are clearly the stronger side here. They held Netherlands to a 2-2 draw showing they can compete with elite teams, while Tunisia just got dismantled 5-1 by Sweden with a meager 0.34 xG. The away odds of 1.43 imply ~70% probability which feels fair, maybe even slightly generous. Japan's quality and Tunisia's defensive collapse against Sweden make this a confident pick. Staking solidly but respecting that 1.43 is a low-value line, so not maxing out.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 35,
+        "totalBets": 36,
         "won": 15,
-        "lost": 20,
+        "lost": 21,
         "void": 0,
-        "totalStake": 22293.35,
-        "totalReturn": -9402.412400000001,
-        "roi": -0.42175861411586874,
-        "avgOdds": 3.2605714285714296,
+        "totalStake": 22338.219999999998,
+        "totalReturn": -9447.282400000002,
+        "roi": -0.4229201073317392,
+        "avgOdds": 3.395000000000001,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:GPT-5.5",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 59.24,
-            "odds": 1.56,
-            "reasoning": "Odds make Switzerland the clear favorite and the match reports support that signal: Switzerland created a huge 3.14 xG and 26-shot performance vs Qatar despite only drawing, while Bosnia were heavily outplayed territorially and on xG by Canada. At 1.56 this is not a huge payout, but it looks like the strongest side and best probability spot, so I’m staking the maximum allowed.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
             "date": "2026-06-18T21:15:10.414Z",
@@ -5696,37 +5721,37 @@
             "status": "won",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:GPT-5.5",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 44.87,
+            "odds": 8.1,
+            "reasoning": "Japan are clearly the more likely winner and the odds say that plainly, but my bankroll position is desperate enough that a small favorite win does almost nothing for my chances in the overall contest. Tunisia were poor against Sweden, yet 8.1 is the only outcome here with enough upside to materially change my tournament position. This is a strategic longshot bet, not a claim that Tunisia are the most likely result.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 35,
-        "won": 20,
+        "totalBets": 36,
+        "won": 21,
         "lost": 15,
         "void": 0,
-        "totalStake": 27607.870000000006,
-        "totalReturn": -8270.367900000001,
-        "roi": -0.2995655912607528,
-        "avgOdds": 1.645142857142857,
+        "totalStake": 27998.430000000008,
+        "totalReturn": -8102.427100000001,
+        "roi": -0.28938862286206757,
+        "avgOdds": 1.6391666666666667,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Gemini",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 358.02,
-            "odds": 1.56,
-            "reasoning": "Switzerland's opening match against Qatar was a statistical anomaly; they completely dominated with 3.14 xG, 26 shots, and 245 final-third receptions, yet somehow only walked away with a 1-1 draw. Bosnia & Herzegovina, meanwhile, were heavily outplayed by Canada (1.49 vs 0.76 xG) but managed to snatch a point. Switzerland is by far the superior team here, and their underlying metrics suggest they will find their finishing boots in this matchup. At 1.56 odds, backing the Swiss is a high-conviction play, so I am putting the maximum allowed stake of $358.02 on a home win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
             "date": "2026-06-18T21:15:10.414Z",
@@ -5879,37 +5904,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:Gemini",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 390.56,
+            "odds": 1.43,
+            "reasoning": "Japan showed great resilience in their 2-2 draw against a strong Netherlands side, while Tunisia struggled significantly in their 5-1 loss to Sweden, allowing a high volume of chances. Japan's technical quality and organization should easily carry them to a victory here. Placing the maximum single-match stake of $530.05 on the away win at 1.43 odds.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 35,
-        "won": 20,
+        "totalBets": 36,
+        "won": 21,
         "lost": 15,
         "void": 0,
-        "totalStake": 57101.76,
-        "totalReturn": -7398.517999999998,
-        "roi": -0.1295672497660317,
-        "avgOdds": 1.7282857142857144,
+        "totalStake": 57745.490000000005,
+        "totalReturn": -7121.714099999998,
+        "roi": -0.12332935611075424,
+        "avgOdds": 1.72,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Grok",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 800,
-            "odds": 1.56,
-            "reasoning": "Switzerland dominated Qatar in their last match (xG 3.14-0.52) while Bosnia looked limited against Canada. Home side is clear value at 1.56.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:Grok",
             "date": "2026-06-18T21:15:10.414Z",
@@ -6062,37 +6087,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:Grok",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 643.73,
+            "odds": 1.43,
+            "reasoning": "Japan looked solid in the xG/possession battle vs Netherlands while Tunisia was completely outclassed by Sweden; 1.43 on the away side is the clear value pick here.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 35,
-        "won": 18,
+        "totalBets": 36,
+        "won": 19,
         "lost": 17,
         "void": 0,
-        "totalStake": 27747.749999999993,
-        "totalReturn": -9163.295999999998,
-        "roi": -0.3302356407276266,
-        "avgOdds": 2.076571428571429,
+        "totalStake": 27932.899999999994,
+        "totalReturn": -9083.681499999999,
+        "roi": -0.32519650662838445,
+        "avgOdds": 2.0586111111111114,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:DeepSeek",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 265.01,
-            "odds": 1.56,
-            "reasoning": "Switzerland massively underperformed their xG (3.14) in a dominant draw vs Qatar, while Bosnia were outplayed by Canada (0.76 xG, 29.9% possession) yet scraped a draw. The odds (1.56 home) reflect Switzerland's superior quality and I expect their finishing to regress positively against a limited Bosnia side. Max per-match stake applied to optimize upside given the single match slate.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
             "date": "2026-06-18T21:15:10.414Z",
@@ -6245,37 +6270,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:DeepSeek",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 185.15,
+            "odds": 1.43,
+            "reasoning": "Japan held Netherlands to a draw and showed resilience despite low xG. Tunisia were crushed 5-1 by Sweden with terrible xG differential. Away odds 1.43 imply ~70% probability, reflecting the mismatch. Bet max allowed on away win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 35,
-        "won": 21,
+        "totalBets": 36,
+        "won": 22,
         "lost": 14,
         "void": 0,
-        "totalStake": 26555.610000000004,
-        "totalReturn": -8498.249199999997,
-        "roi": -0.32001709619925867,
-        "avgOdds": 1.6654285714285713,
+        "totalStake": 26890.610000000004,
+        "totalReturn": -8354.199199999997,
+        "roi": -0.3106734730078639,
+        "avgOdds": 1.6588888888888886,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Mistral",
-            "date": "2026-06-18T18:23:21.873Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 305.67,
-            "odds": 1.56,
-            "reasoning": "Switzerland's dominant performance against Qatar in M08 is a strong qualitative signal: they outshot Qatar 26-6 (7-3 on target), generated 3.14 xG vs. 0.52, and completely controlled possession (58.7% vs. 28.8%) and territorial dominance (final-third receptions 245-41, line breaks 122-58). Bosnia & Herzegovina's draw with Canada in M03 was less impressive: they were out-possessed (29.9% vs. 52.8%), out-shot (8-13), and had far fewer final-third receptions (51 vs. 143). While Canada is a decent side, Switzerland's attacking and defensive metrics are elite, and the odds (1.56 for home) suggest the market hasn't fully priced in their superiority. The draw (4.2) and away (6.25) odds are less attractive given Switzerland's form and Bosnia's struggles. Allocating the maximum stake here to capitalize on the value.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:Mistral",
             "date": "2026-06-18T19:59:44.433Z",
@@ -6428,37 +6453,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:Mistral",
+            "date": "2026-06-21T02:35:43.548Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 335,
+            "odds": 1.43,
+            "reasoning": "Japan's recent performance against the Netherlands was solid despite the draw, with higher pressures and comparable line breaks/progressions. Tunisia was dismantled by Sweden, showing defensive frailty (5 goals conceded) and offensive impotence (only 0.34 xG). The odds heavily favor Japan (1.43), and the qualitative context aligns with this. Betting max stake on Japan to win away, as the value is clear and the risk is low given Tunisia's recent form and Japan's resilience even against a top side like the Netherlands.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 35,
-        "won": 21,
+        "totalBets": 36,
+        "won": 22,
         "lost": 14,
         "void": 0,
-        "totalStake": 27918.749999999993,
-        "totalReturn": -2178.7489000000005,
-        "roi": -0.07803891291694653,
-        "avgOdds": 1.6365714285714283,
+        "totalStake": 28783.659999999993,
+        "totalReturn": -1780.8903000000005,
+        "roi": -0.06187157227399159,
+        "avgOdds": 1.6316666666666666,
         "recentBets": [
-          {
-            "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Baseline",
-            "date": "2026-06-18T16:12:47.691Z",
-            "matchId": "289bc2e9f5adad8ae4d9a75a7c5461ad",
-            "match": "Switzerland vs Bosnia & Herzegovina",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-06-18T19:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 687.96,
-            "odds": 1.55,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-1"
-          },
           {
             "id": "fa9502285b257b03e62968d50d9229fc:Baseline",
             "date": "2026-06-18T19:12:43.109Z",
@@ -6611,6 +6636,23 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "dfc5202cf1b8ae002cf952cd04f235b9:Baseline",
+            "date": "2026-06-21T01:09:33.509Z",
+            "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+            "match": "Tunisia vs Japan",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-21T04:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 864.91,
+            "odds": 1.46,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-4"
           }
         ]
       }
