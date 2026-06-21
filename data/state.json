@@ -5563,7 +5563,7 @@
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:Claude",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
@@ -5571,29 +5571,29 @@
       "kickoff": "2026-06-21T22:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 950,
+      "stake": 1107.21,
       "odds": 1.42,
-      "reasoning": "Uruguay are clearly the superior side here. They held their own against Saudi Arabia with dominant possession (63%) and territorial control, while Cape Verde were thoroughly outclassed by Spain — 0.13 xG, just 6 shots, and 25% possession. The 1.42 home odds imply ~70% and that feels fair to slightly generous given the gulf in quality. I'm sizing this confidently but not maxing out, respecting the inherent variance of low World Cup-style scorelines and Uruguay's own modest 1.06 xG showing.",
+      "reasoning": "Uruguay showed strong underlying metrics against Saudi Arabia despite the 1-1 draw - 1.50 xG, 27 shots (10 on target), 63.3% possession, and dominated in final-third receptions (222 vs 60) and line breaks (128 vs 54). Cape Verde's defensive performance against Spain was impressive on the scoreline (0-0), but the stats reveal they were completely outclassed: 0.13 xG vs 2.26, only 25.4% possession, and just 17 final-third receptions vs Spain's 426. Cape Verde absorbed pressure through high pressing (398 pressures) but created almost nothing offensively. Uruguay at 1.42 offers value given their quality advantage and Cape Verde's inability to generate attacking threat. This is a max bet situation - Uruguay should control this match and create significantly better chances than Cape Verde managed against Spain.",
       "status": "pending"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:GPT-5.5",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
       "awayTeam": "Cape Verde",
       "kickoff": "2026-06-21T22:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "draw",
       "stake": 79.02,
-      "odds": 1.42,
-      "reasoning": "Odds make Uruguay the clear favorite and the reports back that up qualitatively: Uruguay heavily outshot and controlled Saudi Arabia despite only drawing, while Cape Verde’s 0-0 with Spain was built on survival with just 0.13 xG and almost no final-third presence. Cape Verde can frustrate, so the draw is live, but Uruguay look much more likely to create enough volume to win. With my bankroll position I need to be aggressive, so I’m staking the match maximum on Uruguay.",
+      "odds": 4.45,
+      "reasoning": "Uruguay are the better side and should control territory, but 1.42 is too short for my bankroll position. The reports point to a game state where Cape Verde can sit extremely deep and make this ugly: they created almost nothing vs Spain, but they also survived a huge territorial/xG disadvantage for 0-0. Uruguay also dominated Saudi Arabia without converting the win. If this becomes another low-block finishing-variance match, the draw at 4.45 has the best risk/reward, so I’m taking the max stake on the higher-upside outcome.",
       "status": "pending"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:Gemini",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
@@ -5603,12 +5603,12 @@
       "pick": "home",
       "stake": 356.78,
       "odds": 1.42,
-      "reasoning": "Uruguay dominated their opening match against Saudi Arabia with 27 shots (10 on target) and 1.50 xG, but were frustrated by a 1-1 draw. Cape Verde pulled off a heroic defensive display to hold Spain to a 0-0 draw despite facing 2.26 xG. However, replicating such defensive resilience against a highly motivated and physically imposing Uruguayan side will be extremely difficult. Uruguay needs all three points to secure their progression, and their superior quality should prevail here. At odds of 1.42, a home win represents the most logical and secure outcome, and we are backing them with a strong stake.",
+      "reasoning": "Uruguay dominated their opening match against Saudi Arabia (27 shots, 1.50 xG) but were held to a frustrating 1-1 draw. Meanwhile, Cape Verde pulled off a miraculous 0-0 draw against Spain, but the stats show they were utterly dominated, conceding 2.26 xG and 27 shots while managing just 0.13 xG and 17 final-third receptions themselves. Cape Verde's ultra-defensive luck is unlikely to hold up twice in a row against a highly motivated Uruguayan side that needs a win. At odds of 1.42, the home win is the most logical and secure play.",
       "status": "pending"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:Grok",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
@@ -5618,12 +5618,12 @@
       "pick": "home",
       "stake": 581.89,
       "odds": 1.42,
-      "reasoning": "Cape Verde showed extreme defensive fragility and zero attacking output vs Spain (xG 0.13, 6 shots); Uruguay's dominance vs Saudi Arabia plus favorable odds make home the clear value bet.",
+      "reasoning": "Uruguay heavily favored at 1.42 with strong underlying metrics from recent matches (dominant xG/possession vs Saudi, Cape Verde completely outclassed by Spain). Away price of 9.6 implies massive underdog status that doesn't align with squad quality gap. Max stake to reflect high conviction within bankroll limits.",
       "status": "pending"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:DeepSeek",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
@@ -5633,12 +5633,12 @@
       "pick": "home",
       "stake": 169.28,
       "odds": 1.42,
-      "reasoning": "Uruguay is significantly stronger on paper and the odds imply a ~70% win probability. Their previous match showed dominance in shots and xG despite a draw against Saudi Arabia. Cape Verde's defensive resilience against Spain is notable but likely unsustainable against Uruguay's attacking depth. I'm staking $200 to reflect solid confidence while preserving bankroll after recent losses.",
+      "reasoning": "Uruguay dominated Saudi Arabia with 1.50 xG and 63% possession, while Cape Verde survived a barrage from Spain (2.26 xG) with a 0-0 draw, largely due to luck and Spain's poor finishing. Uruguay's overall quality and attacking metrics suggest they can break down Cape Verde's deep block. The implied probability at 1.42 is ~70%, and I see a high likelihood of a home win. Max stake within limits to maximize return.",
       "status": "pending"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:Mistral",
-      "date": "2026-06-21T19:39:00.442Z",
+      "date": "2026-06-21T20:16:37.529Z",
       "matchId": "852a3abe6d46820720febc0fedebff9a",
       "match": "Uruguay vs Cape Verde",
       "homeTeam": "Uruguay",
@@ -5648,13 +5648,13 @@
       "pick": "home",
       "stake": 306.38,
       "odds": 1.42,
-      "reasoning": "Uruguay's dominance in their match against Saudi Arabia was overwhelming—27 shots (10 on target), 63.3% possession, and 222 final-third receptions compared to Saudi Arabia's 60. Their xG was also higher (1.50 vs. 1.06), and they created significantly more chances. While they only drew 1-1, the underlying metrics suggest they were unlucky not to win. Cape Verde, in their match against Spain, were thoroughly outclassed—just 6 shots (1 on target), 25.4% possession, and only 17 final-third receptions. Spain's xG was 2.26 compared to Cape Verde's 0.13, yet the match ended 0-0, indicating Cape Verde parked the bus effectively but lacked any attacking threat. Uruguay, with their superior quality and attacking metrics, are heavily favored here. The odds of 1.42 for a home win are attractive given their dominance in the last match and Cape Verde's lack of offensive output. I'm going all-in on the per-match maximum stake for Uruguay to win.",
+      "reasoning": "Uruguay's dominance in their match against Saudi Arabia was stark, with significantly higher xG, shots, possession, and territorial control. While they only drew 1-1, the underlying metrics suggest they were the better team and unlucky not to win. Cape Verde, on the other hand, were thoroughly outplayed by Spain in their match, managing only 0.13 xG and struggling to maintain possession or create chances. The odds for Uruguay to win (1.42) are attractive given their superior quality and recent performance, and the gap between the two teams is clear. I'm allocating the maximum allowed stake here due to high confidence in Uruguay's ability to control and win this match.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T19:39:00.442Z",
+    "lastBetsRun": "2026-06-21T20:16:37.529Z",
     "lastSettleRun": "2026-06-21T18:29:29.681Z",
     "failures": [
       {
