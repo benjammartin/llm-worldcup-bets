@@ -5416,7 +5416,7 @@
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5424,14 +5424,14 @@
       "kickoff": "2026-06-21T19:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1000,
-      "odds": 1.42,
-      "reasoning": "Belgium dominated underlying numbers vs Egypt (181-96 final-third receptions, 106-78 line breaks) despite the draw — a control profile that travels well against a lower-tempo Iran side that was outplayed territorially by New Zealand. 1.42 implies ~70% and the data supports a strong favorite. Sizable stake, but tempered by Belgium's shaky finishing efficiency.",
+      "stake": 950,
+      "odds": 1.41,
+      "reasoning": "Belgium at 1.41 implies ~71% and that looks fair to me. The post-match reports back it up: Belgium dominated final-third receptions (181 vs 96) and line breaks against Egypt, showing genuine territorial control even in a draw. Iran were held 2-2 by New Zealand with modest control numbers. Belgium's superior squad depth and creative volume should carry them at home. Solid value but not a lock against a disciplined Iran side, so I'm staking meaningfully without going to the cap.",
       "status": "pending"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5441,12 +5441,12 @@
       "pick": "draw",
       "stake": 95.67,
       "odds": 4.8,
-      "reasoning": "Belgium are rightly favored by the market, but at 1.42 the home price does not do much for my position. The post-match data points to Belgium controlling territory against Egypt without producing a dominant xG edge, while Iran were competitive and energetic in a 2-2 with New Zealand. Odds are still the primary signal, but 4.8 on the draw looks like the best risk/reward spot, and given my bankroll position I need upside rather than a small favorite payout.",
+      "reasoning": "Belgium are rightly favored by the market, but at my bankroll position I need upside rather than a small favorite return. The training reports also make the draw live: Belgium controlled territory vs Egypt but only generated 1.07 xG in a 1-1, while Iran were competitive in a 2-2 with New Zealand and produced 1.85 xG. Belgium should have more quality, but Iran can make this awkward enough that 4.8 on another draw is the best risk/reward shot here.",
       "status": "pending"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5455,13 +5455,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 349.57,
-      "odds": 1.42,
-      "reasoning": "Belgium dominated territory and possession in their opener against Egypt, recording 181 final-third receptions and 106 line breaks, but lacked the clinical edge to get the win. Iran showed defensive vulnerabilities in their 2-2 draw with New Zealand, conceding 1.47 xG. Belgium's squad depth and quality should shine through here as they look to secure their first three points of the tournament. At 1.42, the home win is a highly probable outcome, justifying the maximum stake.",
+      "odds": 1.41,
+      "reasoning": "Belgium showed superior control in their match against Egypt with 181 final-third receptions and 106 line breaks, despite the 1-1 draw. Iran struggled defensively against New Zealand, conceding 2 goals and 8 shots on target. Belgium's squad depth and tactical superiority make them strong favorites here. At 1.41 odds, a home win is the most reliable outcome to steadily rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5470,13 +5470,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 570.06,
-      "odds": 1.42,
-      "reasoning": "Belgium is the clear class above Iran per historical strength and the provided reports show them generating solid underlying numbers even in a draw vs Egypt. Odds of 1.42 offer value given the mismatch; max stake allocated due to highest conviction on the slate.",
+      "odds": 1.41,
+      "reasoning": "Belgium clearly the stronger side per recent xG/possession metrics vs Egypt; Iran only drew a weak NZ side. Odds heavily imply ~70% home win probability which aligns with talent gap. Max stake on this single match.",
       "status": "pending"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5485,13 +5485,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 166.07,
-      "odds": 1.42,
-      "reasoning": "Belgium are firm favorites at 1.42 despite a 1-1 draw with Egypt where they generated 1.07 xG and dominated final-third receptions 181-96. Iran's 2-2 draw with New Zealand showed defensive vulnerabilities (1.85 xG conceded). Belgium's class and tournament pedigree should prevail. I stake the max allowed to maximize recovery potential.",
+      "odds": 1.41,
+      "reasoning": "Belgium created huge final-third volume (181 receptions) and progressed well against Egypt, while Iran allowed 8 shots on target vs New Zealand and were out-possessed. The home odds imply ~71% probability; I’m backing Belgium to convert chances and stake the max allowed to maximize bankroll on this strong favorite.",
       "status": "pending"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
-      "date": "2026-06-21T16:22:51.787Z",
+      "date": "2026-06-21T17:03:54.234Z",
       "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
       "match": "Belgium vs Iran",
       "homeTeam": "Belgium",
@@ -5500,14 +5500,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 300.27,
-      "odds": 1.42,
-      "reasoning": "Belgium vs Iran: The odds strongly favor Belgium (1.42), and the qualitative context from their match against Egypt supports this. Belgium had superior possession (45.5% vs 38.1%), significantly more final-third receptions (181 vs 96), and line breaks (106 vs 78), indicating better attacking play. Iran's match against New Zealand showed they can create chances (xG 1.85) but also concede (xG 1.47), and their defensive metrics (e.g., pressures, line breaks) were weaker than Belgium's. The draw (4.8) and away (8) odds are too risky given Belgium's form and attacking prowess. Betting the maximum stake on Belgium reflects high confidence in their ability to win, especially as the odds are favorable and the qualitative data aligns with the probability signal.",
+      "odds": 1.41,
+      "reasoning": "Belgium's odds (1.41) are attractive given their superior underlying metrics in the Egypt match (M16), despite the draw. They had significantly more final-third receptions (181 vs. 96), line breaks (106 vs. 78), and progressions (36 vs. 22), indicating better attacking structure and creativity. Iran's recent match (M15) showed resilience but also defensive vulnerabilities (xG conceded 1.47, 14 shots faced with 8 on target). Belgium's possession and pressure stats suggest they can control the game, and the market's implied probability (~71%) for a Belgium win feels too high given their attacking dominance. Betting max stake on home to exploit this perceived overpricing.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T16:22:51.787Z",
+    "lastBetsRun": "2026-06-21T17:03:54.234Z",
     "lastSettleRun": "2026-06-21T07:04:20.055Z",
     "failures": [
       {
@@ -5579,6 +5579,12 @@
         "homeTeam": "New Zealand",
         "awayTeam": "Egypt",
         "kickoff": "2026-06-22T01:00:00Z"
+      },
+      {
+        "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+        "homeTeam": "Argentina",
+        "awayTeam": "Austria",
+        "kickoff": "2026-06-22T17:00:00Z"
       }
     ],
     "liveMatches": [],
