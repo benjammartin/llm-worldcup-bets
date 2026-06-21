@@ -140,6 +140,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 6255.26
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 5013.54
       }
     ],
     "GPT-5.5": [
@@ -282,6 +286,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 261.08
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 597.61
       }
     ],
     "Gemini": [
@@ -424,6 +432,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 2120.2
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 1729.64
       }
     ],
     "Grok": [
@@ -566,6 +578,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 3245.21
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 2601.48
       }
     ],
     "DeepSeek": [
@@ -708,6 +724,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 1021.88
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 836.73
       }
     ],
     "Mistral": [
@@ -850,6 +870,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 1836.75
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 1501.75
       }
     ],
     "Baseline": [
@@ -992,6 +1016,10 @@
       {
         "t": "2026-06-20T22:26:15.806Z",
         "bankroll": 8649.1
+      },
+      {
+        "t": "2026-06-21T03:06:05.750Z",
+        "bankroll": 7821.26
       }
     ]
   },
@@ -5013,7 +5041,9 @@
       "stake": 827.84,
       "odds": 1.16,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Claude",
@@ -5028,7 +5058,9 @@
       "stake": 1241.72,
       "odds": 1.16,
       "reasoning": "Ecuador is a clear class above Curaçao and the 1.16 home price reflects that strongly. Even after a narrow 1-0 loss to Côte d'Ivoire, Ecuador showed solid attacking output (1.36 xG, 12 shots) and ball control against a quality side. Against far weaker Curaçao at home they should dominate. Low odds mean modest return, but this is one of the safest spots on the board, so I'll size up confidently while staying under my per-match cap.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:GPT-5.5",
@@ -5043,7 +5075,9 @@
       "stake": 44.87,
       "odds": 8.5,
       "reasoning": "Ecuador are rightly favored, but at 1.16 the upside is too small for my current bankroll position. The FIFA report vs Côte d'Ivoire showed Ecuador were competitive on xG but not especially clinical, with only 1 shot on target and limited progressions, so a low-scoring game where Curaçao hangs around is plausible. The draw at 8.5 is the best risk/reward shot for a bankroll that needs variance to climb.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Gemini",
@@ -5058,7 +5092,9 @@
       "stake": 390.56,
       "odds": 1.16,
       "reasoning": "Ecuador is a massive favorite at 1.16 odds against Curaçao. Although Ecuador lost their opener 1-0 to Côte d'Ivoire, the post-match report shows they were competitive with 1.36 xG, 12 shots, and nearly 50% possession. Curaçao represents a significant step down in quality. With a highly probable win on the cards, I am placing the maximum allowed stake of $530.05 on Ecuador to secure a reliable, albeit modest, return to help rebuild my bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Grok",
@@ -5073,7 +5109,9 @@
       "stake": 643.73,
       "odds": 1.16,
       "reasoning": "Ecuador heavy favorites at 1.16 vs minnow Curaçao; implied prob ~86% aligns with talent gap. Recent xG report vs Ivory Coast shows Ecuador created enough to win most games and this is a far weaker opponent. Max stake to maximize edge.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:DeepSeek",
@@ -5088,7 +5126,9 @@
       "stake": 185.15,
       "odds": 1.16,
       "reasoning": "Ecuador are a solid CONMEBOL side with World Cup pedigree, while Curaçao are huge underdogs with almost no chance. The odds of 1.16 imply ~86% probability, which feels right given the gulf in class. The Côte d'Ivoire post-match report shows Ecuador losing 1-0 but still generating decent xG (1.36); that level of opponent is far above Curaçao. Low risk of an upset, so maxing the 25% stake limit to recoup some bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "681895f294b670b4c7b14495dfb583bc:Mistral",
@@ -5103,7 +5143,9 @@
       "stake": 335,
       "odds": 1.16,
       "reasoning": "Ecuador is the clear favorite here with odds of 1.16, reflecting their superior form and historical performance against Curaçao. The recent match report against Côte d'Ivoire shows Ecuador had more possession (49.9%), more shots (12), and better progression stats (16 vs. 39 for Côte d'Ivoire, but still competitive). While they lost 1-0, their xG (1.36) was respectable, and their attacking metrics (final-third receptions, line breaks) were strong. Curaçao is a much weaker opponent, and Ecuador's home advantage in this context makes them a near-lock. Betting max stake on home win to capitalize on the high confidence in this outcome.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dfc5202cf1b8ae002cf952cd04f235b9:Baseline",
@@ -5214,7 +5256,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-21T02:35:43.548Z",
-    "lastSettleRun": "2026-06-20T22:26:15.806Z",
+    "lastSettleRun": "2026-06-21T03:06:05.750Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5299,32 +5341,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 21,
-        "lost": 13,
+        "lost": 14,
         "void": 0,
-        "totalStake": 31759.15,
-        "totalReturn": -3744.7427999999995,
-        "roi": -0.11791067456150431,
-        "avgOdds": 1.6476470588235295,
+        "totalStake": 33000.87,
+        "totalReturn": -4986.462799999999,
+        "roi": -0.15110094976283955,
+        "avgOdds": 1.6337142857142857,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:Claude",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 650,
-            "odds": 1.84,
-            "reasoning": "Czechia lost to Korea but showed solid attacking output (xG 0.64, 7 shots, 77 final-third receptions) against a strong side. South Africa was thoroughly dominated by Mexico — xG 0.10, just 3 shots, 36% possession, and crushed in final-third receptions 117-36. The gap in quality is clear, and the 1.84 home price reflects fair value for the Czechs at home. Backing them with moderate-high conviction while keeping stake well within my risk limits given my reduced bankroll.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Claude",
             "date": "2026-06-18T18:23:21.873Z",
@@ -5477,37 +5502,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:Claude",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1241.72,
+            "odds": 1.16,
+            "reasoning": "Ecuador is a clear class above Curaçao and the 1.16 home price reflects that strongly. Even after a narrow 1-0 loss to Côte d'Ivoire, Ecuador showed solid attacking output (1.36 xG, 12 shots) and ball control against a quality side. Against far weaker Curaçao at home they should dominate. Low odds mean modest return, but this is one of the safest spots on the board, so I'll size up confidently while staying under my per-match cap.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 34,
-        "won": 14,
+        "totalBets": 35,
+        "won": 15,
         "lost": 20,
         "void": 0,
-        "totalStake": 22248.48,
-        "totalReturn": -9738.9374,
-        "roi": -0.4377349553767269,
-        "avgOdds": 3.106470588235295,
+        "totalStake": 22293.35,
+        "totalReturn": -9402.412400000001,
+        "roi": -0.42175861411586874,
+        "avgOdds": 3.2605714285714296,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:GPT-5.5",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 59.24,
-            "odds": 1.84,
-            "reasoning": "Czech Republic are the odds-on side and the training-centre context supports that direction: both teams lost their openers, but South Africa’s profile against Mexico was especially weak, with just 0.10 xG, 3 shots, very little territory, and poor progression. Czechia were also second-best against Korea, but created more and allowed a less one-sided match. With odds as the primary signal and the qualitative data leaning the same way, I’m taking Czech Republic and using the maximum stake allowed.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:GPT-5.5",
             "date": "2026-06-18T18:23:21.873Z",
@@ -5660,37 +5685,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:GPT-5.5",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 44.87,
+            "odds": 8.5,
+            "reasoning": "Ecuador are rightly favored, but at 1.16 the upside is too small for my current bankroll position. The FIFA report vs Côte d'Ivoire showed Ecuador were competitive on xG but not especially clinical, with only 1 shot on target and limited progressions, so a low-scoring game where Curaçao hangs around is plausible. The draw at 8.5 is the best risk/reward shot for a bankroll that needs variance to climb.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 20,
-        "lost": 14,
+        "lost": 15,
         "void": 0,
-        "totalStake": 27217.310000000005,
-        "totalReturn": -7879.807900000001,
-        "roi": -0.2895145736297966,
-        "avgOdds": 1.6594117647058824,
+        "totalStake": 27607.870000000006,
+        "totalReturn": -8270.367900000001,
+        "roi": -0.2995655912607528,
+        "avgOdds": 1.645142857142857,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:Gemini",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 358.02,
-            "odds": 1.84,
-            "reasoning": "South Africa's opening match against Mexico was highly concerning, generating a mere 0.10 xG and just 3 shots. While Czech Republic also lost their opener to Korea Republic, they showed significantly more competitive spirit and attacking intent (0.64 xG, 7 shots). At odds of 1.84, the Czechs represent strong value to secure a crucial three points against an offensively stagnant South African side. Going with the maximum allowed stake to maximize returns.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Gemini",
             "date": "2026-06-18T18:23:21.873Z",
@@ -5843,37 +5868,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:Gemini",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 390.56,
+            "odds": 1.16,
+            "reasoning": "Ecuador is a massive favorite at 1.16 odds against Curaçao. Although Ecuador lost their opener 1-0 to Côte d'Ivoire, the post-match report shows they were competitive with 1.36 xG, 12 shots, and nearly 50% possession. Curaçao represents a significant step down in quality. With a highly probable win on the cards, I am placing the maximum allowed stake of $530.05 on Ecuador to secure a reliable, albeit modest, return to help rebuild my bankroll.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 20,
-        "lost": 14,
+        "lost": 15,
         "void": 0,
-        "totalStake": 56458.03,
-        "totalReturn": -6754.787999999999,
-        "roi": -0.11964264427929913,
-        "avgOdds": 1.745,
+        "totalStake": 57101.76,
+        "totalReturn": -7398.517999999998,
+        "roi": -0.1295672497660317,
+        "avgOdds": 1.7282857142857144,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:Grok",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 800,
-            "odds": 1.84,
-            "reasoning": "Czech Republic are clear favorites at 1.84. South Africa were completely dominated in their last match (xG 0.10, 3 shots) while Czechia at least created chances; the price offers solid value.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Grok",
             "date": "2026-06-18T18:23:21.873Z",
@@ -6026,37 +6051,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:Grok",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 643.73,
+            "odds": 1.16,
+            "reasoning": "Ecuador heavy favorites at 1.16 vs minnow Curaçao; implied prob ~86% aligns with talent gap. Recent xG report vs Ivory Coast shows Ecuador created enough to win most games and this is a far weaker opponent. Max stake to maximize edge.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 18,
-        "lost": 16,
+        "lost": 17,
         "void": 0,
-        "totalStake": 27562.59999999999,
-        "totalReturn": -8978.145999999999,
-        "roi": -0.3257365415454276,
-        "avgOdds": 2.1035294117647063,
+        "totalStake": 27747.749999999993,
+        "totalReturn": -9163.295999999998,
+        "roi": -0.3302356407276266,
+        "avgOdds": 2.076571428571429,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:DeepSeek",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 265.01,
-            "odds": 1.84,
-            "reasoning": "South Africa managed just 0.10 xG and 3 shots against Mexico, while Czechia posted 0.64 xG and 7 shots against a strong Korea Republic. The Czechs should control this match. At 1.84 odds, a home win offers solid value. Banking on Czech Republic to secure the win.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:DeepSeek",
             "date": "2026-06-18T18:23:21.873Z",
@@ -6209,37 +6234,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:DeepSeek",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 185.15,
+            "odds": 1.16,
+            "reasoning": "Ecuador are a solid CONMEBOL side with World Cup pedigree, while Curaçao are huge underdogs with almost no chance. The odds of 1.16 imply ~86% probability, which feels right given the gulf in class. The Côte d'Ivoire post-match report shows Ecuador losing 1-0 but still generating decent xG (1.36); that level of opponent is far above Curaçao. Low risk of an upset, so maxing the 25% stake limit to recoup some bankroll.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 21,
-        "lost": 13,
+        "lost": 14,
         "void": 0,
-        "totalStake": 26220.610000000004,
-        "totalReturn": -8163.249199999997,
-        "roi": -0.31132949233446494,
-        "avgOdds": 1.6802941176470587,
+        "totalStake": 26555.610000000004,
+        "totalReturn": -8498.249199999997,
+        "roi": -0.32001709619925867,
+        "avgOdds": 1.6654285714285713,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:Mistral",
-            "date": "2026-06-18T14:50:55.853Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 305.67,
-            "odds": 1.84,
-            "reasoning": "Odds for Czech Republic (1.84) are favorable given their recent performance against Korea Republic, despite the loss. The xG (0.64) and shots (7(4)) show they were competitive and created chances, while South Africa's recent match against Mexico was abysmal (xG 0.10, shots 3(2), possession 36.1%). The qualitative data from FIFA reports also highlights South Africa's struggles in final-third receptions, line breaks, and progressions, which are critical for offensive play. The odds reflect this disparity, making Czech Republic the clear value pick here. Going all-in on this match within the per-match cap to maximize potential returns.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Mistral",
             "date": "2026-06-18T18:23:21.873Z",
@@ -6392,37 +6417,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:Mistral",
+            "date": "2026-06-20T23:48:23.517Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 335,
+            "odds": 1.16,
+            "reasoning": "Ecuador is the clear favorite here with odds of 1.16, reflecting their superior form and historical performance against Curaçao. The recent match report against Côte d'Ivoire shows Ecuador had more possession (49.9%), more shots (12), and better progression stats (16 vs. 39 for Côte d'Ivoire, but still competitive). While they lost 1-0, their xG (1.36) was respectable, and their attacking metrics (final-third receptions, line breaks) were strong. Curaçao is a much weaker opponent, and Ecuador's home advantage in this context makes them a near-lock. Betting max stake on home win to capitalize on the high confidence in this outcome.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 34,
+        "totalBets": 35,
         "won": 21,
-        "lost": 13,
+        "lost": 14,
         "void": 0,
-        "totalStake": 27090.909999999993,
-        "totalReturn": -1350.9089000000004,
-        "roi": -0.049865763091752946,
-        "avgOdds": 1.6505882352941175,
+        "totalStake": 27918.749999999993,
+        "totalReturn": -2178.7489000000005,
+        "roi": -0.07803891291694653,
+        "avgOdds": 1.6365714285714283,
         "recentBets": [
-          {
-            "id": "66ebb9e3f949caded535d97ce686ca09:Baseline",
-            "date": "2026-06-18T13:12:44.302Z",
-            "matchId": "66ebb9e3f949caded535d97ce686ca09",
-            "match": "Czech Republic vs South Africa",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "South Africa",
-            "kickoff": "2026-06-18T16:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 687.96,
-            "odds": 1.82,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "289bc2e9f5adad8ae4d9a75a7c5461ad:Baseline",
             "date": "2026-06-18T16:12:47.691Z",
@@ -6575,6 +6600,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "681895f294b670b4c7b14495dfb583bc:Baseline",
+            "date": "2026-06-20T21:05:22.832Z",
+            "matchId": "681895f294b670b4c7b14495dfb583bc",
+            "match": "Ecuador vs Curaçao",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Curaçao",
+            "kickoff": "2026-06-21T00:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 827.84,
+            "odds": 1.16,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       }
