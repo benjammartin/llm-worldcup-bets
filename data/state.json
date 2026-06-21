@@ -148,6 +148,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 5486.54
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 5594.79
       }
     ],
     "GPT-5.5": [
@@ -298,6 +302,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 552.74
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 457.07
       }
     ],
     "Gemini": [
@@ -448,6 +456,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 1897.58
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 1932.54
       }
     ],
     "Grok": [
@@ -598,6 +610,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 2878.28
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 2935.29
       }
     ],
     "DeepSeek": [
@@ -748,6 +764,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 916.34
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 932.95
       }
     ],
     "Mistral": [
@@ -898,6 +918,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 1645.8
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 1675.83
       }
     ],
     "Baseline": [
@@ -1048,6 +1072,10 @@
       {
         "t": "2026-06-21T07:04:20.055Z",
         "bankroll": 8219.12
+      },
+      {
+        "t": "2026-06-21T18:29:29.681Z",
+        "bankroll": 8301.31
       }
     ]
   },
@@ -5307,7 +5335,9 @@
       "stake": 821.91,
       "odds": 1.1,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Mistral",
@@ -5322,7 +5352,9 @@
       "stake": 300.27,
       "odds": 1.1,
       "reasoning": "Spain's post-match report against Cabo Verde is dominant in every metric: xG (2.26-0.13), shots (27-6), possession (65.7%-25.4%), and final-third receptions (426-17). While they didn't convert, the underlying numbers suggest they were in complete control. Saudi Arabia's draw against Uruguay was respectable but still showed massive gaps in possession (27.1%-63.3%) and line breaks (54-128). The odds (1.1 for Spain) are heavily in their favor, and while the payout is low, the probability of a Spain win is extremely high. Given my recent losses, I'm going all-in on the per-match max stake here to recover with a high-confidence bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Claude",
@@ -5337,7 +5369,9 @@
       "stake": 1082.51,
       "odds": 1.1,
       "reasoning": "Spain at 1.1 is about as close to a lock as this tournament offers. Their M14 report shows total dominance (2.26 xG, 27 shots, 65.7% possession) even in a frustrating 0-0, while Saudi Arabia got buried by Uruguay 7-27 in shots and held just 27% possession. A motivated Spain that couldn't finish against Cabo Verde will be hungry to put up goals here. The 1.1 price offers thin value, but at this confidence level it's worth maxing the stake to grind my bankroll up safely.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:GPT-5.5",
@@ -5352,7 +5386,9 @@
       "stake": 95.67,
       "odds": 10.95,
       "reasoning": "Spain are clearly the better side and the odds say that, but at 1.10 the favorite price does almost nothing for my bankroll position. The match reports also show a possible upset shape: Spain completely dominated Cabo Verde yet still finished 0-0, while Saudi Arabia were heavily outshot by Uruguay but survived with a 1-1. I need high-variance outcomes to climb, and the draw at 10.95 is the most plausible longshot compared with a Saudi win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Gemini",
@@ -5367,7 +5403,9 @@
       "stake": 349.57,
       "odds": 1.1,
       "reasoning": "Spain completely dominated Cabo Verde in their opening match with 2.26 xG and 27 shots, but somehow failed to find the net in a 0-0 draw. They cannot afford another slip-up if they want to progress comfortably. Saudi Arabia managed a draw against Uruguay but conceded 27 shots and 1.50 xG, showing significant defensive vulnerability. Spain's quality should shine through here as they adjust their finishing. Given my current bankroll situation, I must secure highly probable wins to rebuild my capital, even at low odds of 1.1. Going with the maximum allowed stake on a Spain victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Grok",
@@ -5382,7 +5420,9 @@
       "stake": 570.06,
       "odds": 1.1,
       "reasoning": "Spain's recent performance shows massive dominance (xG 2.26, 27 shots, 65% possession) vs a weak opponent, while Saudi Arabia was outclassed by Uruguay despite a draw. At 1.1 the implied probability aligns with the talent gap; bet home with solid stake given limited slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:DeepSeek",
@@ -5397,7 +5437,9 @@
       "stake": 166.07,
       "odds": 1.1,
       "reasoning": "Spain are overwhelming favorites with 1.1 odds implying ~91% win probability. Despite a goalless draw vs Cabo Verde, they created 2.26 xG and dominated possession. Saudi Arabia drew with Uruguay but were outplayed, registering only 27% possession and an xG of 1.06 from few shots. I expect Spain to convert their dominance into a win, so I'm placing the maximum allowed stake on the home team.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Baseline",
@@ -5508,7 +5550,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-21T18:20:08.149Z",
-    "lastSettleRun": "2026-06-21T07:04:20.055Z",
+    "lastSettleRun": "2026-06-21T18:29:29.681Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5592,32 +5634,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 36,
-        "won": 22,
+        "totalBets": 37,
+        "won": 23,
         "lost": 14,
         "void": 0,
-        "totalStake": 34100.87,
-        "totalReturn": -4513.462799999999,
-        "roi": -0.13235623607256938,
-        "avgOdds": 1.6280555555555556,
+        "totalStake": 35183.380000000005,
+        "totalReturn": -4405.211799999999,
+        "roi": -0.12520718020838245,
+        "avgOdds": 1.6137837837837838,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:Claude",
-            "date": "2026-06-18T21:15:10.414Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 700,
-            "odds": 1.3,
-            "reasoning": "Canada showed clear quality dominance in their opener vs Bosnia (xG 1.49-0.76, 52.8% possession, 143 final-third receptions to 51), while Qatar were thoroughly outclassed by Switzerland (xG 0.52-3.14, just 28.8% possession, 41 final-third receptions). The eye test and underlying numbers both point to a major gap, and 1.3 odds reflect that. Canada are clear favorites at home-style conditions. I'll size meaningfully but not max out at this low price since 1.3 leaves little margin and upsets happen.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Claude",
             "date": "2026-06-19T00:14:52.497Z",
@@ -5770,37 +5795,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:Claude",
+            "date": "2026-06-21T15:43:16.922Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1082.51,
+            "odds": 1.1,
+            "reasoning": "Spain at 1.1 is about as close to a lock as this tournament offers. Their M14 report shows total dominance (2.26 xG, 27 shots, 65.7% possession) even in a frustrating 0-0, while Saudi Arabia got buried by Uruguay 7-27 in shots and held just 27% possession. A motivated Spain that couldn't finish against Cabo Verde will be hungry to put up goals here. The 1.1 price offers thin value, but at this confidence level it's worth maxing the stake to grind my bankroll up safely.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 36,
+        "totalBets": 37,
         "won": 15,
-        "lost": 21,
+        "lost": 22,
         "void": 0,
-        "totalStake": 22338.219999999998,
-        "totalReturn": -9447.282400000002,
-        "roi": -0.4229201073317392,
-        "avgOdds": 3.395000000000001,
+        "totalStake": 22433.889999999996,
+        "totalReturn": -9542.952400000002,
+        "roi": -0.4253810819256047,
+        "avgOdds": 3.5991891891891896,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:GPT-5.5",
-            "date": "2026-06-18T21:15:10.414Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 44.43,
-            "odds": 1.3,
-            "reasoning": "Canada are a short price, but the matchup data supports them: they were clearly superior to Bosnia in chance quality and territory, while Qatar were heavily outplayed by Switzerland despite escaping with a draw. Odds remain the main guide, and 1.30 implies Canada should win this most of the time. With only one match listed and a small bankroll, I’m staking the per-match max on the strongest side rather than trying to force a longshot.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:GPT-5.5",
             "date": "2026-06-19T00:14:52.497Z",
@@ -5953,37 +5978,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:GPT-5.5",
+            "date": "2026-06-21T15:43:16.922Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 95.67,
+            "odds": 10.95,
+            "reasoning": "Spain are clearly the better side and the odds say that, but at 1.10 the favorite price does almost nothing for my bankroll position. The match reports also show a possible upset shape: Spain completely dominated Cabo Verde yet still finished 0-0, while Saudi Arabia were heavily outshot by Uruguay but survived with a 1-1. I need high-variance outcomes to climb, and the draw at 10.95 is the most plausible longshot compared with a Saudi win.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 36,
-        "won": 21,
+        "totalBets": 37,
+        "won": 22,
         "lost": 15,
         "void": 0,
-        "totalStake": 27998.430000000008,
-        "totalReturn": -8102.427100000001,
-        "roi": -0.28938862286206757,
-        "avgOdds": 1.6391666666666667,
+        "totalStake": 28348.000000000007,
+        "totalReturn": -8067.4701000000005,
+        "roi": -0.28458692323973467,
+        "avgOdds": 1.6245945945945945,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:Gemini",
-            "date": "2026-06-18T21:15:10.414Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 268.52,
-            "odds": 1.3,
-            "reasoning": "Canada put up solid underlying numbers in their 1-1 draw against Bosnia and Herzegovina (1.49 xG to 0.76), showing good control and attacking intent. Meanwhile, Qatar was extremely fortunate to escape with a 1-1 draw against Switzerland, conceding an overwhelming 3.14 xG and 26 shots while generating just 0.52 xG themselves. Canada's superior offensive efficiency and control should prove too much for a Qatar side that struggled heavily to contain Switzerland's attack. Backing Canada to secure the win at 1.3 odds with maximum conviction.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Gemini",
             "date": "2026-06-19T00:14:52.497Z",
@@ -6136,37 +6161,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:Gemini",
+            "date": "2026-06-21T15:43:16.922Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 349.57,
+            "odds": 1.1,
+            "reasoning": "Spain completely dominated Cabo Verde in their opening match with 2.26 xG and 27 shots, but somehow failed to find the net in a 0-0 draw. They cannot afford another slip-up if they want to progress comfortably. Saudi Arabia managed a draw against Uruguay but conceded 27 shots and 1.50 xG, showing significant defensive vulnerability. Spain's quality should shine through here as they adjust their finishing. Given my current bankroll situation, I must secure highly probable wins to rebuild my capital, even at low odds of 1.1. Going with the maximum allowed stake on a Spain victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 36,
-        "won": 21,
+        "totalBets": 37,
+        "won": 22,
         "lost": 15,
         "void": 0,
-        "totalStake": 57745.490000000005,
-        "totalReturn": -7121.714099999998,
-        "roi": -0.12332935611075424,
-        "avgOdds": 1.72,
+        "totalStake": 58315.55,
+        "totalReturn": -7064.708099999998,
+        "roi": -0.12114621400295457,
+        "avgOdds": 1.7032432432432434,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:Grok",
-            "date": "2026-06-18T21:15:10.414Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 600,
-            "odds": 1.3,
-            "reasoning": "Canada showed solid underlying numbers in their 1-1 draw vs Bosnia (xG 1.49-0.76, strong possession and progression metrics), while Qatar were completely dominated by Switzerland (xG 0.52-3.14, abysmal chance creation). The 1.3 odds on Canada at home look like clear value against a much weaker opponent.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Grok",
             "date": "2026-06-19T00:14:52.497Z",
@@ -6319,37 +6344,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:Grok",
+            "date": "2026-06-21T15:43:16.922Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 570.06,
+            "odds": 1.1,
+            "reasoning": "Spain's recent performance shows massive dominance (xG 2.26, 27 shots, 65% possession) vs a weak opponent, while Saudi Arabia was outclassed by Uruguay despite a draw. At 1.1 the implied probability aligns with the talent gap; bet home with solid stake given limited slate.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 36,
-        "won": 19,
+        "totalBets": 37,
+        "won": 20,
         "lost": 17,
         "void": 0,
-        "totalStake": 27932.899999999994,
-        "totalReturn": -9083.681499999999,
-        "roi": -0.32519650662838445,
-        "avgOdds": 2.0586111111111114,
+        "totalStake": 28098.969999999994,
+        "totalReturn": -9067.074499999999,
+        "roi": -0.32268351829266345,
+        "avgOdds": 2.0327027027027027,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:DeepSeek",
-            "date": "2026-06-18T21:15:10.414Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 198.76,
-            "odds": 1.3,
-            "reasoning": "Canada, as co-host, showed strong underlying numbers against Bosnia (1.49 xG, 143 final-third receptions, solid possession). Qatar were massively outplayed by Switzerland (0.52 vs 3.14 xG, 41 vs 245 final-third receptions) and extremely fortunate to draw. Home advantage and superior quality make Canada a clear favourite at 1.3. I’ll stake the full per-match max as a calculated rebuild step.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:DeepSeek",
             "date": "2026-06-19T00:14:52.497Z",
@@ -6502,37 +6527,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:DeepSeek",
+            "date": "2026-06-21T15:43:16.922Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 166.07,
+            "odds": 1.1,
+            "reasoning": "Spain are overwhelming favorites with 1.1 odds implying ~91% win probability. Despite a goalless draw vs Cabo Verde, they created 2.26 xG and dominated possession. Saudi Arabia drew with Uruguay but were outplayed, registering only 27% possession and an xG of 1.06 from few shots. I expect Spain to convert their dominance into a win, so I'm placing the maximum allowed stake on the home team.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 36,
-        "won": 22,
+        "totalBets": 37,
+        "won": 23,
         "lost": 14,
         "void": 0,
-        "totalStake": 26890.610000000004,
-        "totalReturn": -8354.199199999997,
-        "roi": -0.3106734730078639,
-        "avgOdds": 1.6588888888888886,
+        "totalStake": 27190.880000000005,
+        "totalReturn": -8324.172199999997,
+        "roi": -0.30613838904809243,
+        "avgOdds": 1.6437837837837836,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:Mistral",
-            "date": "2026-06-18T19:59:44.433Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 229.25,
-            "odds": 1.3,
-            "reasoning": "Canada's recent performance against Bosnia and Herzegovina shows strong offensive metrics (xG 1.49, 13 shots, 52.8% possession) despite the draw, indicating they are creating high-quality chances. Qatar, on the other hand, struggled against Switzerland, with significantly lower possession (28.8%), final-third receptions (41 vs. Canada's 143), and line breaks (58 vs. Canada's 84). The odds heavily favor Canada (1.3), and their attacking prowess combined with Qatar's defensive vulnerabilities makes them the clear favorite. Betting the maximum stake here to capitalize on the high probability of a Canada win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Mistral",
             "date": "2026-06-19T00:14:52.497Z",
@@ -6685,37 +6710,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:Mistral",
+            "date": "2026-06-21T14:59:59.610Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 300.27,
+            "odds": 1.1,
+            "reasoning": "Spain's post-match report against Cabo Verde is dominant in every metric: xG (2.26-0.13), shots (27-6), possession (65.7%-25.4%), and final-third receptions (426-17). While they didn't convert, the underlying numbers suggest they were in complete control. Saudi Arabia's draw against Uruguay was respectable but still showed massive gaps in possession (27.1%-63.3%) and line breaks (54-128). The odds (1.1 for Spain) are heavily in their favor, and while the payout is low, the probability of a Spain win is extremely high. Given my recent losses, I'm going all-in on the per-match max stake here to recover with a high-confidence bet.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 36,
-        "won": 22,
+        "totalBets": 37,
+        "won": 23,
         "lost": 14,
         "void": 0,
-        "totalStake": 28783.659999999993,
-        "totalReturn": -1780.8903000000005,
-        "roi": -0.06187157227399159,
-        "avgOdds": 1.6316666666666666,
+        "totalStake": 29605.569999999992,
+        "totalReturn": -1698.6993000000004,
+        "roi": -0.05737769277875754,
+        "avgOdds": 1.6172972972972972,
         "recentBets": [
-          {
-            "id": "fa9502285b257b03e62968d50d9229fc:Baseline",
-            "date": "2026-06-18T19:12:43.109Z",
-            "matchId": "fa9502285b257b03e62968d50d9229fc",
-            "match": "Canada vs Qatar",
-            "homeTeam": "Canada",
-            "awayTeam": "Qatar",
-            "kickoff": "2026-06-18T22:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 619.17,
-            "odds": 1.31,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "6-0"
-          },
           {
             "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Baseline",
             "date": "2026-06-18T22:04:33.720Z",
@@ -6868,6 +6893,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-4"
+          },
+          {
+            "id": "73529a242e319a86bf3d00ddb4accc37:Baseline",
+            "date": "2026-06-21T13:09:36.657Z",
+            "matchId": "73529a242e319a86bf3d00ddb4accc37",
+            "match": "Spain vs Saudi Arabia",
+            "homeTeam": "Spain",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-21T16:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 821.91,
+            "odds": 1.1,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       }
