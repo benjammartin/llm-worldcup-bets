@@ -5311,7 +5311,7 @@
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Claude",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
@@ -5321,12 +5321,12 @@
       "pick": "home",
       "stake": 1082.51,
       "odds": 1.1,
-      "reasoning": "Spain at 1.1 is a near-lock against Saudi Arabia. Spain dominated Cabo Verde with 2.26 xG and 27 shots while Saudi managed only 1.06 xG against Uruguay despite playing scrappy. The talent gap is enormous. Low odds mean modest return, but the implied ~91% probability looks fair if not conservative. Maxing my stake at the per-match cap on a high-confidence favorite is the smart play here.",
+      "reasoning": "Spain at 1.1 is about as close to a lock as this tournament offers. Their xG of 2.26 vs Cabo Verde and 27 shots show a dominant side that simply lacked finishing luck. Saudi Arabia held Uruguay to a draw but were heavily outshot (7 vs 27) and out-possessed (27% vs 63%) — they survived on chaos, not control. Against an elite, possession-heavy Spain, that survival is unlikely. The implied 91% home probability looks fair and even slightly conservative. Max stake on the safest bet available; I need to grind the bankroll back up and this is the lowest-variance way to do it.",
       "status": "pending"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:GPT-5.5",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
@@ -5336,12 +5336,12 @@
       "pick": "draw",
       "stake": 95.67,
       "odds": 11.5,
-      "reasoning": "Spain are clearly the better side and the 1.10 price says that loudly, but at my bankroll position a max bet to win 10% is not useful. The qualitative reports leave just enough room for a low-scoring upset script: Spain absolutely dominated Cabo Verde but still finished 0-0, while Saudi Arabia were badly outplayed by Uruguay yet survived for a 1-1 with heavy defensive/pressing effort. I do not think Saudi win often enough at 26, but the draw at 11.5 is the viable high-upside angle if Spain run into another bunker/finishing-variance game.",
+      "reasoning": "Spain are clearly the likeliest winner, and the market says that loudly at 1.10. But at my current bankroll I need upside, not a tiny favorite payout. The training reports show Spain massively dominated Cabo Verde but still drew 0-0, while Saudi Arabia were outplayed by Uruguay yet managed a 1-1. That combination points to a low-probability but live stalemate scenario. At 11.5, the draw gives me the best mix of plausible upset path and meaningful bankroll growth, so I’m taking the max stake.",
       "status": "pending"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Gemini",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
@@ -5351,12 +5351,12 @@
       "pick": "home",
       "stake": 349.57,
       "odds": 1.1,
-      "reasoning": "Spain completely dominated Cabo Verde in their opener with 2.26 xG, 27 shots, and over 65% possession, but were extremely unlucky to finish 0-0. Meanwhile, Saudi Arabia was heavily outplayed by Uruguay, conceding 27 shots and 1.50 xG, yet somehow escaped with a draw. Spain will be highly motivated to correct their finishing issues, and their overwhelming territorial dominance should break down a fragile Saudi defense. We back the heavy favorites with the maximum allowed stake to secure a highly probable return and continue rebuilding our bankroll.",
+      "reasoning": "Spain dominated Cabo Verde in their opening match with 2.26 xG and 27 shots but failed to find the back of the net in a frustrating 0-0 draw. Saudi Arabia managed a 1-1 draw against Uruguay despite conceding 27 shots and 1.50 xG. Spain's superior technical quality and overwhelming possession (65.7% in M14) should eventually break down a Saudi defense that allowed significant chances to Uruguay. While the 1.1 odds offer low yields, Spain is heavily favored to secure three crucial points here to keep their qualification hopes on track. We back Spain with the maximum allowed stake to secure a highly probable, albeit small, return.",
       "status": "pending"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Grok",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
@@ -5366,27 +5366,27 @@
       "pick": "home",
       "stake": 570.06,
       "odds": 1.1,
-      "reasoning": "Spain dominated Cabo Verde with elite xG and chance creation while Saudi Arabia was thoroughly outplayed by Uruguay despite a lucky draw. The 1.1 odds reflect near-certainty and my metrics confirm it, so maximum conviction stake on the home side.",
+      "reasoning": "Spain dominates possession, xG, and chance creation in recent data while Saudi Arabia shows low output and poor progression metrics; 1.1 reflects the mismatch accurately so max stake on home.",
       "status": "pending"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:DeepSeek",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
       "awayTeam": "Saudi Arabia",
       "kickoff": "2026-06-21T16:00:00Z",
       "model": "DeepSeek",
-      "pick": "draw",
-      "stake": 166.07,
-      "odds": 11.5,
-      "reasoning": "Spain was held to a 0-0 draw by Cabo Verde despite 2.26 xG, while Saudi Arabia drew with Uruguay. The low odds on Spain (1.10) offer no value, and the draw at 11.50 presents a worthwhile punt given the Spanish finishing woes and Saudi resilience.",
+      "pick": "home",
+      "stake": 50,
+      "odds": 1.1,
+      "reasoning": "Spain overwhelmingly dominated their opener with 2.26 xG and 27 shots despite a goalless draw, while Saudi Arabia were outshot 27-7 and held 27% possession against Uruguay. The odds heavily imply a Spain win, and although the return is low, this is the least negative expected value among all outcomes. We stake cautiously to limit risk, preserving bankroll for future matches given our current deficit.",
       "status": "pending"
     },
     {
       "id": "73529a242e319a86bf3d00ddb4accc37:Mistral",
-      "date": "2026-06-21T14:05:20.278Z",
+      "date": "2026-06-21T14:59:59.610Z",
       "matchId": "73529a242e319a86bf3d00ddb4accc37",
       "match": "Spain vs Saudi Arabia",
       "homeTeam": "Spain",
@@ -5396,13 +5396,13 @@
       "pick": "home",
       "stake": 300.27,
       "odds": 1.1,
-      "reasoning": "Spain's post-match report against Cabo Verde shows complete dominance in every attacking metric: xG (2.26 vs 0.13), shots (27 vs 6), possession (65.7% vs 25.4%), and final-third receptions (426 vs 17). Saudi Arabia's report against Uruguay, while respectable, shows they were outmatched in possession (27.1% vs 63.3%) and attacking metrics (e.g., line breaks 54 vs 128). The odds heavily favor Spain (1.1), and the qualitative data supports this. Given my recent losses, I'm going all-in on this high-confidence pick to recover, capping at the max stake allowed.",
+      "reasoning": "Spain's post-match report against Cabo Verde is dominant in every metric: xG (2.26-0.13), shots (27-6), possession (65.7%-25.4%), and final-third receptions (426-17). While they didn't convert, the underlying numbers suggest they were in complete control. Saudi Arabia's draw against Uruguay was respectable but still showed massive gaps in possession (27.1%-63.3%) and line breaks (54-128). The odds (1.1 for Spain) are heavily in their favor, and while the payout is low, the probability of a Spain win is extremely high. Given my recent losses, I'm going all-in on the per-match max stake here to recover with a high-confidence bet.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T14:05:20.278Z",
+    "lastBetsRun": "2026-06-21T14:59:59.610Z",
     "lastSettleRun": "2026-06-21T07:04:20.055Z",
     "failures": [
       {
