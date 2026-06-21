@@ -152,6 +152,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 5594.79
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 4644.79
       }
     ],
     "GPT-5.5": [
@@ -306,6 +310,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 457.07
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 741.54
       }
     ],
     "Gemini": [
@@ -460,6 +468,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 1932.54
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 1575.76
       }
     ],
     "Grok": [
@@ -614,6 +626,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 2935.29
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 2353.4
       }
     ],
     "DeepSeek": [
@@ -768,6 +784,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 932.95
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 763.67
       }
     ],
     "Mistral": [
@@ -922,6 +942,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 1675.83
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 1369.45
       }
     ],
     "Baseline": [
@@ -1076,6 +1100,10 @@
       {
         "t": "2026-06-21T18:29:29.681Z",
         "bankroll": 8301.31
+      },
+      {
+        "t": "2026-06-21T21:28:40.012Z",
+        "bankroll": 7479.4
       }
     ]
   },
@@ -5454,7 +5482,9 @@
       "stake": 821.91,
       "odds": 1.41,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
@@ -5469,7 +5499,9 @@
       "stake": 950,
       "odds": 1.42,
       "reasoning": "Belgium are clear favourites at 1.42 (~70% implied). The FIFA reports back this up qualitatively: Belgium controlled their match vs Egypt with 181 final-third receptions and 106 line breaks despite a draw, showing strong territorial dominance. Iran salvaged a 2-2 against New Zealand but conceded heavily and their underlying numbers were modest. Belgium's quality gap is significant. At 1.42 the value is thin, so I'm sizing moderately rather than maxing out, but this is a solid favourite play.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
@@ -5484,7 +5516,9 @@
       "stake": 79.02,
       "odds": 4.6,
       "reasoning": "Belgium are rightly favored by the market, but at 1.42 the upside is too small for my current bankroll position. The training reports show both teams coming off draws, and Belgium’s edge over Egypt was more territorial than clinical while Iran created and conceded plenty against New Zealand. I need variance to climb the standings, and the draw at 4.6 is the best balance of plausibility and payout.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
@@ -5499,7 +5533,9 @@
       "stake": 356.78,
       "odds": 1.42,
       "reasoning": "Belgium dominated their previous match against Egypt in terms of territory and progression (181 final-third receptions and 106 line breaks) but struggled with finishing in a 1-1 draw. Iran conceded 8 shots on target to New Zealand in their 2-2 draw, showcasing defensive vulnerabilities. Belgium's superior squad depth and tactical progression should see them break through Iran and secure the three points. At 1.42, the price is fair for a high-conviction home win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
@@ -5514,7 +5550,9 @@
       "stake": 581.89,
       "odds": 1.42,
       "reasoning": "Belgium are the clear class above Iran based on squad quality and recent form. Their 1-1 draw vs Egypt showed solid underlying numbers (xG edge and better chance creation), while Iran's 2-2 with New Zealand was against weaker opposition. The 1.42 price is still attractive given the probability gap; max stake at the 25% cap reflects high conviction on the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
@@ -5529,7 +5567,9 @@
       "stake": 169.28,
       "odds": 1.42,
       "reasoning": "Belgium are heavy favorites for good reason: they possess a deeper, more talented squad. Iran showed fight in their 2-2 draw with New Zealand (xG 1.85-1.47) but Belgium's 1-1 with Egypt (xG 1.07-0.73) flattered the opposition. Expect Belgium to control possession and create high-quality chances. At 1.42, the bet offers solid value with a high probability. I'm allocating max stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
@@ -5544,7 +5584,9 @@
       "stake": 306.38,
       "odds": 1.42,
       "reasoning": "Belgium vs Iran: The odds strongly favor Belgium (1.42), and the qualitative context from their recent match against Egypt supports this. Belgium had superior possession (45.5% vs 38.1%), far more final-third receptions (181 vs 96), and more line breaks (106 vs 78), indicating better offensive organization and creativity. Iran's recent match against New Zealand showed they can create chances (xG 1.85) but also conceded a relatively high xG (1.47) and struggled with defensive organization (only 43.3% possession, fewer progressions). Belgium's attacking metrics are significantly stronger, and the odds reflect this. Given my current bankroll and the need to maximize potential returns, I'm allocating the maximum allowed stake to this high-confidence pick.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "852a3abe6d46820720febc0fedebff9a:Baseline",
@@ -5655,7 +5697,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-21T20:51:56.727Z",
-    "lastSettleRun": "2026-06-21T18:29:29.681Z",
+    "lastSettleRun": "2026-06-21T21:28:40.012Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -5733,32 +5775,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 23,
-        "lost": 14,
+        "lost": 15,
         "void": 0,
-        "totalStake": 35183.380000000005,
-        "totalReturn": -4405.211799999999,
-        "roi": -0.12520718020838245,
-        "avgOdds": 1.6137837837837838,
+        "totalStake": 36133.380000000005,
+        "totalReturn": -5355.211799999999,
+        "roi": -0.14820677722371942,
+        "avgOdds": 1.608684210526316,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Claude",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 600,
-            "odds": 2.05,
-            "reasoning": "Mexico's xG profile (1.78) and territorial dominance came against a defensively organized RSA, while Korea's similar numbers came vs a leakier Czechia. Home advantage plus the better all-around control makes 2.05 fair value. Backing Mexico with solid but not maximal conviction given Korea's real attacking quality.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:Claude",
             "date": "2026-06-19T18:10:55.716Z",
@@ -5911,37 +5936,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 950,
+            "odds": 1.42,
+            "reasoning": "Belgium are clear favourites at 1.42 (~70% implied). The FIFA reports back this up qualitatively: Belgium controlled their match vs Egypt with 181 final-third receptions and 106 line breaks despite a draw, showing strong territorial dominance. Iran salvaged a 2-2 against New Zealand but conceded heavily and their underlying numbers were modest. Belgium's quality gap is significant. At 1.42 the value is thin, so I'm sizing moderately rather than maxing out, but this is a solid favourite play.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 37,
-        "won": 15,
+        "totalBets": 38,
+        "won": 16,
         "lost": 22,
         "void": 0,
-        "totalStake": 22433.889999999996,
-        "totalReturn": -9542.952400000002,
-        "roi": -0.4253810819256047,
-        "avgOdds": 3.5991891891891896,
+        "totalStake": 22512.909999999996,
+        "totalReturn": -9258.480400000002,
+        "roi": -0.41125205049014113,
+        "avgOdds": 3.625526315789474,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:GPT-5.5",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 52.73,
-            "odds": 2.05,
-            "reasoning": "Odds are the primary signal and Mexico at 2.05 implies roughly a 47% no-vig win chance, which looks acceptable given home/host conditions. Both teams opened well by the FIFA reports, but Mexico’s 2-0 over South Africa was extremely controlled, with 1.78-0.10 xG and a huge final-third/territory edge. Korea were also strong, so this is not a lock, but at my bankroll position I need upside and Mexico home is the best side of the price. Max stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:GPT-5.5",
             "date": "2026-06-19T18:10:55.716Z",
@@ -6094,37 +6119,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 79.02,
+            "odds": 4.6,
+            "reasoning": "Belgium are rightly favored by the market, but at 1.42 the upside is too small for my current bankroll position. The training reports show both teams coming off draws, and Belgium’s edge over Egypt was more territorial than clinical while Iran created and conceded plenty against New Zealand. I need variance to climb the standings, and the draw at 4.6 is the best balance of plausibility and payout.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 22,
-        "lost": 15,
+        "lost": 16,
         "void": 0,
-        "totalStake": 28348.000000000007,
-        "totalReturn": -8067.4701000000005,
-        "roi": -0.28458692323973467,
-        "avgOdds": 1.6245945945945945,
+        "totalStake": 28704.780000000006,
+        "totalReturn": -8424.250100000001,
+        "roi": -0.2934789989681161,
+        "avgOdds": 1.6192105263157894,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Gemini",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 318.64,
-            "odds": 2.05,
-            "reasoning": "Mexico's opening match was a masterclass in defensive control, limiting South Africa to a mere 0.10 xG and 3 shots while generating 1.78 xG of their own. South Korea also impressed against Czechia, but Mexico's defensive structural integrity and superior ball progression (117 final-third receptions) make them the clear favorites. At 2.05, there is clear value on a Mexico victory, and we are placing our maximum limit-capped stake of $318.64 to continue our recent upward trajectory.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:Gemini",
             "date": "2026-06-19T18:10:55.716Z",
@@ -6277,37 +6302,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 356.78,
+            "odds": 1.42,
+            "reasoning": "Belgium dominated their previous match against Egypt in terms of territory and progression (181 final-third receptions and 106 line breaks) but struggled with finishing in a 1-1 draw. Iran conceded 8 shots on target to New Zealand in their 2-2 draw, showcasing defensive vulnerabilities. Belgium's superior squad depth and tactical progression should see them break through Iran and secure the three points. At 1.42, the price is fair for a high-conviction home win.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 22,
-        "lost": 15,
+        "lost": 16,
         "void": 0,
-        "totalStake": 58315.55,
-        "totalReturn": -7064.708099999998,
-        "roi": -0.12114621400295457,
-        "avgOdds": 1.7032432432432434,
+        "totalStake": 58897.44,
+        "totalReturn": -7646.598099999998,
+        "roi": -0.12982904010768545,
+        "avgOdds": 1.6957894736842105,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Grok",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 700,
-            "odds": 2.05,
-            "reasoning": "Mexico showed superior dominance vs South Africa (xG 1.78-0.10, high line breaks/progressions) while Korea's win over Czechia was less convincing statistically. Home edge at 2.05 offers solid value given Mexico's possession and chance creation advantage.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:Grok",
             "date": "2026-06-19T18:10:55.716Z",
@@ -6460,37 +6485,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 581.89,
+            "odds": 1.42,
+            "reasoning": "Belgium are the clear class above Iran based on squad quality and recent form. Their 1-1 draw vs Egypt showed solid underlying numbers (xG edge and better chance creation), while Iran's 2-2 with New Zealand was against weaker opposition. The 1.42 price is still attractive given the probability gap; max stake at the 25% cap reflects high conviction on the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 20,
-        "lost": 17,
+        "lost": 18,
         "void": 0,
-        "totalStake": 28098.969999999994,
-        "totalReturn": -9067.074499999999,
-        "roi": -0.32268351829266345,
-        "avgOdds": 2.0327027027027027,
+        "totalStake": 28268.249999999993,
+        "totalReturn": -9236.3545,
+        "roi": -0.3267395222555341,
+        "avgOdds": 2.0165789473684215,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:DeepSeek",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "DeepSeek",
-            "pick": "draw",
-            "stake": 200,
-            "odds": 3.32,
-            "reasoning": "Both Mexico and South Korea impressed in their openers. Mexico dominated a weak South Africa side with high possession and defensive solidity (xGA 0.10). South Korea beat Czechia with strong underlying numbers (xG 1.77) and controlled possession. This match pairs two in-form teams; Mexico's defense will be tested more severely, while Korea's attack faces a stouter backline. I expect a fairly even, tactical battle. The draw odds at 3.32 offer a decent price given the likelihood of a stalemate. Stake $200 (well under max $235.86) reflects a moderate conviction.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:DeepSeek",
             "date": "2026-06-19T18:10:55.716Z",
@@ -6643,37 +6668,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 169.28,
+            "odds": 1.42,
+            "reasoning": "Belgium are heavy favorites for good reason: they possess a deeper, more talented squad. Iran showed fight in their 2-2 draw with New Zealand (xG 1.85-1.47) but Belgium's 1-1 with Egypt (xG 1.07-0.73) flattered the opposition. Expect Belgium to control possession and create high-quality chances. At 1.42, the bet offers solid value with a high probability. I'm allocating max stake.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 23,
-        "lost": 14,
+        "lost": 15,
         "void": 0,
-        "totalStake": 27190.880000000005,
-        "totalReturn": -8324.172199999997,
-        "roi": -0.30613838904809243,
-        "avgOdds": 1.6437837837837836,
+        "totalStake": 27497.260000000006,
+        "totalReturn": -8630.552199999996,
+        "roi": -0.31386953463726913,
+        "avgOdds": 1.637894736842105,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Mistral",
-            "date": "2026-06-19T00:14:52.497Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 272.05,
-            "odds": 2.05,
-            "reasoning": "Mexico's recent performance against South Africa was dominant, with a high xG (1.78), significantly more shots (16 vs 3), and superior possession (57.1%). Their final-third receptions (117 vs 36) and line breaks (105 vs 57) suggest a strong attacking presence. South Korea, while competitive against Czechia, showed vulnerabilities in defense (xG 0.64 conceded) and were out-possessed (55.8% vs 34.2%). Mexico's home odds (2.05) are attractive given their form and the qualitative edge in key metrics. Betting the maximum stake here to capitalize on Mexico's likely dominance.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:Mistral",
             "date": "2026-06-19T18:10:55.716Z",
@@ -6826,37 +6851,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
+            "date": "2026-06-21T18:57:29.362Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:05:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 306.38,
+            "odds": 1.42,
+            "reasoning": "Belgium vs Iran: The odds strongly favor Belgium (1.42), and the qualitative context from their recent match against Egypt supports this. Belgium had superior possession (45.5% vs 38.1%), far more final-third receptions (181 vs 96), and more line breaks (106 vs 78), indicating better offensive organization and creativity. Iran's recent match against New Zealand showed they can create chances (xG 1.85) but also conceded a relatively high xG (1.47) and struggled with defensive organization (only 43.3% possession, fewer progressions). Belgium's attacking metrics are significantly stronger, and the odds reflect this. Given my current bankroll and the need to maximize potential returns, I'm allocating the maximum allowed stake to this high-confidence pick.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 37,
+        "totalBets": 38,
         "won": 23,
-        "lost": 14,
+        "lost": 15,
         "void": 0,
-        "totalStake": 29605.569999999992,
-        "totalReturn": -1698.6993000000004,
-        "roi": -0.05737769277875754,
-        "avgOdds": 1.6172972972972972,
+        "totalStake": 30427.479999999992,
+        "totalReturn": -2520.6093000000005,
+        "roi": -0.08283989669864218,
+        "avgOdds": 1.6118421052631577,
         "recentBets": [
-          {
-            "id": "0f2aeae6ac8e77223848d23a4ca86b0d:Baseline",
-            "date": "2026-06-18T22:04:33.720Z",
-            "matchId": "0f2aeae6ac8e77223848d23a4ca86b0d",
-            "match": "Mexico vs South Korea",
-            "homeTeam": "Mexico",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-19T01:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 657.01,
-            "odds": 2.07,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "065b3573e875f8d23803357f73e5b99e:Baseline",
             "date": "2026-06-19T16:11:43.649Z",
@@ -7009,6 +7034,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Baseline",
+            "date": "2026-06-21T16:09:37.208Z",
+            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
+            "match": "Belgium vs Iran",
+            "homeTeam": "Belgium",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-21T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 821.91,
+            "odds": 1.41,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       }
