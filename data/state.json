@@ -5104,11 +5104,116 @@
       "odds": 1.16,
       "reasoning": "Ecuador is the clear favorite here with odds of 1.16, reflecting their superior form and historical performance against Curaçao. The recent match report against Côte d'Ivoire shows Ecuador had more possession (49.9%), more shots (12), and better progression stats (16 vs. 39 for Côte d'Ivoire, but still competitive). While they lost 1-0, their xG (1.36) was respectable, and their attacking metrics (final-third receptions, line breaks) were strong. Curaçao is a much weaker opponent, and Ecuador's home advantage in this context makes them a near-lock. Betting max stake on home win to capitalize on the high confidence in this outcome.",
       "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:Claude",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "Claude",
+      "pick": "away",
+      "stake": 1100,
+      "odds": 1.46,
+      "reasoning": "Japan looks the class of this group. They held Netherlands to a 2-2 draw and generated solid attacking output, while Tunisia just got dismantled 5-1 by Sweden with a feeble 0.34 xG. The 1.46 away price implies roughly 68% and matches the eye test — Japan are clearly stronger and Tunisia's defense is leaking. I'm avoiding maximum exposure since favorites can stumble in single matches, but this is a confident, value-priced play on the better side.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:GPT-5.5",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "away",
+      "stake": 44.87,
+      "odds": 1.46,
+      "reasoning": "Japan are the clear market favorite at 1.46 and the odds remain my primary signal. The training reports support the direction: Japan earned a draw with the Netherlands while Tunisia were beaten heavily by Sweden, with both Tunisia and Japan producing similar low xG in their openers but Tunisia conceding far more. I need to rebuild bankroll, so I’m staking the maximum allowed on the most likely outcome rather than chasing the long Tunisia price.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:Gemini",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "Gemini",
+      "pick": "away",
+      "stake": 390.56,
+      "odds": 1.46,
+      "reasoning": "Tunisia suffered a heavy 5-1 defeat against Sweden in their opening match, showcasing significant defensive vulnerabilities (allowing 2.09 xG). Meanwhile, Japan secured a highly respectable 2-2 draw against a strong Netherlands side. Given the contrast in quality and recent performance, Japan is the clear favorite here. Backing Japan to take all three points with the maximum allowable stake.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:Grok",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "Grok",
+      "pick": "away",
+      "stake": 643.73,
+      "odds": 1.46,
+      "reasoning": "Odds are the primary signal and Japan at 1.46 is the clear favorite. Recent xG reports show both sides struggling, but that does not override the market-implied probability here.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:DeepSeek",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "DeepSeek",
+      "pick": "away",
+      "stake": 185.15,
+      "odds": 1.46,
+      "reasoning": "Odds heavily favor Japan (1.46). Post-match reports show Japan drew 2-2 with Netherlands (xG 0.63-0.34) while Tunisia lost 5-1 to Sweden (xG 2.09-0.34). The gulf in quality is clear. Japan should win comfortably.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:Mistral",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "Mistral",
+      "pick": "away",
+      "stake": 335,
+      "odds": 1.46,
+      "reasoning": "Japan's odds (1.46) are highly favorable given their recent performance and underlying metrics. In their last match against the Netherlands (a stronger team than Tunisia), Japan had 37.4% possession but still managed 9 shots (2 on target) and an xG of 0.34, which is respectable for an away side. Their pressing intensity was also higher (316 pressures vs. Netherlands' 194), showing their ability to disrupt even top-tier opponents. Against Sweden, Tunisia were outclassed in xG (0.34 vs. Sweden's 2.09) and struggled to create chances (only 6 shots, 2 on target). While Tunisia had slightly more line breaks (76 vs. Sweden's 71), their overall play was unconvincing. Japan's odds imply a ~68% win probability, but their recent performances suggest they are undervalued. Betting the maximum stake on Japan to win, as the value here is too good to pass up.",
+      "status": "pending"
+    },
+    {
+      "id": "dfc5202cf1b8ae002cf952cd04f235b9:Baseline",
+      "date": "2026-06-21T01:09:33.509Z",
+      "matchId": "dfc5202cf1b8ae002cf952cd04f235b9",
+      "match": "Tunisia vs Japan",
+      "homeTeam": "Tunisia",
+      "awayTeam": "Japan",
+      "kickoff": "2026-06-21T04:00:00Z",
+      "model": "Baseline",
+      "pick": "away",
+      "stake": 864.91,
+      "odds": 1.46,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-20T23:48:23.517Z",
+    "lastBetsRun": "2026-06-21T01:09:33.509Z",
     "lastSettleRun": "2026-06-20T22:26:15.806Z",
     "failures": [
       {
@@ -5181,10 +5286,16 @@
         "homeTeam": "Uruguay",
         "awayTeam": "Cape Verde",
         "kickoff": "2026-06-21T22:00:00Z"
+      },
+      {
+        "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
+        "homeTeam": "New Zealand",
+        "awayTeam": "Egypt",
+        "kickoff": "2026-06-22T01:00:00Z"
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "681895f294b670b4c7b14495dfb583bc",
+    "lastCyclePostKey": "dfc5202cf1b8ae002cf952cd04f235b9",
     "performance": {
       "Claude": {
         "model": "Claude",
