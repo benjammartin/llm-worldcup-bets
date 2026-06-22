@@ -6112,11 +6112,116 @@
       "odds": 1.08,
       "reasoning": "France's recent performance against Senegal (3-1 win) shows dominance in key metrics: higher xG (1.62 vs 0.39), more shots on target (8 vs 2), and superior line breaks (118 vs 101). While possession was close, France's efficiency in final-third play and defensive pressure (277 pressures) suggests a well-rounded team. Iraq, on the other hand, struggled against Norway (1-4 loss), with lower possession (34.7%), fewer final-third receptions (72 vs 101), and a high xG conceded (2.41). The odds (1.08 for France) are extremely low, but the qualitative and quantitative data overwhelmingly favor France. Given the bankroll constraints, I'm allocating the maximum allowed stake to this high-confidence pick, as the risk-reward ratio is still favorable despite the low odds.",
       "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:Claude",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 850,
+      "odds": 2.34,
+      "reasoning": "Norway's data is genuinely impressive — they dominated Iraq with 2.41 xG, 57% possession, and 116 line breaks, looking like the more controlled, efficient side. Senegal meanwhile got outplayed by France (0.39 xG, only 6 shots, 2 on target) and looked toothless going forward. At 2.34 home odds for the statistically superior team that also gets to play at home, there's clear value. Sizing moderately given Senegal's individual quality can still bite, but the underlying numbers favor Norway.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 87.69,
+      "odds": 2.34,
+      "reasoning": "Odds make Norway the favorite and the available match reports support that direction: Norway created 2.41 xG and controlled territory/progression in a 4-1 win over Iraq, while Senegal generated only 0.39 xG in a 3-1 loss to France. With my bankroll badly behind, I need to press the strongest side rather than play conservatively, so I am taking Norway at 2.34 for the maximum allowed stake.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 348.22,
+      "odds": 2.34,
+      "reasoning": "Norway enters this match in high spirits after a dominant 4-1 victory over Iraq, where they accumulated 2.41 xG and controlled 57.2% of possession. In contrast, Senegal struggled heavily in their opener against France, managing just 0.39 xG and showing limited creativity in the final third. At odds of 2.34, Norway represents excellent value to secure another win and put themselves in a strong position in the group.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:Grok",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 564.11,
+      "odds": 2.34,
+      "reasoning": "Norway's dominant performance vs Iraq (xG 2.41, strong possession and progression metrics) contrasts sharply with Senegal's weak showing vs France (xG 0.39). At 2.34, home offers solid value over the away side's 3.17.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 165.47,
+      "odds": 2.34,
+      "reasoning": "Norway dominated Iraq in M18 with 2.41 xG and 57% possession, while Senegal managed only 0.39 xG against France. Norway's attacking form suggests they can win. Home odds 2.34 offer good value.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 299.3,
+      "odds": 2.34,
+      "reasoning": "Norway's recent performance against Iraq was dominant, with a significantly higher xG (2.41 vs. 1.20), more shots on target (5 vs. 1), and superior possession (57.2% vs. 34.7%). Their final-third receptions, line breaks, and progressions were all markedly better, indicating strong offensive and transitional play. Senegal, on the other hand, struggled against France, managing only 0.39 xG and 2 shots on target despite France's relatively balanced possession. The odds for Norway (2.34) are attractive given their recent form and Senegal's defensive vulnerabilities. Betting the maximum stake here to capitalize on Norway's momentum and the value in the home odds.",
+      "status": "pending"
+    },
+    {
+      "id": "3f48473742ca0fd2a85930554720c75e:Baseline",
+      "date": "2026-06-22T21:09:12.243Z",
+      "matchId": "3f48473742ca0fd2a85930554720c75e",
+      "match": "Norway vs Senegal",
+      "homeTeam": "Norway",
+      "awayTeam": "Senegal",
+      "kickoff": "2026-06-23T00:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 829.3,
+      "odds": 2.34,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-22T20:19:25.101Z",
+    "lastBetsRun": "2026-06-22T21:09:12.243Z",
     "lastSettleRun": "2026-06-22T19:19:14.765Z",
     "failures": [
       {
@@ -6172,12 +6277,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-        "homeTeam": "France",
-        "awayTeam": "Iraq",
-        "kickoff": "2026-06-22T21:00:00Z"
-      },
-      {
         "matchId": "3f48473742ca0fd2a85930554720c75e",
         "homeTeam": "Norway",
         "awayTeam": "Senegal",
@@ -6203,7 +6302,7 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "7ad7a0ce2ef2618bb59b066da5642f70",
+    "lastCyclePostKey": "3f48473742ca0fd2a85930554720c75e",
     "performance": {
       "Claude": {
         "model": "Claude",
