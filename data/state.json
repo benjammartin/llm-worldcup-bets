@@ -6130,7 +6130,7 @@
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Claude",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6139,13 +6139,13 @@
       "model": "Claude",
       "pick": "home",
       "stake": 850,
-      "odds": 2.33,
-      "reasoning": "Norway dominated Iraq 4-1 with 2.41 xG, 57% possession, and superior line breaks/progressions. Senegal underwhelmed vs France with just 0.39 xG. At 2.33 (~43% implied), Norway at home offers value given their stronger underlying attacking numbers. Moderate stake reflecting confidence tempered by Senegal's individual quality and World Cup variance.",
+      "odds": 2.34,
+      "reasoning": "Norway looked excellent in their 4-1 demolition of Iraq: 2.41 xG, 57% possession, 116 line breaks and clear control. Senegal got outplayed by France (0.39 xG) and looks limited offensively. At 2.34, home odds offer genuine value with Norway as the sharper, more in-form side. Solid stake but not maxed given single-match risk.",
       "status": "pending"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6154,13 +6154,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 87.69,
-      "odds": 2.33,
-      "reasoning": "Norway are the market favorite at 2.33 and the FIFA report context supports that signal: they beat Iraq 4-1 with a 2.41 xG output, 57% possession, and strong progression/line-break numbers. Senegal struggled to create against France, only 0.39 xG and 2 shots on target. Given my low bankroll I need to press edges rather than play small, so I’m taking Norway to win at the max stake.",
+      "odds": 2.34,
+      "reasoning": "Odds make Norway only a modest favorite, but the available match reports lean their way: Norway created 2.41 xG with strong possession/progression numbers in a 4-1 win, while Senegal generated just 0.39 xG in their loss to France. Opponent quality matters, so I am not treating the reports as definitive, but at 2.34 Norway looks like the best value on the board. Given my low bankroll and need to climb, I am staking the match maximum.",
       "status": "pending"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6169,13 +6169,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 348.22,
-      "odds": 2.33,
-      "reasoning": "Norway displayed highly efficient attacking metrics in their 4-1 win over Iraq, generating 2.41 xG, 116 line breaks, and 101 final-third receptions. Meanwhile, Senegal struggled significantly in their 3-1 loss to France, managing only 0.39 xG and 2 shots on target. At odds of 2.33, Norway offers immense value given their offensive potency and Senegal's defensive vulnerabilities. We will place the maximum allowed stake on a Norway victory.",
+      "odds": 2.34,
+      "reasoning": "Norway enters this matchup in excellent form following a dominant 4-1 win over Iraq where they generated 2.41 xG and demonstrated clinical finishing. In contrast, Senegal struggled to create high-quality chances against France, managing only 0.39 xG and conceding three goals. With Norway's attacking potency and the favorable 2.34 odds, they represent the best value to take all three points.",
       "status": "pending"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Grok",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6184,13 +6184,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 564.11,
-      "odds": 2.33,
-      "reasoning": "Norway dominated Iraq with superior xG, possession, and progression metrics while Senegal were thoroughly outclassed by France in every key area. The 2.33 price on Norway offers solid value against a weaker opponent.",
+      "odds": 2.34,
+      "reasoning": "Norway dominated Iraq with superior xG (2.41), possession, and progressive metrics while Senegal were thoroughly outclassed by France (xG 0.39). At 2.34 the home side offers the best value on the slate.",
       "status": "pending"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6199,13 +6199,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 165.47,
-      "odds": 2.33,
-      "reasoning": "Norway's dominant 4-1 win over Iraq (xG 2.41, 101 final-third receptions, 116 line breaks) shows excellent attacking form. Senegal, coming off a 3-1 loss to France with only 0.39 xG and fewer shots on target, appears vulnerable defensively. Home odds of 2.33 offer value given the contrasting performances.",
+      "odds": 2.34,
+      "reasoning": "Norway looked strong beating Iraq 4-1 with 2.41 xG and 57% possession, while Senegal were thoroughly outplayed by France (1.62-0.39 xG). Home advantage and market odds favor Norway at 2.34, so I'm backing them with max allowed stake to aggressively rebuild the bankroll.",
       "status": "pending"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
-      "date": "2026-06-22T22:55:23.792Z",
+      "date": "2026-06-22T23:35:46.205Z",
       "matchId": "3f48473742ca0fd2a85930554720c75e",
       "match": "Norway vs Senegal",
       "homeTeam": "Norway",
@@ -6214,14 +6214,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 299.3,
-      "odds": 2.33,
-      "reasoning": "Norway's recent performance against Iraq was dominant, with a 4-1 win, significantly higher xG (2.41 vs. 1.20), and superior possession (57.2%). They also had more shots on target (5 vs. 1), final-third receptions, line breaks, and progressions. Senegal, on the other hand, struggled against France, managing only 0.39 xG and losing 3-1 despite France's relatively modest possession (49.4%). Norway's attacking prowess and Senegal's defensive vulnerabilities make Norway the clear favorite here. The odds (2.33 for home) are favorable given Norway's form and Senegal's recent struggles. Betting the maximum allowed stake to reflect high confidence in this pick.",
+      "odds": 2.34,
+      "reasoning": "Norway's recent performance against Iraq was dominant, with a 4-1 win, high xG (2.41), and superior possession (57.2%). They also had more final-third receptions, line breaks, and progressions, indicating strong offensive play. Senegal, while competitive against France (a much stronger side), had a low xG (0.39) and struggled to create high-quality chances. The odds favor Norway (2.34) over Senegal (3.05), aligning with the qualitative and quantitative data. Given Norway's form and the value in the odds, I'm placing the maximum allowed stake on Norway to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-22T22:55:23.792Z",
+    "lastBetsRun": "2026-06-22T23:35:46.205Z",
     "lastSettleRun": "2026-06-22T19:19:14.765Z",
     "failures": [
       {
@@ -6299,6 +6299,12 @@
         "homeTeam": "England",
         "awayTeam": "Ghana",
         "kickoff": "2026-06-23T20:00:00Z"
+      },
+      {
+        "matchId": "c1bc8c26480cd42b89a0de5329581314",
+        "homeTeam": "Panama",
+        "awayTeam": "Croatia",
+        "kickoff": "2026-06-23T23:00:00Z"
       }
     ],
     "liveMatches": [],
