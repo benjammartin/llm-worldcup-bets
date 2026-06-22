@@ -5857,7 +5857,7 @@
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Claude",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5865,14 +5865,14 @@
       "kickoff": "2026-06-22T17:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1000,
-      "odds": 1.46,
-      "reasoning": "Argentina at 1.46 implies ~68% and that feels fair-to-generous. They dismantled Algeria 3-0 with a 1.58-0.41 xG edge and clinical finishing. Austria looked decent beating Jordan 3-1, but Jordan is a far weaker opponent than Argentina. The quality gap is significant — Argentina's depth, individual talent, and tournament pedigree make them clear favorites. I'm staking solidly but not maxing out since 7.82 on the away side reminds me upsets happen and a single match shouldn't risk too much of my bankroll.",
+      "stake": 900,
+      "odds": 1.45,
+      "reasoning": "Argentina at 1.45 implies ~69% and that feels fair-to-generous. They dismantled Algeria 3-0 with a 1.58 xG and dominant defensive pressures, conceding just 0.41 xG. Austria looked decent beating Jordan but the gap in pedigree and depth is significant. Argentina's defense was elite in their last outing and they should control this match. The away price of 7.93 confirms the market sees Austria as heavy underdogs. I'll back Argentina with solid conviction but not maximum, since 3-1 results show single-elimination football carries upset risk and the value at 1.45 is moderate rather than huge.",
       "status": "pending"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:GPT-5.5",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5881,13 +5881,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 106.44,
-      "odds": 7.82,
-      "reasoning": "I need upside from a short bankroll, so I’m taking the aggressive value shot rather than laying 1.46. Argentina’s 3-0 scoreline vs Algeria looked comfortable, but the report context was less dominant in territory/progression: Algeria led final-third receptions 160-68, line breaks 115-102, and progressions 40-18. Austria’s 3-1 over Jordan came with a stronger xG edge and more attacking control. Argentina are rightly favored, but 7.82 implies Austria are a very small chance, and I think the gap is overstated enough to justify a max-stake upset play.",
+      "odds": 7.93,
+      "reasoning": "Argentina are the clear market favorite, but at my current bankroll I need upside rather than small favorite payouts. The training reports make Austria look more live than 7.93 implies: Austria produced stronger xG vs Jordan, controlled possession and territory, while Argentina's 3-0 over Algeria had some less dominant underlying territory/progression numbers. This is a high-variance contrarian play for catch-up equity.",
       "status": "pending"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Gemini",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5896,13 +5896,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 321.37,
-      "odds": 1.46,
-      "reasoning": "Argentina demonstrated clinical efficiency in their 3-0 victory over Algeria, limiting their opponents to just 0.41 xG. While Austria looked decent in their 3-1 win against Jordan, Argentina represents a significant step up in class. At 1.46, the odds on the world champions offer solid value. We'll avoid the absolute maximum stake to manage risk after some recent upsets, but place a highly confident $350 bet on the Albiceleste to secure the three points.",
+      "odds": 1.45,
+      "reasoning": "Argentina demonstrated clinical efficiency in their 3-0 opening victory against Algeria, limiting their opponents to just 0.41 xG. While Austria also secured a comfortable 3-1 win over Jordan, Argentina represents a significant step up in class. At odds of 1.45, backing the Albiceleste to secure another victory is the most reliable option to rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Grok",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5911,13 +5911,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 518.36,
-      "odds": 1.46,
-      "reasoning": "Argentina are a clear class above Austria; their underlying numbers vs Algeria already show control and efficiency, while Austria's result vs Jordan came against far weaker opposition. The 1.46 price is still attractive relative to the true probability.",
+      "odds": 1.45,
+      "reasoning": "Argentina remain the far superior side with elite talent and recent tournament pedigree; their 3-0 win over Algeria showed clinical finishing despite moderate xG, while Austria's win over Jordan was against weaker opposition. Home odds of 1.45 imply ~69% win probability, which looks fair-to-generous given the talent gap. Max stake allocated to reflect high conviction.",
       "status": "pending"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:DeepSeek",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5925,14 +5925,14 @@
       "kickoff": "2026-06-22T17:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 100,
-      "odds": 1.46,
-      "reasoning": "Odds strongly back Argentina (1.46, ~68.5% implied). Despite Argentina's low possession vs Algeria, they were clinical (xG 1.58-0.41, 6 shots on target). Austria dominated Jordan (xG 1.93-0.53, 132 final-third receptions), but Jordan is weaker. No strong signal to bet against the favourite. Moderate stake to preserve bankroll.",
+      "stake": 152.89,
+      "odds": 1.45,
+      "reasoning": "Argentina are clear favorites at 1.45, coming off a clinical 3-0 win over Algeria despite less possession. Austria dispatched Jordan 3-1 but haven't faced a test of this caliber. The odds imply around 69% win probability for Argentina; with my bankroll needing a boost, max stake within rules offers decent upside while staying within risk tolerance.",
       "status": "pending"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Mistral",
-      "date": "2026-06-22T14:36:42.418Z",
+      "date": "2026-06-22T16:15:58.887Z",
       "matchId": "be6c63f416c67bca1300a98f5b89c3af",
       "match": "Argentina vs Austria",
       "homeTeam": "Argentina",
@@ -5941,14 +5941,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 276.39,
-      "odds": 1.46,
-      "reasoning": "Argentina's recent performance against Algeria shows strong attacking efficiency (3 goals from 1.58 xG) despite lower possession and fewer final-third receptions. Their defensive pressure (288 pressures, 57 in attacking third) and ability to convert chances efficiently make them a formidable side. Austria, while solid against Jordan (3-1 win), had a lower xG (1.93) and relied more on possession (53.3%) rather than clinical finishing. The odds (1.46 for Argentina) are favorable given their recent form and the qualitative edge in key metrics like line breaks and progressions. Betting max stake on Argentina to win, as the draw (4.4) and away (7.82) odds are less appealing given Argentina's consistency and Austria's lack of a standout performance to suggest an upset.",
+      "odds": 1.45,
+      "reasoning": "Argentina's recent performance against Algeria was dominant in key attacking metrics (xG, shots on target, line breaks) despite lower possession, showing clinical efficiency. Austria also looked strong against Jordan, with higher possession, final-third receptions, and progressions, but their defensive pressures were lower, and Argentina's attack is likely sharper. The odds (1.45 for Argentina) are favorable given their form and the qualitative edge in attacking play. Betting max stake here due to high confidence in Argentina's ability to control the game and convert chances.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-22T14:36:42.418Z",
+    "lastBetsRun": "2026-06-22T16:15:58.887Z",
     "lastSettleRun": "2026-06-22T05:14:05.798Z",
     "failures": [
       {
