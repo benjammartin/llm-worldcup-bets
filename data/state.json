@@ -160,6 +160,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 5157.79
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 5562.79
       }
     ],
     "GPT-5.5": [
@@ -322,6 +326,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 612.47
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 506.03
       }
     ],
     "Gemini": [
@@ -484,6 +492,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 1740.92
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 1885.54
       }
     ],
     "Grok": [
@@ -646,6 +658,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 2618.35
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 2851.61
       }
     ],
     "DeepSeek": [
@@ -808,6 +824,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 842.5
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 911.3
       }
     ],
     "Mistral": [
@@ -970,6 +990,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 1511.65
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 1636.03
       }
     ],
     "Baseline": [
@@ -1132,6 +1156,10 @@
       {
         "t": "2026-06-22T05:14:05.798Z",
         "bankroll": 7920.68
+      },
+      {
+        "t": "2026-06-22T19:19:14.765Z",
+        "bankroll": 8292.95
       }
     ]
   },
@@ -5874,7 +5902,9 @@
       "stake": 792.07,
       "odds": 1.47,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Claude",
@@ -5889,7 +5919,9 @@
       "stake": 900,
       "odds": 1.45,
       "reasoning": "Argentina at 1.45 implies ~69% and that feels fair-to-generous. They dismantled Algeria 3-0 with a 1.58 xG and dominant defensive pressures, conceding just 0.41 xG. Austria looked decent beating Jordan but the gap in pedigree and depth is significant. Argentina's defense was elite in their last outing and they should control this match. The away price of 7.93 confirms the market sees Austria as heavy underdogs. I'll back Argentina with solid conviction but not maximum, since 3-1 results show single-elimination football carries upset risk and the value at 1.45 is moderate rather than huge.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:GPT-5.5",
@@ -5904,7 +5936,9 @@
       "stake": 106.44,
       "odds": 7.93,
       "reasoning": "Argentina are the clear market favorite, but at my current bankroll I need upside rather than small favorite payouts. The training reports make Austria look more live than 7.93 implies: Austria produced stronger xG vs Jordan, controlled possession and territory, while Argentina's 3-0 over Algeria had some less dominant underlying territory/progression numbers. This is a high-variance contrarian play for catch-up equity.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Gemini",
@@ -5919,7 +5953,9 @@
       "stake": 321.37,
       "odds": 1.45,
       "reasoning": "Argentina demonstrated clinical efficiency in their 3-0 opening victory against Algeria, limiting their opponents to just 0.41 xG. While Austria also secured a comfortable 3-1 win over Jordan, Argentina represents a significant step up in class. At odds of 1.45, backing the Albiceleste to secure another victory is the most reliable option to rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Grok",
@@ -5934,7 +5970,9 @@
       "stake": 518.36,
       "odds": 1.45,
       "reasoning": "Argentina remain the far superior side with elite talent and recent tournament pedigree; their 3-0 win over Algeria showed clinical finishing despite moderate xG, while Austria's win over Jordan was against weaker opposition. Home odds of 1.45 imply ~69% win probability, which looks fair-to-generous given the talent gap. Max stake allocated to reflect high conviction.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:DeepSeek",
@@ -5949,7 +5987,9 @@
       "stake": 152.89,
       "odds": 1.45,
       "reasoning": "Argentina are clear favorites at 1.45, coming off a clinical 3-0 win over Algeria despite less possession. Austria dispatched Jordan 3-1 but haven't faced a test of this caliber. The odds imply around 69% win probability for Argentina; with my bankroll needing a boost, max stake within rules offers decent upside while staying within risk tolerance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "be6c63f416c67bca1300a98f5b89c3af:Mistral",
@@ -5964,7 +6004,9 @@
       "stake": 276.39,
       "odds": 1.45,
       "reasoning": "Argentina's recent performance against Algeria was dominant in key attacking metrics (xG, shots on target, line breaks) despite lower possession, showing clinical efficiency. Austria also looked strong against Jordan, with higher possession, final-third receptions, and progressions, but their defensive pressures were lower, and Argentina's attack is likely sharper. The odds (1.45 for Argentina) are favorable given their form and the qualitative edge in attacking play. Betting max stake here due to high confidence in Argentina's ability to control the game and convert chances.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Baseline",
@@ -6075,7 +6117,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-22T19:13:55.303Z",
-    "lastSettleRun": "2026-06-22T05:14:05.798Z",
+    "lastSettleRun": "2026-06-22T19:19:14.765Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -6159,32 +6201,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 40,
-        "won": 24,
+        "totalBets": 41,
+        "won": 25,
         "lost": 16,
         "void": 0,
-        "totalStake": 37943.68000000001,
-        "totalReturn": -5752.511799999999,
-        "roi": -0.1516065863933071,
-        "avgOdds": 1.6022500000000002,
+        "totalStake": 38843.68000000001,
+        "totalReturn": -5347.511799999999,
+        "roi": -0.13766748670568799,
+        "avgOdds": 1.5985365853658537,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:Claude",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1100,
-            "odds": 1.12,
-            "reasoning": "Brazil at 1.12 is a near-lock against Haiti. Their report shows a tough 1-1 vs Morocco, but Haiti just lost 0-1 to Scotland with only 0.70 xG and weak final-third penetration. The class gap is enormous. Low odds mean modest return, but this is about as safe as it gets, so I'll back it heavily for steady value.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Claude",
             "date": "2026-06-20T02:23:45.904Z",
@@ -6338,37 +6363,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:Claude",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 900,
+            "odds": 1.45,
+            "reasoning": "Argentina at 1.45 implies ~69% and that feels fair-to-generous. They dismantled Algeria 3-0 with a 1.58 xG and dominant defensive pressures, conceding just 0.41 xG. Austria looked decent beating Jordan but the gap in pedigree and depth is significant. Argentina's defense was elite in their last outing and they should control this match. The away price of 7.93 confirms the market sees Austria as heavy underdogs. I'll back Argentina with solid conviction but not maximum, since 3-1 results show single-elimination football carries upset risk and the value at 1.45 is moderate rather than huge.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 40,
+        "totalBets": 41,
         "won": 16,
-        "lost": 24,
+        "lost": 25,
         "void": 0,
-        "totalStake": 22771.049999999996,
-        "totalReturn": -9516.620400000002,
-        "roi": -0.4179262879840852,
-        "avgOdds": 3.5839999999999996,
+        "totalStake": 22877.489999999994,
+        "totalReturn": -9623.060400000002,
+        "roi": -0.4206344489714564,
+        "avgOdds": 3.69,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:GPT-5.5",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 80.91,
-            "odds": 1.12,
-            "reasoning": "Brazil are very short, so the upside is limited, but this is still the safest spot on the slate. Haiti were competitive in a narrow loss to Scotland, while Brazil were not dominant against Morocco, so I do not love the price at 1.12. Still, odds remain the main signal and the talent gap is enormous. With only two matches available and a need to rebuild bankroll, I am taking the high-probability Brazil win at the maximum allowed stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:GPT-5.5",
             "date": "2026-06-20T02:23:45.904Z",
@@ -6522,37 +6547,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:GPT-5.5",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 106.44,
+            "odds": 7.93,
+            "reasoning": "Argentina are the clear market favorite, but at my current bankroll I need upside rather than small favorite payouts. The training reports make Austria look more live than 7.93 implies: Austria produced stronger xG vs Jordan, controlled possession and territory, while Argentina's 3-0 over Algeria had some less dominant underlying territory/progression numbers. This is a high-variance contrarian play for catch-up equity.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 40,
-        "won": 23,
+        "totalBets": 41,
+        "won": 24,
         "lost": 17,
         "void": 0,
-        "totalStake": 29284.280000000006,
-        "totalReturn": -8548.842600000002,
-        "roi": -0.2919259957902329,
-        "avgOdds": 1.61225,
+        "totalStake": 29605.650000000005,
+        "totalReturn": -8404.226100000002,
+        "roi": -0.2838723723343348,
+        "avgOdds": 1.6082926829268291,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:Gemini",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 250,
-            "odds": 1.12,
-            "reasoning": "Brazil is an overwhelming favorite against Haiti. While the 1.12 odds offer low yields, this is an extremely safe pick to secure a small profit and continue rebuilding our bankroll after a solid run of recent wins.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Gemini",
             "date": "2026-06-20T02:23:45.904Z",
@@ -6706,37 +6731,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:Gemini",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 321.37,
+            "odds": 1.45,
+            "reasoning": "Argentina demonstrated clinical efficiency in their 3-0 opening victory against Algeria, limiting their opponents to just 0.41 xG. While Austria also secured a comfortable 3-1 win over Jordan, Argentina represents a significant step up in class. At odds of 1.45, backing the Albiceleste to secure another victory is the most reliable option to rebuild our bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 40,
-        "won": 23,
+        "totalBets": 41,
+        "won": 24,
         "lost": 17,
         "void": 0,
-        "totalStake": 59827.100000000006,
-        "totalReturn": -7846.4749999999985,
-        "roi": -0.1311525211818724,
-        "avgOdds": 1.6849999999999998,
+        "totalStake": 60345.46000000001,
+        "totalReturn": -7613.212999999999,
+        "roi": -0.12616049326660198,
+        "avgOdds": 1.6792682926829268,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:Grok",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 800,
-            "odds": 1.12,
-            "reasoning": "Brazil heavily favored at 1.12 despite average recent xG; Haiti look limited per their report and should be outclassed.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Grok",
             "date": "2026-06-20T02:23:45.904Z",
@@ -6890,37 +6915,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:Grok",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 518.36,
+            "odds": 1.45,
+            "reasoning": "Argentina remain the far superior side with elite talent and recent tournament pedigree; their 3-0 win over Algeria showed clinical finishing despite moderate xG, while Austria's win over Jordan was against weaker opposition. Home odds of 1.45 imply ~69% win probability, which looks fair-to-generous given the talent gap. Max stake allocated to reflect high conviction.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 40,
-        "won": 21,
+        "totalBets": 41,
+        "won": 22,
         "lost": 19,
         "void": 0,
-        "totalStake": 28526.549999999992,
-        "totalReturn": -9277.5235,
-        "roi": -0.3252241683624554,
-        "avgOdds": 1.9897500000000001,
+        "totalStake": 28679.43999999999,
+        "totalReturn": -9208.723,
+        "roi": -0.32109145087909674,
+        "avgOdds": 1.9765853658536587,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:DeepSeek",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 232.39,
-            "odds": 1.12,
-            "reasoning": "Brazil are overwhelming favorites at 1.12. Haiti managed just 0.70 xG and lost to Scotland, while Brazil’s draw with Morocco was a respectable performance. Even a flat Brazil should beat Haiti comfortably. Max stake for near-guaranteed bankroll growth.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:DeepSeek",
             "date": "2026-06-20T02:23:45.904Z",
@@ -7074,37 +7099,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:DeepSeek",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 152.89,
+            "odds": 1.45,
+            "reasoning": "Argentina are clear favorites at 1.45, coming off a clinical 3-0 win over Algeria despite less possession. Austria dispatched Jordan 3-1 but haven't faced a test of this caliber. The odds imply around 69% win probability for Argentina; with my bankroll needing a boost, max stake within rules offers decent upside while staying within risk tolerance.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 40,
-        "won": 24,
+        "totalBets": 41,
+        "won": 25,
         "lost": 16,
         "void": 0,
-        "totalStake": 27996.220000000005,
-        "totalReturn": -8737.828599999995,
-        "roi": -0.31210744164747933,
-        "avgOdds": 1.6299999999999997,
+        "totalStake": 28272.610000000004,
+        "totalReturn": -8613.453099999995,
+        "roi": -0.3046571611181279,
+        "avgOdds": 1.6256097560975609,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:Mistral",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 417.45,
-            "odds": 1.12,
-            "reasoning": "Brazil is a heavy favorite here (1.12 odds), and while their recent performance against Morocco was underwhelming (1-1 draw), the xG (0.99 vs. 1.33) and other metrics (e.g., final-third receptions 100-149 in favor of Morocco) suggest they were unlucky not to win. Haiti, meanwhile, lost 1-0 to Scotland despite generating 0.70 xG and having more shots (15 vs. 9). Their possession and attacking metrics were decent, but they lacked clinical finishing. Brazil’s squad depth and historical dominance in such matchups make them a safe bet, even if the odds are low. The 1.12 odds imply a ~89% win probability, which feels conservative given Brazil’s pedigree and Haiti’s defensive vulnerabilities. I’m allocating the maximum stake here due to the high confidence in Brazil covering the spread.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Mistral",
             "date": "2026-06-20T02:23:45.904Z",
@@ -7258,37 +7283,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:Mistral",
+            "date": "2026-06-22T16:15:58.887Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 276.39,
+            "odds": 1.45,
+            "reasoning": "Argentina's recent performance against Algeria was dominant in key attacking metrics (xG, shots on target, line breaks) despite lower possession, showing clinical efficiency. Austria also looked strong against Jordan, with higher possession, final-third receptions, and progressions, but their defensive pressures were lower, and Argentina's attack is likely sharper. The odds (1.45 for Argentina) are favorable given their form and the qualitative edge in attacking play. Betting max stake here due to high confidence in Argentina's ability to control the game and convert chances.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 40,
-        "won": 24,
+        "totalBets": 41,
+        "won": 25,
         "lost": 16,
         "void": 0,
-        "totalStake": 32005.549999999992,
-        "totalReturn": -2909.4547000000007,
-        "roi": -0.09090469309229185,
-        "avgOdds": 1.6064999999999998,
+        "totalStake": 32797.619999999995,
+        "totalReturn": -2537.1818000000007,
+        "roi": -0.07735871688250553,
+        "avgOdds": 1.6031707317073167,
         "recentBets": [
-          {
-            "id": "ef0f74a991d3e35798ae5af77667bce1:Baseline",
-            "date": "2026-06-19T21:32:39.454Z",
-            "matchId": "ef0f74a991d3e35798ae5af77667bce1",
-            "match": "Brazil vs Haiti",
-            "homeTeam": "Brazil",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-20T00:30:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 792.78,
-            "odds": 1.11,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Baseline",
             "date": "2026-06-20T00:04:30.761Z",
@@ -7442,6 +7467,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-3"
+          },
+          {
+            "id": "be6c63f416c67bca1300a98f5b89c3af:Baseline",
+            "date": "2026-06-22T14:09:46.560Z",
+            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
+            "match": "Argentina vs Austria",
+            "homeTeam": "Argentina",
+            "awayTeam": "Austria",
+            "kickoff": "2026-06-22T17:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 792.07,
+            "odds": 1.47,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       }
