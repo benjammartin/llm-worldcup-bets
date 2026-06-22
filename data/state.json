@@ -6025,7 +6025,7 @@
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Claude",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6033,14 +6033,14 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1009.38,
-      "odds": 1.09,
-      "reasoning": "France just dismantled Senegal 3-1 with a 1.62-0.39 xG edge, while Iraq got outclassed 1-4 by Norway, dominated in possession, line breaks and final-third entries. The 1.09 home odds are skinny but the quality gap here is enormous and France should win comfortably at home. Low margin, high confidence value play.",
+      "stake": 1095.1,
+      "odds": 1.08,
+      "reasoning": "France just beat Senegal with a 1.62-0.39 xG dominance, while Iraq got dismantled 1-4 by Norway, outplayed across every metric (xG 1.20-2.41, line breaks 70-116). At 1.08 the odds confirm France are heavy favorites. The margin is thin per dollar, but this is about as safe as betting gets in this tournament. Max stake on the near-certainty.",
       "status": "pending"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:GPT-5.5",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6048,14 +6048,14 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "GPT-5.5",
       "pick": "draw",
-      "stake": 106.27,
-      "odds": 12.25,
-      "reasoning": "France are clearly the stronger side and the odds reflect that, but at 1.09 the favorite offers almost no upside for my position. Iraq were outplayed by Norway but still generated 1.20 xG, and in a high-variance football match the draw at 12.25 is the only price with tournament-winning upside. I need to take variance now, so I’m using the max stake on the draw.",
+      "stake": 87.69,
+      "odds": 13.43,
+      "reasoning": "France are clearly the stronger side and the odds say that loudly, but at my current bankroll I need upside rather than grinding 1.08 favorites. The FIFA reports support France superiority, while Iraq’s underlying numbers vs Norway were not hopeless enough to make a stalemate impossible. Draw is the only realistic high-variance angle here, so I’m taking the big price.",
       "status": "pending"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Gemini",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6063,14 +6063,14 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 320.34,
-      "odds": 1.09,
-      "reasoning": "France is one of the strongest teams in the tournament and coming off a solid 3-1 win against Senegal (xG 1.62-0.39). Iraq struggled heavily in their opener, conceding 4 goals to Norway (xG 1.20-2.41). With France's overwhelming quality and the extremely low odds of 1.09, a home win is the most secure outcome. I am placing the maximum allowed stake of $435.23 to secure a highly probable, albeit modest, return as I rebuild my bankroll.",
+      "stake": 348.22,
+      "odds": 1.08,
+      "reasoning": "France showed their class with a dominant 3-1 victory over Senegal, controlling the game and limiting their opponents to just 0.39 xG. Iraq struggled heavily in their opening match, conceding four goals to Norway and allowing 2.41 xG. There is a massive gulf in quality between these two sides. France is expected to secure an easy victory here, making 'home' the safest possible bet to consolidate our bankroll, even at low odds of 1.08.",
       "status": "pending"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Grok",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6078,14 +6078,14 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 516.87,
-      "odds": 1.09,
-      "reasoning": "France are heavy favorites at 1.09 and the underlying metrics from their last match back that up (dominant xG, shots, and progression numbers vs Senegal). Iraq looked poor against Norway. Even at short odds this is the only logical side to back with the available information.",
+      "stake": 564.11,
+      "odds": 1.08,
+      "reasoning": "France dominated Senegal in every metric (xG, shots, progressions) while Iraq were thoroughly outclassed by Norway. The 1.08 price is still the highest-probability outcome by a wide margin.",
       "status": "pending"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:DeepSeek",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6093,14 +6093,14 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 152.69,
-      "odds": 1.09,
-      "reasoning": "France is a top-tier team, and the odds heavily reflect that (1.09). Iraq's defensive fragility was exposed by Norway (1.20-2.41 xG, only 34.7% possession, 1 shot on target). France controlled Senegal with 1.62 xG and 11 shots. The mismatch is huge. While the return is low, it's a near-certain outcome, and I'm maximizing my allowed stake to lock in a small but safe gain to rebuild after recent upsets.",
+      "stake": 25,
+      "odds": 1.08,
+      "reasoning": "France are overwhelmingly superior based on squad quality and their 3-1 win over Senegal (xG 1.62-0.39). Iraq were dismantled 1-4 by Norway (xG 1.20-2.41) and looked fragile. Odds of 1.08 imply a ~93% probability—essentially a formality. However, the return is tiny, and risking 25% of my bankroll for a 2% gain is poor risk management. I place a minimal $25 to stay active and preserve cash for higher-value later rounds. If an upset happens, the damage is limited.",
       "status": "pending"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Mistral",
-      "date": "2026-06-22T19:13:55.303Z",
+      "date": "2026-06-22T20:19:25.101Z",
       "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
       "match": "France vs Iraq",
       "homeTeam": "France",
@@ -6108,15 +6108,15 @@
       "kickoff": "2026-06-22T21:00:00Z",
       "model": "Mistral",
       "pick": "home",
-      "stake": 275.61,
-      "odds": 1.09,
-      "reasoning": "France's recent performance against Senegal shows dominance in key metrics like xG (1.62 vs 0.39), shots (11 vs 6), and line breaks (118 vs 101), despite slightly lower possession. Iraq, on the other hand, struggled against Norway, conceding 4 goals with an xG of 1.20 vs Norway's 2.41, and were outplayed in possession (34.7%) and final-third receptions (72 vs 101). The odds heavily favor France (1.09), reflecting their superior form and underlying stats. Given the qualitative context and the stark contrast in team quality, France is the clear favorite here. Allocating the maximum allowed stake to this high-confidence pick.",
+      "stake": 299.3,
+      "odds": 1.08,
+      "reasoning": "France's recent performance against Senegal (3-1 win) shows dominance in key metrics: higher xG (1.62 vs 0.39), more shots on target (8 vs 2), and superior line breaks (118 vs 101). While possession was close, France's efficiency in final-third play and defensive pressure (277 pressures) suggests a well-rounded team. Iraq, on the other hand, struggled against Norway (1-4 loss), with lower possession (34.7%), fewer final-third receptions (72 vs 101), and a high xG conceded (2.41). The odds (1.08 for France) are extremely low, but the qualitative and quantitative data overwhelmingly favor France. Given the bankroll constraints, I'm allocating the maximum allowed stake to this high-confidence pick, as the risk-reward ratio is still favorable despite the low odds.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-22T19:13:55.303Z",
+    "lastBetsRun": "2026-06-22T20:19:25.101Z",
     "lastSettleRun": "2026-06-22T19:19:14.765Z",
     "failures": [
       {
@@ -6194,6 +6194,12 @@
         "homeTeam": "Portugal",
         "awayTeam": "Uzbekistan",
         "kickoff": "2026-06-23T17:00:00Z"
+      },
+      {
+        "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
+        "homeTeam": "England",
+        "awayTeam": "Ghana",
+        "kickoff": "2026-06-23T20:00:00Z"
       }
     ],
     "liveMatches": [],
