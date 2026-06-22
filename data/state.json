@@ -5710,7 +5710,7 @@
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:Claude",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
@@ -5718,29 +5718,29 @@
       "kickoff": "2026-06-22T01:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 850,
-      "odds": 1.58,
-      "reasoning": "Egypt at 1.58 is the clear favorite and the odds reflect that. They held Belgium to a 1-1 draw and showed solid defensive structure with high pressures (258). New Zealand drew Iran but their underlying numbers were modest. Egypt's quality edge should tell against a lower-tier side. Backing the favorite with a confident but not reckless stake given decent value at 1.58.",
+      "stake": 900,
+      "odds": 1.57,
+      "reasoning": "Egypt at 1.57 (~64% implied) is the clear stronger side. They matched up well against Belgium in a 1-1 draw with decent line breaks and pressing numbers, while New Zealand only managed a 2-2 against Iran. Backing the favorite with a confident but managed stake — the odds align with the qualitative edge and home advantage for NZ isn't enough to flip this.",
       "status": "pending"
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:GPT-5.5",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
       "awayTeam": "Egypt",
       "kickoff": "2026-06-22T01:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "draw",
       "stake": 129.07,
-      "odds": 6.1,
-      "reasoning": "Egypt are rightly favored by the market, but at 6.1 New Zealand look mispriced enough to take the high-upside side. NZ’s 2-2 with Iran had a credible attacking profile: 1.47 xG, 14 shots, 8 on target, and more line breaks than Iran. Egypt’s draw with Belgium was solid, especially defensively/pressing, but they generated only 0.73 xG and were heavily behind in final-third receptions. Odds remain the main signal, yet I think NZ’s true win chance is above the break-even implied by 6.1, and with my bankroll position I need to lean into plus-money variance rather than grind a short favorite.",
+      "odds": 4.2,
+      "reasoning": "Egypt are rightly favored by the market, but at 1.57 the away price looks short for a team that produced only 0.73 xG and 96 final-third receptions against Belgium. New Zealand were competitive in their 2-2 with Iran, generating 1.47 xG and 8 shots on target. With both teams coming off draws and neither profile screaming dominance, the 4.2 draw is the higher-upside angle I need from this bankroll position.",
       "status": "pending"
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:Gemini",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
@@ -5749,13 +5749,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 289.75,
-      "odds": 1.58,
-      "reasoning": "Egypt's recent 1-1 draw against a strong Belgium side showcased their defensive organization and tactical discipline under pressure. While New Zealand fought hard for a 2-2 draw against Iran, they conceded 1.85 xG and looked vulnerable at the back. Egypt has the superior technical quality and tournament experience to control the midfield and break down New Zealand's defense. At odds of 1.58, Egypt is a highly reliable option, and we are placing the maximum allowed stake of $393.94 to build back our bankroll.",
+      "odds": 1.57,
+      "reasoning": "Egypt showed impressive defensive resilience in their 1-1 draw against Belgium, limiting them to 1.07 xG despite heavy pressure. While New Zealand fought hard for a 2-2 draw against Iran, they conceded 1.85 xG and look vulnerable at the back. Egypt's superior tactical discipline and quality in transition should prove too much for New Zealand. At 1.57, backing the away win is the most sensible move, and we stake the maximum allowable limit of $393.94.",
       "status": "pending"
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:Grok",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
@@ -5764,13 +5764,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 464.83,
-      "odds": 1.58,
-      "reasoning": "Egypt's draw vs Belgium (stronger opponent than Iran) with solid underlying metrics suggests they are the superior side here. Odds imply ~63% probability for Egypt win which aligns with qualitative edge; NZ's inflated home odds not justified.",
+      "odds": 1.57,
+      "reasoning": "Egypt is the clear class above New Zealand per odds (1.57) and recent form/context. Iran drew NZ while Belgium drew Egypt, but Egypt's underlying numbers and pedigree point to them being the stronger side here. Stake reflects solid but not max conviction given the single-match slate.",
       "status": "pending"
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:DeepSeek",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
@@ -5779,13 +5779,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 138.3,
-      "odds": 1.58,
-      "reasoning": "Egypt showed strong defensive organization and resilience in their 1-1 draw with Belgium, limiting a potent attack to just 1.07 xG and applying high pressure. New Zealand also earned a respectable 2-2 draw against Iran, but their defensive vulnerabilities (1.85 xG conceded) could be exploited by Egypt's compact and counter-attacking setup. The odds heavily favor Egypt at 1.58, reflecting a ~63% implied probability. I see value in backing the more consistent side to secure a win, and given my need to rebuild bankroll, I'm allocating the maximum allowed stake of $190.92 to this high-conviction pick.",
+      "odds": 1.57,
+      "reasoning": "Egypt is the clear favorite with odds of 1.57. New Zealand earned a credible 2-2 draw against Iran but Egypt's 1-1 draw vs Belgium against stronger opposition shows resilience. With Egypt's quality and the market's confidence, an away win is the most likely outcome. I'm staking a moderate $150 to reflect solid confidence while managing risk.",
       "status": "pending"
     },
     {
       "id": "c1ec9a65f4b4cf74477b368a7d6282de:Mistral",
-      "date": "2026-06-21T23:45:52.900Z",
+      "date": "2026-06-22T00:18:17.356Z",
       "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
       "match": "New Zealand vs Egypt",
       "homeTeam": "New Zealand",
@@ -5794,14 +5794,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 249.48,
-      "odds": 1.58,
-      "reasoning": "Odds are the primary signal, and Egypt's away odds (1.58) are attractive given their recent performance against Belgium. In M16, Egypt held Belgium to a draw despite being out-possessed and outplayed in final-third receptions and line breaks. Their defensive organization and counter-attacking threat were evident, and they managed to create chances (14 shots, 3 on target) despite lower possession. New Zealand, while competitive against Iran (M15), were outplayed in key metrics like line breaks (89-75) and progressions (31-22), and their xG was lower than Iran's despite more shots on target. Egypt's ability to grind out results against stronger opposition (like Belgium) and their higher defensive pressure (258 vs. New Zealand's 234) makes them a safer bet at these odds. The draw (4.07) is tempting, but the value lies in Egypt's away win given their resilience and the market's underestimation of their defensive solidity.",
+      "odds": 1.57,
+      "reasoning": "Odds favor Egypt (1.57) as the clear underdog pick here, but the qualitative context from the FIFA reports is compelling. In M15, New Zealand showed vulnerability despite a draw against Iran, with lower xG (1.47 vs Iran's 1.85) and fewer progressions (22 vs Iran's 31). Their defensive metrics (line breaks, pressures) were solid but not dominant. In M16, Egypt held Belgium to a draw with disciplined defense (258 pressures, 68 in attacking third) and limited Belgium's final-third receptions (96 vs Belgium's 181). Egypt's ability to frustrate a stronger side like Belgium suggests they can do the same against New Zealand. The odds (1.57) underestimate Egypt's resilience and tactical discipline, making this a value bet. Allocating the maximum stake due to high conviction in the qualitative edge over the odds.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-21T23:45:52.900Z",
+    "lastBetsRun": "2026-06-22T00:18:17.356Z",
     "lastSettleRun": "2026-06-21T21:28:40.012Z",
     "failures": [
       {
@@ -5873,6 +5873,12 @@
         "homeTeam": "France",
         "awayTeam": "Iraq",
         "kickoff": "2026-06-22T21:00:00Z"
+      },
+      {
+        "matchId": "3f48473742ca0fd2a85930554720c75e",
+        "homeTeam": "Norway",
+        "awayTeam": "Senegal",
+        "kickoff": "2026-06-23T00:00:00Z"
       }
     ],
     "liveMatches": [],
