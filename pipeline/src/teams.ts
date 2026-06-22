@@ -8,6 +8,7 @@ const ALIASES: Record<string, string> = Object.assign(Object.create(null), {
   "czechia": "czech republic",
   "turkiye": "turkey",
   "cabo verde": "cape verde",
+  "cape verde islands": "cape verde",
   "china pr": "china",
   "bosnia-herzegovina": "bosnia and herzegovina",
   "bosnia & herzegovina": "bosnia and herzegovina",
