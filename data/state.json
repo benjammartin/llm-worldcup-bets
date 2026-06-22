@@ -5873,6 +5873,12 @@
         "homeTeam": "Norway",
         "awayTeam": "Senegal",
         "kickoff": "2026-06-23T00:00:00Z"
+      },
+      {
+        "matchId": "fd8533b650e655030f6a7946f8795db2",
+        "homeTeam": "Jordan",
+        "awayTeam": "Algeria",
+        "kickoff": "2026-06-23T03:00:00Z"
       }
     ],
     "liveMatches": [],
