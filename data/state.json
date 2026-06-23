@@ -176,6 +176,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 7299.4
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 7504.94
       }
     ],
     "GPT-5.5": [
@@ -354,6 +358,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 572.77
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 473.17
       }
     ],
     "Gemini": [
@@ -532,6 +540,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 2560.57
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 2627.72
       }
     ],
     "Grok": [
@@ -710,6 +722,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 3945.13
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 4055.36
       }
     ],
     "DeepSeek": [
@@ -888,6 +904,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 1219.62
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 1250.83
       }
     ],
     "Mistral": [
@@ -1066,6 +1086,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 2216.19
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 2273.71
       }
     ],
     "Baseline": [
@@ -1244,6 +1268,10 @@
       {
         "t": "2026-06-23T06:22:37.895Z",
         "bankroll": 9915.03
+      },
+      {
+        "t": "2026-06-23T19:35:05.524Z",
+        "bankroll": 10063.76
       }
     ]
   },
@@ -6462,7 +6490,9 @@
       "stake": 991.5,
       "odds": 1.15,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Claude",
@@ -6477,7 +6507,9 @@
       "stake": 1468.15,
       "odds": 1.14,
       "reasoning": "Portugal at 1.14 is a heavy favorite and the eye test backs it up. Despite the surprise draw with Congo DR, Portugal dominated possession (68.9%), final-third receptions (222 vs 62), and line breaks (146 vs 60) - they simply lacked a clinical finish. Uzbekistan, meanwhile, was outplayed 1-3 by Colombia with negative xG and shot disparity. The gap in quality is real. At 1.14 the margin is thin, but it's a high-probability outcome and I'm sizing meaningfully without overexposing - a Portugal stumble against a clearly weaker side is the main risk, so I won't max out.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:GPT-5.5",
@@ -6492,7 +6524,9 @@
       "stake": 99.6,
       "odds": 8.5,
       "reasoning": "Portugal are the clear market favorite, but at 1.14 the upside is tiny and my bankroll position requires taking variance rather than collecting a small favorite payout. The FIFA report from Portugal-Congo DR showed a lot of sterile possession from Portugal but only 0.57 xG and a 1-1 result, while Uzbekistan’s 1-3 loss to Colombia was closer on xG than the scoreline suggests. Portugal should still be much stronger, but the draw at 8.5 is the only price here with enough payoff and a plausible path if Portugal again dominate territory without converting.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Gemini",
@@ -6507,7 +6541,9 @@
       "stake": 479.65,
       "odds": 1.14,
       "reasoning": "Despite a lackluster opening draw against Congo DR where Portugal struggled to create high-quality chances (0.57 xG), they maintained dominant control with nearly 69% possession. Uzbekistan showed defensive vulnerabilities against Colombia, conceding three goals. Portugal's squad depth and motivation to secure three points here make them overwhelming favorites. While the 1.14 odds offer low yield, a Portugal victory is highly probable. We place the maximum allowed stake of $640.14 to sustain our positive momentum and steadily build our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Grok",
@@ -6522,7 +6558,9 @@
       "stake": 787.36,
       "odds": 1.14,
       "reasoning": "Portugal heavily favored at 1.14 with vastly superior squad depth and recent metrics; Uzbekistan's loss to Colombia and lower progression numbers confirm mismatch. Max stake on clear value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:DeepSeek",
@@ -6537,7 +6575,9 @@
       "stake": 222.93,
       "odds": 1.14,
       "reasoning": "Portugal's underlying metrics from their draw against Congo DR (68.9% possession, 222 final-third receptions, 146 line breaks) indicate dominance despite the scoreline. Uzbekistan lost 1-3 to Colombia with a lower possession rate (33.9%) and fewer attacking entries. The gulf in class is evident, and the odds of 1.14 correctly reflect a high probability of a Portugal win. Given my need to rebuild the bankroll safely, I'm using the maximum allowed stake to lock in a near-certain modest return.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Mistral",
@@ -6552,7 +6592,9 @@
       "stake": 410.86,
       "odds": 1.14,
       "reasoning": "Portugal is the clear favorite here with odds of 1.14, reflecting their strong form and superior metrics in their last match against Congo DR. Despite the draw, Portugal dominated possession (68.9%), final-third receptions (222-62), and line breaks (146-60), showing they control games even when results don't fully reflect it. Uzbekistan, while competitive against Colombia, were outplayed in possession (33.9%) and final-third receptions (64-110), and their defensive pressures (264) were less effective than Portugal's (407 against Congo DR). The odds suggest a ~87.7% implied probability for Portugal to win, and their qualitative dominance in key areas makes this a high-confidence bet. Allocating the maximum stake here to capitalize on the favorable odds and Portugal's clear superiority.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:Baseline",
@@ -6663,7 +6705,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-23T19:17:55.796Z",
-    "lastSettleRun": "2026-06-23T06:22:37.895Z",
+    "lastSettleRun": "2026-06-23T19:35:05.524Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -6753,32 +6795,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 44,
-        "won": 28,
+        "totalBets": 45,
+        "won": 29,
         "lost": 16,
         "void": 0,
-        "totalStake": 41788.780000000006,
-        "totalReturn": -3610.903799999999,
-        "roi": -0.08640845222090711,
-        "avgOdds": 1.6015909090909093,
+        "totalStake": 43256.93000000001,
+        "totalReturn": -3405.3627999999994,
+        "roi": -0.07872409808093174,
+        "avgOdds": 1.5913333333333337,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:Claude",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1241.72,
-            "odds": 1.16,
-            "reasoning": "Ecuador is a clear class above Curaçao and the 1.16 home price reflects that strongly. Even after a narrow 1-0 loss to Côte d'Ivoire, Ecuador showed solid attacking output (1.36 xG, 12 shots) and ball control against a quality side. Against far weaker Curaçao at home they should dominate. Low odds mean modest return, but this is one of the safest spots on the board, so I'll size up confidently while staying under my per-match cap.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:Claude",
             "date": "2026-06-21T02:35:43.548Z",
@@ -6932,37 +6957,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:Claude",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1468.15,
+            "odds": 1.14,
+            "reasoning": "Portugal at 1.14 is a heavy favorite and the eye test backs it up. Despite the surprise draw with Congo DR, Portugal dominated possession (68.9%), final-third receptions (222 vs 62), and line breaks (146 vs 60) - they simply lacked a clinical finish. Uzbekistan, meanwhile, was outplayed 1-3 by Colombia with negative xG and shot disparity. The gap in quality is real. At 1.14 the margin is thin, but it's a high-probability outcome and I'm sizing meaningfully without overexposing - a Portugal stumble against a clearly weaker side is the main risk, so I won't max out.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 44,
+        "totalBets": 45,
         "won": 18,
-        "lost": 26,
+        "lost": 27,
         "void": 0,
-        "totalStake": 23125.27999999999,
-        "totalReturn": -9556.316700000003,
-        "roi": -0.41324112399936375,
-        "avgOdds": 3.8311363636363636,
+        "totalStake": 23224.87999999999,
+        "totalReturn": -9655.916700000003,
+        "roi": -0.41575744201907644,
+        "avgOdds": 3.9348888888888887,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:GPT-5.5",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 44.87,
-            "odds": 8.5,
-            "reasoning": "Ecuador are rightly favored, but at 1.16 the upside is too small for my current bankroll position. The FIFA report vs Côte d'Ivoire showed Ecuador were competitive on xG but not especially clinical, with only 1 shot on target and limited progressions, so a low-scoring game where Curaçao hangs around is plausible. The draw at 8.5 is the best risk/reward shot for a bankroll that needs variance to climb.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:GPT-5.5",
             "date": "2026-06-21T02:35:43.548Z",
@@ -7116,37 +7141,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:GPT-5.5",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 99.6,
+            "odds": 8.5,
+            "reasoning": "Portugal are the clear market favorite, but at 1.14 the upside is tiny and my bankroll position requires taking variance rather than collecting a small favorite payout. The FIFA report from Portugal-Congo DR showed a lot of sterile possession from Portugal but only 0.57 xG and a 1-1 result, while Uzbekistan’s 1-3 loss to Colombia was closer on xG than the scoreline suggests. Portugal should still be much stronger, but the draw at 8.5 is the only price here with enough payoff and a plausible path if Portugal again dominate territory without converting.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 44,
-        "won": 27,
+        "totalBets": 45,
+        "won": 28,
         "lost": 17,
         "void": 0,
-        "totalStake": 30656.13000000001,
-        "totalReturn": -7729.193300000002,
-        "roi": -0.25212553900312923,
-        "avgOdds": 1.6106818181818183,
+        "totalStake": 31135.78000000001,
+        "totalReturn": -7662.042300000002,
+        "roi": -0.24608480339981845,
+        "avgOdds": 1.6002222222222224,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:Gemini",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 390.56,
-            "odds": 1.16,
-            "reasoning": "Ecuador is a massive favorite at 1.16 odds against Curaçao. Although Ecuador lost their opener 1-0 to Côte d'Ivoire, the post-match report shows they were competitive with 1.36 xG, 12 shots, and nearly 50% possession. Curaçao represents a significant step down in quality. With a highly probable win on the cards, I am placing the maximum allowed stake of $530.05 on Ecuador to secure a reliable, albeit modest, return to help rebuild my bankroll.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:Gemini",
             "date": "2026-06-21T02:35:43.548Z",
@@ -7300,37 +7325,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:Gemini",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 479.65,
+            "odds": 1.14,
+            "reasoning": "Despite a lackluster opening draw against Congo DR where Portugal struggled to create high-quality chances (0.57 xG), they maintained dominant control with nearly 69% possession. Uzbekistan showed defensive vulnerabilities against Colombia, conceding three goals. Portugal's squad depth and motivation to secure three points here make them overwhelming favorites. While the 1.14 odds offer low yield, a Portugal victory is highly probable. We place the maximum allowed stake of $640.14 to sustain our positive momentum and steadily build our bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 44,
-        "won": 27,
+        "totalBets": 45,
+        "won": 28,
         "lost": 17,
         "void": 0,
-        "totalStake": 62047.170000000006,
-        "totalReturn": -6519.696899999998,
-        "roi": -0.10507645876516201,
-        "avgOdds": 1.6768181818181818,
+        "totalStake": 62834.530000000006,
+        "totalReturn": -6409.466499999998,
+        "roi": -0.102005481699314,
+        "avgOdds": 1.6648888888888889,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:Grok",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 643.73,
-            "odds": 1.16,
-            "reasoning": "Ecuador heavy favorites at 1.16 vs minnow Curaçao; implied prob ~86% aligns with talent gap. Recent xG report vs Ivory Coast shows Ecuador created enough to win most games and this is a far weaker opponent. Max stake to maximize edge.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:Grok",
             "date": "2026-06-21T02:35:43.548Z",
@@ -7484,37 +7509,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:Grok",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 787.36,
+            "odds": 1.14,
+            "reasoning": "Portugal heavily favored at 1.14 with vastly superior squad depth and recent metrics; Uzbekistan's loss to Colombia and lower progression numbers confirm mismatch. Max stake on clear value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 44,
-        "won": 25,
+        "totalBets": 45,
+        "won": 26,
         "lost": 19,
         "void": 0,
-        "totalStake": 29035.769999999993,
-        "totalReturn": -8900.404600000002,
-        "roi": -0.3065324115737245,
-        "avgOdds": 1.9538636363636366,
+        "totalStake": 29258.699999999993,
+        "totalReturn": -8869.194400000002,
+        "roi": -0.303130159576468,
+        "avgOdds": 1.935777777777778,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:DeepSeek",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 185.15,
-            "odds": 1.16,
-            "reasoning": "Ecuador are a solid CONMEBOL side with World Cup pedigree, while Curaçao are huge underdogs with almost no chance. The odds of 1.16 imply ~86% probability, which feels right given the gulf in class. The Côte d'Ivoire post-match report shows Ecuador losing 1-0 but still generating decent xG (1.36); that level of opponent is far above Curaçao. Low risk of an upset, so maxing the 25% stake limit to recoup some bankroll.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:DeepSeek",
             "date": "2026-06-21T02:35:43.548Z",
@@ -7668,37 +7693,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:DeepSeek",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 222.93,
+            "odds": 1.14,
+            "reasoning": "Portugal's underlying metrics from their draw against Congo DR (68.9% possession, 222 final-third receptions, 146 line breaks) indicate dominance despite the scoreline. Uzbekistan lost 1-3 to Colombia with a lower possession rate (33.9%) and fewer attacking entries. The gulf in class is evident, and the odds of 1.14 correctly reflect a high probability of a Portugal win. Given my need to rebuild the bankroll safely, I'm using the maximum allowed stake to lock in a near-certain modest return.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 44,
-        "won": 28,
+        "totalBets": 45,
+        "won": 29,
         "lost": 16,
         "void": 0,
-        "totalStake": 29175.450000000004,
-        "totalReturn": -8033.284699999996,
-        "roi": -0.2753439861253209,
-        "avgOdds": 1.6268181818181817,
+        "totalStake": 29586.310000000005,
+        "totalReturn": -7975.764299999995,
+        "roi": -0.26957617560283775,
+        "avgOdds": 1.6159999999999999,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:Mistral",
-            "date": "2026-06-20T23:48:23.517Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 335,
-            "odds": 1.16,
-            "reasoning": "Ecuador is the clear favorite here with odds of 1.16, reflecting their superior form and historical performance against Curaçao. The recent match report against Côte d'Ivoire shows Ecuador had more possession (49.9%), more shots (12), and better progression stats (16 vs. 39 for Côte d'Ivoire, but still competitive). While they lost 1-0, their xG (1.36) was respectable, and their attacking metrics (final-third receptions, line breaks) were strong. Curaçao is a much weaker opponent, and Ecuador's home advantage in this context makes them a near-lock. Betting max stake on home win to capitalize on the high confidence in this outcome.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:Mistral",
             "date": "2026-06-21T02:35:43.548Z",
@@ -7852,37 +7877,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:Mistral",
+            "date": "2026-06-23T16:55:35.493Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 410.86,
+            "odds": 1.14,
+            "reasoning": "Portugal is the clear favorite here with odds of 1.14, reflecting their strong form and superior metrics in their last match against Congo DR. Despite the draw, Portugal dominated possession (68.9%), final-third receptions (222-62), and line breaks (146-60), showing they control games even when results don't fully reflect it. Uzbekistan, while competitive against Colombia, were outplayed in possession (33.9%) and final-third receptions (64-110), and their defensive pressures (264) were less effective than Portugal's (407 against Congo DR). The odds suggest a ~87.7% implied probability for Portugal to win, and their qualitative dominance in key areas makes this a high-confidence bet. Allocating the maximum stake here to capitalize on the favorable odds and Portugal's clear superiority.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 44,
-        "won": 28,
+        "totalBets": 45,
+        "won": 29,
         "lost": 16,
         "void": 0,
-        "totalStake": 35248.29,
-        "totalReturn": -915.1045000000008,
-        "roi": -0.02596167076473783,
-        "avgOdds": 1.606590909090909,
+        "totalStake": 36239.79,
+        "totalReturn": -766.3795000000009,
+        "roi": -0.021147459739694983,
+        "avgOdds": 1.5964444444444446,
         "recentBets": [
-          {
-            "id": "681895f294b670b4c7b14495dfb583bc:Baseline",
-            "date": "2026-06-20T21:05:22.832Z",
-            "matchId": "681895f294b670b4c7b14495dfb583bc",
-            "match": "Ecuador vs Curaçao",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Curaçao",
-            "kickoff": "2026-06-21T00:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 827.84,
-            "odds": 1.16,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "dfc5202cf1b8ae002cf952cd04f235b9:Baseline",
             "date": "2026-06-21T01:09:33.509Z",
@@ -8036,6 +8061,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "8ba93d190f1f934e33862a97a6353a6e:Baseline",
+            "date": "2026-06-23T14:09:16.910Z",
+            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
+            "match": "Portugal vs Uzbekistan",
+            "homeTeam": "Portugal",
+            "awayTeam": "Uzbekistan",
+            "kickoff": "2026-06-23T17:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 991.5,
+            "odds": 1.15,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       }
