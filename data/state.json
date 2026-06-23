@@ -164,6 +164,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 5562.79
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 5650.4
       }
     ],
     "GPT-5.5": [
@@ -330,6 +334,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 506.03
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 418.34
       }
     ],
     "Gemini": [
@@ -496,6 +504,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 1885.54
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 1913.4
       }
     ],
     "Grok": [
@@ -662,6 +674,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 2851.61
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 2896.74
       }
     ],
     "DeepSeek": [
@@ -828,6 +844,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 911.3
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 913.3
       }
     ],
     "Mistral": [
@@ -994,6 +1014,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 1636.03
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 1659.97
       }
     ],
     "Baseline": [
@@ -1160,6 +1184,10 @@
       {
         "t": "2026-06-22T19:19:14.765Z",
         "bankroll": 8292.95
+      },
+      {
+        "t": "2026-06-23T01:38:34.314Z",
+        "bankroll": 8364.24
       }
     ]
   },
@@ -6021,7 +6049,9 @@
       "stake": 792.07,
       "odds": 1.09,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Claude",
@@ -6036,7 +6066,9 @@
       "stake": 1095.1,
       "odds": 1.08,
       "reasoning": "France just beat Senegal with a 1.62-0.39 xG dominance, while Iraq got dismantled 1-4 by Norway, outplayed across every metric (xG 1.20-2.41, line breaks 70-116). At 1.08 the odds confirm France are heavy favorites. The margin is thin per dollar, but this is about as safe as betting gets in this tournament. Max stake on the near-certainty.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:GPT-5.5",
@@ -6051,7 +6083,9 @@
       "stake": 87.69,
       "odds": 13.43,
       "reasoning": "France are clearly the stronger side and the odds say that loudly, but at my current bankroll I need upside rather than grinding 1.08 favorites. The FIFA reports support France superiority, while Iraq’s underlying numbers vs Norway were not hopeless enough to make a stalemate impossible. Draw is the only realistic high-variance angle here, so I’m taking the big price.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Gemini",
@@ -6066,7 +6100,9 @@
       "stake": 348.22,
       "odds": 1.08,
       "reasoning": "France showed their class with a dominant 3-1 victory over Senegal, controlling the game and limiting their opponents to just 0.39 xG. Iraq struggled heavily in their opening match, conceding four goals to Norway and allowing 2.41 xG. There is a massive gulf in quality between these two sides. France is expected to secure an easy victory here, making 'home' the safest possible bet to consolidate our bankroll, even at low odds of 1.08.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Grok",
@@ -6081,7 +6117,9 @@
       "stake": 564.11,
       "odds": 1.08,
       "reasoning": "France dominated Senegal in every metric (xG, shots, progressions) while Iraq were thoroughly outclassed by Norway. The 1.08 price is still the highest-probability outcome by a wide margin.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:DeepSeek",
@@ -6096,7 +6134,9 @@
       "stake": 25,
       "odds": 1.08,
       "reasoning": "France are overwhelmingly superior based on squad quality and their 3-1 win over Senegal (xG 1.62-0.39). Iraq were dismantled 1-4 by Norway (xG 1.20-2.41) and looked fragile. Odds of 1.08 imply a ~93% probability—essentially a formality. However, the return is tiny, and risking 25% of my bankroll for a 2% gain is poor risk management. I place a minimal $25 to stay active and preserve cash for higher-value later rounds. If an upset happens, the damage is limited.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "7ad7a0ce2ef2618bb59b066da5642f70:Mistral",
@@ -6111,7 +6151,9 @@
       "stake": 299.3,
       "odds": 1.08,
       "reasoning": "France's recent performance against Senegal (3-1 win) shows dominance in key metrics: higher xG (1.62 vs 0.39), more shots on target (8 vs 2), and superior line breaks (118 vs 101). While possession was close, France's efficiency in final-third play and defensive pressure (277 pressures) suggests a well-rounded team. Iraq, on the other hand, struggled against Norway (1-4 loss), with lower possession (34.7%), fewer final-third receptions (72 vs 101), and a high xG conceded (2.41). The odds (1.08 for France) are extremely low, but the qualitative and quantitative data overwhelmingly favor France. Given the bankroll constraints, I'm allocating the maximum allowed stake to this high-confidence pick, as the risk-reward ratio is still favorable despite the low odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Baseline",
@@ -6327,7 +6369,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-23T01:13:53.912Z",
-    "lastSettleRun": "2026-06-22T19:19:14.765Z",
+    "lastSettleRun": "2026-06-23T01:38:34.314Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -6411,32 +6453,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 41,
-        "won": 25,
+        "totalBets": 42,
+        "won": 26,
         "lost": 16,
         "void": 0,
-        "totalStake": 38843.68000000001,
-        "totalReturn": -5347.511799999999,
-        "roi": -0.13766748670568799,
-        "avgOdds": 1.5985365853658537,
+        "totalStake": 39938.780000000006,
+        "totalReturn": -5259.903799999999,
+        "roi": -0.13169916056524505,
+        "avgOdds": 1.5861904761904764,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Claude",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 750,
-            "odds": 2.04,
-            "reasoning": "Turkey at 2.04 implies about 49% — the market sees them as clear favorites at home. The FIFA report on Paraguay is damning: they got dismantled 4-1 by the USA with just 0.60 xG, one shot on target, and a pitiful 31 final-third receptions. That's a side struggling badly to create anything in attack. Turkey have the quality and home edge to exploit that. I'm backing home with solid but measured conviction — paying 2.04 for a favorite this clearly justified is decent value. Sizing moderately since one-match slates carry full variance and I want to protect my strong bankroll position.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:Claude",
             "date": "2026-06-20T16:44:26.037Z",
@@ -6590,37 +6615,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Claude",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1095.1,
+            "odds": 1.08,
+            "reasoning": "France just beat Senegal with a 1.62-0.39 xG dominance, while Iraq got dismantled 1-4 by Norway, outplayed across every metric (xG 1.20-2.41, line breaks 70-116). At 1.08 the odds confirm France are heavy favorites. The margin is thin per dollar, but this is about as safe as betting gets in this tournament. Max stake on the near-certainty.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 41,
+        "totalBets": 42,
         "won": 16,
-        "lost": 25,
+        "lost": 26,
         "void": 0,
-        "totalStake": 22877.489999999994,
-        "totalReturn": -9623.060400000002,
-        "roi": -0.4206344489714564,
-        "avgOdds": 3.69,
+        "totalStake": 22965.179999999993,
+        "totalReturn": -9710.750400000003,
+        "roi": -0.42284669225322885,
+        "avgOdds": 3.921904761904762,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:GPT-5.5",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 94.46,
-            "odds": 2.04,
-            "reasoning": "Turkey at 2.04 is the best blend of price and likelihood here. Odds already make them the favorite, and the available FIFA report gives extra qualitative support: Paraguay were badly outplayed by the USA, with weak chance creation, very few final-third receptions, and poor progression numbers. Given my bankroll position I need upside, so I’m taking the maximum allowed stake on the favorite rather than trying to get cute with the draw or away price.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:GPT-5.5",
             "date": "2026-06-20T16:44:26.037Z",
@@ -6774,37 +6799,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:GPT-5.5",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 87.69,
+            "odds": 13.43,
+            "reasoning": "France are clearly the stronger side and the odds say that loudly, but at my current bankroll I need upside rather than grinding 1.08 favorites. The FIFA reports support France superiority, while Iraq’s underlying numbers vs Norway were not hopeless enough to make a stalemate impossible. Draw is the only realistic high-variance angle here, so I’m taking the big price.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 41,
-        "won": 24,
+        "totalBets": 42,
+        "won": 25,
         "lost": 17,
         "void": 0,
-        "totalStake": 29605.650000000005,
-        "totalReturn": -8404.226100000002,
-        "roi": -0.2838723723343348,
-        "avgOdds": 1.6082926829268291,
+        "totalStake": 29953.870000000006,
+        "totalReturn": -8376.368500000002,
+        "roi": -0.27964227994579666,
+        "avgOdds": 1.5957142857142856,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Gemini",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 570.86,
-            "odds": 2.04,
-            "reasoning": "Paraguay's opening match against the USA exposed severe defensive and possession vulnerabilities, as they conceded 4 goals, allowed 201 final-third receptions, and managed just 28.7% possession. Turkey possesses the technical midfield quality to control the tempo and break down a fragile Paraguayan defense. At odds of 2.04, the home win presents excellent value. We are backing Turkey with the maximum allowable stake to sustain our strong 5-game winning momentum.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:Gemini",
             "date": "2026-06-20T16:44:26.037Z",
@@ -6958,37 +6983,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Gemini",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 348.22,
+            "odds": 1.08,
+            "reasoning": "France showed their class with a dominant 3-1 victory over Senegal, controlling the game and limiting their opponents to just 0.39 xG. Iraq struggled heavily in their opening match, conceding four goals to Norway and allowing 2.41 xG. There is a massive gulf in quality between these two sides. France is expected to secure an easy victory here, making 'home' the safest possible bet to consolidate our bankroll, even at low odds of 1.08.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 41,
-        "won": 24,
+        "totalBets": 42,
+        "won": 25,
         "lost": 17,
         "void": 0,
-        "totalStake": 60345.46000000001,
-        "totalReturn": -7613.212999999999,
-        "roi": -0.12616049326660198,
-        "avgOdds": 1.6792682926829268,
+        "totalStake": 60909.57000000001,
+        "totalReturn": -7568.084199999998,
+        "roi": -0.12425115133795885,
+        "avgOdds": 1.6649999999999998,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Grok",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 1210,
-            "odds": 2.04,
-            "reasoning": "Turkey is clear favorite at 2.04 vs a Paraguay side that was dismantled 4-1 by USA with abysmal underlying numbers (xG 0.60, final-third receptions only 31). Home edge plus Paraguay weakness points to Turkey win.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:Grok",
             "date": "2026-06-20T16:44:26.037Z",
@@ -7142,37 +7167,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Grok",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 564.11,
+            "odds": 1.08,
+            "reasoning": "France dominated Senegal in every metric (xG, shots, progressions) while Iraq were thoroughly outclassed by Norway. The 1.08 price is still the highest-probability outcome by a wide margin.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 41,
-        "won": 22,
+        "totalBets": 42,
+        "won": 23,
         "lost": 19,
         "void": 0,
-        "totalStake": 28679.43999999999,
-        "totalReturn": -9208.723,
-        "roi": -0.32109145087909674,
-        "avgOdds": 1.9765853658536587,
+        "totalStake": 28704.43999999999,
+        "totalReturn": -9206.723,
+        "roi": -0.32074212212466097,
+        "avgOdds": 1.9552380952380954,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:DeepSeek",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 271.32,
-            "odds": 2.04,
-            "reasoning": "Turkey are odds-on favourites at 2.04, implying a ~49% win probability. Paraguay's last performance (USA 4-1, xG 0.60, only 31 final-third receptions, 28.7% possession) exposed major structural issues. Even with neutral-ground context, Turkey should control the game and convert. I'm staking the maximum allowed (25% of bankroll) to capitalize on this edge.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:DeepSeek",
             "date": "2026-06-20T16:44:26.037Z",
@@ -7326,37 +7351,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:DeepSeek",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 25,
+            "odds": 1.08,
+            "reasoning": "France are overwhelmingly superior based on squad quality and their 3-1 win over Senegal (xG 1.62-0.39). Iraq were dismantled 1-4 by Norway (xG 1.20-2.41) and looked fragile. Odds of 1.08 imply a ~93% probability—essentially a formality. However, the return is tiny, and risking 25% of my bankroll for a 2% gain is poor risk management. I place a minimal $25 to stay active and preserve cash for higher-value later rounds. If an upset happens, the damage is limited.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 41,
-        "won": 25,
+        "totalBets": 42,
+        "won": 26,
         "lost": 16,
         "void": 0,
-        "totalStake": 28272.610000000004,
-        "totalReturn": -8613.453099999995,
-        "roi": -0.3046571611181279,
-        "avgOdds": 1.6256097560975609,
+        "totalStake": 28571.910000000003,
+        "totalReturn": -8589.509099999996,
+        "roi": -0.30062775292236305,
+        "avgOdds": 1.6126190476190474,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Mistral",
-            "date": "2026-06-20T02:23:45.904Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 487.38,
-            "odds": 2.04,
-            "reasoning": "Turkey vs Paraguay: The odds (home 2.04) suggest Turkey is the favorite, and the recent FIFA report for Paraguay (M04: USA 4-1 Paraguay) shows significant weaknesses—low possession (28.7%), few shots on target (1/9), and poor progression stats (17 progressions vs USA's 52). While Turkey isn't a powerhouse, they're likely the stronger side here, and the value at 2.04 is decent. Betting max stake given the favorable odds and Paraguay's recent struggles.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:Mistral",
             "date": "2026-06-20T16:44:26.037Z",
@@ -7510,37 +7535,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Mistral",
+            "date": "2026-06-22T20:19:25.101Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 299.3,
+            "odds": 1.08,
+            "reasoning": "France's recent performance against Senegal (3-1 win) shows dominance in key metrics: higher xG (1.62 vs 0.39), more shots on target (8 vs 2), and superior line breaks (118 vs 101). While possession was close, France's efficiency in final-third play and defensive pressure (277 pressures) suggests a well-rounded team. Iraq, on the other hand, struggled against Norway (1-4 loss), with lower possession (34.7%), fewer final-third receptions (72 vs 101), and a high xG conceded (2.41). The odds (1.08 for France) are extremely low, but the qualitative and quantitative data overwhelmingly favor France. Given the bankroll constraints, I'm allocating the maximum allowed stake to this high-confidence pick, as the risk-reward ratio is still favorable despite the low odds.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 41,
-        "won": 25,
+        "totalBets": 42,
+        "won": 26,
         "lost": 16,
         "void": 0,
-        "totalStake": 32797.619999999995,
-        "totalReturn": -2537.1818000000007,
-        "roi": -0.07735871688250553,
-        "avgOdds": 1.6031707317073167,
+        "totalStake": 33589.689999999995,
+        "totalReturn": -2465.8955000000005,
+        "roi": -0.073412273230268,
+        "avgOdds": 1.590952380952381,
         "recentBets": [
-          {
-            "id": "f955d4b3395ce6e3b5ac1031ca52ca4e:Baseline",
-            "date": "2026-06-20T00:04:30.761Z",
-            "matchId": "f955d4b3395ce6e3b5ac1031ca52ca4e",
-            "match": "Turkey vs Paraguay",
-            "homeTeam": "Turkey",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-20T03:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 792.78,
-            "odds": 2.05,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f0c518545b0096c68326daf25bffc1e:Baseline",
             "date": "2026-06-20T14:09:33.940Z",
@@ -7694,6 +7719,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Baseline",
+            "date": "2026-06-22T19:09:48.269Z",
+            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
+            "match": "France vs Iraq",
+            "homeTeam": "France",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-22T21:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 792.07,
+            "odds": 1.09,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       }
