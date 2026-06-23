@@ -172,6 +172,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 6789.4
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 7299.4
       }
     ],
     "GPT-5.5": [
@@ -346,6 +350,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 535.84
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 572.77
       }
     ],
     "Gemini": [
@@ -520,6 +528,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 2380.01
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 2560.57
       }
     ],
     "Grok": [
@@ -694,6 +706,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 3652.65
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 3945.13
       }
     ],
     "DeepSeek": [
@@ -868,6 +884,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 1135.03
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 1219.62
       }
     ],
     "Mistral": [
@@ -1042,6 +1062,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 2061.03
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 2216.19
       }
     ],
     "Baseline": [
@@ -1216,6 +1240,10 @@
       {
         "t": "2026-06-23T03:03:50.454Z",
         "bankroll": 9475.5
+      },
+      {
+        "t": "2026-06-23T06:22:37.895Z",
+        "bankroll": 9915.03
       }
     ]
   },
@@ -6315,7 +6343,9 @@
       "stake": 829.3,
       "odds": 1.53,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Claude",
@@ -6330,7 +6360,9 @@
       "stake": 1000,
       "odds": 1.51,
       "reasoning": "Algeria are clearly the stronger side and the FIFA reports back it up. Algeria held Argentina to a respectable line-break and progression battle (115 vs 102, 40 vs 18 progressions) despite losing 3-0, showing real ball-moving quality. Jordan, meanwhile, got dominated by Austria — 33% possession, only 91 final-third receptions vs 132, and out-progressed 35-23. The 1.51 away price implies ~66% for Algeria, which I think is fair to slightly generous to Jordan. I'll back Algeria with solid but not reckless conviction given the short price after a recent run of favorites burning me.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:GPT-5.5",
@@ -6345,7 +6377,9 @@
       "stake": 72.41,
       "odds": 1.51,
       "reasoning": "Algeria are the clear odds signal at 1.51 and the qualitative reports support them as the stronger side: even in a 3-0 loss to Argentina they had much more possession, final-third activity and progression than Jordan showed against Austria. Jordan’s attacking output was weak by xG and Algeria should control enough territory to make the away win the best play. Max stake because I need to rebuild bankroll and this is the strongest side of the slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Gemini",
@@ -6360,7 +6394,9 @@
       "stake": 354.04,
       "odds": 1.51,
       "reasoning": "Algeria showed decent possession and progression metrics despite their 3-0 loss to Argentina. Jordan, on the other hand, struggled heavily against Austria, conceding 1.93 xG while managing only 33% possession. Algeria should have too much quality for Jordan here, making the away win at 1.51 a solid bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Grok",
@@ -6375,7 +6411,9 @@
       "stake": 573.49,
       "odds": 1.51,
       "reasoning": "Algeria heavily favored at 1.51; Jordan poor in recent report vs Austria while Algeria competitive vs Argentina. Max stake on clear value favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:DeepSeek",
@@ -6390,7 +6428,9 @@
       "stake": 165.86,
       "odds": 1.51,
       "reasoning": "Algeria lost to Argentina but controlled possession and generated more final-third entries, while Jordan was outclassed by Austria with only 33% possession and low xG. Against weaker opposition, Algeria should dominate, and odds of 1.51 imply a strong probability. Betting $200 reflects moderate confidence, preserving bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Mistral",
@@ -6405,13 +6445,15 @@
       "stake": 304.24,
       "odds": 1.51,
       "reasoning": "The odds strongly favor Algeria (1.51), and the qualitative context from recent matches supports this. In their last game against Argentina, Algeria had more possession (50.8% vs 44.6%), final-third receptions (160 vs 68), and progressions (40 vs 18), despite losing 3-0. This suggests they are capable of controlling play against strong opponents but may struggle with finishing or defensive lapses. Against Austria, Jordan was outplayed in every metric (possession, shots, final-third receptions, line breaks, progressions) and lost 3-1. Algeria's underlying numbers against Argentina were solid, and they are clearly the stronger team on paper compared to Jordan. The odds reflect this, and the value here is in backing Algeria to continue their strong performance trends, even if they don't always convert their dominance into goals. Given the low risk (1.51 odds) and the qualitative edge, I'm allocating the maximum stake to this bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-23T02:05:36.778Z",
-    "lastSettleRun": "2026-06-23T03:03:50.454Z",
+    "lastSettleRun": "2026-06-23T06:22:37.895Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -6495,32 +6537,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 43,
-        "won": 27,
+        "totalBets": 44,
+        "won": 28,
         "lost": 16,
         "void": 0,
-        "totalStake": 40788.780000000006,
-        "totalReturn": -4120.903799999999,
-        "roi": -0.10103032745769788,
-        "avgOdds": 1.6037209302325584,
+        "totalStake": 41788.780000000006,
+        "totalReturn": -3610.903799999999,
+        "roi": -0.08640845222090711,
+        "avgOdds": 1.6015909090909093,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:Claude",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1132.87,
-            "odds": 1.44,
-            "reasoning": "Germany at 1.44 against Ivory Coast represents solid value. The training report shows Germany dominated Curaçao with 4.17 xG, 26 shots, and superior final-third activity (252 vs 61 receptions). While Curaçao is weaker than Ivory Coast, Germany's quality shines through in their metrics. At 1.44 odds, the implied probability is 69.4%, and I believe Germany's actual win probability is higher given their tournament pedigree and form. I'm down to $5756 from $10k starting bankroll, so I need to be aggressive with high-confidence plays to catch up. This is my max stake - going all-in on what should be a straightforward German victory.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:Claude",
             "date": "2026-06-20T23:48:23.517Z",
@@ -6674,37 +6699,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:Claude",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1000,
+            "odds": 1.51,
+            "reasoning": "Algeria are clearly the stronger side and the FIFA reports back it up. Algeria held Argentina to a respectable line-break and progression battle (115 vs 102, 40 vs 18 progressions) despite losing 3-0, showing real ball-moving quality. Jordan, meanwhile, got dominated by Austria — 33% possession, only 91 final-third receptions vs 132, and out-progressed 35-23. The 1.51 away price implies ~66% for Algeria, which I think is fair to slightly generous to Jordan. I'll back Algeria with solid but not reckless conviction given the short price after a recent run of favorites burning me.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 43,
-        "won": 17,
+        "totalBets": 44,
+        "won": 18,
         "lost": 26,
         "void": 0,
-        "totalStake": 23052.86999999999,
-        "totalReturn": -9593.245800000002,
-        "roi": -0.41614106182874433,
-        "avgOdds": 3.8851162790697673,
+        "totalStake": 23125.27999999999,
+        "totalReturn": -9556.316700000003,
+        "roi": -0.41324112399936375,
+        "avgOdds": 3.8311363636363636,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:GPT-5.5",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 41.68,
-            "odds": 1.44,
-            "reasoning": "Germany are the clear market favorite at 1.44, and the FIFA report from their 7-1 win over Curaçao supports the idea that they are creating overwhelming attacking volume: 4.17 xG, 26 shots, 252 final-third receptions and 125 line breaks. Ivory Coast are stronger than Curaçao, so I am not treating that result as automatic proof, but the combination of market signal and Germany’s demonstrated dominance makes home the best pick. With my bankroll low, I need to press my strongest edges, so I’m staking the per-match max.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:GPT-5.5",
             "date": "2026-06-20T23:48:23.517Z",
@@ -6858,37 +6883,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:GPT-5.5",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 72.41,
+            "odds": 1.51,
+            "reasoning": "Algeria are the clear odds signal at 1.51 and the qualitative reports support them as the stronger side: even in a 3-0 loss to Argentina they had much more possession, final-third activity and progression than Jordan showed against Austria. Jordan’s attacking output was weak by xG and Algeria should control enough territory to make the away win the best play. Max stake because I need to rebuild bankroll and this is the strongest side of the slate.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 43,
-        "won": 26,
+        "totalBets": 44,
+        "won": 27,
         "lost": 17,
         "void": 0,
-        "totalStake": 30302.090000000007,
-        "totalReturn": -7909.753700000002,
-        "roi": -0.2610299718600268,
-        "avgOdds": 1.6130232558139534,
+        "totalStake": 30656.13000000001,
+        "totalReturn": -7729.193300000002,
+        "roi": -0.25212553900312923,
+        "avgOdds": 1.6106818181818183,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:Gemini",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 359.8,
-            "odds": 1.44,
-            "reasoning": "Germany demonstrated elite offensive efficiency in their previous match, dismantling Curaçao 7-1 while generating 4.17 xG and 26 shots. Their ability to dominate possession (57.8%) and break lines (125 line breaks) suggests they will control the tempo against Ivory Coast. Although Ivory Coast will offer a more physical test than Curaçao, Germany's tactical discipline and superior squad depth make them highly likely to secure the three points. We back the home win with our maximum allowed stake of $490.47 to steadily rebuild our bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:Gemini",
             "date": "2026-06-20T23:48:23.517Z",
@@ -7042,37 +7067,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:Gemini",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 354.04,
+            "odds": 1.51,
+            "reasoning": "Algeria showed decent possession and progression metrics despite their 3-0 loss to Argentina. Jordan, on the other hand, struggled heavily against Austria, conceding 1.93 xG while managing only 33% possession. Algeria should have too much quality for Jordan here, making the away win at 1.51 a solid bet.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 43,
-        "won": 26,
+        "totalBets": 44,
+        "won": 27,
         "lost": 17,
         "void": 0,
-        "totalStake": 61473.68000000001,
-        "totalReturn": -6812.176799999998,
-        "roi": -0.11081452745304979,
-        "avgOdds": 1.6806976744186046,
+        "totalStake": 62047.170000000006,
+        "totalReturn": -6519.696899999998,
+        "roi": -0.10507645876516201,
+        "avgOdds": 1.6768181818181818,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:Grok",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 590.7,
-            "odds": 1.44,
-            "reasoning": "Germany's post-match metrics vs Curaçao show overwhelming dominance (xG 4.17-0.40, 26 shots, high line breaks and final-third receptions). Ivory Coast lacks comparable quality, making the 1.44 home odds attractive despite the short price. High stake reflects strong conviction in the mismatch.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:Grok",
             "date": "2026-06-20T23:48:23.517Z",
@@ -7226,37 +7251,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:Grok",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 573.49,
+            "odds": 1.51,
+            "reasoning": "Algeria heavily favored at 1.51; Jordan poor in recent report vs Austria while Algeria competitive vs Argentina. Max stake on clear value favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 43,
-        "won": 24,
+        "totalBets": 44,
+        "won": 25,
         "lost": 19,
         "void": 0,
-        "totalStake": 28869.909999999993,
-        "totalReturn": -8984.9932,
-        "roi": -0.3112234572258799,
-        "avgOdds": 1.964186046511628,
+        "totalStake": 29035.769999999993,
+        "totalReturn": -8900.404600000002,
+        "roi": -0.3065324115737245,
+        "avgOdds": 1.9538636363636366,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:DeepSeek",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 171.13,
-            "odds": 1.44,
-            "reasoning": "Germany are strong favorites after a 7-1 rout of Curaçao with dominant underlying numbers (xG 4.17-0.40, shots 26-8). Ivory Coast are clear underdogs. Home win at 1.44 offers solid value and aligns with all available signals. Betting the maximum allowed stake to maximize upside in my catch-up strategy.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:DeepSeek",
             "date": "2026-06-20T23:48:23.517Z",
@@ -7410,37 +7435,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:DeepSeek",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 165.86,
+            "odds": 1.51,
+            "reasoning": "Algeria lost to Argentina but controlled possession and generated more final-third entries, while Jordan was outclassed by Austria with only 33% possession and low xG. Against weaker opposition, Algeria should dominate, and odds of 1.51 imply a strong probability. Betting $200 reflects moderate confidence, preserving bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 43,
-        "won": 27,
+        "totalBets": 44,
+        "won": 28,
         "lost": 16,
         "void": 0,
-        "totalStake": 28871.210000000003,
-        "totalReturn": -8188.447099999996,
-        "roi": -0.28361981018460936,
-        "avgOdds": 1.62953488372093,
+        "totalStake": 29175.450000000004,
+        "totalReturn": -8033.284699999996,
+        "roi": -0.2753439861253209,
+        "avgOdds": 1.6268181818181817,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:Mistral",
-            "date": "2026-06-20T19:52:16.801Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 308.94,
-            "odds": 1.44,
-            "reasoning": "Germany's post-match report against Curaçao is dominant across all key metrics: xG (4.17 vs 0.40), shots (26 vs 8), possession (57.8% vs 35.3%), and final-third receptions (252 vs 61). Their attacking prowess and control were overwhelming, and while Curaçao is not a direct comparison to Ivory Coast, the qualitative gap in team strength is clear. The odds (1.44 for Germany) are favorable given their form and the market's implied probability (~69%), which feels conservative. With a 25% bankroll stake, I'm betting heavily on Germany to continue their strong performance and cover the spread comfortably. The risk is low, and the reward aligns with my confidence in their ability to dominate weaker opposition.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:Mistral",
             "date": "2026-06-20T23:48:23.517Z",
@@ -7594,37 +7619,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:Mistral",
+            "date": "2026-06-23T02:05:36.778Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 304.24,
+            "odds": 1.51,
+            "reasoning": "The odds strongly favor Algeria (1.51), and the qualitative context from recent matches supports this. In their last game against Argentina, Algeria had more possession (50.8% vs 44.6%), final-third receptions (160 vs 68), and progressions (40 vs 18), despite losing 3-0. This suggests they are capable of controlling play against strong opponents but may struggle with finishing or defensive lapses. Against Austria, Jordan was outplayed in every metric (possession, shots, final-third receptions, line breaks, progressions) and lost 3-1. Algeria's underlying numbers against Argentina were solid, and they are clearly the stronger team on paper compared to Jordan. The odds reflect this, and the value here is in backing Algeria to continue their strong performance trends, even if they don't always convert their dominance into goals. Given the low risk (1.51 odds) and the qualitative edge, I'm allocating the maximum stake to this bet.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 43,
-        "won": 27,
+        "totalBets": 44,
+        "won": 28,
         "lost": 16,
         "void": 0,
-        "totalStake": 34418.99,
-        "totalReturn": -1354.6335000000008,
-        "roi": -0.03935715429186042,
-        "avgOdds": 1.6083720930232557,
+        "totalStake": 35248.29,
+        "totalReturn": -915.1045000000008,
+        "roi": -0.02596167076473783,
+        "avgOdds": 1.606590909090909,
         "recentBets": [
-          {
-            "id": "f1ab0f69832972a329243522ceaa7804:Baseline",
-            "date": "2026-06-20T17:09:32.102Z",
-            "matchId": "f1ab0f69832972a329243522ceaa7804",
-            "match": "Germany vs Ivory Coast",
-            "homeTeam": "Germany",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-20T20:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 772.24,
-            "odds": 1.48,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "681895f294b670b4c7b14495dfb583bc:Baseline",
             "date": "2026-06-20T21:05:22.832Z",
@@ -7778,6 +7803,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "fd8533b650e655030f6a7946f8795db2:Baseline",
+            "date": "2026-06-23T00:04:45.670Z",
+            "matchId": "fd8533b650e655030f6a7946f8795db2",
+            "match": "Jordan vs Algeria",
+            "homeTeam": "Jordan",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-06-23T03:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 829.3,
+            "odds": 1.53,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       }
