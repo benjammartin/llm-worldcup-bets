@@ -6571,7 +6571,7 @@
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:Claude",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
@@ -6581,27 +6581,27 @@
       "pick": "home",
       "stake": 1468.15,
       "odds": 1.19,
-      "reasoning": "England looked clinical with 3.33 xG in their 4-2 win over Croatia, while Ghana edged Panama narrowly with under 1 xG. England's quality gap is significant and the 1.19 home odds (~84% implied) actually understate their edge here given the performance data. The low price means I size up confidently for a high-probability return. Ghana's away upset at 17.0 is a non-starter.",
+      "reasoning": "England dismantled Croatia 4-2 with a 3.33 xG and 22 shots (11 on target) — that's emphatic attacking output. Ghana scraped past Panama 1-0 with under 1.0 xG and were dominated on possession and line breaks. The 1.19 home price implies ~84% and matches the quality gap. England should control this comfortably. Sizing solid but not maxed since 1.19 offers thin value and one bad result hurts.",
       "status": "pending"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:GPT-5.5",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
       "awayTeam": "Ghana",
       "kickoff": "2026-06-23T20:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "draw",
       "stake": 99.6,
-      "odds": 1.19,
-      "reasoning": "England are very short at 1.19, but the odds signal is strongly supported by the match reports: England produced 3.33 xG and 22 shots against Croatia, while Ghana beat Panama 1-0 despite being outshot and allowing more possession/final-third activity. Ghana can defend and press, but England look like the clearly superior side. I’m staking the match max on the highest-probability outcome rather than chasing the long upset price.",
+      "odds": 7.5,
+      "reasoning": "England are clearly the stronger side and the odds rightly make them heavy favourites after a dominant 4-2 win over Croatia, while Ghana’s win over Panama was not especially convincing on the underlying numbers. But at 1.19 the England price offers very little upside, and given my bankroll position I need variance rather than small favourites. Ghana showed they can defend, press and keep a match tight, and England did concede twice despite controlling their opener. The draw at 7.5 is the only outcome with enough payout to justify a max-stake swing here.",
       "status": "pending"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:Gemini",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
@@ -6611,12 +6611,12 @@
       "pick": "home",
       "stake": 479.65,
       "odds": 1.19,
-      "reasoning": "England's opening 4-2 win over Croatia was highly impressive, generating 3.33 xG with 22 shots (11 on target), demonstrating a potent and highly efficient attack. Conversely, Ghana's 1-0 victory over Panama was far less convincing, as they were out-possessed (35.6% to 55.5%) and out-shot (7 to 11) while generating under 1.0 xG. England's quality and tactical dominance should comfortably secure a win here. We are placing the maximum allowed stake on the home side to sustain our recent winning streak.",
+      "reasoning": "England looked incredibly dominant in their 4-2 victory over Croatia, generating 3.33 xG and 22 shots. Meanwhile, Ghana struggled to control the game against Panama, being outshot and losing the possession battle despite a narrow 1-0 win. England's superior quality and tactical cohesion make them overwhelming favorites here, justifying a maximum stake bet on a home win.",
       "status": "pending"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:Grok",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
@@ -6626,12 +6626,12 @@
       "pick": "home",
       "stake": 787.36,
       "odds": 1.19,
-      "reasoning": "England dominated Croatia (xG 3.33-0.82) while Ghana's narrow win over Panama showed limited control. Home side is clear favorite at 1.19.",
+      "reasoning": "England's xG dominance and shot volume vs Croatia signal elite attack; Ghana's narrow win over Panama came with poor possession and progression metrics. 1.19 heavily favors the home side and aligns with the gap in class.",
       "status": "pending"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:DeepSeek",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
@@ -6639,14 +6639,14 @@
       "kickoff": "2026-06-23T20:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 222.93,
+      "stake": 200,
       "odds": 1.19,
-      "reasoning": "England's emphatic 4-2 win over Croatia with 3.33 xG demonstrates elite attacking quality. Ghana's narrow 1-0 vs Panama with modest underlying numbers suggests they'll be overmatched. Even at short odds, this is a high-probability victory to compound bankroll.",
+      "reasoning": "England demolished Croatia 4-2 with a massive xG edge (3.33-0.82) and 22 shots. Ghana scraped past Panama 1-0 with only 35.6% possession and nearly equal xG (0.98-0.77). The odds (1.19 home, 7.5 draw, 17 away) scream England dominance. Coupling the implied probability with the stark form differential makes England the only sensible pick. I stake $200 to earn a modest return while limiting exposure in case of an unlikely upset.",
       "status": "pending"
     },
     {
       "id": "2f49dd8deae3079dc4eb2d634d18a99c:Mistral",
-      "date": "2026-06-23T17:40:32.825Z",
+      "date": "2026-06-23T18:28:36.326Z",
       "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
       "match": "England vs Ghana",
       "homeTeam": "England",
@@ -6656,13 +6656,13 @@
       "pick": "home",
       "stake": 410.86,
       "odds": 1.19,
-      "reasoning": "England's recent performance against Croatia was dominant, with a significantly higher xG (3.33 vs 0.82), more shots (22 vs 10), and better control in key areas like final-third receptions and line breaks. While Ghana showed resilience against Panama, their offensive output was modest (xG 0.98) despite higher possession, and their defensive metrics (pressures, line breaks) were weaker. The odds heavily favor England (1.19), reflecting their superior form and quality. Given the risk-reward balance, I'm allocating the maximum allowed stake here to capitalize on what appears to be a high-probability outcome.",
+      "reasoning": "England's recent performance against Croatia was dominant, with a high xG (3.33) and overwhelming shot dominance (22 shots, 11 on target). Their attacking metrics (final-third receptions, line breaks, progressions) were strong, and while possession was close to even, their clinical finishing and defensive pressures (262) suggest they are in top form. Ghana, while showing resilience against Panama (1-0 win), had lower possession (35.6%) and struggled to create high-quality chances (xG 0.98 despite more shots). The odds heavily favor England (1.19), and given their recent form and Ghana's relative weaknesses in possession and chance creation, this is a high-confidence bet. The stake is maximized to reflect this conviction, especially given the recent winning streak (5 in a row) and the need to capitalize on high-probability opportunities to grow the bankroll.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-23T17:40:32.825Z",
+    "lastBetsRun": "2026-06-23T18:28:36.326Z",
     "lastSettleRun": "2026-06-23T06:22:37.895Z",
     "failures": [
       {
