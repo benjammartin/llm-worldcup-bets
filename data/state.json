@@ -6847,11 +6847,116 @@
       "odds": 1.43,
       "reasoning": "Croatia is the clear favorite here with odds of 1.43, reflecting their superior quality and recent performance. The FIFA report for England vs Croatia (M22) shows Croatia had a respectable xG (0.82) and competitive possession (43.5%) against a strong England side, despite losing 4-2. They also had more pressures (295 vs 262) and a similar number of line breaks (85 vs 82), indicating they can compete against top teams. Panama, on the other hand, struggled against Ghana (M21), with lower xG (0.77), fewer shots on target (4 vs Ghana's 2), and less possession (55.5% but only 35.6% against Ghana). Their defensive metrics (e.g., pressures, line breaks) were also worse than Ghana's. Croatia's experience, tactical discipline, and ability to control games make them a safe bet here, especially at these odds. I'm going all-in on the per-match max stake for this one.",
       "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:Claude",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 1100,
+      "odds": 1.54,
+      "reasoning": "Colombia looked sharp dispatching Uzbekistan 3-1 with 15 shots and 57% possession. DR Congo's 1-1 vs Portugal was a backs-to-the-wall survival job at 25% possession and 0.54 xG — not a sign of attacking threat. At 1.54 home, Colombia offers solid value as the superior side. Sizable but measured stake given draw risk against a physical, pressing Congo.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:GPT-5.5",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "draw",
+      "stake": 64.81,
+      "odds": 4.1,
+      "reasoning": "Colombia are the rightful favorite and the odds remain the primary signal, but at my bankroll position I need upside rather than a small 1.54 return. Congo DR just held Portugal 1-1 with nearly even xG (0.57-0.54) and showed they can survive without the ball through pressure and compact defending. Colombia beat Uzbekistan 3-1, but the xG was only 1.16-1.11, so the scoreline may overstate dominance. Draw at 4.10 is the best risk/reward swing here, so I’m staking the match maximum.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:Gemini",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 401.42,
+      "odds": 1.54,
+      "reasoning": "Colombia started their campaign strong with a 3-1 victory over Uzbekistan, showing efficient finishing and control. While DR Congo secured a commendable 1-1 draw against Portugal, they relied on an extremely deep defensive block with only 25.3% possession and offered very little going forward. Colombia's dynamic and creative attack is well-equipped to break down DR Congo's defense. At odds of 1.54, Colombia represents a highly confident selection, and I am maximizing our stake at $537.02 to capitalize on this matchup.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:Grok",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 650.03,
+      "odds": 1.54,
+      "reasoning": "Colombia demonstrated solid attacking metrics and a win vs Uzbekistan while DR Congo looked limited in possession and chance creation vs Portugal. Home side is clear favorite and 1.54 offers solid value given the gap in recent form and underlying numbers.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:DeepSeek",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 187.73,
+      "odds": 1.54,
+      "reasoning": "Colombia showed clear superiority against Uzbekistan, controlling possession (56.7%) and creating more chances (15 shots, 1.16 xG). DR Congo held Portugal to a draw but relied on intense defensive pressure (407 pressures) and had only 25.3% possession. The odds heavily favor Colombia, and while Congo may be resilient, Colombia's overall quality should secure the win. Stake is moderate to manage risk after recent losses.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:Mistral",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 344.69,
+      "odds": 1.54,
+      "reasoning": "Colombia has shown strong offensive metrics in their recent match against Uzbekistan, with higher possession (56.7%), more shots (15 vs 8), and significantly more final-third receptions (110 vs 64). Their xG was also slightly higher (1.16 vs 1.11), and they converted their chances more effectively. DR Congo, while competitive against Portugal (1-1 draw), had much lower possession (25.3%) and struggled to break lines (60 vs Portugal's 146). The odds for Colombia (1.54) are favorable given their recent form and underlying stats, suggesting a value bet. Staking the maximum allowed to capitalize on this high-confidence pick.",
+      "status": "pending"
+    },
+    {
+      "id": "68bfc965eb267508e04d8e8d75c1a0ae:Baseline",
+      "date": "2026-06-23T23:09:12.433Z",
+      "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+      "match": "Colombia vs DR Congo",
+      "homeTeam": "Colombia",
+      "awayTeam": "DR Congo",
+      "kickoff": "2026-06-24T02:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 907.23,
+      "odds": 1.54,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-23T22:49:44.869Z",
+    "lastBetsRun": "2026-06-23T23:09:12.433Z",
     "lastSettleRun": "2026-06-23T22:24:47.478Z",
     "failures": [
       {
@@ -6907,12 +7012,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "c1bc8c26480cd42b89a0de5329581314",
-        "homeTeam": "Panama",
-        "awayTeam": "Croatia",
-        "kickoff": "2026-06-23T23:00:00Z"
-      },
-      {
         "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
         "homeTeam": "Colombia",
         "awayTeam": "DR Congo",
@@ -6944,7 +7043,7 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "c1bc8c26480cd42b89a0de5329581314",
+    "lastCyclePostKey": "68bfc965eb267508e04d8e8d75c1a0ae",
     "performance": {
       "Claude": {
         "model": "Claude",
