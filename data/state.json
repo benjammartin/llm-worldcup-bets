@@ -168,6 +168,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 5650.4
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 6789.4
       }
     ],
     "GPT-5.5": [
@@ -338,6 +342,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 418.34
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 535.84
       }
     ],
     "Gemini": [
@@ -508,6 +516,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 1913.4
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 2380.01
       }
     ],
     "Grok": [
@@ -678,6 +690,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 2896.74
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 3652.65
       }
     ],
     "DeepSeek": [
@@ -848,6 +864,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 913.3
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 1135.03
       }
     ],
     "Mistral": [
@@ -1018,6 +1038,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 1659.97
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 2061.03
       }
     ],
     "Baseline": [
@@ -1188,6 +1212,10 @@
       {
         "t": "2026-06-23T01:38:34.314Z",
         "bankroll": 8364.24
+      },
+      {
+        "t": "2026-06-23T03:03:50.454Z",
+        "bankroll": 9475.5
       }
     ]
   },
@@ -6168,7 +6196,9 @@
       "stake": 829.3,
       "odds": 2.34,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Claude",
@@ -6183,7 +6213,9 @@
       "stake": 850,
       "odds": 2.34,
       "reasoning": "Norway looked excellent in their 4-1 demolition of Iraq: 2.41 xG, 57% possession, 116 line breaks and clear control. Senegal got outplayed by France (0.39 xG) and looks limited offensively. At 2.34, home odds offer genuine value with Norway as the sharper, more in-form side. Solid stake but not maxed given single-match risk.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
@@ -6198,7 +6230,9 @@
       "stake": 87.69,
       "odds": 2.34,
       "reasoning": "Odds make Norway only a modest favorite, but the available match reports lean their way: Norway created 2.41 xG with strong possession/progression numbers in a 4-1 win, while Senegal generated just 0.39 xG in their loss to France. Opponent quality matters, so I am not treating the reports as definitive, but at 2.34 Norway looks like the best value on the board. Given my low bankroll and need to climb, I am staking the match maximum.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
@@ -6213,7 +6247,9 @@
       "stake": 348.22,
       "odds": 2.34,
       "reasoning": "Norway enters this matchup in excellent form following a dominant 4-1 win over Iraq where they generated 2.41 xG and demonstrated clinical finishing. In contrast, Senegal struggled to create high-quality chances against France, managing only 0.39 xG and conceding three goals. With Norway's attacking potency and the favorable 2.34 odds, they represent the best value to take all three points.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Grok",
@@ -6228,7 +6264,9 @@
       "stake": 564.11,
       "odds": 2.34,
       "reasoning": "Norway dominated Iraq with superior xG (2.41), possession, and progressive metrics while Senegal were thoroughly outclassed by France (xG 0.39). At 2.34 the home side offers the best value on the slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
@@ -6243,7 +6281,9 @@
       "stake": 165.47,
       "odds": 2.34,
       "reasoning": "Norway looked strong beating Iraq 4-1 with 2.41 xG and 57% possession, while Senegal were thoroughly outplayed by France (1.62-0.39 xG). Home advantage and market odds favor Norway at 2.34, so I'm backing them with max allowed stake to aggressively rebuild the bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
@@ -6258,7 +6298,9 @@
       "stake": 299.3,
       "odds": 2.34,
       "reasoning": "Norway's recent performance against Iraq was dominant, with a 4-1 win, high xG (2.41), and superior possession (57.2%). They also had more final-third receptions, line breaks, and progressions, indicating strong offensive play. Senegal, while competitive against France (a much stronger side), had a low xG (0.39) and struggled to create high-quality chances. The odds favor Norway (2.34) over Senegal (3.05), aligning with the qualitative and quantitative data. Given Norway's form and the value in the odds, I'm placing the maximum allowed stake on Norway to win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Baseline",
@@ -6369,7 +6411,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-23T02:05:36.778Z",
-    "lastSettleRun": "2026-06-23T01:38:34.314Z",
+    "lastSettleRun": "2026-06-23T03:03:50.454Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -6459,32 +6501,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 42,
-        "won": 26,
+        "totalBets": 43,
+        "won": 27,
         "lost": 16,
         "void": 0,
-        "totalStake": 39938.780000000006,
-        "totalReturn": -5259.903799999999,
-        "roi": -0.13169916056524505,
-        "avgOdds": 1.5861904761904764,
+        "totalStake": 40788.780000000006,
+        "totalReturn": -4120.903799999999,
+        "roi": -0.10103032745769788,
+        "avgOdds": 1.6037209302325584,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:Claude",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 750,
-            "odds": 1.69,
-            "reasoning": "Netherlands favored at 1.69 with home advantage and superior squad depth. Their 2-2 vs Japan was flat (0.63 xG), which tempers my conviction, but the market still rates them clear favorites. Sweden looked sharp thrashing Tunisia, so I'm staking moderately rather than going big — backing the favorite without overcommitting given the Dutch underperformance.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:Claude",
             "date": "2026-06-20T19:52:16.801Z",
@@ -6638,37 +6663,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:Claude",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 850,
+            "odds": 2.34,
+            "reasoning": "Norway looked excellent in their 4-1 demolition of Iraq: 2.41 xG, 57% possession, 116 line breaks and clear control. Senegal got outplayed by France (0.39 xG) and looks limited offensively. At 2.34, home odds offer genuine value with Norway as the sharper, more in-form side. Solid stake but not maxed given single-match risk.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 42,
-        "won": 16,
+        "totalBets": 43,
+        "won": 17,
         "lost": 26,
         "void": 0,
-        "totalStake": 22965.179999999993,
-        "totalReturn": -9710.750400000003,
-        "roi": -0.42284669225322885,
-        "avgOdds": 3.921904761904762,
+        "totalStake": 23052.86999999999,
+        "totalReturn": -9593.245800000002,
+        "roi": -0.41614106182874433,
+        "avgOdds": 3.8851162790697673,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:GPT-5.5",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 50.36,
-            "odds": 5,
-            "reasoning": "Odds are still the anchor and Netherlands are rightly favored, but at 5.00 Sweden only need to be a little above a 20% chance to be worthwhile. The training reports make me comfortable taking that risk: Netherlands drew Japan 2-2 in a low-xG match, while Sweden generated 2.09 xG and finished strongly in a 5-1 win over Tunisia. Opponent strength differs, but Sweden look live enough that the underdog price is the best upside spot for my bankroll situation.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:GPT-5.5",
             "date": "2026-06-20T19:52:16.801Z",
@@ -6822,37 +6847,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 87.69,
+            "odds": 2.34,
+            "reasoning": "Odds make Norway only a modest favorite, but the available match reports lean their way: Norway created 2.41 xG with strong possession/progression numbers in a 4-1 win, while Senegal generated just 0.39 xG in their loss to France. Opponent quality matters, so I am not treating the reports as definitive, but at 2.34 Norway looks like the best value on the board. Given my low bankroll and need to climb, I am staking the match maximum.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 42,
-        "won": 25,
+        "totalBets": 43,
+        "won": 26,
         "lost": 17,
         "void": 0,
-        "totalStake": 29953.870000000006,
-        "totalReturn": -8376.368500000002,
-        "roi": -0.27964227994579666,
-        "avgOdds": 1.5957142857142856,
+        "totalStake": 30302.090000000007,
+        "totalReturn": -7909.753700000002,
+        "roi": -0.2610299718600268,
+        "avgOdds": 1.6130232558139534,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:Gemini",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 317.85,
-            "odds": 1.69,
-            "reasoning": "Despite a frustrating 2-2 draw against Japan where they struggled to generate high-quality chances (0.63 xG), the Netherlands possess far superior technical quality and tournament pedigree. Sweden's 5-1 thrashing of Tunisia was highly clinical but likely inflated by an opponent that collapsed defensively. At 1.69, the market strongly signals a Dutch recovery, and we expect them to adjust their progression play to break down Sweden. We are backing the favorites with our maximum allowed stake to rebuild our bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:Gemini",
             "date": "2026-06-20T19:52:16.801Z",
@@ -7006,37 +7031,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 348.22,
+            "odds": 2.34,
+            "reasoning": "Norway enters this matchup in excellent form following a dominant 4-1 win over Iraq where they generated 2.41 xG and demonstrated clinical finishing. In contrast, Senegal struggled to create high-quality chances against France, managing only 0.39 xG and conceding three goals. With Norway's attacking potency and the favorable 2.34 odds, they represent the best value to take all three points.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 42,
-        "won": 25,
+        "totalBets": 43,
+        "won": 26,
         "lost": 17,
         "void": 0,
-        "totalStake": 60909.57000000001,
-        "totalReturn": -7568.084199999998,
-        "roi": -0.12425115133795885,
-        "avgOdds": 1.6649999999999998,
+        "totalStake": 61473.68000000001,
+        "totalReturn": -6812.176799999998,
+        "roi": -0.11081452745304979,
+        "avgOdds": 1.6806976744186046,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:Grok",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 740.96,
-            "odds": 5,
-            "reasoning": "Sweden's dominant xG and shot metrics vs Tunisia contrast sharply with Netherlands' low-output draw vs Japan. Odds imply only 20% chance for away win, creating value on Sweden given current form signals.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:Grok",
             "date": "2026-06-20T19:52:16.801Z",
@@ -7190,37 +7215,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:Grok",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 564.11,
+            "odds": 2.34,
+            "reasoning": "Norway dominated Iraq with superior xG (2.41), possession, and progressive metrics while Senegal were thoroughly outclassed by France (xG 0.39). At 2.34 the home side offers the best value on the slate.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 42,
-        "won": 23,
+        "totalBets": 43,
+        "won": 24,
         "lost": 19,
         "void": 0,
-        "totalStake": 28704.43999999999,
-        "totalReturn": -9206.723,
-        "roi": -0.32074212212466097,
-        "avgOdds": 1.9552380952380954,
+        "totalStake": 28869.909999999993,
+        "totalReturn": -8984.9932,
+        "roi": -0.3112234572258799,
+        "avgOdds": 1.964186046511628,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:DeepSeek",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 151.8,
-            "odds": 1.69,
-            "reasoning": "Netherlands are favorites with 59% implied probability at 1.69 odds. Despite drawing against Japan, they controlled possession and had better xG. Sweden thrashed Tunisia but Tunisia is far weaker. Odds heavily discount an away win. I'm backing the Dutch to assert home advantage and secure a win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:DeepSeek",
             "date": "2026-06-20T19:52:16.801Z",
@@ -7374,37 +7399,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 165.47,
+            "odds": 2.34,
+            "reasoning": "Norway looked strong beating Iraq 4-1 with 2.41 xG and 57% possession, while Senegal were thoroughly outplayed by France (1.62-0.39 xG). Home advantage and market odds favor Norway at 2.34, so I'm backing them with max allowed stake to aggressively rebuild the bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 42,
-        "won": 26,
+        "totalBets": 43,
+        "won": 27,
         "lost": 16,
         "void": 0,
-        "totalStake": 28571.910000000003,
-        "totalReturn": -8589.509099999996,
-        "roi": -0.30062775292236305,
-        "avgOdds": 1.6126190476190474,
+        "totalStake": 28871.210000000003,
+        "totalReturn": -8188.447099999996,
+        "roi": -0.28361981018460936,
+        "avgOdds": 1.62953488372093,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:Mistral",
-            "date": "2026-06-20T16:44:26.037Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 273.33,
-            "odds": 1.69,
-            "reasoning": "The Netherlands vs Sweden match presents a strong case for backing the Netherlands at home. While the Netherlands drew 2-2 with Japan, their xG (0.63) and shot dominance (10 shots, 6 on target) suggest they were unlucky not to win. Their possession (54.9%) and final-third receptions (156) indicate a controlled, attacking style. Sweden, on the other hand, had a convincing 5-1 win over Tunisia, but their xG (2.09) was inflated by a few high-quality chances, and their possession (47.4%) and final-third receptions (103) were less dominant than the Netherlands'. The odds (1.69 for Netherlands) are favorable given their underlying performance and home advantage. I'm allocating the maximum stake here due to the combination of strong metrics, favorable odds, and the need to recover from the recent Turkey-Paraguay loss.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:Mistral",
             "date": "2026-06-20T19:52:16.801Z",
@@ -7558,37 +7583,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
+            "date": "2026-06-22T23:35:46.205Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 299.3,
+            "odds": 2.34,
+            "reasoning": "Norway's recent performance against Iraq was dominant, with a 4-1 win, high xG (2.41), and superior possession (57.2%). They also had more final-third receptions, line breaks, and progressions, indicating strong offensive play. Senegal, while competitive against France (a much stronger side), had a low xG (0.39) and struggled to create high-quality chances. The odds favor Norway (2.34) over Senegal (3.05), aligning with the qualitative and quantitative data. Given Norway's form and the value in the odds, I'm placing the maximum allowed stake on Norway to win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 42,
-        "won": 26,
+        "totalBets": 43,
+        "won": 27,
         "lost": 16,
         "void": 0,
-        "totalStake": 33589.689999999995,
-        "totalReturn": -2465.8955000000005,
-        "roi": -0.073412273230268,
-        "avgOdds": 1.590952380952381,
+        "totalStake": 34418.99,
+        "totalReturn": -1354.6335000000008,
+        "roi": -0.03935715429186042,
+        "avgOdds": 1.6083720930232557,
         "recentBets": [
-          {
-            "id": "4f0c518545b0096c68326daf25bffc1e:Baseline",
-            "date": "2026-06-20T14:09:33.940Z",
-            "matchId": "4f0c518545b0096c68326daf25bffc1e",
-            "match": "Netherlands vs Sweden",
-            "homeTeam": "Netherlands",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-20T17:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 772.24,
-            "odds": 1.72,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-1"
-          },
           {
             "id": "f1ab0f69832972a329243522ceaa7804:Baseline",
             "date": "2026-06-20T17:09:32.102Z",
@@ -7742,6 +7767,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "3f48473742ca0fd2a85930554720c75e:Baseline",
+            "date": "2026-06-22T21:09:12.243Z",
+            "matchId": "3f48473742ca0fd2a85930554720c75e",
+            "match": "Norway vs Senegal",
+            "homeTeam": "Norway",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-06-23T00:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 829.3,
+            "odds": 2.34,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       }
