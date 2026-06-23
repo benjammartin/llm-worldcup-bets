@@ -6277,7 +6277,7 @@
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Claude",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
@@ -6285,29 +6285,29 @@
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 900,
-      "odds": 1.52,
-      "reasoning": "Algeria are clear favorites at 1.52 and the underlying data backs it: in M19 they only lost 3-0 to a dominant Argentina but still generated solid line breaks and progressions. Jordan, meanwhile, got dominated by Austria 3-1 with feeble 0.53 xG and just 33% possession, looking outmatched against quality sides. Algeria's superior ball progression and pressing structure should overwhelm Jordan. The 1.52 price implies ~66% and I'm comfortable backing Algeria, though I'm sizing moderately given this is a single-match slate and upsets happen.",
+      "stake": 1000,
+      "odds": 1.51,
+      "reasoning": "Algeria are clearly the stronger side and the FIFA reports back it up. Algeria held Argentina to a respectable line-break and progression battle (115 vs 102, 40 vs 18 progressions) despite losing 3-0, showing real ball-moving quality. Jordan, meanwhile, got dominated by Austria — 33% possession, only 91 final-third receptions vs 132, and out-progressed 35-23. The 1.51 away price implies ~66% for Algeria, which I think is fair to slightly generous to Jordan. I'll back Algeria with solid but not reckless conviction given the short price after a recent run of favorites burning me.",
       "status": "pending"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:GPT-5.5",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "GPT-5.5",
-      "pick": "draw",
-      "stake": 87.69,
-      "odds": 4.4,
-      "reasoning": "Algeria are the rightful favorite on the market, but at my bankroll position I need upside more than a small favorite payout. The training reports make this feel less one-sided than 1.52 suggests: Algeria were beaten 3-0 by Argentina despite having decent possession/progression numbers, while Jordan were poor on xG against Austria but did generate shots and pressed aggressively. A draw at 4.4 is the best balance of plausible upset outcome and meaningful bankroll gain.",
+      "pick": "away",
+      "stake": 72.41,
+      "odds": 1.51,
+      "reasoning": "Algeria are the clear odds signal at 1.51 and the qualitative reports support them as the stronger side: even in a 3-0 loss to Argentina they had much more possession, final-third activity and progression than Jordan showed against Austria. Jordan’s attacking output was weak by xG and Algeria should control enough territory to make the away win the best play. Max stake because I need to rebuild bankroll and this is the strongest side of the slate.",
       "status": "pending"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Gemini",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
@@ -6315,14 +6315,14 @@
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "Gemini",
       "pick": "away",
-      "stake": 348.22,
-      "odds": 1.52,
-      "reasoning": "Algeria showed decent ball progression and final-third entries against a world-class Argentina side despite the 3-0 scoreline. Meanwhile, Jordan struggled heavily against Austria, conceding 1.93 xG while generating very little threat (0.53 xG). Algeria possesses the superior quality and tactical structure to control this match. At 1.52 odds, the away win offers strong value, and we are going with the maximum allowable stake to maximize our returns.",
+      "stake": 354.04,
+      "odds": 1.51,
+      "reasoning": "Algeria showed decent possession and progression metrics despite their 3-0 loss to Argentina. Jordan, on the other hand, struggled heavily against Austria, conceding 1.93 xG while managing only 33% possession. Algeria should have too much quality for Jordan here, making the away win at 1.51 a solid bet.",
       "status": "pending"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Grok",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
@@ -6330,14 +6330,14 @@
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 564.11,
-      "odds": 1.52,
-      "reasoning": "Algeria heavily favored at 1.52 despite recent loss to Argentina; Jordan similarly exposed vs Austria. Odds are the primary signal and Algeria's underlying quality edges this matchup.",
+      "stake": 573.49,
+      "odds": 1.51,
+      "reasoning": "Algeria heavily favored at 1.51; Jordan poor in recent report vs Austria while Algeria competitive vs Argentina. Max stake on clear value favorite.",
       "status": "pending"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:DeepSeek",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
@@ -6345,14 +6345,14 @@
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 165.47,
-      "odds": 1.52,
-      "reasoning": "Algeria is the clear favorite with odds of 1.52. Jordan lost 3-1 to Austria with low xG, while Algeria faced a top Argentina side. Algeria should comfortably beat Jordan. Betting near the max stake to recover bankroll with a high-probability outcome.",
+      "stake": 165.86,
+      "odds": 1.51,
+      "reasoning": "Algeria lost to Argentina but controlled possession and generated more final-third entries, while Jordan was outclassed by Austria with only 33% possession and low xG. Against weaker opposition, Algeria should dominate, and odds of 1.51 imply a strong probability. Betting $200 reflects moderate confidence, preserving bankroll.",
       "status": "pending"
     },
     {
       "id": "fd8533b650e655030f6a7946f8795db2:Mistral",
-      "date": "2026-06-23T01:13:53.912Z",
+      "date": "2026-06-23T02:05:36.778Z",
       "matchId": "fd8533b650e655030f6a7946f8795db2",
       "match": "Jordan vs Algeria",
       "homeTeam": "Jordan",
@@ -6360,15 +6360,15 @@
       "kickoff": "2026-06-23T03:00:00Z",
       "model": "Mistral",
       "pick": "away",
-      "stake": 299.3,
-      "odds": 1.52,
-      "reasoning": "Algeria's recent performance against Argentina (a top-tier team) was respectable despite the 3-0 loss, with decent possession (50.8%) and final-third receptions (160 vs. Argentina's 68), though their xG (0.41) and shots on target (1) were weak. Jordan, on the other hand, struggled against Austria (a mid-tier team), with only 33% possession, 0.53 xG, and 3 shots on target in a 3-1 loss. Algeria's odds (1.52) are far more favorable than Jordan's (6.5), and the qualitative data suggests Algeria is the stronger side despite their recent loss. The draw (4.4) is tempting, but Algeria's attacking metrics and the value in the away odds make them the clear pick here. Betting max stake due to high confidence in the value.",
+      "stake": 304.24,
+      "odds": 1.51,
+      "reasoning": "The odds strongly favor Algeria (1.51), and the qualitative context from recent matches supports this. In their last game against Argentina, Algeria had more possession (50.8% vs 44.6%), final-third receptions (160 vs 68), and progressions (40 vs 18), despite losing 3-0. This suggests they are capable of controlling play against strong opponents but may struggle with finishing or defensive lapses. Against Austria, Jordan was outplayed in every metric (possession, shots, final-third receptions, line breaks, progressions) and lost 3-1. Algeria's underlying numbers against Argentina were solid, and they are clearly the stronger team on paper compared to Jordan. The odds reflect this, and the value here is in backing Algeria to continue their strong performance trends, even if they don't always convert their dominance into goals. Given the low risk (1.51 odds) and the qualitative edge, I'm allocating the maximum stake to this bet.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-23T01:13:53.912Z",
+    "lastBetsRun": "2026-06-23T02:05:36.778Z",
     "lastSettleRun": "2026-06-23T01:38:34.314Z",
     "failures": [
       {
@@ -6446,6 +6446,12 @@
         "homeTeam": "Panama",
         "awayTeam": "Croatia",
         "kickoff": "2026-06-23T23:00:00Z"
+      },
+      {
+        "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+        "homeTeam": "Colombia",
+        "awayTeam": "DR Congo",
+        "kickoff": "2026-06-24T02:00:00Z"
       }
     ],
     "liveMatches": [],
