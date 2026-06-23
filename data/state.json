@@ -6718,7 +6718,7 @@
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Claude",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6727,13 +6727,13 @@
       "model": "Claude",
       "pick": "away",
       "stake": 1400,
-      "odds": 1.44,
-      "reasoning": "Croatia at 1.44 reflects clear class superiority over Panama. The reports confirm the gap: Panama lost to Ghana and looked blunt offensively (xG 0.77, only 4 shots on target), while Croatia hung tough against England losing 4-2 but generating decent shot volume and territorial presence. Panama's defensive structure is suspect. Croatia should control midfield and win. I'm backing the favorite firmly but not maxing out given a single match and Croatia's leaky defensive showing against England.",
+      "odds": 1.43,
+      "reasoning": "Croatia at 1.43 is the clear favorite and the odds reflect a roughly 70% implied probability. Despite Croatia losing 4-2 to England, that was against a top-tier side and they still generated decent attacking output. Panama just lost to Ghana with low xG (0.77) and modest possession, showing limited cutting edge. Croatia have far superior squad quality and depth. The 7.88 home price confirms Panama are heavy underdogs. I'm sizing this confidently but not maxing out given Croatia did just concede 4 — there's some defensive vulnerability that keeps this from being a banker.",
       "status": "pending"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:GPT-5.5",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6742,13 +6742,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 82.18,
-      "odds": 8,
-      "reasoning": "Croatia are rightly favored by the odds, but my bankroll position requires upside rather than grinding a 1.44 favorite. Panama’s loss to Ghana was not a collapse: they had more shots, more possession, more final-third receptions and more line breaks, with xG only narrowly against them. Croatia, meanwhile, were heavily out-created by England. At 8.00, I’ll take the high-variance upset shot and stake the max.",
+      "odds": 7.88,
+      "reasoning": "Croatia are the deserved market favorite, but at 1.43 the payout does very little for my position. Panama’s loss to Ghana was not a disaster in the underlying numbers: more shots, more possession, more final-third receptions and line breaks, with xG close at 0.77-0.98. Croatia, meanwhile, were heavily out-xG’d by England. This is a high-variance bankroll spot, so I’m taking the big upset price at 7.88 and staking the max.",
       "status": "pending"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Gemini",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6757,13 +6757,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 493.55,
-      "odds": 1.44,
-      "reasoning": "Croatia is the clear class of this matchup. While they suffered a heavy defeat against a rampant England side, they still managed to score twice. Panama, on the other hand, failed to find the net against Ghana despite holding the majority of possession and taking 11 shots. Croatia's experience and quality should dominate this game, making the away win at 1.44 a very strong bet. We are placing the maximum allowable stake to capitalize on this gap in quality and keep our winning momentum going.",
+      "odds": 1.43,
+      "reasoning": "Croatia suffered a heavy defeat against a strong England side, but they remain a class above Panama, who struggled to create high-quality chances in their 1-0 loss to Ghana. Croatia's technical superiority and experience in major tournaments make them strong favorites here. I am placing the maximum allowed stake on Croatia to secure a comfortable victory.",
       "status": "pending"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Grok",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6771,14 +6771,14 @@
       "kickoff": "2026-06-23T23:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 800,
-      "odds": 1.44,
-      "reasoning": "Odds strongly signal Croatia as clear favorite (implied ~69% prob). Recent reports show Croatia underperformed vs England but still face a Panama side that lost to Ghana despite decent underlying numbers; primary signal remains the market price so taking away at 1.44 with moderate stake given single-match allocation.",
+      "stake": 810.39,
+      "odds": 1.43,
+      "reasoning": "Odds imply ~70% probability Croatia wins, consistent with recent match reports showing Croatia competitive even in defeat while Panama looks limited offensively. High confidence given value at 1.43; stake at max allowed 25% of bankroll.",
       "status": "pending"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:DeepSeek",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6787,13 +6787,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 228.99,
-      "odds": 1.44,
-      "reasoning": "Odds heavily back Croatia (away 1.44 implied ~69%). Despite both teams losing their recent matches (Panama 0-1 to Ghana, Croatia 2-4 to England), the quality gap is significant. Croatia's solid tournament pedigree and need to rebound make an away win the most probable outcome. With bankroll at $1250.83, max allowed stake of $312.71 (25% bankroll) fits my available cash and offers a meaningful return without overextending.",
+      "odds": 1.43,
+      "reasoning": "Croatia are heavy favorites after a tough loss to England, where they created chances but were outclassed. Panama showed competitiveness vs Ghana, but Ghana is weaker than Croatia. Expect Croatia to dominate possession and secure a win. Low odds but high probability. Betting max stake to steadily increase bankroll.",
       "status": "pending"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Mistral",
-      "date": "2026-06-23T20:57:01.891Z",
+      "date": "2026-06-23T21:40:42.904Z",
       "matchId": "c1bc8c26480cd42b89a0de5329581314",
       "match": "Panama vs Croatia",
       "homeTeam": "Panama",
@@ -6802,14 +6802,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 422.61,
-      "odds": 1.44,
-      "reasoning": "Croatia is the clear favorite here based on the odds (1.44 for away win), and the recent match report against England shows they are competitive even against top-tier teams. While England dominated in shots and xG, Croatia had decent possession and line breaks, indicating they can still pose a threat. Panama, on the other hand, was outplayed by Ghana in their last match despite having more possession and shots. Ghana's higher xG (0.98 vs. Panama's 0.77) and better defensive metrics (more pressures and line breaks) suggest Panama struggles to convert possession into quality chances. Croatia's experience and tactical discipline make them a safer bet, especially at these odds. Going all-in on the away win within the per-match cap.",
+      "odds": 1.43,
+      "reasoning": "Croatia is the clear favorite here with odds of 1.43, reflecting their superior quality and recent performance. The post-match report from England vs Croatia (M22) shows Croatia had competitive possession (43.5%) and line breaks (85) against a strong England side, despite losing 4-2. Their xG (0.82) was decent, and their defensive structure was solid enough to limit England to 3.33 xG. Panama, on the other hand, struggled against Ghana (M21), managing only 0.77 xG despite having more possession (55.5%) and shots (11). Their final-third receptions (114) and line breaks (105) were higher, but they lacked efficiency in converting chances. Croatia's experience, defensive organization, and ability to control games make them a safer bet, even if Panama might dominate possession. The odds are favorable, and the risk-reward ratio is strong for a Croatia win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-23T20:57:01.891Z",
+    "lastBetsRun": "2026-06-23T21:40:42.904Z",
     "lastSettleRun": "2026-06-23T19:35:05.524Z",
     "failures": [
       {
