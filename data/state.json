@@ -6466,7 +6466,7 @@
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Claude",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
@@ -6476,27 +6476,27 @@
       "pick": "home",
       "stake": 1468.15,
       "odds": 1.15,
-      "reasoning": "Portugal at 1.15 is a heavy favorite and the underlying numbers back it up. Even in a flat 1-1 draw with Congo DR, Portugal dominated possession (68.9%), final-third receptions (222 vs 62), and line breaks (146 vs 60) — a profile that converts against weaker opposition. Uzbekistan just got outclassed 3-1 by Colombia, generating only 8 shots and trailing in nearly every progression metric. The 1.15 price is short but well-justified; I'm staking solidly while respecting that low odds mean limited upside. Capping at a reasonable amount to protect bankroll on a small-edge favorite.",
+      "reasoning": "Portugal at 1.15 against Uzbekistan is a strong value play despite the lower odds. While Portugal's 1-1 draw with Congo DR showed some inefficiency (0.57 xG), they dominated possession (68.9%) and controlled territory with 222 final-third receptions vs 62. Uzbekistan lost 1-3 to Colombia and managed only 33.9% possession with significantly fewer final-third receptions (64 vs 110). Portugal's quality gap should be decisive here - they're a traditional football powerhouse facing a team that struggled against top opposition. The odds imply 87% win probability which feels about right. I'm on a 5-game winning streak and need to maintain momentum while managing risk. At 1.15, I need to win 87% of the time to break even, and Portugal should clear that threshold comfortably. Betting max stake to capitalize on what appears to be the safest option available while building the bankroll steadily.",
       "status": "pending"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:GPT-5.5",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
       "kickoff": "2026-06-23T17:00:00Z",
       "model": "GPT-5.5",
-      "pick": "draw",
+      "pick": "away",
       "stake": 99.6,
-      "odds": 8.7,
-      "reasoning": "Portugal are clearly the stronger side, but 1.15 is too short for our bankroll position and offers almost no tournament upside. The training reports add enough doubt to look for a price: Portugal had huge possession and territory versus Congo DR but produced only 0.57 xG in a 1-1 draw, while Uzbekistan’s 1-3 loss to Colombia was closer on xG than the scoreline suggests. If Uzbekistan can stay compact and make Portugal turn dominance into low-quality chances again, the draw at 8.7 is the best risk/reward swing. Max stake because we need to chase, not grind tiny favorite payouts.",
+      "odds": 19.5,
+      "reasoning": "Portugal are rightly favored by the market, but at 1.15 the upside is useless for my current bankroll position. The training reports give enough qualitative reason to swing at the big price: Portugal dominated territory against Congo DR but only created 0.57 xG in a 1-1 draw, while Uzbekistan’s 1-3 loss to Colombia was much closer by xG, 1.11-1.16. Uzbekistan at 19.5 is a low-probability upset, but I need bankroll growth, not a tiny favorite payout, so I’m taking the maximum allowed shot.",
       "status": "pending"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Gemini",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
@@ -6506,12 +6506,12 @@
       "pick": "home",
       "stake": 479.65,
       "odds": 1.15,
-      "reasoning": "Portugal's opening 1-1 draw against Congo DR was a major underperformance in terms of chance creation, but they still dominated possession (68.9%) and territory. Facing an Uzbekistan side that allowed 15 shots and conceded three goals to Colombia, Portugal's superior quality and urgent need for a win to secure progression should prove decisive. We back the heavy favorites with the maximum allowed stake to sustain our winning momentum.",
+      "reasoning": "Portugal is the overwhelming favorite here at 1.15 odds. While their 1-1 draw against Congo DR was underwhelming in terms of chance creation, they dominated possession (68.9%) and territory. Uzbekistan conceded three goals to Colombia and will likely struggle to contain Portugal's attacking talent as the Seleção looks to secure a crucial three points. We are riding our 5-game winning streak and placing the maximum allowed stake on a highly probable Portugal victory.",
       "status": "pending"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Grok",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
@@ -6521,27 +6521,27 @@
       "pick": "home",
       "stake": 787.36,
       "odds": 1.15,
-      "reasoning": "Portugal vastly outclasses Uzbekistan on paper and the short 1.15 price is the market's clear signal. Recent xG and underlying numbers from their respective matches show Portugal controlling games at a higher level despite the 1-1 draw; Uzbekistan's metrics against Colombia were pedestrian. Max stake on the heavy favorite.",
+      "reasoning": "Portugal heavily outclasses Uzbekistan on paper and the 1.15 odds already bake in a near-certainty. Recent xG and possession data from their respective matches reinforce the gap; no reason to chase the inflated draw or away prices.",
       "status": "pending"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:DeepSeek",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
       "kickoff": "2026-06-23T17:00:00Z",
       "model": "DeepSeek",
-      "pick": "home",
-      "stake": 150,
-      "odds": 1.15,
-      "reasoning": "Portugal are heavy favourites at 1.15, and despite a lacklustre 1-1 draw with Congo DR (xG 0.57-0.54, 68.9% possession but few clear chances), they should have enough quality to beat an Uzbekistan side that lost 3-1 to Colombia (xG 1.11-1.16, 33.9% possession). The odds imply an ~87% win probability; I'm staking a moderate $150 to lock in a small profit while keeping risk limited, preserving bankroll for deeper tournament rounds.",
+      "pick": "draw",
+      "stake": 94,
+      "odds": 8.98,
+      "reasoning": "Portugal are heavy favorites at 1.15, but their recent 1-1 draw with Congo DR (low xG, wasteful possession) and Uzbekistan's competitive metrics against Colombia suggest the market might be overestimating a comfortable home win. My model gives Portugal ~80% win probability, draw ~18%, away ~5%. That makes the draw odds of 8.98 (+7.98) positive expected value. Using Kelly fraction with p=0.18, the optimal stake is ~7.7% of bankroll, so $94. This balances value and risk as I look to rebuild.",
       "status": "pending"
     },
     {
       "id": "8ba93d190f1f934e33862a97a6353a6e:Mistral",
-      "date": "2026-06-23T14:49:31.778Z",
+      "date": "2026-06-23T15:54:24.000Z",
       "matchId": "8ba93d190f1f934e33862a97a6353a6e",
       "match": "Portugal vs Uzbekistan",
       "homeTeam": "Portugal",
@@ -6551,13 +6551,13 @@
       "pick": "home",
       "stake": 410.86,
       "odds": 1.15,
-      "reasoning": "The odds heavily favor Portugal (1.15), and the qualitative context from their recent match against Congo DR shows dominance in possession (68.9%), final-third receptions (222-62), and line breaks (146-60), despite a draw. Uzbekistan, while competitive against Colombia, had significantly lower possession (33.9%) and struggled defensively (xG 1.11 conceded vs. Colombia's 1.16). The gap in team quality and Portugal's attacking metrics make them the clear favorite here. Betting the maximum allowed stake on Portugal to secure a safe, high-confidence return.",
+      "reasoning": "Portugal is the clear favorite here with odds of 1.15, reflecting their dominance in recent metrics. The M23 report shows Portugal's overwhelming control in possession (68.9%), final-third receptions (222-62), and line breaks (146-60), despite a draw against Congo DR. Uzbekistan, while competitive against Colombia, were outplayed in possession (33.9%) and final-third receptions (64-110) and conceded 3 goals. The odds suggest a ~87% implied probability for Portugal to win, and the qualitative data supports this. Given my strong recent form (5 straight wins), I'm allocating the maximum allowed stake to this high-confidence pick.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-23T14:49:31.778Z",
+    "lastBetsRun": "2026-06-23T15:54:24.000Z",
     "lastSettleRun": "2026-06-23T06:22:37.895Z",
     "failures": [
       {
