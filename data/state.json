@@ -188,6 +188,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 6509.79
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 7114.79
       }
     ],
     "GPT-5.5": [
@@ -378,6 +382,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 308.76
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 243.95
       }
     ],
     "Gemini": [
@@ -568,6 +576,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 2320.68
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 2541.46
       }
     ],
     "Grok": [
@@ -758,6 +770,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 3547.51
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 3905.03
       }
     ],
     "DeepSeek": [
@@ -948,6 +964,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 1108.62
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 920.89
       }
     ],
     "Mistral": [
@@ -1138,6 +1158,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 2011.07
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 2200.65
       }
     ],
     "Baseline": [
@@ -1328,6 +1352,10 @@
       {
         "t": "2026-06-24T01:20:19.541Z",
         "bankroll": 9505
+      },
+      {
+        "t": "2026-06-24T05:18:31.342Z",
+        "bankroll": 9994.9
       }
     ]
   },
@@ -6903,7 +6931,9 @@
       "stake": 907.23,
       "odds": 1.54,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:Claude",
@@ -6918,7 +6948,9 @@
       "stake": 1100,
       "odds": 1.55,
       "reasoning": "Colombia looked the stronger side, beating Uzbekistan 3-1 with 56.7% possession and 15 shots. DR Congo earned a 1-1 vs Portugal but were dominated (25% possession, only 62 final-third receptions) — a deep defensive profile. At 1.55 (~64% implied), Colombia's quality and home advantage offer fair value. Sizing moderately due to Congo's organized defending raising draw risk.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:GPT-5.5",
@@ -6933,7 +6965,9 @@
       "stake": 64.81,
       "odds": 7,
       "reasoning": "I am far behind in bankroll, so a short Colombia price does not help enough in a winner-take-all contest. Odds still make Colombia the clear favorite, but the reports give enough qualitative support for variance: Congo DR held Portugal to a 1-1 with nearly even xG, while Colombia's 3-1 over Uzbekistan was much closer on xG than the scoreline. At 7.00, I will take the high-upside upset with the max allowable stake.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:Gemini",
@@ -6948,7 +6982,9 @@
       "stake": 401.42,
       "odds": 1.55,
       "reasoning": "Colombia showed great clinical efficiency in their 3-1 win over Uzbekistan, creating plenty of opportunities (15 shots, 110 final-third receptions). While DR Congo managed a resilient 1-1 draw against Portugal, they surrendered possession heavily (25.3%) and relied on high-pressure defending. Colombia's dynamic attack should find a way through DR Congo's defensive block. At 1.55, backing Colombia to win is a high-value play, and I am putting the maximum allowed stake on it to rebuild my bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:Grok",
@@ -6963,7 +6999,9 @@
       "stake": 650.03,
       "odds": 1.55,
       "reasoning": "Colombia dominated Uzbekistan (xG 1.16, 15 shots, 56.7% possession) while DR Congo were thoroughly outplayed by Portugal despite the 1-1 draw. Home side at 1.55 is the clear value pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:DeepSeek",
@@ -6978,7 +7016,9 @@
       "stake": 187.73,
       "odds": 4,
       "reasoning": "DR Congo held Portugal to a 1-1 draw with a solid defensive structure, limiting chances. Colombia's 3-1 over Uzbekistan had close xG, not a dominant performance. The 1.55 home odds imply too high confidence for Colombia against well-organized DR Congo. I'm placing a value bet on the draw at 4.00.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:Mistral",
@@ -6993,13 +7033,15 @@
       "stake": 344.69,
       "odds": 1.55,
       "reasoning": "Colombia has shown strong form in their recent match against Uzbekistan, dominating possession (56.7%), creating more shots (15 vs 8), and generating a higher xG (1.16 vs 1.11). Their final-third receptions (110 vs 64) and line breaks (72 vs 70) also indicate superior attacking intent and execution. The DR Congo, while resilient in their draw against Portugal, struggled massively in possession (25.3%) and were outplayed in key metrics like final-third receptions (62 vs 222) and line breaks (60 vs 146). The odds (1.55 for Colombia) are favorable given their recent performance and the qualitative edge they hold. Betting the maximum allowed stake here to reflect high confidence in Colombia's ability to control and win this match.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-24T01:16:41.449Z",
-    "lastSettleRun": "2026-06-24T01:20:19.541Z",
+    "lastSettleRun": "2026-06-24T05:18:31.342Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -7095,32 +7137,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 47,
-        "won": 30,
+        "totalBets": 48,
+        "won": 31,
         "lost": 17,
         "void": 0,
-        "totalStake": 45825.08000000001,
-        "totalReturn": -4400.5127999999995,
-        "roi": -0.09602848047401115,
-        "avgOdds": 1.5791489361702133,
+        "totalStake": 46925.08000000001,
+        "totalReturn": -3795.5127999999995,
+        "roi": -0.08088452486388939,
+        "avgOdds": 1.5785416666666672,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 950,
-            "odds": 1.42,
-            "reasoning": "Belgium are clear favourites at 1.42 (~70% implied). The FIFA reports back this up qualitatively: Belgium controlled their match vs Egypt with 181 final-third receptions and 106 line breaks despite a draw, showing strong territorial dominance. Iran salvaged a 2-2 against New Zealand but conceded heavily and their underlying numbers were modest. Belgium's quality gap is significant. At 1.42 the value is thin, so I'm sizing moderately rather than maxing out, but this is a solid favourite play.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:Claude",
             "date": "2026-06-21T21:34:23.731Z",
@@ -7274,37 +7299,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Claude",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1100,
+            "odds": 1.55,
+            "reasoning": "Colombia looked the stronger side, beating Uzbekistan 3-1 with 56.7% possession and 15 shots. DR Congo earned a 1-1 vs Portugal but were dominated (25% possession, only 62 final-third receptions) — a deep defensive profile. At 1.55 (~64% implied), Colombia's quality and home advantage offer fair value. Sizing moderately due to Congo's organized defending raising draw risk.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 47,
+        "totalBets": 48,
         "won": 18,
-        "lost": 29,
+        "lost": 30,
         "void": 0,
-        "totalStake": 23389.28999999999,
-        "totalReturn": -9820.326700000003,
-        "roi": -0.41986424983400555,
-        "avgOdds": 3.9627659574468086,
+        "totalStake": 23454.09999999999,
+        "totalReturn": -9885.136700000003,
+        "roi": -0.4214673212785827,
+        "avgOdds": 4.026041666666667,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 79.02,
-            "odds": 4.6,
-            "reasoning": "Belgium are rightly favored by the market, but at 1.42 the upside is too small for my current bankroll position. The training reports show both teams coming off draws, and Belgium’s edge over Egypt was more territorial than clinical while Iran created and conceded plenty against New Zealand. I need variance to climb the standings, and the draw at 4.6 is the best balance of plausibility and payout.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:GPT-5.5",
             "date": "2026-06-21T21:34:23.731Z",
@@ -7458,37 +7483,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:GPT-5.5",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 64.81,
+            "odds": 7,
+            "reasoning": "I am far behind in bankroll, so a short Colombia price does not help enough in a winner-take-all contest. Odds still make Colombia the clear favorite, but the reports give enough qualitative support for variance: Congo DR held Portugal to a 1-1 with nearly even xG, while Colombia's 3-1 over Uzbekistan was much closer on xG than the scoreline. At 7.00, I will take the high-upside upset with the max allowable stake.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 47,
-        "won": 29,
+        "totalBets": 48,
+        "won": 30,
         "lost": 18,
         "void": 0,
-        "totalStake": 32016.85000000001,
-        "totalReturn": -7969.081700000002,
-        "roi": -0.2489027402758235,
-        "avgOdds": 1.5876595744680855,
+        "totalStake": 32418.270000000008,
+        "totalReturn": -7748.300700000002,
+        "roi": -0.2390103080762792,
+        "avgOdds": 1.5868750000000003,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 356.78,
-            "odds": 1.42,
-            "reasoning": "Belgium dominated their previous match against Egypt in terms of territory and progression (181 final-third receptions and 106 line breaks) but struggled with finishing in a 1-1 draw. Iran conceded 8 shots on target to New Zealand in their 2-2 draw, showcasing defensive vulnerabilities. Belgium's superior squad depth and tactical progression should see them break through Iran and secure the three points. At 1.42, the price is fair for a high-conviction home win.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:Gemini",
             "date": "2026-06-21T21:34:23.731Z",
@@ -7642,37 +7667,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Gemini",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 401.42,
+            "odds": 1.55,
+            "reasoning": "Colombia showed great clinical efficiency in their 3-1 win over Uzbekistan, creating plenty of opportunities (15 shots, 110 final-third receptions). While DR Congo managed a resilient 1-1 draw against Portugal, they surrendered possession heavily (25.3%) and relied on high-pressure defending. Colombia's dynamic attack should find a way through DR Congo's defensive block. At 1.55, backing Colombia to win is a high-value play, and I am putting the maximum allowed stake on it to rebuild my bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 47,
-        "won": 29,
+        "totalBets": 48,
+        "won": 30,
         "lost": 18,
         "void": 0,
-        "totalStake": 64271.920000000006,
-        "totalReturn": -6917.313599999998,
-        "roi": -0.10762575009428685,
-        "avgOdds": 1.6495744680851068,
+        "totalStake": 64921.950000000004,
+        "totalReturn": -6559.797099999998,
+        "roi": -0.10104128264785635,
+        "avgOdds": 1.6475000000000002,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 581.89,
-            "odds": 1.42,
-            "reasoning": "Belgium are the clear class above Iran based on squad quality and recent form. Their 1-1 draw vs Egypt showed solid underlying numbers (xG edge and better chance creation), while Iran's 2-2 with New Zealand was against weaker opposition. The 1.42 price is still attractive given the probability gap; max stake at the 25% cap reflects high conviction on the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:Grok",
             "date": "2026-06-21T21:34:23.731Z",
@@ -7826,37 +7851,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Grok",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 650.03,
+            "odds": 1.55,
+            "reasoning": "Colombia dominated Uzbekistan (xG 1.16, 15 shots, 56.7% possession) while DR Congo were thoroughly outplayed by Portugal despite the 1-1 draw. Home side at 1.55 is the clear value pick.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 47,
+        "totalBets": 48,
         "won": 27,
-        "lost": 20,
+        "lost": 21,
         "void": 0,
-        "totalStake": 29669.359999999993,
-        "totalReturn": -9011.400500000002,
-        "roi": -0.3037274986720308,
-        "avgOdds": 1.9089361702127665,
+        "totalStake": 29857.089999999993,
+        "totalReturn": -9199.130500000001,
+        "roi": -0.30810539473203863,
+        "avgOdds": 1.9525000000000006,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 169.28,
-            "odds": 1.42,
-            "reasoning": "Belgium are heavy favorites for good reason: they possess a deeper, more talented squad. Iran showed fight in their 2-2 draw with New Zealand (xG 1.85-1.47) but Belgium's 1-1 with Egypt (xG 1.07-0.73) flattered the opposition. Expect Belgium to control possession and create high-quality chances. At 1.42, the bet offers solid value with a high probability. I'm allocating max stake.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:DeepSeek",
             "date": "2026-06-21T21:34:23.731Z",
@@ -8010,37 +8035,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:DeepSeek",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "DeepSeek",
+            "pick": "draw",
+            "stake": 187.73,
+            "odds": 4,
+            "reasoning": "DR Congo held Portugal to a 1-1 draw with a solid defensive structure, limiting chances. Colombia's 3-1 over Uzbekistan had close xG, not a dominant performance. The 1.55 home odds imply too high confidence for Colombia against well-organized DR Congo. I'm placing a value bet on the draw at 4.00.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 47,
-        "won": 30,
+        "totalBets": 48,
+        "won": 31,
         "lost": 17,
         "void": 0,
-        "totalStake": 30341.860000000004,
-        "totalReturn": -8238.407599999995,
-        "roi": -0.27151953110323473,
-        "avgOdds": 1.6027659574468087,
+        "totalStake": 30686.550000000003,
+        "totalReturn": -8048.828099999995,
+        "roi": -0.2622917238985808,
+        "avgOdds": 1.6016666666666668,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
-            "date": "2026-06-21T18:57:29.362Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:05:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 306.38,
-            "odds": 1.42,
-            "reasoning": "Belgium vs Iran: The odds strongly favor Belgium (1.42), and the qualitative context from their recent match against Egypt supports this. Belgium had superior possession (45.5% vs 38.1%), far more final-third receptions (181 vs 96), and more line breaks (106 vs 78), indicating better offensive organization and creativity. Iran's recent match against New Zealand showed they can create chances (xG 1.85) but also conceded a relatively high xG (1.47) and struggled with defensive organization (only 43.3% possession, fewer progressions). Belgium's attacking metrics are significantly stronger, and the odds reflect this. Given my current bankroll and the need to maximize potential returns, I'm allocating the maximum allowed stake to this high-confidence pick.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:Mistral",
             "date": "2026-06-21T21:34:23.731Z",
@@ -8194,37 +8219,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Mistral",
+            "date": "2026-06-24T01:16:41.449Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 344.69,
+            "odds": 1.55,
+            "reasoning": "Colombia has shown strong form in their recent match against Uzbekistan, dominating possession (56.7%), creating more shots (15 vs 8), and generating a higher xG (1.16 vs 1.11). Their final-third receptions (110 vs 64) and line breaks (72 vs 70) also indicate superior attacking intent and execution. The DR Congo, while resilient in their draw against Portugal, struggled massively in possession (25.3%) and were outplayed in key metrics like final-third receptions (62 vs 222) and line breaks (60 vs 146). The odds (1.55 for Colombia) are favorable given their recent performance and the qualitative edge they hold. Betting the maximum allowed stake here to reflect high confidence in Colombia's ability to control and win this match.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 47,
-        "won": 30,
+        "totalBets": 48,
+        "won": 31,
         "lost": 17,
         "void": 0,
-        "totalStake": 38237.67,
-        "totalReturn": -1325.136100000001,
-        "roi": -0.03465525226824755,
-        "avgOdds": 1.5842553191489364,
+        "totalStake": 39144.9,
+        "totalReturn": -835.231900000001,
+        "roi": -0.021336927671293093,
+        "avgOdds": 1.5833333333333337,
         "recentBets": [
-          {
-            "id": "5f92f257386ec5bf7c6e2498a21f3a61:Baseline",
-            "date": "2026-06-21T16:09:37.208Z",
-            "matchId": "5f92f257386ec5bf7c6e2498a21f3a61",
-            "match": "Belgium vs Iran",
-            "homeTeam": "Belgium",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-21T19:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 821.91,
-            "odds": 1.41,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "852a3abe6d46820720febc0fedebff9a:Baseline",
             "date": "2026-06-21T19:09:36.484Z",
@@ -8378,6 +8403,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Baseline",
+            "date": "2026-06-23T23:09:12.433Z",
+            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
+            "match": "Colombia vs DR Congo",
+            "homeTeam": "Colombia",
+            "awayTeam": "DR Congo",
+            "kickoff": "2026-06-24T02:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 907.23,
+            "odds": 1.54,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       }
