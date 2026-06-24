@@ -184,6 +184,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 6036.79
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 6509.79
       }
     ],
     "GPT-5.5": [
@@ -370,6 +374,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 373.57
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 308.76
       }
     ],
     "Gemini": [
@@ -556,6 +564,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 2148.07
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 2320.68
       }
     ],
     "Grok": [
@@ -742,6 +754,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 3268
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 3547.51
       }
     ],
     "DeepSeek": [
@@ -928,6 +944,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 1027.9
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 1108.62
       }
     ],
     "Mistral": [
@@ -1114,6 +1134,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 1862.85
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 2011.07
       }
     ],
     "Baseline": [
@@ -1300,6 +1324,10 @@
       {
         "t": "2026-06-23T22:24:47.478Z",
         "bankroll": 9072.26
+      },
+      {
+        "t": "2026-06-24T01:20:19.541Z",
+        "bankroll": 9505
       }
     ]
   },
@@ -6756,7 +6784,9 @@
       "stake": 1006.38,
       "odds": 1.43,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Claude",
@@ -6771,7 +6801,9 @@
       "stake": 1100,
       "odds": 1.43,
       "reasoning": "Croatia at 1.43 is a clear class above Panama. The England report shows Croatia conceded 4 but generated reasonable possession and line breaks against a top side, while Panama lost to a defensive Ghana managing just 0.77 xG with poor possession (35.6%). Panama's home odds at 8 reflect their weakness. Croatia's quality on the ball and ability to break lines should be too much for Panama. The 1.43 price offers solid value on the favorite; I'll size meaningfully but not max out given Croatia's defensive lapses leave some draw/upset risk.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:GPT-5.5",
@@ -6786,7 +6818,9 @@
       "stake": 64.81,
       "odds": 8,
       "reasoning": "I’m behind in bankroll, so I need upside rather than grinding a 1.43 favorite. Odds say Croatia are clearly more likely, but the reports give Panama a case: they lost 1-0 to Ghana while winning shots, possession, final-third receptions and line breaks, whereas Croatia were heavily beaten by England on xG. At 8.00, Panama looks like the better risk/reward swing.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Gemini",
@@ -6801,7 +6835,9 @@
       "stake": 401.42,
       "odds": 1.43,
       "reasoning": "Croatia enters this match as heavy favorites at 1.43. While they suffered a 4-2 defeat to England, they face a significantly weaker opponent in Panama. Panama's opening 1-0 loss to Ghana highlighted their inefficiency in front of goal, failing to score despite holding 55.5% possession and generating 11 shots. Croatia's superior technical quality, tournament experience, and urgent need for points to advance make them a reliable pick to secure the victory here. I am placing a high-conviction bet on the away win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Grok",
@@ -6816,7 +6852,9 @@
       "stake": 650.03,
       "odds": 1.43,
       "reasoning": "Croatia are clear favorites per the odds and far stronger side than Panama on paper. Recent results show both teams out of form but Croatia's underlying numbers against England were still respectable in a tough matchup, while Panama looked limited vs Ghana. 1.43 offers solid value on the favorite in a mismatch; max stake given single-match slate and bankroll constraints.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:DeepSeek",
@@ -6831,7 +6869,9 @@
       "stake": 187.73,
       "odds": 1.43,
       "reasoning": "Croatia is a strong favorite at 1.43, implying around 70% win probability. Despite a heavy 4-2 loss to England where they conceded 3.33 xG, England is a top-tier side; Croatia allowed only 0.82 xG themselves and generated 10 shots. Panama lost 1-0 to Ghana with a 0.77 xG and only 4 shots on target from 11 attempts, showing limited cutting edge. The quality gap and odds signal make an away win the clear value pick. I'm staking $200, a moderate chunk under my max, to protect the bankroll while still going for a needed win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c1bc8c26480cd42b89a0de5329581314:Mistral",
@@ -6846,7 +6886,9 @@
       "stake": 344.69,
       "odds": 1.43,
       "reasoning": "Croatia is the clear favorite here with odds of 1.43, reflecting their superior quality and recent performance. The FIFA report for England vs Croatia (M22) shows Croatia had a respectable xG (0.82) and competitive possession (43.5%) against a strong England side, despite losing 4-2. They also had more pressures (295 vs 262) and a similar number of line breaks (85 vs 82), indicating they can compete against top teams. Panama, on the other hand, struggled against Ghana (M21), with lower xG (0.77), fewer shots on target (4 vs Ghana's 2), and less possession (55.5% but only 35.6% against Ghana). Their defensive metrics (e.g., pressures, line breaks) were also worse than Ghana's. Croatia's experience, tactical discipline, and ability to control games make them a safe bet here, especially at these odds. I'm going all-in on the per-match max stake for this one.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "68bfc965eb267508e04d8e8d75c1a0ae:Baseline",
@@ -6957,7 +6999,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-24T01:16:41.449Z",
-    "lastSettleRun": "2026-06-23T22:24:47.478Z",
+    "lastSettleRun": "2026-06-24T01:20:19.541Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -7059,32 +7101,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 46,
-        "won": 29,
+        "totalBets": 47,
+        "won": 30,
         "lost": 17,
         "void": 0,
-        "totalStake": 44725.08000000001,
-        "totalReturn": -4873.5127999999995,
-        "roi": -0.10896599402393464,
-        "avgOdds": 1.5823913043478266,
+        "totalStake": 45825.08000000001,
+        "totalReturn": -4400.5127999999995,
+        "roi": -0.09602848047401115,
+        "avgOdds": 1.5791489361702133,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:Claude",
-            "date": "2026-06-21T15:43:16.922Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1082.51,
-            "odds": 1.1,
-            "reasoning": "Spain at 1.1 is about as close to a lock as this tournament offers. Their M14 report shows total dominance (2.26 xG, 27 shots, 65.7% possession) even in a frustrating 0-0, while Saudi Arabia got buried by Uruguay 7-27 in shots and held just 27% possession. A motivated Spain that couldn't finish against Cabo Verde will be hungry to put up goals here. The 1.1 price offers thin value, but at this confidence level it's worth maxing the stake to grind my bankroll up safely.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:Claude",
             "date": "2026-06-21T18:57:29.362Z",
@@ -7238,37 +7263,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:Claude",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1100,
+            "odds": 1.43,
+            "reasoning": "Croatia at 1.43 is a clear class above Panama. The England report shows Croatia conceded 4 but generated reasonable possession and line breaks against a top side, while Panama lost to a defensive Ghana managing just 0.77 xG with poor possession (35.6%). Panama's home odds at 8 reflect their weakness. Croatia's quality on the ball and ability to break lines should be too much for Panama. The 1.43 price offers solid value on the favorite; I'll size meaningfully but not max out given Croatia's defensive lapses leave some draw/upset risk.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 46,
+        "totalBets": 47,
         "won": 18,
-        "lost": 28,
+        "lost": 29,
         "void": 0,
-        "totalStake": 23324.47999999999,
-        "totalReturn": -9755.516700000004,
-        "roi": -0.41825226971833923,
-        "avgOdds": 3.875,
+        "totalStake": 23389.28999999999,
+        "totalReturn": -9820.326700000003,
+        "roi": -0.41986424983400555,
+        "avgOdds": 3.9627659574468086,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:GPT-5.5",
-            "date": "2026-06-21T15:43:16.922Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 95.67,
-            "odds": 10.95,
-            "reasoning": "Spain are clearly the better side and the odds say that, but at 1.10 the favorite price does almost nothing for my bankroll position. The match reports also show a possible upset shape: Spain completely dominated Cabo Verde yet still finished 0-0, while Saudi Arabia were heavily outshot by Uruguay but survived with a 1-1. I need high-variance outcomes to climb, and the draw at 10.95 is the most plausible longshot compared with a Saudi win.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:GPT-5.5",
             "date": "2026-06-21T18:57:29.362Z",
@@ -7422,37 +7447,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:GPT-5.5",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 64.81,
+            "odds": 8,
+            "reasoning": "I’m behind in bankroll, so I need upside rather than grinding a 1.43 favorite. Odds say Croatia are clearly more likely, but the reports give Panama a case: they lost 1-0 to Ghana while winning shots, possession, final-third receptions and line breaks, whereas Croatia were heavily beaten by England on xG. At 8.00, Panama looks like the better risk/reward swing.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 46,
-        "won": 28,
+        "totalBets": 47,
+        "won": 29,
         "lost": 18,
         "void": 0,
-        "totalStake": 31615.43000000001,
-        "totalReturn": -8141.6923000000015,
-        "roi": -0.25752274443207,
-        "avgOdds": 1.5910869565217394,
+        "totalStake": 32016.85000000001,
+        "totalReturn": -7969.081700000002,
+        "roi": -0.2489027402758235,
+        "avgOdds": 1.5876595744680855,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:Gemini",
-            "date": "2026-06-21T15:43:16.922Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 349.57,
-            "odds": 1.1,
-            "reasoning": "Spain completely dominated Cabo Verde in their opening match with 2.26 xG and 27 shots, but somehow failed to find the net in a 0-0 draw. They cannot afford another slip-up if they want to progress comfortably. Saudi Arabia managed a draw against Uruguay but conceded 27 shots and 1.50 xG, showing significant defensive vulnerability. Spain's quality should shine through here as they adjust their finishing. Given my current bankroll situation, I must secure highly probable wins to rebuild my capital, even at low odds of 1.1. Going with the maximum allowed stake on a Spain victory.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:Gemini",
             "date": "2026-06-21T18:57:29.362Z",
@@ -7606,37 +7631,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:Gemini",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 401.42,
+            "odds": 1.43,
+            "reasoning": "Croatia enters this match as heavy favorites at 1.43. While they suffered a 4-2 defeat to England, they face a significantly weaker opponent in Panama. Panama's opening 1-0 loss to Ghana highlighted their inefficiency in front of goal, failing to score despite holding 55.5% possession and generating 11 shots. Croatia's superior technical quality, tournament experience, and urgent need for points to advance make them a reliable pick to secure the victory here. I am placing a high-conviction bet on the away win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 46,
-        "won": 28,
+        "totalBets": 47,
+        "won": 29,
         "lost": 18,
         "void": 0,
-        "totalStake": 63621.89000000001,
-        "totalReturn": -7196.826499999997,
-        "roi": -0.11311871590108367,
-        "avgOdds": 1.6543478260869566,
+        "totalStake": 64271.920000000006,
+        "totalReturn": -6917.313599999998,
+        "roi": -0.10762575009428685,
+        "avgOdds": 1.6495744680851068,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:Grok",
-            "date": "2026-06-21T15:43:16.922Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 570.06,
-            "odds": 1.1,
-            "reasoning": "Spain's recent performance shows massive dominance (xG 2.26, 27 shots, 65% possession) vs a weak opponent, while Saudi Arabia was outclassed by Uruguay despite a draw. At 1.1 the implied probability aligns with the talent gap; bet home with solid stake given limited slate.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:Grok",
             "date": "2026-06-21T18:57:29.362Z",
@@ -7790,37 +7815,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:Grok",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 650.03,
+            "odds": 1.43,
+            "reasoning": "Croatia are clear favorites per the odds and far stronger side than Panama on paper. Recent results show both teams out of form but Croatia's underlying numbers against England were still respectable in a tough matchup, while Panama looked limited vs Ghana. 1.43 offers solid value on the favorite in a mismatch; max stake given single-match slate and bankroll constraints.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 46,
-        "won": 26,
+        "totalBets": 47,
+        "won": 27,
         "lost": 20,
         "void": 0,
-        "totalStake": 29481.629999999994,
-        "totalReturn": -9092.124400000002,
-        "roi": -0.30839965090125626,
-        "avgOdds": 1.919347826086957,
+        "totalStake": 29669.359999999993,
+        "totalReturn": -9011.400500000002,
+        "roi": -0.3037274986720308,
+        "avgOdds": 1.9089361702127665,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:DeepSeek",
-            "date": "2026-06-21T15:43:16.922Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 166.07,
-            "odds": 1.1,
-            "reasoning": "Spain are overwhelming favorites with 1.1 odds implying ~91% win probability. Despite a goalless draw vs Cabo Verde, they created 2.26 xG and dominated possession. Saudi Arabia drew with Uruguay but were outplayed, registering only 27% possession and an xG of 1.06 from few shots. I expect Spain to convert their dominance into a win, so I'm placing the maximum allowed stake on the home team.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:DeepSeek",
             "date": "2026-06-21T18:57:29.362Z",
@@ -7974,37 +7999,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:DeepSeek",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 187.73,
+            "odds": 1.43,
+            "reasoning": "Croatia is a strong favorite at 1.43, implying around 70% win probability. Despite a heavy 4-2 loss to England where they conceded 3.33 xG, England is a top-tier side; Croatia allowed only 0.82 xG themselves and generated 10 shots. Panama lost 1-0 to Ghana with a 0.77 xG and only 4 shots on target from 11 attempts, showing limited cutting edge. The quality gap and odds signal make an away win the clear value pick. I'm staking $200, a moderate chunk under my max, to protect the bankroll while still going for a needed win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 46,
-        "won": 29,
+        "totalBets": 47,
+        "won": 30,
         "lost": 17,
         "void": 0,
-        "totalStake": 29997.170000000006,
-        "totalReturn": -8386.624299999996,
-        "roi": -0.2795805170954458,
-        "avgOdds": 1.606521739130435,
+        "totalStake": 30341.860000000004,
+        "totalReturn": -8238.407599999995,
+        "roi": -0.27151953110323473,
+        "avgOdds": 1.6027659574468087,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:Mistral",
-            "date": "2026-06-21T14:59:59.610Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 300.27,
-            "odds": 1.1,
-            "reasoning": "Spain's post-match report against Cabo Verde is dominant in every metric: xG (2.26-0.13), shots (27-6), possession (65.7%-25.4%), and final-third receptions (426-17). While they didn't convert, the underlying numbers suggest they were in complete control. Saudi Arabia's draw against Uruguay was respectable but still showed massive gaps in possession (27.1%-63.3%) and line breaks (54-128). The odds (1.1 for Spain) are heavily in their favor, and while the payout is low, the probability of a Spain win is extremely high. Given my recent losses, I'm going all-in on the per-match max stake here to recover with a high-confidence bet.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:Mistral",
             "date": "2026-06-21T18:57:29.362Z",
@@ -8158,37 +8183,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:Mistral",
+            "date": "2026-06-23T22:49:44.869Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 344.69,
+            "odds": 1.43,
+            "reasoning": "Croatia is the clear favorite here with odds of 1.43, reflecting their superior quality and recent performance. The FIFA report for England vs Croatia (M22) shows Croatia had a respectable xG (0.82) and competitive possession (43.5%) against a strong England side, despite losing 4-2. They also had more pressures (295 vs 262) and a similar number of line breaks (85 vs 82), indicating they can compete against top teams. Panama, on the other hand, struggled against Ghana (M21), with lower xG (0.77), fewer shots on target (4 vs Ghana's 2), and less possession (55.5% but only 35.6% against Ghana). Their defensive metrics (e.g., pressures, line breaks) were also worse than Ghana's. Croatia's experience, tactical discipline, and ability to control games make them a safe bet here, especially at these odds. I'm going all-in on the per-match max stake for this one.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 46,
-        "won": 29,
+        "totalBets": 47,
+        "won": 30,
         "lost": 17,
         "void": 0,
-        "totalStake": 37231.29,
-        "totalReturn": -1757.879500000001,
-        "roi": -0.04721511126796844,
-        "avgOdds": 1.587608695652174,
+        "totalStake": 38237.67,
+        "totalReturn": -1325.136100000001,
+        "roi": -0.03465525226824755,
+        "avgOdds": 1.5842553191489364,
         "recentBets": [
-          {
-            "id": "73529a242e319a86bf3d00ddb4accc37:Baseline",
-            "date": "2026-06-21T13:09:36.657Z",
-            "matchId": "73529a242e319a86bf3d00ddb4accc37",
-            "match": "Spain vs Saudi Arabia",
-            "homeTeam": "Spain",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-21T16:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 821.91,
-            "odds": 1.1,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
           {
             "id": "5f92f257386ec5bf7c6e2498a21f3a61:Baseline",
             "date": "2026-06-21T16:09:37.208Z",
@@ -8342,6 +8367,23 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "c1bc8c26480cd42b89a0de5329581314:Baseline",
+            "date": "2026-06-23T20:07:33.081Z",
+            "matchId": "c1bc8c26480cd42b89a0de5329581314",
+            "match": "Panama vs Croatia",
+            "homeTeam": "Panama",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-06-23T23:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1006.38,
+            "odds": 1.43,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       }
