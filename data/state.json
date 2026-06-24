@@ -192,6 +192,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 7114.79
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 8549.29
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 9123.01
       }
     ],
     "GPT-5.5": [
@@ -386,6 +394,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 243.95
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 201.7
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 159.45
       }
     ],
     "Gemini": [
@@ -580,6 +596,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 2541.46
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 3264.52
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 3456.06
       }
     ],
     "Grok": [
@@ -774,6 +798,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 3905.03
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 4962.03
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 5274.3
       }
     ],
     "DeepSeek": [
@@ -968,6 +1000,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 920.89
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 1174.89
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 1242.17
       }
     ],
     "Mistral": [
@@ -1162,6 +1202,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 2200.65
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 1790.28
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 1954.43
       }
     ],
     "Baseline": [
@@ -1356,6 +1404,14 @@
       {
         "t": "2026-06-24T05:18:31.342Z",
         "bankroll": 9994.9
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 11474.15
+      },
+      {
+        "t": "2026-06-24T21:29:27.974Z",
+        "bankroll": 11833.97
       }
     ]
   },
@@ -7050,7 +7106,9 @@
       "stake": 999.49,
       "odds": 1.36,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:Baseline",
@@ -7065,7 +7123,9 @@
       "stake": 999.49,
       "odds": 2.48,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:Claude",
@@ -7080,7 +7140,9 @@
       "stake": 1434.29,
       "odds": 1.4,
       "reasoning": "Bosnia at 1.4 is the safest play on the board. Qatar has been horrendous: 6-0 loss to Canada, badly outshot by Switzerland (26-6), and weak across xG and final-third metrics in every report. Bosnia held Canada to a draw and competes physically. Max stake on the high-confidence favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:Claude",
@@ -7095,7 +7157,9 @@
       "stake": 950,
       "odds": 2.51,
       "reasoning": "Genuinely close matchup between two attacking sides. Switzerland's xG profiles are elite (3.14 vs Qatar, 1.85 vs Bosnia). Canada also looks strong but I give Switzerland the edge on attacking quality plus the home label at 2.51. Moderate stake given near-coinflip odds and real uncertainty.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:GPT-5.5",
@@ -7110,7 +7174,9 @@
       "stake": 42.25,
       "odds": 5.3,
       "reasoning": "Bosnia are rightly favored and Qatar looked awful in the Canada match, but at 1.40 the favorite price does not help my short bankroll much. Qatar already survived a badly one-sided game against Switzerland for a 1-1 draw, and Bosnia's own attacking numbers have not been dominant. I need upside, so I am taking the draw at 5.3 as the best risk/reward angle.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:GPT-5.5",
@@ -7125,7 +7191,9 @@
       "stake": 42.25,
       "odds": 3.25,
       "reasoning": "The market makes this close with Switzerland a slight favorite, but Canada have posted the strongest underlying performance in this group so far: they outplayed Bosnia and then completely buried Qatar. Switzerland have also been excellent, so this is not a fade of them; I just think Canada at 3.25 is the better price in a near coin-flip type match. Max stake because I need to build bankroll, not grind tiny edges.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:Gemini",
@@ -7140,7 +7208,9 @@
       "stake": 478.85,
       "odds": 1.4,
       "reasoning": "Qatar has struggled significantly this tournament, getting thoroughly outclassed by Canada (6-0, 3.90 to 0.20 xG) and heavily outshot by Switzerland despite escaping with a draw. Bosnia & Herzegovina, while losing to Switzerland, managed a respectable draw against Canada. Bosnia is the much more complete side and should secure a comfortable win against the group's weakest team.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:Gemini",
@@ -7155,7 +7225,9 @@
       "stake": 478.85,
       "odds": 2.51,
       "reasoning": "Switzerland has put up highly impressive underlying numbers, dominating Qatar in everything but the scoreline (3.14 to 0.52 xG) and easily dispatching Bosnia 4-1. In contrast, Canada drew with Bosnia. Switzerland's superior control in midfield and efficiency in creating high-quality chances give them the edge over Canada, making the home win at 2.51 excellent value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:Grok",
@@ -7170,7 +7242,9 @@
       "stake": 780.67,
       "odds": 1.4,
       "reasoning": "Bosnia clearly superior to Qatar per all underlying metrics across the provided reports; home odds of 1.4 offer solid value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:Grok",
@@ -7185,7 +7259,9 @@
       "stake": 700,
       "odds": 2.51,
       "reasoning": "Switzerland has shown stronger underlying numbers than Canada in the slate reports; 2.51 is fair value on home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:DeepSeek",
@@ -7200,7 +7276,9 @@
       "stake": 168.21,
       "odds": 1.4,
       "reasoning": "Bosnia are clear favourites at 1.40 based on head‑to‑head xG data. Qatar were crushed 6‑0 by Canada (xG 0.20–3.90) and were extremely lucky to draw Switzerland (xG 0.52–3.14). Bosnia drew Canada (xG 0.76–1.49) and although they lost heavily to Switzerland, their underlying numbers are far superior to Qatar’s. Home advantage should seal a comfortable win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:DeepSeek",
@@ -7215,7 +7293,9 @@
       "stake": 168.21,
       "odds": 2.51,
       "reasoning": "Switzerland’s xG profiles are excellent: they battered Qatar 3.14–0.52 (drew 1‑1) and eased past Bosnia 4‑1 (xG 1.85–0.30). Canada’s 6‑0 demolition of Qatar looks flashy but Qatar’s defence is porous; against Bosnia, Canada generated 1.49 xG and conceded 0.76. Switzerland’s more balanced and deeper quality makes them a solid value at odds against to win at home.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "512ac18beb5aa936a59f7ea3e497ada2:Mistral",
@@ -7230,7 +7310,9 @@
       "stake": 410.37,
       "odds": 1.4,
       "reasoning": "Bosnia & Herzegovina has shown resilience in recent matches, particularly in their draw against Canada (M03) where they had a solid defensive structure despite being outplayed in possession and xG. However, their offensive output has been weak (only 0.76 xG vs Canada and 0.30 xG vs Switzerland). Qatar, on the other hand, was dismantled 6-0 by Canada (M27) and barely threatened Switzerland (0.52 xG in M08). The odds heavily favor Bosnia at 1.4, which aligns with their defensive solidity and Qatar's poor form. The risk is low, and the reward is decent for a safe bet. Allocating the maximum stake here due to the favorable odds and clear qualitative edge for Bosnia.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-1"
     },
     {
       "id": "c9ef5822ee64fd5275f7c73251bb56c7:Mistral",
@@ -7245,7 +7327,9 @@
       "stake": 410.37,
       "odds": 3.25,
       "reasoning": "Canada has been the standout team in the qualitative reports, dominating Qatar (6-0) and holding their own against Bosnia despite the draw. Their xG (3.90 vs Qatar, 1.49 vs Bosnia) and possession stats (65.8% vs Qatar, 52.8% vs Bosnia) suggest they are a strong attacking side. Switzerland, while solid (4-1 vs Bosnia, 1-1 vs Qatar), has not shown the same level of dominance as Canada. The odds for Canada (3.25) are attractive given their recent performances, and the draw (3.04) is less appealing. Betting on Canada to win away feels like a high-confidence play, so I'm allocating the maximum stake here as well.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:Baseline",
@@ -7461,7 +7545,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-24T21:07:46.367Z",
-    "lastSettleRun": "2026-06-24T05:18:31.342Z",
+    "lastSettleRun": "2026-06-24T21:29:27.974Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -7557,50 +7641,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 48,
-        "won": 31,
+        "totalBets": 50,
+        "won": 33,
         "lost": 17,
         "void": 0,
-        "totalStake": 46925.08000000001,
-        "totalReturn": -3795.5127999999995,
-        "roi": -0.08088452486388939,
-        "avgOdds": 1.5785416666666672,
+        "totalStake": 49309.37000000001,
+        "totalReturn": -1787.2967999999998,
+        "roi": -0.0362465957281547,
+        "avgOdds": 1.5936000000000008,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:Claude",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 910.3,
-            "odds": 1.39,
-            "reasoning": "Uruguay dominated Saudi Arabia (63% possession, 27 shots, 1.50 xG) and were unlucky to only draw. Cape Verde looked toothless vs Spain (0.13 xG, 6 shots, shut out). Clear quality gap; 1.39 is fair value for a strong home favorite. Sizing solidly but respecting risk after recent bankroll dip.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:Claude",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 900,
-            "odds": 1.57,
-            "reasoning": "Egypt at 1.57 (~64% implied) is the clear stronger side. They matched up well against Belgium in a 1-1 draw with decent line breaks and pressing numbers, while New Zealand only managed a 2-2 against Iran. Backing the favorite with a confident but managed stake — the odds align with the qualitative edge and home advantage for NZ isn't enough to flip this.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:Claude",
             "date": "2026-06-22T16:15:58.887Z",
@@ -7736,55 +7785,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:Claude",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1434.29,
+            "odds": 1.4,
+            "reasoning": "Bosnia at 1.4 is the safest play on the board. Qatar has been horrendous: 6-0 loss to Canada, badly outshot by Switzerland (26-6), and weak across xG and final-third metrics in every report. Bosnia held Canada to a draw and competes physically. Max stake on the high-confidence favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:Claude",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 950,
+            "odds": 2.51,
+            "reasoning": "Genuinely close matchup between two attacking sides. Switzerland's xG profiles are elite (3.14 vs Qatar, 1.85 vs Bosnia). Canada also looks strong but I give Switzerland the edge on attacking quality plus the home label at 2.51. Moderate stake given near-coinflip odds and real uncertainty.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 48,
+        "totalBets": 50,
         "won": 18,
-        "lost": 30,
+        "lost": 32,
         "void": 0,
-        "totalStake": 23454.09999999999,
-        "totalReturn": -9885.136700000003,
-        "roi": -0.4214673212785827,
-        "avgOdds": 4.026041666666667,
+        "totalStake": 23538.59999999999,
+        "totalReturn": -9969.636700000003,
+        "roi": -0.42354416575327364,
+        "avgOdds": 4.0360000000000005,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:GPT-5.5",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 129.07,
-            "odds": 1.39,
-            "reasoning": "Uruguay are the clear side on both the market and the underlying reports. They dominated Saudi Arabia in territory and volume despite only drawing, while Cape Verde’s 0-0 with Spain was much more about survival than chance creation: 0.13 xG, 6 shots, and almost no final-third presence. Cape Verde can frustrate, but the odds still make Uruguay the primary probability signal, and I think their chance is high enough to justify taking the favorite at the max stake.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:GPT-5.5",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 129.07,
-            "odds": 4.2,
-            "reasoning": "Egypt are rightly favored by the market, but at 1.57 the away price looks short for a team that produced only 0.73 xG and 96 final-third receptions against Belgium. New Zealand were competitive in their 2-2 with Iran, generating 1.47 xG and 8 shots on target. With both teams coming off draws and neither profile screaming dominance, the 4.2 draw is the higher-upside angle I need from this bankroll position.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:GPT-5.5",
             "date": "2026-06-22T16:15:58.887Z",
@@ -7920,55 +7968,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:GPT-5.5",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 42.25,
+            "odds": 5.3,
+            "reasoning": "Bosnia are rightly favored and Qatar looked awful in the Canada match, but at 1.40 the favorite price does not help my short bankroll much. Qatar already survived a badly one-sided game against Switzerland for a 1-1 draw, and Bosnia's own attacking numbers have not been dominant. I need upside, so I am taking the draw at 5.3 as the best risk/reward angle.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:GPT-5.5",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 42.25,
+            "odds": 3.25,
+            "reasoning": "The market makes this close with Switzerland a slight favorite, but Canada have posted the strongest underlying performance in this group so far: they outplayed Bosnia and then completely buried Qatar. Switzerland have also been excellent, so this is not a fade of them; I just think Canada at 3.25 is the better price in a near coin-flip type match. Max stake because I need to build bankroll, not grind tiny edges.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 48,
-        "won": 30,
+        "totalBets": 50,
+        "won": 32,
         "lost": 18,
         "void": 0,
-        "totalStake": 32418.270000000008,
-        "totalReturn": -7748.300700000002,
-        "roi": -0.2390103080762792,
-        "avgOdds": 1.5868750000000003,
+        "totalStake": 33375.97000000001,
+        "totalReturn": -6833.697200000001,
+        "roi": -0.20474902152656535,
+        "avgOdds": 1.6016000000000006,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:Gemini",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 289.75,
-            "odds": 1.39,
-            "reasoning": "Uruguay's underlying metrics against Saudi Arabia (27 shots, 1.50 xG) demonstrate their offensive potency despite drawing that match. Meanwhile, Cape Verde's 0-0 draw against Spain was a major statistical anomaly, as they conceded 2.26 xG and an astronomical 426 final-third receptions while creating virtually nothing (0.13 xG). Uruguay's direct, physical attacking style is well-suited to break down a low block where Spain's patience failed. We expect regression to the mean here and are backing Uruguay at 1.39 with our maximum stake to rebuild our bankroll.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:Gemini",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 289.75,
-            "odds": 1.57,
-            "reasoning": "Egypt showed impressive defensive resilience in their 1-1 draw against Belgium, limiting them to 1.07 xG despite heavy pressure. While New Zealand fought hard for a 2-2 draw against Iran, they conceded 1.85 xG and look vulnerable at the back. Egypt's superior tactical discipline and quality in transition should prove too much for New Zealand. At 1.57, backing the away win is the most sensible move, and we stake the maximum allowable limit of $393.94.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:Gemini",
             "date": "2026-06-22T16:15:58.887Z",
@@ -8104,55 +8151,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:Gemini",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 478.85,
+            "odds": 1.4,
+            "reasoning": "Qatar has struggled significantly this tournament, getting thoroughly outclassed by Canada (6-0, 3.90 to 0.20 xG) and heavily outshot by Switzerland despite escaping with a draw. Bosnia & Herzegovina, while losing to Switzerland, managed a respectable draw against Canada. Bosnia is the much more complete side and should secure a comfortable win against the group's weakest team.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:Gemini",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 478.85,
+            "odds": 2.51,
+            "reasoning": "Switzerland has put up highly impressive underlying numbers, dominating Qatar in everything but the scoreline (3.14 to 0.52 xG) and easily dispatching Bosnia 4-1. In contrast, Canada drew with Bosnia. Switzerland's superior control in midfield and efficiency in creating high-quality chances give them the edge over Canada, making the home win at 2.51 excellent value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 48,
-        "won": 30,
+        "totalBets": 50,
+        "won": 32,
         "lost": 18,
         "void": 0,
-        "totalStake": 64921.950000000004,
-        "totalReturn": -6559.797099999998,
-        "roi": -0.10104128264785635,
-        "avgOdds": 1.6475000000000002,
+        "totalStake": 66402.62000000001,
+        "totalReturn": -5190.529099999998,
+        "roi": -0.07816753465450606,
+        "avgOdds": 1.6598000000000004,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:Grok",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 464.83,
-            "odds": 1.39,
-            "reasoning": "Uruguay heavy favorites per odds and Cape Verde's dismal xG/attack metrics vs Spain indicate a likely home win.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:Grok",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 464.83,
-            "odds": 1.57,
-            "reasoning": "Egypt is the clear class above New Zealand per odds (1.57) and recent form/context. Iran drew NZ while Belgium drew Egypt, but Egypt's underlying numbers and pedigree point to them being the stronger side here. Stake reflects solid but not max conviction given the single-match slate.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:Grok",
             "date": "2026-06-22T16:15:58.887Z",
@@ -8288,55 +8334,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:Grok",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 780.67,
+            "odds": 1.4,
+            "reasoning": "Bosnia clearly superior to Qatar per all underlying metrics across the provided reports; home odds of 1.4 offer solid value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:Grok",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 700,
+            "odds": 2.51,
+            "reasoning": "Switzerland has shown stronger underlying numbers than Canada in the slate reports; 2.51 is fair value on home win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 48,
-        "won": 27,
+        "totalBets": 50,
+        "won": 29,
         "lost": 21,
         "void": 0,
-        "totalStake": 29857.089999999993,
-        "totalReturn": -9199.130500000001,
-        "roi": -0.30810539473203863,
-        "avgOdds": 1.9525000000000006,
+        "totalStake": 30193.50999999999,
+        "totalReturn": -8877.849400000001,
+        "roi": -0.2940317107881794,
+        "avgOdds": 1.9526000000000008,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:DeepSeek",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 120,
-            "odds": 1.39,
-            "reasoning": "Uruguay's underlying numbers from the Saudi Arabia draw (1.50 xG, 27 shots, 63% possession) show they generate plenty of chances. Cape Verde were utterly dominated by Spain (0.13 xG, 17 final-third receptions) and somehow escaped with a 0-0. That defensive resilience may not be repeatable against a Uruguay side desperate for a win. The 1.39 odds reflect a high probability, but given my bankroll situation and the slim chance of another Cape Verde bus-park, I'm staking a moderate amount.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:DeepSeek",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 138.3,
-            "odds": 1.57,
-            "reasoning": "Egypt is the clear favorite with odds of 1.57. New Zealand earned a credible 2-2 draw against Iran but Egypt's 1-1 draw vs Belgium against stronger opposition shows resilience. With Egypt's quality and the market's confidence, an away win is the most likely outcome. I'm staking a moderate $150 to reflect solid confidence while managing risk.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:DeepSeek",
             "date": "2026-06-22T16:15:58.887Z",
@@ -8472,55 +8517,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:DeepSeek",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 168.21,
+            "odds": 1.4,
+            "reasoning": "Bosnia are clear favourites at 1.40 based on head‑to‑head xG data. Qatar were crushed 6‑0 by Canada (xG 0.20–3.90) and were extremely lucky to draw Switzerland (xG 0.52–3.14). Bosnia drew Canada (xG 0.76–1.49) and although they lost heavily to Switzerland, their underlying numbers are far superior to Qatar’s. Home advantage should seal a comfortable win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:DeepSeek",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 168.21,
+            "odds": 2.51,
+            "reasoning": "Switzerland’s xG profiles are excellent: they battered Qatar 3.14–0.52 (drew 1‑1) and eased past Bosnia 4‑1 (xG 1.85–0.30). Canada’s 6‑0 demolition of Qatar looks flashy but Qatar’s defence is porous; against Bosnia, Canada generated 1.49 xG and conceded 0.76. Switzerland’s more balanced and deeper quality makes them a solid value at odds against to win at home.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 48,
-        "won": 31,
-        "lost": 17,
+        "totalBets": 50,
+        "won": 32,
+        "lost": 18,
         "void": 0,
-        "totalStake": 30686.550000000003,
-        "totalReturn": -8048.828099999995,
-        "roi": -0.2622917238985808,
-        "avgOdds": 1.6016666666666668,
+        "totalStake": 31507.29,
+        "totalReturn": -8295.050099999995,
+        "roi": -0.26327399468503937,
+        "avgOdds": 1.6306000000000003,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:Mistral",
-            "date": "2026-06-21T21:34:23.731Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 249.48,
-            "odds": 1.39,
-            "reasoning": "Uruguay's dominance in their match against Saudi Arabia is striking—massive xG (1.50 vs 1.06), shots (27 vs 7), possession (63.3% vs 27.1%), and territorial control (final-third receptions 222 vs 60, line breaks 128 vs 54). While they only drew 1-1, the underlying metrics suggest they were unlucky not to win. Cape Verde, meanwhile, were thoroughly outplayed by Spain (xG 0.13 vs 2.26, shots 6 vs 27, possession 25.4% vs 65.7%) and barely threatened. The odds (1.39 for Uruguay) are generous given their superiority in key performance metrics. Betting max stake on Uruguay to win, as the qualitative and quantitative data align strongly in their favor.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:Mistral",
-            "date": "2026-06-22T00:18:17.356Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 249.48,
-            "odds": 1.57,
-            "reasoning": "Odds favor Egypt (1.57) as the clear underdog pick here, but the qualitative context from the FIFA reports is compelling. In M15, New Zealand showed vulnerability despite a draw against Iran, with lower xG (1.47 vs Iran's 1.85) and fewer progressions (22 vs Iran's 31). Their defensive metrics (line breaks, pressures) were solid but not dominant. In M16, Egypt held Belgium to a draw with disciplined defense (258 pressures, 68 in attacking third) and limited Belgium's final-third receptions (96 vs Belgium's 181). Egypt's ability to frustrate a stronger side like Belgium suggests they can do the same against New Zealand. The odds (1.57) underestimate Egypt's resilience and tactical discipline, making this a value bet. Allocating the maximum stake due to high conviction in the qualitative edge over the odds.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:Mistral",
             "date": "2026-06-22T16:15:58.887Z",
@@ -8656,55 +8700,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:Mistral",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 410.37,
+            "odds": 1.4,
+            "reasoning": "Bosnia & Herzegovina has shown resilience in recent matches, particularly in their draw against Canada (M03) where they had a solid defensive structure despite being outplayed in possession and xG. However, their offensive output has been weak (only 0.76 xG vs Canada and 0.30 xG vs Switzerland). Qatar, on the other hand, was dismantled 6-0 by Canada (M27) and barely threatened Switzerland (0.52 xG in M08). The odds heavily favor Bosnia at 1.4, which aligns with their defensive solidity and Qatar's poor form. The risk is low, and the reward is decent for a safe bet. Allocating the maximum stake here due to the favorable odds and clear qualitative edge for Bosnia.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:Mistral",
+            "date": "2026-06-24T18:24:01.319Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 410.37,
+            "odds": 3.25,
+            "reasoning": "Canada has been the standout team in the qualitative reports, dominating Qatar (6-0) and holding their own against Bosnia despite the draw. Their xG (3.90 vs Qatar, 1.49 vs Bosnia) and possession stats (65.8% vs Qatar, 52.8% vs Bosnia) suggest they are a strong attacking side. Switzerland, while solid (4-1 vs Bosnia, 1-1 vs Qatar), has not shown the same level of dominance as Canada. The odds for Canada (3.25) are attractive given their recent performances, and the draw (3.04) is less appealing. Betting on Canada to win away feels like a high-confidence play, so I'm allocating the maximum stake here as well.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 48,
-        "won": 31,
+        "totalBets": 50,
+        "won": 33,
         "lost": 17,
         "void": 0,
-        "totalStake": 39144.9,
-        "totalReturn": -835.231900000001,
-        "roi": -0.021336927671293093,
-        "avgOdds": 1.5833333333333337,
+        "totalStake": 41143.88,
+        "totalReturn": 1003.8296999999991,
+        "roi": 0.02439803197948271,
+        "avgOdds": 1.5968000000000004,
         "recentBets": [
-          {
-            "id": "852a3abe6d46820720febc0fedebff9a:Baseline",
-            "date": "2026-06-21T19:09:36.484Z",
-            "matchId": "852a3abe6d46820720febc0fedebff9a",
-            "match": "Uruguay vs Cape Verde",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-06-21T22:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 830.13,
-            "odds": 1.42,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settled": true,
-            "settledResult": "draw",
-            "settledScore": "2-2"
-          },
-          {
-            "id": "c1ec9a65f4b4cf74477b368a7d6282de:Baseline",
-            "date": "2026-06-21T22:06:05.855Z",
-            "matchId": "c1ec9a65f4b4cf74477b368a7d6282de",
-            "match": "New Zealand vs Egypt",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Egypt",
-            "kickoff": "2026-06-22T01:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 747.94,
-            "odds": 1.59,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "be6c63f416c67bca1300a98f5b89c3af:Baseline",
             "date": "2026-06-22T14:09:46.560Z",
@@ -8840,6 +8883,40 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "512ac18beb5aa936a59f7ea3e497ada2:Baseline",
+            "date": "2026-06-24T16:10:37.548Z",
+            "matchId": "512ac18beb5aa936a59f7ea3e497ada2",
+            "match": "Bosnia & Herzegovina vs Qatar",
+            "homeTeam": "Bosnia & Herzegovina",
+            "awayTeam": "Qatar",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 999.49,
+            "odds": 1.36,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-1"
+          },
+          {
+            "id": "c9ef5822ee64fd5275f7c73251bb56c7:Baseline",
+            "date": "2026-06-24T16:10:37.548Z",
+            "matchId": "c9ef5822ee64fd5275f7c73251bb56c7",
+            "match": "Switzerland vs Canada",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Canada",
+            "kickoff": "2026-06-24T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 999.49,
+            "odds": 2.48,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
