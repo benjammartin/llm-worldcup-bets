@@ -7573,7 +7573,7 @@
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Claude",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7581,14 +7581,14 @@
       "kickoff": "2026-06-25T01:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 1500,
-      "odds": 1.9,
-      "reasoning": "Mexico is the standout team in this slate — 2-0 demolition of South Africa with 1.78 xG and a win over Korea. Czechia lost to Korea and only scraped a draw with weak South Africa while being outshot. At 1.90 Mexico offers solid value as the clearly superior side.",
+      "stake": 1873.07,
+      "odds": 1.89,
+      "reasoning": "Mexico has been clinical in this tournament - they dominated South Africa 2-0 (xG 1.78-0.10) and beat Korea Republic 1-0 despite being outplayed on xG. The Czech Republic has struggled: lost 2-1 to Korea and drew 1-1 with South Africa in matches where they were outpossessed and outplayed. Mexico's ability to win efficiently, combined with Czech's defensive vulnerabilities (conceding in both matches), makes the away odds of 1.89 excellent value. This is a high-conviction play.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Claude",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7596,14 +7596,14 @@
       "kickoff": "2026-06-25T01:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 1700,
+      "stake": 1873.07,
       "odds": 1.6,
-      "reasoning": "Korea beat Czechia 2-1 with strong xG and tested Mexico, while South Africa was shut out by Mexico (0.10 xG) and only drew Czechia. Korea is the more clinical, organized attack. 1.60 is short but the quality differential justifies high confidence.",
+      "reasoning": "South Korea has shown quality despite mixed results - they beat Czech Republic 2-1 with strong underlying metrics (1.77 xG, 55.8% possession) and were arguably unlucky against Mexico (0.87 xG vs 0.34, 51.8% possession). South Africa has been poor: demolished 2-0 by Mexico (0.10 xG!) and drew 1-1 with Czech in a match where neither team impressed. Korea's technical superiority should prevail. At 1.60 odds for the away win, this represents solid value for a team that controls games and creates chances.",
       "status": "pending"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:GPT-5.5",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7612,13 +7612,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 27.59,
-      "odds": 1.9,
-      "reasoning": "Mexico are the odds-on side and the best team in this mini-slate on the reports: they dominated South Africa and beat Korea, while Czechia were clearly second-best against Korea and only drew South Africa. Even allowing for some qualification/rotation risk, 1.90 is good enough to back the stronger team at max stake.",
+      "odds": 1.89,
+      "reasoning": "Mexico are the odds-on side at 1.89 and have the stronger tournament profile: a dominant 2-0 over South Africa and a 1-0 win over Korea, while Czechia lost to Korea and only drew South Africa. Czechia need a result, but the primary signal and the reports both point to Mexico as the better team. Max stake.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:GPT-5.5",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7628,12 +7628,12 @@
       "pick": "away",
       "stake": 27.59,
       "odds": 1.6,
-      "reasoning": "South Korea are short for a reason: they beat Czechia with strong underlying numbers and even out-xG’d Mexico in their loss. South Africa improved versus Czechia but were completely overrun by Mexico, and Korea’s attacking/control metrics look much better overall. Taking the favorite at max stake.",
+      "reasoning": "Korea at 1.60 are short but justified: they beat Czechia with a clear xG edge and even had the better xG in the narrow loss to Mexico. South Africa improved against Czechia, but their opener against Mexico was very poor. I am stopping the long-shot chasing and backing the stronger side. Max stake.",
       "status": "pending"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Gemini",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7642,13 +7642,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 661.04,
-      "odds": 1.9,
-      "reasoning": "Mexico has shown strong tournament form with two wins, including a dominant performance against South Africa and a gritty victory over South Korea. Czechia has struggled, managing only a draw against South Africa and being outplayed by South Korea. Mexico's defensive stability and clinical finishing make them strong favorites to take all three points here.",
+      "odds": 1.89,
+      "reasoning": "Mexico has been extremely disciplined and efficient, winning both of their opening matches without conceding a single goal. While Czechia managed a draw against South Africa, they struggled heavily to control the game in their opener against South Korea. Mexico's defensive structure and transition play should prove too difficult for Czechia to break down, making the away win at 1.89 highly attractive.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Gemini",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7658,12 +7658,12 @@
       "pick": "away",
       "stake": 661.04,
       "odds": 1.6,
-      "reasoning": "South Korea was impressive in their opening win against Czechia and was arguably the better team against Mexico despite the narrow loss, leading in xG (0.87 to 0.34) and possession. South Africa has struggled to generate quality chances, managing only 0.10 xG against Mexico. South Korea should dominate this match and secure the win.",
+      "reasoning": "South Korea was unfortunate to lose to Mexico despite controlling possession and winning the xG battle (0.87 to 0.34). They are highly motivated to secure a win here to guarantee qualification. South Africa has shown defensive fragility, allowing substantial chances in both of their previous matches. South Korea's superior attacking quality and motivation make them a very strong selection here.",
       "status": "pending"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Grok",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7672,13 +7672,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 1064.46,
-      "odds": 1.9,
-      "reasoning": "Mexico's results show clear superiority over both South Africa (2-0 domination) and Korea (1-0 win despite low xG), while Czechia struggled in losses/draws with inferior metrics across the board. Away at 1.9 offers solid value.",
+      "odds": 1.89,
+      "reasoning": "Mexico has looked the stronger side in the provided reports, comfortably beating South Africa and edging Korea Republic, while Czech Republic has shown weaker underlying numbers. Away at 1.89 offers decent value as the clearest edge here.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Grok",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7688,12 +7688,12 @@
       "pick": "away",
       "stake": 1064.46,
       "odds": 1.6,
-      "reasoning": "Korea Republic demonstrated better overall quality than Czechia and competitive showings vs Mexico; South Africa looks weakest of the group per the reports. Away at 1.6 is the clear edge.",
+      "reasoning": "South Korea demonstrated better quality against Czechia and stayed competitive with Mexico; South Africa has been outclassed in most metrics. Away odds of 1.6 reflect the probability edge without excessive risk.",
       "status": "pending"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:DeepSeek",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7702,13 +7702,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 228.35,
-      "odds": 1.9,
-      "reasoning": "Mexico have already beaten South Africa (2-0) and South Korea (1-0) while Czechia lost to South Korea (1-2) and drew with South Africa (1-1). Mexico’s away odds of 1.9 imply a 52.6% chance, which looks fair given their superior tournament form. The xG data from Mexico’s win over Korea was low, but they still got the result. I’m confident enough to back the away win with a moderate stake.",
+      "odds": 1.89,
+      "reasoning": "Mexico are away favourites at 1.89, and their two prior matches – a controlled 2-0 win over South Africa (xG 1.78-0.10) and a resilient 1-0 victory against Korea Republic despite an xG deficit – show a side that can manage games and punish on the break. Czechia’s heavy 343-pressure approach left them exposed in a 2-1 loss to Korea Republic (conceding 1.77 xG) and they struggled to capitalise on 60% possession in a 1-1 draw with South Africa. Mexico’s line-breaking ability and game-management tilt this tie strongly in their favour.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:DeepSeek",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7718,12 +7718,12 @@
       "pick": "away",
       "stake": 228.35,
       "odds": 1.6,
-      "reasoning": "South Korea dominated Czechia (2-1, xG 1.77-0.64) and edged Mexico on xG (0.87-0.34) despite losing 1-0. South Africa were outclassed by Mexico (0-2, xG 0.10-1.78) and only drew with Czechia. South Korea are a clear class above and the 1.6 away odds offer solid value. This is my highest-confidence bet, so I’m staking the per-match maximum.",
+      "reasoning": "South Korea are 1.60 away favourites, and their performances back that up. They generated 1.77 xG in a 2-1 win over Czechia, breaking lines effectively (92 line breaks, 125 final-third receptions) despite heavy pressing, and lost narrowly to Mexico in a match where they created 0.87 xG and controlled possession. South Africa, by contrast, managed just 0.10 xG against Mexico and relied on second-half recovery to draw 1-1 with Czechia. Korea’s superior attacking quality and organisational edge should prove decisive.",
       "status": "pending"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Mistral",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "5993bd5196ca09f83990f0c3261e442e",
       "match": "Czech Republic vs Mexico",
       "homeTeam": "Czech Republic",
@@ -7732,13 +7732,13 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 364.29,
-      "odds": 1.9,
-      "reasoning": "Mexico has shown strong form in their recent matches, dominating South Africa and narrowly edging Korea Republic. The xG and possession stats from their matches indicate they are the superior team, even when not scoring prolifically. The odds for Mexico (away) at 1.9 are undervalued given their recent performances and underlying metrics. Czech Republic struggled against Korea Republic and only drew with South Africa, despite having more shots in the latter match. The market seems to overrate Czech Republic, making Mexico the smarter pick here.",
+      "odds": 1.89,
+      "reasoning": "Mexico has shown strong form in their recent matches, dominating South Africa (2-0) and narrowly beating Korea Republic (1-0). Their xG and possession stats are impressive, and they've demonstrated clinical finishing and defensive solidity. While the odds for Mexico (away in this matchup) are less favorable (1.89), the qualitative and quantitative data from FIFA reports suggest they are the superior team. The Czech Republic struggled against Korea Republic (2-1 loss) and drew with South Africa (1-1), showing inconsistency. Given Mexico's recent performances and the value in the odds, I'm betting big on Mexico to continue their winning streak.",
       "status": "pending"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Mistral",
-      "date": "2026-06-24T22:49:54.327Z",
+      "date": "2026-06-24T23:20:18.291Z",
       "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
       "match": "South Africa vs South Korea",
       "homeTeam": "South Africa",
@@ -7748,13 +7748,13 @@
       "pick": "away",
       "stake": 364.29,
       "odds": 1.6,
-      "reasoning": "South Korea has been the better team in their recent matches, winning against Czech Republic and narrowly losing to Mexico. Their xG and possession stats are strong, and they consistently create more chances. South Africa, on the other hand, was dominated by Mexico and only managed a draw against Czech Republic despite having more possession and shots in that match. The odds for South Korea (away) at 1.6 are attractive given their recent form and underlying performance. The market seems to underrate South Korea's quality, making this a value bet.",
+      "reasoning": "South Korea has been the more convincing team in their recent matches, beating Czechia (2-1) and narrowly losing to Mexico (1-0). Their xG, possession, and attacking metrics (shots, final-third receptions) are strong, and they've shown resilience. South Africa, on the other hand, lost to Mexico (2-0) and drew with Czechia (1-1), with poor xG and defensive metrics. The odds for South Korea (1.6) are attractive given their recent form and the qualitative edge they hold over South Africa. I'm allocating a significant stake to this bet, as it represents a high-confidence opportunity.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-24T22:49:54.327Z",
+    "lastBetsRun": "2026-06-24T23:20:18.291Z",
     "lastSettleRun": "2026-06-24T21:29:27.974Z",
     "failures": [
       {
@@ -7832,6 +7832,18 @@
         "homeTeam": "Ecuador",
         "awayTeam": "Germany",
         "kickoff": "2026-06-25T20:00:00Z"
+      },
+      {
+        "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+        "homeTeam": "Japan",
+        "awayTeam": "Sweden",
+        "kickoff": "2026-06-25T23:00:00Z"
+      },
+      {
+        "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+        "homeTeam": "Tunisia",
+        "awayTeam": "Netherlands",
+        "kickoff": "2026-06-25T23:00:00Z"
       }
     ],
     "liveMatches": [],
