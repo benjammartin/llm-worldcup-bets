@@ -8000,6 +8000,18 @@
         "homeTeam": "Tunisia",
         "awayTeam": "Netherlands",
         "kickoff": "2026-06-25T23:00:00Z"
+      },
+      {
+        "matchId": "22f6ac06dfcc88a847920f62633e6459",
+        "homeTeam": "Paraguay",
+        "awayTeam": "Australia",
+        "kickoff": "2026-06-26T02:00:00Z"
+      },
+      {
+        "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
+        "homeTeam": "Turkey",
+        "awayTeam": "USA",
+        "kickoff": "2026-06-26T02:00:00Z"
       }
     ],
     "liveMatches": [],
