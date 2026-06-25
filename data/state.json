@@ -216,6 +216,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 9900.43
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 8200.43
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 8548.57
       }
     ],
     "GPT-5.5": [
@@ -434,6 +442,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 135.17
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 111.77
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 88.37
       }
     ],
     "Gemini": [
@@ -652,6 +668,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 3695.03
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 2981.7
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 3102.97
       }
     ],
     "Grok": [
@@ -870,6 +894,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 5742.66
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 4578.25
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 4776.2
       }
     ],
     "DeepSeek": [
@@ -1088,6 +1120,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 1342.64
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 1094.49
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 1136.68
       }
     ],
     "Mistral": [
@@ -1306,6 +1346,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 2114.72
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 1717.64
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 1785.14
       }
     ],
     "Baseline": [
@@ -1524,6 +1572,14 @@
       {
         "t": "2026-06-25T03:03:48.532Z",
         "bankroll": 12209.06
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 10988.15
+      },
+      {
+        "t": "2026-06-25T22:29:18.876Z",
+        "bankroll": 11195.7
       }
     ]
   },
@@ -7932,7 +7988,9 @@
       "stake": 1220.91,
       "odds": 1.17,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Baseline",
@@ -7947,7 +8005,9 @@
       "stake": 1220.91,
       "odds": 1.57,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:Claude",
@@ -7962,7 +8022,9 @@
       "stake": 2047.88,
       "odds": 1.17,
       "reasoning": "Ivory Coast at 1.17 is a heavy favorite and rightly so. Curaçao got demolished 7-1 by Germany and managed just 0.40 and 0.63 xG in their two reports, while CIV beat Ecuador and pushed Germany hard. The odds imply ~85% and the underlying data fully supports it. Solid value at a strong stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Claude",
@@ -7977,7 +8039,9 @@
       "stake": 1700,
       "odds": 1.63,
       "reasoning": "Germany at 1.63 is well-priced. They've already produced 4.17 and 2.47 xG in their reports, beating both other teams in this slate. Ecuador lost 1-0 to CIV with lower xG and only drew Curaçao 0-0 despite 2.76 xG, showing finishing problems. Germany's quality edge is clear; backing them with moderate-high confidence.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:GPT-5.5",
@@ -7992,7 +8056,9 @@
       "stake": 23.4,
       "odds": 8,
       "reasoning": "Ivory Coast are clearly the better side and the odds say that too, but 1.17 does almost nothing for a bankroll this small. Curaçao were battered by Germany yet managed to drag Ecuador into a 0-0, so a low-block survival draw is at least plausible. I need upside, and 8.00 is the only price here that can materially help.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:GPT-5.5",
@@ -8007,7 +8073,9 @@
       "stake": 23.4,
       "odds": 4.63,
       "reasoning": "Germany are the strongest team in the group, but Ecuador's underlying numbers have been better than their results, especially the 2.76 xG in the 0-0 with Curaçao. Germany may not need to force the match state if qualification/top spot is under control, while Ecuador need a result. At 4.63, the draw is the variance play I need rather than taking a short favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:Gemini",
@@ -8022,7 +8090,9 @@
       "stake": 713.33,
       "odds": 1.17,
       "reasoning": "Ivory Coast is a vastly superior side compared to Curaçao, who were heavily outplayed in their previous matches (conceding 7 goals to Germany and allowing 27 shots against Ecuador). Ivory Coast's narrow 1-0 win over Ecuador and competitive showing against Germany (2-1 loss) indicate they should comfortably handle Curaçao. The 1.17 odds represent a highly secure, albeit low-yield, opportunity to build bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Gemini",
@@ -8037,7 +8107,9 @@
       "stake": 713.33,
       "odds": 1.63,
       "reasoning": "Germany has been the standout team in this group, dominant in possession and highly clinical, scoring 9 goals across two matches with strong underlying xG numbers (4.17 vs Curaçao, 2.47 vs Ivory Coast). Ecuador, on the other hand, has struggled to find the back of the net, failing to score against both Ivory Coast and Curaçao despite dominating possession in the latter. Germany's superior attacking quality makes them strong favorites to win this match at attractive 1.63 odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:Grok",
@@ -8052,7 +8124,9 @@
       "stake": 1164.41,
       "odds": 1.17,
       "reasoning": "Ivory Coast dominated Ecuador and Germany in prior matches per xG/underlying metrics; Curaçao is clearly the weakest side here and the 1.17 away price is the highest-confidence bet on the slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Grok",
@@ -8067,7 +8141,9 @@
       "stake": 1164.41,
       "odds": 1.63,
       "reasoning": "Germany's underlying dominance (high xG, progression numbers) versus both Ecuador and Curaçao makes them the clear favorite; 1.63 is still value given the gap in quality.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:DeepSeek",
@@ -8082,7 +8158,9 @@
       "stake": 248.15,
       "odds": 1.17,
       "reasoning": "Ivory Coast is heavily favored with odds 1.17, based on head-to-head transitive results: Ivory Coast beat Ecuador 1-0, while Ecuador failed to beat Curaçao (0-0). Curaçao also lost 7-1 to Germany, whereas Ivory Coast kept it close (2-1). All reports indicate large quality gap, away win almost a certainty.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:DeepSeek",
@@ -8097,7 +8175,9 @@
       "stake": 248.15,
       "odds": 1.63,
       "reasoning": "Germany away at 1.63 is strong value given their dominant performances: 7-1 over Curaçao, 2-1 over Ivory Coast with xG 2.47. Ecuador couldn't score against Curaçao (xG 2.76 but 0-0) and lost 0-1 to Ivory Coast. Germany should win comfortably.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "a5a0b544a984ab16e564264f3e859b43:Mistral",
@@ -8112,7 +8192,9 @@
       "stake": 397.08,
       "odds": 1.17,
       "reasoning": "The odds for Ivory Coast (away) at 1.17 are extremely low, suggesting they are heavy favorites. The FIFA training reports show that Ivory Coast has been competitive against strong teams like Ecuador and Germany, with decent xG and shot numbers. Curaçao, on the other hand, was demolished 7-1 by Germany and struggled in their draw against Ecuador, with very low xG (0.40 and 0.63) and poor possession stats. Even though the odds are low, the risk-reward here is favorable given Curaçao's clear weaknesses and Ivory Coast's relative strength. Betting the maximum stake on the away team (Ivory Coast) is the safest play here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Mistral",
@@ -8127,7 +8209,9 @@
       "stake": 397.08,
       "odds": 1.63,
       "reasoning": "Germany is one of the tournament favorites, and the odds (1.63) reflect that. The FIFA training reports show Germany dominating Curaçao (7-1) and narrowly beating Ivory Coast (2-1), with strong xG, possession, and final-third reception numbers. Ecuador, while competitive against Ivory Coast, had a lower xG (1.36) and struggled to convert chances. Their draw against Curaçao (0-0) was more about Curaçao's defensive setup than Ecuador's attacking prowess. Germany's consistency and attacking firepower make them the clear pick here, and I'm allocating the maximum stake to reflect high confidence.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Baseline",
@@ -8343,7 +8427,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-25T22:04:29.493Z",
-    "lastSettleRun": "2026-06-25T03:03:48.532Z",
+    "lastSettleRun": "2026-06-25T22:29:18.876Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -8439,49 +8523,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 54,
-        "won": 36,
-        "lost": 18,
+        "totalBets": 56,
+        "won": 37,
+        "lost": 19,
         "void": 0,
-        "totalStake": 56628.58000000001,
-        "totalReturn": -1009.8748999999996,
-        "roi": -0.017833307845614342,
-        "avgOdds": 1.5887037037037042,
+        "totalStake": 60376.46000000001,
+        "totalReturn": -2361.7353,
+        "roi": -0.03911682301347246,
+        "avgOdds": 1.581964285714286,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:Claude",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1468.15,
-            "odds": 1.14,
-            "reasoning": "Portugal at 1.14 is a heavy favorite and the eye test backs it up. Despite the surprise draw with Congo DR, Portugal dominated possession (68.9%), final-third receptions (222 vs 62), and line breaks (146 vs 60) - they simply lacked a clinical finish. Uzbekistan, meanwhile, was outplayed 1-3 by Colombia with negative xG and shot disparity. The gap in quality is real. At 1.14 the margin is thin, but it's a high-probability outcome and I'm sizing meaningfully without overexposing - a Portugal stumble against a clearly weaker side is the main risk, so I won't max out.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:Claude",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1468.15,
-            "odds": 1.18,
-            "reasoning": "England demolished Croatia 4-2 with a 3.33 xG and 22 shots (11 on target) — they look ruthless in attack. Ghana scraped past Panama 1-0 with under 1.0 xG and only 35.6% possession against weaker opposition. The talent gap is enormous and the 1.18 home price reflects that. It's low value per dollar but it's about as safe a favorite as this tournament offers, so I'm staking confidently while keeping under my per-match cap to manage downside on the short odds.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:Claude",
             "date": "2026-06-23T22:49:44.869Z",
@@ -8617,54 +8667,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:Claude",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 2047.88,
+            "odds": 1.17,
+            "reasoning": "Ivory Coast at 1.17 is a heavy favorite and rightly so. Curaçao got demolished 7-1 by Germany and managed just 0.40 and 0.63 xG in their two reports, while CIV beat Ecuador and pushed Germany hard. The odds imply ~85% and the underlying data fully supports it. Solid value at a strong stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Claude",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1700,
+            "odds": 1.63,
+            "reasoning": "Germany at 1.63 is well-priced. They've already produced 4.17 and 2.47 xG in their reports, beating both other teams in this slate. Ecuador lost 1-0 to CIV with lower xG and only drew Curaçao 0-0 despite 2.76 xG, showing finishing problems. Germany's quality edge is clear; backing them with moderate-high confidence.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 54,
+        "totalBets": 56,
         "won": 20,
-        "lost": 34,
+        "lost": 36,
         "void": 0,
-        "totalStake": 23648.959999999992,
-        "totalReturn": -9993.915900000004,
-        "roi": -0.4225943085869318,
-        "avgOdds": 3.9275925925925925,
+        "totalStake": 23695.759999999995,
+        "totalReturn": -10040.715900000003,
+        "roi": -0.42373470612464026,
+        "avgOdds": 4.0128571428571425,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:GPT-5.5",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 99.6,
-            "odds": 8.5,
-            "reasoning": "Portugal are the clear market favorite, but at 1.14 the upside is tiny and my bankroll position requires taking variance rather than collecting a small favorite payout. The FIFA report from Portugal-Congo DR showed a lot of sterile possession from Portugal but only 0.57 xG and a 1-1 result, while Uzbekistan’s 1-3 loss to Colombia was closer on xG than the scoreline suggests. Portugal should still be much stronger, but the draw at 8.5 is the only price here with enough payoff and a plausible path if Portugal again dominate territory without converting.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:GPT-5.5",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 99.6,
-            "odds": 1.18,
-            "reasoning": "England are a very short favorite and the training-centre context supports the market: England created 3.33 xG and 22 shots against Croatia, while Ghana beat Panama but were outshot and allowed similar xG despite Panama controlling territory. Odds remain the main signal, and this is not a price to get cute with given the quality gap. Max stake on England.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:GPT-5.5",
             "date": "2026-06-23T22:49:44.869Z",
@@ -8800,54 +8850,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:GPT-5.5",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 23.4,
+            "odds": 8,
+            "reasoning": "Ivory Coast are clearly the better side and the odds say that too, but 1.17 does almost nothing for a bankroll this small. Curaçao were battered by Germany yet managed to drag Ecuador into a 0-0, so a low-block survival draw is at least plausible. I need upside, and 8.00 is the only price here that can materially help.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:GPT-5.5",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 23.4,
+            "odds": 4.63,
+            "reasoning": "Germany are the strongest team in the group, but Ecuador's underlying numbers have been better than their results, especially the 2.76 xG in the 0-0 with Curaçao. Germany may not need to force the match state if qualification/top spot is under control, while Ecuador need a result. At 4.63, the draw is the variance play I need rather than taking a short favorite.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 54,
-        "won": 35,
-        "lost": 19,
+        "totalBets": 56,
+        "won": 36,
+        "lost": 20,
         "void": 0,
-        "totalStake": 35959.09000000001,
-        "totalReturn": -6594.723600000001,
-        "roi": -0.1833951749057053,
-        "avgOdds": 1.5961111111111113,
+        "totalStake": 37385.750000000015,
+        "totalReturn": -7186.787500000001,
+        "roi": -0.19223333756845853,
+        "avgOdds": 1.589107142857143,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:Gemini",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 479.65,
-            "odds": 1.14,
-            "reasoning": "Despite a lackluster opening draw against Congo DR where Portugal struggled to create high-quality chances (0.57 xG), they maintained dominant control with nearly 69% possession. Uzbekistan showed defensive vulnerabilities against Colombia, conceding three goals. Portugal's squad depth and motivation to secure three points here make them overwhelming favorites. While the 1.14 odds offer low yield, a Portugal victory is highly probable. We place the maximum allowed stake of $640.14 to sustain our positive momentum and steadily build our bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:Gemini",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 479.65,
-            "odds": 1.18,
-            "reasoning": "England showed immense offensive power in their 4-2 opening win against Croatia, generating an impressive 3.33 xG and 22 shots. In contrast, Ghana secured a narrow 1-0 win over Panama despite being largely outplayed in possession (35.6%) and final-third entries. England's high-pressing, clinical attack should easily break down Ghana's defensive lines. At odds of 1.18, England represents an extremely secure home win, and we are maximizing our stake to sustain our strong momentum in the tournament.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:Gemini",
             "date": "2026-06-23T22:49:44.869Z",
@@ -8983,54 +9033,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:Gemini",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 713.33,
+            "odds": 1.17,
+            "reasoning": "Ivory Coast is a vastly superior side compared to Curaçao, who were heavily outplayed in their previous matches (conceding 7 goals to Germany and allowing 27 shots against Ecuador). Ivory Coast's narrow 1-0 win over Ecuador and competitive showing against Germany (2-1 loss) indicate they should comfortably handle Curaçao. The 1.17 odds represent a highly secure, albeit low-yield, opportunity to build bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Gemini",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 713.33,
+            "odds": 1.63,
+            "reasoning": "Germany has been the standout team in this group, dominant in possession and highly clinical, scoring 9 goals across two matches with strong underlying xG numbers (4.17 vs Curaçao, 2.47 vs Ivory Coast). Ecuador, on the other hand, has struggled to find the back of the net, failing to score against both Ivory Coast and Curaçao despite dominating possession in the latter. Germany's superior attacking quality makes them strong favorites to win this match at attractive 1.63 odds.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 54,
-        "won": 35,
-        "lost": 19,
+        "totalBets": 56,
+        "won": 36,
+        "lost": 20,
         "void": 0,
-        "totalStake": 70660.46000000004,
-        "totalReturn": -4722.166699999998,
-        "roi": -0.06682898328145608,
-        "avgOdds": 1.6500000000000001,
+        "totalStake": 72989.28000000004,
+        "totalReturn": -5688.626999999998,
+        "roi": -0.07793784237904518,
+        "avgOdds": 1.6410714285714287,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:Grok",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 787.36,
-            "odds": 1.14,
-            "reasoning": "Portugal heavily favored at 1.14 with vastly superior squad depth and recent metrics; Uzbekistan's loss to Colombia and lower progression numbers confirm mismatch. Max stake on clear value.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:Grok",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 787.36,
-            "odds": 1.18,
-            "reasoning": "England's recent xG dominance (3.33 vs Croatia) and overall quality gap vs Ghana makes home win the clear value even at 1.18. Ghana showed modest underlying numbers against Panama. High conviction on favorite here given the data and odds signal.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:Grok",
             "date": "2026-06-23T22:49:44.869Z",
@@ -9166,54 +9216,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:Grok",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1164.41,
+            "odds": 1.17,
+            "reasoning": "Ivory Coast dominated Ecuador and Germany in prior matches per xG/underlying metrics; Curaçao is clearly the weakest side here and the 1.17 away price is the highest-confidence bet on the slate.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Grok",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1164.41,
+            "odds": 1.63,
+            "reasoning": "Germany's underlying dominance (high xG, progression numbers) versus both Ecuador and Curaçao makes them the clear favorite; 1.63 is still value given the gap in quality.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 54,
-        "won": 32,
-        "lost": 22,
+        "totalBets": 56,
+        "won": 33,
+        "lost": 23,
         "void": 0,
-        "totalStake": 31106.909999999985,
-        "totalReturn": -8777.3754,
-        "roi": -0.2821680263324131,
-        "avgOdds": 1.9211111111111114,
+        "totalStake": 31603.20999999999,
+        "totalReturn": -8983.3399,
+        "roi": -0.28425403305550306,
+        "avgOdds": 1.9025000000000003,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:DeepSeek",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 222.93,
-            "odds": 1.14,
-            "reasoning": "Portugal's underlying metrics from their draw against Congo DR (68.9% possession, 222 final-third receptions, 146 line breaks) indicate dominance despite the scoreline. Uzbekistan lost 1-3 to Colombia with a lower possession rate (33.9%) and fewer attacking entries. The gulf in class is evident, and the odds of 1.14 correctly reflect a high probability of a Portugal win. Given my need to rebuild the bankroll safely, I'm using the maximum allowed stake to lock in a near-certain modest return.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:DeepSeek",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 222.93,
-            "odds": 1.18,
-            "reasoning": "England heavily favored at 1.18 after beating Croatia 4-2 with 3.33 xG. Ghana scraped past Panama 1-0 with 0.98 xG and 35% possession. Odds imply an 85% England win probability, so maximum allowable stake is the safest way to lock in a small profit and preserve capital.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:DeepSeek",
             "date": "2026-06-23T22:49:44.869Z",
@@ -9349,54 +9399,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:DeepSeek",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 248.15,
+            "odds": 1.17,
+            "reasoning": "Ivory Coast is heavily favored with odds 1.17, based on head-to-head transitive results: Ivory Coast beat Ecuador 1-0, while Ecuador failed to beat Curaçao (0-0). Curaçao also lost 7-1 to Germany, whereas Ivory Coast kept it close (2-1). All reports indicate large quality gap, away win almost a certainty.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:DeepSeek",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 248.15,
+            "odds": 1.63,
+            "reasoning": "Germany away at 1.63 is strong value given their dominant performances: 7-1 over Curaçao, 2-1 over Ivory Coast with xG 2.47. Ecuador couldn't score against Curaçao (xG 2.76 but 0-0) and lost 0-1 to Ivory Coast. Germany should win comfortably.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 54,
-        "won": 35,
-        "lost": 19,
+        "totalBets": 56,
+        "won": 36,
+        "lost": 20,
         "void": 0,
-        "totalStake": 32964.450000000004,
-        "totalReturn": -8134.762499999995,
-        "roi": -0.24677379722701256,
-        "avgOdds": 1.622962962962963,
+        "totalStake": 33758.61000000001,
+        "totalReturn": -8464.338899999995,
+        "roi": -0.2507312623357417,
+        "avgOdds": 1.615,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:Mistral",
-            "date": "2026-06-23T16:55:35.493Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 410.86,
-            "odds": 1.14,
-            "reasoning": "Portugal is the clear favorite here with odds of 1.14, reflecting their strong form and superior metrics in their last match against Congo DR. Despite the draw, Portugal dominated possession (68.9%), final-third receptions (222-62), and line breaks (146-60), showing they control games even when results don't fully reflect it. Uzbekistan, while competitive against Colombia, were outplayed in possession (33.9%) and final-third receptions (64-110), and their defensive pressures (264) were less effective than Portugal's (407 against Congo DR). The odds suggest a ~87.7% implied probability for Portugal to win, and their qualitative dominance in key areas makes this a high-confidence bet. Allocating the maximum stake here to capitalize on the favorable odds and Portugal's clear superiority.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:Mistral",
-            "date": "2026-06-23T19:17:55.796Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 410.86,
-            "odds": 1.18,
-            "reasoning": "England's recent performance against Croatia was dominant, with a significantly higher xG (3.33 vs. 0.82) and shots (22 vs. 10), despite slightly lower possession. Their attacking prowess and ability to convert chances are evident, and the odds (1.18) reflect their clear favorite status. Ghana, while showing resilience against Panama (1-0 win), struggled with possession (35.6%) and were outplayed in key metrics like final-third receptions and line breaks. England's home advantage and superior squad depth make them the safest bet here, and I'm allocating the maximum stake to reflect high confidence in a comfortable England win.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:Mistral",
             "date": "2026-06-23T22:49:44.869Z",
@@ -9532,54 +9582,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:Mistral",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 397.08,
+            "odds": 1.17,
+            "reasoning": "The odds for Ivory Coast (away) at 1.17 are extremely low, suggesting they are heavy favorites. The FIFA training reports show that Ivory Coast has been competitive against strong teams like Ecuador and Germany, with decent xG and shot numbers. Curaçao, on the other hand, was demolished 7-1 by Germany and struggled in their draw against Ecuador, with very low xG (0.40 and 0.63) and poor possession stats. Even though the odds are low, the risk-reward here is favorable given Curaçao's clear weaknesses and Ivory Coast's relative strength. Betting the maximum stake on the away team (Ivory Coast) is the safest play here.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Mistral",
+            "date": "2026-06-25T19:38:46.708Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 397.08,
+            "odds": 1.63,
+            "reasoning": "Germany is one of the tournament favorites, and the odds (1.63) reflect that. The FIFA training reports show Germany dominating Curaçao (7-1) and narrowly beating Ivory Coast (2-1), with strong xG, possession, and final-third reception numbers. Ecuador, while competitive against Ivory Coast, had a lower xG (1.36) and struggled to convert chances. Their draw against Curaçao (0-0) was more about Curaçao's defensive setup than Ecuador's attacking prowess. Germany's consistency and attacking firepower make them the clear pick here, and I'm allocating the maximum stake to reflect high confidence.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 54,
-        "won": 36,
-        "lost": 18,
+        "totalBets": 56,
+        "won": 37,
+        "lost": 19,
         "void": 0,
-        "totalStake": 45509.659999999996,
-        "totalReturn": 1378.9179999999992,
-        "roi": 0.030299457302032127,
-        "avgOdds": 1.5894444444444447,
+        "totalStake": 47951.48,
+        "totalReturn": 365.56269999999904,
+        "roi": 0.007623595768055522,
+        "avgOdds": 1.581607142857143,
         "recentBets": [
-          {
-            "id": "8ba93d190f1f934e33862a97a6353a6e:Baseline",
-            "date": "2026-06-23T14:09:16.910Z",
-            "matchId": "8ba93d190f1f934e33862a97a6353a6e",
-            "match": "Portugal vs Uzbekistan",
-            "homeTeam": "Portugal",
-            "awayTeam": "Uzbekistan",
-            "kickoff": "2026-06-23T17:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 991.5,
-            "odds": 1.15,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "5-0"
-          },
-          {
-            "id": "2f49dd8deae3079dc4eb2d634d18a99c:Baseline",
-            "date": "2026-06-23T17:09:18.612Z",
-            "matchId": "2f49dd8deae3079dc4eb2d634d18a99c",
-            "match": "England vs Ghana",
-            "homeTeam": "England",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-23T20:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 991.5,
-            "odds": 1.19,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "c1bc8c26480cd42b89a0de5329581314:Baseline",
             "date": "2026-06-23T20:07:33.081Z",
@@ -9715,6 +9765,40 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "1-0"
+          },
+          {
+            "id": "a5a0b544a984ab16e564264f3e859b43:Baseline",
+            "date": "2026-06-25T17:12:05.909Z",
+            "matchId": "a5a0b544a984ab16e564264f3e859b43",
+            "match": "Curaçao vs Ivory Coast",
+            "homeTeam": "Curaçao",
+            "awayTeam": "Ivory Coast",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1220.91,
+            "odds": 1.17,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
+          },
+          {
+            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Baseline",
+            "date": "2026-06-25T17:12:05.909Z",
+            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
+            "match": "Ecuador vs Germany",
+            "homeTeam": "Ecuador",
+            "awayTeam": "Germany",
+            "kickoff": "2026-06-25T20:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1220.91,
+            "odds": 1.57,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
