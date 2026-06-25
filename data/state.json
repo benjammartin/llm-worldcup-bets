@@ -208,6 +208,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 10181.39
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 11773.5
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 9900.43
       }
     ],
     "GPT-5.5": [
@@ -418,6 +426,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 139.31
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 162.76
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 135.17
       }
     ],
     "Gemini": [
@@ -628,6 +644,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 3846.07
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 4356.07
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 3695.03
       }
     ],
     "Grok": [
@@ -838,6 +862,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 5902.33
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 6807.12
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 5742.66
       }
     ],
     "DeepSeek": [
@@ -1048,6 +1080,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 1376.89
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 1570.99
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 1342.64
       }
     ],
     "Mistral": [
@@ -1258,6 +1298,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 2169.36
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 2479.01
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 2114.72
       }
     ],
     "Baseline": [
@@ -1468,6 +1516,14 @@
       {
         "t": "2026-06-25T00:34:18.048Z",
         "bankroll": 12303.73
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 13392.46
+      },
+      {
+        "t": "2026-06-25T03:03:48.532Z",
+        "bankroll": 12209.06
       }
     ]
   },
@@ -7638,7 +7694,9 @@
       "stake": 1183.4,
       "odds": 1.92,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Baseline",
@@ -7653,7 +7711,9 @@
       "stake": 1183.4,
       "odds": 1.6,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Claude",
@@ -7668,7 +7728,9 @@
       "stake": 1873.07,
       "odds": 1.85,
       "reasoning": "Mexico has been dominant this tournament with 2 wins including a comprehensive 2-0 victory over South Africa (xG 1.78-0.10) and a gritty 1-0 win over South Korea despite being outplayed on xG. They've shown they can win both ways - controlling games and grinding out results. Czech Republic lost 2-1 to South Korea and drew 1-1 with South Africa, struggling with possession and looking vulnerable. Mexico away at 1.85 offers solid value given their tournament form and Czech Republic's inconsistency. This is my highest conviction play.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Claude",
@@ -7683,7 +7745,9 @@
       "stake": 1873.07,
       "odds": 1.67,
       "reasoning": "South Korea has shown quality in their matches, beating Czech Republic 2-1 (xG 1.77-0.64) with strong possession and progression metrics, and narrowly losing 1-0 to Mexico despite creating better chances (xG 0.87-0.34). South Africa has been poor - demolished 2-0 by Mexico with barely any attacking threat (xG 0.10) and drew 1-1 with Czech Republic in a more even match. South Korea away at 1.67 is reasonable value given their superior quality and South Africa's weak performances. Taking both away favorites to maximize expected value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:GPT-5.5",
@@ -7698,7 +7762,9 @@
       "stake": 27.59,
       "odds": 1.85,
       "reasoning": "Mexico are the strongest side in this mini-slate and the 1.85 price is still playable. They controlled South Africa comprehensively and beat Korea, while Czechia lost the underlying numbers to Korea and only drew South Africa. Odds remain the main signal, and Mexico away is my clearest favorite-side position.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:GPT-5.5",
@@ -7713,7 +7779,9 @@
       "stake": 27.59,
       "odds": 1.67,
       "reasoning": "Korea have been consistently competitive: they beat Czechia with a clear xG and shot edge, then out-created Mexico despite losing 1-0. South Africa improved against Czechia but were extremely limited against Mexico. At 1.67 Korea are short, but they are the more reliable side and I need to press the strongest probabilities now.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Gemini",
@@ -7728,7 +7796,9 @@
       "stake": 661.04,
       "odds": 1.67,
       "reasoning": "South Korea has displayed strong underlying metrics this tournament, dominating Czechia in their opener (xG 1.77-0.64) and outshooting Mexico despite a narrow loss. South Africa has struggled to generate quality chances, managing just 0.10 xG against Mexico. With South Korea highly motivated to secure qualification, they are a very strong selection at 1.67.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Gemini",
@@ -7743,7 +7813,9 @@
       "stake": 600,
       "odds": 1.85,
       "reasoning": "Mexico has been the most disciplined team in the group, winning both matches without conceding a goal. While they have already qualified and might rotate, Czechia's defensive vulnerabilities were exposed by South Africa, who dominated possession and registered 17 shots against them. Mexico's superior tactical structure and depth make them the clear favorite at attractive odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Grok",
@@ -7758,7 +7830,9 @@
       "stake": 1064.46,
       "odds": 1.85,
       "reasoning": "Mexico's results vs RSA (2-0, dominant xG/possession) and KOR (1-0) show clear superiority over Czechia (who lost to KOR and drew RSA). Away 1.85 is the value pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Grok",
@@ -7773,7 +7847,9 @@
       "stake": 1064.46,
       "odds": 1.67,
       "reasoning": "Korea showed better control vs Czechia and competitive metrics vs Mexico; South Africa looks weakest side here. Away 1.67 offers solid edge.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:DeepSeek",
@@ -7788,7 +7864,9 @@
       "stake": 228.35,
       "odds": 1.85,
       "reasoning": "Mexico beat South Africa 2-0 and South Korea 1-0, showing strong defensive organisation. Czech Republic lost to South Korea 1-2 and drew with South Africa 1-1 while conceding high-quality chances. Mexico's class should deliver an away win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:DeepSeek",
@@ -7803,7 +7881,9 @@
       "stake": 228.35,
       "odds": 1.67,
       "reasoning": "South Korea beat Czech Republic 2-1 and produced an xG of 0.87 in a narrow 0-1 loss to Mexico. South Africa managed only 0.10 xG against Mexico and were outclassed. The gap in quality makes an away win highly probable.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Mistral",
@@ -7818,7 +7898,9 @@
       "stake": 364.29,
       "odds": 1.85,
       "reasoning": "Mexico's recent performances against South Africa and Korea Republic show strong defensive organization and effective counter-attacking, despite not always dominating possession. Their xG and shot data in M01 and M28 suggest they are clinical in front of goal and difficult to break down. Czech Republic, while not terrible, struggled against Korea Republic (M02) and were held to a draw by South Africa (M25) despite having more shots in that game. The odds heavily favor Mexico (1.85), which aligns with their recent form and underlying metrics. Betting the maximum stake here due to the favorable risk-reward ratio and Mexico's consistency in recent matches.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "c0355dfc6e26ec327e379b6ef5824a5f:Mistral",
@@ -7833,13 +7915,15 @@
       "stake": 364.29,
       "odds": 1.67,
       "reasoning": "South Korea's recent performance against Czech Republic (M02) was impressive, with higher xG, more shots on target, and better possession than their opponents. They also held their own against Mexico (M28), creating decent chances despite losing 1-0. South Africa, on the other hand, were outplayed by Mexico (M01) and only managed a draw against Czech Republic (M25) despite having more possession and shots in that game. The underlying metrics (final-third receptions, line breaks, progressions) favor South Korea, and the odds (1.67) reflect their recent form. Betting the maximum stake here as well, given the value and South Korea's attacking potential.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-24T23:52:54.788Z",
-    "lastSettleRun": "2026-06-25T00:34:18.048Z",
+    "lastSettleRun": "2026-06-25T03:03:48.532Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -7923,49 +8007,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 52,
-        "won": 35,
-        "lost": 17,
+        "totalBets": 54,
+        "won": 36,
+        "lost": 18,
         "void": 0,
-        "totalStake": 52882.44000000001,
-        "totalReturn": -728.9143999999997,
-        "roi": -0.01378367563977758,
-        "avgOdds": 1.582115384615385,
+        "totalStake": 56628.58000000001,
+        "totalReturn": -1009.8748999999996,
+        "roi": -0.017833307845614342,
+        "avgOdds": 1.5887037037037042,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:Claude",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 850,
-            "odds": 2.34,
-            "reasoning": "Norway looked excellent in their 4-1 demolition of Iraq: 2.41 xG, 57% possession, 116 line breaks and clear control. Senegal got outplayed by France (0.39 xG) and looks limited offensively. At 2.34, home odds offer genuine value with Norway as the sharper, more in-form side. Solid stake but not maxed given single-match risk.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:Claude",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1000,
-            "odds": 1.51,
-            "reasoning": "Algeria are clearly the stronger side and the FIFA reports back it up. Algeria held Argentina to a respectable line-break and progression battle (115 vs 102, 40 vs 18 progressions) despite losing 3-0, showing real ball-moving quality. Jordan, meanwhile, got dominated by Austria — 33% possession, only 91 final-third receptions vs 132, and out-progressed 35-23. The 1.51 away price implies ~66% for Algeria, which I think is fair to slightly generous to Jordan. I'll back Algeria with solid but not reckless conviction given the short price after a recent run of favorites burning me.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:Claude",
             "date": "2026-06-23T16:55:35.493Z",
@@ -8101,54 +8151,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:Claude",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1873.07,
+            "odds": 1.85,
+            "reasoning": "Mexico has been dominant this tournament with 2 wins including a comprehensive 2-0 victory over South Africa (xG 1.78-0.10) and a gritty 1-0 win over South Korea despite being outplayed on xG. They've shown they can win both ways - controlling games and grinding out results. Czech Republic lost 2-1 to South Korea and drew 1-1 with South Africa, struggling with possession and looking vulnerable. Mexico away at 1.85 offers solid value given their tournament form and Czech Republic's inconsistency. This is my highest conviction play.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Claude",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1873.07,
+            "odds": 1.67,
+            "reasoning": "South Korea has shown quality in their matches, beating Czech Republic 2-1 (xG 1.77-0.64) with strong possession and progression metrics, and narrowly losing 1-0 to Mexico despite creating better chances (xG 0.87-0.34). South Africa has been poor - demolished 2-0 by Mexico with barely any attacking threat (xG 0.10) and drew 1-1 with Czech Republic in a more even match. South Korea away at 1.67 is reasonable value given their superior quality and South Africa's weak performances. Taking both away favorites to maximize expected value.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 52,
-        "won": 19,
-        "lost": 33,
+        "totalBets": 54,
+        "won": 20,
+        "lost": 34,
         "void": 0,
-        "totalStake": 23593.77999999999,
-        "totalReturn": -9989.777400000003,
-        "roi": -0.42340724546893316,
-        "avgOdds": 4.0109615384615385,
+        "totalStake": 23648.959999999992,
+        "totalReturn": -9993.915900000004,
+        "roi": -0.4225943085869318,
+        "avgOdds": 3.9275925925925925,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 87.69,
-            "odds": 2.34,
-            "reasoning": "Odds make Norway only a modest favorite, but the available match reports lean their way: Norway created 2.41 xG with strong possession/progression numbers in a 4-1 win, while Senegal generated just 0.39 xG in their loss to France. Opponent quality matters, so I am not treating the reports as definitive, but at 2.34 Norway looks like the best value on the board. Given my low bankroll and need to climb, I am staking the match maximum.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:GPT-5.5",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 72.41,
-            "odds": 1.51,
-            "reasoning": "Algeria are the clear odds signal at 1.51 and the qualitative reports support them as the stronger side: even in a 3-0 loss to Argentina they had much more possession, final-third activity and progression than Jordan showed against Austria. Jordan’s attacking output was weak by xG and Algeria should control enough territory to make the away win the best play. Max stake because I need to rebuild bankroll and this is the strongest side of the slate.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:GPT-5.5",
             "date": "2026-06-23T16:55:35.493Z",
@@ -8284,54 +8334,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:GPT-5.5",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 27.59,
+            "odds": 1.85,
+            "reasoning": "Mexico are the strongest side in this mini-slate and the 1.85 price is still playable. They controlled South Africa comprehensively and beat Korea, while Czechia lost the underlying numbers to Korea and only drew South Africa. Odds remain the main signal, and Mexico away is my clearest favorite-side position.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:GPT-5.5",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 27.59,
+            "odds": 1.67,
+            "reasoning": "Korea have been consistently competitive: they beat Czechia with a clear xG and shot edge, then out-created Mexico despite losing 1-0. South Africa improved against Czechia but were extremely limited against Mexico. At 1.67 Korea are short, but they are the more reliable side and I need to press the strongest probabilities now.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 52,
-        "won": 34,
-        "lost": 18,
+        "totalBets": 54,
+        "won": 35,
+        "lost": 19,
         "void": 0,
-        "totalStake": 34698.05000000001,
-        "totalReturn": -6443.683600000001,
-        "roi": -0.185707369722506,
-        "avgOdds": 1.5898076923076927,
+        "totalStake": 35959.09000000001,
+        "totalReturn": -6594.723600000001,
+        "roi": -0.1833951749057053,
+        "avgOdds": 1.5961111111111113,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 348.22,
-            "odds": 2.34,
-            "reasoning": "Norway enters this matchup in excellent form following a dominant 4-1 win over Iraq where they generated 2.41 xG and demonstrated clinical finishing. In contrast, Senegal struggled to create high-quality chances against France, managing only 0.39 xG and conceding three goals. With Norway's attacking potency and the favorable 2.34 odds, they represent the best value to take all three points.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:Gemini",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 354.04,
-            "odds": 1.51,
-            "reasoning": "Algeria showed decent possession and progression metrics despite their 3-0 loss to Argentina. Jordan, on the other hand, struggled heavily against Austria, conceding 1.93 xG while managing only 33% possession. Algeria should have too much quality for Jordan here, making the away win at 1.51 a solid bet.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:Gemini",
             "date": "2026-06-23T16:55:35.493Z",
@@ -8467,54 +8517,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Gemini",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 661.04,
+            "odds": 1.67,
+            "reasoning": "South Korea has displayed strong underlying metrics this tournament, dominating Czechia in their opener (xG 1.77-0.64) and outshooting Mexico despite a narrow loss. South Africa has struggled to generate quality chances, managing just 0.10 xG against Mexico. With South Korea highly motivated to secure qualification, they are a very strong selection at 1.67.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:Gemini",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 600,
+            "odds": 1.85,
+            "reasoning": "Mexico has been the most disciplined team in the group, winning both matches without conceding a goal. While they have already qualified and might rotate, Czechia's defensive vulnerabilities were exposed by South Africa, who dominated possession and registered 17 shots against them. Mexico's superior tactical structure and depth make them the clear favorite at attractive odds.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 52,
-        "won": 34,
-        "lost": 18,
+        "totalBets": 54,
+        "won": 35,
+        "lost": 19,
         "void": 0,
-        "totalStake": 68531.54000000002,
-        "totalReturn": -4562.497699999998,
-        "roi": -0.06657515211244336,
-        "avgOdds": 1.645769230769231,
+        "totalStake": 70660.46000000004,
+        "totalReturn": -4722.166699999998,
+        "roi": -0.06682898328145608,
+        "avgOdds": 1.6500000000000001,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:Grok",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 564.11,
-            "odds": 2.34,
-            "reasoning": "Norway dominated Iraq with superior xG (2.41), possession, and progressive metrics while Senegal were thoroughly outclassed by France (xG 0.39). At 2.34 the home side offers the best value on the slate.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:Grok",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 573.49,
-            "odds": 1.51,
-            "reasoning": "Algeria heavily favored at 1.51; Jordan poor in recent report vs Austria while Algeria competitive vs Argentina. Max stake on clear value favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:Grok",
             "date": "2026-06-23T16:55:35.493Z",
@@ -8650,54 +8700,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:Grok",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1064.46,
+            "odds": 1.85,
+            "reasoning": "Mexico's results vs RSA (2-0, dominant xG/possession) and KOR (1-0) show clear superiority over Czechia (who lost to KOR and drew RSA). Away 1.85 is the value pick.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Grok",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1064.46,
+            "odds": 1.67,
+            "reasoning": "Korea showed better control vs Czechia and competitive metrics vs Mexico; South Africa looks weakest side here. Away 1.67 offers solid edge.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 52,
-        "won": 31,
-        "lost": 21,
+        "totalBets": 54,
+        "won": 32,
+        "lost": 22,
         "void": 0,
-        "totalStake": 30650.20999999999,
-        "totalReturn": -8743.1229,
-        "roi": -0.28525491016211646,
-        "avgOdds": 1.9273076923076928,
+        "totalStake": 31106.909999999985,
+        "totalReturn": -8777.3754,
+        "roi": -0.2821680263324131,
+        "avgOdds": 1.9211111111111114,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 165.47,
-            "odds": 2.34,
-            "reasoning": "Norway looked strong beating Iraq 4-1 with 2.41 xG and 57% possession, while Senegal were thoroughly outplayed by France (1.62-0.39 xG). Home advantage and market odds favor Norway at 2.34, so I'm backing them with max allowed stake to aggressively rebuild the bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:DeepSeek",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 165.86,
-            "odds": 1.51,
-            "reasoning": "Algeria lost to Argentina but controlled possession and generated more final-third entries, while Jordan was outclassed by Austria with only 33% possession and low xG. Against weaker opposition, Algeria should dominate, and odds of 1.51 imply a strong probability. Betting $200 reflects moderate confidence, preserving bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:DeepSeek",
             "date": "2026-06-23T16:55:35.493Z",
@@ -8833,54 +8883,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:DeepSeek",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 228.35,
+            "odds": 1.85,
+            "reasoning": "Mexico beat South Africa 2-0 and South Korea 1-0, showing strong defensive organisation. Czech Republic lost to South Korea 1-2 and drew with South Africa 1-1 while conceding high-quality chances. Mexico's class should deliver an away win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:DeepSeek",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 228.35,
+            "odds": 1.67,
+            "reasoning": "South Korea beat Czech Republic 2-1 and produced an xG of 0.87 in a narrow 0-1 loss to Mexico. South Africa managed only 0.10 xG against Mexico and were outclassed. The gap in quality makes an away win highly probable.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 52,
-        "won": 34,
-        "lost": 18,
+        "totalBets": 54,
+        "won": 35,
+        "lost": 19,
         "void": 0,
-        "totalStake": 32235.870000000003,
-        "totalReturn": -8080.118999999995,
-        "roi": -0.2506561479494735,
-        "avgOdds": 1.6176923076923078,
+        "totalStake": 32964.450000000004,
+        "totalReturn": -8134.762499999995,
+        "roi": -0.24677379722701256,
+        "avgOdds": 1.622962962962963,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
-            "date": "2026-06-22T23:35:46.205Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 299.3,
-            "odds": 2.34,
-            "reasoning": "Norway's recent performance against Iraq was dominant, with a 4-1 win, high xG (2.41), and superior possession (57.2%). They also had more final-third receptions, line breaks, and progressions, indicating strong offensive play. Senegal, while competitive against France (a much stronger side), had a low xG (0.39) and struggled to create high-quality chances. The odds favor Norway (2.34) over Senegal (3.05), aligning with the qualitative and quantitative data. Given Norway's form and the value in the odds, I'm placing the maximum allowed stake on Norway to win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:Mistral",
-            "date": "2026-06-23T02:05:36.778Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 304.24,
-            "odds": 1.51,
-            "reasoning": "The odds strongly favor Algeria (1.51), and the qualitative context from recent matches supports this. In their last game against Argentina, Algeria had more possession (50.8% vs 44.6%), final-third receptions (160 vs 68), and progressions (40 vs 18), despite losing 3-0. This suggests they are capable of controlling play against strong opponents but may struggle with finishing or defensive lapses. Against Austria, Jordan was outplayed in every metric (possession, shots, final-third receptions, line breaks, progressions) and lost 3-1. Algeria's underlying numbers against Argentina were solid, and they are clearly the stronger team on paper compared to Jordan. The odds reflect this, and the value here is in backing Algeria to continue their strong performance trends, even if they don't always convert their dominance into goals. Given the low risk (1.51 odds) and the qualitative edge, I'm allocating the maximum stake to this bet.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:Mistral",
             "date": "2026-06-23T16:55:35.493Z",
@@ -9016,54 +9066,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:Mistral",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 364.29,
+            "odds": 1.85,
+            "reasoning": "Mexico's recent performances against South Africa and Korea Republic show strong defensive organization and effective counter-attacking, despite not always dominating possession. Their xG and shot data in M01 and M28 suggest they are clinical in front of goal and difficult to break down. Czech Republic, while not terrible, struggled against Korea Republic (M02) and were held to a draw by South Africa (M25) despite having more shots in that game. The odds heavily favor Mexico (1.85), which aligns with their recent form and underlying metrics. Betting the maximum stake here due to the favorable risk-reward ratio and Mexico's consistency in recent matches.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Mistral",
+            "date": "2026-06-24T23:52:54.788Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 364.29,
+            "odds": 1.67,
+            "reasoning": "South Korea's recent performance against Czech Republic (M02) was impressive, with higher xG, more shots on target, and better possession than their opponents. They also held their own against Mexico (M28), creating decent chances despite losing 1-0. South Africa, on the other hand, were outplayed by Mexico (M01) and only managed a draw against Czech Republic (M25) despite having more possession and shots in that game. The underlying metrics (final-third receptions, line breaks, progressions) favor South Korea, and the odds (1.67) reflect their recent form. Betting the maximum stake here as well, given the value and South Korea's attacking potential.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 52,
-        "won": 35,
-        "lost": 17,
+        "totalBets": 54,
+        "won": 36,
+        "lost": 18,
         "void": 0,
-        "totalStake": 43142.85999999999,
-        "totalReturn": 1473.589999999999,
-        "roi": 0.034156057340658436,
-        "avgOdds": 1.5828846153846157,
+        "totalStake": 45509.659999999996,
+        "totalReturn": 1378.9179999999992,
+        "roi": 0.030299457302032127,
+        "avgOdds": 1.5894444444444447,
         "recentBets": [
-          {
-            "id": "3f48473742ca0fd2a85930554720c75e:Baseline",
-            "date": "2026-06-22T21:09:12.243Z",
-            "matchId": "3f48473742ca0fd2a85930554720c75e",
-            "match": "Norway vs Senegal",
-            "homeTeam": "Norway",
-            "awayTeam": "Senegal",
-            "kickoff": "2026-06-23T00:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 829.3,
-            "odds": 2.34,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-2"
-          },
-          {
-            "id": "fd8533b650e655030f6a7946f8795db2:Baseline",
-            "date": "2026-06-23T00:04:45.670Z",
-            "matchId": "fd8533b650e655030f6a7946f8795db2",
-            "match": "Jordan vs Algeria",
-            "homeTeam": "Jordan",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-06-23T03:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 829.3,
-            "odds": 1.53,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "8ba93d190f1f934e33862a97a6353a6e:Baseline",
             "date": "2026-06-23T14:09:16.910Z",
@@ -9199,6 +9249,40 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "4-2"
+          },
+          {
+            "id": "5993bd5196ca09f83990f0c3261e442e:Baseline",
+            "date": "2026-06-24T22:10:31.705Z",
+            "matchId": "5993bd5196ca09f83990f0c3261e442e",
+            "match": "Czech Republic vs Mexico",
+            "homeTeam": "Czech Republic",
+            "awayTeam": "Mexico",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1183.4,
+            "odds": 1.92,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Baseline",
+            "date": "2026-06-24T22:10:31.705Z",
+            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
+            "match": "South Africa vs South Korea",
+            "homeTeam": "South Africa",
+            "awayTeam": "South Korea",
+            "kickoff": "2026-06-25T01:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1183.4,
+            "odds": 1.6,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       }
