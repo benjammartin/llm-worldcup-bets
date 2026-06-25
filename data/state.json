@@ -8161,7 +8161,7 @@
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Claude",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8169,14 +8169,14 @@
       "kickoff": "2026-06-25T23:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1100,
-      "odds": 2.03,
-      "reasoning": "Japan held Netherlands to a 2-2 draw and demolished Tunisia 4-0 with strong final-third numbers. Sweden shipped 5 to NED. Japan is the more reliable side and 2.03 offers fair value on the favorite at home.",
+      "stake": 1400,
+      "odds": 2.2,
+      "reasoning": "Japan drew Netherlands 2-2 and dismantled Tunisia 4-0 with controlled possession and good xG. They look the more cohesive side, and 2.2 home odds (~45%) offer fair value against a Sweden team that got blown out 5-1 by the Netherlands.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Claude",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8186,12 +8186,12 @@
       "pick": "away",
       "stake": 2047.88,
       "odds": 1.1,
-      "reasoning": "Tunisia has been outclassed in every match (lost 5-1, 0-4) with near-zero xG. Netherlands is vastly superior. At 1.1 it's low return but extremely high probability — a near-banker to compound the bankroll.",
+      "reasoning": "Netherlands at 1.1 is a near-certainty. Tunisia have been outclassed in both games (0-4 vs Japan, 1-5 vs Sweden) with near-zero xG. Low return but extremely high probability — sizing up to lock in safe profit.",
       "status": "pending"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:GPT-5.5",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8200,13 +8200,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 23.4,
-      "odds": 3.93,
-      "reasoning": "Odds still matter most, but Sweden at 3.93 looks like the best upside/value on this slate. The 5-1 loss to the Netherlands was ugly on the scoreboard, yet Sweden still produced 16 shots, 8 on target and 1.30 xG, and they were excellent against Tunisia. Japan have been solid, but the underlying data does not make me think they should be this clear a favorite. Taking the bigger price.",
+      "odds": 3.49,
+      "reasoning": "Odds make Japan the favorite, but Sweden at 3.49 looks like the better World Cup game-theory/value shot. The scoreline loss to the Netherlands was ugly, yet Sweden still generated 1.30 xG, 16 shots and strong final-third numbers; their 5-1 over Tunisia was also more dominant than just the result. Japan have been excellent, but the draw vs Netherlands came with only 0.34 xG. With my bankroll low, I need upside, and Sweden are live enough to justify the max stake.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:GPT-5.5",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8216,12 +8216,12 @@
       "pick": "away",
       "stake": 23.4,
       "odds": 1.1,
-      "reasoning": "Netherlands are the obvious side and the odds reflect it. Tunisia have been heavily beaten twice and produced almost no attacking threat against Japan, while the Netherlands just beat Sweden 5-1 and have clearly shown the higher ceiling. The price is short, but this is the strongest win probability on the board, so I am staking the max allowed.",
+      "reasoning": "Netherlands are short at 1.10, but this is the one big mismatch on the board. Tunisia have produced almost nothing across the reports, including 0.02 xG against Japan and a 5-1 loss to Sweden, while the Netherlands have already scored five on Sweden and controlled strong underlying metrics. The payout is small, but the win probability looks high enough to take the maximum allowed stake.",
       "status": "pending"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Gemini",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8230,13 +8230,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 713.33,
-      "odds": 2.03,
-      "reasoning": "Japan has shown outstanding tactical discipline, holding the Netherlands to a 2-2 draw and completely neutralizing Tunisia in a 4-0 win where they allowed a microscopic 0.02 xG. Sweden, meanwhile, was heavily exposed in their 5-1 defeat to the Dutch. Japan's superior defensive structure and efficiency give them a clear edge here, making the 2.03 odds on a home win highly attractive.",
+      "odds": 2.2,
+      "reasoning": "Japan has shown excellent tactical discipline and defensive organization, holding the Netherlands to a 2-2 draw and dominating Tunisia 4-0. Meanwhile, Sweden's defense looked highly vulnerable in their 5-1 defeat to the Netherlands. Japan's efficiency makes them the clear value choice at 2.20.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Gemini",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8246,12 +8246,12 @@
       "pick": "away",
       "stake": 713.33,
       "odds": 1.1,
-      "reasoning": "There is a massive class gulf in this matchup. Tunisia has struggled significantly, conceding 9 goals across two matches while generating almost no offensive threat (0.34 xG vs Sweden, 0.02 xG vs Japan). The Netherlands are far superior and should comfortably secure the three points. While the 1.10 odds are low, this is an extremely safe banker to maximize our stake on.",
+      "reasoning": "Tunisia has been the weakest team in the group, conceding 9 goals across two matches and generating virtually no offense (0.02 xG against Japan). The Netherlands are vastly superior in every department and should secure an easy victory here, making this a safe bankroll builder even at 1.10.",
       "status": "pending"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Grok",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8259,14 +8259,14 @@
       "kickoff": "2026-06-25T23:00:00Z",
       "model": "Grok",
       "pick": "home",
-      "stake": 1000,
-      "odds": 2.03,
-      "reasoning": "Japan favored at 2.03 with solid underlying metrics from recent fixtures vs strong opposition; Sweden looks a step below.",
+      "stake": 1164.41,
+      "odds": 2.2,
+      "reasoning": "Japan look stronger overall based on results vs Tunisia and Netherlands; 2.2 offers decent value vs Sweden.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Grok",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8276,12 +8276,12 @@
       "pick": "away",
       "stake": 1164.41,
       "odds": 1.1,
-      "reasoning": "Netherlands at 1.1 is a near-certainty given dominant xG and results vs both Japan and Sweden; Tunisia are outclassed.",
+      "reasoning": "Netherlands vastly superior to Tunisia per all metrics and past results; 1.1 is low but near-certain.",
       "status": "pending"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:DeepSeek",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8289,14 +8289,14 @@
       "kickoff": "2026-06-25T23:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 200,
-      "odds": 2.03,
-      "reasoning": "Japan showed strong form with a draw against Netherlands and a 4-0 rout of Tunisia. Sweden lost heavily to Netherlands but beat Tunisia 5-1. Japan's xG against Netherlands was low but they converted chances. Home odds 2.03 imply 49% probability, offering value. However, Sweden can be dangerous, so I'm not going max stake. A win would boost bankroll nicely without excessive risk.",
+      "stake": 248.15,
+      "odds": 2.2,
+      "reasoning": "Japan drew 2-2 with Netherlands while allowing only 0.63 xG and beat Tunisia 4-0 with complete control. Sweden were demolished 5-1 by Netherlands (2.25 xGA) despite some attacking moments. Japan's defensive structure and midfield composure give them a clear edge in this matchup. The 2.2 home odds offer value relative to the qualitative performance data.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:DeepSeek",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8306,12 +8306,12 @@
       "pick": "away",
       "stake": 248.15,
       "odds": 1.1,
-      "reasoning": "Netherlands at 1.10 against Tunisia is as close to a lock as it gets. Tunisia lost 5-1 to Sweden and 4-0 to Japan with minimal xG generated. Netherlands beat Sweden 5-1 and should roll. Betting maximum allowed to harvest free money, crucial for rebuilding bankroll.",
+      "reasoning": "Netherlands are a class above, evidenced by a 5-1 win over Sweden and a dominant overall tournament profile. Tunisia lost 5-1 to Sweden and 4-0 to Japan with almost no offensive output (combined 0.36 xG). At 1.1 odds, this is a high-probability bet to lock in a small but reliable boost to the bankroll.",
       "status": "pending"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Mistral",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
       "match": "Japan vs Sweden",
       "homeTeam": "Japan",
@@ -8320,13 +8320,13 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 397.08,
-      "odds": 3.93,
-      "reasoning": "Sweden has shown strong offensive capabilities in their recent matches, particularly against Tunisia (5-1) and in a high-xG game against the Netherlands (5-1 loss but 1.30 xG). Japan, while disciplined defensively, struggled to convert chances against the Netherlands (0.34 xG) and only managed a 4-0 win against a weak Tunisia side. The odds for Sweden (3.93) are attractive given their attacking form and Japan's defensive vulnerabilities (conceded 2 to Netherlands with 0.63 xG). Betting on Sweden to win offers a good risk-reward balance.",
+      "odds": 3.49,
+      "reasoning": "Sweden has shown strong attacking form in their recent matches, particularly against Tunisia (5-1) and in their high-xG performance against the Netherlands (1.30 xG despite losing 5-1). Japan, while defensively solid, struggled to create high-quality chances against the Netherlands (0.34 xG) and only managed a 2-2 draw. Sweden's ability to generate shots (13 vs Tunisia, 16 vs Netherlands) and their higher final-third receptions in the Netherlands match (118 vs 97) suggest they can exploit Japan's defensive vulnerabilities. The odds for Sweden (3.49) are attractive given their recent form and Japan's inconsistency in converting possession into clear chances. Betting on Sweden to win (away) offers the best value here.",
       "status": "pending"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Mistral",
-      "date": "2026-06-25T21:50:15.236Z",
+      "date": "2026-06-25T22:04:29.493Z",
       "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
       "match": "Tunisia vs Netherlands",
       "homeTeam": "Tunisia",
@@ -8336,13 +8336,13 @@
       "pick": "away",
       "stake": 397.08,
       "odds": 1.1,
-      "reasoning": "The Netherlands are overwhelming favorites (1.1 odds) for good reason. They dominated Japan in their recent match (54.9% possession, 10 shots, 0.63 xG) and crushed Sweden 5-1 in another game (2.25 xG). Tunisia, meanwhile, has been poor offensively (0.34 xG vs Sweden, 0.02 xG vs Japan) and defensively porous (conceded 5 to Sweden and 4 to Japan). The qualitative reports show the Netherlands are superior in nearly every metric, and the odds reflect this. Betting on the Netherlands is a high-confidence play with minimal risk.",
+      "reasoning": "The Netherlands are overwhelming favorites (1.1 odds) for good reason. They dismantled Sweden 5-1 in their last match, dominating xG (2.25 vs 1.30) and creating more high-quality chances (7 shots on target vs Sweden's 8). Tunisia, on the other hand, have been abysmal offensively (0.02 xG vs Japan) and defensively porous (5-1 loss to Sweden, 4-0 loss to Japan). The Netherlands' attacking prowess, combined with Tunisia's collapse in both defense and attack, makes this a near-certain win for the Dutch. The odds are heavily skewed in their favor, and even a small stake here is a safe bet to secure a return. No value in home or draw given Tunisia's form.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-25T21:50:15.236Z",
+    "lastBetsRun": "2026-06-25T22:04:29.493Z",
     "lastSettleRun": "2026-06-25T03:03:48.532Z",
     "failures": [
       {
