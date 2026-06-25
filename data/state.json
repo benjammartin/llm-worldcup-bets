@@ -200,6 +200,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 9123.01
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 9582.01
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 10181.39
       }
     ],
     "GPT-5.5": [
@@ -402,6 +410,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 159.45
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 166.9
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 139.31
       }
     ],
     "Gemini": [
@@ -604,6 +620,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 3456.06
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 3634.54
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 3846.07
       }
     ],
     "Grok": [
@@ -806,6 +830,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 5274.3
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 5561.7
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 5902.33
       }
     ],
     "DeepSeek": [
@@ -1008,6 +1040,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 1242.17
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 1303.82
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 1376.89
       }
     ],
     "Mistral": [
@@ -1210,6 +1250,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 1954.43
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 2052.79
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 2169.36
       }
     ],
     "Baseline": [
@@ -1412,6 +1460,14 @@
       {
         "t": "2026-06-24T21:29:27.974Z",
         "bankroll": 11833.97
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 12003.88
+      },
+      {
+        "t": "2026-06-25T00:34:18.048Z",
+        "bankroll": 12303.73
       }
     ]
   },
@@ -7344,7 +7400,9 @@
       "stake": 999.49,
       "odds": 1.3,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:Baseline",
@@ -7359,7 +7417,9 @@
       "stake": 999.49,
       "odds": 1.17,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:Claude",
@@ -7374,7 +7434,9 @@
       "stake": 1873.07,
       "odds": 1.32,
       "reasoning": "Brazil away at 1.32 is a clear value anchor. Scotland's attacking output has been anemic across this slate (0 shots on target vs Morocco, just 0.91 xG vs Haiti), while Brazil's quality and depth are simply on another level. The 1.32 implies ~76% and I'm comfortable backing that with my highest stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:Claude",
@@ -7389,7 +7451,9 @@
       "stake": 1700,
       "odds": 1.27,
       "reasoning": "Morocco at 1.27 home is strong. They've outplayed Scotland (1-0 win, 54.8% possession, dominant final-third receptions) and held Brazil to a draw. Haiti has been thoroughly outclassed in this group, losing to both Scotland and Brazil with minimal xG. Morocco should control this comfortably.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:GPT-5.5",
@@ -7404,7 +7468,9 @@
       "stake": 27.59,
       "odds": 5.5,
       "reasoning": "Odds still make Brazil the clear favorite, but Scotland have played two tight, low-xG matches and Brazil were held by Morocco before beating Haiti without an overwhelming shot profile. At my bankroll position I need upside, and 5.5 on a potentially cagey match is the best risk/reward here.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:GPT-5.5",
@@ -7419,7 +7485,9 @@
       "stake": 27.59,
       "odds": 1.27,
       "reasoning": "Morocco have the strongest qualitative profile in this slate: they outperformed Brazil on xG/progression metrics and beat Scotland, while Haiti have lost twice and created very little against Brazil. The price is short, but Morocco are the right side and this is my higher-confidence stabilizer bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:Gemini",
@@ -7434,7 +7502,9 @@
       "stake": 661.04,
       "odds": 1.32,
       "reasoning": "Brazil demonstrated their offensive capabilities with a comfortable 3-0 win over Haiti and a strong performance against Morocco. Scotland struggled to create high-quality chances against Morocco, failing to register a single shot on target. Brazil's depth and motivation to secure the top spot in the group make them highly likely to win this matchup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:Gemini",
@@ -7449,7 +7519,9 @@
       "stake": 661.04,
       "odds": 1.27,
       "reasoning": "Morocco has put in two highly impressive performances, outplaying Brazil on expected goals (1.33 vs 0.99) and dominating Scotland. Haiti, on the other hand, has struggled to generate any attacking momentum, recording just 0.26 xG against Brazil and failing to score in the tournament so far. Morocco should comfortably secure the three points here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:Grok",
@@ -7464,7 +7536,9 @@
       "stake": 1064.46,
       "odds": 1.32,
       "reasoning": "Brazil is the class of this matchup per historical results and odds of 1.32 imply ~76% implied probability. Scotland's prior results against weaker sides don't translate here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:Grok",
@@ -7479,7 +7553,9 @@
       "stake": 1064.46,
       "odds": 1.27,
       "reasoning": "Morocco dominates Haiti in the reports and the 1.27 odds reflect that heavily. Solid value on the favorite given the xG and possession edges shown in prior fixtures.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:DeepSeek",
@@ -7494,7 +7570,9 @@
       "stake": 228.35,
       "odds": 1.32,
       "reasoning": "Brazil are massive favourites on odds (1.32) and have quality far beyond Scotland. Match reports show Brazil creating better xG, drawing Morocco 1-1 and thrashing Haiti 3-0. Scotland beat Haiti only 1-0 with inferior metrics, then lost to Morocco 0-1 while being outshot 12-6. Brazil's attack and control should overwhelm a limited Scotland side. Straight win likely.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:DeepSeek",
@@ -7509,7 +7587,9 @@
       "stake": 228.35,
       "odds": 1.27,
       "reasoning": "Morocco are strong favourites at 1.27, having drawn with Brazil (xG 1.33 vs 0.99) and beaten Scotland. Haiti lost to both Brazil (3-0, xG 0.26) and Scotland (0-1) with poor attacking output. Morocco's organisation and firepower should secure a comfortable home win. Low odds but high probability, worth the max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "885ba95805db310a7bcc3fb1a7a6dd28:Mistral",
@@ -7524,7 +7604,9 @@
       "stake": 364.29,
       "odds": 1.32,
       "reasoning": "Brazil is the clear favorite here with odds of 1.32, reflecting their superior quality and recent performances. The post-match reports show Brazil dominating in key metrics like xG, final-third receptions, and line breaks, even when they drew with Morocco. Scotland, while competitive, struggled against Haiti (a team Brazil dismantled 3-0) and Morocco, managing fewer shots and lower possession. The odds heavily favor Brazil, and I'm willing to bet the maximum stake here for a high-confidence outcome.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-3"
     },
     {
       "id": "d1279ce7f33136a33e99ad442fc855e8:Mistral",
@@ -7539,7 +7621,9 @@
       "stake": 364.29,
       "odds": 1.27,
       "reasoning": "Morocco is the standout team in this matchup, with odds of 1.27 suggesting a strong favorite. The post-match reports show Morocco's dominance in xG, shots, possession, and final-third receptions against both Brazil and Scotland. Haiti, while resilient, was outplayed by Scotland and Brazil, with lower xG and fewer key attacking metrics. The odds are favorable, and Morocco's consistency makes them a safe bet. I'm allocating the maximum stake here as well, given the clear disparity in quality.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "4-2"
     },
     {
       "id": "5993bd5196ca09f83990f0c3261e442e:Baseline",
@@ -7755,7 +7839,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-24T23:52:54.788Z",
-    "lastSettleRun": "2026-06-24T21:29:27.974Z",
+    "lastSettleRun": "2026-06-25T00:34:18.048Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -7851,49 +7935,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 50,
-        "won": 33,
+        "totalBets": 52,
+        "won": 35,
         "lost": 17,
         "void": 0,
-        "totalStake": 49309.37000000001,
-        "totalReturn": -1787.2967999999998,
-        "roi": -0.0362465957281547,
-        "avgOdds": 1.5936000000000008,
+        "totalStake": 52882.44000000001,
+        "totalReturn": -728.9143999999997,
+        "roi": -0.01378367563977758,
+        "avgOdds": 1.582115384615385,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:Claude",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 900,
-            "odds": 1.45,
-            "reasoning": "Argentina at 1.45 implies ~69% and that feels fair-to-generous. They dismantled Algeria 3-0 with a 1.58 xG and dominant defensive pressures, conceding just 0.41 xG. Austria looked decent beating Jordan but the gap in pedigree and depth is significant. Argentina's defense was elite in their last outing and they should control this match. The away price of 7.93 confirms the market sees Austria as heavy underdogs. I'll back Argentina with solid conviction but not maximum, since 3-1 results show single-elimination football carries upset risk and the value at 1.45 is moderate rather than huge.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Claude",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1095.1,
-            "odds": 1.08,
-            "reasoning": "France just beat Senegal with a 1.62-0.39 xG dominance, while Iraq got dismantled 1-4 by Norway, outplayed across every metric (xG 1.20-2.41, line breaks 70-116). At 1.08 the odds confirm France are heavy favorites. The margin is thin per dollar, but this is about as safe as betting gets in this tournament. Max stake on the near-certainty.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:Claude",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8029,54 +8079,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Claude",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1873.07,
+            "odds": 1.32,
+            "reasoning": "Brazil away at 1.32 is a clear value anchor. Scotland's attacking output has been anemic across this slate (0 shots on target vs Morocco, just 0.91 xG vs Haiti), while Brazil's quality and depth are simply on another level. The 1.32 implies ~76% and I'm comfortable backing that with my highest stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:Claude",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1700,
+            "odds": 1.27,
+            "reasoning": "Morocco at 1.27 home is strong. They've outplayed Scotland (1-0 win, 54.8% possession, dominant final-third receptions) and held Brazil to a draw. Haiti has been thoroughly outclassed in this group, losing to both Scotland and Brazil with minimal xG. Morocco should control this comfortably.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 50,
-        "won": 18,
-        "lost": 32,
+        "totalBets": 52,
+        "won": 19,
+        "lost": 33,
         "void": 0,
-        "totalStake": 23538.59999999999,
-        "totalReturn": -9969.636700000003,
-        "roi": -0.42354416575327364,
-        "avgOdds": 4.0360000000000005,
+        "totalStake": 23593.77999999999,
+        "totalReturn": -9989.777400000003,
+        "roi": -0.42340724546893316,
+        "avgOdds": 4.0109615384615385,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:GPT-5.5",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 106.44,
-            "odds": 7.93,
-            "reasoning": "Argentina are the clear market favorite, but at my current bankroll I need upside rather than small favorite payouts. The training reports make Austria look more live than 7.93 implies: Austria produced stronger xG vs Jordan, controlled possession and territory, while Argentina's 3-0 over Algeria had some less dominant underlying territory/progression numbers. This is a high-variance contrarian play for catch-up equity.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:GPT-5.5",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 87.69,
-            "odds": 13.43,
-            "reasoning": "France are clearly the stronger side and the odds say that loudly, but at my current bankroll I need upside rather than grinding 1.08 favorites. The FIFA reports support France superiority, while Iraq’s underlying numbers vs Norway were not hopeless enough to make a stalemate impossible. Draw is the only realistic high-variance angle here, so I’m taking the big price.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:GPT-5.5",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8212,54 +8262,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:GPT-5.5",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 27.59,
+            "odds": 5.5,
+            "reasoning": "Odds still make Brazil the clear favorite, but Scotland have played two tight, low-xG matches and Brazil were held by Morocco before beating Haiti without an overwhelming shot profile. At my bankroll position I need upside, and 5.5 on a potentially cagey match is the best risk/reward here.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:GPT-5.5",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 27.59,
+            "odds": 1.27,
+            "reasoning": "Morocco have the strongest qualitative profile in this slate: they outperformed Brazil on xG/progression metrics and beat Scotland, while Haiti have lost twice and created very little against Brazil. The price is short, but Morocco are the right side and this is my higher-confidence stabilizer bet.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 50,
-        "won": 32,
+        "totalBets": 52,
+        "won": 34,
         "lost": 18,
         "void": 0,
-        "totalStake": 33375.97000000001,
-        "totalReturn": -6833.697200000001,
-        "roi": -0.20474902152656535,
-        "avgOdds": 1.6016000000000006,
+        "totalStake": 34698.05000000001,
+        "totalReturn": -6443.683600000001,
+        "roi": -0.185707369722506,
+        "avgOdds": 1.5898076923076927,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:Gemini",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 321.37,
-            "odds": 1.45,
-            "reasoning": "Argentina demonstrated clinical efficiency in their 3-0 opening victory against Algeria, limiting their opponents to just 0.41 xG. While Austria also secured a comfortable 3-1 win over Jordan, Argentina represents a significant step up in class. At odds of 1.45, backing the Albiceleste to secure another victory is the most reliable option to rebuild our bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Gemini",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 348.22,
-            "odds": 1.08,
-            "reasoning": "France showed their class with a dominant 3-1 victory over Senegal, controlling the game and limiting their opponents to just 0.39 xG. Iraq struggled heavily in their opening match, conceding four goals to Norway and allowing 2.41 xG. There is a massive gulf in quality between these two sides. France is expected to secure an easy victory here, making 'home' the safest possible bet to consolidate our bankroll, even at low odds of 1.08.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:Gemini",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8395,54 +8445,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Gemini",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 661.04,
+            "odds": 1.32,
+            "reasoning": "Brazil demonstrated their offensive capabilities with a comfortable 3-0 win over Haiti and a strong performance against Morocco. Scotland struggled to create high-quality chances against Morocco, failing to register a single shot on target. Brazil's depth and motivation to secure the top spot in the group make them highly likely to win this matchup.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:Gemini",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 661.04,
+            "odds": 1.27,
+            "reasoning": "Morocco has put in two highly impressive performances, outplaying Brazil on expected goals (1.33 vs 0.99) and dominating Scotland. Haiti, on the other hand, has struggled to generate any attacking momentum, recording just 0.26 xG against Brazil and failing to score in the tournament so far. Morocco should comfortably secure the three points here.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 50,
-        "won": 32,
+        "totalBets": 52,
+        "won": 34,
         "lost": 18,
         "void": 0,
-        "totalStake": 66402.62000000001,
-        "totalReturn": -5190.529099999998,
-        "roi": -0.07816753465450606,
-        "avgOdds": 1.6598000000000004,
+        "totalStake": 68531.54000000002,
+        "totalReturn": -4562.497699999998,
+        "roi": -0.06657515211244336,
+        "avgOdds": 1.645769230769231,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:Grok",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 518.36,
-            "odds": 1.45,
-            "reasoning": "Argentina remain the far superior side with elite talent and recent tournament pedigree; their 3-0 win over Algeria showed clinical finishing despite moderate xG, while Austria's win over Jordan was against weaker opposition. Home odds of 1.45 imply ~69% win probability, which looks fair-to-generous given the talent gap. Max stake allocated to reflect high conviction.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Grok",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 564.11,
-            "odds": 1.08,
-            "reasoning": "France dominated Senegal in every metric (xG, shots, progressions) while Iraq were thoroughly outclassed by Norway. The 1.08 price is still the highest-probability outcome by a wide margin.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:Grok",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8578,54 +8628,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Grok",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1064.46,
+            "odds": 1.32,
+            "reasoning": "Brazil is the class of this matchup per historical results and odds of 1.32 imply ~76% implied probability. Scotland's prior results against weaker sides don't translate here.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:Grok",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1064.46,
+            "odds": 1.27,
+            "reasoning": "Morocco dominates Haiti in the reports and the 1.27 odds reflect that heavily. Solid value on the favorite given the xG and possession edges shown in prior fixtures.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 50,
-        "won": 29,
+        "totalBets": 52,
+        "won": 31,
         "lost": 21,
         "void": 0,
-        "totalStake": 30193.50999999999,
-        "totalReturn": -8877.849400000001,
-        "roi": -0.2940317107881794,
-        "avgOdds": 1.9526000000000008,
+        "totalStake": 30650.20999999999,
+        "totalReturn": -8743.1229,
+        "roi": -0.28525491016211646,
+        "avgOdds": 1.9273076923076928,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:DeepSeek",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 152.89,
-            "odds": 1.45,
-            "reasoning": "Argentina are clear favorites at 1.45, coming off a clinical 3-0 win over Algeria despite less possession. Austria dispatched Jordan 3-1 but haven't faced a test of this caliber. The odds imply around 69% win probability for Argentina; with my bankroll needing a boost, max stake within rules offers decent upside while staying within risk tolerance.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:DeepSeek",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 25,
-            "odds": 1.08,
-            "reasoning": "France are overwhelmingly superior based on squad quality and their 3-1 win over Senegal (xG 1.62-0.39). Iraq were dismantled 1-4 by Norway (xG 1.20-2.41) and looked fragile. Odds of 1.08 imply a ~93% probability—essentially a formality. However, the return is tiny, and risking 25% of my bankroll for a 2% gain is poor risk management. I place a minimal $25 to stay active and preserve cash for higher-value later rounds. If an upset happens, the damage is limited.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:DeepSeek",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8761,54 +8811,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:DeepSeek",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 228.35,
+            "odds": 1.32,
+            "reasoning": "Brazil are massive favourites on odds (1.32) and have quality far beyond Scotland. Match reports show Brazil creating better xG, drawing Morocco 1-1 and thrashing Haiti 3-0. Scotland beat Haiti only 1-0 with inferior metrics, then lost to Morocco 0-1 while being outshot 12-6. Brazil's attack and control should overwhelm a limited Scotland side. Straight win likely.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:DeepSeek",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 228.35,
+            "odds": 1.27,
+            "reasoning": "Morocco are strong favourites at 1.27, having drawn with Brazil (xG 1.33 vs 0.99) and beaten Scotland. Haiti lost to both Brazil (3-0, xG 0.26) and Scotland (0-1) with poor attacking output. Morocco's organisation and firepower should secure a comfortable home win. Low odds but high probability, worth the max stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 50,
-        "won": 32,
+        "totalBets": 52,
+        "won": 34,
         "lost": 18,
         "void": 0,
-        "totalStake": 31507.29,
-        "totalReturn": -8295.050099999995,
-        "roi": -0.26327399468503937,
-        "avgOdds": 1.6306000000000003,
+        "totalStake": 32235.870000000003,
+        "totalReturn": -8080.118999999995,
+        "roi": -0.2506561479494735,
+        "avgOdds": 1.6176923076923078,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:Mistral",
-            "date": "2026-06-22T16:15:58.887Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 276.39,
-            "odds": 1.45,
-            "reasoning": "Argentina's recent performance against Algeria was dominant in key attacking metrics (xG, shots on target, line breaks) despite lower possession, showing clinical efficiency. Austria also looked strong against Jordan, with higher possession, final-third receptions, and progressions, but their defensive pressures were lower, and Argentina's attack is likely sharper. The odds (1.45 for Argentina) are favorable given their form and the qualitative edge in attacking play. Betting max stake here due to high confidence in Argentina's ability to control the game and convert chances.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Mistral",
-            "date": "2026-06-22T20:19:25.101Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 299.3,
-            "odds": 1.08,
-            "reasoning": "France's recent performance against Senegal (3-1 win) shows dominance in key metrics: higher xG (1.62 vs 0.39), more shots on target (8 vs 2), and superior line breaks (118 vs 101). While possession was close, France's efficiency in final-third play and defensive pressure (277 pressures) suggests a well-rounded team. Iraq, on the other hand, struggled against Norway (1-4 loss), with lower possession (34.7%), fewer final-third receptions (72 vs 101), and a high xG conceded (2.41). The odds (1.08 for France) are extremely low, but the qualitative and quantitative data overwhelmingly favor France. Given the bankroll constraints, I'm allocating the maximum allowed stake to this high-confidence pick, as the risk-reward ratio is still favorable despite the low odds.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:Mistral",
             "date": "2026-06-22T23:35:46.205Z",
@@ -8944,54 +8994,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Mistral",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 364.29,
+            "odds": 1.32,
+            "reasoning": "Brazil is the clear favorite here with odds of 1.32, reflecting their superior quality and recent performances. The post-match reports show Brazil dominating in key metrics like xG, final-third receptions, and line breaks, even when they drew with Morocco. Scotland, while competitive, struggled against Haiti (a team Brazil dismantled 3-0) and Morocco, managing fewer shots and lower possession. The odds heavily favor Brazil, and I'm willing to bet the maximum stake here for a high-confidence outcome.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:Mistral",
+            "date": "2026-06-24T21:45:36.145Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 364.29,
+            "odds": 1.27,
+            "reasoning": "Morocco is the standout team in this matchup, with odds of 1.27 suggesting a strong favorite. The post-match reports show Morocco's dominance in xG, shots, possession, and final-third receptions against both Brazil and Scotland. Haiti, while resilient, was outplayed by Scotland and Brazil, with lower xG and fewer key attacking metrics. The odds are favorable, and Morocco's consistency makes them a safe bet. I'm allocating the maximum stake here as well, given the clear disparity in quality.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 50,
-        "won": 33,
+        "totalBets": 52,
+        "won": 35,
         "lost": 17,
         "void": 0,
-        "totalStake": 41143.88,
-        "totalReturn": 1003.8296999999991,
-        "roi": 0.02439803197948271,
-        "avgOdds": 1.5968000000000004,
+        "totalStake": 43142.85999999999,
+        "totalReturn": 1473.589999999999,
+        "roi": 0.034156057340658436,
+        "avgOdds": 1.5828846153846157,
         "recentBets": [
-          {
-            "id": "be6c63f416c67bca1300a98f5b89c3af:Baseline",
-            "date": "2026-06-22T14:09:46.560Z",
-            "matchId": "be6c63f416c67bca1300a98f5b89c3af",
-            "match": "Argentina vs Austria",
-            "homeTeam": "Argentina",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-22T17:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 792.07,
-            "odds": 1.47,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
-          {
-            "id": "7ad7a0ce2ef2618bb59b066da5642f70:Baseline",
-            "date": "2026-06-22T19:09:48.269Z",
-            "matchId": "7ad7a0ce2ef2618bb59b066da5642f70",
-            "match": "France vs Iraq",
-            "homeTeam": "France",
-            "awayTeam": "Iraq",
-            "kickoff": "2026-06-22T21:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 792.07,
-            "odds": 1.09,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "3f48473742ca0fd2a85930554720c75e:Baseline",
             "date": "2026-06-22T21:09:12.243Z",
@@ -9127,6 +9177,40 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Baseline",
+            "date": "2026-06-24T19:03:31.491Z",
+            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
+            "match": "Scotland vs Brazil",
+            "homeTeam": "Scotland",
+            "awayTeam": "Brazil",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 999.49,
+            "odds": 1.3,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-3"
+          },
+          {
+            "id": "d1279ce7f33136a33e99ad442fc855e8:Baseline",
+            "date": "2026-06-24T19:03:31.491Z",
+            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
+            "match": "Morocco vs Haiti",
+            "homeTeam": "Morocco",
+            "awayTeam": "Haiti",
+            "kickoff": "2026-06-24T22:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 999.49,
+            "odds": 1.17,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "4-2"
           }
         ]
       }
