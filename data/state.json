@@ -224,6 +224,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 8548.57
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 8723.88
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 7223.88
       }
     ],
     "GPT-5.5": [
@@ -450,6 +458,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 88.37
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 89.9
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 74.61
       }
     ],
     "Gemini": [
@@ -676,6 +692,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 3102.97
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 3162.64
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 2565.9
       }
     ],
     "Grok": [
@@ -902,6 +926,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 4776.2
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 4872.6
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 3972.6
       }
     ],
     "DeepSeek": [
@@ -1128,6 +1160,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 1136.68
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 1157.67
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 947.79
       }
     ],
     "Mistral": [
@@ -1354,6 +1394,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 1785.14
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 1818.6
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 1484
       }
     ],
     "Baseline": [
@@ -1580,6 +1628,14 @@
       {
         "t": "2026-06-25T22:29:18.876Z",
         "bankroll": 11195.7
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 11317.79
+      },
+      {
+        "t": "2026-06-26T01:41:51.948Z",
+        "bankroll": 10096.88
       }
     ]
   },
@@ -8226,7 +8282,9 @@
       "stake": 1220.91,
       "odds": 2,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Baseline",
@@ -8241,7 +8299,9 @@
       "stake": 1220.91,
       "odds": 1.1,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Claude",
@@ -8256,7 +8316,9 @@
       "stake": 1500,
       "odds": 2.2,
       "reasoning": "Japan drew the Netherlands and dismantled Tunisia 4-0 with strong xG and possession control. Sweden's heavy 5-1 loss to NED exposed defensive frailty despite their shot volume. At 2.2 home odds I see value on the more balanced Japanese side.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Claude",
@@ -8271,7 +8333,9 @@
       "stake": 1753.09,
       "odds": 1.1,
       "reasoning": "Netherlands at 1.1 is the safest play on the board. Tunisia has been thoroughly outclassed (0-4 vs Japan, 1-5 vs Sweden) producing near-zero xG. Low odds but high conviction anchor bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:GPT-5.5",
@@ -8286,7 +8350,9 @@
       "stake": 15.29,
       "odds": 3.42,
       "reasoning": "Odds make Japan the favorite, but I see value on Sweden at 3.42. Japan’s results are solid, yet the Netherlands draw came with only 0.34 xG, while Sweden’s 5-1 loss to the Netherlands was harsh relative to 1.30 xG, 16 shots and 8 on target. Sweden also demolished Tunisia and have shown enough attacking volume to be live here. Taking the bigger price.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:GPT-5.5",
@@ -8301,7 +8367,9 @@
       "stake": 15.29,
       "odds": 1.1,
       "reasoning": "Netherlands are rightly a massive favorite. Tunisia have been badly outclassed, especially the 0.02 xG, 2-shot performance against Japan, while the Netherlands created strong numbers against Sweden and already handled this group’s tougher opposition well. The price is short, but the mismatch is too clear to fade.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Gemini",
@@ -8316,7 +8384,9 @@
       "stake": 596.74,
       "odds": 2.2,
       "reasoning": "Japan has shown superior defensive stability compared to Sweden, conceding only 2 goals against the Netherlands (compared to Sweden's 5) and keeping a clean sheet against Tunisia. With Sweden's defensive vulnerabilities exposed in their 5-1 loss to the Netherlands, Japan's tactical discipline makes them the strong favorite here at attractive 2.2 odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Gemini",
@@ -8331,7 +8401,9 @@
       "stake": 596.74,
       "odds": 1.1,
       "reasoning": "Tunisia has struggled significantly, scoring only once while conceding 9 goals in two matches with extremely low xG creation (0.34 and 0.02). The Netherlands, fresh off a dominant 5-1 win over Sweden, should easily secure a victory here to seal their progression. This is a highly secure bet, prompting a maximum stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Grok",
@@ -8346,7 +8418,9 @@
       "stake": 900,
       "odds": 2.2,
       "reasoning": "Japan vs Sweden: odds imply ~45% home win. Reports show Japan competitive with Netherlands (2-2) and dominant vs Tunisia (4-0), while Sweden thrashed Tunisia but lost 1-5 to Netherlands. Japan edges the matchup on current form; stake reflects moderate edge over draw/away.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Grok",
@@ -8361,7 +8435,9 @@
       "stake": 964.02,
       "odds": 1.1,
       "reasoning": "Tunisia vs Netherlands: away at 1.1 is massive favorite. Reports confirm Netherlands' superiority (strong xG/possession vs Japan & Sweden) while Tunisia collapsed in both fixtures. Near-certain outcome justifies largest stake within limits.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:DeepSeek",
@@ -8376,7 +8452,9 @@
       "stake": 209.88,
       "odds": 2.2,
       "reasoning": "Japan drew 2-2 with Netherlands (xG 0.34 vs 0.63) while Sweden lost 5-1 to the same opponent (xG 1.30 vs 2.25). Japan's defence looked more compact, conceding fewer high-quality chances, and they also routed Tunisia 4-0. Sweden beat Tunisia 5-1 but conceded five against the Netherlands. At 2.2, a Japan win offers value given their superior defensive showing against the group's strongest team.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:DeepSeek",
@@ -8391,7 +8469,9 @@
       "stake": 209.88,
       "odds": 1.1,
       "reasoning": "Netherlands dominated both matches (xG 0.63 vs Japan, 2.25 vs Sweden) and face a Tunisia side that lost 4-0 to Japan and 5-1 to Sweden with xG of 0.02 and 0.34. The odds of 1.1 reflect a near-certainty, and with bankroll preservation important, max-staking this low-odds banker locks in a small but very likely profit while keeping cash active.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "0ed0233bddc4eafc8507f86a9c17b998:Mistral",
@@ -8406,7 +8486,9 @@
       "stake": 334.6,
       "odds": 2.2,
       "reasoning": "Japan has shown strong offensive and defensive metrics in their recent matches, particularly against Tunisia (4-0 win with xG 1.36) and a competitive draw against the Netherlands (2-2 with xG 0.34). Sweden, while prolific in attack (5-1 vs Tunisia), struggled against the Netherlands (1-5 loss with xG 1.30) and had a lower possession and final-third reception count compared to Japan. The odds favor Japan (2.2) over Sweden (3.42), and their recent form and tactical discipline make them the safer bet. Allocating the maximum stake here due to high confidence.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "f3c4657daa143a0c5bd62cb370d01ce4:Mistral",
@@ -8421,7 +8503,9 @@
       "stake": 334.6,
       "odds": 1.1,
       "reasoning": "The Netherlands are overwhelming favorites (odds 1.1) for good reason. They dismantled Sweden 5-1 (xG 2.25-1.30) and drew with Japan in a match where they dominated possession and created more chances. Tunisia, on the other hand, were thrashed 5-1 by Sweden and 4-0 by Japan, with abysmal xG (0.02 vs Japan) and poor defensive metrics. The odds reflect the massive gap in quality, and the Netherlands' recent performances justify the maximum stake here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-3"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Baseline",
@@ -8637,7 +8721,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-26T01:24:11.131Z",
-    "lastSettleRun": "2026-06-25T22:29:18.876Z",
+    "lastSettleRun": "2026-06-26T01:41:51.948Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -8733,49 +8817,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 56,
-        "won": 37,
-        "lost": 19,
+        "totalBets": 58,
+        "won": 38,
+        "lost": 20,
         "void": 0,
-        "totalStake": 60376.46000000001,
-        "totalReturn": -2361.7353,
-        "roi": -0.03911682301347246,
-        "avgOdds": 1.581964285714286,
+        "totalStake": 63629.55,
+        "totalReturn": -3686.4262999999996,
+        "roi": -0.057935759407382256,
+        "avgOdds": 1.5843103448275864,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:Claude",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1100,
-            "odds": 1.43,
-            "reasoning": "Croatia at 1.43 is a clear class above Panama. The England report shows Croatia conceded 4 but generated reasonable possession and line breaks against a top side, while Panama lost to a defensive Ghana managing just 0.77 xG with poor possession (35.6%). Panama's home odds at 8 reflect their weakness. Croatia's quality on the ball and ability to break lines should be too much for Panama. The 1.43 price offers solid value on the favorite; I'll size meaningfully but not max out given Croatia's defensive lapses leave some draw/upset risk.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Claude",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1100,
-            "odds": 1.55,
-            "reasoning": "Colombia looked the stronger side, beating Uzbekistan 3-1 with 56.7% possession and 15 shots. DR Congo earned a 1-1 vs Portugal but were dominated (25% possession, only 62 final-third receptions) — a deep defensive profile. At 1.55 (~64% implied), Colombia's quality and home advantage offer fair value. Sizing moderately due to Congo's organized defending raising draw risk.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:Claude",
             "date": "2026-06-24T18:24:01.319Z",
@@ -8911,54 +8961,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:Claude",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1500,
+            "odds": 2.2,
+            "reasoning": "Japan drew the Netherlands and dismantled Tunisia 4-0 with strong xG and possession control. Sweden's heavy 5-1 loss to NED exposed defensive frailty despite their shot volume. At 2.2 home odds I see value on the more balanced Japanese side.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Claude",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1753.09,
+            "odds": 1.1,
+            "reasoning": "Netherlands at 1.1 is the safest play on the board. Tunisia has been thoroughly outclassed (0-4 vs Japan, 1-5 vs Sweden) producing near-zero xG. Low odds but high conviction anchor bet.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 56,
-        "won": 20,
-        "lost": 36,
+        "totalBets": 58,
+        "won": 21,
+        "lost": 37,
         "void": 0,
-        "totalStake": 23695.759999999995,
-        "totalReturn": -10040.715900000003,
-        "roi": -0.42373470612464026,
-        "avgOdds": 4.0128571428571425,
+        "totalStake": 23726.339999999997,
+        "totalReturn": -10054.476900000003,
+        "roi": -0.4237685584881615,
+        "avgOdds": 3.9524137931034478,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:GPT-5.5",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 64.81,
-            "odds": 8,
-            "reasoning": "I’m behind in bankroll, so I need upside rather than grinding a 1.43 favorite. Odds say Croatia are clearly more likely, but the reports give Panama a case: they lost 1-0 to Ghana while winning shots, possession, final-third receptions and line breaks, whereas Croatia were heavily beaten by England on xG. At 8.00, Panama looks like the better risk/reward swing.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:GPT-5.5",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 64.81,
-            "odds": 7,
-            "reasoning": "I am far behind in bankroll, so a short Colombia price does not help enough in a winner-take-all contest. Odds still make Colombia the clear favorite, but the reports give enough qualitative support for variance: Congo DR held Portugal to a 1-1 with nearly even xG, while Colombia's 3-1 over Uzbekistan was much closer on xG than the scoreline. At 7.00, I will take the high-upside upset with the max allowable stake.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:GPT-5.5",
             "date": "2026-06-24T18:24:01.319Z",
@@ -9094,54 +9144,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:GPT-5.5",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 15.29,
+            "odds": 3.42,
+            "reasoning": "Odds make Japan the favorite, but I see value on Sweden at 3.42. Japan’s results are solid, yet the Netherlands draw came with only 0.34 xG, while Sweden’s 5-1 loss to the Netherlands was harsh relative to 1.30 xG, 16 shots and 8 on target. Sweden also demolished Tunisia and have shown enough attacking volume to be live here. Taking the bigger price.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:GPT-5.5",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 15.29,
+            "odds": 1.1,
+            "reasoning": "Netherlands are rightly a massive favorite. Tunisia have been badly outclassed, especially the 0.02 xG, 2-shot performance against Japan, while the Netherlands created strong numbers against Sweden and already handled this group’s tougher opposition well. The price is short, but the mismatch is too clear to fade.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 56,
-        "won": 36,
-        "lost": 20,
+        "totalBets": 58,
+        "won": 37,
+        "lost": 21,
         "void": 0,
-        "totalStake": 37385.750000000015,
-        "totalReturn": -7186.787500000001,
-        "roi": -0.19223333756845853,
-        "avgOdds": 1.589107142857143,
+        "totalStake": 38579.23000000001,
+        "totalReturn": -7723.853500000001,
+        "roi": -0.20020755987094607,
+        "avgOdds": 1.5912068965517243,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:Gemini",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 401.42,
-            "odds": 1.43,
-            "reasoning": "Croatia enters this match as heavy favorites at 1.43. While they suffered a 4-2 defeat to England, they face a significantly weaker opponent in Panama. Panama's opening 1-0 loss to Ghana highlighted their inefficiency in front of goal, failing to score despite holding 55.5% possession and generating 11 shots. Croatia's superior technical quality, tournament experience, and urgent need for points to advance make them a reliable pick to secure the victory here. I am placing a high-conviction bet on the away win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Gemini",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 401.42,
-            "odds": 1.55,
-            "reasoning": "Colombia showed great clinical efficiency in their 3-1 win over Uzbekistan, creating plenty of opportunities (15 shots, 110 final-third receptions). While DR Congo managed a resilient 1-1 draw against Portugal, they surrendered possession heavily (25.3%) and relied on high-pressure defending. Colombia's dynamic attack should find a way through DR Congo's defensive block. At 1.55, backing Colombia to win is a high-value play, and I am putting the maximum allowed stake on it to rebuild my bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:Gemini",
             "date": "2026-06-24T18:24:01.319Z",
@@ -9277,54 +9327,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:Gemini",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 596.74,
+            "odds": 2.2,
+            "reasoning": "Japan has shown superior defensive stability compared to Sweden, conceding only 2 goals against the Netherlands (compared to Sweden's 5) and keeping a clean sheet against Tunisia. With Sweden's defensive vulnerabilities exposed in their 5-1 loss to the Netherlands, Japan's tactical discipline makes them the strong favorite here at attractive 2.2 odds.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Gemini",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 596.74,
+            "odds": 1.1,
+            "reasoning": "Tunisia has struggled significantly, scoring only once while conceding 9 goals in two matches with extremely low xG creation (0.34 and 0.02). The Netherlands, fresh off a dominant 5-1 win over Sweden, should easily secure a victory here to seal their progression. This is a highly secure bet, prompting a maximum stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 56,
-        "won": 36,
-        "lost": 20,
+        "totalBets": 58,
+        "won": 37,
+        "lost": 21,
         "void": 0,
-        "totalStake": 72989.28000000004,
-        "totalReturn": -5688.626999999998,
-        "roi": -0.07793784237904518,
-        "avgOdds": 1.6410714285714287,
+        "totalStake": 74853.30000000005,
+        "totalReturn": -6492.224999999998,
+        "roi": -0.08673264906156433,
+        "avgOdds": 1.6413793103448275,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:Grok",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 650.03,
-            "odds": 1.43,
-            "reasoning": "Croatia are clear favorites per the odds and far stronger side than Panama on paper. Recent results show both teams out of form but Croatia's underlying numbers against England were still respectable in a tough matchup, while Panama looked limited vs Ghana. 1.43 offers solid value on the favorite in a mismatch; max stake given single-match slate and bankroll constraints.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Grok",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 650.03,
-            "odds": 1.55,
-            "reasoning": "Colombia dominated Uzbekistan (xG 1.16, 15 shots, 56.7% possession) while DR Congo were thoroughly outplayed by Portugal despite the 1-1 draw. Home side at 1.55 is the clear value pick.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:Grok",
             "date": "2026-06-24T18:24:01.319Z",
@@ -9460,54 +9510,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:Grok",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 900,
+            "odds": 2.2,
+            "reasoning": "Japan vs Sweden: odds imply ~45% home win. Reports show Japan competitive with Netherlands (2-2) and dominant vs Tunisia (4-0), while Sweden thrashed Tunisia but lost 1-5 to Netherlands. Japan edges the matchup on current form; stake reflects moderate edge over draw/away.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Grok",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 964.02,
+            "odds": 1.1,
+            "reasoning": "Tunisia vs Netherlands: away at 1.1 is massive favorite. Reports confirm Netherlands' superiority (strong xG/possession vs Japan & Sweden) while Tunisia collapsed in both fixtures. Near-certain outcome justifies largest stake within limits.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 56,
-        "won": 33,
-        "lost": 23,
+        "totalBets": 58,
+        "won": 34,
+        "lost": 24,
         "void": 0,
-        "totalStake": 31603.20999999999,
-        "totalReturn": -8983.3399,
-        "roi": -0.28425403305550306,
-        "avgOdds": 1.9025000000000003,
+        "totalStake": 32022.96999999999,
+        "totalReturn": -9172.2319,
+        "roi": -0.28642664624799025,
+        "avgOdds": 1.8937931034482762,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:DeepSeek",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 187.73,
-            "odds": 1.43,
-            "reasoning": "Croatia is a strong favorite at 1.43, implying around 70% win probability. Despite a heavy 4-2 loss to England where they conceded 3.33 xG, England is a top-tier side; Croatia allowed only 0.82 xG themselves and generated 10 shots. Panama lost 1-0 to Ghana with a 0.77 xG and only 4 shots on target from 11 attempts, showing limited cutting edge. The quality gap and odds signal make an away win the clear value pick. I'm staking $200, a moderate chunk under my max, to protect the bankroll while still going for a needed win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:DeepSeek",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "DeepSeek",
-            "pick": "draw",
-            "stake": 187.73,
-            "odds": 4,
-            "reasoning": "DR Congo held Portugal to a 1-1 draw with a solid defensive structure, limiting chances. Colombia's 3-1 over Uzbekistan had close xG, not a dominant performance. The 1.55 home odds imply too high confidence for Colombia against well-organized DR Congo. I'm placing a value bet on the draw at 4.00.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:DeepSeek",
             "date": "2026-06-24T18:24:01.319Z",
@@ -9643,54 +9693,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:DeepSeek",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 209.88,
+            "odds": 2.2,
+            "reasoning": "Japan drew 2-2 with Netherlands (xG 0.34 vs 0.63) while Sweden lost 5-1 to the same opponent (xG 1.30 vs 2.25). Japan's defence looked more compact, conceding fewer high-quality chances, and they also routed Tunisia 4-0. Sweden beat Tunisia 5-1 but conceded five against the Netherlands. At 2.2, a Japan win offers value given their superior defensive showing against the group's strongest team.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:DeepSeek",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 209.88,
+            "odds": 1.1,
+            "reasoning": "Netherlands dominated both matches (xG 0.63 vs Japan, 2.25 vs Sweden) and face a Tunisia side that lost 4-0 to Japan and 5-1 to Sweden with xG of 0.02 and 0.34. The odds of 1.1 reflect a near-certainty, and with bankroll preservation important, max-staking this low-odds banker locks in a small but very likely profit while keeping cash active.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 56,
-        "won": 36,
-        "lost": 20,
+        "totalBets": 58,
+        "won": 37,
+        "lost": 21,
         "void": 0,
-        "totalStake": 33758.61000000001,
-        "totalReturn": -8464.338899999995,
-        "roi": -0.2507312623357417,
-        "avgOdds": 1.615,
+        "totalStake": 34427.810000000005,
+        "totalReturn": -8765.478899999996,
+        "roi": -0.25460460308105554,
+        "avgOdds": 1.616206896551724,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:Mistral",
-            "date": "2026-06-23T22:49:44.869Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 344.69,
-            "odds": 1.43,
-            "reasoning": "Croatia is the clear favorite here with odds of 1.43, reflecting their superior quality and recent performance. The FIFA report for England vs Croatia (M22) shows Croatia had a respectable xG (0.82) and competitive possession (43.5%) against a strong England side, despite losing 4-2. They also had more pressures (295 vs 262) and a similar number of line breaks (85 vs 82), indicating they can compete against top teams. Panama, on the other hand, struggled against Ghana (M21), with lower xG (0.77), fewer shots on target (4 vs Ghana's 2), and less possession (55.5% but only 35.6% against Ghana). Their defensive metrics (e.g., pressures, line breaks) were also worse than Ghana's. Croatia's experience, tactical discipline, and ability to control games make them a safe bet here, especially at these odds. I'm going all-in on the per-match max stake for this one.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Mistral",
-            "date": "2026-06-24T01:16:41.449Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 344.69,
-            "odds": 1.55,
-            "reasoning": "Colombia has shown strong form in their recent match against Uzbekistan, dominating possession (56.7%), creating more shots (15 vs 8), and generating a higher xG (1.16 vs 1.11). Their final-third receptions (110 vs 64) and line breaks (72 vs 70) also indicate superior attacking intent and execution. The DR Congo, while resilient in their draw against Portugal, struggled massively in possession (25.3%) and were outplayed in key metrics like final-third receptions (62 vs 222) and line breaks (60 vs 146). The odds (1.55 for Colombia) are favorable given their recent performance and the qualitative edge they hold. Betting the maximum allowed stake here to reflect high confidence in Colombia's ability to control and win this match.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:Mistral",
             "date": "2026-06-24T18:24:01.319Z",
@@ -9826,54 +9876,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:Mistral",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 334.6,
+            "odds": 2.2,
+            "reasoning": "Japan has shown strong offensive and defensive metrics in their recent matches, particularly against Tunisia (4-0 win with xG 1.36) and a competitive draw against the Netherlands (2-2 with xG 0.34). Sweden, while prolific in attack (5-1 vs Tunisia), struggled against the Netherlands (1-5 loss with xG 1.30) and had a lower possession and final-third reception count compared to Japan. The odds favor Japan (2.2) over Sweden (3.42), and their recent form and tactical discipline make them the safer bet. Allocating the maximum stake here due to high confidence.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Mistral",
+            "date": "2026-06-25T22:35:46.963Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 334.6,
+            "odds": 1.1,
+            "reasoning": "The Netherlands are overwhelming favorites (odds 1.1) for good reason. They dismantled Sweden 5-1 (xG 2.25-1.30) and drew with Japan in a match where they dominated possession and created more chances. Tunisia, on the other hand, were thrashed 5-1 by Sweden and 4-0 by Japan, with abysmal xG (0.02 vs Japan) and poor defensive metrics. The odds reflect the massive gap in quality, and the Netherlands' recent performances justify the maximum stake here.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 56,
-        "won": 37,
-        "lost": 19,
+        "totalBets": 58,
+        "won": 38,
+        "lost": 20,
         "void": 0,
-        "totalStake": 47951.48,
-        "totalReturn": 365.56269999999904,
-        "roi": 0.007623595768055522,
-        "avgOdds": 1.581607142857143,
+        "totalStake": 50393.30000000001,
+        "totalReturn": -733.2563000000009,
+        "roi": -0.01455067042642575,
+        "avgOdds": 1.5805172413793103,
         "recentBets": [
-          {
-            "id": "c1bc8c26480cd42b89a0de5329581314:Baseline",
-            "date": "2026-06-23T20:07:33.081Z",
-            "matchId": "c1bc8c26480cd42b89a0de5329581314",
-            "match": "Panama vs Croatia",
-            "homeTeam": "Panama",
-            "awayTeam": "Croatia",
-            "kickoff": "2026-06-23T23:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1006.38,
-            "odds": 1.43,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
-          {
-            "id": "68bfc965eb267508e04d8e8d75c1a0ae:Baseline",
-            "date": "2026-06-23T23:09:12.433Z",
-            "matchId": "68bfc965eb267508e04d8e8d75c1a0ae",
-            "match": "Colombia vs DR Congo",
-            "homeTeam": "Colombia",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-06-24T02:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 907.23,
-            "odds": 1.54,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "512ac18beb5aa936a59f7ea3e497ada2:Baseline",
             "date": "2026-06-24T16:10:37.548Z",
@@ -10009,6 +10059,40 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "0ed0233bddc4eafc8507f86a9c17b998:Baseline",
+            "date": "2026-06-25T20:12:07.439Z",
+            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
+            "match": "Japan vs Sweden",
+            "homeTeam": "Japan",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1220.91,
+            "odds": 2,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Baseline",
+            "date": "2026-06-25T20:12:07.439Z",
+            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
+            "match": "Tunisia vs Netherlands",
+            "homeTeam": "Tunisia",
+            "awayTeam": "Netherlands",
+            "kickoff": "2026-06-25T23:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1220.91,
+            "odds": 1.1,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-3"
           }
         ]
       }
