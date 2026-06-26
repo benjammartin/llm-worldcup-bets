@@ -232,6 +232,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 7223.88
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 5723.88
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 4323.88
       }
     ],
     "GPT-5.5": [
@@ -466,6 +474,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 74.61
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 59.32
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 97.39
       }
     ],
     "Gemini": [
@@ -700,6 +716,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 2565.9
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 1969.16
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 3455.04
       }
     ],
     "Grok": [
@@ -934,6 +958,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 3972.6
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 3172.6
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 2372.6
       }
     ],
     "DeepSeek": [
@@ -1168,6 +1200,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 947.79
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 1237.42
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 1027.54
       }
     ],
     "Mistral": [
@@ -1402,6 +1442,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 1484
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 1149.4
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 814.8
       }
     ],
     "Baseline": [
@@ -1636,6 +1684,14 @@
       {
         "t": "2026-06-26T01:41:51.948Z",
         "bankroll": 10096.88
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 11552.32
+      },
+      {
+        "t": "2026-06-26T04:23:33.751848Z",
+        "bankroll": 10432.75
       }
     ]
   },
@@ -8520,7 +8576,9 @@
       "stake": 1119.57,
       "odds": 2.3,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Baseline",
@@ -8535,7 +8593,9 @@
       "stake": 1119.57,
       "odds": 1.82,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Claude",
@@ -8550,7 +8610,9 @@
       "stake": 1500,
       "odds": 2.65,
       "reasoning": "Paraguay's underlying numbers are far better than Australia's. Paraguay outplayed Türkiye comprehensively (xG 2.13-0.36) and competed with USA, while Australia was demolished by Türkiye (outshot 9-30) and toothless vs USA (0.31 xG). Home at 2.65 against a weak opponent is good value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Claude",
@@ -8565,7 +8627,9 @@
       "stake": 1400,
       "odds": 2,
       "reasoning": "USA has been the best team in this slate: 4-1 over Paraguay and 2-0 over Australia with strong control metrics. Türkiye generates shot volume but lost to Australia and leaks chances. At even money (2.0), the in-form USA is the play, with stake tempered for Türkiye's home advantage.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:GPT-5.5",
@@ -8580,7 +8644,9 @@
       "stake": 15.29,
       "odds": 4.18,
       "reasoning": "Odds make Australia the longshot, so this is the higher-variance/value swing. Qualitatively, Paraguay's win over Türkiye looked like a smash-and-grab: 0.36 xG, 19.2% possession, 40 final-third receptions and 17 progressions. Australia were also second-best in their Türkiye win, but they looked much more competitive territorially against the USA than Paraguay did. At 4.18, I think Australia are being priced too harshly.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:GPT-5.5",
@@ -8595,7 +8661,9 @@
       "stake": 15.29,
       "odds": 3.49,
       "reasoning": "The market rightly respects the USA after two strong wins, but Türkiye's underlying tournament data is much better than their results: 62 shots across two matches, xG of 1.66 vs Australia and 2.13 vs Paraguay, and huge possession/final-third advantages. If they finally convert their territorial dominance, 3.49 is a big price. With my bankroll situation, I need upside rather than just the safest favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Gemini",
@@ -8610,7 +8678,9 @@
       "stake": 596.74,
       "odds": 4.18,
       "reasoning": "Australia only needs a draw to secure qualification, allowing them to comfortable sit back and play their preferred low-possession, counter-attacking style (as seen in their 2-0 win over Turkey). Paraguay is forced to chase a win but lacks the attacking transition to do so, having generated a meager 0.96 xG across two matches. Paraguay's desperation will likely leave them vulnerable to Australia's clinical counter-attacks, making the away win at 4.18 massive value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Gemini",
@@ -8625,7 +8695,9 @@
       "stake": 596.74,
       "odds": 3.49,
       "reasoning": "Turkey has been the most statistically unlucky team in the tournament, generating an elite 3.79 xG and 62 shots but failing to score. With the USA virtually guaranteed first place in the group and highly likely to rotate their starting XI to rest key players, a desperate and highly motivated Turkish side is primed to finally regress to the mean and secure a victory against a potentially relaxed US team.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Grok",
@@ -8640,7 +8712,9 @@
       "stake": 800,
       "odds": 4.18,
       "reasoning": "Australia showed fight and organization in beating Turkey despite lower xG, while Paraguay has looked disjointed and low-possession in losses to both USA and Turkey. The 4.18 price offers value against the implied probability.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Grok",
@@ -8655,7 +8729,9 @@
       "stake": 800,
       "odds": 2,
       "reasoning": "USA has posted strong underlying numbers and results against both Paraguay and Australia; Turkey's high-possession style has not translated to results against organized sides. 2.00 on USA is the clearest edge on the slate.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:DeepSeek",
@@ -8670,7 +8746,9 @@
       "stake": 209.88,
       "odds": 2.38,
       "reasoning": "Both Paraguay and Australia have shown they can defend deep and hit on the counter—Paraguay stifled Turkey with only 19% possession, Australia did the same with 27%. The odds make the draw the most likely outcome, and given the tactical mirroring, a low-scoring stalemate is the most logical bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:DeepSeek",
@@ -8685,7 +8763,9 @@
       "stake": 209.88,
       "odds": 2,
       "reasoning": "USA are the clear form side, crushing Paraguay 4-1 and controlling Australia 2-0 with high pressing and sharp finishing. Turkey lost both previous matches despite decent xG, revealing defensive fragility. At even money (2.00), an away win offers strong value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Mistral",
@@ -8700,7 +8780,9 @@
       "stake": 334.6,
       "odds": 2.65,
       "reasoning": "Paraguay has shown resilience in their recent matches, particularly in M31 where they secured a 1-0 win against Türkiye despite being outplayed in possession and shots. The xG in that match (2.13-0.36) suggests they were clinical with their limited chances. Against Australia, Paraguay will likely adopt a similar defensive approach, focusing on counter-attacks and set-pieces. The odds for Paraguay (home at 2.65) are attractive given their ability to grind out results, even against stronger teams. The USA's 4-1 win over Paraguay in M04 was dominant, but that match saw Paraguay with only 28.7% possession and limited attacking opportunities. Australia, while defensively solid, lacks the firepower to consistently break down organized defenses, as seen in their 2-0 win over Türkiye (xG 0.99-1.66). Paraguay's underdog status here makes them a value bet.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Mistral",
@@ -8715,13 +8797,15 @@
       "stake": 334.6,
       "odds": 2,
       "reasoning": "The USA has been impressive in their recent matches, with a 4-1 win over Paraguay (xG 1.88-0.60) and a 2-0 win over Australia (xG 1.58-0.31). Their attacking output is strong, and their defensive organization has been solid. Türkiye, on the other hand, has struggled to convert their dominance in possession into goals. In M06, they lost 2-0 to Australia despite an xG of 1.66, and in M31, they lost 1-0 to Paraguay with an xG of 2.13. This suggests Türkiye is wasteful in front of goal and vulnerable to counter-attacks. The USA's direct style and clinical finishing make them a strong favorite here, especially at odds of 2.00. The value lies in backing the USA to continue their strong form and exploit Türkiye's defensive frailties.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-2"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-26T01:24:11.131Z",
-    "lastSettleRun": "2026-06-26T01:41:51.948Z",
+    "lastSettleRun": "2026-06-26T04:23:33.751848Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
