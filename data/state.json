@@ -240,6 +240,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 4323.88
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 4669.94
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 4860.27
       }
     ],
     "GPT-5.5": [
@@ -482,6 +490,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 97.39
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 80.53
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 63.67
       }
     ],
     "Gemini": [
@@ -724,6 +740,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 3455.04
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 3723.17
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 3870.64
       }
     ],
     "Grok": [
@@ -966,6 +990,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 2372.6
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 2561.94
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 2666.08
       }
     ],
     "DeepSeek": [
@@ -1208,6 +1240,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 1027.54
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 1103.57
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 1145.39
       }
     ],
     "Mistral": [
@@ -1450,6 +1490,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 814.8
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 875.4
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 908.73
       }
     ],
     "Baseline": [
@@ -1692,6 +1740,14 @@
       {
         "t": "2026-06-26T04:23:33.751848Z",
         "bankroll": 10432.75
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 11058.72
+      },
+      {
+        "t": "2026-06-26T21:28:00.965Z",
+        "bankroll": 11277.81
       }
     ]
   },
@@ -8814,7 +8870,9 @@
       "stake": 1043.28,
       "odds": 1.6,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:Baseline",
@@ -8829,7 +8887,9 @@
       "stake": 1043.28,
       "odds": 1.21,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:Claude",
@@ -8844,7 +8904,9 @@
       "stake": 865.14,
       "odds": 1.4,
       "reasoning": "France at 1.4 is the clear value here. They dismantled Senegal 3-1 and Iraq 3-0 with elite xG numbers and final-third dominance (246 receptions vs Iraq). Norway beat Senegal but France is a different class. I'm backing the favorite at the max stake to recover ground.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:Claude",
@@ -8859,7 +8921,9 @@
       "stake": 865.14,
       "odds": 1.22,
       "reasoning": "Senegal at 1.22 against Iraq is solid. Iraq lost 4-1 to Norway and 3-0 to France with woeful xG (0.7 vs France). Senegal posted strong numbers even in losses to top sides (2.05 xG vs Norway). Iraq is the weakest team in this slate by a wide margin. Max stake on a strong favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:GPT-5.5",
@@ -8874,7 +8938,9 @@
       "stake": 16.86,
       "odds": 7.13,
       "reasoning": "France are the deserved market favorite, but my bankroll is too small to make much progress by laying 1.40. Norway have shown real attacking output, beating Iraq 4-1 and Senegal 3-2, and 7.13 only needs a modest upset chance to be useful for my position. Taking the high-upside home shot.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:GPT-5.5",
@@ -8889,7 +8955,9 @@
       "stake": 16.86,
       "odds": 12.27,
       "reasoning": "Senegal are clearly the likelier winner and the odds say that loudly, but 1.22 does very little for a $97 bankroll. Iraq were poor against France, yet they did create 1.20 xG against Norway, and at 12.27 this is the kind of low-probability, high-impact swing I need to stay alive in the contest.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:Gemini",
@@ -8904,7 +8972,9 @@
       "stake": 670.32,
       "odds": 1.4,
       "reasoning": "France has shown elite control in their matches, generating 3.92 xG while limiting opponents to just 1.09 xG combined. While Norway has quality, their defensive fragility was exposed by Senegal (conceding 2.05 xG). France's tactical structure and squad depth make them the clear choice to win and secure the group.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:Gemini",
@@ -8919,7 +8989,9 @@
       "stake": 670.32,
       "odds": 1.22,
       "reasoning": "Senegal's underlying metrics are strong despite their losses; they dominated possession and created 2.05 xG against Norway. Iraq has been the weakest team in the group, conceding 7 goals with very poor defensive indicators. Senegal should easily outclass them to secure a consolatory victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:Grok",
@@ -8934,7 +9006,9 @@
       "stake": 473.36,
       "odds": 1.4,
       "reasoning": "France looks clearly superior based on recent xG and underlying numbers against similar opposition; 1.4 offers decent value on the heavy favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:Grok",
@@ -8949,7 +9023,9 @@
       "stake": 473.36,
       "odds": 1.22,
       "reasoning": "Senegal has dominated Iraq-level sides in every metric across the provided reports; 1.22 is short but the safest high-confidence bet available with my remaining bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:DeepSeek",
@@ -8964,7 +9040,9 @@
       "stake": 190.07,
       "odds": 1.4,
       "reasoning": "France is the heavy favorite at 1.4, and the underlying match reports confirm their dominance: 3-1 vs Senegal with 1.62-0.39 xG, 3-0 vs Iraq with 2.30-0.70 xG. Norway have beaten the same opponents but conceded in both (4-1 vs Iraq, 3-2 vs Senegal), and their xG against was 1.20 and 2.05. France's squad depth and control should be too much for Norway. Odds are the primary signal and strongly point to an away win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:DeepSeek",
@@ -8979,7 +9057,9 @@
       "stake": 190.07,
       "odds": 1.22,
       "reasoning": "Senegal are massive favorites at 1.22 against an Iraq side that lost 4-1 to Norway and 3-0 to France, generating just 0.70 and 1.20 xG. Senegal's losses came against stronger teams (France, Norway) but they created 2.05 xG vs Norway and were competitive. Iraq's defensive frailties and minimal attacking threat (0 shots on target vs France) make a Senegal home win the clear highest-probability outcome. The odds reflect that, and the post-match reports support it.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "b86b4d60f773e9e3c46c00e9a6496e79:Mistral",
@@ -8994,7 +9074,9 @@
       "stake": 151.5,
       "odds": 1.4,
       "reasoning": "France has shown dominant performances in their recent matches, particularly against Iraq (3-0 with xG 2.30-0.70) and Senegal (3-1 with xG 1.62-0.39). Their attacking and defensive metrics are strong, with high shots on target, possession, and final-third receptions. Norway, while having a decent xG against Iraq (2.41), struggled against Senegal (xG 1.50-2.05) and had less control in terms of possession and line breaks. The odds heavily favor France (1.4), which aligns with their recent form and underlying stats. Betting the maximum stake here due to high confidence in France's ability to win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-4"
     },
     {
       "id": "7e6aee294ea1a4792c59558791084528:Mistral",
@@ -9009,7 +9091,9 @@
       "stake": 151.5,
       "odds": 1.22,
       "reasoning": "Senegal has been the stronger team in their recent matches, despite losing to Norway (xG 2.05-1.50). They dominated Norway in final-third receptions (181-87) and line breaks (99-68), showing their ability to create chances. Against France, they were competitive (xG 0.39-1.62) but still managed to create some opportunities. Iraq, on the other hand, was thrashed by France (3-0, xG 0.70-2.30) and struggled against Norway (1-4, xG 1.20-2.41), with poor possession and attacking metrics. The odds heavily favor Senegal (1.22), which reflects their recent form and underlying performance. Betting the maximum stake here due to Senegal's clear superiority over Iraq.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "5-0"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:Claude",
@@ -9225,7 +9309,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-26T21:04:37.250Z",
-    "lastSettleRun": "2026-06-26T04:23:33.751848Z",
+    "lastSettleRun": "2026-06-26T21:28:00.965Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -9321,49 +9405,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 60,
-        "won": 38,
+        "totalBets": 62,
+        "won": 40,
         "lost": 22,
         "void": 0,
-        "totalStake": 66529.55,
-        "totalReturn": -6586.426299999999,
-        "roi": -0.0990000127762776,
-        "avgOdds": 1.6090000000000004,
+        "totalStake": 68259.83,
+        "totalReturn": -6050.0395,
+        "roi": -0.08863250172173004,
+        "avgOdds": 1.5993548387096779,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Claude",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1873.07,
-            "odds": 1.32,
-            "reasoning": "Brazil away at 1.32 is a clear value anchor. Scotland's attacking output has been anemic across this slate (0 shots on target vs Morocco, just 0.91 xG vs Haiti), while Brazil's quality and depth are simply on another level. The 1.32 implies ~76% and I'm comfortable backing that with my highest stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:Claude",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1700,
-            "odds": 1.27,
-            "reasoning": "Morocco at 1.27 home is strong. They've outplayed Scotland (1-0 win, 54.8% possession, dominant final-third receptions) and held Brazil to a draw. Haiti has been thoroughly outclassed in this group, losing to both Scotland and Brazil with minimal xG. Morocco should control this comfortably.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:Claude",
             "date": "2026-06-24T23:52:54.788Z",
@@ -9499,54 +9549,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:Claude",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 865.14,
+            "odds": 1.4,
+            "reasoning": "France at 1.4 is the clear value here. They dismantled Senegal 3-1 and Iraq 3-0 with elite xG numbers and final-third dominance (246 receptions vs Iraq). Norway beat Senegal but France is a different class. I'm backing the favorite at the max stake to recover ground.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:Claude",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 865.14,
+            "odds": 1.22,
+            "reasoning": "Senegal at 1.22 against Iraq is solid. Iraq lost 4-1 to Norway and 3-0 to France with woeful xG (0.7 vs France). Senegal posted strong numbers even in losses to top sides (2.05 xG vs Norway). Iraq is the weakest team in this slate by a wide margin. Max stake on a strong favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 60,
+        "totalBets": 62,
         "won": 22,
-        "lost": 38,
+        "lost": 40,
         "void": 0,
-        "totalStake": 23756.92,
-        "totalReturn": -10031.694800000005,
-        "roi": -0.42226411504521655,
-        "avgOdds": 3.9485,
+        "totalStake": 23790.64,
+        "totalReturn": -10065.414800000006,
+        "roi": -0.423082977170854,
+        "avgOdds": 4.134032258064516,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:GPT-5.5",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 27.59,
-            "odds": 5.5,
-            "reasoning": "Odds still make Brazil the clear favorite, but Scotland have played two tight, low-xG matches and Brazil were held by Morocco before beating Haiti without an overwhelming shot profile. At my bankroll position I need upside, and 5.5 on a potentially cagey match is the best risk/reward here.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:GPT-5.5",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 27.59,
-            "odds": 1.27,
-            "reasoning": "Morocco have the strongest qualitative profile in this slate: they outperformed Brazil on xG/progression metrics and beat Scotland, while Haiti have lost twice and created very little against Brazil. The price is short, but Morocco are the right side and this is my higher-confidence stabilizer bet.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:GPT-5.5",
             "date": "2026-06-24T23:52:54.788Z",
@@ -9682,54 +9732,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:GPT-5.5",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 16.86,
+            "odds": 7.13,
+            "reasoning": "France are the deserved market favorite, but my bankroll is too small to make much progress by laying 1.40. Norway have shown real attacking output, beating Iraq 4-1 and Senegal 3-2, and 7.13 only needs a modest upset chance to be useful for my position. Taking the high-upside home shot.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:GPT-5.5",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 16.86,
+            "odds": 12.27,
+            "reasoning": "Senegal are clearly the likelier winner and the odds say that loudly, but 1.22 does very little for a $97 bankroll. Iraq were poor against France, yet they did create 1.20 xG against Norway, and at 12.27 this is the kind of low-probability, high-impact swing I need to stay alive in the contest.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 60,
-        "won": 38,
+        "totalBets": 62,
+        "won": 40,
         "lost": 22,
         "void": 0,
-        "totalStake": 39772.71000000001,
-        "totalReturn": -6834.710900000001,
-        "roi": -0.17184423440092464,
-        "avgOdds": 1.666,
+        "totalStake": 41113.350000000006,
+        "totalReturn": -6419.112500000001,
+        "roi": -0.15613207145610855,
+        "avgOdds": 1.654516129032258,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Gemini",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 661.04,
-            "odds": 1.32,
-            "reasoning": "Brazil demonstrated their offensive capabilities with a comfortable 3-0 win over Haiti and a strong performance against Morocco. Scotland struggled to create high-quality chances against Morocco, failing to register a single shot on target. Brazil's depth and motivation to secure the top spot in the group make them highly likely to win this matchup.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:Gemini",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 661.04,
-            "odds": 1.27,
-            "reasoning": "Morocco has put in two highly impressive performances, outplaying Brazil on expected goals (1.33 vs 0.99) and dominating Scotland. Haiti, on the other hand, has struggled to generate any attacking momentum, recording just 0.26 xG against Brazil and failing to score in the tournament so far. Morocco should comfortably secure the three points here.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "c0355dfc6e26ec327e379b6ef5824a5f:Gemini",
             "date": "2026-06-24T23:52:54.788Z",
@@ -9865,54 +9915,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:Gemini",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 670.32,
+            "odds": 1.4,
+            "reasoning": "France has shown elite control in their matches, generating 3.92 xG while limiting opponents to just 1.09 xG combined. While Norway has quality, their defensive fragility was exposed by Senegal (conceding 2.05 xG). France's tactical structure and squad depth make them the clear choice to win and secure the group.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:Gemini",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 670.32,
+            "odds": 1.22,
+            "reasoning": "Senegal's underlying metrics are strong despite their losses; they dominated possession and created 2.05 xG against Norway. Iraq has been the weakest team in the group, conceding 7 goals with very poor defensive indicators. Senegal should easily outclass them to secure a consolatory victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 60,
-        "won": 37,
+        "totalBets": 62,
+        "won": 39,
         "lost": 23,
         "void": 0,
-        "totalStake": 76453.30000000005,
-        "totalReturn": -8092.224999999998,
-        "roi": -0.10584533303336799,
-        "avgOdds": 1.6896666666666667,
+        "totalStake": 77400.02000000005,
+        "totalReturn": -7798.741799999998,
+        "roi": -0.10075891194860148,
+        "avgOdds": 1.6774193548387097,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Grok",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1064.46,
-            "odds": 1.32,
-            "reasoning": "Brazil is the class of this matchup per historical results and odds of 1.32 imply ~76% implied probability. Scotland's prior results against weaker sides don't translate here.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:Grok",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 1064.46,
-            "odds": 1.27,
-            "reasoning": "Morocco dominates Haiti in the reports and the 1.27 odds reflect that heavily. Solid value on the favorite given the xG and possession edges shown in prior fixtures.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:Grok",
             "date": "2026-06-24T23:52:54.788Z",
@@ -10048,54 +10098,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:Grok",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 473.36,
+            "odds": 1.4,
+            "reasoning": "France looks clearly superior based on recent xG and underlying numbers against similar opposition; 1.4 offers decent value on the heavy favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:Grok",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 473.36,
+            "odds": 1.22,
+            "reasoning": "Senegal has dominated Iraq-level sides in every metric across the provided reports; 1.22 is short but the safest high-confidence bet available with my remaining bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 60,
-        "won": 35,
+        "totalBets": 62,
+        "won": 37,
         "lost": 25,
         "void": 0,
-        "totalStake": 32442.729999999992,
-        "totalReturn": -9092.477499999999,
-        "roi": -0.28026240393456414,
-        "avgOdds": 1.9036666666666668,
+        "totalStake": 32822.869999999995,
+        "totalReturn": -8974.6341,
+        "roi": -0.2734262451760008,
+        "avgOdds": 1.8845161290322583,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:DeepSeek",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 228.35,
-            "odds": 1.32,
-            "reasoning": "Brazil are massive favourites on odds (1.32) and have quality far beyond Scotland. Match reports show Brazil creating better xG, drawing Morocco 1-1 and thrashing Haiti 3-0. Scotland beat Haiti only 1-0 with inferior metrics, then lost to Morocco 0-1 while being outshot 12-6. Brazil's attack and control should overwhelm a limited Scotland side. Straight win likely.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:DeepSeek",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 228.35,
-            "odds": 1.27,
-            "reasoning": "Morocco are strong favourites at 1.27, having drawn with Brazil (xG 1.33 vs 0.99) and beaten Scotland. Haiti lost to both Brazil (3-0, xG 0.26) and Scotland (0-1) with poor attacking output. Morocco's organisation and firepower should secure a comfortable home win. Low odds but high probability, worth the max stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:DeepSeek",
             "date": "2026-06-24T23:52:54.788Z",
@@ -10231,54 +10281,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:DeepSeek",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 190.07,
+            "odds": 1.4,
+            "reasoning": "France is the heavy favorite at 1.4, and the underlying match reports confirm their dominance: 3-1 vs Senegal with 1.62-0.39 xG, 3-0 vs Iraq with 2.30-0.70 xG. Norway have beaten the same opponents but conceded in both (4-1 vs Iraq, 3-2 vs Senegal), and their xG against was 1.20 and 2.05. France's squad depth and control should be too much for Norway. Odds are the primary signal and strongly point to an away win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:DeepSeek",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 190.07,
+            "odds": 1.22,
+            "reasoning": "Senegal are massive favorites at 1.22 against an Iraq side that lost 4-1 to Norway and 3-0 to France, generating just 0.70 and 1.20 xG. Senegal's losses came against stronger teams (France, Norway) but they created 2.05 xG vs Norway and were competitive. Iraq's defensive frailties and minimal attacking threat (0 shots on target vs France) make a Senegal home win the clear highest-probability outcome. The odds reflect that, and the post-match reports support it.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 60,
-        "won": 37,
+        "totalBets": 62,
+        "won": 39,
         "lost": 23,
         "void": 0,
-        "totalStake": 35097.01,
-        "totalReturn": -9434.678899999997,
-        "roi": -0.26881716989566906,
-        "avgOdds": 1.6398333333333333,
+        "totalStake": 35400.01,
+        "totalReturn": -9340.748899999997,
+        "roi": -0.26386288873929686,
+        "avgOdds": 1.629193548387097,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Mistral",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 364.29,
-            "odds": 1.32,
-            "reasoning": "Brazil is the clear favorite here with odds of 1.32, reflecting their superior quality and recent performances. The post-match reports show Brazil dominating in key metrics like xG, final-third receptions, and line breaks, even when they drew with Morocco. Scotland, while competitive, struggled against Haiti (a team Brazil dismantled 3-0) and Morocco, managing fewer shots and lower possession. The odds heavily favor Brazil, and I'm willing to bet the maximum stake here for a high-confidence outcome.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:Mistral",
-            "date": "2026-06-24T21:45:36.145Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 364.29,
-            "odds": 1.27,
-            "reasoning": "Morocco is the standout team in this matchup, with odds of 1.27 suggesting a strong favorite. The post-match reports show Morocco's dominance in xG, shots, possession, and final-third receptions against both Brazil and Scotland. Haiti, while resilient, was outplayed by Scotland and Brazil, with lower xG and fewer key attacking metrics. The odds are favorable, and Morocco's consistency makes them a safe bet. I'm allocating the maximum stake here as well, given the clear disparity in quality.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:Mistral",
             "date": "2026-06-24T23:52:54.788Z",
@@ -10414,54 +10464,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:Mistral",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 151.5,
+            "odds": 1.4,
+            "reasoning": "France has shown dominant performances in their recent matches, particularly against Iraq (3-0 with xG 2.30-0.70) and Senegal (3-1 with xG 1.62-0.39). Their attacking and defensive metrics are strong, with high shots on target, possession, and final-third receptions. Norway, while having a decent xG against Iraq (2.41), struggled against Senegal (xG 1.50-2.05) and had less control in terms of possession and line breaks. The odds heavily favor France (1.4), which aligns with their recent form and underlying stats. Betting the maximum stake here due to high confidence in France's ability to win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:Mistral",
+            "date": "2026-06-26T18:16:23.026Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 151.5,
+            "odds": 1.22,
+            "reasoning": "Senegal has been the stronger team in their recent matches, despite losing to Norway (xG 2.05-1.50). They dominated Norway in final-third receptions (181-87) and line breaks (99-68), showing their ability to create chances. Against France, they were competitive (xG 0.39-1.62) but still managed to create some opportunities. Iraq, on the other hand, was thrashed by France (3-0, xG 0.70-2.30) and struggled against Norway (1-4, xG 1.20-2.41), with poor possession and attacking metrics. The odds heavily favor Senegal (1.22), which reflects their recent form and underlying performance. Betting the maximum stake here due to Senegal's clear superiority over Iraq.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 60,
-        "won": 39,
+        "totalBets": 62,
+        "won": 41,
         "lost": 21,
         "void": 0,
-        "totalStake": 52632.44000000001,
-        "totalReturn": -397.38530000000105,
-        "roi": -0.007550197178774174,
-        "avgOdds": 1.5964999999999998,
+        "totalStake": 54719.00000000001,
+        "totalReturn": 447.671499999999,
+        "roi": 0.008181280725159432,
+        "avgOdds": 1.590322580645161,
         "recentBets": [
-          {
-            "id": "885ba95805db310a7bcc3fb1a7a6dd28:Baseline",
-            "date": "2026-06-24T19:03:31.491Z",
-            "matchId": "885ba95805db310a7bcc3fb1a7a6dd28",
-            "match": "Scotland vs Brazil",
-            "homeTeam": "Scotland",
-            "awayTeam": "Brazil",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 999.49,
-            "odds": 1.3,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "d1279ce7f33136a33e99ad442fc855e8:Baseline",
-            "date": "2026-06-24T19:03:31.491Z",
-            "matchId": "d1279ce7f33136a33e99ad442fc855e8",
-            "match": "Morocco vs Haiti",
-            "homeTeam": "Morocco",
-            "awayTeam": "Haiti",
-            "kickoff": "2026-06-24T22:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 999.49,
-            "odds": 1.17,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "4-2"
-          },
           {
             "id": "5993bd5196ca09f83990f0c3261e442e:Baseline",
             "date": "2026-06-24T22:10:31.705Z",
@@ -10597,6 +10647,40 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "b86b4d60f773e9e3c46c00e9a6496e79:Baseline",
+            "date": "2026-06-26T16:01:31.631Z",
+            "matchId": "b86b4d60f773e9e3c46c00e9a6496e79",
+            "match": "Norway vs France",
+            "homeTeam": "Norway",
+            "awayTeam": "France",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1043.28,
+            "odds": 1.6,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-4"
+          },
+          {
+            "id": "7e6aee294ea1a4792c59558791084528:Baseline",
+            "date": "2026-06-26T16:01:31.631Z",
+            "matchId": "7e6aee294ea1a4792c59558791084528",
+            "match": "Senegal vs Iraq",
+            "homeTeam": "Senegal",
+            "awayTeam": "Iraq",
+            "kickoff": "2026-06-26T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1043.28,
+            "odds": 1.21,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "5-0"
           }
         ]
       }
