@@ -8454,8 +8454,23 @@
       "status": "pending"
     },
     {
+      "id": "22f6ac06dfcc88a847920f62633e6459:Claude",
+      "date": "2026-06-26T00:16:58.275Z",
+      "matchId": "22f6ac06dfcc88a847920f62633e6459",
+      "match": "Paraguay vs Australia",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "kickoff": "2026-06-26T02:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 900,
+      "odds": 2.65,
+      "reasoning": "Two flawed teams, but Paraguay at home gets the edge. They ground out a win over Turkey and host advantage at 2.65 offers fair value. Australia's underlying numbers (low xG, heavily pressured in both matches) are unconvincing. Modest stake given genuine coin-flip uncertainty.",
+      "status": "pending"
+    },
+    {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Claude",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8465,27 +8480,12 @@
       "pick": "away",
       "stake": 1753.09,
       "odds": 1.8,
-      "reasoning": "USA has been the standout side in this group: 4-1 over Paraguay, 2-0 over Australia, consistently strong xG, possession and final-third dominance. Turkey dominated possession vs Australia but lost, and got thoroughly outplayed by Paraguay. USA at 1.8 is my strongest play here.",
-      "status": "pending"
-    },
-    {
-      "id": "22f6ac06dfcc88a847920f62633e6459:Claude",
-      "date": "2026-06-25T23:43:42.925Z",
-      "matchId": "22f6ac06dfcc88a847920f62633e6459",
-      "match": "Paraguay vs Australia",
-      "homeTeam": "Paraguay",
-      "awayTeam": "Australia",
-      "kickoff": "2026-06-26T02:00:00Z",
-      "model": "Claude",
-      "pick": "home",
-      "stake": 1400,
-      "odds": 2.65,
-      "reasoning": "Paraguay convincingly outplayed Turkey away (2.13 xG, 67.7% possession), while Australia was dominated by both Turkey and USA. Paraguay is clearly the more capable side and at home 2.65 offers value over a struggling Australia.",
+      "reasoning": "USA has been the standout team of this slate: 4-1 over Paraguay, 2-0 over Australia, dominating xG and territory in both. Turkey lost 2-0 to Australia despite huge possession, showing toothless finishing. At 1.8 away USA is the clear, high-confidence pick.",
       "status": "pending"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:GPT-5.5",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "22f6ac06dfcc88a847920f62633e6459",
       "match": "Paraguay vs Australia",
       "homeTeam": "Paraguay",
@@ -8494,13 +8494,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 15.29,
-      "odds": 4.42,
-      "reasoning": "Australia at 4.42 looks like the best price on the slate. Odds are the primary signal, but the reports make me skeptical Paraguay should be this much shorter: Paraguay were heavily outplayed by USA and then beat Türkiye despite a huge xG/territory deficit. Australia also lost to USA, but not as violently, and already beat Türkiye. I’ll take the bigger number.",
+      "odds": 4.34,
+      "reasoning": "Australia are a clear underdog by the market, but at 4.34 I think the price is big enough to attack. Paraguay’s results flatter them: they were heavily outplayed by the USA and created very little against Turkey despite winning. Australia also struggled against the USA, but their overall profile looks less hopeless than Paraguay’s, and the odds give enough upside for our position in the standings.",
       "status": "pending"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:GPT-5.5",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8509,13 +8509,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 15.29,
-      "odds": 4.02,
-      "reasoning": "USA are deserved favorites, but Türkiye’s underlying reports are much better than their results: they outshot and out-xG’d both Australia and Paraguay while losing both. At 4.02, I think the market may be overreacting to the table/results. This is a risk-on position because my bankroll needs upside, but the price is attractive enough.",
+      "odds": 4,
+      "reasoning": "USA are deserved favorites and the odds are the main signal, but Turkey’s underlying tournament numbers are much stronger than their results. They massively outshot and out-created both Australia and Paraguay, so this is the kind of high-variance spot where the 4.00 underdog price is worth taking. Given our bankroll situation, we need upside rather than safe small returns.",
       "status": "pending"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Gemini",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "22f6ac06dfcc88a847920f62633e6459",
       "match": "Paraguay vs Australia",
       "homeTeam": "Paraguay",
@@ -8523,14 +8523,14 @@
       "kickoff": "2026-06-26T02:00:00Z",
       "model": "Gemini",
       "pick": "draw",
-      "stake": 450,
-      "odds": 2.3,
-      "reasoning": "The tactical setup of this final group match heavily favors a close, low-scoring affair. Australia (GD 0) only needs a draw to secure qualification, meaning they can set up in their preferred compact defensive block. Paraguay (GD -2) struggles heavily in attack, generating just 0.96 xG across their first two matches. With the draw being priced as the heavily favored outcome at 2.3, the market anticipates Australia successfully frustrating Paraguay's limited offense.",
+      "stake": 500,
+      "odds": 2.31,
+      "reasoning": "Both Paraguay and Australia have deployed heavily defensive, low-possession systems in their matches so far. With both teams preferring to sit deep and struggling to generate consistent high-value offensive output, this matchup projects as a highly cagey, low-scoring affair. The exceptionally low draw odds of 2.31 indicate a very strong statistical probability of a stalemate, making the draw the most sensible prediction.",
       "status": "pending"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Gemini",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8540,27 +8540,27 @@
       "pick": "away",
       "stake": 596.74,
       "odds": 1.8,
-      "reasoning": "USA has been highly impressive, winning both matches with a combined score of 6-1 and dominant underlying metrics (xG of 1.88 and 1.58). Turkey, despite creating numerous chances and dominating possession against Australia and Paraguay, has shown a complete lack of clinical finishing (0 goals from over 3.7 xG). USA's superior quality and defensive stability should allow them to exploit Turkey's desperation and secure the win.",
+      "reasoning": "The USA has looked like the class of this group, combining a highly efficient attack with a robust defense that allowed very little xG to both Paraguay and Australia. While Turkey has dominated possession and shot counts in their matches, they have been incredibly wasteful upfront (scoring zero goals from nearly 3.8 expected goals) and remain highly vulnerable on the counter-attack. The USA's clinical transition play and superior defensive organization make them a strong selection at 1.80.",
       "status": "pending"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Grok",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "22f6ac06dfcc88a847920f62633e6459",
       "match": "Paraguay vs Australia",
       "homeTeam": "Paraguay",
       "awayTeam": "Australia",
       "kickoff": "2026-06-26T02:00:00Z",
       "model": "Grok",
-      "pick": "away",
+      "pick": "draw",
       "stake": 964.02,
-      "odds": 4.42,
-      "reasoning": "Australia's results and underlying metrics against common opponents (Turkey, Paraguay) indicate clear superiority; 4.42 offers strong value vs. the implied ~23% probability.",
+      "odds": 2.31,
+      "reasoning": "Draw offers best value at 2.31 given Paraguay's defensive metrics in prior matches and Australia's inability to convert high xG consistently; odds imply 43% probability which aligns closely with context.",
       "status": "pending"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Grok",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8570,12 +8570,12 @@
       "pick": "away",
       "stake": 964.02,
       "odds": 1.8,
-      "reasoning": "USA's dominant xG, possession, and progression numbers across the slate mark them as clear favorites; 1.8 is a solid price on the away win.",
+      "reasoning": "USA away at 1.8 is the clearest edge; recent results show USA dominating possession, shots, and xG against both Paraguay and Australia while Turkey struggled to progress the ball effectively.",
       "status": "pending"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:DeepSeek",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "22f6ac06dfcc88a847920f62633e6459",
       "match": "Paraguay vs Australia",
       "homeTeam": "Paraguay",
@@ -8583,14 +8583,14 @@
       "kickoff": "2026-06-26T02:00:00Z",
       "model": "DeepSeek",
       "pick": "draw",
-      "stake": 209.88,
-      "odds": 2.3,
-      "reasoning": "Paraguay and Australia both show low offensive output and solid defensive organization in this tournament. Paraguay managed a smash-and-grab win over Turkey despite 0.36 xG, while Australia beat Turkey with 0.99 xG but conceded high xG. Both teams rely on counter-attacks, and the odds market heavily favors the draw at 2.30, implying the highest probability. I expect a cagey, low-scoring match, so I'm backing the draw.",
+      "stake": 200,
+      "odds": 2.31,
+      "reasoning": "Paraguay and Australia have both shown a defensive, counter-attacking style against stronger sides. Paraguay beat Turkey 1-0 with just 19% possession and 0.36 xG. Australia also beat Turkey 2-0 but were heavily out-possessed and out-xG'd. Both lost to USA, but the games were tight in phases. Head-to-head not played, but their similar profiles suggest a low-scoring, cagey match. The draw at 2.31 offers value in what looks like a closely matched contest where a single goal may settle it, but a stalemate is a high probability.",
       "status": "pending"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:DeepSeek",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8600,12 +8600,12 @@
       "pick": "away",
       "stake": 209.88,
       "odds": 1.8,
-      "reasoning": "USA have been the strongest team in these cross-group matches, with dominant wins over Paraguay (4-1, xG 1.88-0.60) and Australia (2-0, xG 1.58-0.31). Turkey, despite high xG and shot volume against both Paraguay and Australia, have lost both matches 0-1 and 0-2, highlighting poor finishing. USA's efficiency and defensive solidity make the away win at 1.80 a clear value pick.",
+      "reasoning": "USA have looked the class of this group, beating Paraguay 4-1 with dominant possession and xG (1.88-0.60), and controlling Australia 2-0 (xG 1.58-0.31). Turkey have created chances (xG wins over Australia and Paraguay) but lost both matches 2-0 and 1-0, showing poor finishing. USA's defensive solidity (only 0.60 and 0.31 xG conceded) should contain Turkey's attack, while their organized offense can exploit Turkey's defensive lapses. At 1.80 odds, the away win is a strong bet to build bankroll.",
       "status": "pending"
     },
     {
       "id": "22f6ac06dfcc88a847920f62633e6459:Mistral",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "22f6ac06dfcc88a847920f62633e6459",
       "match": "Paraguay vs Australia",
       "homeTeam": "Paraguay",
@@ -8614,13 +8614,13 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 334.6,
-      "odds": 4.42,
-      "reasoning": "The qualitative data from the FIFA Training Centre reports shows that Australia has been competitive against higher-possession teams like Türkiye, with a solid defensive structure (e.g., 2-0 win over Türkiye despite being out-possessed). Paraguay, on the other hand, has struggled against stronger teams (e.g., 4-1 loss to USA, 1-0 loss to Türkiye) and has consistently low possession, shots, and final-third receptions. The USA match (4-1 win) highlighted Paraguay's defensive vulnerabilities and inability to create meaningful chances. The odds for Australia (4.42) are attractive given their resilience and Paraguay's recent form. Betting on Australia to win aligns with their ability to capitalize on counter-attacks and Paraguay's defensive frailties.",
+      "odds": 4.34,
+      "reasoning": "The qualitative data from FIFA Training Centre reports shows a clear pattern: Australia has been competitive against higher-possession teams (e.g., 2-0 win over Turkey despite only 27% possession) and their defensive structure (high pressures, line breaks) has been effective. Paraguay, on the other hand, has struggled in possession and attacking metrics (e.g., 0.36 xG vs Turkey, 0.60 xG vs USA) despite occasional defensive resilience. The USA's 4-1 win over Paraguay (xG 1.88-0.60) and Australia's 2-0 win over Turkey (xG 0.99-1.66) suggest Paraguay is the weakest link here. The away odds (4.34) are attractive given Australia's recent form and Paraguay's struggles, even if they are at home. Betting max stake on Australia to win.",
       "status": "pending"
     },
     {
       "id": "f41aeac9a8343a84b4950f15ea25fba2:Mistral",
-      "date": "2026-06-25T23:43:42.925Z",
+      "date": "2026-06-26T00:16:58.275Z",
       "matchId": "f41aeac9a8343a84b4950f15ea25fba2",
       "match": "Turkey vs USA",
       "homeTeam": "Turkey",
@@ -8630,13 +8630,13 @@
       "pick": "away",
       "stake": 334.6,
       "odds": 1.8,
-      "reasoning": "The USA has demonstrated strong offensive and defensive capabilities in their recent matches, including a 4-1 win over Paraguay and a 2-0 win over Australia. Their xG (1.88 vs Paraguay, 1.58 vs Australia) and shot dominance (16 vs Paraguay, 10 vs Australia) suggest they are a well-rounded team. Türkiye, while possessing the ball well (62.9% vs Australia, 67.7% vs Paraguay), has struggled to convert possession into goals (0-1 loss to Paraguay despite 2.13 xG). The USA's defensive organization (e.g., only 0.31 xG conceded vs Australia) and ability to press effectively (204 pressures vs Paraguay) make them the safer pick. The odds for the USA (1.8) reflect their favoritism, but their recent performances justify the bet.",
+      "reasoning": "The USA has been dominant in their recent matches, with strong possession (59.5% vs Paraguay, 56% vs Australia), high xG (1.88 vs Paraguay, 1.58 vs Australia), and superior attacking metrics (final-third receptions, line breaks). Turkey, while prolific in attack (1.66 xG vs Australia, 2.13 xG vs Paraguay), has shown defensive vulnerabilities (conceded 2 goals to Australia and 1 to Paraguay). The USA's 2-0 win over Australia (xG 1.58-0.31) and 4-1 win over Paraguay (xG 1.88-0.60) highlight their offensive and defensive strength. The away odds (1.8) are fair but offer value given the USA's form and Turkey's inconsistency. Betting max stake on USA to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-25T23:43:42.925Z",
+    "lastBetsRun": "2026-06-26T00:16:58.275Z",
     "lastSettleRun": "2026-06-25T22:29:18.876Z",
     "failures": [
       {
@@ -8714,6 +8714,18 @@
         "homeTeam": "Senegal",
         "awayTeam": "Iraq",
         "kickoff": "2026-06-26T19:00:00Z"
+      },
+      {
+        "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+        "homeTeam": "Cape Verde",
+        "awayTeam": "Saudi Arabia",
+        "kickoff": "2026-06-27T00:00:00Z"
+      },
+      {
+        "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+        "homeTeam": "Uruguay",
+        "awayTeam": "Spain",
+        "kickoff": "2026-06-27T00:00:00Z"
       }
     ],
     "liveMatches": [],
