@@ -248,6 +248,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 4860.27
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 5504.87
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 5004.87
       }
     ],
     "GPT-5.5": [
@@ -498,6 +506,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 63.67
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 70.94
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 96.29
       }
     ],
     "Gemini": [
@@ -748,6 +764,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 3870.64
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 4369.61
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 3769.61
       }
     ],
     "Grok": [
@@ -998,6 +1022,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 2666.08
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 3017.89
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 2484.84
       }
     ],
     "DeepSeek": [
@@ -1248,6 +1280,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 1145.39
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 1285.65
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 1630.65
       }
     ],
     "Mistral": [
@@ -1498,6 +1538,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 908.73
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 1020.49
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 1409.97
       }
     ],
     "Baseline": [
@@ -1748,6 +1796,14 @@
       {
         "t": "2026-06-26T21:28:00.965Z",
         "bankroll": 11277.81
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 11997.67
+      },
+      {
+        "t": "2026-06-27T03:03:26.039Z",
+        "bankroll": 10954.39
       }
     ]
   },
@@ -9108,7 +9164,9 @@
       "stake": 1043.28,
       "odds": 2.6,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:Baseline",
@@ -9123,7 +9181,9 @@
       "stake": 1043.28,
       "odds": 1.69,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:Claude",
@@ -9138,7 +9198,9 @@
       "stake": 500,
       "odds": 2.7,
       "reasoning": "Cape Verde held Spain to 0-0 and drew Uruguay 2-2 — defensively organized. Saudi Arabia has been awful offensively (0.11 xG vs Spain, outshot heavily by everyone). Genuine toss-up at 2.7 but Cape Verde looks the steadier side. Modest stake on a coin-flip.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:Claude",
@@ -9153,7 +9215,9 @@
       "stake": 976.66,
       "odds": 1.66,
       "reasoning": "Spain is clearly the best team in this slate — 3.20 and 2.26 xG, total possession and shot dominance in both matches. Uruguay underwhelmed against weaker sides (drew Cape Verde, drew Saudi with poor numbers). At 1.66 this is value and my top pick. Max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:GPT-5.5",
@@ -9168,7 +9232,9 @@
       "stake": 11.02,
       "odds": 3.3,
       "reasoning": "Odds make this basically a coin-flip between Cape Verde and Saudi Arabia, with the draw around 3.3. Qualitatively, both sides struggled to create against Spain and both managed somewhat flattering draws against Uruguay, so this feels like a low-margin, low-scoring matchup where the draw price is the most attractive of the three.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:GPT-5.5",
@@ -9183,7 +9249,9 @@
       "stake": 11.02,
       "odds": 1.66,
       "reasoning": "Spain are short, but the underlying reports strongly support them: they dominated Cape Verde despite the 0-0 and then crushed Saudi Arabia 4-0 with a huge xG edge. Uruguay have also produced chances, but they conceded draws to both Saudi Arabia and Cape Verde while Spain’s control metrics look clearly superior. Taking the best team on the slate even at 1.66.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:Gemini",
@@ -9198,7 +9266,9 @@
       "stake": 756.02,
       "odds": 1.66,
       "reasoning": "Spain has been highly dominant in their first two matches, racking up massive xG numbers (5.46 total xG) and showing clinical execution in their 4-0 win over Saudi Arabia. Uruguay has struggled to convert their dominance into wins and has looked defensively vulnerable, conceding 3 goals to lower-ranked opponents. Spain's superior quality and form should secure them the victory here.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:Gemini",
@@ -9213,7 +9283,9 @@
       "stake": 600,
       "odds": 2.7,
       "reasoning": "Cape Verde has shown impressive defensive resilience in this tournament, holding Spain to a goalless draw and earning a well-fought point against Uruguay. Saudi Arabia, on the other hand, was thoroughly outclassed by Spain (4-0) and has looked much more fragile at the back. Cape Verde's superior organization and discipline give them the edge in this crucial final group match.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:Grok",
@@ -9228,7 +9300,9 @@
       "stake": 533.05,
       "odds": 2.71,
       "reasoning": "Cabo Verde and Saudi Arabia both look limited in the provided reports, but Saudi showed marginally better structure against stronger sides; odds nearly even so small edge to away at 2.71.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:Grok",
@@ -9243,7 +9317,9 @@
       "stake": 533.05,
       "odds": 1.66,
       "reasoning": "Spain's xG and chance creation numbers dwarf Uruguay's in every comparable fixture; 1.66 is the clearest value on the slate given Spain's dominance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:DeepSeek",
@@ -9258,7 +9334,9 @@
       "stake": 150,
       "odds": 3.3,
       "reasoning": "Both teams have shown resilience in draws against stronger opponents, match looks evenly matched, draw at 3.3 offers value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:DeepSeek",
@@ -9273,7 +9351,9 @@
       "stake": 212.52,
       "odds": 1.66,
       "reasoning": "Spain is significantly superior, dominant performances while Uruguay struggled to win against weaker sides. Away win at 1.66 is a strong favorite bet.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "e07b1926be5a4d515c7eb108dbcee9c5:Mistral",
@@ -9288,7 +9368,9 @@
       "stake": 169.34,
       "odds": 3.3,
       "reasoning": "Cape Verde vs Saudi Arabia is a tricky matchup, but the draw looks undervalued here. Both teams have shown defensive resilience in their recent matches (Saudi Arabia drew 1-1 with Uruguay, Cape Verde drew 0-0 with Spain and 2-2 with Uruguay). The odds for the draw (3.3) are attractive given the lack of clear dominance from either side. Cape Verde has been compact defensively, while Saudi Arabia has struggled to convert possession into clear chances (evident in their xG stats vs Uruguay and Spain). The market seems to slightly favor the home side, but the draw is the most probable outcome given the defensive solidity of both teams.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "0-0"
     },
     {
       "id": "dcff2e31c0bce001a4db5caaf4fa8822:Mistral",
@@ -9303,7 +9385,9 @@
       "stake": 169.34,
       "odds": 1.66,
       "reasoning": "Spain is the clear favorite here, and the odds (1.66) reflect that, but it's still a value bet. The post-match reports show Spain's dominance in possession, final-third receptions, and line breaks, even when they didn't score (e.g., 0-0 vs Cape Verde with 2.26 xG). Uruguay is a strong team, but their recent performances (1-1 vs Saudi Arabia, 2-2 vs Cape Verde) suggest they are vulnerable to high-pressing, possession-heavy teams like Spain. Spain's 4-0 demolition of Saudi Arabia (3.20 xG) further underscores their attacking prowess. The market is pricing Uruguay too generously (6.11 for a win), and even the draw (3.65) seems overpriced given Spain's consistency. I'm going all-in on Spain to win, as they are the most likely to dominate and convert their chances.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:Baseline",
@@ -9519,7 +9603,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-27T02:12:21.908Z",
-    "lastSettleRun": "2026-06-26T21:28:00.965Z",
+    "lastSettleRun": "2026-06-27T03:03:26.039Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -9627,49 +9711,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 62,
-        "won": 40,
-        "lost": 22,
+        "totalBets": 64,
+        "won": 41,
+        "lost": 23,
         "void": 0,
-        "totalStake": 68259.83,
-        "totalReturn": -6050.0395,
-        "roi": -0.08863250172173004,
-        "avgOdds": 1.5993548387096779,
+        "totalStake": 69736.49,
+        "totalReturn": -5905.4439,
+        "roi": -0.08468226462215118,
+        "avgOdds": 1.6175000000000004,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:Claude",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1873.07,
-            "odds": 1.85,
-            "reasoning": "Mexico has been dominant this tournament with 2 wins including a comprehensive 2-0 victory over South Africa (xG 1.78-0.10) and a gritty 1-0 win over South Korea despite being outplayed on xG. They've shown they can win both ways - controlling games and grinding out results. Czech Republic lost 2-1 to South Korea and drew 1-1 with South Africa, struggling with possession and looking vulnerable. Mexico away at 1.85 offers solid value given their tournament form and Czech Republic's inconsistency. This is my highest conviction play.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Claude",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1873.07,
-            "odds": 1.67,
-            "reasoning": "South Korea has shown quality in their matches, beating Czech Republic 2-1 (xG 1.77-0.64) with strong possession and progression metrics, and narrowly losing 1-0 to Mexico despite creating better chances (xG 0.87-0.34). South Africa has been poor - demolished 2-0 by Mexico with barely any attacking threat (xG 0.10) and drew 1-1 with Czech Republic in a more even match. South Korea away at 1.67 is reasonable value given their superior quality and South Africa's weak performances. Taking both away favorites to maximize expected value.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:Claude",
             "date": "2026-06-25T19:38:46.708Z",
@@ -9805,54 +9855,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Claude",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 500,
+            "odds": 2.7,
+            "reasoning": "Cape Verde held Spain to 0-0 and drew Uruguay 2-2 — defensively organized. Saudi Arabia has been awful offensively (0.11 xG vs Spain, outshot heavily by everyone). Genuine toss-up at 2.7 but Cape Verde looks the steadier side. Modest stake on a coin-flip.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Claude",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 976.66,
+            "odds": 1.66,
+            "reasoning": "Spain is clearly the best team in this slate — 3.20 and 2.26 xG, total possession and shot dominance in both matches. Uruguay underwhelmed against weaker sides (drew Cape Verde, drew Saudi with poor numbers). At 1.66 this is value and my top pick. Max stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 62,
-        "won": 22,
+        "totalBets": 64,
+        "won": 24,
         "lost": 40,
         "void": 0,
-        "totalStake": 23790.64,
-        "totalReturn": -10065.414800000006,
-        "roi": -0.423082977170854,
-        "avgOdds": 4.134032258064516,
+        "totalStake": 23812.68,
+        "totalReturn": -10032.795600000007,
+        "roi": -0.42132156481336863,
+        "avgOdds": 4.082343750000001,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:GPT-5.5",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 27.59,
-            "odds": 1.85,
-            "reasoning": "Mexico are the strongest side in this mini-slate and the 1.85 price is still playable. They controlled South Africa comprehensively and beat Korea, while Czechia lost the underlying numbers to Korea and only drew South Africa. Odds remain the main signal, and Mexico away is my clearest favorite-side position.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:GPT-5.5",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 27.59,
-            "odds": 1.67,
-            "reasoning": "Korea have been consistently competitive: they beat Czechia with a clear xG and shot edge, then out-created Mexico despite losing 1-0. South Africa improved against Czechia but were extremely limited against Mexico. At 1.67 Korea are short, but they are the more reliable side and I need to press the strongest probabilities now.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:GPT-5.5",
             "date": "2026-06-25T19:38:46.708Z",
@@ -9988,54 +10038,54 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:GPT-5.5",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 11.02,
+            "odds": 3.3,
+            "reasoning": "Odds make this basically a coin-flip between Cape Verde and Saudi Arabia, with the draw around 3.3. Qualitatively, both sides struggled to create against Spain and both managed somewhat flattering draws against Uruguay, so this feels like a low-margin, low-scoring matchup where the draw price is the most attractive of the three.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:GPT-5.5",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 11.02,
+            "odds": 1.66,
+            "reasoning": "Spain are short, but the underlying reports strongly support them: they dominated Cape Verde despite the 0-0 and then crushed Saudi Arabia 4-0 with a huge xG edge. Uruguay have also produced chances, but they conceded draws to both Saudi Arabia and Cape Verde while Spain’s control metrics look clearly superior. Taking the best team on the slate even at 1.66.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 62,
-        "won": 40,
-        "lost": 22,
+        "totalBets": 64,
+        "won": 41,
+        "lost": 23,
         "void": 0,
-        "totalStake": 41113.350000000006,
-        "totalReturn": -6419.112500000001,
-        "roi": -0.15613207145610855,
-        "avgOdds": 1.654516129032258,
+        "totalStake": 42469.37,
+        "totalReturn": -6520.139300000001,
+        "roi": -0.1535256892202545,
+        "avgOdds": 1.6709375,
         "recentBets": [
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Gemini",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 661.04,
-            "odds": 1.67,
-            "reasoning": "South Korea has displayed strong underlying metrics this tournament, dominating Czechia in their opener (xG 1.77-0.64) and outshooting Mexico despite a narrow loss. South Africa has struggled to generate quality chances, managing just 0.10 xG against Mexico. With South Korea highly motivated to secure qualification, they are a very strong selection at 1.67.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:Gemini",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 600,
-            "odds": 1.85,
-            "reasoning": "Mexico has been the most disciplined team in the group, winning both matches without conceding a goal. While they have already qualified and might rotate, Czechia's defensive vulnerabilities were exposed by South Africa, who dominated possession and registered 17 shots against them. Mexico's superior tactical structure and depth make them the clear favorite at attractive odds.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:Gemini",
             "date": "2026-06-25T19:38:46.708Z",
@@ -10171,54 +10221,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Gemini",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 756.02,
+            "odds": 1.66,
+            "reasoning": "Spain has been highly dominant in their first two matches, racking up massive xG numbers (5.46 total xG) and showing clinical execution in their 4-0 win over Saudi Arabia. Uruguay has struggled to convert their dominance into wins and has looked defensively vulnerable, conceding 3 goals to lower-ranked opponents. Spain's superior quality and form should secure them the victory here.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Gemini",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 600,
+            "odds": 2.7,
+            "reasoning": "Cape Verde has shown impressive defensive resilience in this tournament, holding Spain to a goalless draw and earning a well-fought point against Uruguay. Saudi Arabia, on the other hand, was thoroughly outclassed by Spain (4-0) and has looked much more fragile at the back. Cape Verde's superior organization and discipline give them the edge in this crucial final group match.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 62,
-        "won": 39,
-        "lost": 23,
+        "totalBets": 64,
+        "won": 40,
+        "lost": 24,
         "void": 0,
-        "totalStake": 77400.02000000005,
-        "totalReturn": -7798.741799999998,
-        "roi": -0.10075891194860148,
-        "avgOdds": 1.6774193548387097,
+        "totalStake": 78466.12000000005,
+        "totalReturn": -7979.978799999997,
+        "roi": -0.10169967369356343,
+        "avgOdds": 1.6932812499999998,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:Grok",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1064.46,
-            "odds": 1.85,
-            "reasoning": "Mexico's results vs RSA (2-0, dominant xG/possession) and KOR (1-0) show clear superiority over Czechia (who lost to KOR and drew RSA). Away 1.85 is the value pick.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Grok",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1064.46,
-            "odds": 1.67,
-            "reasoning": "Korea showed better control vs Czechia and competitive metrics vs Mexico; South Africa looks weakest side here. Away 1.67 offers solid edge.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:Grok",
             "date": "2026-06-25T19:38:46.708Z",
@@ -10354,54 +10404,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Grok",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 533.05,
+            "odds": 2.71,
+            "reasoning": "Cabo Verde and Saudi Arabia both look limited in the provided reports, but Saudi showed marginally better structure against stronger sides; odds nearly even so small edge to away at 2.71.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Grok",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 533.05,
+            "odds": 1.66,
+            "reasoning": "Spain's xG and chance creation numbers dwarf Uruguay's in every comparable fixture; 1.66 is the clearest value on the slate given Spain's dominance.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 62,
-        "won": 37,
+        "totalBets": 64,
+        "won": 39,
         "lost": 25,
         "void": 0,
-        "totalStake": 32822.869999999995,
-        "totalReturn": -8974.6341,
-        "roi": -0.2734262451760008,
-        "avgOdds": 1.8845161290322583,
+        "totalStake": 33185.38999999999,
+        "totalReturn": -8489.3709,
+        "roi": -0.2558165174493957,
+        "avgOdds": 1.9031250000000002,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:DeepSeek",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 228.35,
-            "odds": 1.85,
-            "reasoning": "Mexico beat South Africa 2-0 and South Korea 1-0, showing strong defensive organisation. Czech Republic lost to South Korea 1-2 and drew with South Africa 1-1 while conceding high-quality chances. Mexico's class should deliver an away win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:DeepSeek",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 228.35,
-            "odds": 1.67,
-            "reasoning": "South Korea beat Czech Republic 2-1 and produced an xG of 0.87 in a narrow 0-1 loss to Mexico. South Africa managed only 0.10 xG against Mexico and were outclassed. The gap in quality makes an away win highly probable.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:DeepSeek",
             "date": "2026-06-25T19:38:46.708Z",
@@ -10537,54 +10587,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:DeepSeek",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "DeepSeek",
+            "pick": "draw",
+            "stake": 150,
+            "odds": 3.3,
+            "reasoning": "Both teams have shown resilience in draws against stronger opponents, match looks evenly matched, draw at 3.3 offers value.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:DeepSeek",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 212.52,
+            "odds": 1.66,
+            "reasoning": "Spain is significantly superior, dominant performances while Uruguay struggled to win against weaker sides. Away win at 1.66 is a strong favorite bet.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 62,
-        "won": 39,
+        "totalBets": 64,
+        "won": 41,
         "lost": 23,
         "void": 0,
-        "totalStake": 35400.01,
-        "totalReturn": -9340.748899999997,
-        "roi": -0.26386288873929686,
-        "avgOdds": 1.629193548387097,
+        "totalStake": 35738.689999999995,
+        "totalReturn": -8839.502499999997,
+        "roi": -0.24733705964040648,
+        "avgOdds": 1.65578125,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:Mistral",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 364.29,
-            "odds": 1.85,
-            "reasoning": "Mexico's recent performances against South Africa and Korea Republic show strong defensive organization and effective counter-attacking, despite not always dominating possession. Their xG and shot data in M01 and M28 suggest they are clinical in front of goal and difficult to break down. Czech Republic, while not terrible, struggled against Korea Republic (M02) and were held to a draw by South Africa (M25) despite having more shots in that game. The odds heavily favor Mexico (1.85), which aligns with their recent form and underlying metrics. Betting the maximum stake here due to the favorable risk-reward ratio and Mexico's consistency in recent matches.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Mistral",
-            "date": "2026-06-24T23:52:54.788Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 364.29,
-            "odds": 1.67,
-            "reasoning": "South Korea's recent performance against Czech Republic (M02) was impressive, with higher xG, more shots on target, and better possession than their opponents. They also held their own against Mexico (M28), creating decent chances despite losing 1-0. South Africa, on the other hand, were outplayed by Mexico (M01) and only managed a draw against Czech Republic (M25) despite having more possession and shots in that game. The underlying metrics (final-third receptions, line breaks, progressions) favor South Korea, and the odds (1.67) reflect their recent form. Betting the maximum stake here as well, given the value and South Korea's attacking potential.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:Mistral",
             "date": "2026-06-25T19:38:46.708Z",
@@ -10720,54 +10770,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Mistral",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Mistral",
+            "pick": "draw",
+            "stake": 169.34,
+            "odds": 3.3,
+            "reasoning": "Cape Verde vs Saudi Arabia is a tricky matchup, but the draw looks undervalued here. Both teams have shown defensive resilience in their recent matches (Saudi Arabia drew 1-1 with Uruguay, Cape Verde drew 0-0 with Spain and 2-2 with Uruguay). The odds for the draw (3.3) are attractive given the lack of clear dominance from either side. Cape Verde has been compact defensively, while Saudi Arabia has struggled to convert possession into clear chances (evident in their xG stats vs Uruguay and Spain). The market seems to slightly favor the home side, but the draw is the most probable outcome given the defensive solidity of both teams.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Mistral",
+            "date": "2026-06-26T23:46:47.515Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 169.34,
+            "odds": 1.66,
+            "reasoning": "Spain is the clear favorite here, and the odds (1.66) reflect that, but it's still a value bet. The post-match reports show Spain's dominance in possession, final-third receptions, and line breaks, even when they didn't score (e.g., 0-0 vs Cape Verde with 2.26 xG). Uruguay is a strong team, but their recent performances (1-1 vs Saudi Arabia, 2-2 vs Cape Verde) suggest they are vulnerable to high-pressing, possession-heavy teams like Spain. Spain's 4-0 demolition of Saudi Arabia (3.20 xG) further underscores their attacking prowess. The market is pricing Uruguay too generously (6.11 for a win), and even the draw (3.65) seems overpriced given Spain's consistency. I'm going all-in on Spain to win, as they are the most likely to dominate and convert their chances.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 62,
-        "won": 41,
-        "lost": 21,
+        "totalBets": 64,
+        "won": 42,
+        "lost": 22,
         "void": 0,
-        "totalStake": 54719.00000000001,
-        "totalReturn": 447.671499999999,
-        "roi": 0.008181280725159432,
-        "avgOdds": 1.590322580645161,
+        "totalStake": 56805.560000000005,
+        "totalReturn": 124.25469999999893,
+        "roi": 0.0021873686308171054,
+        "avgOdds": 1.6076562499999996,
         "recentBets": [
-          {
-            "id": "5993bd5196ca09f83990f0c3261e442e:Baseline",
-            "date": "2026-06-24T22:10:31.705Z",
-            "matchId": "5993bd5196ca09f83990f0c3261e442e",
-            "match": "Czech Republic vs Mexico",
-            "homeTeam": "Czech Republic",
-            "awayTeam": "Mexico",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1183.4,
-            "odds": 1.92,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
-          {
-            "id": "c0355dfc6e26ec327e379b6ef5824a5f:Baseline",
-            "date": "2026-06-24T22:10:31.705Z",
-            "matchId": "c0355dfc6e26ec327e379b6ef5824a5f",
-            "match": "South Africa vs South Korea",
-            "homeTeam": "South Africa",
-            "awayTeam": "South Korea",
-            "kickoff": "2026-06-25T01:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1183.4,
-            "odds": 1.6,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "a5a0b544a984ab16e564264f3e859b43:Baseline",
             "date": "2026-06-25T17:12:05.909Z",
@@ -10903,6 +10953,40 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "5-0"
+          },
+          {
+            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Baseline",
+            "date": "2026-06-26T21:04:37.250Z",
+            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
+            "match": "Cape Verde vs Saudi Arabia",
+            "homeTeam": "Cape Verde",
+            "awayTeam": "Saudi Arabia",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1043.28,
+            "odds": 2.6,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "0-0"
+          },
+          {
+            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Baseline",
+            "date": "2026-06-26T21:04:37.250Z",
+            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
+            "match": "Uruguay vs Spain",
+            "homeTeam": "Uruguay",
+            "awayTeam": "Spain",
+            "kickoff": "2026-06-27T00:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1043.28,
+            "odds": 1.69,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       }
