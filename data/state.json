@@ -264,6 +264,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 4530.67
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 4667.19
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 5227.19
       }
     ],
     "GPT-5.5": [
@@ -530,6 +538,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 74.25
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 76.18
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 63.32
       }
     ],
     "Gemini": [
@@ -796,6 +812,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 3149.67
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 3241.71
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 3732.57
       }
     ],
     "Grok": [
@@ -1062,6 +1086,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 2080.79
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 2143.07
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 2475.24
       }
     ],
     "DeepSeek": [
@@ -1328,6 +1360,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 1456.38
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 1497.2
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 1225.07
       }
     ],
     "Mistral": [
@@ -1594,6 +1634,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 1290.45
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 1326.77
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 1520.47
       }
     ],
     "Baseline": [
@@ -1860,6 +1908,14 @@
       {
         "t": "2026-06-27T06:11:09.870Z",
         "bankroll": 10029.61
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 10170.02
+      },
+      {
+        "t": "2026-06-27T23:47:32.631Z",
+        "bankroll": 11002.48
       }
     ]
   },
@@ -9696,7 +9752,9 @@
       "stake": 1002.96,
       "odds": 1.83,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Baseline",
@@ -9711,7 +9769,9 @@
       "stake": 1002.96,
       "odds": 1.14,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "537c0997cd899394f47f16545b7068b2:Mistral",
@@ -9726,7 +9786,9 @@
       "stake": 242.12,
       "odds": 1.8,
       "reasoning": "Croatia has shown resilience in recent matches, particularly against England (M22) where they limited England to an xG of 0.82 despite losing 4-2. Their possession and defensive structure against Panama (M46) was solid, with an xG of 0.82 and only conceding 0.69. Ghana, while improving, struggled against England (M45) with an xG of 0.34 and only 2 shots, showing their offensive limitations. Croatia's odds (1.8) are favorable given their consistency and Ghana's recent struggles in possession and chance creation. Betting on Croatia to win at home feels like a high-confidence play.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Mistral",
@@ -9741,7 +9803,9 @@
       "stake": 242.12,
       "odds": 1.15,
       "reasoning": "England's recent performances, especially against Croatia (M22) and Ghana (M45), demonstrate their offensive firepower (xG of 3.33 and 1.78 respectively) and dominance in possession. Panama, on the other hand, has struggled offensively, with an xG of 0.77 against Ghana (M21) and 0.69 against Croatia (M46). The odds for England (1.15) reflect their overwhelming favoritism, and their ability to control games makes this a low-risk, high-confidence bet. Allocating the maximum stake here to capitalize on the near-certainty of an England win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "67ae5751c401a98409b8566ae4897069:Baseline",
@@ -9786,7 +9850,9 @@
       "stake": 700,
       "odds": 1.8,
       "reasoning": "Croatia are the clearly superior side here — they beat Panama and pushed England, while Ghana were shut out and largely passive against quality. 1.8 is fair for the stronger team at home-equivalent billing.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Claude",
@@ -9801,7 +9867,9 @@
       "stake": 910.14,
       "odds": 1.15,
       "reasoning": "England are the form team of this slate — 4-2 over Croatia and a dominant 0-0 vs Ghana with 1.78 xG. Panama have shown nothing offensively. 1.15 is short but this is as close to a lock as it gets, so I size up to the cap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "537c0997cd899394f47f16545b7068b2:GPT-5.5",
@@ -9816,7 +9884,9 @@
       "stake": 12.86,
       "odds": 5.63,
       "reasoning": "Taking the high-variance value shot. Croatia are rightly favored by the market, but the reports do not make this look like a 5.63 Ghana spot to me: Croatia were heavily beaten by England and only edged Panama, while Ghana beat Panama and survived England. Ghana's attack is a concern, but at my bankroll I need upside, and this is the best upset price on the slate.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:GPT-5.5",
@@ -9831,7 +9901,9 @@
       "stake": 12.86,
       "odds": 1.15,
       "reasoning": "England at 1.15 is not exciting, but this is the clearest quality gap. They produced a 3.33 xG performance against Croatia and then completely controlled Ghana despite the 0-0. Panama have been competitive in phases but are outmatched here. I will use this as the safest leg of the card.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "537c0997cd899394f47f16545b7068b2:Gemini",
@@ -9846,7 +9918,9 @@
       "stake": 613.57,
       "odds": 1.8,
       "reasoning": "Croatia possesses superior technical quality and tournament experience. Although Ghana showed defensive resilience in their draw against England, Croatia's need for a victory to secure progression will drive them to break down Ghana's block. At 1.8, the odds offer strong value for a class side.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Gemini",
@@ -9861,7 +9935,9 @@
       "stake": 613.57,
       "odds": 1.15,
       "reasoning": "England is one of the tournament favorites and boasts a vastly superior squad compared to Panama, who have struggled to generate significant xG and have lost both matches so far. This is a highly secure selection to protect and build our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "537c0997cd899394f47f16545b7068b2:Grok",
@@ -9876,7 +9952,9 @@
       "stake": 415.21,
       "odds": 1.8,
       "reasoning": "Croatia favored at 1.8; recent results show them competitive vs England and beating Panama, while Ghana dominated by England. Odds primary signal.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Grok",
@@ -9891,7 +9969,9 @@
       "stake": 415.21,
       "odds": 1.15,
       "reasoning": "England massive favorite at 1.15; reports confirm total dominance over Croatia and Ghana. Highest conviction pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "537c0997cd899394f47f16545b7068b2:DeepSeek",
@@ -9906,7 +9986,9 @@
       "stake": 272.13,
       "odds": 3.28,
       "reasoning": "Ghana held England to a 0-0 draw with a low block, Croatia struggled to break down Panama (0.82 xG). Expect a tight stalemate.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4be17c8e1ccfecb0f2a5ef79e045c415:DeepSeek",
@@ -9921,7 +10003,9 @@
       "stake": 272.13,
       "odds": 1.15,
       "reasoning": "England dominant in group, hammered Croatia 4-2, Panama lost to Ghana and Croatia. Value low but high probability.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "67ae5751c401a98409b8566ae4897069:Mistral",
@@ -10317,7 +10401,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-27T23:41:19.941Z",
-    "lastSettleRun": "2026-06-27T06:11:09.870Z",
+    "lastSettleRun": "2026-06-27T23:47:32.631Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -10410,49 +10494,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 66,
-        "won": 42,
+        "totalBets": 68,
+        "won": 44,
         "lost": 24,
         "void": 0,
-        "totalStake": 71363.15000000001,
-        "totalReturn": -6379.645100000001,
-        "roi": -0.08939691002989639,
-        "avgOdds": 1.626363636363637,
+        "totalStake": 72973.29000000001,
+        "totalReturn": -5683.124100000001,
+        "roi": -0.07787951043457134,
+        "avgOdds": 1.621911764705883,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:Claude",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1500,
-            "odds": 2.2,
-            "reasoning": "Japan drew the Netherlands and dismantled Tunisia 4-0 with strong xG and possession control. Sweden's heavy 5-1 loss to NED exposed defensive frailty despite their shot volume. At 2.2 home odds I see value on the more balanced Japanese side.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Claude",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1753.09,
-            "odds": 1.1,
-            "reasoning": "Netherlands at 1.1 is the safest play on the board. Tunisia has been thoroughly outclassed (0-4 vs Japan, 1-5 vs Sweden) producing near-zero xG. Low odds but high conviction anchor bet.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:Claude",
             "date": "2026-06-26T01:24:11.131Z",
@@ -10588,54 +10638,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:Claude",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 700,
+            "odds": 1.8,
+            "reasoning": "Croatia are the clearly superior side here — they beat Panama and pushed England, while Ghana were shut out and largely passive against quality. 1.8 is fair for the stronger team at home-equivalent billing.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Claude",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 910.14,
+            "odds": 1.15,
+            "reasoning": "England are the form team of this slate — 4-2 over Croatia and a dominant 0-0 vs Ghana with 1.78 xG. Panama have shown nothing offensively. 1.15 is short but this is as close to a lock as it gets, so I size up to the cap.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 66,
-        "won": 24,
-        "lost": 42,
+        "totalBets": 68,
+        "won": 25,
+        "lost": 43,
         "void": 0,
-        "totalStake": 23834.72,
-        "totalReturn": -10054.835600000008,
-        "roi": -0.421856669597965,
-        "avgOdds": 4.119848484848485,
+        "totalStake": 23860.440000000002,
+        "totalReturn": -10065.766600000008,
+        "roi": -0.4218600579033751,
+        "avgOdds": 4.098382352941177,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:GPT-5.5",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 15.29,
-            "odds": 3.42,
-            "reasoning": "Odds make Japan the favorite, but I see value on Sweden at 3.42. Japan’s results are solid, yet the Netherlands draw came with only 0.34 xG, while Sweden’s 5-1 loss to the Netherlands was harsh relative to 1.30 xG, 16 shots and 8 on target. Sweden also demolished Tunisia and have shown enough attacking volume to be live here. Taking the bigger price.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:GPT-5.5",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 15.29,
-            "odds": 1.1,
-            "reasoning": "Netherlands are rightly a massive favorite. Tunisia have been badly outclassed, especially the 0.02 xG, 2-shot performance against Japan, while the Netherlands created strong numbers against Sweden and already handled this group’s tougher opposition well. The price is short, but the mismatch is too clear to fade.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:GPT-5.5",
             "date": "2026-06-26T01:24:11.131Z",
@@ -10771,54 +10821,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:GPT-5.5",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 12.86,
+            "odds": 5.63,
+            "reasoning": "Taking the high-variance value shot. Croatia are rightly favored by the market, but the reports do not make this look like a 5.63 Ghana spot to me: Croatia were heavily beaten by England and only edged Panama, while Ghana beat Panama and survived England. Ghana's attack is a concern, but at my bankroll I need upside, and this is the best upset price on the slate.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:GPT-5.5",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 12.86,
+            "odds": 1.15,
+            "reasoning": "England at 1.15 is not exciting, but this is the clearest quality gap. They produced a 3.33 xG performance against Croatia and then completely controlled Ghana despite the 0-0. Panama have been competitive in phases but are outmatched here. I will use this as the safest leg of the card.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 66,
-        "won": 42,
+        "totalBets": 68,
+        "won": 44,
         "lost": 24,
         "void": 0,
-        "totalStake": 43981.409999999996,
-        "totalReturn": -7140.075700000001,
-        "roi": -0.16234303766068442,
-        "avgOdds": 1.6781818181818182,
+        "totalStake": 45208.549999999996,
+        "totalReturn": -6557.1842000000015,
+        "roi": -0.145043010669442,
+        "avgOdds": 1.6722058823529413,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:Gemini",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 596.74,
-            "odds": 2.2,
-            "reasoning": "Japan has shown superior defensive stability compared to Sweden, conceding only 2 goals against the Netherlands (compared to Sweden's 5) and keeping a clean sheet against Tunisia. With Sweden's defensive vulnerabilities exposed in their 5-1 loss to the Netherlands, Japan's tactical discipline makes them the strong favorite here at attractive 2.2 odds.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Gemini",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 596.74,
-            "odds": 1.1,
-            "reasoning": "Tunisia has struggled significantly, scoring only once while conceding 9 goals in two matches with extremely low xG creation (0.34 and 0.02). The Netherlands, fresh off a dominant 5-1 win over Sweden, should easily secure a victory here to seal their progression. This is a highly secure bet, prompting a maximum stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:Gemini",
             "date": "2026-06-26T01:24:11.131Z",
@@ -10954,54 +11004,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:Gemini",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 613.57,
+            "odds": 1.8,
+            "reasoning": "Croatia possesses superior technical quality and tournament experience. Although Ghana showed defensive resilience in their draw against England, Croatia's need for a victory to secure progression will drive them to break down Ghana's block. At 1.8, the odds offer strong value for a class side.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Gemini",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 613.57,
+            "odds": 1.15,
+            "reasoning": "England is one of the tournament favorites and boasts a vastly superior squad compared to Panama, who have struggled to generate significant xG and have lost both matches so far. This is a highly secure selection to protect and build our bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 66,
-        "won": 41,
+        "totalBets": 68,
+        "won": 43,
         "lost": 25,
         "void": 0,
-        "totalStake": 79499.17000000006,
-        "totalReturn": -8384.029799999997,
-        "roi": -0.1054605953747692,
-        "avgOdds": 1.6998484848484847,
+        "totalStake": 80329.59000000007,
+        "totalReturn": -7989.580299999997,
+        "roi": -0.09945999101949841,
+        "avgOdds": 1.6932352941176472,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:Grok",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 900,
-            "odds": 2.2,
-            "reasoning": "Japan vs Sweden: odds imply ~45% home win. Reports show Japan competitive with Netherlands (2-2) and dominant vs Tunisia (4-0), while Sweden thrashed Tunisia but lost 1-5 to Netherlands. Japan edges the matchup on current form; stake reflects moderate edge over draw/away.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Grok",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 964.02,
-            "odds": 1.1,
-            "reasoning": "Tunisia vs Netherlands: away at 1.1 is massive favorite. Reports confirm Netherlands' superiority (strong xG/possession vs Japan & Sweden) while Tunisia collapsed in both fixtures. Near-certain outcome justifies largest stake within limits.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:Grok",
             "date": "2026-06-26T01:24:11.131Z",
@@ -11137,54 +11187,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:Grok",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 415.21,
+            "odds": 1.8,
+            "reasoning": "Croatia favored at 1.8; recent results show them competitive vs England and beating Panama, while Ghana dominated by England. Odds primary signal.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Grok",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 415.21,
+            "odds": 1.15,
+            "reasoning": "England massive favorite at 1.15; reports confirm total dominance over Croatia and Ghana. Highest conviction pick.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 66,
-        "won": 40,
-        "lost": 26,
+        "totalBets": 68,
+        "won": 41,
+        "lost": 27,
         "void": 0,
-        "totalStake": 33610.429999999986,
-        "totalReturn": -8663.6373,
-        "roi": -0.25776633324834,
-        "avgOdds": 1.9033333333333335,
+        "totalStake": 34154.68999999998,
+        "totalReturn": -8894.9478,
+        "roi": -0.26043122628253995,
+        "avgOdds": 1.9125,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:DeepSeek",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 209.88,
-            "odds": 2.2,
-            "reasoning": "Japan drew 2-2 with Netherlands (xG 0.34 vs 0.63) while Sweden lost 5-1 to the same opponent (xG 1.30 vs 2.25). Japan's defence looked more compact, conceding fewer high-quality chances, and they also routed Tunisia 4-0. Sweden beat Tunisia 5-1 but conceded five against the Netherlands. At 2.2, a Japan win offers value given their superior defensive showing against the group's strongest team.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:DeepSeek",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 209.88,
-            "odds": 1.1,
-            "reasoning": "Netherlands dominated both matches (xG 0.63 vs Japan, 2.25 vs Sweden) and face a Tunisia side that lost 4-0 to Japan and 5-1 to Sweden with xG of 0.02 and 0.34. The odds of 1.1 reflect a near-certainty, and with bankroll preservation important, max-staking this low-odds banker locks in a small but very likely profit while keeping cash active.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:DeepSeek",
             "date": "2026-06-26T01:24:11.131Z",
@@ -11320,54 +11370,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:DeepSeek",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "draw",
+            "stake": 272.13,
+            "odds": 3.28,
+            "reasoning": "Ghana held England to a 0-0 draw with a low block, Croatia struggled to break down Panama (0.82 xG). Expect a tight stalemate.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:DeepSeek",
+            "date": "2026-06-27T20:53:42.235Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 272.13,
+            "odds": 1.15,
+            "reasoning": "England dominant in group, hammered Croatia 4-2, Panama lost to Ghana and Croatia. Value low but high probability.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 66,
-        "won": 42,
+        "totalBets": 68,
+        "won": 44,
         "lost": 24,
         "void": 0,
-        "totalStake": 36058.02999999999,
-        "totalReturn": -8959.021299999997,
-        "roi": -0.24846119713140177,
-        "avgOdds": 1.6762121212121213,
+        "totalStake": 36542.27,
+        "totalReturn": -8729.007299999997,
+        "roi": -0.23887424891776013,
+        "avgOdds": 1.670294117647059,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:Mistral",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 334.6,
-            "odds": 2.2,
-            "reasoning": "Japan has shown strong offensive and defensive metrics in their recent matches, particularly against Tunisia (4-0 win with xG 1.36) and a competitive draw against the Netherlands (2-2 with xG 0.34). Sweden, while prolific in attack (5-1 vs Tunisia), struggled against the Netherlands (1-5 loss with xG 1.30) and had a lower possession and final-third reception count compared to Japan. The odds favor Japan (2.2) over Sweden (3.42), and their recent form and tactical discipline make them the safer bet. Allocating the maximum stake here due to high confidence.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Mistral",
-            "date": "2026-06-25T22:35:46.963Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 334.6,
-            "odds": 1.1,
-            "reasoning": "The Netherlands are overwhelming favorites (odds 1.1) for good reason. They dismantled Sweden 5-1 (xG 2.25-1.30) and drew with Japan in a match where they dominated possession and created more chances. Tunisia, on the other hand, were thrashed 5-1 by Sweden and 4-0 by Japan, with abysmal xG (0.02 vs Japan) and poor defensive metrics. The odds reflect the massive gap in quality, and the Netherlands' recent performances justify the maximum stake here.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:Mistral",
             "date": "2026-06-26T01:24:11.131Z",
@@ -11503,54 +11553,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:Mistral",
+            "date": "2026-06-27T20:16:23.622Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 242.12,
+            "odds": 1.8,
+            "reasoning": "Croatia has shown resilience in recent matches, particularly against England (M22) where they limited England to an xG of 0.82 despite losing 4-2. Their possession and defensive structure against Panama (M46) was solid, with an xG of 0.82 and only conceding 0.69. Ghana, while improving, struggled against England (M45) with an xG of 0.34 and only 2 shots, showing their offensive limitations. Croatia's odds (1.8) are favorable given their consistency and Ghana's recent struggles in possession and chance creation. Betting on Croatia to win at home feels like a high-confidence play.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Mistral",
+            "date": "2026-06-27T20:16:23.622Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 242.12,
+            "odds": 1.15,
+            "reasoning": "England's recent performances, especially against Croatia (M22) and Ghana (M45), demonstrate their offensive firepower (xG of 3.33 and 1.78 respectively) and dominance in possession. Panama, on the other hand, has struggled offensively, with an xG of 0.77 against Ghana (M21) and 0.69 against Croatia (M46). The odds for England (1.15) reflect their overwhelming favoritism, and their ability to control games makes this a low-risk, high-confidence bet. Allocating the maximum stake here to capitalize on the near-certainty of an England win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 66,
-        "won": 43,
+        "totalBets": 68,
+        "won": 45,
         "lost": 23,
         "void": 0,
-        "totalStake": 59061.12,
-        "totalReturn": -800.5249000000011,
-        "roi": -0.01355417743517226,
-        "avgOdds": 1.6169696969696967,
+        "totalStake": 61067.04,
+        "totalReturn": 172.34629999999893,
+        "roi": 0.002822247484076499,
+        "avgOdds": 1.6130882352941174,
         "recentBets": [
-          {
-            "id": "0ed0233bddc4eafc8507f86a9c17b998:Baseline",
-            "date": "2026-06-25T20:12:07.439Z",
-            "matchId": "0ed0233bddc4eafc8507f86a9c17b998",
-            "match": "Japan vs Sweden",
-            "homeTeam": "Japan",
-            "awayTeam": "Sweden",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1220.91,
-            "odds": 2,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
-          {
-            "id": "f3c4657daa143a0c5bd62cb370d01ce4:Baseline",
-            "date": "2026-06-25T20:12:07.439Z",
-            "matchId": "f3c4657daa143a0c5bd62cb370d01ce4",
-            "match": "Tunisia vs Netherlands",
-            "homeTeam": "Tunisia",
-            "awayTeam": "Netherlands",
-            "kickoff": "2026-06-25T23:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1220.91,
-            "odds": 1.1,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "22f6ac06dfcc88a847920f62633e6459:Baseline",
             "date": "2026-06-25T23:06:28.588Z",
@@ -11686,6 +11736,40 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "537c0997cd899394f47f16545b7068b2:Baseline",
+            "date": "2026-06-27T18:03:28.142Z",
+            "matchId": "537c0997cd899394f47f16545b7068b2",
+            "match": "Croatia vs Ghana",
+            "homeTeam": "Croatia",
+            "awayTeam": "Ghana",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1002.96,
+            "odds": 1.83,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
+          },
+          {
+            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Baseline",
+            "date": "2026-06-27T18:03:28.142Z",
+            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
+            "match": "Panama vs England",
+            "homeTeam": "Panama",
+            "awayTeam": "England",
+            "kickoff": "2026-06-27T21:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1002.96,
+            "odds": 1.14,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       }
