@@ -256,6 +256,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 5004.87
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 5180.67
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 4530.67
       }
     ],
     "GPT-5.5": [
@@ -514,6 +522,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 96.29
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 85.27
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 74.25
       }
     ],
     "Gemini": [
@@ -772,6 +788,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 3769.61
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 3905.69
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 3149.67
       }
     ],
     "Grok": [
@@ -1030,6 +1054,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 2484.84
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 2580.79
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 2080.79
       }
     ],
     "DeepSeek": [
@@ -1288,6 +1320,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 1630.65
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 1668.9
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 1456.38
       }
     ],
     "Mistral": [
@@ -1546,6 +1586,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 1409.97
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 1440.45
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 1290.45
       }
     ],
     "Baseline": [
@@ -1804,6 +1852,14 @@
       {
         "t": "2026-06-27T03:03:26.039Z",
         "bankroll": 10954.39
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 11157.39
+      },
+      {
+        "t": "2026-06-27T06:11:09.870Z",
+        "bankroll": 10029.61
       }
     ]
   },
@@ -9402,7 +9458,9 @@
       "stake": 1127.78,
       "odds": 1.18,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:Baseline",
@@ -9417,7 +9475,9 @@
       "stake": 1127.78,
       "odds": 2.65,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:Claude",
@@ -9432,7 +9492,9 @@
       "stake": 976.66,
       "odds": 1.18,
       "reasoning": "Belgium are clearly the class of this group. Their data is dominant: 1.48 xG and 23 shots vs Iran, 181 final-third receptions and 106 line breaks vs Egypt. New Zealand drew Iran but got outplayed by Egypt (0.71 xG, lost 1-3). At 1.18 this is a strong favorite with the underlying numbers fully supporting it. Solid value play.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:Claude",
@@ -9447,7 +9509,9 @@
       "stake": 650,
       "odds": 2.64,
       "reasoning": "Egypt look the more dangerous side here. They held Belgium to a 1-1 and beat New Zealand 3-1 with 2.10 xG. Iran were thoroughly dominated by Belgium (0.48 xG, just 7 shots) and only managed a draw against NZ. Egypt at home odds of 2.64 offers good value against an Iran side that struggles to create. Moderate stake given the inherent variance of a near-coinflip-priced match.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:GPT-5.5",
@@ -9462,7 +9526,9 @@
       "stake": 11.02,
       "odds": 8,
       "reasoning": "Belgium are clearly the better side and the odds say that, but at 1.18 the away price does nothing for my tournament position. Belgium have already drawn twice despite strong territorial numbers, so the finishing/low-scoring risk is real. New Zealand showed they can create shots against Iran, and the draw at 8.0 is the best upset route with meaningful upside.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:GPT-5.5",
@@ -9477,7 +9543,9 @@
       "stake": 11.02,
       "odds": 2.64,
       "reasoning": "Odds make this fairly close, but Egypt look the stronger side on the reports: they beat New Zealand 3-1 with a clear xG edge and also competed well with Belgium through pressure and shot volume. Iran have been resilient, but Belgium held them to very little attacking output. At 2.64, Egypt are my preferred side and I need to press the edge.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:Gemini",
@@ -9492,7 +9560,9 @@
       "stake": 756.02,
       "odds": 1.18,
       "reasoning": "Belgium has dominated their previous matches in terms of possession and final-third entries, despite underperforming their xG (1.48 vs Iran, 1.07 vs Egypt). New Zealand has shown defensive vulnerabilities, conceding 5 goals across two games and allowing high xG to both Iran and Egypt. Belgium's class should easily prevail here as they look to secure qualification.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:Gemini",
@@ -9507,7 +9577,9 @@
       "stake": 756.02,
       "odds": 2.64,
       "reasoning": "Egypt has been the much more impressive side in this group. They comfortably dispatched New Zealand 3-1 (generating 2.10 xG) and earned a respectable 1-1 draw against Belgium. Iran, on the other hand, was heavily outplayed by Belgium (conceding 1.48 xG while generating only 0.48) and struggled to a 2-2 draw with New Zealand. Egypt's superior attacking threat and solid structure make them excellent value at 2.64.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:Grok",
@@ -9522,7 +9594,9 @@
       "stake": 533.05,
       "odds": 1.18,
       "reasoning": "Belgium heavily favored at 1.18; reports show them dominating Iran (M39) while New Zealand only drew Iran and lost to Egypt. Low odds but highest conviction pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:Grok",
@@ -9537,7 +9611,9 @@
       "stake": 500,
       "odds": 2.64,
       "reasoning": "Egypt looks stronger per reports (beat NZ convincingly in M40, drew Belgium in M16) vs Iran's poor showing vs Belgium. Stake moderate given close odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:DeepSeek",
@@ -9552,7 +9628,9 @@
       "stake": 212.52,
       "odds": 1.18,
       "reasoning": "Belgium is a powerhouse, dominating xG in previous matches (1.48 vs Iran, 1.07 vs Egypt). New Zealand lost 3-1 to Egypt and allowed 2.10 xG. With odds 1.18, a Belgium win is highly probable and a safe way to increase bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:DeepSeek",
@@ -9567,7 +9645,9 @@
       "stake": 212.52,
       "odds": 2.64,
       "reasoning": "Egypt defeated New Zealand 3-1 (2.10 xG) and held Belgium to a draw. Iran struggled offensively, scoring only twice across two games with 0.48 xG against Belgium. Egypt's home edge and superior attacking output make the 2.64 odds attractive.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "581691da05dcd75b5c6d3be91ee9d2ab:Mistral",
@@ -9582,7 +9662,9 @@
       "stake": 169.34,
       "odds": 1.18,
       "reasoning": "Belgium is a clear favorite here with odds of 1.18, reflecting their superior quality and recent performances. The FIFA reports show Belgium dominating Iran in possession (59.2%-30.2%), final-third receptions (267-46), and line breaks (120-40) in their last match, despite a 0-0 draw. New Zealand, while resilient, were outclassed by Egypt in their last match (xG 0.71-2.10) and struggled against Iran (xG 1.47-1.85). Belgium's attacking prowess and consistency make them the safest bet, even at short odds. Allocating the maximum stake here to capitalize on the high probability of a Belgium win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-5"
     },
     {
       "id": "3e3b5fa2b3c963e74cf044c60db0b573:Mistral",
@@ -9597,13 +9679,15 @@
       "stake": 150,
       "odds": 3.48,
       "reasoning": "Iran's odds of 3.48 are attractive given their recent performances and underlying metrics. In their draw against Belgium, Iran were defensively solid (xG conceded 1.48) despite being outplayed in possession and territory. Against New Zealand, they created more chances (xG 1.85) and had competitive possession (43.3%-45.3%). Egypt, while strong against New Zealand (xG 2.10), struggled to break down Belgium (xG 0.73) and were outplayed in key metrics like final-third receptions (96 vs Belgium's 181). Iran's resilience and ability to create chances against stronger teams make them a value pick here, especially with the higher odds. Staking a moderate amount to balance risk and reward.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-27T02:12:21.908Z",
-    "lastSettleRun": "2026-06-27T03:03:26.039Z",
+    "lastSettleRun": "2026-06-27T06:11:09.870Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -9699,49 +9783,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 64,
-        "won": 41,
-        "lost": 23,
+        "totalBets": 66,
+        "won": 42,
+        "lost": 24,
         "void": 0,
-        "totalStake": 69736.49,
-        "totalReturn": -5905.4439,
-        "roi": -0.08468226462215118,
-        "avgOdds": 1.6175000000000004,
+        "totalStake": 71363.15000000001,
+        "totalReturn": -6379.645100000001,
+        "roi": -0.08939691002989639,
+        "avgOdds": 1.626363636363637,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:Claude",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 2047.88,
-            "odds": 1.17,
-            "reasoning": "Ivory Coast at 1.17 is a heavy favorite and rightly so. Curaçao got demolished 7-1 by Germany and managed just 0.40 and 0.63 xG in their two reports, while CIV beat Ecuador and pushed Germany hard. The odds imply ~85% and the underlying data fully supports it. Solid value at a strong stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Claude",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1700,
-            "odds": 1.63,
-            "reasoning": "Germany at 1.63 is well-priced. They've already produced 4.17 and 2.47 xG in their reports, beating both other teams in this slate. Ecuador lost 1-0 to CIV with lower xG and only drew Curaçao 0-0 despite 2.76 xG, showing finishing problems. Germany's quality edge is clear; backing them with moderate-high confidence.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:Claude",
             "date": "2026-06-25T22:35:46.963Z",
@@ -9877,54 +9927,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Claude",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 976.66,
+            "odds": 1.18,
+            "reasoning": "Belgium are clearly the class of this group. Their data is dominant: 1.48 xG and 23 shots vs Iran, 181 final-third receptions and 106 line breaks vs Egypt. New Zealand drew Iran but got outplayed by Egypt (0.71 xG, lost 1-3). At 1.18 this is a strong favorite with the underlying numbers fully supporting it. Solid value play.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Claude",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 650,
+            "odds": 2.64,
+            "reasoning": "Egypt look the more dangerous side here. They held Belgium to a 1-1 and beat New Zealand 3-1 with 2.10 xG. Iran were thoroughly dominated by Belgium (0.48 xG, just 7 shots) and only managed a draw against NZ. Egypt at home odds of 2.64 offers good value against an Iran side that struggles to create. Moderate stake given the inherent variance of a near-coinflip-priced match.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 64,
+        "totalBets": 66,
         "won": 24,
-        "lost": 40,
+        "lost": 42,
         "void": 0,
-        "totalStake": 23812.68,
-        "totalReturn": -10032.795600000007,
-        "roi": -0.42132156481336863,
-        "avgOdds": 4.082343750000001,
+        "totalStake": 23834.72,
+        "totalReturn": -10054.835600000008,
+        "roi": -0.421856669597965,
+        "avgOdds": 4.119848484848485,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:GPT-5.5",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 23.4,
-            "odds": 8,
-            "reasoning": "Ivory Coast are clearly the better side and the odds say that too, but 1.17 does almost nothing for a bankroll this small. Curaçao were battered by Germany yet managed to drag Ecuador into a 0-0, so a low-block survival draw is at least plausible. I need upside, and 8.00 is the only price here that can materially help.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:GPT-5.5",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 23.4,
-            "odds": 4.63,
-            "reasoning": "Germany are the strongest team in the group, but Ecuador's underlying numbers have been better than their results, especially the 2.76 xG in the 0-0 with Curaçao. Germany may not need to force the match state if qualification/top spot is under control, while Ecuador need a result. At 4.63, the draw is the variance play I need rather than taking a short favorite.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:GPT-5.5",
             "date": "2026-06-25T22:35:46.963Z",
@@ -10060,54 +10110,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:GPT-5.5",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 11.02,
+            "odds": 8,
+            "reasoning": "Belgium are clearly the better side and the odds say that, but at 1.18 the away price does nothing for my tournament position. Belgium have already drawn twice despite strong territorial numbers, so the finishing/low-scoring risk is real. New Zealand showed they can create shots against Iran, and the draw at 8.0 is the best upset route with meaningful upside.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:GPT-5.5",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 11.02,
+            "odds": 2.64,
+            "reasoning": "Odds make this fairly close, but Egypt look the stronger side on the reports: they beat New Zealand 3-1 with a clear xG edge and also competed well with Belgium through pressure and shot volume. Iran have been resilient, but Belgium held them to very little attacking output. At 2.64, Egypt are my preferred side and I need to press the edge.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 64,
-        "won": 41,
-        "lost": 23,
+        "totalBets": 66,
+        "won": 42,
+        "lost": 24,
         "void": 0,
-        "totalStake": 42469.37,
-        "totalReturn": -6520.139300000001,
-        "roi": -0.1535256892202545,
-        "avgOdds": 1.6709375,
+        "totalStake": 43981.409999999996,
+        "totalReturn": -7140.075700000001,
+        "roi": -0.16234303766068442,
+        "avgOdds": 1.6781818181818182,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:Gemini",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 713.33,
-            "odds": 1.17,
-            "reasoning": "Ivory Coast is a vastly superior side compared to Curaçao, who were heavily outplayed in their previous matches (conceding 7 goals to Germany and allowing 27 shots against Ecuador). Ivory Coast's narrow 1-0 win over Ecuador and competitive showing against Germany (2-1 loss) indicate they should comfortably handle Curaçao. The 1.17 odds represent a highly secure, albeit low-yield, opportunity to build bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Gemini",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 713.33,
-            "odds": 1.63,
-            "reasoning": "Germany has been the standout team in this group, dominant in possession and highly clinical, scoring 9 goals across two matches with strong underlying xG numbers (4.17 vs Curaçao, 2.47 vs Ivory Coast). Ecuador, on the other hand, has struggled to find the back of the net, failing to score against both Ivory Coast and Curaçao despite dominating possession in the latter. Germany's superior attacking quality makes them strong favorites to win this match at attractive 1.63 odds.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:Gemini",
             "date": "2026-06-25T22:35:46.963Z",
@@ -10243,54 +10293,54 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Gemini",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 756.02,
+            "odds": 1.18,
+            "reasoning": "Belgium has dominated their previous matches in terms of possession and final-third entries, despite underperforming their xG (1.48 vs Iran, 1.07 vs Egypt). New Zealand has shown defensive vulnerabilities, conceding 5 goals across two games and allowing high xG to both Iran and Egypt. Belgium's class should easily prevail here as they look to secure qualification.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Gemini",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 756.02,
+            "odds": 2.64,
+            "reasoning": "Egypt has been the much more impressive side in this group. They comfortably dispatched New Zealand 3-1 (generating 2.10 xG) and earned a respectable 1-1 draw against Belgium. Iran, on the other hand, was heavily outplayed by Belgium (conceding 1.48 xG while generating only 0.48) and struggled to a 2-2 draw with New Zealand. Egypt's superior attacking threat and solid structure make them excellent value at 2.64.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 64,
-        "won": 40,
-        "lost": 24,
+        "totalBets": 66,
+        "won": 41,
+        "lost": 25,
         "void": 0,
-        "totalStake": 78466.12000000005,
-        "totalReturn": -7979.978799999997,
-        "roi": -0.10169967369356343,
-        "avgOdds": 1.6932812499999998,
+        "totalStake": 79499.17000000006,
+        "totalReturn": -8384.029799999997,
+        "roi": -0.1054605953747692,
+        "avgOdds": 1.6998484848484847,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:Grok",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1164.41,
-            "odds": 1.17,
-            "reasoning": "Ivory Coast dominated Ecuador and Germany in prior matches per xG/underlying metrics; Curaçao is clearly the weakest side here and the 1.17 away price is the highest-confidence bet on the slate.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Grok",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1164.41,
-            "odds": 1.63,
-            "reasoning": "Germany's underlying dominance (high xG, progression numbers) versus both Ecuador and Curaçao makes them the clear favorite; 1.63 is still value given the gap in quality.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:Grok",
             "date": "2026-06-25T22:35:46.963Z",
@@ -10426,54 +10476,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Grok",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 533.05,
+            "odds": 1.18,
+            "reasoning": "Belgium heavily favored at 1.18; reports show them dominating Iran (M39) while New Zealand only drew Iran and lost to Egypt. Low odds but highest conviction pick.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Grok",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 500,
+            "odds": 2.64,
+            "reasoning": "Egypt looks stronger per reports (beat NZ convincingly in M40, drew Belgium in M16) vs Iran's poor showing vs Belgium. Stake moderate given close odds.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 64,
-        "won": 39,
-        "lost": 25,
+        "totalBets": 66,
+        "won": 40,
+        "lost": 26,
         "void": 0,
-        "totalStake": 33185.38999999999,
-        "totalReturn": -8489.3709,
-        "roi": -0.2558165174493957,
-        "avgOdds": 1.9031250000000002,
+        "totalStake": 33610.429999999986,
+        "totalReturn": -8663.6373,
+        "roi": -0.25776633324834,
+        "avgOdds": 1.9033333333333335,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:DeepSeek",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 248.15,
-            "odds": 1.17,
-            "reasoning": "Ivory Coast is heavily favored with odds 1.17, based on head-to-head transitive results: Ivory Coast beat Ecuador 1-0, while Ecuador failed to beat Curaçao (0-0). Curaçao also lost 7-1 to Germany, whereas Ivory Coast kept it close (2-1). All reports indicate large quality gap, away win almost a certainty.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:DeepSeek",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 248.15,
-            "odds": 1.63,
-            "reasoning": "Germany away at 1.63 is strong value given their dominant performances: 7-1 over Curaçao, 2-1 over Ivory Coast with xG 2.47. Ecuador couldn't score against Curaçao (xG 2.76 but 0-0) and lost 0-1 to Ivory Coast. Germany should win comfortably.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:DeepSeek",
             "date": "2026-06-25T22:35:46.963Z",
@@ -10609,54 +10659,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:DeepSeek",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 212.52,
+            "odds": 1.18,
+            "reasoning": "Belgium is a powerhouse, dominating xG in previous matches (1.48 vs Iran, 1.07 vs Egypt). New Zealand lost 3-1 to Egypt and allowed 2.10 xG. With odds 1.18, a Belgium win is highly probable and a safe way to increase bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:DeepSeek",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 212.52,
+            "odds": 2.64,
+            "reasoning": "Egypt defeated New Zealand 3-1 (2.10 xG) and held Belgium to a draw. Iran struggled offensively, scoring only twice across two games with 0.48 xG against Belgium. Egypt's home edge and superior attacking output make the 2.64 odds attractive.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 64,
-        "won": 41,
-        "lost": 23,
+        "totalBets": 66,
+        "won": 42,
+        "lost": 24,
         "void": 0,
-        "totalStake": 35738.689999999995,
-        "totalReturn": -8839.502499999997,
-        "roi": -0.24733705964040648,
-        "avgOdds": 1.65578125,
+        "totalStake": 36058.02999999999,
+        "totalReturn": -8959.021299999997,
+        "roi": -0.24846119713140177,
+        "avgOdds": 1.6762121212121213,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:Mistral",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 397.08,
-            "odds": 1.17,
-            "reasoning": "The odds for Ivory Coast (away) at 1.17 are extremely low, suggesting they are heavy favorites. The FIFA training reports show that Ivory Coast has been competitive against strong teams like Ecuador and Germany, with decent xG and shot numbers. Curaçao, on the other hand, was demolished 7-1 by Germany and struggled in their draw against Ecuador, with very low xG (0.40 and 0.63) and poor possession stats. Even though the odds are low, the risk-reward here is favorable given Curaçao's clear weaknesses and Ivory Coast's relative strength. Betting the maximum stake on the away team (Ivory Coast) is the safest play here.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Mistral",
-            "date": "2026-06-25T19:38:46.708Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 397.08,
-            "odds": 1.63,
-            "reasoning": "Germany is one of the tournament favorites, and the odds (1.63) reflect that. The FIFA training reports show Germany dominating Curaçao (7-1) and narrowly beating Ivory Coast (2-1), with strong xG, possession, and final-third reception numbers. Ecuador, while competitive against Ivory Coast, had a lower xG (1.36) and struggled to convert chances. Their draw against Curaçao (0-0) was more about Curaçao's defensive setup than Ecuador's attacking prowess. Germany's consistency and attacking firepower make them the clear pick here, and I'm allocating the maximum stake to reflect high confidence.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:Mistral",
             "date": "2026-06-25T22:35:46.963Z",
@@ -10792,54 +10842,54 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Mistral",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 169.34,
+            "odds": 1.18,
+            "reasoning": "Belgium is a clear favorite here with odds of 1.18, reflecting their superior quality and recent performances. The FIFA reports show Belgium dominating Iran in possession (59.2%-30.2%), final-third receptions (267-46), and line breaks (120-40) in their last match, despite a 0-0 draw. New Zealand, while resilient, were outclassed by Egypt in their last match (xG 0.71-2.10) and struggled against Iran (xG 1.47-1.85). Belgium's attacking prowess and consistency make them the safest bet, even at short odds. Allocating the maximum stake here to capitalize on the high probability of a Belgium win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Mistral",
+            "date": "2026-06-27T02:12:21.908Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 150,
+            "odds": 3.48,
+            "reasoning": "Iran's odds of 3.48 are attractive given their recent performances and underlying metrics. In their draw against Belgium, Iran were defensively solid (xG conceded 1.48) despite being outplayed in possession and territory. Against New Zealand, they created more chances (xG 1.85) and had competitive possession (43.3%-45.3%). Egypt, while strong against New Zealand (xG 2.10), struggled to break down Belgium (xG 0.73) and were outplayed in key metrics like final-third receptions (96 vs Belgium's 181). Iran's resilience and ability to create chances against stronger teams make them a value pick here, especially with the higher odds. Staking a moderate amount to balance risk and reward.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 64,
-        "won": 42,
-        "lost": 22,
+        "totalBets": 66,
+        "won": 43,
+        "lost": 23,
         "void": 0,
-        "totalStake": 56805.560000000005,
-        "totalReturn": 124.25469999999893,
-        "roi": 0.0021873686308171054,
-        "avgOdds": 1.6076562499999996,
+        "totalStake": 59061.12,
+        "totalReturn": -800.5249000000011,
+        "roi": -0.01355417743517226,
+        "avgOdds": 1.6169696969696967,
         "recentBets": [
-          {
-            "id": "a5a0b544a984ab16e564264f3e859b43:Baseline",
-            "date": "2026-06-25T17:12:05.909Z",
-            "matchId": "a5a0b544a984ab16e564264f3e859b43",
-            "match": "Curaçao vs Ivory Coast",
-            "homeTeam": "Curaçao",
-            "awayTeam": "Ivory Coast",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1220.91,
-            "odds": 1.17,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
-          {
-            "id": "0ec28b84ec399bd4dffbe8d1bc72b3c4:Baseline",
-            "date": "2026-06-25T17:12:05.909Z",
-            "matchId": "0ec28b84ec399bd4dffbe8d1bc72b3c4",
-            "match": "Ecuador vs Germany",
-            "homeTeam": "Ecuador",
-            "awayTeam": "Germany",
-            "kickoff": "2026-06-25T20:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1220.91,
-            "odds": 1.57,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "0ed0233bddc4eafc8507f86a9c17b998:Baseline",
             "date": "2026-06-25T20:12:07.439Z",
@@ -10975,6 +11025,40 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Baseline",
+            "date": "2026-06-27T00:12:12.497Z",
+            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
+            "match": "New Zealand vs Belgium",
+            "homeTeam": "New Zealand",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1127.78,
+            "odds": 1.18,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-5"
+          },
+          {
+            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Baseline",
+            "date": "2026-06-27T00:12:12.497Z",
+            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
+            "match": "Egypt vs Iran",
+            "homeTeam": "Egypt",
+            "awayTeam": "Iran",
+            "kickoff": "2026-06-27T03:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1127.78,
+            "odds": 2.65,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       }
