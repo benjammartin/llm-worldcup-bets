@@ -10748,6 +10748,12 @@
         "homeTeam": "Brazil",
         "awayTeam": "Japan",
         "kickoff": "2026-06-29T17:00:00Z"
+      },
+      {
+        "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+        "homeTeam": "Germany",
+        "awayTeam": "Paraguay",
+        "kickoff": "2026-06-29T20:30:00Z"
       }
     ],
     "liveMatches": [],
