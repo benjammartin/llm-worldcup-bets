@@ -10582,7 +10582,7 @@
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:Claude",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10590,14 +10590,14 @@
       "kickoff": "2026-06-28T19:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 1100,
-      "odds": 1.67,
-      "reasoning": "Canada is the stronger side across every report - 6-0 demolition of Qatar (3.90 xG), 1.49 xG vs Bosnia, and competitive in defeat to Switzerland. South Africa has a low attacking ceiling, lost to Mexico and was outplayed often. 1.67 on the better team with supporting underlying numbers is solid value.",
+      "stake": 1000,
+      "odds": 1.71,
+      "reasoning": "Canada has been the more dangerous attacking team across this slate — a 6-0 demolition of Qatar (3.90 xG, 33 shots), a controlling draw vs Bosnia, and even in their loss to Switzerland they outshot the opponent 13-6 with strong final-third penetration. South Africa, by contrast, posted a dismal 0.10 xG against Mexico and tends to absorb pressure rather than create. Their results (1-0 Korea, 1-1 Czechia) came on resilience more than dominance. At 1.71 Canada offers fair value as the superior side, and the qualitative reports back the odds. Sizing moderately at ~17% of bankroll given it's a single-match slate and one-sided bets carry variance.",
       "status": "pending"
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:GPT-5.5",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10606,13 +10606,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 9.71,
-      "odds": 1.67,
-      "reasoning": "Canada are the clear odds-side and the reports support that: they have consistently created good volume/chance quality, including 3.90 xG vs Qatar and a competitive 1.61 xG/13-shot performance in the Switzerland loss. South Africa improved after the Mexico match, but Canada look more reliable going forward and 1.67 is the best probability anchor here. Max stake.",
+      "odds": 1.71,
+      "reasoning": "Odds make Canada the clear favorite and the match reports support that: Canada have consistently produced strong attacking volume, including 1.49 xG vs Bosnia, 3.90 xG vs Qatar, and a competitive 1.61 xG/13-shot performance against Switzerland. South Africa improved after the Mexico opener and were solid vs Czechia/Korea, but Canada look more reliable chance creators. At 1.71 I’ll take the favorite for the max allowed stake.",
       "status": "pending"
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:Gemini",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10621,13 +10621,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 927.18,
-      "odds": 1.67,
-      "reasoning": "Canada enters this Round of 32 matchup as the clear favorite, and the underlying metrics strongly support this. Throughout the group stage, Canada demonstrated a highly potent attack, generating 1.49 xG against Bosnia, 3.90 xG against Qatar, and 1.61 xG against Switzerland. Even in their close 2-1 loss to Switzerland, Canada matched them in terms of chances and shots. South Africa, on the other hand, has struggled to create high-quality chances, registering just 0.10 xG against Mexico and 0.89 xG in their fortunate 1-0 win over Korea Republic, where they were heavily dominated in possession and final-third entries. Canada's superior offensive depth and transition speed should prove too much for South Africa's defensive structure. We are backing Canada to win in regular time with a maximum stake.",
+      "odds": 1.71,
+      "reasoning": "Canada has shown impressive underlying offensive metrics throughout the tournament, racking up high xG values in their matches (1.49 against Bosnia, 3.90 against Qatar, and 1.61 against Switzerland). While South Africa managed a solid 1-0 win against Korea Republic, their attacking output has been inconsistent. Canada's superior final-third penetration and overall team quality make them strong favorites here, and the odds of 1.71 represent good value.",
       "status": "pending"
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:Grok",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10636,13 +10636,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 397.21,
-      "odds": 1.67,
-      "reasoning": "Canada's underlying metrics and results (dominant 6-0 vs Qatar, competitive vs Switzerland/Bosnia) point to clear superiority over South Africa, whose xG and progression numbers have been poor against stronger sides. The 1.67 away price offers solid value given the gap in form and squad quality.",
+      "odds": 1.71,
+      "reasoning": "Canada's recent performances show superior attacking output and control (xG 3.90 vs Qatar, strong metrics vs Bosnia), while South Africa has struggled offensively against better sides (xG 0.10 vs Mexico). Odds correctly price Canada as clear favorite; staking max on away win.",
       "status": "pending"
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:DeepSeek",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10651,13 +10651,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 288.27,
-      "odds": 1.67,
-      "reasoning": "Canada's attacking output has been consistently strong: 3.90 xG against Qatar, 1.61 xG vs Switzerland, and a solid 1.49 xG vs Bosnia. They generate high shot volumes (33 vs Qatar, 13 vs Switzerland) and have reliable final-third entries (103 vs Switzerland, 143 vs Bosnia). South Africa's defense limited Korea Republic but leaked 1.78 xG to Mexico and 1.34 xG to Czechia. Their possession rarely exceeds 40%, and they struggle to threaten the final third (36 receptions vs Mexico). At odds of 1.67 (~60% implied probability), Canada offers value and aligns with a clear talent and tactical gap. I'm confident enough to stake the maximum allowed 25% of bankroll.",
+      "odds": 1.71,
+      "reasoning": "Canada have shown strong form, narrowly losing to Switzerland and dominating Qatar. South Africa struggled to create chances against Mexico (0.10 xG) and rely on defensive counters. The odds imply Canada are clear favorites, and the match reports support their superior quality. Backing an away win.",
       "status": "pending"
     },
     {
       "id": "def55b09ef3d6854e3c01e74b5c63415:Mistral",
-      "date": "2026-06-28T16:38:35.504Z",
+      "date": "2026-06-28T17:08:53.039Z",
       "matchId": "def55b09ef3d6854e3c01e74b5c63415",
       "match": "South Africa vs Canada",
       "homeTeam": "South Africa",
@@ -10666,14 +10666,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 220.34,
-      "odds": 1.67,
-      "reasoning": "Canada's recent performances show they are the stronger side despite the draw against Bosnia and Herzegovina. Their 6-0 demolition of Qatar (xG 3.90-0.20) and competitive showing against Switzerland (xG 1.61-1.68) highlight their attacking prowess and ability to control games. South Africa, while resilient (e.g., 1-0 win over Korea Republic), have struggled against stronger teams (2-0 loss to Mexico, 1-1 draw with Czechia) and show defensive vulnerabilities. The odds heavily favor Canada (1.67), and their recent form and underlying metrics (higher final-third receptions, line breaks, and progressions) suggest they are the safer bet. Allocating the maximum stake here due to high confidence in the value.",
+      "odds": 1.71,
+      "reasoning": "Canada has shown strong offensive capabilities in recent matches, particularly against Qatar (6-0 win with xG 3.90) and Bosnia (1-1 draw with xG 1.49). While they struggled slightly against Switzerland (2-1 loss), their xG was still competitive (1.61). South Africa, on the other hand, has been inconsistent: a narrow 1-0 win over Korea Republic (xG 0.89-0.74) but a 2-0 loss to Mexico (xG 0.10) and a 1-1 draw with Czechia (xG 1.34). South Africa's possession stats are poor (30.3%-36.1% in recent matches), and their defensive metrics (pressures, line breaks) are weaker than Canada's. The odds heavily favor Canada (1.71), which aligns with their recent form and underlying stats. Betting the maximum stake on Canada to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-28T16:38:35.504Z",
+    "lastBetsRun": "2026-06-28T17:08:53.039Z",
     "lastSettleRun": "2026-06-28T05:01:50.737Z",
     "failures": [
       {
@@ -10748,6 +10748,12 @@
         "homeTeam": "South Africa",
         "awayTeam": "Canada",
         "kickoff": "2026-06-28T19:00:00Z"
+      },
+      {
+        "matchId": "4f3d72fba877939d36a5315618184093",
+        "homeTeam": "Brazil",
+        "awayTeam": "Japan",
+        "kickoff": "2026-06-29T17:00:00Z"
       }
     ],
     "liveMatches": [],
