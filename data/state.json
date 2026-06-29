@@ -10796,6 +10796,12 @@
         "homeTeam": "Germany",
         "awayTeam": "Paraguay",
         "kickoff": "2026-06-29T20:30:00Z"
+      },
+      {
+        "matchId": "5a34afe2de99513ba48360b983cfe80c",
+        "homeTeam": "Netherlands",
+        "awayTeam": "Morocco",
+        "kickoff": "2026-06-30T01:00:00Z"
       }
     ],
     "liveMatches": [],
