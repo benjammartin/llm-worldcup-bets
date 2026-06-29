@@ -292,6 +292,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 6541.95
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 7261.95
       }
     ],
     "GPT-5.5": [
@@ -586,6 +590,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 64.14
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 73.03
       }
     ],
     "Gemini": [
@@ -880,6 +888,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 5440.46
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 6310.98
       }
     ],
     "Grok": [
@@ -1174,6 +1186,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 2318.53
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 2689.67
       }
     ],
     "DeepSeek": [
@@ -1468,6 +1484,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 1773.32
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 2013.32
       }
     ],
     "Mistral": [
@@ -1762,6 +1782,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 1353.7
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 1558.07
       }
     ],
     "Baseline": [
@@ -2056,6 +2080,10 @@
       {
         "t": "2026-06-28T21:22:12.979Z",
         "bankroll": 12713.49
+      },
+      {
+        "t": "2026-06-29T20:11:11.638Z",
+        "bankroll": 13654.29
       }
     ]
   },
@@ -10725,7 +10753,9 @@
       "stake": 1271.35,
       "odds": 1.74,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:Claude",
@@ -10740,7 +10770,9 @@
       "stake": 900,
       "odds": 1.8,
       "reasoning": "Brazil's attacking output (3.78 xG vs Scotland, dominant line breaks) outclasses Japan's defensive resume, and 1.8 home odds offer fair value at ~55% implied. Japan is genuinely solid (4-0 Tunisia, draws with NED/SWE), so the draw and away are live enough that I keep stake moderate rather than maximal. Brazil at home with their ceiling should edge this.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:GPT-5.5",
@@ -10755,7 +10787,9 @@
       "stake": 11.11,
       "odds": 1.8,
       "reasoning": "Brazil at 1.80 is the strongest odds signal on the slate and looks like the right side. The FIFA reports back that up qualitatively: Brazil have been improving, especially the 3-0 over Scotland with a huge 3.78 xG and 21 shots, while Japan have been organized and competitive but not consistently creating at Brazil's level. Japan are live enough to make this uncomfortable, but I price Brazil a bit higher than the market-implied probability, so I am staking the match maximum.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:Gemini",
@@ -10770,7 +10804,9 @@
       "stake": 1088.15,
       "odds": 1.8,
       "reasoning": "Brazil's performance has been on an upward trajectory, culminating in a dominant 3-0 victory over Scotland where they accumulated an impressive 3.78 xG and 21 shots. While Japan has shown resilience with draws against the Netherlands and Sweden, Brazil's elite technical quality and offensive momentum make them strong favorites here. At 1.8 odds, backing a surging Brazilian side represents excellent value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:Grok",
@@ -10785,7 +10821,9 @@
       "stake": 463.92,
       "odds": 1.8,
       "reasoning": "Brazil's underlying metrics and results (dominant xG wins vs Scotland/Haiti) outweigh Japan's mixed performances; 1.8 offers fair value on the stronger side.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:DeepSeek",
@@ -10800,7 +10838,9 @@
       "stake": 300,
       "odds": 1.8,
       "reasoning": "Brazil’s recent performances show a potent attack – 3.78 xG against Scotland and 3-0 wins over Haiti and Scotland – while Japan have been resilient but reliant on counter-attacks (0.34 xG vs Netherlands). Brazil’s depth and quality should control possession and break down Japan’s organised defence. The odds of 1.80 imply a 55.6% chance; I rate Brazil’s true win probability closer to 62%, giving a small edge. I’m staking $300 (below the $443 cap) to balance risk with the need to rebuild my bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4f3d72fba877939d36a5315618184093:Mistral",
@@ -10815,7 +10855,9 @@
       "stake": 255.46,
       "odds": 1.8,
       "reasoning": "Brazil has shown strong offensive capabilities in their recent matches, particularly against Scotland (3-0) and Haiti (3-0), with high xG and shot dominance. While their possession and final-third metrics are mixed, their clinical finishing and ability to break down defenses (evidenced by line breaks and progressions) make them a formidable side. Japan, though resilient, has struggled against stronger teams (e.g., 1-1 vs Sweden, 2-2 vs Netherlands) and was dominated by Tunisia in possession and xG despite winning 4-0. The odds favor Brazil (1.8), which aligns with their recent form and underlying stats. The stake reflects high confidence given the value and Brazil's tournament pedigree.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Baseline",
@@ -10926,7 +10968,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-29T20:02:56.739Z",
-    "lastSettleRun": "2026-06-28T21:22:12.979Z",
+    "lastSettleRun": "2026-06-29T20:11:11.638Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -11019,32 +11061,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 73,
-        "won": 48,
+        "totalBets": 74,
+        "won": 49,
         "lost": 25,
         "void": 0,
-        "totalStake": 76778.36000000002,
-        "totalReturn": -4368.363600000001,
-        "roi": -0.05689576594238272,
-        "avgOdds": 1.6280821917808224,
+        "totalStake": 77678.36000000002,
+        "totalReturn": -3648.3636000000006,
+        "roi": -0.046967567286436016,
+        "avgOdds": 1.6304054054054058,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Claude",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 976.66,
-            "odds": 1.66,
-            "reasoning": "Spain is clearly the best team in this slate — 3.20 and 2.26 xG, total possession and shot dominance in both matches. Uruguay underwhelmed against weaker sides (drew Cape Verde, drew Saudi with poor numbers). At 1.66 this is value and my top pick. Max stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:Claude",
             "date": "2026-06-27T02:12:21.908Z",
@@ -11197,37 +11222,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:Claude",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 900,
+            "odds": 1.8,
+            "reasoning": "Brazil's attacking output (3.78 xG vs Scotland, dominant line breaks) outclasses Japan's defensive resume, and 1.8 home odds offer fair value at ~55% implied. Japan is genuinely solid (4-0 Tunisia, draws with NED/SWE), so the draw and away are live enough that I keep stake moderate rather than maximal. Brazil at home with their ceiling should edge this.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 73,
-        "won": 28,
+        "totalBets": 74,
+        "won": 29,
         "lost": 45,
         "void": 0,
-        "totalStake": 23912.360000000004,
-        "totalReturn": -10064.944400000008,
-        "roi": -0.42090970527375826,
-        "avgOdds": 4.071917808219178,
+        "totalStake": 23923.470000000005,
+        "totalReturn": -10056.056400000007,
+        "roi": -0.42034271784151733,
+        "avgOdds": 4.041216216216216,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:GPT-5.5",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 11.02,
-            "odds": 1.66,
-            "reasoning": "Spain are short, but the underlying reports strongly support them: they dominated Cape Verde despite the 0-0 and then crushed Saudi Arabia 4-0 with a huge xG edge. Uruguay have also produced chances, but they conceded draws to both Saudi Arabia and Cape Verde while Spain’s control metrics look clearly superior. Taking the best team on the slate even at 1.66.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:GPT-5.5",
             "date": "2026-06-27T02:12:21.908Z",
@@ -11380,37 +11405,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:GPT-5.5",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 11.11,
+            "odds": 1.8,
+            "reasoning": "Brazil at 1.80 is the strongest odds signal on the slate and looks like the right side. The FIFA reports back that up qualitatively: Brazil have been improving, especially the 3-0 over Scotland with a huge 3.78 xG and 21 shots, while Japan have been organized and competitive but not consistently creating at Brazil's level. Japan are live enough to make this uncomfortable, but I price Brazil a bit higher than the market-implied probability, so I am staking the match maximum.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 73,
-        "won": 48,
+        "totalBets": 74,
+        "won": 49,
         "lost": 25,
         "void": 0,
-        "totalStake": 48550.729999999996,
-        "totalReturn": -4849.299800000002,
-        "roi": -0.0998810893265663,
-        "avgOdds": 1.6749315068493151,
+        "totalStake": 49638.88,
+        "totalReturn": -3978.7798000000016,
+        "roi": -0.08015450388888713,
+        "avgOdds": 1.6766216216216216,
         "recentBets": [
-          {
-            "id": "e07b1926be5a4d515c7eb108dbcee9c5:Gemini",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "e07b1926be5a4d515c7eb108dbcee9c5",
-            "match": "Cape Verde vs Saudi Arabia",
-            "homeTeam": "Cape Verde",
-            "awayTeam": "Saudi Arabia",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 600,
-            "odds": 2.7,
-            "reasoning": "Cape Verde has shown impressive defensive resilience in this tournament, holding Spain to a goalless draw and earning a well-fought point against Uruguay. Saudi Arabia, on the other hand, was thoroughly outclassed by Spain (4-0) and has looked much more fragile at the back. Cape Verde's superior organization and discipline give them the edge in this crucial final group match.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:Gemini",
             "date": "2026-06-27T02:12:21.908Z",
@@ -11563,37 +11588,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:Gemini",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1088.15,
+            "odds": 1.8,
+            "reasoning": "Brazil's performance has been on an upward trajectory, culminating in a dominant 3-0 victory over Scotland where they accumulated an impressive 3.78 xG and 21 shots. While Japan has shown resilience with draws against the Netherlands and Sweden, Brazil's elite technical quality and offensive momentum make them strong favorites here. At 1.8 odds, backing a surging Brazilian side represents excellent value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 73,
-        "won": 46,
+        "totalBets": 74,
+        "won": 47,
         "lost": 27,
         "void": 0,
-        "totalStake": 82367.12000000008,
-        "totalReturn": -8146.281999999998,
-        "roi": -0.0989021104537829,
-        "avgOdds": 1.716986301369863,
+        "totalStake": 82831.04000000008,
+        "totalReturn": -7775.145999999998,
+        "roi": -0.09386754047757931,
+        "avgOdds": 1.7181081081081082,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Grok",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 533.05,
-            "odds": 1.66,
-            "reasoning": "Spain's xG and chance creation numbers dwarf Uruguay's in every comparable fixture; 1.66 is the clearest value on the slate given Spain's dominance.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:Grok",
             "date": "2026-06-27T02:12:21.908Z",
@@ -11746,37 +11771,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:Grok",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 463.92,
+            "odds": 1.8,
+            "reasoning": "Brazil's underlying metrics and results (dominant xG wins vs Scotland/Haiti) outweigh Japan's mixed performances; 1.8 offers fair value on the stronger side.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 73,
-        "won": 45,
+        "totalBets": 74,
+        "won": 46,
         "lost": 28,
         "void": 0,
-        "totalStake": 35322.36999999997,
-        "totalReturn": -8346.7022,
-        "roi": -0.23630074086195252,
-        "avgOdds": 1.8987671232876715,
+        "totalStake": 35622.36999999997,
+        "totalReturn": -8106.7022,
+        "roi": -0.22757335348546448,
+        "avgOdds": 1.8974324324324328,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:DeepSeek",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 212.52,
-            "odds": 1.66,
-            "reasoning": "Spain is significantly superior, dominant performances while Uruguay struggled to win against weaker sides. Away win at 1.66 is a strong favorite bet.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:DeepSeek",
             "date": "2026-06-27T02:12:21.908Z",
@@ -11929,37 +11954,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:DeepSeek",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 300,
+            "odds": 1.8,
+            "reasoning": "Brazil’s recent performances show a potent attack – 3.78 xG against Scotland and 3-0 wins over Haiti and Scotland – while Japan have been resilient but reliant on counter-attacks (0.34 xG vs Netherlands). Brazil’s depth and quality should control possession and break down Japan’s organised defence. The odds of 1.80 imply a 55.6% chance; I rate Brazil’s true win probability closer to 62%, giving a small edge. I’m staking $300 (below the $443 cap) to balance risk with the need to rebuild my bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 73,
-        "won": 47,
+        "totalBets": 74,
+        "won": 48,
         "lost": 26,
         "void": 0,
-        "totalStake": 37777.729999999996,
-        "totalReturn": -8895.770099999998,
-        "roi": -0.23547656516153825,
-        "avgOdds": 1.6958904109589044,
+        "totalStake": 38033.189999999995,
+        "totalReturn": -8691.402099999998,
+        "roi": -0.22852151239483195,
+        "avgOdds": 1.6972972972972975,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Mistral",
-            "date": "2026-06-26T23:46:47.515Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 169.34,
-            "odds": 1.66,
-            "reasoning": "Spain is the clear favorite here, and the odds (1.66) reflect that, but it's still a value bet. The post-match reports show Spain's dominance in possession, final-third receptions, and line breaks, even when they didn't score (e.g., 0-0 vs Cape Verde with 2.26 xG). Uruguay is a strong team, but their recent performances (1-1 vs Saudi Arabia, 2-2 vs Cape Verde) suggest they are vulnerable to high-pressing, possession-heavy teams like Spain. Spain's 4-0 demolition of Saudi Arabia (3.20 xG) further underscores their attacking prowess. The market is pricing Uruguay too generously (6.11 for a win), and even the draw (3.65) seems overpriced given Spain's consistency. I'm going all-in on Spain to win, as they are the most likely to dominate and convert their chances.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:Mistral",
             "date": "2026-06-27T02:12:21.908Z",
@@ -12112,37 +12137,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:Mistral",
+            "date": "2026-06-29T16:36:01.972Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 255.46,
+            "odds": 1.8,
+            "reasoning": "Brazil has shown strong offensive capabilities in their recent matches, particularly against Scotland (3-0) and Haiti (3-0), with high xG and shot dominance. While their possession and final-third metrics are mixed, their clinical finishing and ability to break down defenses (evidenced by line breaks and progressions) make them a formidable side. Japan, though resilient, has struggled against stronger teams (e.g., 1-1 vs Sweden, 2-2 vs Netherlands) and was dominated by Tunisia in possession and xG despite winning 4-0. The odds favor Brazil (1.8), which aligns with their recent form and underlying stats. The stake reflects high confidence given the value and Brazil's tournament pedigree.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 73,
-        "won": 49,
+        "totalBets": 74,
+        "won": 50,
         "lost": 24,
         "void": 0,
-        "totalStake": 66270.4,
-        "totalReturn": 1883.3582999999987,
-        "roi": 0.02841929881213934,
-        "avgOdds": 1.6208219178082188,
+        "totalStake": 67541.75,
+        "totalReturn": 2824.157299999999,
+        "roi": 0.041813504980252936,
+        "avgOdds": 1.6224324324324322,
         "recentBets": [
-          {
-            "id": "dcff2e31c0bce001a4db5caaf4fa8822:Baseline",
-            "date": "2026-06-26T21:04:37.250Z",
-            "matchId": "dcff2e31c0bce001a4db5caaf4fa8822",
-            "match": "Uruguay vs Spain",
-            "homeTeam": "Uruguay",
-            "awayTeam": "Spain",
-            "kickoff": "2026-06-27T00:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1043.28,
-            "odds": 1.69,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "581691da05dcd75b5c6d3be91ee9d2ab:Baseline",
             "date": "2026-06-27T00:12:12.497Z",
@@ -12295,6 +12320,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-1"
+          },
+          {
+            "id": "4f3d72fba877939d36a5315618184093:Baseline",
+            "date": "2026-06-29T14:12:30.565Z",
+            "matchId": "4f3d72fba877939d36a5315618184093",
+            "match": "Brazil vs Japan",
+            "homeTeam": "Brazil",
+            "awayTeam": "Japan",
+            "kickoff": "2026-06-29T17:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1271.35,
+            "odds": 1.74,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
