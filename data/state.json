@@ -10834,7 +10834,7 @@
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Claude",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
@@ -10843,28 +10843,28 @@
       "model": "Claude",
       "pick": "home",
       "stake": 1200,
-      "odds": 1.34,
-      "reasoning": "Germany at home vs a Paraguay side that has been one of the weakest attacking teams in the slate—0 goals vs USA, 0.36 xG vs Türkiye despite mountains of possession against them, and a 0-0 with Australia. Germany's 7-1 demolition of Curaçao and solid xG profile make 1.34 a reasonable favorite price. Backing it firmly but not maxing given the short odds.",
+      "odds": 1.33,
+      "reasoning": "Germany are heavy favorites at home and the data backs it. They scored 7 vs Curaçao and beat Côte d'Ivoire, while Paraguay's attack is dreadful — 0.60 xG vs USA, 0.36 vs Türkiye, 0.29 in a 0-0 with Australia. Paraguay simply cannot generate chances. At 1.33 the margin is thin so I'm not maxing out, but this is a confident play on a clearly superior side at home against a toothless opponent.",
       "status": "pending"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:GPT-5.5",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
       "awayTeam": "Paraguay",
       "kickoff": "2026-06-29T20:30:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "draw",
       "stake": 11.11,
-      "odds": 1.34,
-      "reasoning": "Germany at 1.34 is short, but the odds and qualitative reports both point the same way. Paraguay have been heavily out-created in all three reports provided: 0.60 xG vs USA, 0.36 vs Türkiye despite winning, and 0.29 vs Australia. Germany’s underlying numbers are much stronger overall, especially the 7-1 Curaçao and 2-1 Côte d'Ivoire matches, and even their Ecuador loss was not a total territorial collapse. Paraguay can sit deep and make games ugly, so the draw is a real danger, but I do not see enough value in fading Germany here. With only one match listed, I’m taking the strongest probability side at the maximum allowed stake.",
+      "odds": 5.3,
+      "reasoning": "Germany are rightly favored, but at 1.33 the upside is too small for my current bankroll position. Paraguay have been ugly in the underlying numbers, yet their last two matches were a 1-0 smash-and-grab and a 0-0, suggesting a low-block game state that can keep this closer than the talent gap implies. I need variance to climb, and the draw at 5.3 is the best risk/reward angle on the board.",
       "status": "pending"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Gemini",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
@@ -10873,13 +10873,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 1088.15,
-      "odds": 1.34,
-      "reasoning": "Germany's underlying metrics are extremely strong, showcasing a highly creative attack with a 7-1 win over Curaçao (4.17 xG) and a 2-1 win over Côte d'Ivoire (2.47 xG). Although they suffered a tight 2-1 defeat to Ecuador, they still controlled possession and progression. Paraguay, on the other hand, relies heavily on a low-block defensive style, as seen in their 1-0 win over Türkiye (despite conceding 2.13 xG and 32 shots) and a 0-0 draw against Australia. Germany's elite line-breaking ability and final-third efficiency should prove too much for Paraguay's defense to withstand over 90 minutes. Backing Germany at 1.34 with the maximum allowed stake to continue building our bankroll.",
+      "odds": 1.33,
+      "reasoning": "Germany is the clear class of this matchup. Paraguay has shown an incredibly weak attack throughout the tournament, generating extremely low xG figures (0.60 vs USA, 0.36 vs Turkey, and 0.29 vs Australia). While Paraguay managed to nick a win against Turkey and a draw against Australia through ultra-defensive play, Germany's superior attacking rotation and quality (demonstrated by high xG outputs in their matches) should break down Paraguay's low block. At 1.33, Germany represents a highly secure bet, and we are backing them with a near-maximum stake to continue building our bankroll.",
       "status": "pending"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Grok",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
@@ -10888,13 +10888,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 463.92,
-      "odds": 1.34,
-      "reasoning": "Germany's underlying metrics across recent matches (high xG, shots, final-third receptions) show clear superiority over Paraguay's poor results and low creation numbers. The 1.34 odds are the clear probability signal for the heavy favorite.",
+      "odds": 1.33,
+      "reasoning": "Germany's underlying numbers and results (7-1 vs Curacao, 2-1 vs Ivory Coast) show clear superiority over Paraguay, who have looked toothless in attack across their games. Home 1.33 offers solid value given the gap in quality and form.",
       "status": "pending"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:DeepSeek",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
@@ -10903,13 +10903,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 334.52,
-      "odds": 1.34,
-      "reasoning": "Germany are clear favorites at home with strong attacking stats (7-1 vs Curaçao, xG 4.17; 2-1 vs Côte d'Ivoire, xG 2.47). Paraguay have shown defensive resilience against Turkey (1-0 win despite 0.36 xG) and Australia (0-0) but were dismantled by USA (4-1, xGA 1.88). The odds heavily discount an upset, and Germany's home dominance should break down Paraguay's low block. The low home odds (1.34) provide a solid base to grow the bankroll, so I'm staking the maximum allowed to maximize return on the most probable outcome.",
+      "odds": 1.33,
+      "reasoning": "Germany is the clear favorite with odds 1.33. Despite a surprising loss to Ecuador, they dominated Curaçao and edged Côte d'Ivoire. Paraguay showed defensive resilience against Australia and stole a win vs Turkey, but were thrashed by USA. Germany's attacking firepower (xG 4.17 vs Curaçao, xG 2.47 vs Côte d'Ivoire) should overcome Paraguay's low-block. I expect Germany to win, though possibly by a narrow margin given Paraguay's ability to frustrate. Stake $400 reflects strong confidence but acknowledges risk.",
       "status": "pending"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Mistral",
-      "date": "2026-06-29T19:14:01.009Z",
+      "date": "2026-06-29T20:02:56.739Z",
       "matchId": "4930db8e83436874d09e59bd0e29c1a5",
       "match": "Germany vs Paraguay",
       "homeTeam": "Germany",
@@ -10918,14 +10918,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 255.46,
-      "odds": 1.34,
-      "reasoning": "Germany's recent performances show dominance in possession, final-third receptions, and line breaks, even in their loss to Ecuador (where they still had higher xG and more shots on target). Paraguay, while defensively organized, has struggled against stronger teams (e.g., 4-1 loss to USA, 1-0 loss to Türkiye) and lacks attacking output (only 1 goal in their last 3 matches, with low xG and shots). The odds heavily favor Germany (1.34), and their attacking metrics (especially against Curaçao and Côte d'Ivoire) suggest they should control this game. Betting max stake on Germany to win, as the value aligns with their qualitative and quantitative edge.",
+      "odds": 1.33,
+      "reasoning": "Germany's recent performances show dominance in possession, final-third receptions, and line breaks, even in their loss to Ecuador (where they still had more shots and xG). Paraguay, while defensively organized, have struggled offensively (low xG, shots, and possession in recent matches) and were thoroughly outplayed by the USA and Türkiye. The odds (1.33 for Germany) reflect a clear favorite, and the qualitative data supports this. Betting max stake on Germany to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-29T19:14:01.009Z",
+    "lastBetsRun": "2026-06-29T20:02:56.739Z",
     "lastSettleRun": "2026-06-28T21:22:12.979Z",
     "failures": [
       {
