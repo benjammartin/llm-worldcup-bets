@@ -308,6 +308,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 6424.95
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 6814.95
       }
     ],
     "GPT-5.5": [
@@ -618,6 +622,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 129.71
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 107.2
       }
     ],
     "Gemini": [
@@ -928,6 +936,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 5001.83
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 5301.89
       }
     ],
     "Grok": [
@@ -1238,6 +1250,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 2073.56
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 2197.99
       }
     ],
     "DeepSeek": [
@@ -1548,6 +1564,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 3023.53
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 3197.93
       }
     ],
     "Mistral": [
@@ -1858,6 +1878,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 1225.97
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 1295.46
       }
     ],
     "Baseline": [
@@ -2168,6 +2192,10 @@
       {
         "t": "2026-06-30T19:33:10.542Z",
         "bankroll": 12251.47
+      },
+      {
+        "t": "2026-06-30T23:27:18.808Z",
+        "bankroll": 12570.98
       }
     ]
   },
@@ -11313,7 +11341,9 @@
       "stake": 1101.75,
       "odds": 1.29,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Claude",
@@ -11328,7 +11358,9 @@
       "stake": 1300,
       "odds": 1.3,
       "reasoning": "France are dominant favorites at 1.3. Their reports show consistent control: 3-1 vs Senegal, 3-0 vs Iraq, 4-1 away at Norway with strong xG, line breaks and final-third receptions. Sweden have looked vulnerable defensively (5-1 loss to Netherlands, outshot vs Japan). The quality gap is clear. Backing France firmly, though sizing slightly below max given thin margins at 1.3.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:GPT-5.5",
@@ -11343,7 +11375,9 @@
       "stake": 22.51,
       "odds": 6,
       "reasoning": "France are the deserved favorite and the odds correctly make them the primary probability signal, but 1.30 is too short for my bankroll situation and Sweden have shown enough attacking volume to make this less one-sided than the headline prices imply. Sweden were battered 5-1 by the Netherlands but still produced 16 shots and 1.30 xG, beat Tunisia comfortably, and held Japan. France have been very strong overall, especially in territory and chance creation, but their 4-1 over Norway was more clinical than dominant on xG. At 6.00, the draw only needs to be live around the high-teens to be interesting, and this is the best risk/reward spot for a short bankroll that needs upside.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Gemini",
@@ -11358,7 +11392,9 @@
       "stake": 1000.21,
       "odds": 1.3,
       "reasoning": "France has shown elite tournament form, dominating Senegal (3-1), Iraq (3-0), and Norway (4-1) with impressive attacking efficiency and strong underlying metrics. Sweden, on the other hand, suffered a heavy 5-1 defeat to the Netherlands and struggled to create high-quality chances against Japan. Given France's superior squad depth, tactical consistency, and Sweden's defensive frailties, a home win for France is the most secure bet on this slate. We are placing the maximum allowed stake on a France victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Grok",
@@ -11373,7 +11409,9 @@
       "stake": 414.77,
       "odds": 1.3,
       "reasoning": "France's recent matches show consistent dominance (xG 2.30 vs Iraq, 1.62 vs Senegal, 1.45 conceded but won 4-1 vs Norway). Sweden's results are mixed, with a heavy loss to Netherlands and only a draw vs Japan. Home odds of 1.3 are the clear value signal here given the gap in current form.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:DeepSeek",
@@ -11388,7 +11426,9 @@
       "stake": 581.33,
       "odds": 1.3,
       "reasoning": "France are massive favourites at 1.3 and the underlying data backs it up. They dismantled Iraq 3-0 with 19 shots and 2.30 xG, then put four past Norway despite conceding a high xG of 1.45 themselves – that 1.05 xG against flattered Norway, as France created 18 shots and 184 final‑third receptions. Sweden’s 5-1 win over Tunisia was against weak opposition, and their defence was brutally exposed by Netherlands (5-1, 2.25 xG conceded, 100 line breaks against). The Japan draw (0.56 xG created) shows Sweden struggle to generate chances against organised sides. France’s press (234 pressures vs Norway, 257 vs Iraq) will force errors, and their own final‑third dominance (246 receptions vs Iraq) is far beyond what Sweden have faced. A home win is the clear value, and with the bankroll needing to grow, staking the full 25% maximum capitalises on a high‑probability outcome.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Mistral",
@@ -11403,7 +11443,9 @@
       "stake": 231.63,
       "odds": 1.3,
       "reasoning": "France's recent performances show dominance in both attack and defense, with strong xG numbers (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway despite losing xG battle) and superior possession, final-third receptions, and line breaks. Sweden, while competitive, has struggled against top-tier teams (5-1 loss to Netherlands, 1-1 draw vs Japan) and lacks the same attacking potency. The odds heavily favor France (1.3), and given their consistency and Sweden's recent defensive vulnerabilities, this is a high-confidence bet. Allocating the maximum allowed stake to capitalize on the favorable odds and France's form.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Baseline",
@@ -11514,7 +11556,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-30T23:17:28.319Z",
-    "lastSettleRun": "2026-06-30T19:33:10.542Z",
+    "lastSettleRun": "2026-06-30T23:27:18.808Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -11607,32 +11649,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 77,
-        "won": 50,
+        "totalBets": 78,
+        "won": 51,
         "lost": 27,
         "void": 0,
-        "totalStake": 80783.14000000001,
-        "totalReturn": -4485.366600000001,
-        "roi": -0.055523548601849354,
-        "avgOdds": 1.6432467532467538,
+        "totalStake": 82083.14000000001,
+        "totalReturn": -4095.366600000001,
+        "roi": -0.04989290858025169,
+        "avgOdds": 1.6388461538461543,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Claude",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 910.14,
-            "odds": 1.15,
-            "reasoning": "England are the form team of this slate — 4-2 over Croatia and a dominant 0-0 vs Ghana with 1.78 xG. Panama have shown nothing offensively. 1.15 is short but this is as close to a lock as it gets, so I size up to the cap.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:Claude",
             "date": "2026-06-27T23:20:56.878Z",
@@ -11785,37 +11810,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Claude",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1300,
+            "odds": 1.3,
+            "reasoning": "France are dominant favorites at 1.3. Their reports show consistent control: 3-1 vs Senegal, 3-0 vs Iraq, 4-1 away at Norway with strong xG, line breaks and final-third receptions. Sweden have looked vulnerable defensively (5-1 loss to Netherlands, outshot vs Japan). The quality gap is clear. Backing France firmly, though sizing slightly below max given thin margins at 1.3.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 77,
+        "totalBets": 78,
         "won": 31,
-        "lost": 46,
+        "lost": 47,
         "void": 0,
-        "totalStake": 23966.000000000004,
-        "totalReturn": -9999.369400000007,
-        "roi": -0.41723146958190793,
-        "avgOdds": 4.0240259740259745,
+        "totalStake": 23988.510000000002,
+        "totalReturn": -10021.879400000007,
+        "roi": -0.41777831970389184,
+        "avgOdds": 4.049358974358975,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:GPT-5.5",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 12.86,
-            "odds": 1.15,
-            "reasoning": "England at 1.15 is not exciting, but this is the clearest quality gap. They produced a 3.33 xG performance against Croatia and then completely controlled Ghana despite the 0-0. Panama have been competitive in phases but are outmatched here. I will use this as the safest leg of the card.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:GPT-5.5",
             "date": "2026-06-27T23:20:56.878Z",
@@ -11968,37 +11993,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:GPT-5.5",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 22.51,
+            "odds": 6,
+            "reasoning": "France are the deserved favorite and the odds correctly make them the primary probability signal, but 1.30 is too short for my bankroll situation and Sweden have shown enough attacking volume to make this less one-sided than the headline prices imply. Sweden were battered 5-1 by the Netherlands but still produced 16 shots and 1.30 xG, beat Tunisia comfortably, and held Japan. France have been very strong overall, especially in territory and chance creation, but their 4-1 over Norway was more clinical than dominant on xG. At 6.00, the draw only needs to be live around the high-teens to be interesting, and this is the best risk/reward spot for a short bankroll that needs upside.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 77,
-        "won": 50,
+        "totalBets": 78,
+        "won": 51,
         "lost": 27,
         "void": 0,
-        "totalStake": 52684.86,
-        "totalReturn": -5287.925300000002,
-        "roi": -0.10036897317369738,
-        "avgOdds": 1.6876623376623379,
+        "totalStake": 53685.07,
+        "totalReturn": -4987.862300000002,
+        "roi": -0.09290967302454857,
+        "avgOdds": 1.6826923076923082,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Gemini",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 613.57,
-            "odds": 1.15,
-            "reasoning": "England is one of the tournament favorites and boasts a vastly superior squad compared to Panama, who have struggled to generate significant xG and have lost both matches so far. This is a highly secure selection to protect and build our bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:Gemini",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12151,37 +12176,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Gemini",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1000.21,
+            "odds": 1.3,
+            "reasoning": "France has shown elite tournament form, dominating Senegal (3-1), Iraq (3-0), and Norway (4-1) with impressive attacking efficiency and strong underlying metrics. Sweden, on the other hand, suffered a heavy 5-1 defeat to the Netherlands and struggled to create high-quality chances against Japan. Given France's superior squad depth, tactical consistency, and Sweden's defensive frailties, a home win for France is the most secure bet on this slate. We are placing the maximum allowed stake on a France victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 77,
-        "won": 48,
+        "totalBets": 78,
+        "won": 49,
         "lost": 29,
         "void": 0,
-        "totalStake": 84170.90000000008,
-        "totalReturn": -8391.251499999997,
-        "roi": -0.09969302336080509,
-        "avgOdds": 1.7275324675324677,
+        "totalStake": 84585.67000000009,
+        "totalReturn": -8266.820499999996,
+        "roi": -0.09773310892968026,
+        "avgOdds": 1.7220512820512823,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Grok",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 415.21,
-            "odds": 1.15,
-            "reasoning": "England massive favorite at 1.15; reports confirm total dominance over Croatia and Ghana. Highest conviction pick.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:Grok",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12334,37 +12359,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Grok",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 414.77,
+            "odds": 1.3,
+            "reasoning": "France's recent matches show consistent dominance (xG 2.30 vs Iraq, 1.62 vs Senegal, 1.45 conceded but won 4-1 vs Norway). Sweden's results are mixed, with a heavy loss to Netherlands and only a draw vs Japan. Home odds of 1.3 are the clear value signal here given the gap in current form.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 77,
-        "won": 48,
+        "totalBets": 78,
+        "won": 49,
         "lost": 29,
         "void": 0,
-        "totalStake": 36811.25999999997,
-        "totalReturn": -7096.4997,
-        "roi": -0.19278067906396046,
-        "avgOdds": 1.9089610389610394,
+        "totalStake": 37392.589999999975,
+        "totalReturn": -6922.1007,
+        "roi": -0.18511958385337857,
+        "avgOdds": 1.9011538461538469,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:DeepSeek",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 272.13,
-            "odds": 1.15,
-            "reasoning": "England dominant in group, hammered Croatia 4-2, Panama lost to Ghana and Croatia. Value low but high probability.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:DeepSeek",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12517,37 +12542,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:DeepSeek",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 581.33,
+            "odds": 1.3,
+            "reasoning": "France are massive favourites at 1.3 and the underlying data backs it up. They dismantled Iraq 3-0 with 19 shots and 2.30 xG, then put four past Norway despite conceding a high xG of 1.45 themselves – that 1.05 xG against flattered Norway, as France created 18 shots and 184 final‑third receptions. Sweden’s 5-1 win over Tunisia was against weak opposition, and their defence was brutally exposed by Netherlands (5-1, 2.25 xG conceded, 100 line breaks against). The Japan draw (0.56 xG created) shows Sweden struggle to generate chances against organised sides. France’s press (234 pressures vs Norway, 257 vs Iraq) will force errors, and their own final‑third dominance (246 receptions vs Iraq) is far beyond what Sweden have faced. A home win is the clear value, and with the bankroll needing to grow, staking the full 25% maximum capitalises on a high‑probability outcome.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 77,
-        "won": 49,
+        "totalBets": 78,
+        "won": 50,
         "lost": 28,
         "void": 0,
-        "totalStake": 38773.399999999994,
-        "totalReturn": -9023.499099999997,
-        "roi": -0.23272395766169587,
-        "avgOdds": 1.7198701298701304,
+        "totalStake": 39005.02999999999,
+        "totalReturn": -8954.010099999998,
+        "roi": -0.229560395159291,
+        "avgOdds": 1.71448717948718,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Mistral",
-            "date": "2026-06-27T20:16:23.622Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 242.12,
-            "odds": 1.15,
-            "reasoning": "England's recent performances, especially against Croatia (M22) and Ghana (M45), demonstrate their offensive firepower (xG of 3.33 and 1.78 respectively) and dominance in possession. Panama, on the other hand, has struggled offensively, with an xG of 0.77 against Ghana (M21) and 0.69 against Croatia (M46). The odds for England (1.15) reflect their overwhelming favoritism, and their ability to control games makes this a low-risk, high-confidence bet. Allocating the maximum stake here to capitalize on the near-certainty of an England win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:Mistral",
             "date": "2026-06-27T23:12:19.836Z",
@@ -12700,37 +12725,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Mistral",
+            "date": "2026-06-30T20:50:23.617Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 231.63,
+            "odds": 1.3,
+            "reasoning": "France's recent performances show dominance in both attack and defense, with strong xG numbers (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway despite losing xG battle) and superior possession, final-third receptions, and line breaks. Sweden, while competitive, has struggled against top-tier teams (5-1 loss to Netherlands, 1-1 draw vs Japan) and lacks the same attacking potency. The odds heavily favor France (1.3), and given their consistency and Sweden's recent defensive vulnerabilities, this is a high-confidence bet. Allocating the maximum allowed stake to capitalize on the favorable odds and France's form.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 77,
-        "won": 51,
+        "totalBets": 78,
+        "won": 52,
         "lost": 26,
         "void": 0,
-        "totalStake": 71280.28,
-        "totalReturn": 1421.337299999999,
-        "roi": 0.019940119483256784,
-        "avgOdds": 1.6355844155844155,
+        "totalStake": 72382.03,
+        "totalReturn": 1740.844799999999,
+        "roi": 0.024050787191240684,
+        "avgOdds": 1.631153846153846,
         "recentBets": [
-          {
-            "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Baseline",
-            "date": "2026-06-27T18:03:28.142Z",
-            "matchId": "4be17c8e1ccfecb0f2a5ef79e045c415",
-            "match": "Panama vs England",
-            "homeTeam": "Panama",
-            "awayTeam": "England",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1002.96,
-            "odds": 1.14,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-2"
-          },
           {
             "id": "67ae5751c401a98409b8566ae4897069:Baseline",
             "date": "2026-06-27T20:40:43.120Z",
@@ -12883,6 +12908,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Baseline",
+            "date": "2026-06-30T18:12:35.310Z",
+            "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
+            "match": "France vs Sweden",
+            "homeTeam": "France",
+            "awayTeam": "Sweden",
+            "kickoff": "2026-06-30T21:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1101.75,
+            "odds": 1.29,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       }
