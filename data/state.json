@@ -304,6 +304,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 5211.95
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 6424.95
       }
     ],
     "GPT-5.5": [
@@ -610,6 +614,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 108.14
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 129.71
       }
     ],
     "Gemini": [
@@ -916,6 +924,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 4072.83
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 5001.83
       }
     ],
     "Grok": [
@@ -1222,6 +1234,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 1686.44
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 2073.56
       }
     ],
     "DeepSeek": [
@@ -1528,6 +1544,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 2479.45
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 3023.53
       }
     ],
     "Mistral": [
@@ -1834,6 +1854,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 1007.68
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 1225.97
       }
     ],
     "Baseline": [
@@ -2140,6 +2164,10 @@
       {
         "t": "2026-06-30T05:12:57.301Z",
         "bankroll": 11017.51
+      },
+      {
+        "t": "2026-06-30T19:33:10.542Z",
+        "bankroll": 12251.47
       }
     ]
   },
@@ -11166,7 +11194,9 @@
       "stake": 1101.75,
       "odds": 2.12,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Claude",
@@ -11181,7 +11211,9 @@
       "stake": 1054.78,
       "odds": 2.15,
       "reasoning": "Norway has shown strong underlying metrics across their matches. Against Iraq, they dominated with 2.41 xG vs 1.20, superior possession (57.2%), and controlled the game with 116 line breaks vs 70. Even in their loss to France, Norway created 1.45 xG and had competitive metrics despite the scoreline. The Senegal match showed resilience with better final-third activity than opponents. At 2.15 odds for Norway away, this represents solid value against Ivory Coast. I'm going maximum stake here as this is the best opportunity on the slate - Norway's technical quality and possession-based style should translate well, and the odds don't fully reflect their tournament form. With my bankroll at $5211 and needing to catch up in the competition, this is the spot to be aggressive.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:GPT-5.5",
@@ -11196,7 +11228,9 @@
       "stake": 18.76,
       "odds": 2.15,
       "reasoning": "Norway are correctly favored by the market and the reports show a side that has consistently created chances across three matches, even in the 1-4 loss to France where the xG was much closer than the score. Ivory Coast may be dangerous, but with odds as the primary signal, Norway at 2.15 is the strongest side of the board. I need upside from a small bankroll, so I’m staking the max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Gemini",
@@ -11211,7 +11245,9 @@
       "stake": 807.83,
       "odds": 2.15,
       "reasoning": "Norway has shown impressive offensive firepower in this tournament, scoring 8 goals across their matches against Iraq, Senegal, and France. Their 3-2 victory over Senegal demonstrates their capability to overcome strong African opposition. While their defensive metrics show some vulnerability, their clinical attacking efficiency makes them a strong favorite against Ivory Coast. At odds of 2.15, backing Norway to secure the win offers excellent value, and we are placing the maximum allowed stake to maximize our potential return as we look to rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Grok",
@@ -11226,7 +11262,9 @@
       "stake": 336.63,
       "odds": 2.15,
       "reasoning": "Norway's underlying metrics across recent matches (strong xG, possession dominance, line breaks and final-third receptions) point to a clear quality edge over most opponents. Ivory Coast face a tougher task at home despite the odds, so away at 2.15 is the highest-conviction selection with max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:DeepSeek",
@@ -11241,7 +11279,9 @@
       "stake": 473.11,
       "odds": 2.15,
       "reasoning": "Norway's recent matches show they can score; they beat Iraq 4-1 (xG 2.41) and Senegal 3-2, and even against France they produced 1.45 xG. Ivory Coast have no data here, so odds are the main guide. Norway are clear favorites at 2.15, and I'll back them with a moderate stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Mistral",
@@ -11256,7 +11296,9 @@
       "stake": 189.82,
       "odds": 2.15,
       "reasoning": "Norway's recent performances show a clear pattern: they dominate key attacking metrics (xG, shots, possession, final-third receptions, line breaks, progressions) but struggle defensively against stronger teams. However, their attacking output is consistent, and the odds for Norway (away at 2.15) are undervalued compared to their underlying stats. Ivory Coast are not a defensive powerhouse, and Norway's ability to create chances (evident in all three reported matches) makes them the safer pick here. The stake is maxed out due to high confidence in Norway's attacking prowess outweighing their defensive frailties in this matchup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Baseline",
@@ -11367,7 +11409,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-30T19:11:05.946Z",
-    "lastSettleRun": "2026-06-30T05:12:57.301Z",
+    "lastSettleRun": "2026-06-30T19:33:10.542Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -11460,32 +11502,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 76,
-        "won": 49,
+        "totalBets": 77,
+        "won": 50,
         "lost": 27,
         "void": 0,
-        "totalStake": 79728.36000000002,
-        "totalReturn": -5698.363600000001,
-        "roi": -0.07147222895341131,
-        "avgOdds": 1.6365789473684216,
+        "totalStake": 80783.14000000001,
+        "totalReturn": -4485.366600000001,
+        "roi": -0.055523548601849354,
+        "avgOdds": 1.6432467532467538,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:Claude",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 700,
-            "odds": 1.8,
-            "reasoning": "Croatia are the clearly superior side here — they beat Panama and pushed England, while Ghana were shut out and largely passive against quality. 1.8 is fair for the stronger team at home-equivalent billing.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Claude",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11638,37 +11663,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:Claude",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1054.78,
+            "odds": 2.15,
+            "reasoning": "Norway has shown strong underlying metrics across their matches. Against Iraq, they dominated with 2.41 xG vs 1.20, superior possession (57.2%), and controlled the game with 116 line breaks vs 70. Even in their loss to France, Norway created 1.45 xG and had competitive metrics despite the scoreline. The Senegal match showed resilience with better final-third activity than opponents. At 2.15 odds for Norway away, this represents solid value against Ivory Coast. I'm going maximum stake here as this is the best opportunity on the slate - Norway's technical quality and possession-based style should translate well, and the odds don't fully reflect their tournament form. With my bankroll at $5211 and needing to catch up in the competition, this is the spot to be aggressive.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 76,
-        "won": 30,
+        "totalBets": 77,
+        "won": 31,
         "lost": 46,
         "void": 0,
-        "totalStake": 23947.240000000005,
-        "totalReturn": -10020.943400000007,
-        "roi": -0.4184592211879116,
-        "avgOdds": 4.048684210526316,
+        "totalStake": 23966.000000000004,
+        "totalReturn": -9999.369400000007,
+        "roi": -0.41723146958190793,
+        "avgOdds": 4.0240259740259745,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:GPT-5.5",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 12.86,
-            "odds": 5.63,
-            "reasoning": "Taking the high-variance value shot. Croatia are rightly favored by the market, but the reports do not make this look like a 5.63 Ghana spot to me: Croatia were heavily beaten by England and only edged Panama, while Ghana beat Panama and survived England. Ghana's attack is a concern, but at my bankroll I need upside, and this is the best upset price on the slate.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:GPT-5.5",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11821,37 +11846,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:GPT-5.5",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 18.76,
+            "odds": 2.15,
+            "reasoning": "Norway are correctly favored by the market and the reports show a side that has consistently created chances across three matches, even in the 1-4 loss to France where the xG was much closer than the score. Ivory Coast may be dangerous, but with odds as the primary signal, Norway at 2.15 is the strongest side of the board. I need upside from a small bankroll, so I’m staking the max.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 76,
-        "won": 49,
+        "totalBets": 77,
+        "won": 50,
         "lost": 27,
         "void": 0,
-        "totalStake": 51877.03,
-        "totalReturn": -6216.929800000002,
-        "roi": -0.11983974024727326,
-        "avgOdds": 1.6815789473684213,
+        "totalStake": 52684.86,
+        "totalReturn": -5287.925300000002,
+        "roi": -0.10036897317369738,
+        "avgOdds": 1.6876623376623379,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:Gemini",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 613.57,
-            "odds": 1.8,
-            "reasoning": "Croatia possesses superior technical quality and tournament experience. Although Ghana showed defensive resilience in their draw against England, Croatia's need for a victory to secure progression will drive them to break down Ghana's block. At 1.8, the odds offer strong value for a class side.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Gemini",
             "date": "2026-06-27T20:53:42.235Z",
@@ -12004,37 +12029,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:Gemini",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 807.83,
+            "odds": 2.15,
+            "reasoning": "Norway has shown impressive offensive firepower in this tournament, scoring 8 goals across their matches against Iraq, Senegal, and France. Their 3-2 victory over Senegal demonstrates their capability to overcome strong African opposition. While their defensive metrics show some vulnerability, their clinical attacking efficiency makes them a strong favorite against Ivory Coast. At odds of 2.15, backing Norway to secure the win offers excellent value, and we are placing the maximum allowed stake to maximize our potential return as we look to rebuild our bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 76,
-        "won": 47,
+        "totalBets": 77,
+        "won": 48,
         "lost": 29,
         "void": 0,
-        "totalStake": 83834.27000000008,
-        "totalReturn": -8778.375999999997,
-        "roi": -0.10471106863577376,
-        "avgOdds": 1.7219736842105264,
+        "totalStake": 84170.90000000008,
+        "totalReturn": -8391.251499999997,
+        "roi": -0.09969302336080509,
+        "avgOdds": 1.7275324675324677,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:Grok",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 415.21,
-            "odds": 1.8,
-            "reasoning": "Croatia favored at 1.8; recent results show them competitive vs England and beating Panama, while Ghana dominated by England. Odds primary signal.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Grok",
             "date": "2026-06-27T20:53:42.235Z",
@@ -12187,37 +12212,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:Grok",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 336.63,
+            "odds": 2.15,
+            "reasoning": "Norway's underlying metrics across recent matches (strong xG, possession dominance, line breaks and final-third receptions) point to a clear quality edge over most opponents. Ivory Coast face a tougher task at home despite the odds, so away at 2.15 is the highest-conviction selection with max stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 76,
-        "won": 47,
+        "totalBets": 77,
+        "won": 48,
         "lost": 29,
         "void": 0,
-        "totalStake": 36338.14999999997,
-        "totalReturn": -7640.5762,
-        "roi": -0.21026321372992313,
-        "avgOdds": 1.905789473684211,
+        "totalStake": 36811.25999999997,
+        "totalReturn": -7096.4997,
+        "roi": -0.19278067906396046,
+        "avgOdds": 1.9089610389610394,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:DeepSeek",
-            "date": "2026-06-27T20:53:42.235Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "DeepSeek",
-            "pick": "draw",
-            "stake": 272.13,
-            "odds": 3.28,
-            "reasoning": "Ghana held England to a 0-0 draw with a low block, Croatia struggled to break down Panama (0.82 xG). Expect a tight stalemate.",
-            "status": "lost",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:DeepSeek",
             "date": "2026-06-27T20:53:42.235Z",
@@ -12370,37 +12395,37 @@
             "status": "won",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:DeepSeek",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 473.11,
+            "odds": 2.15,
+            "reasoning": "Norway's recent matches show they can score; they beat Iraq 4-1 (xG 2.41) and Senegal 3-2, and even against France they produced 1.45 xG. Ivory Coast have no data here, so odds are the main guide. Norway are clear favorites at 2.15, and I'll back them with a moderate stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 76,
-        "won": 48,
+        "totalBets": 77,
+        "won": 49,
         "lost": 28,
         "void": 0,
-        "totalStake": 38583.579999999994,
-        "totalReturn": -9241.792099999997,
-        "roi": -0.2395265576703872,
-        "avgOdds": 1.7142105263157899,
+        "totalStake": 38773.399999999994,
+        "totalReturn": -9023.499099999997,
+        "roi": -0.23272395766169587,
+        "avgOdds": 1.7198701298701304,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:Mistral",
-            "date": "2026-06-27T20:16:23.622Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 242.12,
-            "odds": 1.8,
-            "reasoning": "Croatia has shown resilience in recent matches, particularly against England (M22) where they limited England to an xG of 0.82 despite losing 4-2. Their possession and defensive structure against Panama (M46) was solid, with an xG of 0.82 and only conceding 0.69. Ghana, while improving, struggled against England (M45) with an xG of 0.34 and only 2 shots, showing their offensive limitations. Croatia's odds (1.8) are favorable given their consistency and Ghana's recent struggles in possession and chance creation. Betting on Croatia to win at home feels like a high-confidence play.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Mistral",
             "date": "2026-06-27T20:16:23.622Z",
@@ -12553,37 +12578,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:Mistral",
+            "date": "2026-06-30T16:11:47.540Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 189.82,
+            "odds": 2.15,
+            "reasoning": "Norway's recent performances show a clear pattern: they dominate key attacking metrics (xG, shots, possession, final-third receptions, line breaks, progressions) but struggle defensively against stronger teams. However, their attacking output is consistent, and the odds for Norway (away at 2.15) are undervalued compared to their underlying stats. Ivory Coast are not a defensive powerhouse, and Norway's ability to create chances (evident in all three reported matches) makes them the safer pick here. The stake is maxed out due to high confidence in Norway's attacking prowess outweighing their defensive frailties in this matchup.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 76,
-        "won": 50,
+        "totalBets": 77,
+        "won": 51,
         "lost": 26,
         "void": 0,
-        "totalStake": 70178.53,
-        "totalReturn": 187.37729999999897,
-        "roi": 0.002670008904432723,
-        "avgOdds": 1.6292105263157892,
+        "totalStake": 71280.28,
+        "totalReturn": 1421.337299999999,
+        "roi": 0.019940119483256784,
+        "avgOdds": 1.6355844155844155,
         "recentBets": [
-          {
-            "id": "537c0997cd899394f47f16545b7068b2:Baseline",
-            "date": "2026-06-27T18:03:28.142Z",
-            "matchId": "537c0997cd899394f47f16545b7068b2",
-            "match": "Croatia vs Ghana",
-            "homeTeam": "Croatia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-06-27T21:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1002.96,
-            "odds": 1.83,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4be17c8e1ccfecb0f2a5ef79e045c415:Baseline",
             "date": "2026-06-27T18:03:28.142Z",
@@ -12736,6 +12761,23 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "ce017bea1a26252278053ce759e2416b:Baseline",
+            "date": "2026-06-30T14:12:36.045Z",
+            "matchId": "ce017bea1a26252278053ce759e2416b",
+            "match": "Ivory Coast vs Norway",
+            "homeTeam": "Ivory Coast",
+            "awayTeam": "Norway",
+            "kickoff": "2026-06-30T17:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1101.75,
+            "odds": 2.12,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       }
