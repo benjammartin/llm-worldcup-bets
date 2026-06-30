@@ -1,0 +1,26 @@
+name: x-leaderboard
+on:
+  workflow_dispatch:
+    inputs:
+      latest_summary:
+        description: "Short result summary line above the leaderboard"
+        required: true
+        default: "Germany 1-1 Paraguay. Netherlands 1-1 Morocco."
+        type: string
+permissions: { contents: read }
+jobs:
+  x-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun pipeline/src/run-x-leaderboard.ts
+        env:
+          DRY_RUN: "0"
+          LATEST_SUMMARY: ${{ inputs.latest_summary }}
+          PUBLIC_SITE_URL: https://llmworldcup.xyz
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
