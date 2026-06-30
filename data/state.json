@@ -296,6 +296,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 7261.95
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 6061.95
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 5211.95
       }
     ],
     "GPT-5.5": [
@@ -594,6 +602,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 73.03
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 120.8
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 108.14
       }
     ],
     "Gemini": [
@@ -892,6 +908,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 6310.98
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 5222.83
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 4072.83
       }
     ],
     "Grok": [
@@ -1190,6 +1214,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 2689.67
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 2225.75
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 1686.44
       }
     ],
     "DeepSeek": [
@@ -1488,6 +1520,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 2013.32
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 1678.8
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 2479.45
       }
     ],
     "Mistral": [
@@ -1786,6 +1826,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 1558.07
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 1302.61
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 1007.68
       }
     ],
     "Baseline": [
@@ -2084,6 +2132,14 @@
       {
         "t": "2026-06-29T20:11:11.638Z",
         "bankroll": 13654.29
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 12382.94
+      },
+      {
+        "t": "2026-06-30T05:12:57.301Z",
+        "bankroll": 11017.51
       }
     ]
   },
@@ -10872,7 +10928,9 @@
       "stake": 1271.35,
       "odds": 1.36,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Claude",
@@ -10887,7 +10945,9 @@
       "stake": 1200,
       "odds": 1.33,
       "reasoning": "Germany are heavy favorites at home and the data backs it. They scored 7 vs Curaçao and beat Côte d'Ivoire, while Paraguay's attack is dreadful — 0.60 xG vs USA, 0.36 vs Türkiye, 0.29 in a 0-0 with Australia. Paraguay simply cannot generate chances. At 1.33 the margin is thin so I'm not maxing out, but this is a confident play on a clearly superior side at home against a toothless opponent.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:GPT-5.5",
@@ -10902,7 +10962,9 @@
       "stake": 11.11,
       "odds": 5.3,
       "reasoning": "Germany are rightly favored, but at 1.33 the upside is too small for my current bankroll position. Paraguay have been ugly in the underlying numbers, yet their last two matches were a 1-0 smash-and-grab and a 0-0, suggesting a low-block game state that can keep this closer than the talent gap implies. I need variance to climb, and the draw at 5.3 is the best risk/reward angle on the board.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Gemini",
@@ -10917,7 +10979,9 @@
       "stake": 1088.15,
       "odds": 1.33,
       "reasoning": "Germany is the clear class of this matchup. Paraguay has shown an incredibly weak attack throughout the tournament, generating extremely low xG figures (0.60 vs USA, 0.36 vs Turkey, and 0.29 vs Australia). While Paraguay managed to nick a win against Turkey and a draw against Australia through ultra-defensive play, Germany's superior attacking rotation and quality (demonstrated by high xG outputs in their matches) should break down Paraguay's low block. At 1.33, Germany represents a highly secure bet, and we are backing them with a near-maximum stake to continue building our bankroll.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Grok",
@@ -10932,7 +10996,9 @@
       "stake": 463.92,
       "odds": 1.33,
       "reasoning": "Germany's underlying numbers and results (7-1 vs Curacao, 2-1 vs Ivory Coast) show clear superiority over Paraguay, who have looked toothless in attack across their games. Home 1.33 offers solid value given the gap in quality and form.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:DeepSeek",
@@ -10947,7 +11013,9 @@
       "stake": 334.52,
       "odds": 1.33,
       "reasoning": "Germany is the clear favorite with odds 1.33. Despite a surprising loss to Ecuador, they dominated Curaçao and edged Côte d'Ivoire. Paraguay showed defensive resilience against Australia and stole a win vs Turkey, but were thrashed by USA. Germany's attacking firepower (xG 4.17 vs Curaçao, xG 2.47 vs Côte d'Ivoire) should overcome Paraguay's low-block. I expect Germany to win, though possibly by a narrow margin given Paraguay's ability to frustrate. Stake $400 reflects strong confidence but acknowledges risk.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "4930db8e83436874d09e59bd0e29c1a5:Mistral",
@@ -10962,7 +11030,9 @@
       "stake": 255.46,
       "odds": 1.33,
       "reasoning": "Germany's recent performances show dominance in possession, final-third receptions, and line breaks, even in their loss to Ecuador (where they still had more shots and xG). Paraguay, while defensively organized, have struggled offensively (low xG, shots, and possession in recent matches) and were thoroughly outplayed by the USA and Türkiye. The odds (1.33 for Germany) reflect a clear favorite, and the qualitative data supports this. Betting max stake on Germany to win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:Baseline",
@@ -10977,7 +11047,9 @@
       "stake": 1365.43,
       "odds": 2.4,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:Claude",
@@ -10992,7 +11064,9 @@
       "stake": 850,
       "odds": 2.4,
       "reasoning": "Netherlands have the higher ceiling and better attacking output (5-1 Sweden, 3-1 Tunisia with dominant final-third dominance) and are home favorites at 2.4 implying ~42%. Morocco are organized and resilient (drew Brazil, solid pressing numbers), so I won't overstake — but the Dutch are the rightful favorite and the price offers fair value. Moderate conviction backing the home side.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:GPT-5.5",
@@ -11007,7 +11081,9 @@
       "stake": 12.66,
       "odds": 3.35,
       "reasoning": "Netherlands are rightly favored, but at 3.35 Morocco look like the value side. The market is pricing Morocco under 30% before vig, while their tournament reports suggest they can compete with elite opposition: they out-xG’d Brazil 1.33-0.99, controlled Scotland, and dominated Haiti. Netherlands have also been strong, especially against Tunisia and Sweden, but the gap does not look large enough for Morocco to be this long. With my bankroll position I need upside, so I’m taking the plus-money value and staking the match maximum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:Gemini",
@@ -11022,7 +11098,9 @@
       "stake": 1150,
       "odds": 2.4,
       "reasoning": "Netherlands has shown incredible offensive efficiency, scoring 10 goals across their last three matches while dominating possession and final-third entries (notably 233 final-third receptions against Tunisia). While Morocco is a highly disciplined side that held Brazil to a draw and defeated Scotland, their defense showed some vulnerability by conceding twice to Haiti. The Dutch line-breaking ability and clinical finishing should give them the edge to secure a victory in this highly anticipated matchup. At odds of 2.4, the home win offers excellent value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:Grok",
@@ -11037,7 +11115,9 @@
       "stake": 539.31,
       "odds": 2.4,
       "reasoning": "Netherlands have shown better underlying numbers in recent matches (strong xG vs Sweden, solid control vs Japan) while Morocco's results look more opportunistic than dominant. At 2.4 the home side offers the best value edge over the field.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:DeepSeek",
@@ -11052,7 +11132,9 @@
       "stake": 381.26,
       "odds": 3.1,
       "reasoning": "Netherlands have been erratic at home, drawing with Japan (2-2) despite modest xG, while Morocco showed resilience with a draw away to Brazil and a clean-sheet win in Scotland. Morocco's xG numbers suggest they can create chances on the road, and Netherlands' defensive gaps could cancel out their attacking edge. A tight, balanced match with both teams scoring feels likely; the draw at 3.1 offers value relative to the home odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "5a34afe2de99513ba48360b983cfe80c:Mistral",
@@ -11067,13 +11149,15 @@
       "stake": 294.93,
       "odds": 3.35,
       "reasoning": "Morocco has shown strong offensive and defensive metrics in their recent matches, consistently outperforming their opponents in xG, shots, possession, and final-third receptions. Their 1-1 draw with Brazil (xG 1.33-0.99) and 4-2 win over Haiti (xG 2.12-0.67) demonstrate their ability to create high-quality chances and control games. The Netherlands, while solid, have had mixed performances—drawing with Japan (xG 0.63-0.34) and narrowly beating Tunisia (xG 1.79-0.76). Morocco's away odds of 3.35 offer value given their recent form and underlying stats, and their ability to break lines and progress the ball effectively makes them a strong pick here. Betting max stake on Morocco to win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-06-30T00:03:32.219Z",
-    "lastSettleRun": "2026-06-29T20:11:11.638Z",
+    "lastSettleRun": "2026-06-30T05:12:57.301Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -11166,49 +11250,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 74,
+        "totalBets": 76,
         "won": 49,
-        "lost": 25,
+        "lost": 27,
         "void": 0,
-        "totalStake": 77678.36000000002,
-        "totalReturn": -3648.3636000000006,
-        "roi": -0.046967567286436016,
-        "avgOdds": 1.6304054054054058,
+        "totalStake": 79728.36000000002,
+        "totalReturn": -5698.363600000001,
+        "roi": -0.07147222895341131,
+        "avgOdds": 1.6365789473684216,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Claude",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 976.66,
-            "odds": 1.18,
-            "reasoning": "Belgium are clearly the class of this group. Their data is dominant: 1.48 xG and 23 shots vs Iran, 181 final-third receptions and 106 line breaks vs Egypt. New Zealand drew Iran but got outplayed by Egypt (0.71 xG, lost 1-3). At 1.18 this is a strong favorite with the underlying numbers fully supporting it. Solid value play.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Claude",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 650,
-            "odds": 2.64,
-            "reasoning": "Egypt look the more dangerous side here. They held Belgium to a 1-1 and beat New Zealand 3-1 with 2.10 xG. Iran were thoroughly dominated by Belgium (0.48 xG, just 7 shots) and only managed a draw against NZ. Egypt at home odds of 2.64 offers good value against an Iran side that struggles to create. Moderate stake given the inherent variance of a near-coinflip-priced match.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:Claude",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11344,54 +11394,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:Claude",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1200,
+            "odds": 1.33,
+            "reasoning": "Germany are heavy favorites at home and the data backs it. They scored 7 vs Curaçao and beat Côte d'Ivoire, while Paraguay's attack is dreadful — 0.60 xG vs USA, 0.36 vs Türkiye, 0.29 in a 0-0 with Australia. Paraguay simply cannot generate chances. At 1.33 the margin is thin so I'm not maxing out, but this is a confident play on a clearly superior side at home against a toothless opponent.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:Claude",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 850,
+            "odds": 2.4,
+            "reasoning": "Netherlands have the higher ceiling and better attacking output (5-1 Sweden, 3-1 Tunisia with dominant final-third dominance) and are home favorites at 2.4 implying ~42%. Morocco are organized and resilient (drew Brazil, solid pressing numbers), so I won't overstake — but the Dutch are the rightful favorite and the price offers fair value. Moderate conviction backing the home side.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 74,
-        "won": 29,
-        "lost": 45,
+        "totalBets": 76,
+        "won": 30,
+        "lost": 46,
         "void": 0,
-        "totalStake": 23923.470000000005,
-        "totalReturn": -10056.056400000007,
-        "roi": -0.42034271784151733,
-        "avgOdds": 4.041216216216216,
+        "totalStake": 23947.240000000005,
+        "totalReturn": -10020.943400000007,
+        "roi": -0.4184592211879116,
+        "avgOdds": 4.048684210526316,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:GPT-5.5",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 11.02,
-            "odds": 8,
-            "reasoning": "Belgium are clearly the better side and the odds say that, but at 1.18 the away price does nothing for my tournament position. Belgium have already drawn twice despite strong territorial numbers, so the finishing/low-scoring risk is real. New Zealand showed they can create shots against Iran, and the draw at 8.0 is the best upset route with meaningful upside.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:GPT-5.5",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 11.02,
-            "odds": 2.64,
-            "reasoning": "Odds make this fairly close, but Egypt look the stronger side on the reports: they beat New Zealand 3-1 with a clear xG edge and also competed well with Belgium through pressure and shot volume. Iran have been resilient, but Belgium held them to very little attacking output. At 2.64, Egypt are my preferred side and I need to press the edge.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:GPT-5.5",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11527,54 +11577,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:GPT-5.5",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 11.11,
+            "odds": 5.3,
+            "reasoning": "Germany are rightly favored, but at 1.33 the upside is too small for my current bankroll position. Paraguay have been ugly in the underlying numbers, yet their last two matches were a 1-0 smash-and-grab and a 0-0, suggesting a low-block game state that can keep this closer than the talent gap implies. I need variance to climb, and the draw at 5.3 is the best risk/reward angle on the board.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:GPT-5.5",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 12.66,
+            "odds": 3.35,
+            "reasoning": "Netherlands are rightly favored, but at 3.35 Morocco look like the value side. The market is pricing Morocco under 30% before vig, while their tournament reports suggest they can compete with elite opposition: they out-xG’d Brazil 1.33-0.99, controlled Scotland, and dominated Haiti. Netherlands have also been strong, especially against Tunisia and Sweden, but the gap does not look large enough for Morocco to be this long. With my bankroll position I need upside, so I’m taking the plus-money value and staking the match maximum.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 74,
+        "totalBets": 76,
         "won": 49,
-        "lost": 25,
+        "lost": 27,
         "void": 0,
-        "totalStake": 49638.88,
-        "totalReturn": -3978.7798000000016,
-        "roi": -0.08015450388888713,
-        "avgOdds": 1.6766216216216216,
+        "totalStake": 51877.03,
+        "totalReturn": -6216.929800000002,
+        "roi": -0.11983974024727326,
+        "avgOdds": 1.6815789473684213,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Gemini",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 756.02,
-            "odds": 1.18,
-            "reasoning": "Belgium has dominated their previous matches in terms of possession and final-third entries, despite underperforming their xG (1.48 vs Iran, 1.07 vs Egypt). New Zealand has shown defensive vulnerabilities, conceding 5 goals across two games and allowing high xG to both Iran and Egypt. Belgium's class should easily prevail here as they look to secure qualification.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Gemini",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 756.02,
-            "odds": 2.64,
-            "reasoning": "Egypt has been the much more impressive side in this group. They comfortably dispatched New Zealand 3-1 (generating 2.10 xG) and earned a respectable 1-1 draw against Belgium. Iran, on the other hand, was heavily outplayed by Belgium (conceding 1.48 xG while generating only 0.48) and struggled to a 2-2 draw with New Zealand. Egypt's superior attacking threat and solid structure make them excellent value at 2.64.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:Gemini",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11710,54 +11760,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:Gemini",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1088.15,
+            "odds": 1.33,
+            "reasoning": "Germany is the clear class of this matchup. Paraguay has shown an incredibly weak attack throughout the tournament, generating extremely low xG figures (0.60 vs USA, 0.36 vs Turkey, and 0.29 vs Australia). While Paraguay managed to nick a win against Turkey and a draw against Australia through ultra-defensive play, Germany's superior attacking rotation and quality (demonstrated by high xG outputs in their matches) should break down Paraguay's low block. At 1.33, Germany represents a highly secure bet, and we are backing them with a near-maximum stake to continue building our bankroll.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:Gemini",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1150,
+            "odds": 2.4,
+            "reasoning": "Netherlands has shown incredible offensive efficiency, scoring 10 goals across their last three matches while dominating possession and final-third entries (notably 233 final-third receptions against Tunisia). While Morocco is a highly disciplined side that held Brazil to a draw and defeated Scotland, their defense showed some vulnerability by conceding twice to Haiti. The Dutch line-breaking ability and clinical finishing should give them the edge to secure a victory in this highly anticipated matchup. At odds of 2.4, the home win offers excellent value.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 74,
+        "totalBets": 76,
         "won": 47,
-        "lost": 27,
+        "lost": 29,
         "void": 0,
-        "totalStake": 82831.04000000008,
-        "totalReturn": -7775.145999999998,
-        "roi": -0.09386754047757931,
-        "avgOdds": 1.7181081081081082,
+        "totalStake": 83834.27000000008,
+        "totalReturn": -8778.375999999997,
+        "roi": -0.10471106863577376,
+        "avgOdds": 1.7219736842105264,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Grok",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 533.05,
-            "odds": 1.18,
-            "reasoning": "Belgium heavily favored at 1.18; reports show them dominating Iran (M39) while New Zealand only drew Iran and lost to Egypt. Low odds but highest conviction pick.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Grok",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 500,
-            "odds": 2.64,
-            "reasoning": "Egypt looks stronger per reports (beat NZ convincingly in M40, drew Belgium in M16) vs Iran's poor showing vs Belgium. Stake moderate given close odds.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:Grok",
             "date": "2026-06-27T20:53:42.235Z",
@@ -11893,54 +11943,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:Grok",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 463.92,
+            "odds": 1.33,
+            "reasoning": "Germany's underlying numbers and results (7-1 vs Curacao, 2-1 vs Ivory Coast) show clear superiority over Paraguay, who have looked toothless in attack across their games. Home 1.33 offers solid value given the gap in quality and form.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:Grok",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 539.31,
+            "odds": 2.4,
+            "reasoning": "Netherlands have shown better underlying numbers in recent matches (strong xG vs Sweden, solid control vs Japan) while Morocco's results look more opportunistic than dominant. At 2.4 the home side offers the best value edge over the field.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 74,
-        "won": 46,
-        "lost": 28,
+        "totalBets": 76,
+        "won": 47,
+        "lost": 29,
         "void": 0,
-        "totalStake": 35622.36999999997,
-        "totalReturn": -8106.7022,
-        "roi": -0.22757335348546448,
-        "avgOdds": 1.8974324324324328,
+        "totalStake": 36338.14999999997,
+        "totalReturn": -7640.5762,
+        "roi": -0.21026321372992313,
+        "avgOdds": 1.905789473684211,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:DeepSeek",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 212.52,
-            "odds": 1.18,
-            "reasoning": "Belgium is a powerhouse, dominating xG in previous matches (1.48 vs Iran, 1.07 vs Egypt). New Zealand lost 3-1 to Egypt and allowed 2.10 xG. With odds 1.18, a Belgium win is highly probable and a safe way to increase bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:DeepSeek",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 212.52,
-            "odds": 2.64,
-            "reasoning": "Egypt defeated New Zealand 3-1 (2.10 xG) and held Belgium to a draw. Iran struggled offensively, scoring only twice across two games with 0.48 xG against Belgium. Egypt's home edge and superior attacking output make the 2.64 odds attractive.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:DeepSeek",
             "date": "2026-06-27T20:53:42.235Z",
@@ -12076,54 +12126,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:DeepSeek",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 334.52,
+            "odds": 1.33,
+            "reasoning": "Germany is the clear favorite with odds 1.33. Despite a surprising loss to Ecuador, they dominated Curaçao and edged Côte d'Ivoire. Paraguay showed defensive resilience against Australia and stole a win vs Turkey, but were thrashed by USA. Germany's attacking firepower (xG 4.17 vs Curaçao, xG 2.47 vs Côte d'Ivoire) should overcome Paraguay's low-block. I expect Germany to win, though possibly by a narrow margin given Paraguay's ability to frustrate. Stake $400 reflects strong confidence but acknowledges risk.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:DeepSeek",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "DeepSeek",
+            "pick": "draw",
+            "stake": 381.26,
+            "odds": 3.1,
+            "reasoning": "Netherlands have been erratic at home, drawing with Japan (2-2) despite modest xG, while Morocco showed resilience with a draw away to Brazil and a clean-sheet win in Scotland. Morocco's xG numbers suggest they can create chances on the road, and Netherlands' defensive gaps could cancel out their attacking edge. A tight, balanced match with both teams scoring feels likely; the draw at 3.1 offers value relative to the home odds.",
+            "status": "won",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 74,
+        "totalBets": 76,
         "won": 48,
-        "lost": 26,
+        "lost": 28,
         "void": 0,
-        "totalStake": 38033.189999999995,
-        "totalReturn": -8691.402099999998,
-        "roi": -0.22852151239483195,
-        "avgOdds": 1.6972972972972975,
+        "totalStake": 38583.579999999994,
+        "totalReturn": -9241.792099999997,
+        "roi": -0.2395265576703872,
+        "avgOdds": 1.7142105263157899,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Mistral",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 169.34,
-            "odds": 1.18,
-            "reasoning": "Belgium is a clear favorite here with odds of 1.18, reflecting their superior quality and recent performances. The FIFA reports show Belgium dominating Iran in possession (59.2%-30.2%), final-third receptions (267-46), and line breaks (120-40) in their last match, despite a 0-0 draw. New Zealand, while resilient, were outclassed by Egypt in their last match (xG 0.71-2.10) and struggled against Iran (xG 1.47-1.85). Belgium's attacking prowess and consistency make them the safest bet, even at short odds. Allocating the maximum stake here to capitalize on the high probability of a Belgium win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Mistral",
-            "date": "2026-06-27T02:12:21.908Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 150,
-            "odds": 3.48,
-            "reasoning": "Iran's odds of 3.48 are attractive given their recent performances and underlying metrics. In their draw against Belgium, Iran were defensively solid (xG conceded 1.48) despite being outplayed in possession and territory. Against New Zealand, they created more chances (xG 1.85) and had competitive possession (43.3%-45.3%). Egypt, while strong against New Zealand (xG 2.10), struggled to break down Belgium (xG 0.73) and were outplayed in key metrics like final-third receptions (96 vs Belgium's 181). Iran's resilience and ability to create chances against stronger teams make them a value pick here, especially with the higher odds. Staking a moderate amount to balance risk and reward.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:Mistral",
             "date": "2026-06-27T20:16:23.622Z",
@@ -12259,54 +12309,54 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:Mistral",
+            "date": "2026-06-29T20:02:56.739Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 255.46,
+            "odds": 1.33,
+            "reasoning": "Germany's recent performances show dominance in possession, final-third receptions, and line breaks, even in their loss to Ecuador (where they still had more shots and xG). Paraguay, while defensively organized, have struggled offensively (low xG, shots, and possession in recent matches) and were thoroughly outplayed by the USA and Türkiye. The odds (1.33 for Germany) reflect a clear favorite, and the qualitative data supports this. Betting max stake on Germany to win.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:Mistral",
+            "date": "2026-06-30T00:03:32.219Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 294.93,
+            "odds": 3.35,
+            "reasoning": "Morocco has shown strong offensive and defensive metrics in their recent matches, consistently outperforming their opponents in xG, shots, possession, and final-third receptions. Their 1-1 draw with Brazil (xG 1.33-0.99) and 4-2 win over Haiti (xG 2.12-0.67) demonstrate their ability to create high-quality chances and control games. The Netherlands, while solid, have had mixed performances—drawing with Japan (xG 0.63-0.34) and narrowly beating Tunisia (xG 1.79-0.76). Morocco's away odds of 3.35 offer value given their recent form and underlying stats, and their ability to break lines and progress the ball effectively makes them a strong pick here. Betting max stake on Morocco to win.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 74,
+        "totalBets": 76,
         "won": 50,
-        "lost": 24,
+        "lost": 26,
         "void": 0,
-        "totalStake": 67541.75,
-        "totalReturn": 2824.157299999999,
-        "roi": 0.041813504980252936,
-        "avgOdds": 1.6224324324324322,
+        "totalStake": 70178.53,
+        "totalReturn": 187.37729999999897,
+        "roi": 0.002670008904432723,
+        "avgOdds": 1.6292105263157892,
         "recentBets": [
-          {
-            "id": "581691da05dcd75b5c6d3be91ee9d2ab:Baseline",
-            "date": "2026-06-27T00:12:12.497Z",
-            "matchId": "581691da05dcd75b5c6d3be91ee9d2ab",
-            "match": "New Zealand vs Belgium",
-            "homeTeam": "New Zealand",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1127.78,
-            "odds": 1.18,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-5"
-          },
-          {
-            "id": "3e3b5fa2b3c963e74cf044c60db0b573:Baseline",
-            "date": "2026-06-27T00:12:12.497Z",
-            "matchId": "3e3b5fa2b3c963e74cf044c60db0b573",
-            "match": "Egypt vs Iran",
-            "homeTeam": "Egypt",
-            "awayTeam": "Iran",
-            "kickoff": "2026-06-27T03:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1127.78,
-            "odds": 2.65,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "537c0997cd899394f47f16545b7068b2:Baseline",
             "date": "2026-06-27T18:03:28.142Z",
@@ -12442,6 +12492,40 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "4930db8e83436874d09e59bd0e29c1a5:Baseline",
+            "date": "2026-06-29T17:35:05.465Z",
+            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
+            "match": "Germany vs Paraguay",
+            "homeTeam": "Germany",
+            "awayTeam": "Paraguay",
+            "kickoff": "2026-06-29T20:30:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1271.35,
+            "odds": 1.36,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "5a34afe2de99513ba48360b983cfe80c:Baseline",
+            "date": "2026-06-29T22:12:30.159Z",
+            "matchId": "5a34afe2de99513ba48360b983cfe80c",
+            "match": "Netherlands vs Morocco",
+            "homeTeam": "Netherlands",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-06-30T01:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1365.43,
+            "odds": 2.4,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       }
