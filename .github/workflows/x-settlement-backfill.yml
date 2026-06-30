@@ -1,0 +1,26 @@
+name: x-settlement-backfill
+on:
+  workflow_dispatch:
+    inputs:
+      backfill_matches:
+        description: "Pipe-separated matches to post"
+        required: true
+        default: "Germany vs Paraguay|Netherlands vs Morocco"
+        type: string
+permissions: { contents: read }
+jobs:
+  x-settlement-backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun pipeline/src/run-x-settlement-backfill.ts
+        env:
+          DRY_RUN: "0"
+          BACKFILL_MATCHES: ${{ inputs.backfill_matches }}
+          PUBLIC_SITE_URL: https://llmworldcup.xyz
+          X_APP_KEY: ${{ secrets.X_APP_KEY }}
+          X_APP_SECRET: ${{ secrets.X_APP_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
