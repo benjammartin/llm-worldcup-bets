@@ -11143,12 +11143,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "5a34afe2de99513ba48360b983cfe80c",
-        "homeTeam": "Netherlands",
-        "awayTeam": "Morocco",
-        "kickoff": "2026-06-30T01:00:00Z"
-      },
-      {
         "matchId": "ce017bea1a26252278053ce759e2416b",
         "homeTeam": "Ivory Coast",
         "awayTeam": "Norway",
@@ -11159,6 +11153,12 @@
         "homeTeam": "France",
         "awayTeam": "Sweden",
         "kickoff": "2026-06-30T21:00:00Z"
+      },
+      {
+        "matchId": "f58c55a9da96af562c31b7c5cca40187",
+        "homeTeam": "Mexico",
+        "awayTeam": "Ecuador",
+        "kickoff": "2026-07-01T01:00:00Z"
       }
     ],
     "liveMatches": [],
