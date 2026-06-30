@@ -11170,7 +11170,7 @@
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Claude",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11178,14 +11178,14 @@
       "kickoff": "2026-06-30T17:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 1054.78,
-      "odds": 2.12,
-      "reasoning": "Norway has shown a consistent attacking threat across all three reports (xG 2.41, 2.05, 1.45) and outperforms opponents in line breaks and final-third entries. They put 4 past Iraq and beat Senegal 3-2. The away price of 2.12 offers real value against an Ivory Coast side priced as a soft home favorite at 3.62. Backing the more dangerous, higher-output team to win on the road.",
+      "stake": 900,
+      "odds": 2.15,
+      "reasoning": "Norway is the market favorite at 2.15 and the FIFA reports back it up: they've consistently generated strong xG (2.41 vs Iraq, 2.05 vs Senegal, 1.45 vs France) with excellent line breaks and progressions even in defeat. They're a sharper attacking outfit than Ivory Coast and the shortest price reflects genuine edge. Backing away with measured conviction.",
       "status": "pending"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:GPT-5.5",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11194,13 +11194,13 @@
       "model": "GPT-5.5",
       "pick": "away",
       "stake": 18.76,
-      "odds": 2.12,
-      "reasoning": "Norway are the market favorite and odds remain my primary signal; 2.12 implies a clear edge over either Ivory Coast or the draw. The available FIFA reports show Norway creating solid xG and chance volume across three matches, including wins over Iraq and Senegal and even a misleading 1-4 loss to France where Norway won the xG. With my bankroll needing upside, I’m staking the max on the favorite rather than spreading thin.",
+      "odds": 2.15,
+      "reasoning": "Norway are the market favorite at 2.15, and the odds are my primary signal here. Their reports show a side that consistently creates chances and gets into advanced areas: 4-1 over Iraq with 2.41 xG, 3 goals against Senegal, and even in the 1-4 France loss they generated 1.45 xG. The defensive volatility is real, but with no Ivory Coast data in this slate and Norway priced as the strongest outcome, I’m backing the away win and using the max stake given my need to build the bankroll.",
       "status": "pending"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Gemini",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11209,13 +11209,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 807.83,
-      "odds": 2.12,
-      "reasoning": "Norway has consistently shown strong offensive metrics throughout the tournament, generating high xG figures in their matches (2.41 vs Iraq, 1.50 vs Senegal, and 1.45 vs France). While their defense has shown some vulnerability, their attacking efficiency led by world-class talent gives them a significant edge against Ivory Coast. At odds of 2.12, the value lies with Norway to secure the win and bounce back from their defeat against France.",
+      "odds": 2.15,
+      "reasoning": "Norway has shown impressive offensive metrics throughout the tournament, consistently generating high expected goals (xG), including out-creating France 1.45 to 1.05 in their previous match despite the final scoreline. Their ability to find the back of the net makes them a strong choice against Ivory Coast. At odds of 2.15, Norway represents excellent value, and we are backing them with the maximum allowed stake to bounce back.",
       "status": "pending"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Grok",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11224,13 +11224,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 336.63,
-      "odds": 2.12,
-      "reasoning": "Norway's recent results and underlying numbers (strong xG, possession, line breaks vs Iraq/Senegal) point to a clear quality edge over Ivory Coast. Away odds of 2.12 offer the best value on the slate.",
+      "odds": 2.15,
+      "reasoning": "Norway's recent matches show consistent dominance in xG, possession, and progression metrics (e.g., strong wins vs Iraq/Senegal, competitive vs France), supporting the 2.15 away odds as the clearest value over Ivory Coast.",
       "status": "pending"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:DeepSeek",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11238,14 +11238,14 @@
       "kickoff": "2026-06-30T17:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 400,
-      "odds": 2.12,
-      "reasoning": "Norway enter as favorites with odds 2.12, implying ~45% fair probability. Match reports show Norway defeated Iraq 4-1 and Senegal 3-2, generating positive xG despite less possession, indicating a clinical counter-attacking style. Though they lost 1-4 to France, they actually out-xG'd France (1.45 vs 1.05). Without specific data on Ivory Coast, the odds and Norway's performances against varied opposition suggest value on the away win. Risk is managed with a moderate stake.",
+      "stake": 473.11,
+      "odds": 2.15,
+      "reasoning": "Norway’s post-match reports show strong attacking metrics: 2.41 xG vs Iraq, 1.50 vs Senegal, and even 1.45 vs France despite losing. They consistently convert chances and control progression. Ivory Coast’s absence of reports implies lower quality. Odds of 2.15 imply high probability of away win, and with bankroll down, I’m maxing the 25% cap to capitalize on the edge.",
       "status": "pending"
     },
     {
       "id": "ce017bea1a26252278053ce759e2416b:Mistral",
-      "date": "2026-06-30T14:18:40.166Z",
+      "date": "2026-06-30T15:18:04.975Z",
       "matchId": "ce017bea1a26252278053ce759e2416b",
       "match": "Ivory Coast vs Norway",
       "homeTeam": "Ivory Coast",
@@ -11254,14 +11254,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 189.82,
-      "odds": 2.12,
-      "reasoning": "Norway's recent performances show a clear pattern: they dominate key attacking metrics (xG, shots on target, possession, final-third receptions, line breaks, and progressions) despite often losing to stronger teams like France. Their xG in the last three matches (2.41, 1.50, 1.45) suggests they create high-quality chances, and their defensive pressures indicate an aggressive, high-pressing style that can disrupt less organized teams. Ivory Coast, while not weak, lacks the same level of recent attacking output or structural dominance in these metrics. The odds (away 2.12) undervalue Norway's underlying quality and attacking threat, especially given their ability to exploit weaker defenses. Given my recent losses, I'm taking a high-conviction bet on Norway to bounce back with a win, capping the stake at the maximum allowed to recover aggressively.",
+      "odds": 2.15,
+      "reasoning": "Norway's recent performances show they are a strong attacking side, consistently generating high xG and shots on target despite facing tough opponents like France and Senegal. Their possession and final-third metrics are solid, and they have demonstrated resilience in converting chances. Ivory Coast, while not weak, lacks the same level of attacking output in recent data. The odds for Norway (away at 2.15) are favorable given their form and underlying stats, making this a high-confidence bet. Allocating the maximum allowed stake to capitalize on this value.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-30T14:18:40.166Z",
+    "lastBetsRun": "2026-06-30T15:18:04.975Z",
     "lastSettleRun": "2026-06-30T05:12:57.301Z",
     "failures": [
       {
