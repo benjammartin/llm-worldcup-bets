@@ -11275,7 +11275,7 @@
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Claude",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
@@ -11285,27 +11285,27 @@
       "pick": "home",
       "stake": 950,
       "odds": 1.28,
-      "reasoning": "France looks excellent: 3-1 over Senegal, 3-0 over Iraq, 4-1 at Norway — consistent strong xG and dominant final-third numbers. Sweden hammered Tunisia but got outshot and beaten by Netherlands and edged a draw with Japan despite being outplayed in xG. France at home is clearly the class side. Odds of 1.28 imply ~78% which feels fair, maybe slightly value-leaning given France's form. Solid stake but not maxed given thin margin on short favorites.",
+      "reasoning": "France have been dominant: 3-1 over Senegal, 3-0 over Iraq, 4-1 at Norway with consistently strong xG and territorial control. Sweden put up 5-1 vs Tunisia but lost 5-1 to Netherlands and drew Japan while being out-shot. France at 1.28 is a fair price for a clearly superior side, and the qualitative reports back it. Solid value, sizing moderately given short odds and that draws/upsets happen in single matches.",
       "status": "pending"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:GPT-5.5",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
       "awayTeam": "Sweden",
       "kickoff": "2026-06-30T21:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "draw",
       "stake": 18.76,
-      "odds": 1.28,
-      "reasoning": "France are a very short favorite and the odds remain the main signal here. The FIFA reports support that profile: France have produced three strong wins, including dominant territory/chance numbers vs Iraq and a convincing attacking output vs Senegal, while Sweden have been uneven after beating Tunisia, losing heavily to the Netherlands and drawing Japan with modest xG. Sweden are capable enough to make this uncomfortable, but France look clearly superior and the 1.28 home price is the safest bankroll-building spot, so I’m staking the match maximum.",
+      "odds": 6.1,
+      "reasoning": "France are clearly the better side and the odds rightly make them heavy favorites, but at my current bankroll I need upside rather than grinding a 1.28 favorite. Sweden’s results are volatile, yet their underlying numbers weren’t hopeless against the Netherlands or Japan, and France did allow Norway some chances despite winning big. The draw at 6.1 is the best risk/reward shot here, so I’m taking a max-stake swing.",
       "status": "pending"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Gemini",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
@@ -11315,12 +11315,12 @@
       "pick": "home",
       "stake": 807.83,
       "odds": 1.28,
-      "reasoning": "France has been highly efficient and dominant throughout the tournament, securing comfortable wins against Senegal (3-1), Iraq (3-0), and Norway (4-1). On the other hand, Sweden has shown vulnerability against top-tier opposition, suffering a heavy 5-1 defeat to the Netherlands and being outplayed in their 1-1 draw with Japan (xG 0.56 to 1.22). Given France's superior squad depth, tactical consistency, and offensive output, they are heavily favored to win this matchup. We back France with the maximum allowed stake of $1,018.21 to secure a steady return and rebuild our bankroll.",
+      "reasoning": "France has shown outstanding form in the tournament so far, securing convincing victories against Senegal (3-1), Iraq (3-0), and Norway (4-1) with dominant expected goals (xG) metrics and high offensive efficiency. Sweden, on the other hand, struggled significantly against top-tier opposition, suffering a heavy 5-1 defeat to the Netherlands and managing only a 1-1 draw against Japan. Given France's superior squad depth, consistency, and tactical dominance, they are overwhelming favorites to win this match. We are backing a comfortable home win for Les Bleus with the maximum allowed stake to rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Grok",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
@@ -11330,12 +11330,12 @@
       "pick": "home",
       "stake": 336.63,
       "odds": 1.28,
-      "reasoning": "France has looked dominant in their recent matches (high xG and shot volume vs Senegal, Iraq, Norway), while Sweden's results are more mixed despite the Tunisia win. The 1.28 odds on France still offer solid value given the quality gap.",
+      "reasoning": "France has posted elite xG and shot metrics across multiple recent matches (vs Senegal, Iraq, Norway) while Sweden has been inconsistent and exposed defensively even in wins. The 1.28 price is the clearest edge on the slate.",
       "status": "pending"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:DeepSeek",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
@@ -11345,12 +11345,12 @@
       "pick": "home",
       "stake": 473.11,
       "odds": 1.28,
-      "reasoning": "France has been dominant: 3-1 vs Senegal (1.62 xG), 3-0 vs Iraq (2.30 xG), and a 4-1 away win over Norway (1.05 xG but clinical). Sweden lost 5-1 to Netherlands (2.25 xG against) and drew 1-1 with Japan (0.56 xG). France's home advantage and superior finishing, line-breaking, and final-third receptions (184 vs Norway) make a home win very likely. Odds of 1.28 imply ~78% win probability, aligning with the gap in quality. I'm all-in with max stake to recover bankroll.",
+      "reasoning": "France have looked imperious: 3-1 over Senegal, 3-0 vs Iraq, and a clinical 4-1 win in Norway. Sweden's 5-1 thrashing by Netherlands and a 1-1 draw with Japan show they can struggle against elite and well-organized sides. At 1.28 the price reflects France's dominance and I expect them to control the game from start to finish.",
       "status": "pending"
     },
     {
       "id": "0b5491529142c9bcc3f88bf45ccb0a7b:Mistral",
-      "date": "2026-06-30T19:06:00.896Z",
+      "date": "2026-06-30T19:11:05.946Z",
       "matchId": "0b5491529142c9bcc3f88bf45ccb0a7b",
       "match": "France vs Sweden",
       "homeTeam": "France",
@@ -11360,13 +11360,13 @@
       "pick": "home",
       "stake": 189.82,
       "odds": 1.28,
-      "reasoning": "France's recent performances show dominance in possession, shots, and final-third receptions, with strong xG figures (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway despite losing the xG battle narrowly). Sweden, while resilient, has struggled against top-tier teams (1.30 xG vs Netherlands, 0.56 xG vs Japan) and lacks the same attacking output. The odds (1.28 for France) are favorable given their form, and the risk-reward balance justifies the maximum stake to recover from recent losses. Sweden's away odds (11) are too risky given their inconsistency, and the draw (6.1) is unattractive for a team that dominates possession and chance creation like France.",
+      "reasoning": "France has demonstrated dominant performances in their recent matches, particularly in terms of xG, shots on target, possession, and final-third receptions. Their attacking prowess is evident, with high line breaks and progressions, and they have consistently outperformed their opponents in these metrics. Sweden, while showing resilience in some matches (e.g., against Japan), have struggled against stronger teams like the Netherlands and conceded heavily to France in a similar context (Norway vs France). The odds for France to win (1.28) are very favorable given their form and the qualitative data from the FIFA reports. Betting on France at home aligns with both the quantitative odds and the qualitative context, making this a high-confidence pick.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-30T19:06:00.896Z",
+    "lastBetsRun": "2026-06-30T19:11:05.946Z",
     "lastSettleRun": "2026-06-30T05:12:57.301Z",
     "failures": [
       {
