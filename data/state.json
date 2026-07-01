@@ -11464,7 +11464,7 @@
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Claude",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
@@ -11472,29 +11472,29 @@
       "kickoff": "2026-07-01T01:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1000,
+      "stake": 950,
       "odds": 2.25,
-      "reasoning": "Mexico has shown the stronger and more consistent attacking profile (2-0 vs RSA, 3-0 vs CZE) with home advantage here. At 2.25 the home price offers value over an Ecuador side that is defensively stubborn but inconsistent in finishing. Moderate stake given Ecuador's draw-prone, low-scoring tendencies are a real risk.",
+      "reasoning": "Mexico showed strong attacking form (2-0 RSA, 3-0 CZE) and gets home advantage. Ecuador is capable (2-1 Germany) but their 0-0 vs Curacao despite 2.76 xG flags real finishing problems. At 2.25, home offers value on ~44% implied probability. Moderate stake given Ecuador's upside potential.",
       "status": "pending"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:GPT-5.5",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
       "kickoff": "2026-07-01T01:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "away",
       "stake": 18.6,
-      "odds": 2.25,
-      "reasoning": "Mexico at 2.25 is the primary odds-side for me: they are the market favorite and have shown stronger tournament consistency, including a dominant 3-0 over Czechia and a controlled 2-0 over South Africa. Ecuador have been dangerous and their Germany win is real, but they also failed to finish a very winnable Curaçao match. With Mexico likely benefiting from host/home conditions and the price still offering decent upside, I’m staking the max on Mexico.",
+      "odds": 4.05,
+      "reasoning": "Mexico have been very solid and deserve to be favored, but Ecuador at 4.05 looks like the best risk/reward price in a close knockout-style matchup. Ecuador’s reports show they can create chances against strong opposition: competitive xG vs Côte d’Ivoire, a huge chance volume vs Curaçao, and a win over Germany. Mexico’s results are cleaner, but the Korea match was not dominant on xG. With my bankroll situation I need upside, and I think Ecuador’s true win chance is a bit higher than the market implies.",
       "status": "pending"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Gemini",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
@@ -11504,12 +11504,12 @@
       "pick": "home",
       "stake": 1063.51,
       "odds": 2.25,
-      "reasoning": "Mexico enters this matchup in superb form, having won all three of their matches so far without conceding a single goal (2-0 vs South Africa, 1-0 vs Korea Republic, and a highly impressive 3-0 against Czechia where they dominated xG 2.10 to 0.44). Ecuador, while capable of pulling off results like their 2-1 win over Germany, has shown inconsistency, failing to score against Curacao (0-0) and losing to Ivory Coast. Mexico's defensive organization and clinical efficiency give them a significant edge here, making the 2.25 home odds highly attractive.",
+      "reasoning": "Mexico has been one of the tournament's most reliable teams, winning all three of their analyzed matches (2-0 vs South Africa, 1-0 vs Korea Republic, and 3-0 vs Czechia) while maintaining a perfect defensive record with zero goals conceded. Their underlying metrics are strong, highlighted by a dominant 2.10 to 0.44 xG performance against Czechia. Ecuador has shown flashes of quality, notably beating Germany 2-1, but they have also exhibited inconsistency, including a frustrating 0-0 draw against Curaçao and a 1-0 loss to Côte d'Ivoire. Mexico's defensive organization and clinical finishing give them the upper hand here, making the 2.25 odds on a home win highly attractive.",
       "status": "pending"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Grok",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
@@ -11519,27 +11519,27 @@
       "pick": "home",
       "stake": 440.01,
       "odds": 2.25,
-      "reasoning": "Mexico's underlying numbers (xG, line breaks, final-third receptions) show consistent dominance in recent matches vs South Africa, Korea, and Czechia, while Ecuador has been wasteful (0-0 vs Curaçao despite 2.76 xG) and less convincing overall. Home odds of 2.25 offer value given Mexico's home strength and Ecuador's road vulnerabilities.",
+      "reasoning": "Mexico's recent results show consistent ability to grind out wins despite variable xG, while Ecuador's performances have been more uneven (strong vs Germany but poor vs Ivory Coast). Home edge at 2.25 offers value over the field.",
       "status": "pending"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:DeepSeek",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
       "kickoff": "2026-07-01T01:00:00Z",
       "model": "DeepSeek",
-      "pick": "draw",
-      "stake": 400,
-      "odds": 2.9,
-      "reasoning": "Mexico and Ecuador are evenly matched based on recent tournament performances. Mexico have been solid but not dominant, with a lucky win over Korea and a clinical display against Czechia. Ecuador have proved resilient, holding Germany to a win and dominating Curaçao but failing to score. Both teams have strong defenses. This match has the makings of a tight, low-scoring draw. At odds of 2.9, the draw offers value.",
+      "pick": "home",
+      "stake": 500,
+      "odds": 2.25,
+      "reasoning": "Mexico are co-hosts with home advantage. Their underlying xG numbers were strong against South Africa (1.78) and Czechia (2.1), while the low-xG win over Korea was a grind. Ecuador have moments of quality (beat Germany) but also frustrating inconsistency (0-0 vs Curaçao despite 2.76 xG). Odds imply Mexico as clear favourite; I trust them to get the job done in a tight, possibly low-scoring match.",
       "status": "pending"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Mistral",
-      "date": "2026-06-30T23:47:01.567Z",
+      "date": "2026-07-01T00:17:49.173Z",
       "matchId": "f58c55a9da96af562c31b7c5cca40187",
       "match": "Mexico vs Ecuador",
       "homeTeam": "Mexico",
@@ -11549,13 +11549,13 @@
       "pick": "home",
       "stake": 245.11,
       "odds": 2.25,
-      "reasoning": "Mexico's recent performances show strong defensive solidity and clinical finishing, even when not dominating possession (e.g., 1-0 vs Korea, 3-0 vs Czechia). Their xG and shot dominance in key matches (2.10 xG vs Czechia, 1.78 xG vs South Africa) suggest they create high-quality chances. Ecuador, while dangerous (2.76 xG vs Curaçao), struggled against Côte d'Ivoire (1.36 xG) and Germany (1.29 xG), conceding goals despite high possession. Mexico's home odds (2.25) are attractive given their form, and I'm backing their ability to control the game's key moments. Staking the maximum to reflect high conviction.",
+      "reasoning": "Mexico's recent performances show a strong attacking and defensive structure, even when not dominating possession. Their xG metrics (1.78 vs RSA, 2.10 vs CZE) and high shot volume (16 vs RSA, 11 vs CZE with 5 on target) indicate consistent offensive threat. Ecuador, while resilient (1.36 xG vs CIV, 2.76 xG vs CUW), have struggled against organized defenses (0-0 vs CUW despite 27 shots) and conceded a clean sheet to Mexico in M28 (0.34 xG for Mexico). Mexico's line breaks (105 vs RSA, 76 vs KOR) and progressions suggest they can disrupt Ecuador's midfield. The odds (2.25 for Mexico) are favorable given their recent form and Ecuador's defensive vulnerabilities (conceded 1-0 to CIV, 2-1 to Germany despite xG of 1.29-0.74). Betting max stake on Mexico to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-06-30T23:47:01.567Z",
+    "lastBetsRun": "2026-07-01T00:17:49.173Z",
     "lastSettleRun": "2026-06-30T23:27:18.808Z",
     "failures": [
       {
@@ -11642,6 +11642,12 @@
         "homeTeam": "Belgium",
         "awayTeam": "Senegal",
         "kickoff": "2026-07-01T20:00:00Z"
+      },
+      {
+        "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+        "homeTeam": "USA",
+        "awayTeam": "Bosnia & Herzegovina",
+        "kickoff": "2026-07-02T00:00:00Z"
       }
     ],
     "liveMatches": [],
