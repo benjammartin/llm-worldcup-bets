@@ -11716,7 +11716,7 @@
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Claude",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
@@ -11724,14 +11724,14 @@
       "kickoff": "2026-07-01T20:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1100,
+      "stake": 1400,
       "odds": 2.12,
-      "reasoning": "Belgium's underlying metrics are consistently dominant — 23 shots and 1.48 xG vs Iran, 3.99 xG demolition of New Zealand, and control vs Egypt. Senegal beat Iraq but were outplayed by France (0.39 xG) and lost to Norway. At 2.12 for the home favorite with superior possession, line breaks, and final-third penetration across every fixture, Belgium offers strong value. Moderate stake given single-match slate and draw risk.",
+      "reasoning": "Belgium has shown superior xG and territorial dominance across the tournament (3.99 vs NZL, 1.48 vs Iran), while Senegal conceded 3 to Norway and managed just 0.39 xG vs France. At home 2.12 is solid value on the more consistent, control-oriented side. Confident but sizing for the real draw/upset risk given Senegal's occasional attacking bursts.",
       "status": "pending"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:GPT-5.5",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
@@ -11741,12 +11741,12 @@
       "pick": "home",
       "stake": 22.81,
       "odds": 2.12,
-      "reasoning": "Odds are still the anchor and Belgium at 2.12 looks like the best price in this 1X2. The FIFA reports support that lean: Belgium have consistently controlled territory and chance quality, especially the 0-0 with Iran where they won xG 1.48-0.48 and final-third receptions 267-46, then the 5-1 over New Zealand with 3.99 xG and 35 shots. Senegal have attacking upside, but they were clearly contained by France and have conceded chances in the Norway match. With my bankroll position I need to press edges rather than nibble, so I’m staking the match maximum on Belgium.",
+      "reasoning": "Odds make Belgium only a modest favorite, but the match reports lean their way: Belgium have consistently created the better xG and territory, including 1.48 xG vs Iran and 3.99 vs New Zealand, while Senegal have been more volatile and conceded 3 to Norway and 3 to France. Senegal’s ceiling is real, but at 2.12 I think Belgium home is the best value on the board, and with only one match listed I’m staking the max.",
       "status": "pending"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Gemini",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
@@ -11754,14 +11754,14 @@
       "kickoff": "2026-07-01T20:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 1350,
+      "stake": 1355.91,
       "odds": 2.12,
-      "reasoning": "Belgium has shown highly dominant underlying metrics across their matches, consistently winning the xG battle (1.07-0.73 vs Egypt, 1.48-0.48 vs Iran, and a massive 3.99-0.30 in their 5-1 win over New Zealand). Senegal, despite a 5-0 win over Iraq, has shown defensive vulnerabilities against quality European opposition, conceding 3 goals to both France and Norway. With Belgium's superior line-breaking ability and final-third efficiency, the odds of 2.12 for a home win represent excellent value.",
+      "reasoning": "Belgium's attacking metrics have been highly impressive, culminating in a dominant 5-1 win over New Zealand (3.99 xG, 35 shots) and consistent domination of final-third entries. While Senegal showed their threat in a 5-0 win over Iraq, they have also displayed defensive vulnerability, conceding six goals across their games against France and Norway. Backing Belgium's superior control and chance creation at 2.12 offers strong value.",
       "status": "pending"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Grok",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
@@ -11771,27 +11771,27 @@
       "pick": "home",
       "stake": 556.19,
       "odds": 2.12,
-      "reasoning": "Belgium has shown clear dominance in recent matches (strong xG and shot superiority vs Iran and NZL), while Senegal has been inconsistent and outclassed by top sides like France. Odds of 2.12 on Belgium offer solid value given the quality gap.",
+      "reasoning": "Belgium's recent xG and dominance metrics (vs Egypt, Iran, NZL) far outpace Senegal's mixed-to-poor results against quality opposition. Home edge at 2.12 looks like the clearest value on the slate.",
       "status": "pending"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:DeepSeek",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
       "awayTeam": "Senegal",
       "kickoff": "2026-07-01T20:00:00Z",
       "model": "DeepSeek",
-      "pick": "home",
-      "stake": 779.64,
-      "odds": 2.12,
-      "reasoning": "Belgium's underlying metrics are strong: they racked up 1.48 xG vs Iran (0-0 draw) and 3.99 xG vs New Zealand (5-1 win), with huge final-third reception advantages (267-46 vs Iran, 203-77 vs NZ). Senegal were overwhelmed by France (1.62 xGA) and Norway (1.50 xGA), conceding three goals in each match. While Belgium have had finishing issues, Senegal's defense has been porous against quality attacks, and Belgium's chance creation is far superior to Iraq's (whom Senegal beat 5-0). At 2.12 odds, Belgium to win offers value given the gulf in chance creation. I'm backing the Belgian win with a max stake given my confidence in the data.",
+      "pick": "draw",
+      "stake": 500,
+      "odds": 3.35,
+      "reasoning": "Belgium drew with Egypt (1-1) and Iran (0-0) in the group stage despite dominating possession and creating chances; they only convincingly beat minnows New Zealand. Senegal, though losing to France and Norway, generated a 2.05 xG against Norway and thrashed Iraq 5-0, showing they can threaten top opponents. With Belgium's finishing inconsistencies and Senegal's counter-attacking potential, a draw looks a realistic outcome. The draw odds at 3.35 represent value relative to a roughly 30% probability, so I'm betting moderately.",
       "status": "pending"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Mistral",
-      "date": "2026-07-01T17:23:57.119Z",
+      "date": "2026-07-01T18:13:11.683Z",
       "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
       "match": "Belgium vs Senegal",
       "homeTeam": "Belgium",
@@ -11801,13 +11801,13 @@
       "pick": "home",
       "stake": 306.68,
       "odds": 2.12,
-      "reasoning": "Belgium has shown strong offensive metrics in recent matches, particularly against New Zealand (5-1 win with xG 3.99) and Iran (0-0 draw but xG 1.48). Their final-third receptions and line breaks are consistently high, indicating dominant attacking play. Senegal, while dangerous, has had mixed results (e.g., a 3-2 loss to Norway despite higher xG, and a 3-1 loss to France). Belgium's home odds (2.12) are attractive given their recent form and underlying stats, especially since they are likely to control possession and create more chances. The draw (3.35) is tempting, but Belgium's attacking prowess makes them the safer pick to win outright.",
+      "reasoning": "Belgium has shown dominant offensive metrics in recent matches, particularly against New Zealand (M64) where they generated an xG of 3.99 with 35 shots and 10 on target. Their final-third receptions (203) and line breaks (118) in that match were elite, and while they drew 0-0 with Iran (M39), their xG of 1.48 suggests they were unlucky not to score. Senegal, while dangerous, has struggled against stronger defensive teams (e.g., France in M17, where they managed only 0.39 xG). Belgium's home odds (2.12) are attractive given their attacking prowess and Senegal's inconsistency. The draw (3.35) is tempting, but Belgium's recent form and offensive output make them the safer pick to win. Staking the maximum here due to high conviction.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-01T17:23:57.119Z",
+    "lastBetsRun": "2026-07-01T18:13:11.683Z",
     "lastSettleRun": "2026-07-01T05:01:28.433Z",
     "failures": [
       {
