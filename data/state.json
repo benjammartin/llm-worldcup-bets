@@ -320,6 +320,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 8546.14
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 9904.14
       }
     ],
     "GPT-5.5": [
@@ -642,6 +646,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 138.22
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 161.51
       }
     ],
     "Gemini": [
@@ -964,6 +972,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 7091.22
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 8491.56
       }
     ],
     "Grok": [
@@ -1286,6 +1298,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 2936.86
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 3509.47
       }
     ],
     "DeepSeek": [
@@ -1608,6 +1624,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 4233.79
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 5037.43
       }
     ],
     "Mistral": [
@@ -1930,6 +1950,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 1706.1
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 2021.09
       }
     ],
     "Baseline": [
@@ -2252,6 +2276,10 @@
       {
         "t": "2026-07-01T18:36:58.224Z",
         "bankroll": 14473.57
+      },
+      {
+        "t": "2026-07-01T23:27:56.979Z",
+        "bankroll": 16048.93
       }
     ]
   },
@@ -11754,7 +11782,9 @@
       "stake": 1406.57,
       "odds": 2.12,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Claude",
@@ -11769,7 +11799,9 @@
       "stake": 1400,
       "odds": 1.97,
       "reasoning": "Belgium's underlying numbers are consistently strong — high xG, huge shot volume and final-third dominance across all their matches, even when results didn't reflect it (0-0 vs Iran with 23 shots). Senegal is talented but volatile, losing xG battles to France and Norway. At 1.97, home carries solid value with Belgium the more process-reliable side. Sizing moderately given Senegal's attacking upside keeps draws/upsets live.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:GPT-5.5",
@@ -11784,7 +11816,9 @@
       "stake": 24.01,
       "odds": 1.97,
       "reasoning": "Odds are still the primary signal and Belgium at 1.97 looks like the best value on the board. The underlying reports are supportive: Belgium heavily out-created Iran despite the 0-0 and demolished New Zealand on chances, while Senegal have been more volatile, including a poor xG showing versus France and a high-event loss to Norway. Senegal are dangerous enough that I do not want to call this safe, but I make Belgium a bit above the market-implied probability, so I’m taking the home side with the max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Gemini",
@@ -11799,7 +11833,9 @@
       "stake": 1443.65,
       "odds": 1.97,
       "reasoning": "Belgium enters this match in stellar form, having recently dismantled New Zealand 5-1 with an overwhelming 3.99 xG and 35 shots. Throughout the tournament, Belgium has consistently dominated possession and chance creation, averaging over 2.1 xG per game. On the other hand, while Senegal showed attacking capability against Iraq and Norway, they struggled significantly against elite opposition, registering just 0.39 xG in their 3-1 loss to France. Belgium's superior progression metrics and final-third efficiency make them strong favorites here, and the 1.97 odds on a home win represent excellent value. We are backing Belgium with the maximum stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Grok",
@@ -11814,7 +11850,9 @@
       "stake": 590.32,
       "odds": 1.97,
       "reasoning": "Belgium dominates recent xG and underlying metrics (vs Iran/NZL) while Senegal has looked vulnerable defensively (vs France/Norway). 1.97 offers fair value on the clear favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:DeepSeek",
@@ -11829,7 +11867,9 @@
       "stake": 828.5,
       "odds": 1.97,
       "reasoning": "Belgium have been dominant in underlying metrics across the tournament: 3.99 xG and 35 shots against New Zealand, 1.48 xG and 23 shots vs Iran, and 1.07 xG vs Egypt. After struggling to finish in earlier matches, they broke through with 5 goals last time out. Senegal, while dangerous on the counter, have conceded 3 goals in losses to France and Norway, and their xG allowed (1.62 vs France, 1.50 vs Norway) indicates defensive fragility. Belgium’s possession and final-third entries should overwhelm Senegal. The odds at 1.97 offer value for a Belgian win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "658ac8cbf214ca3cc150109b4ddc1e74:Mistral",
@@ -11844,7 +11884,9 @@
       "stake": 324.73,
       "odds": 1.97,
       "reasoning": "Belgium has shown dominant underlying metrics in their recent matches, particularly in M64 (5-0 vs New Zealand) and M39 (0-0 vs Iran), where they generated significantly higher xG, shots, possession, and final-third receptions. While their draw against Egypt (M16) and Iran (M39) suggests they can be held, their attacking prowess is undeniable. Senegal, on the other hand, has had mixed results: a strong 5-0 win over Iraq (M62) but losses to France (M17) and Norway (M41), where they conceded first and struggled to control games despite high possession in some cases. The odds favor Belgium (1.97), which aligns with their superior qualitative and quantitative performance. Given my recent success with higher-stakes bets on favorites (e.g., France, England), I’m allocating the maximum allowed stake here to reflect high confidence in Belgium’s ability to break down Senegal, especially at home or neutral odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Baseline",
@@ -11955,7 +11997,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-01T23:04:39.405Z",
-    "lastSettleRun": "2026-07-01T18:36:58.224Z",
+    "lastSettleRun": "2026-07-01T23:27:56.979Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -12048,32 +12090,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 80,
-        "won": 53,
+        "totalBets": 81,
+        "won": 54,
         "lost": 27,
         "void": 0,
-        "totalStake": 84687.10000000002,
-        "totalReturn": -2364.178600000001,
-        "roi": -0.02791663193095525,
-        "avgOdds": 1.6428750000000008,
+        "totalStake": 86087.10000000002,
+        "totalReturn": -1006.1786000000011,
+        "roi": -0.011687913752466987,
+        "avgOdds": 1.6469135802469144,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:Claude",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Claude",
-            "pick": "draw",
-            "stake": 400,
-            "odds": 2.06,
-            "reasoning": "Genuinely even matchup per odds (3.48/2.06/3.7). Both teams beat Jordan and lost to Argentina by similar margins. The draw carries the best implied probability at 2.06 and a coin-flip game between evenly-matched sides often ends level. Modest stake given real uncertainty.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:Claude",
             "date": "2026-06-28T01:25:40.661Z",
@@ -12226,37 +12251,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:Claude",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1400,
+            "odds": 1.97,
+            "reasoning": "Belgium's underlying numbers are consistently strong — high xG, huge shot volume and final-third dominance across all their matches, even when results didn't reflect it (0-0 vs Iran with 23 shots). Senegal is talented but volatile, losing xG battles to France and Norway. At 1.97, home carries solid value with Belgium the more process-reliable side. Sizing moderately given Senegal's attacking upside keeps draws/upsets live.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 80,
-        "won": 33,
+        "totalBets": 81,
+        "won": 34,
         "lost": 47,
         "void": 0,
-        "totalStake": 24029.920000000002,
-        "totalReturn": -9990.856400000006,
-        "roi": -0.415767360024503,
-        "avgOdds": 3.9931250000000005,
+        "totalStake": 24053.93,
+        "totalReturn": -9967.566700000007,
+        "roi": -0.4143841235091316,
+        "avgOdds": 3.968148148148149,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:GPT-5.5",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 10.97,
-            "odds": 2.06,
-            "reasoning": "The market is making the draw a very strong signal here at 2.06 despite both teams looking fairly comparable on the underlying reports. Algeria were badly beaten by Argentina but then clearly outplayed Jordan, while Austria beat Jordan and were also handled by Argentina. With Austria likely comfortable with a draw and Algeria still potentially helped by one, the price shape screams game-state/incentive draw. Max stake.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:GPT-5.5",
             "date": "2026-06-28T01:25:40.661Z",
@@ -12409,37 +12434,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:GPT-5.5",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 24.01,
+            "odds": 1.97,
+            "reasoning": "Odds are still the primary signal and Belgium at 1.97 looks like the best value on the board. The underlying reports are supportive: Belgium heavily out-created Iran despite the 0-0 and demolished New Zealand on chances, while Senegal have been more volatile, including a poor xG showing versus France and a high-event loss to Norway. Senegal are dangerous enough that I do not want to call this safe, but I make Belgium a bit above the market-implied probability, so I’m taking the home side with the max stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 80,
-        "won": 53,
+        "totalBets": 81,
+        "won": 54,
         "lost": 27,
         "void": 0,
-        "totalStake": 56104.490000000005,
-        "totalReturn": -3198.5263000000014,
-        "roi": -0.057010166209513734,
-        "avgOdds": 1.6856250000000006,
+        "totalStake": 57548.14000000001,
+        "totalReturn": -1798.1858000000013,
+        "roi": -0.031246636294413706,
+        "avgOdds": 1.6891358024691365,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:Gemini",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Gemini",
-            "pick": "draw",
-            "stake": 732.5,
-            "odds": 2.06,
-            "reasoning": "A draw in this final group match secures qualification for both sides: Austria would finish second on 4 points, while Algeria would also reach 4 points, virtually guaranteeing progression as one of the best third-placed teams. The extremely low market odds of 2.06 for a draw strongly reflect this mutual benefit, making it the most sensible and expected outcome.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:Gemini",
             "date": "2026-06-28T01:25:40.661Z",
@@ -12592,37 +12617,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:Gemini",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1443.65,
+            "odds": 1.97,
+            "reasoning": "Belgium enters this match in stellar form, having recently dismantled New Zealand 5-1 with an overwhelming 3.99 xG and 35 shots. Throughout the tournament, Belgium has consistently dominated possession and chance creation, averaging over 2.1 xG per game. On the other hand, while Senegal showed attacking capability against Iraq and Norway, they struggled significantly against elite opposition, registering just 0.39 xG in their 3-1 loss to France. Belgium's superior progression metrics and final-third efficiency make them strong favorites here, and the 1.97 odds on a home win represent excellent value. We are backing Belgium with the maximum stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 80,
-        "won": 51,
+        "totalBets": 81,
+        "won": 52,
         "lost": 29,
         "void": 0,
-        "totalStake": 85581.87000000008,
-        "totalReturn": -7527.950499999996,
-        "roi": -0.08796197722718596,
-        "avgOdds": 1.7240000000000006,
+        "totalStake": 86172.19000000009,
+        "totalReturn": -6955.340099999996,
+        "roi": -0.08071444047087568,
+        "avgOdds": 1.7270370370370376,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:Grok",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 495.16,
-            "odds": 3.7,
-            "reasoning": "Odds price this as close to even; prior reports show Austria handling Jordan more convincingly than Algeria did while remaining competitive vs Argentina, giving slight value on Austria at 3.7.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:Grok",
             "date": "2026-06-28T01:25:40.661Z",
@@ -12775,37 +12800,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:Grok",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 590.32,
+            "odds": 1.97,
+            "reasoning": "Belgium dominates recent xG and underlying metrics (vs Iran/NZL) while Senegal has looked vulnerable defensively (vs France/Norway). 1.97 offers fair value on the clear favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 80,
-        "won": 51,
+        "totalBets": 81,
+        "won": 52,
         "lost": 29,
         "void": 0,
-        "totalStake": 38789.129999999976,
-        "totalReturn": -5886.2387,
-        "roi": -0.15174969637112262,
-        "avgOdds": 1.898625000000001,
+        "totalStake": 39617.629999999976,
+        "totalReturn": -5082.593699999999,
+        "roi": -0.12829121025159765,
+        "avgOdds": 1.899506172839507,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:DeepSeek",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "DeepSeek",
-            "pick": "draw",
-            "stake": 228.64,
-            "odds": 2.06,
-            "reasoning": "Algeria and Austria both lost to Argentina (0-3, 0-2) and beat Jordan (2-1, 3-1). The underlying stats show similar possession, pressing, and final-third entries, with only minor differences in xG creation. The market prices a draw as the most likely outcome at 2.06, reflecting the even contest. With no clear edge and both teams capable of cancelling out, the draw is the highest-value pick.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:DeepSeek",
             "date": "2026-06-28T01:25:40.661Z",
@@ -12958,37 +12983,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:DeepSeek",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 828.5,
+            "odds": 1.97,
+            "reasoning": "Belgium have been dominant in underlying metrics across the tournament: 3.99 xG and 35 shots against New Zealand, 1.48 xG and 23 shots vs Iran, and 1.07 xG vs Egypt. After struggling to finish in earlier matches, they broke through with 5 goals last time out. Senegal, while dangerous on the counter, have conceded 3 goals in losses to France and Norway, and their xG allowed (1.62 vs France, 1.50 vs Norway) indicates defensive fragility. Belgium’s possession and final-third entries should overwhelm Senegal. The odds at 1.97 offer value for a Belgian win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 80,
-        "won": 52,
+        "totalBets": 81,
+        "won": 53,
         "lost": 28,
         "void": 0,
-        "totalStake": 39556.81999999999,
-        "totalReturn": -8543.363099999997,
-        "roi": -0.21597699461180142,
-        "avgOdds": 1.716625000000001,
+        "totalStake": 39881.549999999996,
+        "totalReturn": -8228.374999999996,
+        "roi": -0.20632034111011224,
+        "avgOdds": 1.7197530864197539,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:Mistral",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 286.5,
-            "odds": 3.7,
-            "reasoning": "Austria has shown strong offensive and defensive metrics in their recent matches, particularly against Jordan (xG 1.93-0.53) and a competitive performance against Argentina (xG 2.45-0.63). Algeria, while dominant against Jordan (xG 2.05-0.38), struggled against Argentina (xG 0.41-1.58) and had less possession and fewer progressions in that match. Austria's higher possession, final-third receptions, and line breaks in their last outing suggest they are the more consistent side. The odds (3.7 for Austria) are also favorable compared to Algeria's 3.48, offering better value for a team with stronger recent form and metrics.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:Mistral",
             "date": "2026-06-28T01:25:40.661Z",
@@ -13141,37 +13166,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:Mistral",
+            "date": "2026-07-01T19:49:15.566Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 324.73,
+            "odds": 1.97,
+            "reasoning": "Belgium has shown dominant underlying metrics in their recent matches, particularly in M64 (5-0 vs New Zealand) and M39 (0-0 vs Iran), where they generated significantly higher xG, shots, possession, and final-third receptions. While their draw against Egypt (M16) and Iran (M39) suggests they can be held, their attacking prowess is undeniable. Senegal, on the other hand, has had mixed results: a strong 5-0 win over Iraq (M62) but losses to France (M17) and Norway (M41), where they conceded first and struggled to control games despite high possession in some cases. The odds favor Belgium (1.97), which aligns with their superior qualitative and quantitative performance. Given my recent success with higher-stakes bets on favorites (e.g., France, England), I’m allocating the maximum allowed stake here to reflect high confidence in Belgium’s ability to break down Senegal, especially at home or neutral odds.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 80,
-        "won": 54,
+        "totalBets": 81,
+        "won": 55,
         "lost": 26,
         "void": 0,
-        "totalStake": 75013.75,
-        "totalReturn": 3643.4330999999993,
-        "roi": 0.0485702034626985,
-        "avgOdds": 1.6342499999999998,
+        "totalStake": 76420.32,
+        "totalReturn": 5218.791499999999,
+        "roi": 0.06829062610572684,
+        "avgOdds": 1.6402469135802467,
         "recentBets": [
-          {
-            "id": "8756200e539155e571557c4f2e0d7f05:Baseline",
-            "date": "2026-06-27T23:12:19.836Z",
-            "matchId": "8756200e539155e571557c4f2e0d7f05",
-            "match": "Algeria vs Austria",
-            "homeTeam": "Algeria",
-            "awayTeam": "Austria",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Baseline",
-            "pick": "draw",
-            "stake": 1002.96,
-            "odds": 2.06,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "3-3"
-          },
           {
             "id": "54697f453437ab26276d773be1d72e9b:Baseline",
             "date": "2026-06-27T23:12:19.836Z",
@@ -13324,6 +13349,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "658ac8cbf214ca3cc150109b4ddc1e74:Baseline",
+            "date": "2026-07-01T17:12:41.180Z",
+            "matchId": "658ac8cbf214ca3cc150109b4ddc1e74",
+            "match": "Belgium vs Senegal",
+            "homeTeam": "Belgium",
+            "awayTeam": "Senegal",
+            "kickoff": "2026-07-01T20:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1406.57,
+            "odds": 2.12,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       }
