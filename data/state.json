@@ -11611,7 +11611,7 @@
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:Claude",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
@@ -11620,28 +11620,28 @@
       "model": "Claude",
       "pick": "home",
       "stake": 1653.96,
-      "odds": 1.29,
-      "reasoning": "England has shown dominant underlying metrics across all three matches - crushing Croatia 4-2 with 3.33 xG, controlling Ghana completely (1.78-0.34 xG despite 0-0 scoreline), and beating Panama 2-0. They're creating high-quality chances and dominating possession against varied opposition. DR Congo has struggled against quality sides: held Portugal to 1-1 but with only 0.54 xG and 25% possession, lost to Colombia 1-0 (0.42 xG), and only beat Uzbekistan convincingly. The talent gap is massive here. At 1.29 odds, this represents solid value for a team that should win 80%+ of the time against this opponent. England's final-third dominance (218 receptions vs Ghana's 24, 177 vs Panama's 48) shows they can break down defensive setups, which is what DR Congo will likely employ. Betting big on the clear favorite.",
+      "odds": 1.3,
+      "reasoning": "England has shown consistent dominance in their recent matches, creating high xG and controlling possession against multiple opponents. Against Croatia (xG 3.33-0.82), Ghana (xG 1.78-0.34), and Panama (xG 1.61-0.72), they've demonstrated superior attacking metrics and territorial control. DR Congo's performances show they struggle against quality opposition - held to 0.57 xG by Portugal despite 68.9% possession against them, and only 0.42 xG vs Colombia. While Congo DR beat Uzbekistan 3-1, that's a significantly weaker opponent than England. The odds of 1.3 for England represent fair value given the substantial quality gap. England's shot volume (22, 19, 17 in recent matches) and final-third dominance suggest they should break through against a Congo DR side that concedes territorial control. Betting 22.4% of bankroll on what appears to be an 80%+ probability outcome.",
       "status": "pending"
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:GPT-5.5",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
       "awayTeam": "DR Congo",
       "kickoff": "2026-07-01T16:00:00Z",
       "model": "GPT-5.5",
-      "pick": "draw",
+      "pick": "home",
       "stake": 22.81,
-      "odds": 5.28,
-      "reasoning": "England are clearly the better side and the odds say so, but at 1.29 the home price does very little for my bankroll. DR Congo have already shown they can make favorites uncomfortable: they drew Portugal 1-1 with a low-event xG profile, and England themselves were held 0-0 by Ghana despite dominance. The qualitative reports point to England control, but also to a live underdog/low-block path where this stays level after 90. I need upside from a small bankroll, so I’m taking the draw at 5.28 with the max allowed stake.",
+      "odds": 1.3,
+      "reasoning": "England are rightly short here: their reports show strong chance creation and territorial control, including 3.33 xG vs Croatia, 1.78 xG in the Ghana draw, and a controlled 2-0 over Panama. DR Congo have been competitive and their Portugal draw keeps me respectful, but they were also heavily outshot by Colombia and generally concede territory against stronger teams. The price is not exciting, but home is still the clearest edge/probability play, and with only one match listed I’m staking the max allowed.",
       "status": "pending"
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:Gemini",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
@@ -11650,13 +11650,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 1355.91,
-      "odds": 1.29,
-      "reasoning": "England has consistently demonstrated superior underlying metrics, creating 3.33 xG against Croatia, 1.78 xG against Ghana, and 1.61 xG against Panama. While DR Congo has shown defensive resilience (holding Portugal to a 1-1 draw and limiting Colombia to 1-0), England's attacking efficiency, high volume of final-third entries, and overall squad depth make them strong favorites to win this match. We back the home win with the maximum allowed stake.",
+      "odds": 1.3,
+      "reasoning": "England has consistently demonstrated superior underlying metrics in this tournament, controlling possession and generating high-quality chances (averaging over 2.2 xG across their matches against Croatia, Ghana, and Panama). DR Congo has performed admirably, but England's overall quality and depth should prove too much in this knockout fixture. I am placing the maximum allowed stake on a comfortable England victory to continue climbing back up the leaderboard.",
       "status": "pending"
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:Grok",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
@@ -11665,13 +11665,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 556.19,
-      "odds": 1.29,
-      "reasoning": "England's recent xG and possession dominance (vs Croatia, Ghana, Panama) far outclasses DR Congo's low-output showings; 1.29 is the clear value on the heavy favorite.",
+      "odds": 1.3,
+      "reasoning": "England's recent xG dominance (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) against varied opposition shows clear superiority in creation and control. DR Congo's results are inflated by weak opponents; they lack the progression and final-third quality to trouble England. 1.3 offers solid value on the heavy favorite.",
       "status": "pending"
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:DeepSeek",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
@@ -11680,13 +11680,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 779.64,
-      "odds": 1.29,
-      "reasoning": "England's attacking output is far superior: xG 3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama. DR Congo managed just 0.54 xG vs Portugal and 0.42 vs Colombia, struggling to create against organized defenses. At 1.29 odds (77.5% implied), I estimate England's win probability above 80%, offering a small edge. Max stake to rebuild bankroll given limited upset risk.",
+      "odds": 1.3,
+      "reasoning": "England have been dominant with high xG, shots, and possession across their matches. The 0-0 with Ghana looks like an outlier. DR Congo are disciplined defensively as shown vs Portugal, but they eventually lost to Colombia and their pressure-heavy style may be exploited by England's quick progressions. At odds 1.3, this is the safest bet on the slate to grow my bankroll.",
       "status": "pending"
     },
     {
       "id": "5ff7744314f224c18d1604ee9cc19263:Mistral",
-      "date": "2026-07-01T14:33:48.665Z",
+      "date": "2026-07-01T15:35:02.817Z",
       "matchId": "5ff7744314f224c18d1604ee9cc19263",
       "match": "England vs DR Congo",
       "homeTeam": "England",
@@ -11695,14 +11695,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 306.68,
-      "odds": 1.29,
-      "reasoning": "England has shown strong offensive and defensive metrics in recent matches, even in games where they didn't win convincingly (e.g., 0-0 vs Ghana). Their xG, shots, possession, and final-third receptions are consistently superior to their opponents. DR Congo has had mixed results: a draw against Portugal (a much stronger side) but also a loss to Colombia and a narrow win over Uzbekistan. The odds heavily favor England (1.29), which aligns with their recent dominance in these metrics. Given the qualitative context (England's consistent performance) and the odds, this is a high-confidence bet. Staking the maximum allowed to capitalize on the low-risk, high-certainty outcome.",
+      "odds": 1.3,
+      "reasoning": "England has shown strong offensive and defensive metrics in their recent matches, particularly in xG (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) and possession (57.7% vs Panama, 72.4% vs Ghana). Their final-third receptions and line breaks are consistently high, indicating dominance in key areas. DR Congo, while improving (3-1 win over Uzbekistan), has struggled against stronger teams (1-1 vs Portugal, 0-1 vs Colombia) and lacks the possession and attacking metrics to threaten England. The odds (1.3 for England) are favorable given their form and the qualitative gap between the teams. Betting the maximum stake here due to high confidence in England's ability to control the game and win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-01T14:33:48.665Z",
+    "lastBetsRun": "2026-07-01T15:35:02.817Z",
     "lastSettleRun": "2026-07-01T05:01:28.433Z",
     "failures": [
       {
