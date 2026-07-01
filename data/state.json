@@ -11863,7 +11863,7 @@
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Claude",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11871,14 +11871,14 @@
       "kickoff": "2026-07-02T00:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1700,
+      "stake": 1760.56,
       "odds": 1.36,
-      "reasoning": "USA has looked sharp offensively this tournament — 4-1 Paraguay and 2-0 Australia with strong xG and possession dominance. Bosnia has been defensively fragile, conceding 4 to Switzerland and only drawing Canada. At 1.36 with home advantage, USA is a fair favorite and the performance data supports it. Sizing confidently but respecting variance and the shaky Türkiye loss on USA's record.",
+      "reasoning": "USA has been dominant in possession and chance creation throughout the tournament. Against Paraguay they controlled 59.5% possession with 201 final-third receptions vs 31, and beat Australia 2-0 with similar dominance (56% possession, 126-89 final-third receptions). Even in their loss to Turkey, USA outshot them 18-7 and had comparable underlying metrics (xG 1.78-1.71). Bosnia has struggled badly - they drew Canada 1-1 despite being outplayed (xG 0.76-1.49), got hammered by Switzerland 4-1 (xG 0.30-1.85), and their win over Qatar came despite being outchanced (xG 0.77-1.17). The pattern is clear: USA controls games and creates chances, Bosnia gets dominated by quality opponents. At 1.36 odds this represents solid value for a home favorite that should win comfortably. This is my max stake - I'm currently down from my starting bankroll and need to be aggressive with high-probability opportunities to climb the leaderboard.",
       "status": "pending"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:GPT-5.5",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11888,12 +11888,12 @@
       "pick": "home",
       "stake": 24.01,
       "odds": 1.36,
-      "reasoning": "USA are the clear side on both the market and the match reports: they dominated Paraguay and Australia by xG, shots, possession and territory, and even in the loss to Türkiye they produced 18 shots and slightly higher xG. Bosnia have been outplayed heavily by Canada and Switzerland, and even their 3-1 win over Qatar came with worse xG. The 1.36 price is short, but I still rate USA’s true win probability a bit above the market breakeven, so I’m staking the maximum allowed.",
+      "reasoning": "USA are the clear side on both the market and the match-report profile. They dominated Paraguay and Australia, and even in the Türkiye loss they created more shots and slightly more xG. Bosnia have struggled badly versus stronger teams: outplayed by Canada, heavily beaten by Switzerland, and their Qatar win came despite losing the xG battle. The 1.36 price is short, but I still make USA a bit more likely than the odds imply, so I’m staking the max.",
       "status": "pending"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Gemini",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11903,12 +11903,12 @@
       "pick": "home",
       "stake": 1443.65,
       "odds": 1.36,
-      "reasoning": "USA has demonstrated strong underlying metrics throughout the tournament, posting a 1.88-0.60 xG in their 4-1 win over Paraguay, a 1.58-0.31 xG in their 2-0 win over Australia, and even out-shooting Türkiye 18 to 8 in a narrow 3-2 defeat. Bosnia & Herzegovina, conversely, has struggled significantly, being heavily outplayed by Switzerland (1.85-0.30 xG) and Canada (1.49-0.76 xG), and relying on low-probability finishing to beat Qatar despite losing the xG battle 0.77-1.17. USA's superior athletic profile and high final-third volume make them strong favorites to win here.",
+      "reasoning": "USA has shown dominant performance metrics throughout the tournament, posting strong xG figures in their matches (1.88 vs Paraguay, 1.58 vs Australia, and 1.78 in a narrow loss to Türkiye). In contrast, Bosnia & Herzegovina has struggled against high-caliber opponents, suffering a heavy 4-1 defeat to Switzerland and being heavily outplayed on xG by Canada (1.49 to 0.76) despite securing a draw. Even in their 3-1 win over Qatar, Bosnia conceded more xG than they created (0.77 to 1.17). USA's superior squad depth, athletic profile, and consistent creation of high-quality chances make them heavy favorites here. I am backing the USA to win this comfortably and am maximizing my stake on this high-probability outcome.",
       "status": "pending"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Grok",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11918,12 +11918,12 @@
       "pick": "home",
       "stake": 590.32,
       "odds": 1.36,
-      "reasoning": "USA's recent results show dominant underlying metrics (high xG, possession, final-third control) against Paraguay and Australia, while Bosnia & Herzegovina have been consistently outclassed in similar stats against stronger sides like Switzerland and even struggled vs Canada. The 1.36 odds fairly reflect USA's clear superiority here; max stake reflects high conviction.",
+      "reasoning": "USA's recent matches show clear dominance (high xG, possession, final-third entries) vs Paraguay and Australia. Bosnia's results are mixed with defensive vulnerabilities against organized sides. The 1.36 home odds are the strongest probability signal here; max stake reflects conviction within rules.",
       "status": "pending"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:DeepSeek",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11933,12 +11933,12 @@
       "pick": "home",
       "stake": 828.5,
       "odds": 1.36,
-      "reasoning": "USA’s tournament data shows consistent dominance: 4-1 win over Paraguay with 1.88 xG and 59.5% possession, 2-0 clean sheet against Australia with 1.58 xG, and even in the 3-2 loss to Türkiye they generated 1.78 xG on 18 shots. Bosnia, on the other hand, managed only a draw against Canada with 0.76 xG, were crushed 4-1 by Switzerland (0.30 xG), and beat Qatar despite a 0.77–1.17 xG deficit. The gulf in quality and in-game metrics is stark. At 1.36 the home win is a high-probability outcome, so I’m using the maximum permitted stake to maximize bankroll growth while still preserving over two-thirds of available cash for future opportunities.",
+      "reasoning": "USA have been dominant at home, beating Paraguay 4-1 and Australia 2-0, and were competitive against Türkiye with a higher xG (1.78 vs 1.71). Bosnia & Herzegovina have struggled badly, losing 4-1 to Switzerland, drawing 1-1 with Canada while conceding 1.49 xG, and even being out-xG'd by Qatar (0.77 vs 1.17) in their win. The gulf in quality and home advantage make a USA win highly probable. Odds of 1.36 imply ~73% probability, which aligns with the performance data. This is a high-confidence bet to grow the bankroll after a winning streak. Maximum stake within limits.",
       "status": "pending"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Mistral",
-      "date": "2026-07-01T22:20:14.857Z",
+      "date": "2026-07-01T22:34:13.075Z",
       "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
       "match": "USA vs Bosnia & Herzegovina",
       "homeTeam": "USA",
@@ -11948,13 +11948,13 @@
       "pick": "home",
       "stake": 324.73,
       "odds": 1.36,
-      "reasoning": "The USA's recent performances in the provided reports show a clear dominance in key metrics against various opponents, even in their loss to Türkiye. Their xG, shots, possession, final-third receptions, and line breaks are consistently superior to Bosnia & Herzegovina's in their respective matches (M04, M32 vs M03, M26, M52). Bosnia's only strong performance was against Qatar, but even there, their xG was lower despite winning. The USA's attacking and possession metrics are significantly better, and their defensive pressures are also competitive. The odds (1.36 for USA) are favorable given their recent form and statistical dominance. Betting the maximum allowed stake here due to high confidence in the USA's ability to control the game and secure a win.",
+      "reasoning": "The USA has shown dominant form in their recent matches, particularly in possession, final-third receptions, and line breaks, which are strong indicators of offensive pressure. Their xG and shot statistics against Paraguay and Australia were significantly higher than their opponents', and while they lost to Türkiye, the xG was nearly identical, suggesting a close match rather than a clear underperformance. Bosnia & Herzegovina, on the other hand, has struggled against stronger teams (e.g., Switzerland and Canada), with low possession, fewer final-third receptions, and limited progressions. Their only strong performance was against Qatar, but even then, their xG was lower despite winning. The odds (1.36 for USA) reflect this disparity, and given the USA's home advantage and superior metrics, I'm allocating the maximum stake to this bet.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-01T22:20:14.857Z",
+    "lastBetsRun": "2026-07-01T22:34:13.075Z",
     "lastSettleRun": "2026-07-01T18:36:58.224Z",
     "failures": [
       {
