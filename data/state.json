@@ -312,6 +312,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 6814.95
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 8049.95
       }
     ],
     "GPT-5.5": [
@@ -626,6 +630,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 107.2
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 131.38
       }
     ],
     "Gemini": [
@@ -940,6 +948,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 5301.89
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 6684.45
       }
     ],
     "Grok": [
@@ -1254,6 +1266,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 2197.99
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 2770
       }
     ],
     "DeepSeek": [
@@ -1568,6 +1584,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 3197.93
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 3999.9
       }
     ],
     "Mistral": [
@@ -1882,6 +1902,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 1295.46
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 1614.1
       }
     ],
     "Baseline": [
@@ -2196,6 +2220,10 @@
       {
         "t": "2026-06-30T23:27:18.808Z",
         "bankroll": 12570.98
+      },
+      {
+        "t": "2026-07-01T05:01:28.433Z",
+        "bankroll": 14065.66
       }
     ]
   },
@@ -11460,7 +11488,9 @@
       "stake": 1225.15,
       "odds": 2.22,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Claude",
@@ -11475,7 +11505,9 @@
       "stake": 950,
       "odds": 2.3,
       "reasoning": "Mexico's underlying numbers are the strongest in this slate - convincing wins over South Africa (1.78 xG) and Czechia (2.10 xG, 3-0). Ecuador dominates possession at times but wastes chances badly (2.76 xG in a 0-0 vs Curacao). At 2.3, Mexico home offers real value against an inconsistent finisher. Sizing moderately given single-match risk.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:GPT-5.5",
@@ -11490,7 +11522,9 @@
       "stake": 18.6,
       "odds": 2.3,
       "reasoning": "Mexico are the market favorite and the available reports support that: they have three wins from three with a combined 6-0 scoreline, including a strong 3-0 over Czechia and a dominant opener. Ecuador’s underlying numbers are better than their results, and the 2-1 over Germany is a real warning, but Mexico’s defensive profile plus likely home/host edge make the 2.30 price good enough to back. With my bankroll low, I’m staking the max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Gemini",
@@ -11505,7 +11539,9 @@
       "stake": 1063.51,
       "odds": 2.3,
       "reasoning": "Mexico enters this matchup in superb form, having won all three of their previous matches without conceding a single goal, including an impressive 3-0 victory against Czechia where they dominated xG 2.10 to 0.44. Ecuador has shown flashes of brilliance, such as their 2-1 win over Germany, but they have also shown inconsistency, drawing 0-0 with Curaçao despite high dominance. Mexico's defensive resilience and clinical efficiency make them the favorites here, and getting them at 2.30 odds represents excellent value. We are placing the maximum allowed stake on a Mexico victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Grok",
@@ -11520,7 +11556,9 @@
       "stake": 440.01,
       "odds": 2.3,
       "reasoning": "Mexico's underlying metrics across recent matches (high line breaks, final-third receptions, and xG edges vs South Africa/Korea/Czechia) point to a stronger side than Ecuador, whose results are more inconsistent despite flashes vs Germany. Home odds at 2.3 offer solid value over the alternatives.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:DeepSeek",
@@ -11535,7 +11573,9 @@
       "stake": 616.9,
       "odds": 2.3,
       "reasoning": "Mexico enjoy home advantage as 2026 co-hosts and have shown a strong defensive structure, conceding just 0.47 xG per game on average, while posting dominant wins over South Africa and Czechia. Ecuador have been inconsistent — dominating Curaçao but drawing, losing to Côte d'Ivoire, then beating Germany in a smash-and-grab. At the Azteca-like home setting, Mexico’s control and crowd should be decisive. I'm maxing out the stake to reflect high confidence in a home win at 2.30.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "f58c55a9da96af562c31b7c5cca40187:Mistral",
@@ -11550,13 +11590,15 @@
       "stake": 245.11,
       "odds": 2.3,
       "reasoning": "Mexico has shown strong form in their recent matches, particularly in their attacking and defensive metrics. Their xG and shot dominance against South Africa and Czechia, along with high possession and final-third receptions, suggest they are controlling games well. Ecuador, while not weak, struggled to convert their xG into goals in their match against Côte d'Ivoire (1.88-1.36 xG but only 1-0) and had a tough time breaking down Curaçao despite dominating possession and shots. Mexico's odds (2.3) are attractive given their recent performances and Ecuador's inconsistency in finishing. Betting the maximum stake here to reflect high confidence in Mexico's ability to secure a win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-01T01:27:33.779Z",
-    "lastSettleRun": "2026-06-30T23:27:18.808Z",
+    "lastSettleRun": "2026-07-01T05:01:28.433Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -11649,32 +11691,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 78,
-        "won": 51,
+        "totalBets": 79,
+        "won": 52,
         "lost": 27,
         "void": 0,
-        "totalStake": 82083.14000000001,
-        "totalReturn": -4095.366600000001,
-        "roi": -0.04989290858025169,
-        "avgOdds": 1.6388461538461543,
+        "totalStake": 83033.14000000001,
+        "totalReturn": -2860.366600000001,
+        "roi": -0.03444849369781753,
+        "avgOdds": 1.6472151898734184,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:Claude",
-            "date": "2026-06-27T23:20:56.878Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 600,
-            "odds": 1.85,
-            "reasoning": "Portugal demolished Uzbekistan 5-0 and held strong elsewhere; at 1.85 they're underpriced as the clear class side away. Colombia is decent but Portugal's final-third dominance edges it.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:Claude",
             "date": "2026-06-27T23:20:56.878Z",
@@ -11827,37 +11852,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:Claude",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 950,
+            "odds": 2.3,
+            "reasoning": "Mexico's underlying numbers are the strongest in this slate - convincing wins over South Africa (1.78 xG) and Czechia (2.10 xG, 3-0). Ecuador dominates possession at times but wastes chances badly (2.76 xG in a 0-0 vs Curacao). At 2.3, Mexico home offers real value against an inconsistent finisher. Sizing moderately given single-match risk.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 78,
-        "won": 31,
+        "totalBets": 79,
+        "won": 32,
         "lost": 47,
         "void": 0,
-        "totalStake": 23988.510000000002,
-        "totalReturn": -10021.879400000007,
-        "roi": -0.41777831970389184,
-        "avgOdds": 4.049358974358975,
+        "totalStake": 24007.11,
+        "totalReturn": -9997.699400000007,
+        "roi": -0.41644743578048365,
+        "avgOdds": 4.027215189873418,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:GPT-5.5",
-            "date": "2026-06-27T23:20:56.878Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 12.86,
-            "odds": 4,
-            "reasoning": "Portugal are the market's most likely winner, but Colombia at 4.00 is the better tournament shot for my bankroll. The common-opponent reports make Colombia look more live than the price suggests: Colombia handled Congo DR much more convincingly than Portugal did, while also beating Uzbekistan. I need upside, and this is my best upset/value swing on the slate.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:GPT-5.5",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12010,37 +12035,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:GPT-5.5",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 18.6,
+            "odds": 2.3,
+            "reasoning": "Mexico are the market favorite and the available reports support that: they have three wins from three with a combined 6-0 scoreline, including a strong 3-0 over Czechia and a dominant opener. Ecuador’s underlying numbers are better than their results, and the 2-1 over Germany is a real warning, but Mexico’s defensive profile plus likely home/host edge make the 2.30 price good enough to back. With my bankroll low, I’m staking the max.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 78,
-        "won": 51,
+        "totalBets": 79,
+        "won": 52,
         "lost": 27,
         "void": 0,
-        "totalStake": 53685.07,
-        "totalReturn": -4987.862300000002,
-        "roi": -0.09290967302454857,
-        "avgOdds": 1.6826923076923082,
+        "totalStake": 54748.58,
+        "totalReturn": -3605.2993000000015,
+        "roi": -0.06585192346541228,
+        "avgOdds": 1.6905063291139246,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:Gemini",
-            "date": "2026-06-27T23:20:56.878Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 350,
-            "odds": 1.85,
-            "reasoning": "Portugal bounced back from their opening draw with a dominant 5-0 win over Uzbekistan, showcasing their immense attacking potential. Colombia has also been strong, but Portugal's squad depth and superior individual quality make them the favorites here at decent odds.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:Gemini",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12193,37 +12218,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:Gemini",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1063.51,
+            "odds": 2.3,
+            "reasoning": "Mexico enters this matchup in superb form, having won all three of their previous matches without conceding a single goal, including an impressive 3-0 victory against Czechia where they dominated xG 2.10 to 0.44. Ecuador has shown flashes of brilliance, such as their 2-1 win over Germany, but they have also shown inconsistency, drawing 0-0 with Curaçao despite high dominance. Mexico's defensive resilience and clinical efficiency make them the favorites here, and getting them at 2.30 odds represents excellent value. We are placing the maximum allowed stake on a Mexico victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 78,
-        "won": 49,
+        "totalBets": 79,
+        "won": 50,
         "lost": 29,
         "void": 0,
-        "totalStake": 84585.67000000009,
-        "totalReturn": -8266.820499999996,
-        "roi": -0.09773310892968026,
-        "avgOdds": 1.7220512820512823,
+        "totalStake": 85025.68000000008,
+        "totalReturn": -7694.807499999996,
+        "roi": -0.09049980547053536,
+        "avgOdds": 1.7293670886075954,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:Grok",
-            "date": "2026-06-27T23:20:56.878Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 300,
-            "odds": 1.85,
-            "reasoning": "Portugal look the class side based on dominant results vs weaker opposition in the reports; 1.85 offers decent value over Colombia at 4.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:Grok",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12376,37 +12401,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:Grok",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 440.01,
+            "odds": 2.3,
+            "reasoning": "Mexico's underlying metrics across recent matches (high line breaks, final-third receptions, and xG edges vs South Africa/Korea/Czechia) point to a stronger side than Ecuador, whose results are more inconsistent despite flashes vs Germany. Home odds at 2.3 offer solid value over the alternatives.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 78,
-        "won": 49,
+        "totalBets": 79,
+        "won": 50,
         "lost": 29,
         "void": 0,
-        "totalStake": 37392.589999999975,
-        "totalReturn": -6922.1007,
-        "roi": -0.18511958385337857,
-        "avgOdds": 1.9011538461538469,
+        "totalStake": 38009.489999999976,
+        "totalReturn": -6120.1307,
+        "roi": -0.16101585946036118,
+        "avgOdds": 1.9062025316455704,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:DeepSeek",
-            "date": "2026-06-27T23:20:56.878Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 150,
-            "odds": 1.85,
-            "reasoning": "Portugal’s 5-0 thrashing of Uzbekistan showed their class, and the earlier 1-1 draw with DR Congo was a blip. Colombia’s narrow wins and lower-quality chance creation (xG 1.16 vs Uzbekistan, 1.54 vs Congo DR) suggest they’ll struggle against a more clinical Portuguese side. Odds of 1.85 on an away win offer solid value.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:DeepSeek",
             "date": "2026-06-27T23:20:56.878Z",
@@ -12559,37 +12584,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:DeepSeek",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 616.9,
+            "odds": 2.3,
+            "reasoning": "Mexico enjoy home advantage as 2026 co-hosts and have shown a strong defensive structure, conceding just 0.47 xG per game on average, while posting dominant wins over South Africa and Czechia. Ecuador have been inconsistent — dominating Curaçao but drawing, losing to Côte d'Ivoire, then beating Germany in a smash-and-grab. At the Azteca-like home setting, Mexico’s control and crowd should be decisive. I'm maxing out the stake to reflect high confidence in a home win at 2.30.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 78,
-        "won": 50,
+        "totalBets": 79,
+        "won": 51,
         "lost": 28,
         "void": 0,
-        "totalStake": 39005.02999999999,
-        "totalReturn": -8954.010099999998,
-        "roi": -0.229560395159291,
-        "avgOdds": 1.71448717948718,
+        "totalStake": 39250.13999999999,
+        "totalReturn": -8635.367099999998,
+        "roi": -0.22000856812230477,
+        "avgOdds": 1.7218987341772158,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:Mistral",
-            "date": "2026-06-27T23:12:19.836Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 242.12,
-            "odds": 1.86,
-            "reasoning": "Portugal has shown dominance in their recent matches, especially in M47 where they dismantled Uzbekistan with an xG of 2.03 and 17 shots (9 on target). Their possession and final-third receptions are significantly higher than their opponents, and while their last match against DR Congo ended in a draw, the xG was nearly identical (0.57-0.54), suggesting Portugal were unlucky not to win. Colombia, while strong, have not faced a team of Portugal's quality yet. The away odds of 1.86 are attractive given Portugal's attacking prowess and recent form. Betting the maximum stake here due to high confidence in Portugal's ability to outperform Colombia.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:Mistral",
             "date": "2026-06-27T23:12:19.836Z",
@@ -12742,37 +12767,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:Mistral",
+            "date": "2026-07-01T01:27:33.779Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T02:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 245.11,
+            "odds": 2.3,
+            "reasoning": "Mexico has shown strong form in their recent matches, particularly in their attacking and defensive metrics. Their xG and shot dominance against South Africa and Czechia, along with high possession and final-third receptions, suggest they are controlling games well. Ecuador, while not weak, struggled to convert their xG into goals in their match against Côte d'Ivoire (1.88-1.36 xG but only 1-0) and had a tough time breaking down Curaçao despite dominating possession and shots. Mexico's odds (2.3) are attractive given their recent performances and Ecuador's inconsistency in finishing. Betting the maximum stake here to reflect high confidence in Mexico's ability to secure a win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 78,
-        "won": 52,
+        "totalBets": 79,
+        "won": 53,
         "lost": 26,
         "void": 0,
-        "totalStake": 72382.03,
-        "totalReturn": 1740.844799999999,
-        "roi": 0.024050787191240684,
-        "avgOdds": 1.631153846153846,
+        "totalStake": 73607.18,
+        "totalReturn": 3235.5277999999994,
+        "roi": 0.043956687377508546,
+        "avgOdds": 1.6386075949367087,
         "recentBets": [
-          {
-            "id": "67ae5751c401a98409b8566ae4897069:Baseline",
-            "date": "2026-06-27T20:40:43.120Z",
-            "matchId": "67ae5751c401a98409b8566ae4897069",
-            "match": "Colombia vs Portugal",
-            "homeTeam": "Colombia",
-            "awayTeam": "Portugal",
-            "kickoff": "2026-06-27T23:30:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1002.96,
-            "odds": 2.05,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "0-0"
-          },
           {
             "id": "13eab94a136b9c264ba974cf437a5f71:Baseline",
             "date": "2026-06-27T20:40:43.120Z",
@@ -12925,6 +12950,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "f58c55a9da96af562c31b7c5cca40187:Baseline",
+            "date": "2026-06-30T22:07:02.507Z",
+            "matchId": "f58c55a9da96af562c31b7c5cca40187",
+            "match": "Mexico vs Ecuador",
+            "homeTeam": "Mexico",
+            "awayTeam": "Ecuador",
+            "kickoff": "2026-07-01T01:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1225.15,
+            "odds": 2.22,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       }
