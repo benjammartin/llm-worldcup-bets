@@ -328,6 +328,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 10643.48
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 11391.48
       }
     ],
     "GPT-5.5": [
@@ -658,6 +662,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 171.62
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 181.77
       }
     ],
     "Gemini": [
@@ -988,6 +996,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 9120.47
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 9761.41
       }
     ],
     "Grok": [
@@ -1318,6 +1330,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 3764.18
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 4022.58
       }
     ],
     "DeepSeek": [
@@ -1648,6 +1664,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 5395.85
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 5760.27
       }
     ],
     "Mistral": [
@@ -1978,6 +1998,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 2160.16
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 2300.88
       }
     ],
     "Baseline": [
@@ -2308,6 +2332,10 @@
       {
         "t": "2026-07-02T03:03:27.934Z",
         "bankroll": 16584.45
+      },
+      {
+        "t": "2026-07-02T21:40:39.166Z",
+        "bankroll": 17065.4
       }
     ]
   },
@@ -12048,7 +12076,9 @@
       "stake": 1658.45,
       "odds": 1.29,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Claude",
@@ -12063,7 +12093,9 @@
       "stake": 2200,
       "odds": 1.34,
       "reasoning": "Spain has been dominant across the board — a 4-0 demolition of Saudi Arabia (3.20 xG), a controlled win at Uruguay, and total command against Cabo Verde despite the scoreless draw (2.26 xG, 27 shots). Austria meanwhile is shaky defensively: they conceded 3 to Algeria and lost to Argentina, showing they leak goals against quality opposition. At 1.34 the home price fairly reflects Spain's class edge. I'll back them firmly but not max out given a single-match slate warrants some caution against variance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:GPT-5.5",
@@ -12078,7 +12110,9 @@
       "stake": 29.84,
       "odds": 1.34,
       "reasoning": "Spain at 1.34 is short, but the matchup data supports them being a clear favorite. Their reports show sustained territorial dominance and elite chance suppression: 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a controlled 1.12-0.22 xG win over Uruguay. Austria have been competitive but much more open, giving up 2.45 xG to Argentina and 1.54 to Algeria. Odds are still the main signal, and I make Spain just above the breakeven needed here, so I’m staking the maximum allowed on the home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Gemini",
@@ -12093,7 +12127,9 @@
       "stake": 1885.11,
       "odds": 1.34,
       "reasoning": "Spain has exhibited outstanding defensive control, allowing a combined xG of just 0.46 across their last three matches (Cabo Verde, Saudi Arabia, Uruguay) while consistently dominating possession and generating high-quality chances. Austria, on the other hand, has shown defensive vulnerability, conceding multiple goals to both Argentina and Algeria. At odds of 1.34, Spain represents a highly secure home win, and we back them with our maximum stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Grok",
@@ -12108,7 +12144,9 @@
       "stake": 760.01,
       "odds": 1.34,
       "reasoning": "Spain has dominated recent matches with superior xG, possession, and shot volume (e.g., 3.20 xG vs Saudi Arabia, 2.26 xG vs Cabo Verde), while Austria has shown vulnerabilities against stronger sides like Argentina. The 1.34 odds align with Spain's clear quality edge.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:DeepSeek",
@@ -12123,7 +12161,9 @@
       "stake": 1071.83,
       "odds": 1.34,
       "reasoning": "Spain have been utterly dominant in their recent World Cup matches—2.26 xG vs Cabo Verde, 3.20 xG vs Saudi Arabia, and a controlled 1.12 xG vs Uruguay while conceding almost nothing. Austria, by contrast, conceded 2 to Argentina and 3 to Algeria, and posted negative xG differentials in those outings. The 1.34 odds imply ~75% win probability, but Spain's underlying numbers make a home win closer to a near-certainty. Max stake to lock in solid growth.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Mistral",
@@ -12138,7 +12178,9 @@
       "stake": 413.87,
       "odds": 1.34,
       "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay (M66). Their xG and shot dominance in matches M14 and M38 (vs. Cabo Verde and Saudi Arabia) suggest they are creating high-quality chances consistently. Austria, while competitive against Argentina (M43), struggled in possession and defensive metrics against Algeria (M69) and conceded a high xG (1.06) in that match. The odds (1.34 for Spain) are favorable given Spain's attacking prowess and Austria's defensive vulnerabilities. Betting the maximum stake here due to high conviction in Spain's ability to win comfortably.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-0"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Baseline",
@@ -12249,7 +12291,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-02T20:21:43.400Z",
-    "lastSettleRun": "2026-07-02T03:03:27.934Z",
+    "lastSettleRun": "2026-07-02T21:40:39.166Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -12342,32 +12384,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 82,
-        "won": 55,
+        "totalBets": 83,
+        "won": 56,
         "lost": 27,
         "void": 0,
-        "totalStake": 88140.82000000002,
-        "totalReturn": -266.839400000001,
-        "roi": -0.0030274213468855964,
-        "avgOdds": 1.6434146341463425,
+        "totalStake": 90340.82000000002,
+        "totalReturn": 481.16059999999925,
+        "roi": 0.005326059692617347,
+        "avgOdds": 1.6397590361445793,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:Claude",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1000,
-            "odds": 1.83,
-            "reasoning": "Canada has been the more dangerous attacking side across this slate — 6-0 vs Qatar, 1.49 xG vs Bosnia, and competitive in losses to Switzerland (1.61 xG, 13 shots). South Africa hoards possession but rarely converts it: 0.10 xG in the Mexico loss, modest 0.89 against Korea. At 1.83 the away price offers value on the team with the higher and more repeatable attacking ceiling. Sizing moderately given single-match risk.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:Claude",
             "date": "2026-06-29T16:36:01.972Z",
@@ -12520,37 +12545,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:Claude",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2200,
+            "odds": 1.34,
+            "reasoning": "Spain has been dominant across the board — a 4-0 demolition of Saudi Arabia (3.20 xG), a controlled win at Uruguay, and total command against Cabo Verde despite the scoreless draw (2.26 xG, 27 shots). Austria meanwhile is shaky defensively: they conceded 3 to Algeria and lost to Argentina, showing they leak goals against quality opposition. At 1.34 the home price fairly reflects Spain's class edge. I'll back them firmly but not max out given a single-match slate warrants some caution against variance.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 82,
-        "won": 35,
+        "totalBets": 83,
+        "won": 36,
         "lost": 47,
         "void": 0,
-        "totalStake": 24082,
-        "totalReturn": -9957.461500000007,
-        "roi": -0.4134815007059217,
-        "avgOdds": 3.936341463414635,
+        "totalStake": 24111.84,
+        "totalReturn": -9947.315900000007,
+        "roi": -0.4125490174121928,
+        "avgOdds": 3.905060240963856,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:GPT-5.5",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 9.71,
-            "odds": 1.83,
-            "reasoning": "Canada are the odds-on side and the underlying reports support that: they have consistently generated strong attacking volume, including 1.49 xG vs Bosnia, 3.90 xG vs Qatar, and 1.61 xG with 13 shots against Switzerland. South Africa improved after the Mexico loss, but their overall profile is less convincing and more dependent on low-scoring margins. At 1.83, Canada look like the best probability/value side, and with a small bankroll I need to press the clearest edge.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:GPT-5.5",
             "date": "2026-06-29T16:36:01.972Z",
@@ -12703,37 +12728,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:GPT-5.5",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 29.84,
+            "odds": 1.34,
+            "reasoning": "Spain at 1.34 is short, but the matchup data supports them being a clear favorite. Their reports show sustained territorial dominance and elite chance suppression: 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a controlled 1.12-0.22 xG win over Uruguay. Austria have been competitive but much more open, giving up 2.45 xG to Argentina and 1.54 to Algeria. Odds are still the main signal, and I make Spain just above the breakeven needed here, so I’m staking the maximum allowed on the home win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 82,
-        "won": 55,
+        "totalBets": 83,
+        "won": 56,
         "lost": 27,
         "void": 0,
-        "totalStake": 59295.100000000006,
-        "totalReturn": -1169.280200000001,
-        "roi": -0.019719676668055217,
-        "avgOdds": 1.685121951219513,
+        "totalStake": 61180.21000000001,
+        "totalReturn": -528.3428000000009,
+        "roi": -0.0086358448262927,
+        "avgOdds": 1.6809638554216875,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:Gemini",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 927.18,
-            "odds": 1.83,
-            "reasoning": "Canada has shown impressive offensive output throughout the tournament, racking up high xG figures (1.49 vs Bosnia, 3.90 vs Qatar, and 1.61 in a tight loss to Switzerland). Their ability to progress the ball and sustain pressure in the final third (103 receptions against Switzerland, 143 against Bosnia) will likely prove too much for a South African side that has struggled to create high-quality chances consistently (generating just 0.10 xG against Mexico and 0.89 against Korea Republic). While South Africa managed a resilient win against Korea, Canada's superior attacking depth and efficiency make them the strong favorites here at 1.83.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:Gemini",
             "date": "2026-06-29T16:36:01.972Z",
@@ -12886,37 +12911,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:Gemini",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1885.11,
+            "odds": 1.34,
+            "reasoning": "Spain has exhibited outstanding defensive control, allowing a combined xG of just 0.46 across their last three matches (Cabo Verde, Saudi Arabia, Uruguay) while consistently dominating possession and generating high-quality chances. Austria, on the other hand, has shown defensive vulnerability, conceding multiple goals to both Argentina and Algeria. At odds of 1.34, Spain represents a highly secure home win, and we back them with our maximum stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 82,
-        "won": 53,
+        "totalBets": 83,
+        "won": 54,
         "lost": 29,
         "void": 0,
-        "totalStake": 86879.72000000009,
-        "totalReturn": -6700.629299999996,
-        "roi": -0.07712535560657872,
-        "avgOdds": 1.7225609756097569,
+        "totalStake": 87639.73000000008,
+        "totalReturn": -6442.225899999996,
+        "roi": -0.07350805279751535,
+        "avgOdds": 1.7179518072289164,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:Grok",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 397.21,
-            "odds": 1.83,
-            "reasoning": "Canada has shown far superior attacking metrics and dominance in recent matches (6-0 vs Qatar, strong xG vs Bosnia), while South Africa has been defensively fragile and low-output. The 1.83 away odds represent the best value here given the qualitative gap.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:Grok",
             "date": "2026-06-29T16:36:01.972Z",
@@ -13069,37 +13094,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:Grok",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 760.01,
+            "odds": 1.34,
+            "reasoning": "Spain has dominated recent matches with superior xG, possession, and shot volume (e.g., 3.20 xG vs Saudi Arabia, 2.26 xG vs Cabo Verde), while Austria has shown vulnerabilities against stronger sides like Argentina. The 1.34 odds align with Spain's clear quality edge.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 82,
-        "won": 53,
+        "totalBets": 83,
+        "won": 54,
         "lost": 29,
         "void": 0,
-        "totalStake": 40613.239999999976,
-        "totalReturn": -4724.174099999999,
-        "roi": -0.11632103471675745,
-        "avgOdds": 1.8929268292682937,
+        "totalStake": 41685.06999999998,
+        "totalReturn": -4359.751899999999,
+        "roi": -0.10458785123786529,
+        "avgOdds": 1.886265060240965,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:DeepSeek",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 288.27,
-            "odds": 1.83,
-            "reasoning": "Based on match reports, Canada has demonstrated superior attacking firepower, with a 6-0 win over Qatar and a close loss to Switzerland, while South Africa struggled to create chances against Mexico and Korea. The odds of 1.83 for an away win imply a ~54.6% probability, but my qualitative assessment suggests Canada's true win probability is higher, making this a value bet. I'm allocating $300 of my bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:DeepSeek",
             "date": "2026-06-29T16:36:01.972Z",
@@ -13252,37 +13277,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:DeepSeek",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1071.83,
+            "odds": 1.34,
+            "reasoning": "Spain have been utterly dominant in their recent World Cup matches—2.26 xG vs Cabo Verde, 3.20 xG vs Saudi Arabia, and a controlled 1.12 xG vs Uruguay while conceding almost nothing. Austria, by contrast, conceded 2 to Argentina and 3 to Algeria, and posted negative xG differentials in those outings. The 1.34 odds imply ~75% win probability, but Spain's underlying numbers make a home win closer to a near-certainty. Max stake to lock in solid growth.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 82,
-        "won": 54,
+        "totalBets": 83,
+        "won": 55,
         "lost": 28,
         "void": 0,
-        "totalStake": 40267.85999999999,
-        "totalReturn": -8089.303399999996,
-        "roi": -0.20088734290821508,
-        "avgOdds": 1.7153658536585377,
+        "totalStake": 40681.729999999996,
+        "totalReturn": -7948.587599999996,
+        "roi": -0.19538469971655573,
+        "avgOdds": 1.710843373493977,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:Mistral",
-            "date": "2026-06-28T18:46:40.920Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 220.34,
-            "odds": 1.83,
-            "reasoning": "Canada's recent performances show they are in strong form, particularly in their 6-0 demolition of Qatar (xG 3.90-0.20) where they dominated possession (65.8%), shots (33-2), and final-third receptions (416-11). While they drew with Bosnia and Herzegovina and lost narrowly to Switzerland, their attacking output has been consistently high. South Africa, on the other hand, has struggled against stronger teams (e.g., 2-0 loss to Mexico with xG 0.10) and only managed a narrow win over Korea Republic (xG 0.89-0.74) despite being out-possessed (30.3%). Their defensive metrics (e.g., line breaks, progressions) are also weaker compared to Canada's. The odds (away 1.83) are favorable given Canada's attacking prowess and South Africa's defensive vulnerabilities. Betting the maximum stake here to capitalize on Canada's form and the value in the odds.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:Mistral",
             "date": "2026-06-29T16:36:01.972Z",
@@ -13435,37 +13460,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:Mistral",
+            "date": "2026-07-02T18:52:55.975Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 413.87,
+            "odds": 1.34,
+            "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay (M66). Their xG and shot dominance in matches M14 and M38 (vs. Cabo Verde and Saudi Arabia) suggest they are creating high-quality chances consistently. Austria, while competitive against Argentina (M43), struggled in possession and defensive metrics against Algeria (M69) and conceded a high xG (1.06) in that match. The odds (1.34 for Spain) are favorable given Spain's attacking prowess and Austria's defensive vulnerabilities. Betting the maximum stake here due to high conviction in Spain's ability to win comfortably.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 82,
-        "won": 56,
+        "totalBets": 83,
+        "won": 57,
         "lost": 26,
         "void": 0,
-        "totalStake": 77867.68000000001,
-        "totalReturn": 5754.314699999999,
-        "roi": 0.07389862777470702,
-        "avgOdds": 1.636951219512195,
+        "totalStake": 79526.13,
+        "totalReturn": 6235.265199999999,
+        "roi": 0.07840523863037216,
+        "avgOdds": 1.632771084337349,
         "recentBets": [
-          {
-            "id": "def55b09ef3d6854e3c01e74b5c63415:Baseline",
-            "date": "2026-06-28T16:04:49.320Z",
-            "matchId": "def55b09ef3d6854e3c01e74b5c63415",
-            "match": "South Africa vs Canada",
-            "homeTeam": "South Africa",
-            "awayTeam": "Canada",
-            "kickoff": "2026-06-28T19:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1191.52,
-            "odds": 1.67,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "4f3d72fba877939d36a5315618184093:Baseline",
             "date": "2026-06-29T14:12:30.565Z",
@@ -13618,6 +13643,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "a518ac20df8f5c732b881e213ae0c230:Baseline",
+            "date": "2026-07-02T16:12:46.877Z",
+            "matchId": "a518ac20df8f5c732b881e213ae0c230",
+            "match": "Spain vs Austria",
+            "homeTeam": "Spain",
+            "awayTeam": "Austria",
+            "kickoff": "2026-07-02T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1658.45,
+            "odds": 1.29,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-0"
           }
         ]
       }
