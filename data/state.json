@@ -12119,6 +12119,12 @@
         "homeTeam": "Portugal",
         "awayTeam": "Croatia",
         "kickoff": "2026-07-02T23:00:00Z"
+      },
+      {
+        "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+        "homeTeam": "Switzerland",
+        "awayTeam": "Algeria",
+        "kickoff": "2026-07-03T03:00:00Z"
       }
     ],
     "liveMatches": [],
