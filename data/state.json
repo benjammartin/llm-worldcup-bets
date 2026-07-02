@@ -12199,7 +12199,7 @@
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Claude",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12207,14 +12207,14 @@
       "kickoff": "2026-07-02T23:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1800,
-      "odds": 1.68,
-      "reasoning": "Portugal shows the higher ceiling and better underlying quality (5-0 Uzbekistan, dominant possession, better line-break/progression numbers). Croatia has consistently underperformed on xG — outperformed by Ghana, Panama, and England in expected goals, surviving on finishing variance. At 1.68 Portugal is fairly priced for their favorite status. Main risk is Portugal's stall-out tendency vs deep blocks (0-0 Colombia, 1-1 Congo DR), so I'm sizing this moderately rather than maxing out.",
+      "stake": 2000,
+      "odds": 1.69,
+      "reasoning": "Portugal's underlying numbers dwarf Croatia's — 5-0 vs Uzbekistan, dominant possession and territory in every match, 0.97-1.85 xG output. Croatia has looked poor offensively (0.48 xG vs Ghana, lost to Panama on xG). 1.69 is fair value on the clearly better side. Sizable but not maximal given Croatia's knack for grinding out results.",
       "status": "pending"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:GPT-5.5",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12223,13 +12223,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 31.62,
-      "odds": 1.68,
-      "reasoning": "Portugal are the stronger side and the market makes them a clear favorite at 1.68. The FIFA reports are a bit mixed for Portugal, but Croatia’s underlying numbers have been modest outside the England match, with low xG wins over Panama and Ghana. Portugal’s ceiling looked much higher in the 5-0 win and they should control territory and possession here. With my bankroll situation I need to press any favorite I believe is fairly priced, so I’m staking the maximum.",
+      "odds": 1.69,
+      "reasoning": "Portugal are correctly favored by the market and I do not see enough in Croatia’s tournament profile to justify fading them. The training reports are mixed for Portugal, but they have shown a much higher ceiling, especially in the 5-0 win, while Croatia’s underlying numbers have been fairly modest despite advancing. At 1.69 this is not a huge price, but it is the best side of the board for me. Given my low bankroll and need to rebuild, I’m staking the maximum allowed.",
       "status": "pending"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Gemini",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12238,13 +12238,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 2026.6,
-      "odds": 1.68,
-      "reasoning": "Portugal possesses a much higher performance ceiling and superior underlying metrics compared to Croatia. Croatia's defensive vulnerabilities have been exposed throughout the tournament, notably allowing 3.33 xG against England and being out-created in xG (0.48 to 0.75) even during their 2-1 victory over Ghana. Portugal's possession-heavy style (which reached 68.9% against Congo DR) and creative line breaks will likely overwhelm Croatia's aging midfield. At 1.68 odds, a home win for Portugal offers excellent value, making it worthy of our maximum stake to continue our strong winning momentum.",
+      "odds": 1.69,
+      "reasoning": "Portugal has shown superior control and attacking efficiency, highlighted by their dominant 5-0 win over Uzbekistan and high possession retention. Croatia's underlying metrics are concerning, having been out-created in expected goals against Ghana (0.48-0.75) and conceding 4 goals to England. At 1.69, Portugal offers strong value to win against a transitioning Croatian side.",
       "status": "pending"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Grok",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12253,13 +12253,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 813.4,
-      "odds": 1.68,
-      "reasoning": "Portugal has shown superior underlying numbers in recent matches (strong xG and dominance vs Uzbekistan/Congo), while Croatia's results have come against weaker sides with mediocre xG. Home odds at 1.68 offer solid value given Portugal's edge in possession, progression, and shot quality across the reports. Max stake on highest-conviction outcome.",
+      "odds": 1.69,
+      "reasoning": "Portugal favored by odds at 1.69 and show stronger underlying numbers in recent matches (dominant possession, better xG in wins vs Uzbekistan). Croatia inconsistent with low xG outputs. Max stake on single match reflects solid edge.",
       "status": "pending"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:DeepSeek",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12268,13 +12268,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 1149.85,
-      "odds": 1.68,
-      "reasoning": "Portugal at home with superior expected goals metrics across tournament. Croatia struggled defensively against England (3.33 xGA) and created little vs Panama/Ghana. Portugal's attacking depth and possession dominance make 1.68 odds solid value. Riding the momentum after five straight wins.",
+      "odds": 1.69,
+      "reasoning": "Portugal are rightful favorites. Croatia's tournament form has been shaky: a heavy 4-2 loss to England with an xG deficit of 0.82 vs 3.33, and narrow, unconvincing wins over Panama and Ghana. Their attack is blunt and they've struggled to control games against weaker sides. Portugal's only blemish was a home draw with DR Congo, but they dismantled Uzbekistan 5-0 and held their own against Colombia away. With deeper talent and more dynamic attacking options, Portugal should create far more chances. At 1.69 implied ~59%, the odds are fair. I'm max-betting the home win to ride the recent hot streak while staying within disciplined bankroll limits.",
       "status": "pending"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Mistral",
-      "date": "2026-07-02T21:45:28.183Z",
+      "date": "2026-07-02T22:17:14.421Z",
       "matchId": "852b4baf0be4b9eef2a30596a8d39249",
       "match": "Portugal vs Croatia",
       "homeTeam": "Portugal",
@@ -12283,14 +12283,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 441.89,
-      "odds": 1.68,
-      "reasoning": "Portugal has shown strong attacking form in recent matches, particularly in M47 (5-0 vs Uzbekistan) and M23 (1-1 vs Congo DR, but with dominant possession and xG). Their final-third receptions and line breaks are consistently high, indicating creative play. Croatia, while resilient, has struggled defensively (e.g., 4-2 loss to England in M22) and has had mixed results (e.g., 2-1 vs Ghana in M68 with low xG). The odds (1.68) undervalue Portugal's recent dominance and attacking prowess. Betting max stake on Portugal to win given their form and Croatia's defensive vulnerabilities.",
+      "odds": 1.69,
+      "reasoning": "Portugal has shown strong offensive capabilities in their recent matches, especially in M47 (5-0 vs Uzbekistan) and M23 (1-1 vs Congo DR, but dominated possession and chances). Their xG and shot dominance against Uzbekistan and Colombia (M71) suggest they are creating high-quality chances even when not converting at the highest rate. Croatia, while resilient, has struggled defensively in recent matches (e.g., 4-2 loss to England in M22, where they conceded a high xG of 3.33). Their possession and defensive metrics (e.g., pressures, line breaks) are solid but not overwhelming, and they conceded a late goal to Panama in M46. The odds (1.69 for Portugal) are favorable given their recent form and Croatia's defensive vulnerabilities. Betting the maximum stake here due to high confidence in Portugal's ability to control the game and capitalize on their attacking prowess.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-02T21:45:28.183Z",
+    "lastBetsRun": "2026-07-02T22:17:14.421Z",
     "lastSettleRun": "2026-07-02T21:40:39.166Z",
     "failures": [
       {
@@ -12377,6 +12377,12 @@
         "homeTeam": "Australia",
         "awayTeam": "Egypt",
         "kickoff": "2026-07-03T18:00:00Z"
+      },
+      {
+        "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
+        "homeTeam": "Argentina",
+        "awayTeam": "Cape Verde",
+        "kickoff": "2026-07-03T22:00:00Z"
       }
     ],
     "liveMatches": [],
