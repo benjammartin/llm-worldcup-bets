@@ -324,6 +324,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 9904.14
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 10643.48
       }
     ],
     "GPT-5.5": [
@@ -650,6 +654,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 161.51
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 171.62
       }
     ],
     "Gemini": [
@@ -976,6 +984,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 8491.56
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 9120.47
       }
     ],
     "Grok": [
@@ -1302,6 +1314,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 3509.47
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 3764.18
       }
     ],
     "DeepSeek": [
@@ -1628,6 +1644,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 5037.43
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 5395.85
       }
     ],
     "Mistral": [
@@ -1954,6 +1974,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 2021.09
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 2160.16
       }
     ],
     "Baseline": [
@@ -2280,6 +2304,10 @@
       {
         "t": "2026-07-01T23:27:56.979Z",
         "bankroll": 16048.93
+      },
+      {
+        "t": "2026-07-02T03:03:27.934Z",
+        "bankroll": 16584.45
       }
     ]
   },
@@ -11901,7 +11929,9 @@
       "stake": 1447.36,
       "odds": 1.37,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Claude",
@@ -11916,7 +11946,9 @@
       "stake": 2053.72,
       "odds": 1.36,
       "reasoning": "USA has been dominant at home in this tournament with strong underlying metrics. Against Paraguay (M04), they posted 1.88 xG with 59.5% possession and 201 final-third receptions showing complete control. Against Australia (M32), similar story: 1.58 xG, 56% possession, and only conceded 0.31 xG. Even in the loss to Turkey (M59), USA actually outperformed on xG (1.78-1.71) and shots (18-8), just got unlucky on finishing. Bosnia has been thoroughly outclassed by quality opposition - Canada held them to 0.76 xG, Switzerland dominated them 1.85-0.30 xG, and their win over Qatar came despite being outshot on xG 0.77-1.17. USA at home should control this match. At 1.36 odds with my strong recent form (5 wins in a row), I'm going maximum stake to capitalize on what looks like a clear mismatch.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:GPT-5.5",
@@ -11931,7 +11963,9 @@
       "stake": 28.07,
       "odds": 1.36,
       "reasoning": "USA are a short-priced favorite and the qualitative reports support the market: they dominated Paraguay and Australia, and even in the Türkiye loss they won the xG/shots battle. Bosnia have been badly outcreated by Canada and Switzerland and even beat Qatar despite losing xG. At 1.36 there is not huge upside, but this looks like the highest-probability and best-controlled position, so I am staking the max allowed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Gemini",
@@ -11946,7 +11980,9 @@
       "stake": 1746.96,
       "odds": 1.36,
       "reasoning": "USA has shown highly encouraging performance metrics throughout the tournament, dominating Paraguay (4-1) and Australia (2-0) while maintaining high xG and shot volumes. Even in their narrow 3-2 loss to Türkiye, they held the edge in xG (1.78 to 1.71) and registered 18 shots. Bosnia & Herzegovina struggled heavily against Switzerland (4-1 defeat, 0.30 xG) and was outplayed by Canada. USA is comfortably the stronger side here and should secure the victory.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Grok",
@@ -11961,7 +11997,9 @@
       "stake": 707.53,
       "odds": 1.36,
       "reasoning": "USA's recent matches show clear dominance (strong xG, possession, and final-third control vs Paraguay and Australia), while Bosnia's results are mixed with notable defensive weaknesses against organized sides. The 1.36 odds align with this gap, making home the highest-value pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:DeepSeek",
@@ -11976,7 +12014,9 @@
       "stake": 995.61,
       "odds": 1.36,
       "reasoning": "USA have been formidable, dominating Paraguay 4-1 (xG 1.88-0.60) and beating Australia 2-0 with control. Bosnia lost 4-1 to Switzerland and drew Canada 1-1 with low xG. USA's attacking pressure and home advantage at World Cup 2026 make 1.36 odds a solid value to rebuild my bankroll. Max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Mistral",
@@ -11991,13 +12031,15 @@
       "stake": 386.31,
       "odds": 1.36,
       "reasoning": "USA has shown dominant performance in recent matches (M04, M32) with high xG, shots, possession, and final-third receptions, indicating strong offensive and defensive capabilities. While their loss to Türkiye (M59) was close, their overall metrics (especially against weaker teams like Paraguay and Australia) suggest they are significantly stronger than Bosnia & Herzegovina. Bosnia's recent performances (e.g., M03, M26) show struggles against even mid-tier teams, with low possession, shots, and final-third receptions. The odds (1.36 for USA) are favorable given their form and Bosnia's weaknesses. Betting max stake on USA to win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-01T23:41:54.577Z",
-    "lastSettleRun": "2026-07-01T23:27:56.979Z",
+    "lastSettleRun": "2026-07-02T03:03:27.934Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -12084,32 +12126,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 81,
-        "won": 54,
+        "totalBets": 82,
+        "won": 55,
         "lost": 27,
         "void": 0,
-        "totalStake": 86087.10000000002,
-        "totalReturn": -1006.1786000000011,
-        "roi": -0.011687913752466987,
-        "avgOdds": 1.6469135802469144,
+        "totalStake": 88140.82000000002,
+        "totalReturn": -266.839400000001,
+        "roi": -0.0030274213468855964,
+        "avgOdds": 1.6434146341463425,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:Claude",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1055.07,
-            "odds": 1.15,
-            "reasoning": "Argentina has been dominant — 3-0 over Algeria, 2-0 over Austria, with commanding xG in both. Jordan lost to both Austria and Algeria and was outclassed (0.38 xG vs Algeria). At 1.15 the value is thin but the safety is near-certain; this is a bankroll-compounding play, max stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:Claude",
             "date": "2026-06-28T18:46:40.920Z",
@@ -12262,37 +12287,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Claude",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2053.72,
+            "odds": 1.36,
+            "reasoning": "USA has been dominant at home in this tournament with strong underlying metrics. Against Paraguay (M04), they posted 1.88 xG with 59.5% possession and 201 final-third receptions showing complete control. Against Australia (M32), similar story: 1.58 xG, 56% possession, and only conceded 0.31 xG. Even in the loss to Turkey (M59), USA actually outperformed on xG (1.78-1.71) and shots (18-8), just got unlucky on finishing. Bosnia has been thoroughly outclassed by quality opposition - Canada held them to 0.76 xG, Switzerland dominated them 1.85-0.30 xG, and their win over Qatar came despite being outshot on xG 0.77-1.17. USA at home should control this match. At 1.36 odds with my strong recent form (5 wins in a row), I'm going maximum stake to capitalize on what looks like a clear mismatch.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 81,
-        "won": 34,
+        "totalBets": 82,
+        "won": 35,
         "lost": 47,
         "void": 0,
-        "totalStake": 24053.93,
-        "totalReturn": -9967.566700000007,
-        "roi": -0.4143841235091316,
-        "avgOdds": 3.968148148148149,
+        "totalStake": 24082,
+        "totalReturn": -9957.461500000007,
+        "roi": -0.4134815007059217,
+        "avgOdds": 3.936341463414635,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:GPT-5.5",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 10.97,
-            "odds": 9,
-            "reasoning": "Argentina are clearly the best side and the odds say away is most likely, but at 1.15 it does almost nothing for my bankroll. Given my position in the contest I need upside. Argentina may rotate after two controlled wins, while Jordan’s best path is probably a deep, low-event survival game. The draw at 9.00 is a long shot, but it is the only outcome with enough payout to matter.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:GPT-5.5",
             "date": "2026-06-28T18:46:40.920Z",
@@ -12445,37 +12470,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:GPT-5.5",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 28.07,
+            "odds": 1.36,
+            "reasoning": "USA are a short-priced favorite and the qualitative reports support the market: they dominated Paraguay and Australia, and even in the Türkiye loss they won the xG/shots battle. Bosnia have been badly outcreated by Canada and Switzerland and even beat Qatar despite losing xG. At 1.36 there is not huge upside, but this looks like the highest-probability and best-controlled position, so I am staking the max allowed.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 81,
-        "won": 54,
+        "totalBets": 82,
+        "won": 55,
         "lost": 27,
         "void": 0,
-        "totalStake": 57548.14000000001,
-        "totalReturn": -1798.1858000000013,
-        "roi": -0.031246636294413706,
-        "avgOdds": 1.6891358024691365,
+        "totalStake": 59295.100000000006,
+        "totalReturn": -1169.280200000001,
+        "roi": -0.019719676668055217,
+        "avgOdds": 1.685121951219513,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:Gemini",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 732.5,
-            "odds": 1.15,
-            "reasoning": "Argentina has been dominant in the group, winning both matches comfortably without conceding and creating high xG. Jordan has struggled significantly, posting very low underlying metrics in their defeats. Argentina is class apart and should easily secure the three points to top the group.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:Gemini",
             "date": "2026-06-28T18:46:40.920Z",
@@ -12628,37 +12653,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Gemini",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1746.96,
+            "odds": 1.36,
+            "reasoning": "USA has shown highly encouraging performance metrics throughout the tournament, dominating Paraguay (4-1) and Australia (2-0) while maintaining high xG and shot volumes. Even in their narrow 3-2 loss to Türkiye, they held the edge in xG (1.78 to 1.71) and registered 18 shots. Bosnia & Herzegovina struggled heavily against Switzerland (4-1 defeat, 0.30 xG) and was outplayed by Canada. USA is comfortably the stronger side here and should secure the victory.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 81,
-        "won": 52,
+        "totalBets": 82,
+        "won": 53,
         "lost": 29,
         "void": 0,
-        "totalStake": 86172.19000000009,
-        "totalReturn": -6955.340099999996,
-        "roi": -0.08071444047087568,
-        "avgOdds": 1.7270370370370376,
+        "totalStake": 86879.72000000009,
+        "totalReturn": -6700.629299999996,
+        "roi": -0.07712535560657872,
+        "avgOdds": 1.7225609756097569,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:Grok",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 495.16,
-            "odds": 1.15,
-            "reasoning": "Argentina demonstrated clear superiority over both Algeria and Austria in the provided reports; 1.15 is short but reflects the massive gap vs Jordan.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:Grok",
             "date": "2026-06-28T18:46:40.920Z",
@@ -12811,37 +12836,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Grok",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 707.53,
+            "odds": 1.36,
+            "reasoning": "USA's recent matches show clear dominance (strong xG, possession, and final-third control vs Paraguay and Australia), while Bosnia's results are mixed with notable defensive weaknesses against organized sides. The 1.36 odds align with this gap, making home the highest-value pick.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 81,
-        "won": 52,
+        "totalBets": 82,
+        "won": 53,
         "lost": 29,
         "void": 0,
-        "totalStake": 39617.629999999976,
-        "totalReturn": -5082.593699999999,
-        "roi": -0.12829121025159765,
-        "avgOdds": 1.899506172839507,
+        "totalStake": 40613.239999999976,
+        "totalReturn": -4724.174099999999,
+        "roi": -0.11632103471675745,
+        "avgOdds": 1.8929268292682937,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:DeepSeek",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 228.64,
-            "odds": 1.15,
-            "reasoning": "Argentina are a class above Jordan, having comfortably beaten both Algeria and Austria with dominant xG margins. Jordan lost to those same opponents, posting xG deficits of 0.38 vs 2.05 and 0.53 vs 1.93. At 1.15, the away win is a near-certainty and a safe anchor to compound the bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:DeepSeek",
             "date": "2026-06-28T18:46:40.920Z",
@@ -12994,37 +13019,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:DeepSeek",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 995.61,
+            "odds": 1.36,
+            "reasoning": "USA have been formidable, dominating Paraguay 4-1 (xG 1.88-0.60) and beating Australia 2-0 with control. Bosnia lost 4-1 to Switzerland and drew Canada 1-1 with low xG. USA's attacking pressure and home advantage at World Cup 2026 make 1.36 odds a solid value to rebuild my bankroll. Max stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 81,
-        "won": 53,
+        "totalBets": 82,
+        "won": 54,
         "lost": 28,
         "void": 0,
-        "totalStake": 39881.549999999996,
-        "totalReturn": -8228.374999999996,
-        "roi": -0.20632034111011224,
-        "avgOdds": 1.7197530864197539,
+        "totalStake": 40267.85999999999,
+        "totalReturn": -8089.303399999996,
+        "roi": -0.20088734290821508,
+        "avgOdds": 1.7153658536585377,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:Mistral",
-            "date": "2026-06-28T01:25:40.661Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 286.5,
-            "odds": 1.15,
-            "reasoning": "Argentina is a clear favorite here, and the odds (1.15) reflect their dominance in recent matches. Against Algeria, they had a strong xG (1.58-0.41) and controlled the game despite lower possession. Against Austria, they were even more dominant (xG 2.45-0.63) with better shot quality and final-third receptions. Jordan, on the other hand, has struggled offensively (xG 0.53 vs Austria, 0.38 vs Algeria) and defensively. Their possession and progression metrics are also poor. While the stake is high, the low-risk nature of this bet (given Argentina's form and Jordan's weaknesses) justifies the allocation. The potential return is modest, but the near-certainty of an Argentina win makes this a safe and strategic bet.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:Mistral",
             "date": "2026-06-28T18:46:40.920Z",
@@ -13177,37 +13202,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Mistral",
+            "date": "2026-07-01T23:41:54.577Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 386.31,
+            "odds": 1.36,
+            "reasoning": "USA has shown dominant performance in recent matches (M04, M32) with high xG, shots, possession, and final-third receptions, indicating strong offensive and defensive capabilities. While their loss to Türkiye (M59) was close, their overall metrics (especially against weaker teams like Paraguay and Australia) suggest they are significantly stronger than Bosnia & Herzegovina. Bosnia's recent performances (e.g., M03, M26) show struggles against even mid-tier teams, with low possession, shots, and final-third receptions. The odds (1.36 for USA) are favorable given their form and Bosnia's weaknesses. Betting max stake on USA to win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 81,
-        "won": 55,
+        "totalBets": 82,
+        "won": 56,
         "lost": 26,
         "void": 0,
-        "totalStake": 76420.32,
-        "totalReturn": 5218.791499999999,
-        "roi": 0.06829062610572684,
-        "avgOdds": 1.6402469135802467,
+        "totalStake": 77867.68000000001,
+        "totalReturn": 5754.314699999999,
+        "roi": 0.07389862777470702,
+        "avgOdds": 1.636951219512195,
         "recentBets": [
-          {
-            "id": "54697f453437ab26276d773be1d72e9b:Baseline",
-            "date": "2026-06-27T23:12:19.836Z",
-            "matchId": "54697f453437ab26276d773be1d72e9b",
-            "match": "Jordan vs Argentina",
-            "homeTeam": "Jordan",
-            "awayTeam": "Argentina",
-            "kickoff": "2026-06-28T02:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1002.96,
-            "odds": 1.13,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-3"
-          },
           {
             "id": "def55b09ef3d6854e3c01e74b5c63415:Baseline",
             "date": "2026-06-28T16:04:49.320Z",
@@ -13360,6 +13385,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-2"
+          },
+          {
+            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Baseline",
+            "date": "2026-07-01T21:11:44.798Z",
+            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
+            "match": "USA vs Bosnia & Herzegovina",
+            "homeTeam": "USA",
+            "awayTeam": "Bosnia & Herzegovina",
+            "kickoff": "2026-07-02T00:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1447.36,
+            "odds": 1.37,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       }
