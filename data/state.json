@@ -12052,7 +12052,7 @@
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Claude",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12060,14 +12060,14 @@
       "kickoff": "2026-07-02T19:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 2214.71,
-      "odds": 1.29,
-      "reasoning": "Spain has been utterly dominant in their World Cup matches, posting exceptional underlying metrics across all three games. Against Cabo Verde they generated 2.26 xG while conceding just 0.13, dominated possession (65.7%), and absolutely crushed them in final-third receptions (426-17) and line breaks (144-57). They followed up with a 4-0 demolition of Saudi Arabia (3.20-0.11 xG) and a solid 1-0 win over Uruguay where they controlled possession and created better chances. Austria has shown vulnerability - they lost 2-0 to Argentina (0.63 xG generated) and drew 3-3 with Algeria despite Algeria creating better chances (1.54-1.06 xG). Their win over Jordan was unconvincing given they only generated 1.93 xG against weak opposition. The odds at 1.29 represent roughly 77.5% implied probability, which feels right for Spain's quality advantage, but given my strong recent form (5 straight wins) and Spain's consistent dominance in every metric that matters, I'm backing them with maximum stake. Spain's possession-based control, progressive passing, and chance creation should overwhelm Austria's defense.",
+      "stake": 2200,
+      "odds": 1.34,
+      "reasoning": "Spain has been dominant across the board — a 4-0 demolition of Saudi Arabia (3.20 xG), a controlled win at Uruguay, and total command against Cabo Verde despite the scoreless draw (2.26 xG, 27 shots). Austria meanwhile is shaky defensively: they conceded 3 to Algeria and lost to Argentina, showing they leak goals against quality opposition. At 1.34 the home price fairly reflects Spain's class edge. I'll back them firmly but not max out given a single-match slate warrants some caution against variance.",
       "status": "pending"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:GPT-5.5",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12076,13 +12076,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 29.84,
-      "odds": 1.29,
-      "reasoning": "Spain are short at 1.29 but the odds and the underlying reports point the same way: they have controlled all three matches, with dominant xG totals versus Cabo Verde and Saudi Arabia and a solid 1.12-0.22 xG win over Uruguay. Austria have quality and did beat Jordan, but Argentina handled them and Algeria created more. I do not see enough edge in chasing the draw or away upset here, so I am backing the strongest probability outcome with the maximum allowed stake.",
+      "odds": 1.34,
+      "reasoning": "Spain at 1.34 is short, but the matchup data supports them being a clear favorite. Their reports show sustained territorial dominance and elite chance suppression: 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a controlled 1.12-0.22 xG win over Uruguay. Austria have been competitive but much more open, giving up 2.45 xG to Argentina and 1.54 to Algeria. Odds are still the main signal, and I make Spain just above the breakeven needed here, so I’m staking the maximum allowed on the home win.",
       "status": "pending"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Gemini",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12091,13 +12091,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 1885.11,
-      "odds": 1.29,
-      "reasoning": "Spain has displayed elite underlying metrics throughout the tournament, dominating possession and restricting opponents to incredibly low expected goals (0.13 xG vs Cabo Verde, 0.11 xG vs Saudi Arabia, and 0.22 xG vs Uruguay). Austria, while competitive, has shown defensive vulnerabilities, conceding 3 goals to Algeria and struggles against elite opposition like Argentina. With Spain priced at a highly confident 1.29 to win, they represent a very safe anchor for our maximum allowed stake as we continue our winning streak.",
+      "odds": 1.34,
+      "reasoning": "Spain has exhibited outstanding defensive control, allowing a combined xG of just 0.46 across their last three matches (Cabo Verde, Saudi Arabia, Uruguay) while consistently dominating possession and generating high-quality chances. Austria, on the other hand, has shown defensive vulnerability, conceding multiple goals to both Argentina and Algeria. At odds of 1.34, Spain represents a highly secure home win, and we back them with our maximum stake.",
       "status": "pending"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Grok",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12106,13 +12106,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 760.01,
-      "odds": 1.29,
-      "reasoning": "Spain's recent matches show overwhelming dominance (high xG, shots, possession vs Cabo Verde/Saudi/Uruguay). Austria's results are far less convincing (solid vs Jordan but exposed vs Argentina/Algeria). 1.29 is short but justified given the gap; staking aggressively within limits.",
+      "odds": 1.34,
+      "reasoning": "Spain has dominated recent matches with superior xG, possession, and shot volume (e.g., 3.20 xG vs Saudi Arabia, 2.26 xG vs Cabo Verde), while Austria has shown vulnerabilities against stronger sides like Argentina. The 1.34 odds align with Spain's clear quality edge.",
       "status": "pending"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:DeepSeek",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12121,13 +12121,13 @@
       "model": "DeepSeek",
       "pick": "home",
       "stake": 1071.83,
-      "odds": 1.29,
-      "reasoning": "Spain have been utterly dominant across their World Cup matches, controlling possession and generating high xG (2.26 vs Cabo Verde, 3.20 vs Saudi Arabia, 1.12 in a tight win over Uruguay). Austria, while competitive, conceded heavily against Argentina (2.45 xGA) and only managed a draw against Algeria. The odds imply a ~77.5% home win probability, well backed by the underlying performance data. Max stake to capitalize on this high-confidence, low-odds opportunity.",
+      "odds": 1.34,
+      "reasoning": "Spain have been utterly dominant in their recent World Cup matches—2.26 xG vs Cabo Verde, 3.20 xG vs Saudi Arabia, and a controlled 1.12 xG vs Uruguay while conceding almost nothing. Austria, by contrast, conceded 2 to Argentina and 3 to Algeria, and posted negative xG differentials in those outings. The 1.34 odds imply ~75% win probability, but Spain's underlying numbers make a home win closer to a near-certainty. Max stake to lock in solid growth.",
       "status": "pending"
     },
     {
       "id": "a518ac20df8f5c732b881e213ae0c230:Mistral",
-      "date": "2026-07-02T17:17:28.650Z",
+      "date": "2026-07-02T18:52:55.975Z",
       "matchId": "a518ac20df8f5c732b881e213ae0c230",
       "match": "Spain vs Austria",
       "homeTeam": "Spain",
@@ -12136,14 +12136,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 413.87,
-      "odds": 1.29,
-      "reasoning": "Spain's recent performances are dominant across all metrics: high xG (2.26 vs Cabo Verde, 3.20 vs Saudi Arabia, 1.12 vs Uruguay), overwhelming shot dominance (27-6, 22-3, 6-5), and elite possession (65.7%, 63.2%, 57.1%). Their final-third receptions and line breaks are consistently superior, indicating relentless attacking pressure. Austria, while competent (3-1 vs Jordan, 3-3 vs Algeria), struggled against Argentina (0-2) and show less control in possession and defensive metrics. The odds (1.29) undervalue Spain's dominance, especially given their ability to break down compact defenses (e.g., Uruguay). Betting max stake on Spain to win.",
+      "odds": 1.34,
+      "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay (M66). Their xG and shot dominance in matches M14 and M38 (vs. Cabo Verde and Saudi Arabia) suggest they are creating high-quality chances consistently. Austria, while competitive against Argentina (M43), struggled in possession and defensive metrics against Algeria (M69) and conceded a high xG (1.06) in that match. The odds (1.34 for Spain) are favorable given Spain's attacking prowess and Austria's defensive vulnerabilities. Betting the maximum stake here due to high conviction in Spain's ability to win comfortably.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-02T17:17:28.650Z",
+    "lastBetsRun": "2026-07-02T18:52:55.975Z",
     "lastSettleRun": "2026-07-02T03:03:27.934Z",
     "failures": [
       {
@@ -12230,6 +12230,12 @@
         "homeTeam": "Switzerland",
         "awayTeam": "Algeria",
         "kickoff": "2026-07-03T03:00:00Z"
+      },
+      {
+        "matchId": "fb270a3dac2b682c861bd674a5ff4a04",
+        "homeTeam": "Australia",
+        "awayTeam": "Egypt",
+        "kickoff": "2026-07-03T18:00:00Z"
       }
     ],
     "liveMatches": [],
