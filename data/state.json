@@ -336,6 +336,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 12702.48
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 14836.48
       }
     ],
     "GPT-5.5": [
@@ -674,6 +678,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 203.59
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 234.26
       }
     ],
     "Gemini": [
@@ -1012,6 +1020,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 11106.91
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 12901.9
       }
     ],
     "Grok": [
@@ -1350,6 +1362,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 4583.83
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 5372.83
       }
     ],
     "DeepSeek": [
@@ -1688,6 +1704,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 6312.27
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 7088.27
       }
     ],
     "Mistral": [
@@ -2026,6 +2046,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 2605.78
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 3034.41
       }
     ],
     "Baseline": [
@@ -2364,6 +2388,10 @@
       {
         "t": "2026-07-03T02:05:21.423Z",
         "bankroll": 18176.56
+      },
+      {
+        "t": "2026-07-03T05:21:30.130Z",
+        "bankroll": 19831.9
       }
     ]
   },
@@ -12342,7 +12370,9 @@
       "stake": 2200,
       "odds": 1.97,
       "reasoning": "Switzerland's xG profile is excellent (3.14 vs Qatar, comfortable control vs Canada) and they consistently dominate possession and chance quality. Algeria is streaky and defensively leaky, conceding 3 to Austria. At 1.97, the more reliable higher-ceiling home side offers solid value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:GPT-5.5",
@@ -12357,7 +12387,9 @@
       "stake": 31.62,
       "odds": 1.97,
       "reasoning": "Switzerland are priced as the better side and the training-centre context supports that: they created 3.14 xG and dominated territory against Qatar, then beat Canada despite a closer chance profile. Algeria have been competitive and progressive in possession, especially vs Jordan/Austria, but their defensive level still looks more vulnerable against a Swiss side that has generated quality chances. At 1.97 I make Switzerland a small but clear value favorite, and given my bankroll position I’m staking the maximum.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:Gemini",
@@ -12372,7 +12404,9 @@
       "stake": 1850.5,
       "odds": 1.97,
       "reasoning": "Switzerland has shown excellent underlying metrics this tournament, notably generating a massive 3.14 xG against Qatar and securing a 2-1 win over Canada. Algeria, while capable going forward, has shown defensive vulnerabilities, conceding three goals to both Argentina and Austria. At odds of 1.97, Switzerland represents strong value to win this match.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:Grok",
@@ -12387,7 +12421,9 @@
       "stake": 813.4,
       "odds": 1.97,
       "reasoning": "Switzerland's underlying numbers vs Qatar (xG 3.14, 26 shots, 58% poss, 245 final-third receptions) show clear dominance that Algeria has not demonstrated at the same level. Algeria's results are mixed (heavy loss to Argentina, draw vs Austria) while Switzerland controlled Canada too. Home edge at 1.97 is the value side given the data gap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:DeepSeek",
@@ -12402,7 +12438,9 @@
       "stake": 800,
       "odds": 1.97,
       "reasoning": "Switzerland have been creating high xG numbers (3.14 vs Qatar) and won against Canada despite being outshot. Algeria shipped three to Argentina and conceded three against Austria, showing defensive weaknesses. At home odds of 1.97, Switzerland offer value given their superior metrics. Stake moderate, around 14% of bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:Mistral",
@@ -12417,7 +12455,9 @@
       "stake": 441.89,
       "odds": 1.97,
       "reasoning": "Switzerland has shown dominant performance metrics in their recent matches, particularly in xG, shots, possession, and final-third receptions. Against Qatar, they had an xG of 3.14 and 26 shots, while against Canada, they maintained strong control despite a closer xG. Algeria, on the other hand, has been inconsistent. While they dominated Jordan in possession and shots (xG 2.05), they struggled against Argentina (xG 0.41) and drew with Austria despite a high xG (1.54). Switzerland's odds (1.97) are favorable given their recent form and underlying stats, making them the safer pick over Algeria, whose away form is less reliable. Betting the maximum stake here due to high confidence in Switzerland's ability to control the game.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:Baseline",
@@ -12432,13 +12472,15 @@
       "stake": 1706.54,
       "odds": 1.97,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-03T00:10:16.785Z",
-    "lastSettleRun": "2026-07-03T02:05:21.423Z",
+    "lastSettleRun": "2026-07-03T05:21:30.130Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -12531,32 +12573,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 84,
-        "won": 57,
+        "totalBets": 85,
+        "won": 58,
         "lost": 27,
         "void": 0,
-        "totalStake": 92240.82000000002,
-        "totalReturn": 1792.1605999999992,
-        "roi": 0.019429148613379618,
-        "avgOdds": 1.6403571428571437,
+        "totalStake": 94440.82000000002,
+        "totalReturn": 3926.1605999999992,
+        "roi": 0.041572707649086466,
+        "avgOdds": 1.644235294117648,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:Claude",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1200,
-            "odds": 1.33,
-            "reasoning": "Germany are heavy favorites at home and the data backs it. They scored 7 vs Curaçao and beat Côte d'Ivoire, while Paraguay's attack is dreadful — 0.60 xG vs USA, 0.36 vs Türkiye, 0.29 in a 0-0 with Australia. Paraguay simply cannot generate chances. At 1.33 the margin is thin so I'm not maxing out, but this is a confident play on a clearly superior side at home against a toothless opponent.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:Claude",
             "date": "2026-06-30T00:03:32.219Z",
@@ -12709,37 +12734,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:Claude",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2200,
+            "odds": 1.97,
+            "reasoning": "Switzerland's xG profile is excellent (3.14 vs Qatar, comfortable control vs Canada) and they consistently dominate possession and chance quality. Algeria is streaky and defensively leaky, conceding 3 to Austria. At 1.97, the more reliable higher-ceiling home side offers solid value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 84,
-        "won": 37,
+        "totalBets": 85,
+        "won": 38,
         "lost": 47,
         "void": 0,
-        "totalStake": 24143.46,
-        "totalReturn": -9925.498100000006,
-        "roi": -0.4111050404540197,
-        "avgOdds": 3.878690476190477,
+        "totalStake": 24175.079999999998,
+        "totalReturn": -9894.826700000007,
+        "roi": -0.409298612455471,
+        "avgOdds": 3.856235294117648,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:GPT-5.5",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 11.11,
-            "odds": 5.3,
-            "reasoning": "Germany are rightly favored, but at 1.33 the upside is too small for my current bankroll position. Paraguay have been ugly in the underlying numbers, yet their last two matches were a 1-0 smash-and-grab and a 0-0, suggesting a low-block game state that can keep this closer than the talent gap implies. I need variance to climb, and the draw at 5.3 is the best risk/reward angle on the board.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:GPT-5.5",
             "date": "2026-06-30T00:03:32.219Z",
@@ -12892,37 +12917,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:GPT-5.5",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 31.62,
+            "odds": 1.97,
+            "reasoning": "Switzerland are priced as the better side and the training-centre context supports that: they created 3.14 xG and dominated territory against Qatar, then beat Canada despite a closer chance profile. Algeria have been competitive and progressive in possession, especially vs Jordan/Austria, but their defensive level still looks more vulnerable against a Swiss side that has generated quality chances. At 1.97 I make Switzerland a small but clear value favorite, and given my bankroll position I’m staking the maximum.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 84,
-        "won": 57,
+        "totalBets": 85,
+        "won": 58,
         "lost": 27,
         "void": 0,
-        "totalStake": 63130.21000000001,
-        "totalReturn": 817.1571999999991,
-        "roi": 0.012943996226212442,
-        "avgOdds": 1.6810714285714294,
+        "totalStake": 64980.71000000001,
+        "totalReturn": 2612.142199999999,
+        "roi": 0.04019873282394112,
+        "avgOdds": 1.6844705882352948,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:Gemini",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1088.15,
-            "odds": 1.33,
-            "reasoning": "Germany is the clear class of this matchup. Paraguay has shown an incredibly weak attack throughout the tournament, generating extremely low xG figures (0.60 vs USA, 0.36 vs Turkey, and 0.29 vs Australia). While Paraguay managed to nick a win against Turkey and a draw against Australia through ultra-defensive play, Germany's superior attacking rotation and quality (demonstrated by high xG outputs in their matches) should break down Paraguay's low block. At 1.33, Germany represents a highly secure bet, and we are backing them with a near-maximum stake to continue building our bankroll.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:Gemini",
             "date": "2026-06-30T00:03:32.219Z",
@@ -13075,37 +13100,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:Gemini",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1850.5,
+            "odds": 1.97,
+            "reasoning": "Switzerland has shown excellent underlying metrics this tournament, notably generating a massive 3.14 xG against Qatar and securing a 2-1 win over Canada. Algeria, while capable going forward, has shown defensive vulnerabilities, conceding three goals to both Argentina and Austria. At odds of 1.97, Switzerland represents strong value to win this match.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 84,
-        "won": 55,
+        "totalBets": 85,
+        "won": 56,
         "lost": 29,
         "void": 0,
-        "totalStake": 88453.13000000008,
-        "totalReturn": -5880.979899999996,
-        "roi": -0.06648696207810838,
-        "avgOdds": 1.7176190476190483,
+        "totalStake": 89266.53000000007,
+        "totalReturn": -5091.981899999996,
+        "roi": -0.05704245364976091,
+        "avgOdds": 1.7205882352941184,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:Grok",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 463.92,
-            "odds": 1.33,
-            "reasoning": "Germany's underlying numbers and results (7-1 vs Curacao, 2-1 vs Ivory Coast) show clear superiority over Paraguay, who have looked toothless in attack across their games. Home 1.33 offers solid value given the gap in quality and form.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:Grok",
             "date": "2026-06-30T00:03:32.219Z",
@@ -13258,37 +13283,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:Grok",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 813.4,
+            "odds": 1.97,
+            "reasoning": "Switzerland's underlying numbers vs Qatar (xG 3.14, 26 shots, 58% poss, 245 final-third receptions) show clear dominance that Algeria has not demonstrated at the same level. Algeria's results are mixed (heavy loss to Argentina, draw vs Austria) while Switzerland controlled Canada too. Home edge at 1.97 is the value side given the data gap.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 84,
-        "won": 55,
+        "totalBets": 85,
+        "won": 56,
         "lost": 29,
         "void": 0,
-        "totalStake": 42485.06999999998,
-        "totalReturn": -3807.7518999999993,
-        "roi": -0.0896256473156335,
-        "avgOdds": 1.8839285714285725,
+        "totalStake": 43285.06999999998,
+        "totalReturn": -3031.7518999999993,
+        "roi": -0.0700415154694217,
+        "avgOdds": 1.8849411764705892,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:DeepSeek",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 334.52,
-            "odds": 1.33,
-            "reasoning": "Germany is the clear favorite with odds 1.33. Despite a surprising loss to Ecuador, they dominated Curaçao and edged Côte d'Ivoire. Paraguay showed defensive resilience against Australia and stole a win vs Turkey, but were thrashed by USA. Germany's attacking firepower (xG 4.17 vs Curaçao, xG 2.47 vs Côte d'Ivoire) should overcome Paraguay's low-block. I expect Germany to win, though possibly by a narrow margin given Paraguay's ability to frustrate. Stake $400 reflects strong confidence but acknowledges risk.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:DeepSeek",
             "date": "2026-06-30T00:03:32.219Z",
@@ -13441,37 +13466,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:DeepSeek",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 800,
+            "odds": 1.97,
+            "reasoning": "Switzerland have been creating high xG numbers (3.14 vs Qatar) and won against Canada despite being outshot. Algeria shipped three to Argentina and conceded three against Austria, showing defensive weaknesses. At home odds of 1.97, Switzerland offer value given their superior metrics. Stake moderate, around 14% of bankroll.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 84,
-        "won": 56,
+        "totalBets": 85,
+        "won": 57,
         "lost": 28,
         "void": 0,
-        "totalStake": 41123.619999999995,
-        "totalReturn": -7643.6834999999965,
-        "roi": -0.18587088150313608,
-        "avgOdds": 1.7105952380952392,
+        "totalStake": 41565.509999999995,
+        "totalReturn": -7215.050199999996,
+        "roi": -0.17358262174576944,
+        "avgOdds": 1.7136470588235304,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:Mistral",
-            "date": "2026-06-29T20:02:56.739Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 255.46,
-            "odds": 1.33,
-            "reasoning": "Germany's recent performances show dominance in possession, final-third receptions, and line breaks, even in their loss to Ecuador (where they still had more shots and xG). Paraguay, while defensively organized, have struggled offensively (low xG, shots, and possession in recent matches) and were thoroughly outplayed by the USA and Türkiye. The odds (1.33 for Germany) reflect a clear favorite, and the qualitative data supports this. Betting max stake on Germany to win.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:Mistral",
             "date": "2026-06-30T00:03:32.219Z",
@@ -13624,37 +13649,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:Mistral",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 441.89,
+            "odds": 1.97,
+            "reasoning": "Switzerland has shown dominant performance metrics in their recent matches, particularly in xG, shots, possession, and final-third receptions. Against Qatar, they had an xG of 3.14 and 26 shots, while against Canada, they maintained strong control despite a closer xG. Algeria, on the other hand, has been inconsistent. While they dominated Jordan in possession and shots (xG 2.05), they struggled against Argentina (xG 0.41) and drew with Austria despite a high xG (1.54). Switzerland's odds (1.97) are favorable given their recent form and underlying stats, making them the safer pick over Algeria, whose away form is less reliable. Betting the maximum stake here due to high confidence in Switzerland's ability to control the game.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 84,
-        "won": 58,
+        "totalBets": 85,
+        "won": 59,
         "lost": 26,
         "void": 0,
-        "totalStake": 81184.58,
-        "totalReturn": 7346.426699999999,
-        "roi": 0.09049041948606495,
-        "avgOdds": 1.6332142857142853,
+        "totalStake": 82891.12,
+        "totalReturn": 9001.770499999999,
+        "roi": 0.10859752528376983,
+        "avgOdds": 1.637176470588235,
         "recentBets": [
-          {
-            "id": "4930db8e83436874d09e59bd0e29c1a5:Baseline",
-            "date": "2026-06-29T17:35:05.465Z",
-            "matchId": "4930db8e83436874d09e59bd0e29c1a5",
-            "match": "Germany vs Paraguay",
-            "homeTeam": "Germany",
-            "awayTeam": "Paraguay",
-            "kickoff": "2026-06-29T20:30:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1271.35,
-            "odds": 1.36,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "5a34afe2de99513ba48360b983cfe80c:Baseline",
             "date": "2026-06-29T22:12:30.159Z",
@@ -13807,6 +13832,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "c17fe2e46190d7ab6af01504ff240e82:Baseline",
+            "date": "2026-07-03T00:10:16.785Z",
+            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+            "match": "Switzerland vs Algeria",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Algeria",
+            "kickoff": "2026-07-03T03:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1706.54,
+            "odds": 1.97,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       }
