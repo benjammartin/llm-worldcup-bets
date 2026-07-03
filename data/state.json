@@ -332,6 +332,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 11391.48
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 12702.48
       }
     ],
     "GPT-5.5": [
@@ -666,6 +670,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 181.77
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 203.59
       }
     ],
     "Gemini": [
@@ -1000,6 +1008,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 9761.41
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 11106.91
       }
     ],
     "Grok": [
@@ -1334,6 +1346,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 4022.58
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 4583.83
       }
     ],
     "DeepSeek": [
@@ -1668,6 +1684,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 5760.27
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 6312.27
       }
     ],
     "Mistral": [
@@ -2002,6 +2022,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 2300.88
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 2605.78
       }
     ],
     "Baseline": [
@@ -2336,6 +2360,10 @@
       {
         "t": "2026-07-02T21:40:39.166Z",
         "bankroll": 17065.4
+      },
+      {
+        "t": "2026-07-03T02:05:21.423Z",
+        "bankroll": 18176.56
       }
     ]
   },
@@ -12195,7 +12223,9 @@
       "stake": 1658.45,
       "odds": 1.67,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Claude",
@@ -12210,7 +12240,9 @@
       "stake": 1900,
       "odds": 1.69,
       "reasoning": "Portugal dominate every underlying metric — possession, xG creation, final-third receptions, line breaks — clearly the superior process side. Croatia have been out-xG'd in most matches (Panama, Ghana) and dismantled by England, winning ugly on results that outrun their numbers. 1.69 (~59%) is fair value on Portugal's quality. Sizing moderately because Portugal's finishing droughts (1-1 vs Congo, 0-0 vs Colombia) make the draw a genuine risk.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:GPT-5.5",
@@ -12225,7 +12257,9 @@
       "stake": 31.62,
       "odds": 1.69,
       "reasoning": "Portugal are the stronger side and the odds still leave enough room to back them. Croatia have advanced but their reports are not especially convincing: heavily out-xG by England, only narrow xG edges or deficits in wins over Panama/Ghana, and limited attacking volume. Portugal have been uneven, but their territorial numbers are much stronger overall and the 5-0 Uzbekistan performance shows the upside. At 1.69 I make Portugal more likely than the market-implied break-even, so I am staking the maximum.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Gemini",
@@ -12240,7 +12274,9 @@
       "stake": 1950,
       "odds": 1.69,
       "reasoning": "Portugal enters this matchup as the class of the tie. Croatia has shown defensive vulnerabilities throughout the tournament, notably conceding 3.33 xG in their 4-2 loss to England and being out-created in terms of expected goals by Ghana. While Portugal had a couple of flat performances, their offensive ceiling is incredibly high, as demonstrated in their 5-0 thrashing of Uzbekistan. At 1.69 odds, backing Portugal to win in regulation represents strong value given their superior squad depth and Croatia's defensive gaps.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Grok",
@@ -12255,7 +12291,9 @@
       "stake": 813.4,
       "odds": 1.69,
       "reasoning": "Portugal's underlying metrics across recent matches (strong xG and dominance vs Uzbekistan/Congo) look superior to Croatia's mixed results and defensive vulnerabilities (exposed vs England). Home edge at 1.69 offers solid value given the quality gap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:DeepSeek",
@@ -12270,7 +12308,9 @@
       "stake": 800,
       "odds": 1.69,
       "reasoning": "Portugal have dominated possession and created more chances overall in the tournament, as seen against Uzbekistan (2.03 xG, 17 shots) and despite the 0-0 with Colombia they generated 0.97 xG against a strong side. Croatia were heavily outplayed by England (3.33 xG conceded) and their wins against Panama and Ghana were tight with low xG. Portugal's superior attacking depth and control should prevail, and the 1.69 odds offer value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "852b4baf0be4b9eef2a30596a8d39249:Mistral",
@@ -12285,7 +12325,9 @@
       "stake": 441.89,
       "odds": 1.69,
       "reasoning": "Portugal has shown strong offensive capabilities in recent matches, particularly in their 5-0 demolition of Uzbekistan (xG 2.03) and a credible 1-1 draw against DR Congo despite dominating possession (68.9%) and creating more chances (final-third receptions 222-62). Their defensive structure is solid, and they have demonstrated resilience in tight games (e.g., 0-0 vs Colombia). Croatia, while competitive, has struggled against higher-quality opposition (4-2 loss to England, xG 0.82) and has been inconsistent in possession and defensive transitions. The odds (1.69 for Portugal) are favorable given their recent form and underlying metrics. Betting max stake on Portugal to win, as they are the most likely outcome and offer the best risk-reward balance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "c17fe2e46190d7ab6af01504ff240e82:Claude",
@@ -12396,7 +12438,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-03T00:10:16.785Z",
-    "lastSettleRun": "2026-07-02T21:40:39.166Z",
+    "lastSettleRun": "2026-07-03T02:05:21.423Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -12489,32 +12531,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 83,
-        "won": 56,
+        "totalBets": 84,
+        "won": 57,
         "lost": 27,
         "void": 0,
-        "totalStake": 90340.82000000002,
-        "totalReturn": 481.16059999999925,
-        "roi": 0.005326059692617347,
-        "avgOdds": 1.6397590361445793,
+        "totalStake": 92240.82000000002,
+        "totalReturn": 1792.1605999999992,
+        "roi": 0.019429148613379618,
+        "avgOdds": 1.6403571428571437,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:Claude",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 900,
-            "odds": 1.8,
-            "reasoning": "Brazil's attacking output (3.78 xG vs Scotland, dominant line breaks) outclasses Japan's defensive resume, and 1.8 home odds offer fair value at ~55% implied. Japan is genuinely solid (4-0 Tunisia, draws with NED/SWE), so the draw and away are live enough that I keep stake moderate rather than maximal. Brazil at home with their ceiling should edge this.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:Claude",
             "date": "2026-06-29T20:02:56.739Z",
@@ -12667,37 +12692,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:Claude",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1900,
+            "odds": 1.69,
+            "reasoning": "Portugal dominate every underlying metric — possession, xG creation, final-third receptions, line breaks — clearly the superior process side. Croatia have been out-xG'd in most matches (Panama, Ghana) and dismantled by England, winning ugly on results that outrun their numbers. 1.69 (~59%) is fair value on Portugal's quality. Sizing moderately because Portugal's finishing droughts (1-1 vs Congo, 0-0 vs Colombia) make the draw a genuine risk.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 83,
-        "won": 36,
+        "totalBets": 84,
+        "won": 37,
         "lost": 47,
         "void": 0,
-        "totalStake": 24111.84,
-        "totalReturn": -9947.315900000007,
-        "roi": -0.4125490174121928,
-        "avgOdds": 3.905060240963856,
+        "totalStake": 24143.46,
+        "totalReturn": -9925.498100000006,
+        "roi": -0.4111050404540197,
+        "avgOdds": 3.878690476190477,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:GPT-5.5",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 11.11,
-            "odds": 1.8,
-            "reasoning": "Brazil at 1.80 is the strongest odds signal on the slate and looks like the right side. The FIFA reports back that up qualitatively: Brazil have been improving, especially the 3-0 over Scotland with a huge 3.78 xG and 21 shots, while Japan have been organized and competitive but not consistently creating at Brazil's level. Japan are live enough to make this uncomfortable, but I price Brazil a bit higher than the market-implied probability, so I am staking the match maximum.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:GPT-5.5",
             "date": "2026-06-29T20:02:56.739Z",
@@ -12850,37 +12875,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:GPT-5.5",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 31.62,
+            "odds": 1.69,
+            "reasoning": "Portugal are the stronger side and the odds still leave enough room to back them. Croatia have advanced but their reports are not especially convincing: heavily out-xG by England, only narrow xG edges or deficits in wins over Panama/Ghana, and limited attacking volume. Portugal have been uneven, but their territorial numbers are much stronger overall and the 5-0 Uzbekistan performance shows the upside. At 1.69 I make Portugal more likely than the market-implied break-even, so I am staking the maximum.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 83,
-        "won": 56,
+        "totalBets": 84,
+        "won": 57,
         "lost": 27,
         "void": 0,
-        "totalStake": 61180.21000000001,
-        "totalReturn": -528.3428000000009,
-        "roi": -0.0086358448262927,
-        "avgOdds": 1.6809638554216875,
+        "totalStake": 63130.21000000001,
+        "totalReturn": 817.1571999999991,
+        "roi": 0.012943996226212442,
+        "avgOdds": 1.6810714285714294,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:Gemini",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1088.15,
-            "odds": 1.8,
-            "reasoning": "Brazil's performance has been on an upward trajectory, culminating in a dominant 3-0 victory over Scotland where they accumulated an impressive 3.78 xG and 21 shots. While Japan has shown resilience with draws against the Netherlands and Sweden, Brazil's elite technical quality and offensive momentum make them strong favorites here. At 1.8 odds, backing a surging Brazilian side represents excellent value.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:Gemini",
             "date": "2026-06-29T20:02:56.739Z",
@@ -13033,37 +13058,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:Gemini",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1950,
+            "odds": 1.69,
+            "reasoning": "Portugal enters this matchup as the class of the tie. Croatia has shown defensive vulnerabilities throughout the tournament, notably conceding 3.33 xG in their 4-2 loss to England and being out-created in terms of expected goals by Ghana. While Portugal had a couple of flat performances, their offensive ceiling is incredibly high, as demonstrated in their 5-0 thrashing of Uzbekistan. At 1.69 odds, backing Portugal to win in regulation represents strong value given their superior squad depth and Croatia's defensive gaps.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 83,
-        "won": 54,
+        "totalBets": 84,
+        "won": 55,
         "lost": 29,
         "void": 0,
-        "totalStake": 87639.73000000008,
-        "totalReturn": -6442.225899999996,
-        "roi": -0.07350805279751535,
-        "avgOdds": 1.7179518072289164,
+        "totalStake": 88453.13000000008,
+        "totalReturn": -5880.979899999996,
+        "roi": -0.06648696207810838,
+        "avgOdds": 1.7176190476190483,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:Grok",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 463.92,
-            "odds": 1.8,
-            "reasoning": "Brazil's underlying metrics and results (dominant xG wins vs Scotland/Haiti) outweigh Japan's mixed performances; 1.8 offers fair value on the stronger side.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:Grok",
             "date": "2026-06-29T20:02:56.739Z",
@@ -13216,37 +13241,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:Grok",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 813.4,
+            "odds": 1.69,
+            "reasoning": "Portugal's underlying metrics across recent matches (strong xG and dominance vs Uzbekistan/Congo) look superior to Croatia's mixed results and defensive vulnerabilities (exposed vs England). Home edge at 1.69 offers solid value given the quality gap.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 83,
-        "won": 54,
+        "totalBets": 84,
+        "won": 55,
         "lost": 29,
         "void": 0,
-        "totalStake": 41685.06999999998,
-        "totalReturn": -4359.751899999999,
-        "roi": -0.10458785123786529,
-        "avgOdds": 1.886265060240965,
+        "totalStake": 42485.06999999998,
+        "totalReturn": -3807.7518999999993,
+        "roi": -0.0896256473156335,
+        "avgOdds": 1.8839285714285725,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:DeepSeek",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 300,
-            "odds": 1.8,
-            "reasoning": "Brazil’s recent performances show a potent attack – 3.78 xG against Scotland and 3-0 wins over Haiti and Scotland – while Japan have been resilient but reliant on counter-attacks (0.34 xG vs Netherlands). Brazil’s depth and quality should control possession and break down Japan’s organised defence. The odds of 1.80 imply a 55.6% chance; I rate Brazil’s true win probability closer to 62%, giving a small edge. I’m staking $300 (below the $443 cap) to balance risk with the need to rebuild my bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:DeepSeek",
             "date": "2026-06-29T20:02:56.739Z",
@@ -13399,37 +13424,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:DeepSeek",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 800,
+            "odds": 1.69,
+            "reasoning": "Portugal have dominated possession and created more chances overall in the tournament, as seen against Uzbekistan (2.03 xG, 17 shots) and despite the 0-0 with Colombia they generated 0.97 xG against a strong side. Croatia were heavily outplayed by England (3.33 xG conceded) and their wins against Panama and Ghana were tight with low xG. Portugal's superior attacking depth and control should prevail, and the 1.69 odds offer value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 83,
-        "won": 55,
+        "totalBets": 84,
+        "won": 56,
         "lost": 28,
         "void": 0,
-        "totalStake": 40681.729999999996,
-        "totalReturn": -7948.587599999996,
-        "roi": -0.19538469971655573,
-        "avgOdds": 1.710843373493977,
+        "totalStake": 41123.619999999995,
+        "totalReturn": -7643.6834999999965,
+        "roi": -0.18587088150313608,
+        "avgOdds": 1.7105952380952392,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:Mistral",
-            "date": "2026-06-29T16:36:01.972Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 255.46,
-            "odds": 1.8,
-            "reasoning": "Brazil has shown strong offensive capabilities in their recent matches, particularly against Scotland (3-0) and Haiti (3-0), with high xG and shot dominance. While their possession and final-third metrics are mixed, their clinical finishing and ability to break down defenses (evidenced by line breaks and progressions) make them a formidable side. Japan, though resilient, has struggled against stronger teams (e.g., 1-1 vs Sweden, 2-2 vs Netherlands) and was dominated by Tunisia in possession and xG despite winning 4-0. The odds favor Brazil (1.8), which aligns with their recent form and underlying stats. The stake reflects high confidence given the value and Brazil's tournament pedigree.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:Mistral",
             "date": "2026-06-29T20:02:56.739Z",
@@ -13582,37 +13607,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:Mistral",
+            "date": "2026-07-02T22:50:45.569Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 441.89,
+            "odds": 1.69,
+            "reasoning": "Portugal has shown strong offensive capabilities in recent matches, particularly in their 5-0 demolition of Uzbekistan (xG 2.03) and a credible 1-1 draw against DR Congo despite dominating possession (68.9%) and creating more chances (final-third receptions 222-62). Their defensive structure is solid, and they have demonstrated resilience in tight games (e.g., 0-0 vs Colombia). Croatia, while competitive, has struggled against higher-quality opposition (4-2 loss to England, xG 0.82) and has been inconsistent in possession and defensive transitions. The odds (1.69 for Portugal) are favorable given their recent form and underlying metrics. Betting max stake on Portugal to win, as they are the most likely outcome and offer the best risk-reward balance.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 83,
-        "won": 57,
+        "totalBets": 84,
+        "won": 58,
         "lost": 26,
         "void": 0,
-        "totalStake": 79526.13,
-        "totalReturn": 6235.265199999999,
-        "roi": 0.07840523863037216,
-        "avgOdds": 1.632771084337349,
+        "totalStake": 81184.58,
+        "totalReturn": 7346.426699999999,
+        "roi": 0.09049041948606495,
+        "avgOdds": 1.6332142857142853,
         "recentBets": [
-          {
-            "id": "4f3d72fba877939d36a5315618184093:Baseline",
-            "date": "2026-06-29T14:12:30.565Z",
-            "matchId": "4f3d72fba877939d36a5315618184093",
-            "match": "Brazil vs Japan",
-            "homeTeam": "Brazil",
-            "awayTeam": "Japan",
-            "kickoff": "2026-06-29T17:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1271.35,
-            "odds": 1.74,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "4930db8e83436874d09e59bd0e29c1a5:Baseline",
             "date": "2026-06-29T17:35:05.465Z",
@@ -13765,6 +13790,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "3-0"
+          },
+          {
+            "id": "852b4baf0be4b9eef2a30596a8d39249:Baseline",
+            "date": "2026-07-02T20:04:40.318Z",
+            "matchId": "852b4baf0be4b9eef2a30596a8d39249",
+            "match": "Portugal vs Croatia",
+            "homeTeam": "Portugal",
+            "awayTeam": "Croatia",
+            "kickoff": "2026-07-02T23:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1658.45,
+            "odds": 1.67,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
