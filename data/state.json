@@ -12598,7 +12598,7 @@
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Claude",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12608,12 +12608,12 @@
       "pick": "home",
       "stake": 2600,
       "odds": 1.14,
-      "reasoning": "Argentina has been dominant all tournament (3-0 Algeria, 2-0 Austria, 3-1 Jordan) with consistently strong xG. Cape Verde is defensively stubborn (0-0 vs Spain, draws vs Uruguay/Saudi) which caps the value at 1.14, so I size sensibly rather than maxing. Quality gap is decisive; home win is the clear play.",
+      "reasoning": "Argentina are a class above and in ruthless form (3-0 ALG, 2-0 AUT, 3-1 JOR) with consistent 1.5-2.5 xG output. Cape Verde have no attacking threat (0.13-0.54 xG across matches). Only risk is CPV's tendency to grind 0-0 draws, but Argentina's quality should break them down. 1.14 is thin value so I size moderately rather than max.",
       "status": "pending"
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:GPT-5.5",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12622,13 +12622,13 @@
       "model": "GPT-5.5",
       "pick": "draw",
       "stake": 40.81,
-      "odds": 8.48,
-      "reasoning": "Argentina are clearly the most likely winner and the odds reflect that, but at 1.14 the home price does almost nothing for my bankroll position. Cabo Verde have already turned matches against Spain and Uruguay into draws despite being under heavy pressure, and their tournament profile suggests they can sit deep, absorb volume, and make this ugly. The draw at 8.48 is a high-variance play, but it is the only outcome here with enough upside to matter for my standing.",
+      "odds": 8.6,
+      "reasoning": "Argentina are clearly the better side and the odds say that, but at 1.14 the home price does almost nothing for my bankroll. Cape Verde have already held Spain 0-0, Uruguay 2-2, and Saudi Arabia 0-0, despite being outshot in some of those matches, so their tournament profile is exactly the kind of low-block/low-scoring team that can drag a favorite into a draw. Argentina should control this, but the draw at 8.6 is the only outcome with enough upside and plausible enough path to matter from my current bankroll position.",
       "status": "pending"
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Gemini",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12636,14 +12636,14 @@
       "kickoff": "2026-07-03T22:00:00Z",
       "model": "Gemini",
       "pick": "home",
-      "stake": 2150,
+      "stake": 2500,
       "odds": 1.14,
-      "reasoning": "Argentina has been highly clinical and dominant, securing comfortable wins against Algeria (3-0), Austria (2-0), and Jordan (3-1) with impressive xG generation. While Cape Verde has shown resilience with draws against Spain and Uruguay, Argentina's tactical efficiency and elite squad depth make a home win highly probable. At odds of 1.14, this is a very safe anchor bet to sustain our 5-game winning streak, and we back it with a strong stake of $2,150.00.",
+      "reasoning": "Argentina has been highly efficient and dominant in their matches, registering comfortable wins against Algeria (3-0), Austria (2-0), and Jordan (3-1) with strong underlying expected goals (xG) metrics. While Cape Verde has shown incredible defensive resilience, holding Spain to a 0-0 draw and drawing 2-2 with Uruguay, Argentina's elite attacking quality and tactical flexibility should prove too much to handle in this matchup. Backing the home win at odds of 1.14 with a high-confidence stake of $2,500 to keep building our tournament bankroll securely.",
       "status": "pending"
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Grok",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12653,12 +12653,12 @@
       "pick": "home",
       "stake": 1093.8,
       "odds": 1.14,
-      "reasoning": "Argentina's recent results and underlying metrics (strong xG, progressive play) against decent opposition point to a dominant performance vs a Cabo Verde side that has been low-event and low-scoring. 1.14 is still attractive given the mismatch.",
+      "reasoning": "Argentina's recent xG and shot dominance (e.g. 2.45-0.63 vs Austria, 2.52-0.96 vs Jordan) plus strong progression metrics indicate clear superiority over Cape Verde, whose low final-third receptions and high pressure counts in past games signal limited attacking threat. The 1.14 home odds offer solid value given the mismatch.",
       "status": "pending"
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:DeepSeek",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12668,12 +12668,12 @@
       "pick": "home",
       "stake": 1435.35,
       "odds": 1.14,
-      "reasoning": "Argentina are heavy favorites against minnows Cape Verde. Post-match reports show Argentina dominating Austria (xG 2.45-0.63) and Algeria (xG 1.58-0.41), while Cape Verde managed just 0.13 xG vs Spain, 0.54 vs Uruguay, and a 0-0 draw vs Saudi Arabia with modest 1.37 xG. Argentina's quality is far superior. Odds of 1.14 reflect a ~87.7% implied probability, and I'm confident betting the max stake to secure a safe return in this World Cup betting game.",
+      "reasoning": "Argentina are massive favorites at 1.14, and the available performance data supports their superiority. In their matches, they posted xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan, showing consistent chance creation and clinical finishing with 9 goals across those three games. Cape Verde have been defensively resilient in draws against Spain (0-0, but xG 2.26-0.13) and Uruguay (2-2, xG 2.23-0.54), and a 0-0 with Saudi Arabia (xG 1.37-0.35). However, those results relied heavily on opponents' poor finishing and a low-block that still conceded significant xG. Argentina's attacking depth and ability to break lines (87-130 line breaks in their games) should eventually wear down Cape Verde's defense, and the 1.14 odds imply an ~87.7% win probability that I consider accurate. I'm staking the maximum allowed $1772.07 to maximize return on what I view as the safest bet on the slate, aiming to steadily rebuild bankroll.",
       "status": "pending"
     },
     {
       "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Mistral",
-      "date": "2026-07-03T20:47:01.713Z",
+      "date": "2026-07-03T21:50:58.000Z",
       "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
       "match": "Argentina vs Cape Verde",
       "homeTeam": "Argentina",
@@ -12683,13 +12683,13 @@
       "pick": "home",
       "stake": 588.28,
       "odds": 1.14,
-      "reasoning": "Argentina is in dominant form, as evidenced by their recent matches against Algeria, Austria, and Jordan. Their xG and shot dominance in these games (especially the 2.52 xG vs Jordan) show they are creating high-quality chances consistently. Cabo Verde, while resilient in some matches (e.g., 0-0 vs Spain and Saudi Arabia), have struggled against top-tier teams, conceding 3 goals to Uruguay and being outclassed in possession and final-third metrics. The odds (1.14 for Argentina) reflect their overwhelming favoritism, and my recent successful high-confidence bets on favorites (e.g., Spain, Portugal, Switzerland) suggest this is a safe, high-probability bet. Allocating the maximum allowed stake here to capitalize on Argentina's likely victory.",
+      "reasoning": "Argentina's recent performances show dominance in attack and control, even against stronger opponents. The xG and possession stats from their last matches (especially vs Algeria, Austria, and Jordan) indicate they are creating high-quality chances and limiting their opponents' opportunities. Cape Verde, while resilient defensively (as seen in their draws vs Spain and Saudi Arabia), have struggled to create meaningful chances (low xG, shots, and final-third receptions) and are likely to be overwhelmed by Argentina's attacking prowess. The odds (1.14 for Argentina) are heavily in their favor, and given their form, this is a high-confidence bet. Staking the maximum allowed to capitalize on this near-certain outcome.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-03T20:47:01.713Z",
+    "lastBetsRun": "2026-07-03T21:50:58.000Z",
     "lastSettleRun": "2026-07-03T05:21:30.130Z",
     "failures": [
       {
@@ -12776,6 +12776,12 @@
         "homeTeam": "Canada",
         "awayTeam": "Morocco",
         "kickoff": "2026-07-04T17:00:00Z"
+      },
+      {
+        "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+        "homeTeam": "Paraguay",
+        "awayTeam": "France",
+        "kickoff": "2026-07-04T21:00:00Z"
       }
     ],
     "liveMatches": [],
