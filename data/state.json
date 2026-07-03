@@ -12286,11 +12286,116 @@
       "odds": 1.69,
       "reasoning": "Portugal has shown strong offensive capabilities in recent matches, particularly in their 5-0 demolition of Uzbekistan (xG 2.03) and a credible 1-1 draw against DR Congo despite dominating possession (68.9%) and creating more chances (final-third receptions 222-62). Their defensive structure is solid, and they have demonstrated resilience in tight games (e.g., 0-0 vs Colombia). Croatia, while competitive, has struggled against higher-quality opposition (4-2 loss to England, xG 0.82) and has been inconsistent in possession and defensive transitions. The odds (1.69 for Portugal) are favorable given their recent form and underlying metrics. Betting max stake on Portugal to win, as they are the most likely outcome and offer the best risk-reward balance.",
       "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:Claude",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 2200,
+      "odds": 1.97,
+      "reasoning": "Switzerland's xG profile is excellent (3.14 vs Qatar, comfortable control vs Canada) and they consistently dominate possession and chance quality. Algeria is streaky and defensively leaky, conceding 3 to Austria. At 1.97, the more reliable higher-ceiling home side offers solid value.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:GPT-5.5",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 31.62,
+      "odds": 1.97,
+      "reasoning": "Switzerland are priced as the better side and the training-centre context supports that: they created 3.14 xG and dominated territory against Qatar, then beat Canada despite a closer chance profile. Algeria have been competitive and progressive in possession, especially vs Jordan/Austria, but their defensive level still looks more vulnerable against a Swiss side that has generated quality chances. At 1.97 I make Switzerland a small but clear value favorite, and given my bankroll position I’m staking the maximum.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:Gemini",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "Gemini",
+      "pick": "home",
+      "stake": 1850.5,
+      "odds": 1.97,
+      "reasoning": "Switzerland has shown excellent underlying metrics this tournament, notably generating a massive 3.14 xG against Qatar and securing a 2-1 win over Canada. Algeria, while capable going forward, has shown defensive vulnerabilities, conceding three goals to both Argentina and Austria. At odds of 1.97, Switzerland represents strong value to win this match.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:Grok",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "Grok",
+      "pick": "home",
+      "stake": 813.4,
+      "odds": 1.97,
+      "reasoning": "Switzerland's underlying numbers vs Qatar (xG 3.14, 26 shots, 58% poss, 245 final-third receptions) show clear dominance that Algeria has not demonstrated at the same level. Algeria's results are mixed (heavy loss to Argentina, draw vs Austria) while Switzerland controlled Canada too. Home edge at 1.97 is the value side given the data gap.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:DeepSeek",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "DeepSeek",
+      "pick": "home",
+      "stake": 800,
+      "odds": 1.97,
+      "reasoning": "Switzerland have been creating high xG numbers (3.14 vs Qatar) and won against Canada despite being outshot. Algeria shipped three to Argentina and conceded three against Austria, showing defensive weaknesses. At home odds of 1.97, Switzerland offer value given their superior metrics. Stake moderate, around 14% of bankroll.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:Mistral",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "Mistral",
+      "pick": "home",
+      "stake": 441.89,
+      "odds": 1.97,
+      "reasoning": "Switzerland has shown dominant performance metrics in their recent matches, particularly in xG, shots, possession, and final-third receptions. Against Qatar, they had an xG of 3.14 and 26 shots, while against Canada, they maintained strong control despite a closer xG. Algeria, on the other hand, has been inconsistent. While they dominated Jordan in possession and shots (xG 2.05), they struggled against Argentina (xG 0.41) and drew with Austria despite a high xG (1.54). Switzerland's odds (1.97) are favorable given their recent form and underlying stats, making them the safer pick over Algeria, whose away form is less reliable. Betting the maximum stake here due to high confidence in Switzerland's ability to control the game.",
+      "status": "pending"
+    },
+    {
+      "id": "c17fe2e46190d7ab6af01504ff240e82:Baseline",
+      "date": "2026-07-03T00:10:16.785Z",
+      "matchId": "c17fe2e46190d7ab6af01504ff240e82",
+      "match": "Switzerland vs Algeria",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "kickoff": "2026-07-03T03:00:00Z",
+      "model": "Baseline",
+      "pick": "home",
+      "stake": 1706.54,
+      "odds": 1.97,
+      "reasoning": "Always bet the favorite.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-02T22:50:45.569Z",
+    "lastBetsRun": "2026-07-03T00:10:16.785Z",
     "lastSettleRun": "2026-07-02T21:40:39.166Z",
     "failures": [
       {
@@ -12361,12 +12466,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "852b4baf0be4b9eef2a30596a8d39249",
-        "homeTeam": "Portugal",
-        "awayTeam": "Croatia",
-        "kickoff": "2026-07-02T23:00:00Z"
-      },
-      {
         "matchId": "c17fe2e46190d7ab6af01504ff240e82",
         "homeTeam": "Switzerland",
         "awayTeam": "Algeria",
@@ -12386,7 +12485,7 @@
       }
     ],
     "liveMatches": [],
-    "lastCyclePostKey": "852b4baf0be4b9eef2a30596a8d39249",
+    "lastCyclePostKey": "c17fe2e46190d7ab6af01504ff240e82",
     "performance": {
       "Claude": {
         "model": "Claude",
