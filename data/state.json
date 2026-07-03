@@ -12508,12 +12508,6 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-        "homeTeam": "Switzerland",
-        "awayTeam": "Algeria",
-        "kickoff": "2026-07-03T03:00:00Z"
-      },
-      {
         "matchId": "fb270a3dac2b682c861bd674a5ff4a04",
         "homeTeam": "Australia",
         "awayTeam": "Egypt",
@@ -12524,6 +12518,12 @@
         "homeTeam": "Argentina",
         "awayTeam": "Cape Verde",
         "kickoff": "2026-07-03T22:00:00Z"
+      },
+      {
+        "matchId": "88e032a2b2e5042d26db3f0da1df924a",
+        "homeTeam": "Colombia",
+        "awayTeam": "Ghana",
+        "kickoff": "2026-07-04T01:30:00Z"
       }
     ],
     "liveMatches": [],
