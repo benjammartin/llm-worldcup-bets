@@ -356,6 +356,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 13463.68
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 13963.68
       }
     ],
     "GPT-5.5": [
@@ -714,6 +718,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 429.76
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 338.36
       }
     ],
     "Gemini": [
@@ -1072,6 +1080,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 10886.39
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 11272
       }
     ],
     "Grok": [
@@ -1430,6 +1442,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 4261.67
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 4409.5
       }
     ],
     "DeepSeek": [
@@ -1788,6 +1804,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 6367.59
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 6586.48
       }
     ],
     "Mistral": [
@@ -2146,6 +2166,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 2444.31
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 2525.65
       }
     ],
     "Baseline": [
@@ -2504,6 +2528,10 @@
       {
         "t": "2026-07-04T20:27:06.396Z",
         "bankroll": 17922.01
+      },
+      {
+        "t": "2026-07-04T23:29:16.331Z",
+        "bankroll": 18222.94
       }
     ]
   },
@@ -13077,7 +13105,9 @@
       "stake": 1671.83,
       "odds": 1.18,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Claude",
@@ -13092,7 +13122,9 @@
       "stake": 2500,
       "odds": 1.2,
       "reasoning": "France has been dominant all tournament (3-1 Senegal, 3-0 Iraq, 4-1 at Norway) with consistently strong xG. Paraguay cannot buy a goal — 0.60, 0.36, 0.29 xG in recent matches, shut out by Australia and battered by Türkiye despite their lucky 1-0 there. At 1.20 the payout is small, but the ~83% implied probability is if anything understated. High-confidence, low-margin favorite play.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:GPT-5.5",
@@ -13107,7 +13139,9 @@
       "stake": 91.4,
       "odds": 7,
       "reasoning": "France are clearly the better side and the odds correctly make them a heavy favorite, but at 1.20 the upside is too small for my current bankroll position. Paraguay’s tournament profile is ugly in possession and chance creation, yet they have shown they can survive long stretches under pressure, including the 1-0 win over Türkiye despite being dominated and the 0-0 with Australia. If Paraguay’s low block/pressing game turns this into a slow, frustrating match, the draw at 7.00 is the upset path I prefer over a full Paraguay win. High-risk, bankroll-recovery spot.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Gemini",
@@ -13122,7 +13156,9 @@
       "stake": 1928.04,
       "odds": 1.2,
       "reasoning": "France has been highly dominant throughout the tournament, scoring multiple goals in all their matches (3-1 vs Senegal, 3-0 vs Iraq, 4-1 vs Norway) while consistently controlling the pace. Paraguay, on the other hand, is heavily outmatched here, having suffered a heavy 4-1 defeat to the USA and showing very low offensive output (only 0.36 xG against Turkey and 0.29 xG against Australia). While the 1.2 odds are short, France is one of the safest selections on the board to advance, making them a highly secure option for a maximum stake bet to steadily rebuild our bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Grok",
@@ -13137,7 +13173,9 @@
       "stake": 739.16,
       "odds": 1.2,
       "reasoning": "France has looked the stronger side across multiple recent matches with superior xG, shots, and progression metrics, while Paraguay's results and underlying numbers have been poor. The 1.2 price is short but reflects the clear gap; max stake reflects high conviction.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:DeepSeek",
@@ -13152,7 +13190,9 @@
       "stake": 1094.47,
       "odds": 1.2,
       "reasoning": "France are huge favorites for a reason. They've dismantled Senegal, Iraq, and Norway with strong underlying numbers. Paraguay have struggled to generate offense (0.29 xG vs Australia, 0.36 xG vs Türkiye) and rely on low-block defending, which France's firepower should eventually break. At 1.20, a max bet on France is a safe way to grind back bankroll.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Mistral",
@@ -13167,13 +13207,15 @@
       "stake": 406.71,
       "odds": 1.2,
       "reasoning": "France's recent performances show dominance in possession, final-third receptions, and line breaks, even against strong opponents like Norway and Senegal. Paraguay, while resilient, has struggled offensively (low xG, shots, and progressions) and defensively (high pressures faced, low possession). The odds heavily favor France (1.2), and the qualitative data from FIFA reports align with this. Betting the maximum stake on France to win reflects high confidence based on both odds and underlying metrics.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-04T20:00:08.461Z",
-    "lastSettleRun": "2026-07-04T20:27:06.396Z",
+    "lastSettleRun": "2026-07-04T23:29:16.331Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -13254,32 +13296,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 89,
-        "won": 60,
+        "totalBets": 90,
+        "won": 61,
         "lost": 29,
         "void": 0,
-        "totalStake": 103583.15000000002,
-        "totalReturn": 2553.3624999999993,
-        "roi": 0.024650365431057066,
-        "avgOdds": 1.6462921348314614,
+        "totalStake": 106083.15000000002,
+        "totalReturn": 3053.3624999999993,
+        "roi": 0.02878272845404759,
+        "avgOdds": 1.641333333333334,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:Claude",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 1653.96,
-            "odds": 1.3,
-            "reasoning": "England has shown consistent dominance in their recent matches, creating high xG and controlling possession against multiple opponents. Against Croatia (xG 3.33-0.82), Ghana (xG 1.78-0.34), and Panama (xG 1.61-0.72), they've demonstrated superior attacking metrics and territorial control. DR Congo's performances show they struggle against quality opposition - held to 0.57 xG by Portugal despite 68.9% possession against them, and only 0.42 xG vs Colombia. While Congo DR beat Uzbekistan 3-1, that's a significantly weaker opponent than England. The odds of 1.3 for England represent fair value given the substantial quality gap. England's shot volume (22, 19, 17 in recent matches) and final-third dominance suggest they should break through against a Congo DR side that concedes territorial control. Betting 22.4% of bankroll on what appears to be an 80%+ probability outcome.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:Claude",
             "date": "2026-07-01T19:49:15.566Z",
@@ -13432,37 +13457,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:Claude",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 2500,
+            "odds": 1.2,
+            "reasoning": "France has been dominant all tournament (3-1 Senegal, 3-0 Iraq, 4-1 at Norway) with consistently strong xG. Paraguay cannot buy a goal — 0.60, 0.36, 0.29 xG in recent matches, shut out by Australia and battered by Türkiye despite their lucky 1-0 there. At 1.20 the payout is small, but the ~83% implied probability is if anything understated. High-confidence, low-margin favorite play.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 89,
+        "totalBets": 90,
         "won": 40,
-        "lost": 49,
+        "lost": 50,
         "void": 0,
-        "totalStake": 24388.910000000003,
-        "totalReturn": -9699.332400000005,
-        "roi": -0.39769437830554966,
-        "avgOdds": 3.882921348314608,
+        "totalStake": 24480.310000000005,
+        "totalReturn": -9790.732400000004,
+        "roi": -0.3999431543146309,
+        "avgOdds": 3.917555555555557,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:GPT-5.5",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 22.81,
-            "odds": 1.3,
-            "reasoning": "England are rightly short here: their reports show strong chance creation and territorial control, including 3.33 xG vs Croatia, 1.78 xG in the Ghana draw, and a controlled 2-0 over Panama. DR Congo have been competitive and their Portugal draw keeps me respectful, but they were also heavily outshot by Colombia and generally concede territory against stronger teams. The price is not exciting, but home is still the clearest edge/probability play, and with only one match listed I’m staking the max allowed.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:GPT-5.5",
             "date": "2026-07-01T19:49:15.566Z",
@@ -13615,37 +13640,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:GPT-5.5",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "draw",
+            "stake": 91.4,
+            "odds": 7,
+            "reasoning": "France are clearly the better side and the odds correctly make them a heavy favorite, but at 1.20 the upside is too small for my current bankroll position. Paraguay’s tournament profile is ugly in possession and chance creation, yet they have shown they can survive long stretches under pressure, including the 1-0 win over Türkiye despite being dominated and the 0-0 with Australia. If Paraguay’s low block/pressing game turns this into a slow, frustrating match, the draw at 7.00 is the upset path I prefer over a full Paraguay win. High-risk, bankroll-recovery spot.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 89,
-        "won": 60,
+        "totalBets": 90,
+        "won": 61,
         "lost": 29,
         "void": 0,
-        "totalStake": 74008.75,
-        "totalReturn": 596.6349999999986,
-        "roi": 0.00806168189572177,
-        "avgOdds": 1.684719101123596,
+        "totalStake": 75936.79,
+        "totalReturn": 982.2429999999986,
+        "roi": 0.012935008182463318,
+        "avgOdds": 1.6793333333333338,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:Gemini",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1355.91,
-            "odds": 1.3,
-            "reasoning": "England has consistently demonstrated superior underlying metrics in this tournament, controlling possession and generating high-quality chances (averaging over 2.2 xG across their matches against Croatia, Ghana, and Panama). DR Congo has performed admirably, but England's overall quality and depth should prove too much in this knockout fixture. I am placing the maximum allowed stake on a comfortable England victory to continue climbing back up the leaderboard.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:Gemini",
             "date": "2026-07-01T19:49:15.566Z",
@@ -13798,37 +13823,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:Gemini",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 1928.04,
+            "odds": 1.2,
+            "reasoning": "France has been highly dominant throughout the tournament, scoring multiple goals in all their matches (3-1 vs Senegal, 3-0 vs Iraq, 4-1 vs Norway) while consistently controlling the pace. Paraguay, on the other hand, is heavily outmatched here, having suffered a heavy 4-1 defeat to the USA and showing very low offensive output (only 0.36 xG against Turkey and 0.29 xG against Australia). While the 1.2 odds are short, France is one of the safest selections on the board to advance, making them a highly secure option for a maximum stake bet to steadily rebuild our bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 89,
-        "won": 58,
+        "totalBets": 90,
+        "won": 59,
         "lost": 31,
         "void": 0,
-        "totalStake": 93287.09000000008,
-        "totalReturn": -6203.136699999996,
-        "roi": -0.0664951248881275,
-        "avgOdds": 1.719213483146068,
+        "totalStake": 94026.25000000009,
+        "totalReturn": -6055.304699999996,
+        "roi": -0.06440015102165608,
+        "avgOdds": 1.7134444444444448,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:Grok",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 556.19,
-            "odds": 1.3,
-            "reasoning": "England's recent xG dominance (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) against varied opposition shows clear superiority in creation and control. DR Congo's results are inflated by weak opponents; they lack the progression and final-third quality to trouble England. 1.3 offers solid value on the heavy favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:Grok",
             "date": "2026-07-01T19:49:15.566Z",
@@ -13981,37 +14006,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:Grok",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 739.16,
+            "odds": 1.2,
+            "reasoning": "France has looked the stronger side across multiple recent matches with superior xG, shots, and progression metrics, while Paraguay's results and underlying numbers have been poor. The 1.2 price is short but reflects the clear gap; max stake reflects high conviction.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 89,
-        "won": 58,
+        "totalBets": 90,
+        "won": 59,
         "lost": 31,
         "void": 0,
-        "totalStake": 48050.239999999976,
-        "totalReturn": -3752.4359999999997,
-        "roi": -0.07809401160119078,
-        "avgOdds": 1.8761797752808997,
+        "totalStake": 49144.70999999998,
+        "totalReturn": -3533.542,
+        "roi": -0.0719007600207632,
+        "avgOdds": 1.8686666666666674,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:DeepSeek",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 779.64,
-            "odds": 1.3,
-            "reasoning": "England have been dominant with high xG, shots, and possession across their matches. The 0-0 with Ghana looks like an outlier. DR Congo are disciplined defensively as shown vs Portugal, but they eventually lost to Colombia and their pressure-heavy style may be exploited by England's quick progressions. At odds 1.3, this is the safest bet on the slate to grow my bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:DeepSeek",
             "date": "2026-07-01T19:49:15.566Z",
@@ -14164,37 +14189,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:DeepSeek",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1094.47,
+            "odds": 1.2,
+            "reasoning": "France are huge favorites for a reason. They've dismantled Senegal, Iraq, and Norway with strong underlying numbers. Paraguay have struggled to generate offense (0.29 xG vs Australia, 0.36 xG vs Türkiye) and rely on low-block defending, which France's firepower should eventually break. At 1.20, a max bet on France is a safe way to grind back bankroll.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 89,
-        "won": 59,
+        "totalBets": 90,
+        "won": 60,
         "lost": 30,
         "void": 0,
-        "totalStake": 43737.05999999999,
-        "totalReturn": -7805.147599999996,
-        "roi": -0.1784561559464673,
-        "avgOdds": 1.712584269662922,
+        "totalStake": 44143.76999999999,
+        "totalReturn": -7723.805599999996,
+        "roi": -0.17496932409714888,
+        "avgOdds": 1.7068888888888896,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:Mistral",
-            "date": "2026-07-01T15:35:02.817Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 306.68,
-            "odds": 1.3,
-            "reasoning": "England has shown strong offensive and defensive metrics in their recent matches, particularly in xG (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) and possession (57.7% vs Panama, 72.4% vs Ghana). Their final-third receptions and line breaks are consistently high, indicating dominance in key areas. DR Congo, while improving (3-1 win over Uzbekistan), has struggled against stronger teams (1-1 vs Portugal, 0-1 vs Colombia) and lacks the possession and attacking metrics to threaten England. The odds (1.3 for England) are favorable given their form and the qualitative gap between the teams. Betting the maximum stake here due to high confidence in England's ability to control the game and win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:Mistral",
             "date": "2026-07-01T19:49:15.566Z",
@@ -14347,37 +14372,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:Mistral",
+            "date": "2026-07-04T20:00:08.461Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 406.71,
+            "odds": 1.2,
+            "reasoning": "France's recent performances show dominance in possession, final-third receptions, and line breaks, even against strong opponents like Norway and Senegal. Paraguay, while resilient, has struggled offensively (low xG, shots, and progressions) and defensively (high pressures faced, low possession). The odds heavily favor France (1.2), and the qualitative data from FIFA reports align with this. Betting the maximum stake on France to win reflects high confidence based on both odds and underlying metrics.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 89,
-        "won": 61,
+        "totalBets": 90,
+        "won": 62,
         "lost": 28,
         "void": 0,
-        "totalStake": 90512.52,
-        "totalReturn": 7091.879799999998,
-        "roi": 0.07835247322690825,
-        "avgOdds": 1.6385393258426963,
+        "totalStake": 92184.35,
+        "totalReturn": 7392.809199999998,
+        "roi": 0.08019592479634556,
+        "avgOdds": 1.6334444444444443,
         "recentBets": [
-          {
-            "id": "5ff7744314f224c18d1604ee9cc19263:Baseline",
-            "date": "2026-07-01T13:12:41.634Z",
-            "matchId": "5ff7744314f224c18d1604ee9cc19263",
-            "match": "England vs DR Congo",
-            "homeTeam": "England",
-            "awayTeam": "DR Congo",
-            "kickoff": "2026-07-01T16:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1406.57,
-            "odds": 1.29,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-1"
-          },
           {
             "id": "658ac8cbf214ca3cc150109b4ddc1e74:Baseline",
             "date": "2026-07-01T17:12:41.180Z",
@@ -14530,6 +14555,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-3"
+          },
+          {
+            "id": "c798a1ffdeda28e82d930e7145a8ff10:Baseline",
+            "date": "2026-07-04T18:12:58.481Z",
+            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
+            "match": "Paraguay vs France",
+            "homeTeam": "Paraguay",
+            "awayTeam": "France",
+            "kickoff": "2026-07-04T21:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1671.83,
+            "odds": 1.18,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       }
