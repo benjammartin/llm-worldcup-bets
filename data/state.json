@@ -12703,7 +12703,7 @@
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:Claude",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12713,12 +12713,12 @@
       "pick": "home",
       "stake": 3142.33,
       "odds": 1.43,
-      "reasoning": "Colombia has been exceptional this tournament, showing dominant possession and attacking metrics across all their matches. Against Uzbekistan they controlled 56.7% possession with 15 shots, beat Congo DR 1-0 with 1.54 xG from 20 shots, and even held Portugal to a 0-0 draw while generating 1.85 xG from 24 shots. Ghana's tournament has been inconsistent - they scraped a 1-0 win over Panama with just 35.6% possession, got dominated by England (0.34 xG, 2 shots total, 20% possession), and lost to Croatia despite decent underlying numbers. Colombia's ability to control games through possession (51-58% range) and create high-quality chances (146-218 final-third receptions) against quality opposition suggests they're a class above Ghana. At 1.43 odds for a team this dominant, this represents solid value. My hot streak continues with 5 straight wins, and I'm betting maximum stake to capitalize on Colombia's clear superiority.",
+      "reasoning": "Colombia has been the far superior side across all reports: 3-1 over Uzbekistan, 20 shots and 1.54 xG vs Congo DR, and territorial dominance even in a 0-0 with Portugal. Ghana's attack has been anemic (0.34 xG shut out by England, only beat Panama narrowly). At 1.43 the home price fairly reflects Colombia's edge in a favorable matchup. Solid conviction, sized appropriately for the shortish odds.",
       "status": "pending"
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:GPT-5.5",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12728,12 +12728,12 @@
       "pick": "home",
       "stake": 40.81,
       "odds": 1.43,
-      "reasoning": "Colombia are the clear favorite and the qualitative match reports back that up: they controlled territory and chance volume against Congo DR and Portugal, while Ghana have generally survived on defensive effort despite conceding a lot of possession, final-third entries, and xG to stronger sides. Ghana can make this ugly, so the price is not a gift, but Colombia at 1.43 still looks like the most reliable edge on the board. Max stake given only one open match and strong confidence.",
+      "reasoning": "Colombia are the clear side on both market price and underlying tournament profile. Their reports show sustained control and chance creation: 3-1 over Uzbekistan, 1-0 over Congo DR with 20 shots and 1.54 xG, and a strong 0-0 vs Portugal where they led xG 1.85-0.97. Ghana have been resilient and high-pressure defensively, including the 0-0 with England, but their attacking output has been very limited against stronger teams: 0.34 xG vs England and only 2 shots, then 0.75 xG vs Croatia. The 1.43 is not a big payout, but Colombia look materially more likely to win than either the draw or Ghana upset. With only one match listed and needing to rebuild bankroll, I’m staking the max on the best-probability side.",
       "status": "pending"
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:Gemini",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12743,12 +12743,12 @@
       "pick": "home",
       "stake": 2450,
       "odds": 1.43,
-      "reasoning": "Colombia has shown dominant performances in their recent fixtures, generating high expected goals (1.54 xG vs Congo DR, 1.85 xG vs Portugal) and controlling possession. Ghana, on the other hand, has struggled to generate quality chances, registering only 0.34 xG against England and relying heavily on low-block defending. At odds of 1.43, Colombia represents a highly secure home pick to progress, and we back them with a strong stake to continue our winning momentum.",
+      "reasoning": "Colombia has shown highly dominant underlying metrics throughout this tournament, generating 1.85 xG to Portugal's 0.97 in their 0-0 draw and comfortably controlling their games against Uzbekistan and Congo DR with high shot volumes and final-third entries. Ghana, on the other hand, has struggled to create meaningful offense, posting just 0.34 xG against England and relying on heavily defensive postures. At odds of 1.43, the implied probability of a Colombia victory is roughly 70%, which is well-supported by both their superior squad depth and tactical consistency. I am backing Colombia with a strong stake to continue our winning run.",
       "status": "pending"
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:Grok",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12758,12 +12758,12 @@
       "pick": "home",
       "stake": 1093.8,
       "odds": 1.43,
-      "reasoning": "Colombia have dominated recent matches with superior xG, possession, shots and final-third entries against solid opposition, while Ghana have looked toothless in attack and vulnerable defensively. The 1.43 price is fair value given the gulf in quality shown in the reports.",
+      "reasoning": "Colombia clearly the better side per recent xG, possession, and chance creation metrics against solid opposition; Ghana's attack has been toothless in most outings. 1.43 offers solid value for the favorite.",
       "status": "pending"
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:DeepSeek",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12773,12 +12773,12 @@
       "pick": "home",
       "stake": 1435.35,
       "odds": 1.43,
-      "reasoning": "Colombia's attacking output is elite: 1.85 xG vs Portugal, 1.54 vs Congo DR, 1.16 vs Uzbekistan. Ghana struggled to create (0.34 xG vs England) and conceded many shots. Home win probability implied by odds 1.43 is ~70%, but underlying data suggests higher. I back a dominant home performance, betting the max per-match limit of $1772.07 (25% bankroll).",
+      "reasoning": "Colombia’s underlying metrics from this tournament are elite: 1.85 xG vs Portugal, 1.54 vs Congo DR with heavy shot volume, and constant final‑third pressure. Ghana have been resilient but generated only 0.34 xG against England and 0.75 xG against Croatia, struggling to create against high‑level opponents. Colombia should dominate possession and territory, making the 1.43 home price a solid value. I’m staking $1500 to lock in the win without overcommitting.",
       "status": "pending"
     },
     {
       "id": "88e032a2b2e5042d26db3f0da1df924a:Mistral",
-      "date": "2026-07-03T23:08:10.546Z",
+      "date": "2026-07-04T00:16:37.387Z",
       "matchId": "88e032a2b2e5042d26db3f0da1df924a",
       "match": "Colombia vs Ghana",
       "homeTeam": "Colombia",
@@ -12788,13 +12788,13 @@
       "pick": "home",
       "stake": 588.28,
       "odds": 1.43,
-      "reasoning": "Colombia has shown consistent dominance in their recent matches, particularly in possession, final-third receptions, and line breaks. Their xG and shot statistics are also strong, even in a goalless draw against Portugal. Ghana, while resilient, has struggled against stronger teams (e.g., England, Croatia) and has lower possession and attacking metrics. The odds (1.43 for Colombia) are favorable given their form and Ghana's defensive vulnerabilities. Betting the maximum stake here reflects high confidence in Colombia's ability to control the game and secure a win.",
+      "reasoning": "Colombia has shown consistent attacking prowess in their recent matches, with high xG values (1.16 vs Uzbekistan, 1.54 vs Congo DR, 1.85 vs Portugal) and dominant possession metrics. Their defensive structure is also solid, as evidenced by their clean sheet against Congo DR and a respectable xG conceded (0.97 vs Portugal). Ghana, while resilient, has struggled against stronger opponents (0.34 xG vs England, 0.75 xG vs Croatia) and relies heavily on counter-attacks, which Colombia's organized defense should limit. The odds (1.43 for Colombia) are favorable given their form and Ghana's defensive vulnerabilities. Allocating the maximum stake here due to high confidence in Colombia's ability to control the game and convert their chances.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-03T23:08:10.546Z",
+    "lastBetsRun": "2026-07-04T00:16:37.387Z",
     "lastSettleRun": "2026-07-03T05:21:30.130Z",
     "failures": [
       {
