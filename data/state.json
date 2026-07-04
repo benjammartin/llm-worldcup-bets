@@ -12934,7 +12934,7 @@
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:Claude",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -12943,13 +12943,13 @@
       "model": "Claude",
       "pick": "away",
       "stake": 1800,
-      "odds": 1.76,
-      "reasoning": "Morocco has been one of the tournament's most consistent sides - held Brazil to a draw, won away at Scotland, beat Haiti. Their away pedigree is proven. Canada is dangerous at home but only drew Bosnia and lost to Switzerland; their defensive numbers show vulnerability. At 1.76 Morocco offers solid value as the stronger team. Sizing moderately given Canada's home crowd risk.",
+      "odds": 1.82,
+      "reasoning": "Morocco are the strong favorites at 1.82 and the underlying data backs it. They held Brazil to a draw (1.33 xG), beat Scotland away, and dominated Haiti. They're a genuine tournament dark horse with quality across the pitch. Canada showed fight (1-1 vs Bosnia, competitive loss to Switzerland, thrashed Qatar) but they're inconsistent and their defensive structure has been leaky. At 1.82 Morocco offers solid value with meaningful edge — sizing this as a confident but not maximum play given away venue variance in a single match.",
       "status": "pending"
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:GPT-5.5",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -12958,13 +12958,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 91.4,
-      "odds": 5.7,
-      "reasoning": "Morocco deserve to be favorites and the odds say that clearly, but Canada at 5.7 looks like the only price with enough upside and possible value. Canada’s reports are better than the market price suggests: they dominated Bosnia territorially, destroyed Qatar, and were competitive with Switzerland on xG and shots. Morocco have been excellent too, especially against Brazil and Haiti, but this is a home-nation spot for Canada and 5.7 implies a very low win probability. Given my bankroll position, I need to take the high-variance value shot rather than grind a short favorite.",
+      "odds": 5.4,
+      "reasoning": "Morocco deserve to be favored, but the 5.4 on Canada looks too wide. Canada’s reports show they were not just beating weak teams statistically: they out-created Bosnia, demolished Qatar, and were competitive with Switzerland on xG and shots. Morocco have been strong too, especially versus Brazil, but at this price Canada only need to win a bit over 18% of the time to be worthwhile. With possible home-field edge and our need to rebuild bankroll, I’m taking the high-upside value side at the max stake.",
       "status": "pending"
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:Gemini",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -12973,13 +12973,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 1928.04,
-      "odds": 1.76,
-      "reasoning": "Morocco has shown exceptional tournament pedigree, outplaying Brazil on expected goals (1.33 to 0.99) and securing convincing results against Scotland and Haiti. Canada has shown defensive vulnerability, conceding twice to Switzerland and allowing high-quality chances. At odds of 1.76, Morocco represents excellent value to win this match. I am backing the Atlas Lions with the maximum allowable stake to maximize our bankroll growth.",
+      "odds": 1.82,
+      "reasoning": "Morocco has shown excellent, consistent form throughout this tournament. They dominated possession and territory against Scotland (1-0 win, 54.8% possession, 99 final-third receptions), outplayed Haiti (4-2 win), and put up exceptional underlying numbers in their 1-1 draw against Brazil (out-xGing them 1.33 to 0.99 with 149 final-third receptions). Canada, despite a 6-0 thrashing of Qatar, struggled to break down Bosnia (1-1) and lost 2-1 to Switzerland. Morocco's technical superiority, structure, and tactical discipline make them strong favorites here. At odds of 1.82, the away win offers outstanding value, prompting me to place the maximum allowed stake of 25% of my bankroll on Morocco.",
       "status": "pending"
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:Grok",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -12988,13 +12988,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 739.16,
-      "odds": 1.76,
-      "reasoning": "Morocco's underlying numbers across recent matches (strong xG edges vs Brazil and Haiti, controlled possession vs Scotland) point to a clear quality advantage over Canada, whose results have been more mixed (dominant vs weak opposition but outplayed in key metrics vs Switzerland). The 1.76 away odds offer solid value given that gap, so maximum stake on Morocco.",
+      "odds": 1.82,
+      "reasoning": "Morocco has looked the stronger side across recent reports, holding Brazil and beating Scotland while Canada was unconvincing vs Switzerland and only dominant vs weak Qatar. The 1.82 away price offers value given Morocco's edge in xG and progression metrics.",
       "status": "pending"
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:DeepSeek",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -13002,14 +13002,14 @@
       "kickoff": "2026-07-04T17:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 1000,
-      "odds": 1.76,
-      "reasoning": "Morocco have shown quality against Brazil (draw, superior xG) and beat Scotland away, while Canada drew Bosnia and lost to Switzerland. Home advantage helps Canada but Morocco's overall class should prevail; odds of 1.76 offer value given an estimated true win probability around 62%.",
+      "stake": 1094.47,
+      "odds": 1.82,
+      "reasoning": "Morocco are clear favorites at 1.82 and their tournament performances have been outstanding – a dominant 1-1 draw with Brazil (xG 1.33 vs 0.99, more shots, final-third entries and progressions) and a controlled 1-0 win over Scotland. Canada’s 6-0 win over minnows Qatar is meaningless; they lost 2-1 to Switzerland and were held 1-1 by Bosnia despite superior metrics. Morocco’s defensive structure and ability to control possession away from home give them a significant edge. The away win is the most likely outcome and offers value relative to the odds. I'm going with maximum stake in this single-match opportunity to capitalize on a strong favorite.",
       "status": "pending"
     },
     {
       "id": "9c7073ae2c29ee4881bb695f92168c68:Mistral",
-      "date": "2026-07-04T15:34:37.304Z",
+      "date": "2026-07-04T16:40:03.316Z",
       "matchId": "9c7073ae2c29ee4881bb695f92168c68",
       "match": "Canada vs Morocco",
       "homeTeam": "Canada",
@@ -13018,14 +13018,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 406.71,
-      "odds": 1.76,
-      "reasoning": "While Canada has shown flashes of attacking potential (e.g., 6-0 vs Qatar with xG 3.90), their recent performances against stronger opponents (1-1 vs Bosnia, 2-1 loss to Switzerland) suggest inconsistency, especially in defense. Morocco, on the other hand, has demonstrated resilience and attacking prowess, with wins over Scotland and Haiti (4-2) and a draw against Brazil. Their xG and possession metrics in these matches are strong, and their final-third receptions and line breaks indicate a well-organized attack. The odds heavily favor Canada (5.7 for home win), but Morocco's form and underlying stats make them the safer pick at 1.76. Betting max stake on Morocco to capitalize on their superior consistency and value.",
+      "odds": 1.82,
+      "reasoning": "While Canada has shown flashes of offensive potential (e.g., 6-0 vs Qatar, 1.49 xG vs Bosnia), their defensive frailties and inconsistency are concerning. Morocco, on the other hand, has demonstrated resilience and tactical discipline, particularly in their 1-1 draw vs Brazil and 1-0 win over Scotland. Their xG of 1.33 vs Brazil and 0.80 vs Scotland, along with superior possession and final-third receptions in most matches, suggests they are the more balanced and dangerous side. The odds (1.82 for Morocco) are also favorable given their recent form and Canada's defensive struggles (e.g., 1.61 xG conceded vs Switzerland). Betting max stake on Morocco to win away.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-04T15:34:37.304Z",
+    "lastBetsRun": "2026-07-04T16:40:03.316Z",
     "lastSettleRun": "2026-07-04T05:39:46.672Z",
     "failures": [
       {
