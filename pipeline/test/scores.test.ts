@@ -36,12 +36,12 @@ describe("fetchFinished", () => {
     const fixture = { matches: [
       { utcDate: "2026-06-29T20:00:00Z", status: "FINISHED",
         homeTeam: { name: "France" }, awayTeam: { name: "Italy" },
-        score: { winner: "HOME_TEAM", duration: "PENALTY_SHOOTOUT",
+        score: { winner: null, duration: "PENALTY_SHOOTOUT",
           fullTime: { home: 1, away: 1 }, regularTime: { home: 1, away: 1 } } },
       { utcDate: "2026-06-29T23:00:00Z", status: "FINISHED",
         homeTeam: { name: "Brazil" }, awayTeam: { name: "Japan" },
         score: { winner: "HOME_TEAM", duration: "EXTRA_TIME",
-          fullTime: { home: 2, away: 1 }, regularTime: { home: 1, away: 1 } } },
+          fullTime: { home: 3, away: 2 }, regularTime: { home: null, away: null }, extraTime: { home: 2, away: 1 } } },
     ]};
     const f = (async () => new Response(JSON.stringify(fixture), { status: 200 })) as unknown as typeof fetch;
     const out = await fetchFinished("TOKEN", "2026-06-28", "2026-06-30", f);
