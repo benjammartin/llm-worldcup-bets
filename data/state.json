@@ -13039,7 +13039,7 @@
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Claude",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13047,14 +13047,14 @@
       "kickoff": "2026-07-04T21:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 2400,
-      "odds": 1.19,
-      "reasoning": "France is a clear class above Paraguay. The FIFA reports confirm it: France posted 3-1 vs Senegal, 3-0 vs Iraq, 4-1 at Norway with consistently strong xG and shot volume. Paraguay has looked toothless offensively — they were crushed 4-1 by USA (xG 0.60), managed only a 0-0 with Australia while being outshot, and their lone win over Türkiye came despite being dominated on xG. At 1.19 the away price is modest, but France's floor here is very high and Paraguay rarely scores. I'll back France with solid conviction but not overload given the thin margin at this price.",
+      "stake": 2500,
+      "odds": 1.2,
+      "reasoning": "France has been dominant all tournament (3-1 Senegal, 3-0 Iraq, 4-1 at Norway) with consistently strong xG. Paraguay cannot buy a goal — 0.60, 0.36, 0.29 xG in recent matches, shut out by Australia and battered by Türkiye despite their lucky 1-0 there. At 1.20 the payout is small, but the ~83% implied probability is if anything understated. High-confidence, low-margin favorite play.",
       "status": "pending"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:GPT-5.5",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13063,13 +13063,13 @@
       "model": "GPT-5.5",
       "pick": "draw",
       "stake": 91.4,
-      "odds": 7.23,
-      "reasoning": "France are clearly the better side and the most likely winner, but at 1.19 the away price is very short in a 90-minute 1X2 market. Paraguay have been badly outplayed on the metrics, yet their tournament profile is exactly the kind that can drag a superior opponent into a low-event match: deep defending, heavy pressure volume, very little attacking ambition, and a recent 0-0 with Australia plus a smash-and-grab 1-0 over Türkiye. France should advance more often than not, but the draw at 7.23 only needs to land around 14% of the time, and a Paraguay bunker makes that plausible enough to justify a high-variance catch-up bet.",
+      "odds": 7,
+      "reasoning": "France are clearly the better side and the odds correctly make them a heavy favorite, but at 1.20 the upside is too small for my current bankroll position. Paraguay’s tournament profile is ugly in possession and chance creation, yet they have shown they can survive long stretches under pressure, including the 1-0 win over Türkiye despite being dominated and the 0-0 with Australia. If Paraguay’s low block/pressing game turns this into a slow, frustrating match, the draw at 7.00 is the upset path I prefer over a full Paraguay win. High-risk, bankroll-recovery spot.",
       "status": "pending"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Gemini",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13078,13 +13078,13 @@
       "model": "Gemini",
       "pick": "away",
       "stake": 1928.04,
-      "odds": 1.19,
-      "reasoning": "France has been highly efficient and dominant throughout the tournament, scoring 10 goals across three matches (3-1 vs Senegal, 3-0 vs Iraq, and 4-1 vs Norway) while consistently controlling progression and final-third entries. Conversely, Paraguay has struggled significantly, suffering a 4-1 defeat to the USA and getting heavily outshot 32-7 by Türkiye despite grinding out a 1-0 win, followed by a low-event 0-0 draw against Australia. Given France's massive quality advantage, tactical depth, and elite conversion rate, the away win at 1.19 is highly secure. We back France with our maximum allowable individual stake of $2326.35 to steadily rebuild our bankroll.",
+      "odds": 1.2,
+      "reasoning": "France has been highly dominant throughout the tournament, scoring multiple goals in all their matches (3-1 vs Senegal, 3-0 vs Iraq, 4-1 vs Norway) while consistently controlling the pace. Paraguay, on the other hand, is heavily outmatched here, having suffered a heavy 4-1 defeat to the USA and showing very low offensive output (only 0.36 xG against Turkey and 0.29 xG against Australia). While the 1.2 odds are short, France is one of the safest selections on the board to advance, making them a highly secure option for a maximum stake bet to steadily rebuild our bankroll.",
       "status": "pending"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Grok",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13093,13 +13093,13 @@
       "model": "Grok",
       "pick": "away",
       "stake": 739.16,
-      "odds": 1.19,
-      "reasoning": "France has shown clear dominance in xG, shots, and progression metrics across recent matches against Senegal, Iraq, and Norway, while Paraguay has been heavily outplayed in most fixtures (e.g., vs USA and Turkey). The 1.19 away odds reflect this gap accurately enough to warrant a confident stake.",
+      "odds": 1.2,
+      "reasoning": "France has looked the stronger side across multiple recent matches with superior xG, shots, and progression metrics, while Paraguay's results and underlying numbers have been poor. The 1.2 price is short but reflects the clear gap; max stake reflects high conviction.",
       "status": "pending"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:DeepSeek",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13108,13 +13108,13 @@
       "model": "DeepSeek",
       "pick": "away",
       "stake": 1094.47,
-      "odds": 1.19,
-      "reasoning": "France have been dominant in their group, beating Senegal, Iraq, and Norway with solid xG and shot numbers. Paraguay, by contrast, have generated almost no attacking threat — 0.36 xG against Türkiye, 0.29 against Australia, and just 31 final‑third receptions versus USA. Their low line breaks and progression counts suggest they’ll struggle to escape France’s press. At odds of 1.19, an away win is strongly implied, and the performance data supports it. I’m betting the maximum allowed stake to capture the edge.",
+      "odds": 1.2,
+      "reasoning": "France are huge favorites for a reason. They've dismantled Senegal, Iraq, and Norway with strong underlying numbers. Paraguay have struggled to generate offense (0.29 xG vs Australia, 0.36 xG vs Türkiye) and rely on low-block defending, which France's firepower should eventually break. At 1.20, a max bet on France is a safe way to grind back bankroll.",
       "status": "pending"
     },
     {
       "id": "c798a1ffdeda28e82d930e7145a8ff10:Mistral",
-      "date": "2026-07-04T19:08:34.082Z",
+      "date": "2026-07-04T20:00:08.461Z",
       "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
       "match": "Paraguay vs France",
       "homeTeam": "Paraguay",
@@ -13123,14 +13123,14 @@
       "model": "Mistral",
       "pick": "away",
       "stake": 406.71,
-      "odds": 1.19,
-      "reasoning": "France's recent performances and underlying stats are overwhelmingly dominant. Across their last three matches (M17, M42, M61), they've averaged 1.66 xG, 16 shots, 49%+ possession, and elite final-third receptions (143 avg). Paraguay, meanwhile, has struggled offensively: 0.42 xG avg in their last three matches (M04, M31, M60), with only 7.7 shots per game and consistently low possession (avg 30%). Their defensive shape is also suspect, conceding 2.13 xG to Türkiye despite Türkiye's inefficiency. The odds (1.19 for France) suggest the market is already pricing in France's superiority, but the qualitative gap is too wide to ignore. Betting on France to win is the highest-conviction play here, even at short odds. Staking the maximum to capitalize on this clear edge.",
+      "odds": 1.2,
+      "reasoning": "France's recent performances show dominance in possession, final-third receptions, and line breaks, even against strong opponents like Norway and Senegal. Paraguay, while resilient, has struggled offensively (low xG, shots, and progressions) and defensively (high pressures faced, low possession). The odds heavily favor France (1.2), and the qualitative data from FIFA reports align with this. Betting the maximum stake on France to win reflects high confidence based on both odds and underlying metrics.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-04T19:08:34.082Z",
+    "lastBetsRun": "2026-07-04T20:00:08.461Z",
     "lastSettleRun": "2026-07-04T05:39:46.672Z",
     "failures": [
       {
@@ -13205,6 +13205,12 @@
         "homeTeam": "Paraguay",
         "awayTeam": "France",
         "kickoff": "2026-07-04T21:00:00Z"
+      },
+      {
+        "matchId": "a4634eae056c18d705e3feffb347163f",
+        "homeTeam": "Brazil",
+        "awayTeam": "Norway",
+        "kickoff": "2026-07-05T20:00:00Z"
       }
     ],
     "liveMatches": [],
