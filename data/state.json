@@ -13289,6 +13289,12 @@
         "homeTeam": "Brazil",
         "awayTeam": "Norway",
         "kickoff": "2026-07-05T20:00:00Z"
+      },
+      {
+        "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+        "homeTeam": "Mexico",
+        "awayTeam": "England",
+        "kickoff": "2026-07-06T00:00:00Z"
       }
     ],
     "liveMatches": [],
