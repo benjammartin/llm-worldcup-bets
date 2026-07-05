@@ -13333,7 +13333,7 @@
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Claude",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
@@ -13341,29 +13341,29 @@
       "kickoff": "2026-07-06T00:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 2400,
+      "stake": 1800,
       "odds": 2.53,
-      "reasoning": "England's underlying xG numbers are consistently strong (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) and their attacking output outclasses most opponents. Mexico is solid at home but was outplayed on xG by Korea in a lucky 1-0. Market favors England at 2.53 as away side, and their profile as the more clinical team supports this. Moderate stake given home advantage keeps it competitive.",
+      "reasoning": "England has shown superior attacking output (3.33 xG vs Croatia, dominant vs Panama/Ghana) and are marginal favorites by the market at 2.53. Mexico's home form is inconsistent — they were outplayed by Korea on xG. Taking the value on England away, but sizing moderately since this is close to a coin flip with home advantage for Mexico.",
       "status": "pending"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:GPT-5.5",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
       "awayTeam": "England",
       "kickoff": "2026-07-06T00:00:00Z",
       "model": "GPT-5.5",
-      "pick": "home",
+      "pick": "away",
       "stake": 59.21,
-      "odds": 3.1,
-      "reasoning": "I need upside from this bankroll position, so I’m taking the higher-priced side rather than England at shorter odds. England’s underlying numbers have been strong, but Mexico have been highly efficient, unbeaten, and have a clear host/crowd angle. At 3.1, Mexico only need to be a bit better than the market’s implied probability to justify the shot, and their defensive record plus transition threat gives them a realistic path to win in 90 minutes.",
+      "odds": 2.53,
+      "reasoning": "England are the slight favorite and I agree with that market signal. Their tournament profile is strong: dominant xG against Croatia and Ghana, then a controlled 2-0 over Panama. Mexico have been excellent and the home/venue factor makes this dangerous, but their Korea match was less convincing on underlying chances. At 2.53, England offers the best balance of probability and payout, so I’m staking the maximum allowed.",
       "status": "pending"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Gemini",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
@@ -13373,12 +13373,12 @@
       "pick": "away",
       "stake": 2360.48,
       "odds": 2.53,
-      "reasoning": "England enters this matchup displaying excellent underlying numbers across their previous outings, including a dominant 4-2 performance against Croatia (xG 3.33 to 0.82) and a highly controlled 2-0 win over Panama (xG 1.61 to 0.72). While Mexico has been efficient and defensively solid, their 1-0 win against Korea Republic was highly fortunate (xG 0.34 to 0.87). England's superior squad depth, territorial dominance (averaging very high final-third receptions), and attacking output make the away odds of 2.53 highly attractive. We will back England with a substantial high-confidence stake of $2,500.",
+      "reasoning": "Looking at the performance data, England has shown highly dominant underlying metrics. Against Croatia, they posted a massive xG of 3.33, and even in their 0-0 draw with Ghana, they completely dominated possession (72.4%) and generated 1.78 xG while conceding only 0.34. Mexico had a strong showing against Czechia but was heavily outplayed on xG (0.34 to 0.87) in their narrow 1-0 win over Korea Republic. England's superior squad depth, progression metrics, and final-third dominance make them a strong value play at 2.53 odds. We will back the Three Lions with a high conviction stake.",
       "status": "pending"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Grok",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
@@ -13388,12 +13388,12 @@
       "pick": "away",
       "stake": 894.98,
       "odds": 2.53,
-      "reasoning": "England's underlying numbers across recent matches (high xG, chance creation, and control vs Croatia/Ghana/Panama) look markedly better than Mexico's inconsistent performances. The 2.53 away price offers decent value given the gap in current form and squad quality.",
+      "reasoning": "England's underlying numbers across recent matches (high xG, strong possession and progression metrics vs Croatia/Ghana/Panama) point to a clear quality edge over Mexico, whose results have been more mixed with one notably poor xG performance. The 2.53 away odds offer solid value given that gap.",
       "status": "pending"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:DeepSeek",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
@@ -13401,14 +13401,14 @@
       "kickoff": "2026-07-06T00:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 1332.72,
+      "stake": 1200,
       "odds": 2.53,
-      "reasoning": "England has displayed superior attacking metrics (xG 3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama) and overall control. Mexico's win over Korea was fortunate (xG 0.34-0.87) and although they beat Czechia 3-0, England's quality and depth should prevail. The away odds at 2.53 offer value against a Mexico side that may struggle to contain England's offense.",
+      "reasoning": "England's underlying metrics look stronger: they created over 1.6 xG in each of their last two matches while allowing very little defensively (0.34 vs Ghana, 0.72 vs Panama). Mexico edged Korea Republic despite a 0.34-0.87 xG deficit, and their clean sheet against South Africa came against a very limited attack. At 2.53 odds, an England win offers value given the gap in performance data.",
       "status": "pending"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Mistral",
-      "date": "2026-07-05T21:34:43.279Z",
+      "date": "2026-07-05T22:09:26.140Z",
       "matchId": "e61a7b471cadc8e3849158ed59d49cab",
       "match": "Mexico vs England",
       "homeTeam": "Mexico",
@@ -13417,14 +13417,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 489.35,
-      "odds": 3.1,
-      "reasoning": "Mexico's recent performances show a strong defensive and offensive structure, particularly in their ability to generate high-quality chances (xG of 1.78 vs South Africa, 2.10 vs Czechia) and limit opponents' opportunities (xG conceded of 0.10 vs South Africa, 0.87 vs Korea Republic). Their final-third receptions and line breaks are consistently superior to opponents, indicating dominance in key areas. England, while strong, have shown inconsistency in converting possession into clear chances (0-0 vs Ghana with 72.4% possession but only 1.78 xG) and have struggled against organized defenses. The odds for Mexico (3.1) are attractive given their form and England's vulnerabilities. Betting the maximum stake here to reflect high confidence in Mexico's ability to exploit England's defensive frailties.",
+      "odds": 3.13,
+      "reasoning": "Mexico's recent performances show a strong attacking and defensive structure, particularly in their ability to dominate possession, create high-quality chances (evidenced by their xG and shot numbers), and limit opponents' opportunities. Their 2-0 win over South Africa (xG 1.78-0.10) and 3-0 win over Czechia (xG 2.10-0.44) highlight their offensive efficiency and defensive solidity. While England has shown attacking prowess (e.g., 4-2 vs Croatia, xG 3.33-0.82), their inconsistency is evident in their 0-0 draw vs Ghana (xG 1.78-0.34), where they struggled to convert dominance into goals. Mexico's tactical discipline, high pressing (as seen in pressures and line breaks), and ability to control games against varied opponents make them a compelling pick at home odds of 3.13. The odds suggest England are favorites, but Mexico's form and resilience justify backing them as the value bet here.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-05T21:34:43.279Z",
+    "lastBetsRun": "2026-07-05T22:09:26.140Z",
     "lastSettleRun": "2026-07-04T23:29:16.331Z",
     "failures": [
       {
