@@ -13228,7 +13228,7 @@
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:Claude",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13236,14 +13236,14 @@
       "kickoff": "2026-07-05T20:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 2600,
-      "odds": 1.77,
-      "reasoning": "Brazil have been the more consistent, higher-quality side: 3.78 xG vs Scotland, 1.42 vs Haiti, solid vs Morocco. Norway score goals but leak badly (conceded 4 to France, generated only defensive frailty vs strong opposition). At home 1.77 Brazil are the correct side; moderate stake accounting for Norway's counterattacking shootout potential.",
+      "stake": 2942.59,
+      "odds": 1.79,
+      "reasoning": "Brazil showed dominant xG in decisive wins (3.78 vs Scotland, 1.42 vs Haiti) and control against tougher sides. Norway is dangerous going forward but leaks goals against elite teams (conceded 4 to France). At 1.79 home, Brazil's quality and home advantage make this the strongest edge on the slate. Sizeable but not maximum stake given Norway's genuine attacking threat and draw risk.",
       "status": "pending"
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:GPT-5.5",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13252,13 +13252,13 @@
       "model": "GPT-5.5",
       "pick": "home",
       "stake": 59.21,
-      "odds": 1.77,
-      "reasoning": "Odds are still the main guide and make Brazil the clear favorite. The training reports support that: Brazil’s last two matches were strong, especially the 3-0 over Scotland with a huge 3.78 xG, while Norway have been dangerous but more open defensively and just conceded four to France. Norway are live enough to keep this uncomfortable, but at 1.77 Brazil look like the most reliable side. Given my bankroll position, I’m staking the maximum allowed.",
+      "odds": 1.79,
+      "reasoning": "Taking Brazil at 1.79. Odds remain the anchor and imply Brazil as a clear favorite; after normalizing the market they are roughly mid-50s to win in 90, and I make them a bit higher than that. The training reports support the favorite: Brazil’s trend improved sharply after the Morocco draw, especially the 3.78 xG / 21-shot performance against Scotland, while Norway have been dangerous but have allowed a lot of territory and chances against Senegal and France. Norway can absolutely score, but Brazil look more likely to control the decisive attacking phases. With my bankroll low and only one listed match, I’m staking the maximum.",
       "status": "pending"
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:Gemini",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13267,13 +13267,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 2360.48,
-      "odds": 1.77,
-      "reasoning": "Brazil comes into this match in excellent form, fresh off a dominant 3-0 victory against Scotland where they registered a massive 3.78 xG. Meanwhile, Norway showed defensive vulnerabilities in their 4-1 loss to France, conceding 18 shots despite their own decent xG numbers. Brazil's technical superiority, final-third penetration (139 receptions against Scotland), and defensive solidity make them strong favorites here. At odds of 1.77, backing the home side represents high value and aligns with our strategy of leveraging elite teams hitting their stride.",
+      "odds": 1.79,
+      "reasoning": "Brazil's performances have progressively improved this tournament, culminating in a dominant 3-0 victory against Scotland where they generated a massive 3.78 xG while limiting their opponent. Norway, on the other hand, comes off a heavy 1-4 defeat to France where they conceded high-quality chances. Brazil's technical superiority, offensive fluency, and defensive structure make them strong favorites here. At odds of 1.79, the home win represents excellent value, and we are backing them with our maximum allowed stake to maximize our lead in the competition.",
       "status": "pending"
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:Grok",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13282,13 +13282,13 @@
       "model": "Grok",
       "pick": "home",
       "stake": 894.98,
-      "odds": 1.77,
-      "reasoning": "Brazil looks the stronger side based on recent xG and results vs varied opposition, and 1.77 offers solid value given the implied probs.",
+      "odds": 1.79,
+      "reasoning": "Brazil's underlying metrics across recent matches (dominant xG vs Scotland, solid control vs Haiti) point to clear superiority over Norway, whose results are inflated by weaker opposition. Odds of 1.79 already bake in a modest home edge; the value is in backing the stronger side at scale given only one available fixture.",
       "status": "pending"
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:DeepSeek",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13296,14 +13296,14 @@
       "kickoff": "2026-07-05T20:00:00Z",
       "model": "DeepSeek",
       "pick": "home",
-      "stake": 800,
-      "odds": 1.77,
-      "reasoning": "Brazil's post-match reports show a dominant attack when tuned in (3.78 xG vs Scotland) and a solid overall xG difference across three matches (2.06 for, 0.76 against). Norway's defensive frailties were exposed by elite teams — they conceded 4 against France and allowed 2.05 xG to Senegal. While Norway created chances, Brazil's defence has been tighter, and the neutral venue likely suits Brazil's technical superiority. Market odds imply about 56.5% win probability, but I estimate Brazil's true chance closer to 62%, giving a positive edge on the home bet at 1.77. A ~12% of bankroll stake reflects that edge while managing risk.",
+      "stake": 1000,
+      "odds": 1.79,
+      "reasoning": "Brazil are strong favorites at home with odds 1.79 reflecting their quality. Despite a draw with Morocco, they convincingly beat Scotland (xG 3.78) and Haiti. Norway have been inconsistent: a 4-1 win over Iraq but then needed luck to beat Senegal (xG against 2.05) and were dismantled by France 4-1. Brazil's pressure and attacking metrics are superior. I'm staking $1000, which is 15% of bankroll, as I'm confident Brazil will win.",
       "status": "pending"
     },
     {
       "id": "a4634eae056c18d705e3feffb347163f:Mistral",
-      "date": "2026-07-05T17:49:58.868Z",
+      "date": "2026-07-05T19:00:28.150Z",
       "matchId": "a4634eae056c18d705e3feffb347163f",
       "match": "Brazil vs Norway",
       "homeTeam": "Brazil",
@@ -13312,14 +13312,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 489.35,
-      "odds": 1.77,
-      "reasoning": "Brazil's recent performances show a clear pattern of dominance in possession, final-third receptions, and line breaks, especially against higher-ranked teams (e.g., 3-0 vs Haiti, 3-0 vs Scotland). While their xG in the Morocco match was slightly lower, their clinical finishing in other games (e.g., 3.78 xG vs Scotland) suggests they are converting chances efficiently. Norway, on the other hand, has struggled against stronger opposition (e.g., 1-4 vs France) and relies heavily on counterattacks, which Brazil's structured defense (evident in their line breaks and pressures) should neutralize. The odds (1.77 for Brazil) are favorable given their form and the qualitative edge in key metrics like final-third receptions and progressions. Betting max stake on Brazil to win.",
+      "odds": 1.79,
+      "reasoning": "Brazil has shown strong offensive capabilities in recent matches (e.g., 3-0 vs Haiti, 3-0 vs Scotland) with high xG and shot dominance, even if their possession and final-third metrics are not always dominant. Norway, while capable (e.g., 4-1 vs Iraq, 3-2 vs Senegal), has struggled against top-tier teams (1-4 vs France) and has a tendency to concede goals despite creating chances. The odds (1.79 for Brazil) are favorable given Brazil's recent form and Norway's defensive vulnerabilities. Betting max stake on Brazil to win, as the qualitative and quantitative data align with the odds.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-05T17:49:58.868Z",
+    "lastBetsRun": "2026-07-05T19:00:28.150Z",
     "lastSettleRun": "2026-07-04T23:29:16.331Z",
     "failures": [
       {
@@ -13400,6 +13400,12 @@
         "homeTeam": "Mexico",
         "awayTeam": "England",
         "kickoff": "2026-07-06T00:00:00Z"
+      },
+      {
+        "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+        "homeTeam": "Portugal",
+        "awayTeam": "Spain",
+        "kickoff": "2026-07-06T19:00:00Z"
       }
     ],
     "liveMatches": [],
