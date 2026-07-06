@@ -13537,16 +13537,16 @@
     ],
     "upcomingMatches": [
       {
-        "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-        "homeTeam": "Mexico",
-        "awayTeam": "England",
-        "kickoff": "2026-07-06T01:00:00Z"
-      },
-      {
         "matchId": "16ed3adcf661b3a9bea39871a2d204df",
         "homeTeam": "Portugal",
         "awayTeam": "Spain",
         "kickoff": "2026-07-06T19:00:00Z"
+      },
+      {
+        "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
+        "homeTeam": "USA",
+        "awayTeam": "Belgium",
+        "kickoff": "2026-07-07T00:00:00Z"
       }
     ],
     "liveMatches": [],
