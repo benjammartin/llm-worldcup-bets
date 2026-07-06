@@ -13694,6 +13694,12 @@
         "homeTeam": "Argentina",
         "awayTeam": "Egypt",
         "kickoff": "2026-07-07T16:00:00Z"
+      },
+      {
+        "matchId": "a6da973c5749ce60adab77d64b3664f4",
+        "homeTeam": "Switzerland",
+        "awayTeam": "Colombia",
+        "kickoff": "2026-07-07T20:00:00Z"
       }
     ],
     "liveMatches": [],
