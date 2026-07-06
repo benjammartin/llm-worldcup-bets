@@ -368,6 +368,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 13346.09
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 15790.09
       }
     ],
     "GPT-5.5": [
@@ -738,6 +742,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 354.82
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 413.26
       }
     ],
     "Gemini": [
@@ -1108,6 +1116,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 11768.93
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 13981.49
       }
     ],
     "Grok": [
@@ -1478,6 +1490,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 4616.18
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 5498.07
       }
     ],
     "DeepSeek": [
@@ -1848,6 +1864,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 7136.48
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 8501.43
       }
     ],
     "Mistral": [
@@ -2218,6 +2238,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 1643.3
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 1327.12
       }
     ],
     "Baseline": [
@@ -2588,6 +2612,10 @@
       {
         "t": "2026-07-06T05:50:00.052Z",
         "bankroll": 19225.2
+      },
+      {
+        "t": "2026-07-06T21:22:10.363Z",
+        "bankroll": 20993.92
       }
     ]
   },
@@ -13518,7 +13546,9 @@
       "stake": 1922.52,
       "odds": 1.92,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:Claude",
@@ -13533,7 +13563,9 @@
       "stake": 2600,
       "odds": 1.94,
       "reasoning": "Spain is the superior side by both odds (1.94 vs 4.1) and underlying data — high xG in multiple matches plus a controlling 1-0 road win over Uruguay showing they perform against elite opponents. Portugal has looked toothless in tight games (0.57 xG vs Congo, 0.97 xG in a 0-0 with Colombia while being outshot). Backing Spain with solid but not maximal conviction given single-match knockout variance.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:GPT-5.5",
@@ -13548,7 +13580,9 @@
       "stake": 62.17,
       "odds": 1.94,
       "reasoning": "Spain are the odds-on side and the training-centre reports support that market view: they have controlled all three listed matches by xG and territory, including 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a professional 1-0 over Uruguay. Portugal’s 5-0 over Uzbekistan was strong, but their other two reports were much less convincing, including being out-created by Colombia. At 1.94, Spain look like the best probability/value side, and with only one open match I’m staking the maximum allowed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:Gemini",
@@ -13563,7 +13597,9 @@
       "stake": 2353.79,
       "odds": 1.94,
       "reasoning": "Spain has demonstrated elite under-the-hood metrics across their matches, dominating possession and consistently generating high xG (2.26 against Cabo Verde, 3.20 against Saudi Arabia, and a very controlled 1.12 to 0.22 xG victory over a tough Uruguay side). Portugal, while dangerous, has looked far more vulnerable, notably being heavily out-created by Colombia (1.85 to 0.97 xG) and struggling to break down Congo DR (0.57 xG). At odds of 1.94, the market strongly favors Spain, and the performance metrics back this up as they look far more cohesive and dominant in transition and final-third entries. Backing Spain to take the victory in this Iberian derby with a high-confidence stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:Grok",
@@ -13578,7 +13614,9 @@
       "stake": 938.18,
       "odds": 1.94,
       "reasoning": "Spain's recent matches show clear dominance (high xG, shots, possession vs Cabo Verde/Saudi/Uruguay) while Portugal has looked limited offensively. Odds make Spain the clear value pick at 1.94.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:DeepSeek",
@@ -13593,7 +13631,9 @@
       "stake": 1452.07,
       "odds": 1.94,
       "reasoning": "Spain's recent match data shows far superior underlying metrics. Against Cabo Verde they racked up 2.26 xG from 27 shots and 426 final-third receptions despite a 0-0; they followed with 3.20 xG vs Saudi Arabia and a controlled 1-0 away win over Uruguay (1.12 xG to 0.22, line breaks 134-68). Portugal's last three games include a laboured 0-0 vs Colombia (opposition xG 1.85), a 1-1 with Congo DR where they managed just 0.57 xG and 7 shots, and a 5-0 win over minnows Uzbekistan. The odds (away 1.94) imply ~51.5% probability, which underrates Spain's dominance and cohesion. We bet $1500 on Spain to win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "16ed3adcf661b3a9bea39871a2d204df:Mistral",
@@ -13608,7 +13648,9 @@
       "stake": 316.18,
       "odds": 3.6,
       "reasoning": "Spain and Portugal are two of the most technically gifted teams in the tournament, and their recent performances reflect their dominance in possession, final-third receptions, and line breaks. Spain's xG and shot dominance in recent matches (especially against Uruguay and Saudi Arabia) suggest they are a potent attacking force, but their 0-0 draw against Cabo Verde and the tight 1-0 win over Uruguay indicate they can be stifled by organized defenses. Portugal, while less clinical in their 1-1 draw against Congo DR, showed creativity and progression in their 5-0 win over Uzbekistan and the 0-0 draw against Colombia. The head-to-head history and tactical styles of these teams often lead to tightly contested matches with few goals, as both prioritize possession and defensive structure. The draw odds (3.6) offer a favorable risk-reward balance, especially given the lack of clear superiority in their recent performances. I'm allocating the maximum stake here due to the high probability of a draw and the value in the odds.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-1"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:Baseline",
@@ -13719,7 +13761,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-06T21:11:07.926Z",
-    "lastSettleRun": "2026-07-06T05:50:00.052Z",
+    "lastSettleRun": "2026-07-06T21:22:10.363Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -13812,32 +13854,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 92,
-        "won": 62,
+        "totalBets": 93,
+        "won": 63,
         "lost": 30,
         "void": 0,
-        "totalStake": 110525.74000000002,
-        "totalReturn": 2435.7724999999987,
-        "roi": 0.02203805647444657,
-        "avgOdds": 1.6528260869565223,
+        "totalStake": 113125.74000000002,
+        "totalReturn": 4879.772499999999,
+        "roi": 0.043135828326957226,
+        "avgOdds": 1.6559139784946242,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:Claude",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2200,
-            "odds": 1.34,
-            "reasoning": "Spain has been dominant across the board — a 4-0 demolition of Saudi Arabia (3.20 xG), a controlled win at Uruguay, and total command against Cabo Verde despite the scoreless draw (2.26 xG, 27 shots). Austria meanwhile is shaky defensively: they conceded 3 to Algeria and lost to Argentina, showing they leak goals against quality opposition. At 1.34 the home price fairly reflects Spain's class edge. I'll back them firmly but not max out given a single-match slate warrants some caution against variance.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:Claude",
             "date": "2026-07-02T22:50:45.569Z",
@@ -13990,37 +14015,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:Claude",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 2600,
+            "odds": 1.94,
+            "reasoning": "Spain is the superior side by both odds (1.94 vs 4.1) and underlying data — high xG in multiple matches plus a controlling 1-0 road win over Uruguay showing they perform against elite opponents. Portugal has looked toothless in tight games (0.57 xG vs Congo, 0.97 xG in a 0-0 with Colombia while being outshot). Backing Spain with solid but not maximal conviction given single-match knockout variance.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 92,
-        "won": 41,
+        "totalBets": 93,
+        "won": 42,
         "lost": 51,
         "void": 0,
-        "totalStake": 24588.340000000004,
-        "totalReturn": -9774.271400000003,
-        "roi": -0.3975165220588296,
-        "avgOdds": 3.8795652173913058,
+        "totalStake": 24650.510000000002,
+        "totalReturn": -9715.831600000003,
+        "roi": -0.3941432286796501,
+        "avgOdds": 3.8587096774193563,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:GPT-5.5",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 29.84,
-            "odds": 1.34,
-            "reasoning": "Spain at 1.34 is short, but the matchup data supports them being a clear favorite. Their reports show sustained territorial dominance and elite chance suppression: 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a controlled 1.12-0.22 xG win over Uruguay. Austria have been competitive but much more open, giving up 2.45 xG to Argentina and 1.54 to Algeria. Odds are still the main signal, and I make Spain just above the breakeven needed here, so I’m staking the maximum allowed on the home win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:GPT-5.5",
             "date": "2026-07-02T22:50:45.569Z",
@@ -14173,37 +14198,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:GPT-5.5",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 62.17,
+            "odds": 1.94,
+            "reasoning": "Spain are the odds-on side and the training-centre reports support that market view: they have controlled all three listed matches by xG and territory, including 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a professional 1-0 over Uruguay. Portugal’s 5-0 over Uzbekistan was strong, but their other two reports were much less convincing, including being out-created by Colombia. At 1.94, Spain look like the best probability/value side, and with only one open match I’m staking the maximum allowed.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 92,
-        "won": 62,
+        "totalBets": 93,
+        "won": 63,
         "lost": 30,
         "void": 0,
-        "totalStake": 80140.76,
-        "totalReturn": 1479.1724999999983,
-        "roi": 0.018457180840311452,
-        "avgOdds": 1.6900000000000006,
+        "totalStake": 82494.54999999999,
+        "totalReturn": 3691.735099999998,
+        "roi": 0.044751260537817326,
+        "avgOdds": 1.6926881720430111,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:Gemini",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1885.11,
-            "odds": 1.34,
-            "reasoning": "Spain has exhibited outstanding defensive control, allowing a combined xG of just 0.46 across their last three matches (Cabo Verde, Saudi Arabia, Uruguay) while consistently dominating possession and generating high-quality chances. Austria, on the other hand, has shown defensive vulnerability, conceding multiple goals to both Argentina and Algeria. At odds of 1.34, Spain represents a highly secure home win, and we back them with our maximum stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:Gemini",
             "date": "2026-07-02T22:50:45.569Z",
@@ -14356,37 +14381,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:Gemini",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 2353.79,
+            "odds": 1.94,
+            "reasoning": "Spain has demonstrated elite under-the-hood metrics across their matches, dominating possession and consistently generating high xG (2.26 against Cabo Verde, 3.20 against Saudi Arabia, and a very controlled 1.12 to 0.22 xG victory over a tough Uruguay side). Portugal, while dangerous, has looked far more vulnerable, notably being heavily out-created by Colombia (1.85 to 0.97 xG) and struggling to break down Congo DR (0.57 xG). At odds of 1.94, the market strongly favors Spain, and the performance metrics back this up as they look far more cohesive and dominant in transition and final-third entries. Backing Spain to take the victory in this Iberian derby with a high-confidence stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 92,
-        "won": 60,
+        "totalBets": 93,
+        "won": 61,
         "lost": 32,
         "void": 0,
-        "totalStake": 95631.98000000008,
-        "totalReturn": -5848.622199999996,
-        "roi": -0.06115759811728243,
-        "avgOdds": 1.7233695652173917,
+        "totalStake": 96570.16000000008,
+        "totalReturn": -4966.7329999999965,
+        "roi": -0.05143134276675106,
+        "avgOdds": 1.7256989247311831,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:Grok",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 760.01,
-            "odds": 1.34,
-            "reasoning": "Spain has dominated recent matches with superior xG, possession, and shot volume (e.g., 3.20 xG vs Saudi Arabia, 2.26 xG vs Cabo Verde), while Austria has shown vulnerabilities against stronger sides like Argentina. The 1.34 odds align with Spain's clear quality edge.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:Grok",
             "date": "2026-07-02T22:50:45.569Z",
@@ -14539,37 +14564,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:Grok",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 938.18,
+            "odds": 1.94,
+            "reasoning": "Spain's recent matches show clear dominance (high xG, shots, possession vs Cabo Verde/Saudi/Uruguay) while Portugal has looked limited offensively. Odds make Spain the clear value pick at 1.94.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 92,
-        "won": 60,
+        "totalBets": 93,
+        "won": 61,
         "lost": 32,
         "void": 0,
-        "totalStake": 51144.70999999998,
-        "totalReturn": -2983.5419999999995,
-        "roi": -0.05833529997530538,
-        "avgOdds": 1.8752173913043486,
+        "totalStake": 52596.77999999998,
+        "totalReturn": -1618.5961999999995,
+        "roi": -0.030773674738263448,
+        "avgOdds": 1.8759139784946244,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:DeepSeek",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 1071.83,
-            "odds": 1.34,
-            "reasoning": "Spain have been utterly dominant in their recent World Cup matches—2.26 xG vs Cabo Verde, 3.20 xG vs Saudi Arabia, and a controlled 1.12 xG vs Uruguay while conceding almost nothing. Austria, by contrast, conceded 2 to Argentina and 3 to Algeria, and posted negative xG differentials in those outings. The 1.34 odds imply ~75% win probability, but Spain's underlying numbers make a home win closer to a near-certainty. Max stake to lock in solid growth.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:DeepSeek",
             "date": "2026-07-02T22:50:45.569Z",
@@ -14722,37 +14747,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:DeepSeek",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1452.07,
+            "odds": 1.94,
+            "reasoning": "Spain's recent match data shows far superior underlying metrics. Against Cabo Verde they racked up 2.26 xG from 27 shots and 426 final-third receptions despite a 0-0; they followed with 3.20 xG vs Saudi Arabia and a controlled 1-0 away win over Uruguay (1.12 xG to 0.22, line breaks 134-68). Portugal's last three games include a laboured 0-0 vs Colombia (opposition xG 1.85), a 1-1 with Congo DR where they managed just 0.57 xG and 7 shots, and a 5-0 win over minnows Uzbekistan. The odds (away 1.94) imply ~51.5% probability, which underrates Spain's dominance and cohesion. We bet $1500 on Spain to win.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 92,
+        "totalBets": 93,
         "won": 60,
-        "lost": 32,
+        "lost": 33,
         "void": 0,
-        "totalStake": 45026.11999999999,
-        "totalReturn": -8606.155599999996,
-        "roi": -0.19113695783691775,
-        "avgOdds": 1.7231521739130442,
+        "totalStake": 45342.29999999999,
+        "totalReturn": -8922.335599999997,
+        "roi": -0.19677730507715752,
+        "avgOdds": 1.7433333333333338,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:Mistral",
-            "date": "2026-07-02T18:52:55.975Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 413.87,
-            "odds": 1.34,
-            "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay (M66). Their xG and shot dominance in matches M14 and M38 (vs. Cabo Verde and Saudi Arabia) suggest they are creating high-quality chances consistently. Austria, while competitive against Argentina (M43), struggled in possession and defensive metrics against Algeria (M69) and conceded a high xG (1.06) in that match. The odds (1.34 for Spain) are favorable given Spain's attacking prowess and Austria's defensive vulnerabilities. Betting the maximum stake here due to high conviction in Spain's ability to win comfortably.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:Mistral",
             "date": "2026-07-02T22:50:45.569Z",
@@ -14905,37 +14930,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:Mistral",
+            "date": "2026-07-06T17:26:18.644Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "Mistral",
+            "pick": "draw",
+            "stake": 316.18,
+            "odds": 3.6,
+            "reasoning": "Spain and Portugal are two of the most technically gifted teams in the tournament, and their recent performances reflect their dominance in possession, final-third receptions, and line breaks. Spain's xG and shot dominance in recent matches (especially against Uruguay and Saudi Arabia) suggest they are a potent attacking force, but their 0-0 draw against Cabo Verde and the tight 1-0 win over Uruguay indicate they can be stifled by organized defenses. Portugal, while less clinical in their 1-1 draw against Congo DR, showed creativity and progression in their 5-0 win over Uzbekistan and the 0-0 draw against Colombia. The head-to-head history and tactical styles of these teams often lead to tightly contested matches with few goals, as both prioritize possession and defensive structure. The draw odds (3.6) offer a favorable risk-reward balance, especially given the lack of clear superiority in their recent performances. I'm allocating the maximum stake here due to the high probability of a draw and the value in the odds.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 92,
-        "won": 63,
+        "totalBets": 93,
+        "won": 64,
         "lost": 29,
         "void": 0,
-        "totalStake": 95828.93,
-        "totalReturn": 8395.068699999998,
-        "roi": 0.08760474211702039,
-        "avgOdds": 1.645,
+        "totalStake": 97751.45,
+        "totalReturn": 10163.787099999998,
+        "roi": 0.1039758192845221,
+        "avgOdds": 1.6479569892473118,
         "recentBets": [
-          {
-            "id": "a518ac20df8f5c732b881e213ae0c230:Baseline",
-            "date": "2026-07-02T16:12:46.877Z",
-            "matchId": "a518ac20df8f5c732b881e213ae0c230",
-            "match": "Spain vs Austria",
-            "homeTeam": "Spain",
-            "awayTeam": "Austria",
-            "kickoff": "2026-07-02T19:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1658.45,
-            "odds": 1.29,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "3-0"
-          },
           {
             "id": "852b4baf0be4b9eef2a30596a8d39249:Baseline",
             "date": "2026-07-02T20:04:40.318Z",
@@ -15088,6 +15113,23 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "2-3"
+          },
+          {
+            "id": "16ed3adcf661b3a9bea39871a2d204df:Baseline",
+            "date": "2026-07-06T16:13:10.987Z",
+            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
+            "match": "Portugal vs Spain",
+            "homeTeam": "Portugal",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-06T19:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1922.52,
+            "odds": 1.92,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-1"
           }
         ]
       }
