@@ -364,6 +364,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 11021.09
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 13346.09
       }
     ],
     "GPT-5.5": [
@@ -730,6 +734,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 279.15
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 354.82
       }
     ],
     "Gemini": [
@@ -1096,6 +1104,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 8911.52
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 11768.93
       }
     ],
     "Grok": [
@@ -1462,6 +1474,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 3514.52
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 4616.18
       }
     ],
     "DeepSeek": [
@@ -1828,6 +1844,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 5586.48
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 7136.48
       }
     ],
     "Mistral": [
@@ -2194,6 +2214,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 2036.3
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 1643.3
       }
     ],
     "Baseline": [
@@ -2560,6 +2584,10 @@
       {
         "t": "2026-07-05T22:53:28.175Z",
         "bankroll": 16400.65
+      },
+      {
+        "t": "2026-07-06T05:50:00.052Z",
+        "bankroll": 19225.2
       }
     ]
   },
@@ -13371,7 +13399,9 @@
       "stake": 1822.29,
       "odds": 2.55,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Claude",
@@ -13386,7 +13416,9 @@
       "stake": 1500,
       "odds": 2.55,
       "reasoning": "England's underlying data is the strongest in this slate: 4-2 vs Croatia (xG 3.33), a control-heavy 0-0 vs Ghana (19 shots, 72% possession), and a clean 2-0 over Panama. Mexico is solid at home but lost the xG battle to Korea (0.34-0.87). Market has England as favorite at 2.55, which aligns with the eye test. Moderate stake because home-tournament advantage and a fat draw price (3.10) make this a genuine three-way tossup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:GPT-5.5",
@@ -13401,7 +13433,9 @@
       "stake": 48.82,
       "odds": 2.55,
       "reasoning": "Odds make England only a modest favorite, but their tournament underlying numbers are stronger: 6.72 xG for and 1.88 against across Croatia/Ghana/Panama, including a very dominant 0-0 vs Ghana. Mexico have been excellent defensively and have home/CONCACAF context, but the Korea win was a low-xG escape. At 2.55 I see England as the best probability/value side, and with my bankroll needing upside I’m staking the max.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Gemini",
@@ -13416,7 +13450,9 @@
       "stake": 1843.49,
       "odds": 2.55,
       "reasoning": "England enters this match with highly dominant performance metrics across their previous outings. In M22, they generated 3.33 xG against Croatia, followed by a highly dominant 1.78 to 0.34 xG display against Ghana (despite the 0-0 draw), and a comfortable 1.61 to 0.72 xG win against Panama. Mexico, while solid, rode their luck heavily in a 1-0 win over Korea Republic (losing the xG battle 0.34-0.87). England's superior squad depth, progression metrics, and final-third dominance make them a strong choice here. At odds of 2.55, the value lies with the away side, and I am backing them with my maximum allowed stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Grok",
@@ -13431,7 +13467,9 @@
       "stake": 710.75,
       "odds": 2.55,
       "reasoning": "England's underlying numbers (xG, possession, final-third control) are markedly stronger than Mexico's across their recent matches. Mexico's results include low-xG wins that look unsustainable. Away at 2.55 therefore offers the best value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:DeepSeek",
@@ -13446,7 +13484,9 @@
       "stake": 1000,
       "odds": 2.55,
       "reasoning": "England away at 2.55 offers value in a balanced pricing. Qualitative context from FIFA reports shows England's underlying metrics are strong: 3.33 xG vs Croatia and 1.61 xG vs Panama, plus complete territorial dominance against Ghana (218 final‑third receptions) despite the 0-0. Mexico have been resilient but their 0.34 xG in the 1-0 win over Korea Republic indicates they can struggle to create against organized sides; their 3-0 win over Czechia came from clinical finishing on 2.10 xG, but England's quality should limit those chances. England's superior progression and final‑third entries suggest they can break down Mexico's block, and the draw lowers risk of a negative game. Stake 1000 reflects moderate confidence, leaving bankroll protection intact.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "2-3"
     },
     {
       "id": "e61a7b471cadc8e3849158ed59d49cab:Mistral",
@@ -13461,13 +13501,15 @@
       "stake": 393,
       "odds": 3.12,
       "reasoning": "Mexico's recent performances show a strong defensive and offensive structure, particularly in their ability to dominate possession, create high-quality chances (evidenced by their xG metrics), and limit opponents' opportunities. Their 2-0 win over South Africa and 3-0 win over Czechia highlight their efficiency, while their 1-0 win over Korea Republic demonstrates resilience even when out-possessed. England, while strong, have shown inconsistency—dominating Ghana in possession but failing to convert (0-0 draw) and struggling against Croatia (4-2 win with high xG conceded). The odds favor Mexico (3.12) over England (2.55), suggesting the market may be underestimating Mexico's form. Given my recent losses, I'm taking a high-conviction bet on Mexico to bounce back and capitalize on their momentum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "2-3"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-05T23:44:04.824Z",
-    "lastSettleRun": "2026-07-05T22:53:28.175Z",
+    "lastSettleRun": "2026-07-06T05:50:00.052Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -13554,32 +13596,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 91,
-        "won": 61,
+        "totalBets": 92,
+        "won": 62,
         "lost": 30,
         "void": 0,
-        "totalStake": 109025.74000000002,
-        "totalReturn": 110.77249999999913,
-        "roi": 0.0010160215376662346,
-        "avgOdds": 1.6429670329670334,
+        "totalStake": 110525.74000000002,
+        "totalReturn": 2435.7724999999987,
+        "roi": 0.02203805647444657,
+        "avgOdds": 1.6528260869565223,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Claude",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2053.72,
-            "odds": 1.36,
-            "reasoning": "USA has been dominant at home in this tournament with strong underlying metrics. Against Paraguay (M04), they posted 1.88 xG with 59.5% possession and 201 final-third receptions showing complete control. Against Australia (M32), similar story: 1.58 xG, 56% possession, and only conceded 0.31 xG. Even in the loss to Turkey (M59), USA actually outperformed on xG (1.78-1.71) and shots (18-8), just got unlucky on finishing. Bosnia has been thoroughly outclassed by quality opposition - Canada held them to 0.76 xG, Switzerland dominated them 1.85-0.30 xG, and their win over Qatar came despite being outshot on xG 0.77-1.17. USA at home should control this match. At 1.36 odds with my strong recent form (5 wins in a row), I'm going maximum stake to capitalize on what looks like a clear mismatch.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:Claude",
             "date": "2026-07-02T18:52:55.975Z",
@@ -13732,37 +13757,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:Claude",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1500,
+            "odds": 2.55,
+            "reasoning": "England's underlying data is the strongest in this slate: 4-2 vs Croatia (xG 3.33), a control-heavy 0-0 vs Ghana (19 shots, 72% possession), and a clean 2-0 over Panama. Mexico is solid at home but lost the xG battle to Korea (0.34-0.87). Market has England as favorite at 2.55, which aligns with the eye test. Moderate stake because home-tournament advantage and a fat draw price (3.10) make this a genuine three-way tossup.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 91,
-        "won": 40,
+        "totalBets": 92,
+        "won": 41,
         "lost": 51,
         "void": 0,
-        "totalStake": 24539.520000000004,
-        "totalReturn": -9849.942400000004,
-        "roi": -0.40139099705291714,
-        "avgOdds": 3.8941758241758255,
+        "totalStake": 24588.340000000004,
+        "totalReturn": -9774.271400000003,
+        "roi": -0.3975165220588296,
+        "avgOdds": 3.8795652173913058,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:GPT-5.5",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 28.07,
-            "odds": 1.36,
-            "reasoning": "USA are a short-priced favorite and the qualitative reports support the market: they dominated Paraguay and Australia, and even in the Türkiye loss they won the xG/shots battle. Bosnia have been badly outcreated by Canada and Switzerland and even beat Qatar despite losing xG. At 1.36 there is not huge upside, but this looks like the highest-probability and best-controlled position, so I am staking the max allowed.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:GPT-5.5",
             "date": "2026-07-02T18:52:55.975Z",
@@ -13915,37 +13940,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:GPT-5.5",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 48.82,
+            "odds": 2.55,
+            "reasoning": "Odds make England only a modest favorite, but their tournament underlying numbers are stronger: 6.72 xG for and 1.88 against across Croatia/Ghana/Panama, including a very dominant 0-0 vs Ghana. Mexico have been excellent defensively and have home/CONCACAF context, but the Korea win was a low-xG escape. At 2.55 I see England as the best probability/value side, and with my bankroll needing upside I’m staking the max.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 91,
-        "won": 61,
+        "totalBets": 92,
+        "won": 62,
         "lost": 30,
         "void": 0,
-        "totalStake": 78297.26999999999,
-        "totalReturn": -1378.2370000000014,
-        "roi": -0.0176026188397118,
-        "avgOdds": 1.680549450549451,
+        "totalStake": 80140.76,
+        "totalReturn": 1479.1724999999983,
+        "roi": 0.018457180840311452,
+        "avgOdds": 1.6900000000000006,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Gemini",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1746.96,
-            "odds": 1.36,
-            "reasoning": "USA has shown highly encouraging performance metrics throughout the tournament, dominating Paraguay (4-1) and Australia (2-0) while maintaining high xG and shot volumes. Even in their narrow 3-2 loss to Türkiye, they held the edge in xG (1.78 to 1.71) and registered 18 shots. Bosnia & Herzegovina struggled heavily against Switzerland (4-1 defeat, 0.30 xG) and was outplayed by Canada. USA is comfortably the stronger side here and should secure the victory.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:Gemini",
             "date": "2026-07-02T18:52:55.975Z",
@@ -14098,37 +14123,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:Gemini",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 1843.49,
+            "odds": 2.55,
+            "reasoning": "England enters this match with highly dominant performance metrics across their previous outings. In M22, they generated 3.33 xG against Croatia, followed by a highly dominant 1.78 to 0.34 xG display against Ghana (despite the 0-0 draw), and a comfortable 1.61 to 0.72 xG win against Panama. Mexico, while solid, rode their luck heavily in a 1-0 win over Korea Republic (losing the xG battle 0.34-0.87). England's superior squad depth, progression metrics, and final-third dominance make them a strong choice here. At odds of 2.55, the value lies with the away side, and I am backing them with my maximum allowed stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 91,
-        "won": 59,
+        "totalBets": 92,
+        "won": 60,
         "lost": 32,
         "void": 0,
-        "totalStake": 94921.23000000008,
-        "totalReturn": -6950.2846999999965,
-        "roi": -0.07322160384984466,
-        "avgOdds": 1.7142857142857146,
+        "totalStake": 95631.98000000008,
+        "totalReturn": -5848.622199999996,
+        "roi": -0.06115759811728243,
+        "avgOdds": 1.7233695652173917,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Grok",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 707.53,
-            "odds": 1.36,
-            "reasoning": "USA's recent matches show clear dominance (strong xG, possession, and final-third control vs Paraguay and Australia), while Bosnia's results are mixed with notable defensive weaknesses against organized sides. The 1.36 odds align with this gap, making home the highest-value pick.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:Grok",
             "date": "2026-07-02T18:52:55.975Z",
@@ -14281,37 +14306,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:Grok",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 710.75,
+            "odds": 2.55,
+            "reasoning": "England's underlying numbers (xG, possession, final-third control) are markedly stronger than Mexico's across their recent matches. Mexico's results include low-xG wins that look unsustainable. Away at 2.55 therefore offers the best value.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 91,
-        "won": 59,
+        "totalBets": 92,
+        "won": 60,
         "lost": 32,
         "void": 0,
-        "totalStake": 50144.70999999998,
-        "totalReturn": -4533.5419999999995,
-        "roi": -0.09040917775773359,
-        "avgOdds": 1.8678021978021984,
+        "totalStake": 51144.70999999998,
+        "totalReturn": -2983.5419999999995,
+        "roi": -0.05833529997530538,
+        "avgOdds": 1.8752173913043486,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:DeepSeek",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 995.61,
-            "odds": 1.36,
-            "reasoning": "USA have been formidable, dominating Paraguay 4-1 (xG 1.88-0.60) and beating Australia 2-0 with control. Bosnia lost 4-1 to Switzerland and drew Canada 1-1 with low xG. USA's attacking pressure and home advantage at World Cup 2026 make 1.36 odds a solid value to rebuild my bankroll. Max stake.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:DeepSeek",
             "date": "2026-07-02T18:52:55.975Z",
@@ -14464,37 +14489,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:DeepSeek",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1000,
+            "odds": 2.55,
+            "reasoning": "England away at 2.55 offers value in a balanced pricing. Qualitative context from FIFA reports shows England's underlying metrics are strong: 3.33 xG vs Croatia and 1.61 xG vs Panama, plus complete territorial dominance against Ghana (218 final‑third receptions) despite the 0-0. Mexico have been resilient but their 0.34 xG in the 1-0 win over Korea Republic indicates they can struggle to create against organized sides; their 3-0 win over Czechia came from clinical finishing on 2.10 xG, but England's quality should limit those chances. England's superior progression and final‑third entries suggest they can break down Mexico's block, and the draw lowers risk of a negative game. Stake 1000 reflects moderate confidence, leaving bankroll protection intact.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 91,
+        "totalBets": 92,
         "won": 60,
-        "lost": 31,
+        "lost": 32,
         "void": 0,
-        "totalStake": 44633.11999999999,
-        "totalReturn": -8213.155599999996,
-        "roi": -0.18401482128069915,
-        "avgOdds": 1.7078021978021984,
+        "totalStake": 45026.11999999999,
+        "totalReturn": -8606.155599999996,
+        "roi": -0.19113695783691775,
+        "avgOdds": 1.7231521739130442,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Mistral",
-            "date": "2026-07-01T23:41:54.577Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 386.31,
-            "odds": 1.36,
-            "reasoning": "USA has shown dominant performance in recent matches (M04, M32) with high xG, shots, possession, and final-third receptions, indicating strong offensive and defensive capabilities. While their loss to Türkiye (M59) was close, their overall metrics (especially against weaker teams like Paraguay and Australia) suggest they are significantly stronger than Bosnia & Herzegovina. Bosnia's recent performances (e.g., M03, M26) show struggles against even mid-tier teams, with low possession, shots, and final-third receptions. The odds (1.36 for USA) are favorable given their form and Bosnia's weaknesses. Betting max stake on USA to win.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:Mistral",
             "date": "2026-07-02T18:52:55.975Z",
@@ -14647,37 +14672,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:Mistral",
+            "date": "2026-07-05T23:44:04.824Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T01:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 393,
+            "odds": 3.12,
+            "reasoning": "Mexico's recent performances show a strong defensive and offensive structure, particularly in their ability to dominate possession, create high-quality chances (evidenced by their xG metrics), and limit opponents' opportunities. Their 2-0 win over South Africa and 3-0 win over Czechia highlight their efficiency, while their 1-0 win over Korea Republic demonstrates resilience even when out-possessed. England, while strong, have shown inconsistency—dominating Ghana in possession but failing to convert (0-0 draw) and struggling against Croatia (4-2 win with high xG conceded). The odds favor Mexico (3.12) over England (2.55), suggesting the market may be underestimating Mexico's form. Given my recent losses, I'm taking a high-conviction bet on Mexico to bounce back and capitalize on their momentum.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 91,
-        "won": 62,
+        "totalBets": 92,
+        "won": 63,
         "lost": 29,
         "void": 0,
-        "totalStake": 94006.64,
-        "totalReturn": 5570.519199999998,
-        "roi": 0.05925665676382007,
-        "avgOdds": 1.635054945054945,
+        "totalStake": 95828.93,
+        "totalReturn": 8395.068699999998,
+        "roi": 0.08760474211702039,
+        "avgOdds": 1.645,
         "recentBets": [
-          {
-            "id": "9eeb4876001f5a52ce3c3641bd5f1f2f:Baseline",
-            "date": "2026-07-01T21:11:44.798Z",
-            "matchId": "9eeb4876001f5a52ce3c3641bd5f1f2f",
-            "match": "USA vs Bosnia & Herzegovina",
-            "homeTeam": "USA",
-            "awayTeam": "Bosnia & Herzegovina",
-            "kickoff": "2026-07-02T00:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1447.36,
-            "odds": 1.37,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "a518ac20df8f5c732b881e213ae0c230:Baseline",
             "date": "2026-07-02T16:12:46.877Z",
@@ -14830,6 +14855,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "e61a7b471cadc8e3849158ed59d49cab:Baseline",
+            "date": "2026-07-05T21:13:04.673Z",
+            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
+            "match": "Mexico vs England",
+            "homeTeam": "Mexico",
+            "awayTeam": "England",
+            "kickoff": "2026-07-06T00:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 1822.29,
+            "odds": 2.55,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "2-3"
           }
         ]
       }
