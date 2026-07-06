@@ -13669,22 +13669,22 @@
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:Claude",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
       "awayTeam": "Belgium",
       "kickoff": "2026-07-07T00:00:00Z",
       "model": "Claude",
-      "pick": "home",
-      "stake": 2400,
-      "odds": 2.53,
-      "reasoning": "Near coin-flip odds (2.53 vs 2.85) with home advantage tilting the edge to USA. USA's xG profile at home is strong (1.88 vs PAR, 1.58 vs AUS), while Belgium dominates territory but finishes erratically — two 0-0/1-1 draws despite heavy possession vs Iran and Egypt. Home crowd plus Belgium's conversion issues make USA slight value. Moderate stake given genuine uncertainty.",
+      "pick": "away",
+      "stake": 2200,
+      "odds": 2.85,
+      "reasoning": "Near coin-flip odds, but Belgium's underlying process metrics (final-third receptions, shot volume, line breaks) are consistently superior across their matches. USA showed real defensive vulnerability in the 3-2 loss to Türkiye, conceding 18 shots. Belgium at 2.85 offers slight value as the higher-quality side, even accounting for USA's home edge. Moderate stake given genuine uncertainty.",
       "status": "pending"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:GPT-5.5",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
@@ -13694,12 +13694,12 @@
       "pick": "away",
       "stake": 72.52,
       "odds": 2.85,
-      "reasoning": "Odds are the main signal and this is priced close, but I make Belgium slightly better than the market implies at 2.85. USA have been strong, especially in chance creation and territory, but Belgium's underlying tournament numbers are excellent: they have allowed very little xG across their reports and created a huge volume of shots/chances, even in the two draws. USA home advantage matters, but Belgium's process looks strong enough that the away price is the best value. With a small bankroll and needing upside, I am staking the match maximum.",
+      "reasoning": "Odds make this very close, but Belgium at 2.85 looks like the best value to me. USA have been good and get the host boost, yet Belgium’s underlying tournament reports are stronger overall: they controlled Iran despite 0-0 and then produced a huge 3.99 xG / 35-shot performance against New Zealand. At my bankroll position I need upside, so I’m taking the higher-priced side rather than the safer-looking USA angle.",
       "status": "pending"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:Gemini",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
@@ -13709,12 +13709,12 @@
       "pick": "home",
       "stake": 2450,
       "odds": 2.53,
-      "reasoning": "Analyzing the underlying metrics, the USA has shown highly consistent and dominant performance profiles despite their tight loss to Türkiye, maintaining high xG creation (1.88 vs Paraguay, 1.58 vs Australia, and 1.78 vs Türkiye) and solid control in the final third. Belgium, while possessing a high-volume attack against weaker opposition like New Zealand (3.99 xG), struggled to find the net against Iran (0.00 goals on 1.48 xG) and drew with Egypt. The USA is playing on home soil for this tournament, and at odds of 2.53, the market is slightly underestimating their high-intensity press and transition efficiency. Taking the USA to win in regulation.",
+      "reasoning": "Analyzing the underlying performance metrics, the USA has shown highly efficient attacking output throughout the group stage, maintaining dominant xG control and high progression rates even in their narrow loss to Türkiye (1.78 xG, 18 shots). Belgium, while dominant against New Zealand, struggled heavily to break down structured defenses in their matches against Egypt (1.1 xG) and Iran (0.0-0 draw). Given the USA's high-pressing style and home-continent advantage, the odds of 2.53 offer excellent value for a home win. We will back the USA with a strong, calculated stake.",
       "status": "pending"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:Grok",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
@@ -13722,14 +13722,14 @@
       "kickoff": "2026-07-07T00:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 800,
+      "stake": 1000,
       "odds": 2.85,
-      "reasoning": "Belgium has shown stronger recent form with dominant xG, possession, and shot metrics in wins/draws vs Egypt, Iran, and New Zealand. USA's results are mixed (strong vs Paraguay/Australia but loss to Turkiye) despite home edge; away at 2.85 offers value over the slight home favorite odds.",
+      "reasoning": "Belgium's underlying metrics across reports show superior chance creation and control compared to USA's mixed results (including the loss to Turkiye). Odds slightly undervalue the away side given Belgium's quality edge.",
       "status": "pending"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:DeepSeek",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
@@ -13737,14 +13737,14 @@
       "kickoff": "2026-07-07T00:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 1500,
+      "stake": 1200,
       "odds": 2.85,
-      "reasoning": "Belgium's underlying numbers are strong: huge xG and shot volume against weaker sides (3.99 vs NZ, 1.48 vs Iran), and a credible draw vs Egypt. USA's xG against T&uuml;rkiye masked defensive gaps, and prior wins came against lower-tier opponents. Belgium's progression and final-third entry stats suggest they can break down USA's pressure, and odds of 2.85 offer value given their quality edge, even with USA's home advantage.",
+      "reasoning": "Belgium's underlying numbers from the FIFA reports show they created 1.48 xG against Iran and 3.99 xG against New Zealand, yet failed to score against Iran. USA's defense conceded 1.71 xG against Turkey and allowed 7 shots on target. The market gives USA a slight edge at 2.53, but Belgium at 2.85 offers value given their chance creation and the likelihood of finishing regression. I'm backing Belgium to win, but managing risk with a moderate stake.",
       "status": "pending"
     },
     {
       "id": "810f80b3ae79f5e86b3747ca15718ed8:Mistral",
-      "date": "2026-07-06T22:03:41.624Z",
+      "date": "2026-07-06T22:36:12.061Z",
       "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
       "match": "USA vs Belgium",
       "homeTeam": "USA",
@@ -13754,13 +13754,13 @@
       "pick": "home",
       "stake": 254.72,
       "odds": 2.53,
-      "reasoning": "USA's recent performances show a strong attacking and possession game, especially at home (or neutral with home advantage). Their xG and shot dominance against Paraguay (4-1) and Australia (2-0) are impressive, and even in their loss to Türkiye, their xG was nearly identical (1.78 vs 1.71). Belgium, while strong, struggled against Egypt (1-1) and Iran (0-0), with their xG not always translating to goals. The USA's high-pressure system (evident in their line breaks and progressions) and superior final-third receptions suggest they can exploit Belgium's defensive vulnerabilities. The odds (2.53 for USA) are favorable given their recent form and Belgium's inconsistency. Betting max stake on USA to win.",
+      "reasoning": "USA's recent performances show a strong attacking and possession game, especially at home in this tournament context. Their xG and shot dominance against Paraguay and Australia, coupled with high final-third receptions and line breaks, suggest they are creating high-quality chances. Belgium, while strong, had a shaky draw against Egypt and a goalless draw against Iran, with their xG not fully translating into goals. The USA's 4-1 win over Paraguay and 2-0 win over Australia are more convincing than Belgium's 1-1 draw and 0-0 draw. The odds for USA (2.53) are more favorable than Belgium (2.85), and the draw (3.45) seems less likely given the USA's recent form and home advantage. Betting max stake on USA to win.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-06T22:03:41.624Z",
+    "lastBetsRun": "2026-07-06T22:36:12.061Z",
     "lastSettleRun": "2026-07-06T21:22:10.363Z",
     "failures": [
       {
