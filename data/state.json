@@ -376,6 +376,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 13790.09
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 14747.64
       }
     ],
     "GPT-5.5": [
@@ -754,6 +758,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 551.05
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 583.06
       }
     ],
     "Gemini": [
@@ -1132,6 +1140,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 11531.49
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 12328.92
       }
     ],
     "Grok": [
@@ -1510,6 +1522,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 7588.07
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 8103.6
       }
     ],
     "DeepSeek": [
@@ -1888,6 +1904,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 7001.43
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 7471.68
       }
     ],
     "Mistral": [
@@ -2266,6 +2286,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 1072.4
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 1140.19
       }
     ],
     "Baseline": [
@@ -2644,6 +2668,10 @@
       {
         "t": "2026-07-07T02:11:50.957Z",
         "bankroll": 19071.4
+      },
+      {
+        "t": "2026-07-07T19:18:39.581Z",
+        "bankroll": 19719.83
       }
     ]
   },
@@ -13812,7 +13840,9 @@
       "stake": 1907.14,
       "odds": 1.34,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:Claude",
@@ -13827,7 +13857,9 @@
       "stake": 2901.68,
       "odds": 1.33,
       "reasoning": "Argentina has been dominant this tournament: 3-0 over Algeria, 2-0 over Austria, 3-1 over Jordan with consistently strong xG numbers (1.58, 2.45, 2.52). Egypt is a scrappy, well-organized side but their attacking output has been modest — they beat NZ and drew Belgium/Iran but posted low xG in tighter games. At 1.33 the home price is fair value given Argentina's clear quality and form gap. Solid confidence play, but I'm not overloading given short odds and only one match to bet on.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:GPT-5.5",
@@ -13842,7 +13874,9 @@
       "stake": 97.01,
       "odds": 1.33,
       "reasoning": "Argentina are the clear class side here and the odds still make them the primary probability play. Their tournament profile is strong: 3-0 Algeria, 2-0 Austria, 3-1 Jordan, with xG wins in all three and only about 0.67 xG conceded per match. Egypt have been competitive and hard-working, but their results include two draws and they allowed Iran 2.24 xG. At 1.33 there is not huge upside, but Argentina’s win probability looks high enough to justify taking the favorite and staking the maximum allowed.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:Gemini",
@@ -13857,7 +13891,9 @@
       "stake": 2416.44,
       "odds": 1.33,
       "reasoning": "Argentina enters this match in stellar form, backed by highly dominant underlying performance metrics. Across their group stage matches, they consistently generated superior expected goals (xG) differentials (1.58-0.41 vs Algeria, 2.45-0.63 vs Austria, and 2.52-0.96 vs Jordan), reflecting both defensive stability and clinical attacking efficiency. On the other hand, Egypt has shown vulnerability, most notably being heavily outplayed in xG (0.92-2.24) during their draw with IR Iran. Given Argentina's elite tactical structure and the strong probability implied by the 1.33 home odds, they are highly favored to win. We backing them with our maximum allowed stake of $2,882.87 to maximize our bankroll growth in this stage of the tournament.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:Grok",
@@ -13872,7 +13908,9 @@
       "stake": 1562.22,
       "odds": 1.33,
       "reasoning": "Argentina's recent results show clear dominance (high xG, strong possession and progression metrics vs Algeria/Austria/Jordan), while Egypt's underlying numbers are far more mixed and less convincing. The 1.33 home price is the clearest value signal here given the qualitative gap.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:DeepSeek",
@@ -13887,7 +13925,9 @@
       "stake": 1425,
       "odds": 1.33,
       "reasoning": "Argentina are heavy favourites with dominant performances against Algeria (3-0, xG 1.58-0.41), Austria (2-0, xG 2.45-0.63) and Jordan (3-1, xG 2.52-0.96). Egypt have been competitive but underlying numbers are weaker: they drew Belgium despite inferior xG (0.73-1.07) and were fortunate to draw Iran (xG 0.92-2.24) while being heavily outchanced. The 1.33 odds imply ~75% win probability, and Argentina's control and superior chance creation should secure a routine win. Staking $1500 reflects high confidence within bankroll limits.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "190922affd0be754bfefd71548dbf90d:Mistral",
@@ -13902,7 +13942,9 @@
       "stake": 205.43,
       "odds": 1.33,
       "reasoning": "Argentina has shown dominant performances in their recent matches, particularly in attack (xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan) and possession (67.6% vs Jordan). Their defensive solidity is also evident with clean sheets in the last two matches. Egypt, while resilient (draws vs Belgium and Iran), have struggled to convert possession into clear chances (xG of 0.73 vs Belgium and 0.92 vs Iran). The odds heavily favor Argentina (1.33), and their recent form and attacking prowess make them the clear favorite. Betting the maximum stake here to capitalize on the high-confidence outcome.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "3-2"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:Baseline",
@@ -14013,7 +14055,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-07T17:28:17.201Z",
-    "lastSettleRun": "2026-07-07T02:11:50.957Z",
+    "lastSettleRun": "2026-07-07T19:18:39.581Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14094,32 +14136,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 94,
-        "won": 63,
+        "totalBets": 95,
+        "won": 64,
         "lost": 31,
         "void": 0,
-        "totalStake": 115125.74000000002,
-        "totalReturn": 2879.772499999999,
-        "roi": 0.02501414974618186,
-        "avgOdds": 1.665638297872341,
+        "totalStake": 118027.42000000001,
+        "totalReturn": 3837.326899999999,
+        "roi": 0.0325121645461707,
+        "avgOdds": 1.6621052631578954,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:Claude",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2200,
-            "odds": 1.97,
-            "reasoning": "Switzerland's xG profile is excellent (3.14 vs Qatar, comfortable control vs Canada) and they consistently dominate possession and chance quality. Algeria is streaky and defensively leaky, conceding 3 to Austria. At 1.97, the more reliable higher-ceiling home side offers solid value.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:Claude",
             "date": "2026-07-03T16:37:36.393Z",
@@ -14272,37 +14297,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:Claude",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2901.68,
+            "odds": 1.33,
+            "reasoning": "Argentina has been dominant this tournament: 3-0 over Algeria, 2-0 over Austria, 3-1 over Jordan with consistently strong xG numbers (1.58, 2.45, 2.52). Egypt is a scrappy, well-organized side but their attacking output has been modest — they beat NZ and drew Belgium/Iran but posted low xG in tighter games. At 1.33 the home price is fair value given Argentina's clear quality and form gap. Solid confidence play, but I'm not overloading given short odds and only one match to bet on.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 94,
-        "won": 43,
+        "totalBets": 95,
+        "won": 44,
         "lost": 51,
         "void": 0,
-        "totalStake": 24723.030000000002,
-        "totalReturn": -9578.043600000003,
-        "roi": -0.38741382427639337,
-        "avgOdds": 3.8485106382978733,
+        "totalStake": 24820.04,
+        "totalReturn": -9546.030300000002,
+        "roi": -0.3846097870913988,
+        "avgOdds": 3.822000000000001,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:GPT-5.5",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 31.62,
-            "odds": 1.97,
-            "reasoning": "Switzerland are priced as the better side and the training-centre context supports that: they created 3.14 xG and dominated territory against Qatar, then beat Canada despite a closer chance profile. Algeria have been competitive and progressive in possession, especially vs Jordan/Austria, but their defensive level still looks more vulnerable against a Swiss side that has generated quality chances. At 1.97 I make Switzerland a small but clear value favorite, and given my bankroll position I’m staking the maximum.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:GPT-5.5",
             "date": "2026-07-03T16:37:36.393Z",
@@ -14455,37 +14480,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:GPT-5.5",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 97.01,
+            "odds": 1.33,
+            "reasoning": "Argentina are the clear class side here and the odds still make them the primary probability play. Their tournament profile is strong: 3-0 Algeria, 2-0 Austria, 3-1 Jordan, with xG wins in all three and only about 0.67 xG conceded per match. Egypt have been competitive and hard-working, but their results include two draws and they allowed Iran 2.24 xG. At 1.33 there is not huge upside, but Argentina’s win probability looks high enough to justify taking the favorite and staking the maximum allowed.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 94,
-        "won": 63,
+        "totalBets": 95,
+        "won": 64,
         "lost": 31,
         "void": 0,
-        "totalStake": 84944.54999999999,
-        "totalReturn": 1241.735099999998,
-        "roi": 0.014618184450915311,
-        "avgOdds": 1.702021276595745,
+        "totalStake": 87360.98999999999,
+        "totalReturn": 2039.1602999999982,
+        "roi": 0.0233417718823928,
+        "avgOdds": 1.6981052631578952,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:Gemini",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 1850.5,
-            "odds": 1.97,
-            "reasoning": "Switzerland has shown excellent underlying metrics this tournament, notably generating a massive 3.14 xG against Qatar and securing a 2-1 win over Canada. Algeria, while capable going forward, has shown defensive vulnerabilities, conceding three goals to both Argentina and Austria. At odds of 1.97, Switzerland represents strong value to win this match.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:Gemini",
             "date": "2026-07-03T16:37:36.393Z",
@@ -14638,37 +14663,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:Gemini",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 2416.44,
+            "odds": 1.33,
+            "reasoning": "Argentina enters this match in stellar form, backed by highly dominant underlying performance metrics. Across their group stage matches, they consistently generated superior expected goals (xG) differentials (1.58-0.41 vs Algeria, 2.45-0.63 vs Austria, and 2.52-0.96 vs Jordan), reflecting both defensive stability and clinical attacking efficiency. On the other hand, Egypt has shown vulnerability, most notably being heavily outplayed in xG (0.92-2.24) during their draw with IR Iran. Given Argentina's elite tactical structure and the strong probability implied by the 1.33 home odds, they are highly favored to win. We backing them with our maximum allowed stake of $2,882.87 to maximize our bankroll growth in this stage of the tournament.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 94,
-        "won": 62,
+        "totalBets": 95,
+        "won": 63,
         "lost": 32,
         "void": 0,
-        "totalStake": 97670.16000000008,
-        "totalReturn": -2876.7329999999965,
-        "roi": -0.029453550603377676,
-        "avgOdds": 1.7381914893617025,
+        "totalStake": 99232.38000000008,
+        "totalReturn": -2361.2003999999965,
+        "roi": -0.023794656542551883,
+        "avgOdds": 1.7338947368421058,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:Grok",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 813.4,
-            "odds": 1.97,
-            "reasoning": "Switzerland's underlying numbers vs Qatar (xG 3.14, 26 shots, 58% poss, 245 final-third receptions) show clear dominance that Algeria has not demonstrated at the same level. Algeria's results are mixed (heavy loss to Argentina, draw vs Austria) while Switzerland controlled Canada too. Home edge at 1.97 is the value side given the data gap.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:Grok",
             "date": "2026-07-03T16:37:36.393Z",
@@ -14821,37 +14846,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:Grok",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1562.22,
+            "odds": 1.33,
+            "reasoning": "Argentina's recent results show clear dominance (high xG, strong possession and progression metrics vs Algeria/Austria/Jordan), while Egypt's underlying numbers are far more mixed and less convincing. The 1.33 home price is the clearest value signal here given the qualitative gap.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 94,
-        "won": 61,
+        "totalBets": 95,
+        "won": 62,
         "lost": 33,
         "void": 0,
-        "totalStake": 54096.77999999998,
-        "totalReturn": -3118.5961999999995,
-        "roi": -0.05764846262568679,
-        "avgOdds": 1.8832978723404261,
+        "totalStake": 55521.77999999998,
+        "totalReturn": -2648.3461999999995,
+        "roi": -0.047699230824371996,
+        "avgOdds": 1.877473684210527,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:DeepSeek",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 800,
-            "odds": 1.97,
-            "reasoning": "Switzerland have been creating high xG numbers (3.14 vs Qatar) and won against Canada despite being outshot. Algeria shipped three to Argentina and conceded three against Austria, showing defensive weaknesses. At home odds of 1.97, Switzerland offer value given their superior metrics. Stake moderate, around 14% of bankroll.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:DeepSeek",
             "date": "2026-07-03T16:37:36.393Z",
@@ -15004,37 +15029,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:DeepSeek",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1425,
+            "odds": 1.33,
+            "reasoning": "Argentina are heavy favourites with dominant performances against Algeria (3-0, xG 1.58-0.41), Austria (2-0, xG 2.45-0.63) and Jordan (3-1, xG 2.52-0.96). Egypt have been competitive but underlying numbers are weaker: they drew Belgium despite inferior xG (0.73-1.07) and were fortunate to draw Iran (xG 0.92-2.24) while being heavily outchanced. The 1.33 odds imply ~75% win probability, and Argentina's control and superior chance creation should secure a routine win. Staking $1500 reflects high confidence within bankroll limits.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 94,
-        "won": 60,
+        "totalBets": 95,
+        "won": 61,
         "lost": 34,
         "void": 0,
-        "totalStake": 45597.01999999999,
-        "totalReturn": -9177.055599999996,
-        "roi": -0.2012643721015101,
-        "avgOdds": 1.7521276595744686,
+        "totalStake": 45802.44999999999,
+        "totalReturn": -9109.263699999996,
+        "roi": -0.19888158166211628,
+        "avgOdds": 1.7476842105263164,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:Mistral",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 441.89,
-            "odds": 1.97,
-            "reasoning": "Switzerland has shown dominant performance metrics in their recent matches, particularly in xG, shots, possession, and final-third receptions. Against Qatar, they had an xG of 3.14 and 26 shots, while against Canada, they maintained strong control despite a closer xG. Algeria, on the other hand, has been inconsistent. While they dominated Jordan in possession and shots (xG 2.05), they struggled against Argentina (xG 0.41) and drew with Austria despite a high xG (1.54). Switzerland's odds (1.97) are favorable given their recent form and underlying stats, making them the safer pick over Algeria, whose away form is less reliable. Betting the maximum stake here due to high confidence in Switzerland's ability to control the game.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:Mistral",
             "date": "2026-07-03T16:37:36.393Z",
@@ -15187,37 +15212,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:Mistral",
+            "date": "2026-07-07T15:11:57.964Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 205.43,
+            "odds": 1.33,
+            "reasoning": "Argentina has shown dominant performances in their recent matches, particularly in attack (xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan) and possession (67.6% vs Jordan). Their defensive solidity is also evident with clean sheets in the last two matches. Egypt, while resilient (draws vs Belgium and Iran), have struggled to convert possession into clear chances (xG of 0.73 vs Belgium and 0.92 vs Iran). The odds heavily favor Argentina (1.33), and their recent form and attacking prowess make them the clear favorite. Betting the maximum stake here to capitalize on the high-confidence outcome.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 94,
-        "won": 64,
+        "totalBets": 95,
+        "won": 65,
         "lost": 30,
         "void": 0,
-        "totalStake": 99673.97,
-        "totalReturn": 8241.267099999997,
-        "roi": 0.08268223990676801,
-        "avgOdds": 1.6574468085106382,
+        "totalStake": 101581.11,
+        "totalReturn": 8889.694699999998,
+        "roi": 0.0875132659999482,
+        "avgOdds": 1.6541052631578945,
         "recentBets": [
-          {
-            "id": "c17fe2e46190d7ab6af01504ff240e82:Baseline",
-            "date": "2026-07-03T00:10:16.785Z",
-            "matchId": "c17fe2e46190d7ab6af01504ff240e82",
-            "match": "Switzerland vs Algeria",
-            "homeTeam": "Switzerland",
-            "awayTeam": "Algeria",
-            "kickoff": "2026-07-03T03:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1706.54,
-            "odds": 1.97,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "2-0"
-          },
           {
             "id": "fb270a3dac2b682c861bd674a5ff4a04:Baseline",
             "date": "2026-07-03T15:12:53.976Z",
@@ -15370,6 +15395,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-4"
+          },
+          {
+            "id": "190922affd0be754bfefd71548dbf90d:Baseline",
+            "date": "2026-07-07T13:13:16.619Z",
+            "matchId": "190922affd0be754bfefd71548dbf90d",
+            "match": "Argentina vs Egypt",
+            "homeTeam": "Argentina",
+            "awayTeam": "Egypt",
+            "kickoff": "2026-07-07T16:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1907.14,
+            "odds": 1.34,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "3-2"
           }
         ]
       }
