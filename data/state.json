@@ -14123,14 +14123,7 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [
-      {
-        "matchId": "a6da973c5749ce60adab77d64b3664f4",
-        "homeTeam": "Switzerland",
-        "awayTeam": "Colombia",
-        "kickoff": "2026-07-07T20:00:00Z"
-      }
-    ],
+    "upcomingMatches": [],
     "liveMatches": [],
     "lastCyclePostKey": "a6da973c5749ce60adab77d64b3664f4",
     "performance": {
