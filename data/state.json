@@ -13963,7 +13963,7 @@
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:Claude",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -13971,14 +13971,14 @@
       "kickoff": "2026-07-07T20:00:00Z",
       "model": "Claude",
       "pick": "away",
-      "stake": 2600,
+      "stake": 2400,
       "odds": 2.35,
-      "reasoning": "Colombia's underlying numbers are stronger and more consistent than Switzerland's. Switzerland were battered on xG by Qatar (0.52-3.14) and out-shot by Canada, meaning their results overperform their process. Colombia out-created Portugal (1.85-0.97 xG, 24 shots) and dominated Congo DR. At 2.35 as the away side, I see genuine value backing the better team.",
+      "reasoning": "Colombia has been the more consistent, higher-quality side across their sample: dominated Uzbekistan, controlled Congo DR, and out-created Portugal 1.85-0.97 xG with 24 shots in a 0-0 draw. Switzerland got heavily outshot even in wins (6 shots vs Canada, 6 vs Qatar). At 2.35 the away price offers value on the stronger underlying performer, though balanced odds warrant moderate sizing.",
       "status": "pending"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:GPT-5.5",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -13988,12 +13988,12 @@
       "pick": "away",
       "stake": 102.78,
       "odds": 2.35,
-      "reasoning": "Taking the max position on Colombia. Odds are the main signal and 2.35 still gives a playable price on the stronger side. The FIFA reports support Colombia as the better underlying team: they outshot Portugal 24-13 with 1.85 xG, controlled Congo DR 20-7 shots and 1.54-0.42 xG, and have generally produced stronger territory/volume than Switzerland. Switzerland did dominate Qatar but only drew, and Canada created plenty against them in a narrow Swiss win. Draw risk is real, but at this bankroll I need upside and Colombia away is my preferred edge.",
+      "reasoning": "Colombia at 2.35 is the best side of the board for me. Odds still drive the decision, but the FIFA reports add support: Colombia have consistently controlled territory and chance volume, including 1.85 xG to 0.97 vs Portugal, 20 shots and 1.54 xG vs Congo DR, and a solid win over Uzbekistan. Switzerland’s underlying numbers are mixed: they crushed Qatar on xG but only drew, and Canada created nearly as much while outshooting them. Colombia look like the stronger, more repeatable team, and I need to press positive edges from this bankroll position, so I’m staking the maximum.",
       "status": "pending"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:Gemini",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -14001,14 +14001,14 @@
       "kickoff": "2026-07-07T20:00:00Z",
       "model": "Gemini",
       "pick": "away",
-      "stake": 2592.51,
+      "stake": 2465.78,
       "odds": 2.35,
-      "reasoning": "Colombia has shown exceptional underlying performance metrics throughout their group matches, consistently dominating possession, final-third entries, and generating high-quality chances (most notably out-creating Portugal with 1.85 xG to 0.97 in a 0-0 draw). While Switzerland's metrics are respectable, they have also shown vulnerability, particularly in conceding 1.61 xG to Canada and failing to fully convert massive dominance against Qatar. At odds of 2.35, the implied probability of a Colombia victory is 42.5%, which represents outstanding value given their superior squad depth, tactical cohesion, and consistent offensive output in the tournament so far. I am backing Colombia with my maximum allowed stake.",
+      "reasoning": "Colombia has shown excellent underlying performance metrics throughout the tournament, dominating Portugal on expected goals (1.85 to 0.97) despite a 0-0 draw, and comfortably handling Congo DR. Switzerland has put up decent fight but their underlying metrics against Canada (xG 1.68-1.61) suggest defensive vulnerabilities. At odds of 2.35, the value lies on Colombia's superior attacking output and squad depth to secure a win in normal time.",
       "status": "pending"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:Grok",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -14016,14 +14016,14 @@
       "kickoff": "2026-07-07T20:00:00Z",
       "model": "Grok",
       "pick": "away",
-      "stake": 1672.18,
+      "stake": 1500,
       "odds": 2.35,
-      "reasoning": "Colombia has shown superior underlying metrics across recent matches, particularly in xG creation and chance quality against varied opposition (strong xG edges vs Congo and Portugal, solid control vs Uzbekistan). Switzerland's dominance has been mostly against weaker sides like Qatar and they struggled to create consistently vs Canada. The 2.35 away odds undervalue Colombia's edge in progression and final-third metrics.",
+      "reasoning": "Colombia has shown superior underlying metrics across recent matches (higher xG, shots, possession, and final-third receptions vs multiple opponents), while Switzerland's dominance has been mostly against weaker sides like Qatar. Away odds at 2.35 offer solid value given Colombia's edge in progressions and chance creation.",
       "status": "pending"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:DeepSeek",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -14031,14 +14031,14 @@
       "kickoff": "2026-07-07T20:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 1526.9,
+      "stake": 1500,
       "odds": 2.35,
-      "reasoning": "Colombia's recent performances are far superior. They dominated Portugal (1.85 xG vs 0.97), controlled Congo DR (1.54 xG, 58% possession), and were clinical in a 3-1 win over Uzbekistan. Switzerland labored to a 1-1 draw with Qatar despite 3.14 xG, and narrowly beat Canada 2-1 with a lower xG (1.68 vs 1.61). The odds imply Colombia as favorite, and the qualitative data strongly supports an away win.",
+      "reasoning": "Colombia have been consistently strong, dominating xG against Congo DR (1.54-0.42) and Portugal (1.85-0.97, unlucky 0-0), while Switzerland were out-xG'd by Canada (1.61) and failed to beat Qatar. Away odds at 2.35 offer value given Colombia's superior fundamentals.",
       "status": "pending"
     },
     {
       "id": "a6da973c5749ce60adab77d64b3664f4:Mistral",
-      "date": "2026-07-07T19:21:43.319Z",
+      "date": "2026-07-07T19:36:47.219Z",
       "matchId": "a6da973c5749ce60adab77d64b3664f4",
       "match": "Switzerland vs Colombia",
       "homeTeam": "Switzerland",
@@ -14048,13 +14048,13 @@
       "pick": "away",
       "stake": 218.64,
       "odds": 2.35,
-      "reasoning": "Colombia's recent performances show strong offensive and defensive metrics, particularly in their last two matches (M48 and M71). They dominated possession, final-third receptions, and line breaks against Congo DR and Portugal, two teams with solid defensive structures. Switzerland, while decent, has shown inconsistency in their xG and shot creation, especially in M08 where they massively outshot Qatar but only drew. Colombia's odds (2.35) are more favorable than their underlying stats suggest, and their recent form (1 win, 1 draw) is stronger than Switzerland's (1 win, 1 draw but less dominant). Betting on Colombia to continue their strong run.",
+      "reasoning": "Colombia's recent performances show strong offensive and defensive metrics, particularly in possession, final-third receptions, and line breaks. Switzerland, while solid, has struggled against weaker teams (e.g., Qatar) and was outplayed in key areas despite winning against Canada. The odds for Colombia (2.35) are more favorable than their underlying stats suggest, especially given their xG and shot dominance in recent matches. Betting on Colombia to continue their strong form with a high stake to recover from recent losses.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-07T19:21:43.319Z",
+    "lastBetsRun": "2026-07-07T19:36:47.219Z",
     "lastSettleRun": "2026-07-07T19:18:39.581Z",
     "failures": [
       {
