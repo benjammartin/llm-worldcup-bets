@@ -14165,7 +14165,14 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [],
+    "upcomingMatches": [
+      {
+        "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+        "homeTeam": "France",
+        "awayTeam": "Morocco",
+        "kickoff": "2026-07-09T20:00:00Z"
+      }
+    ],
     "liveMatches": [],
     "lastCyclePostKey": "a6da973c5749ce60adab77d64b3664f4",
     "performance": {
