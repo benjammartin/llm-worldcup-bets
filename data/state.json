@@ -384,6 +384,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 12347.64
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 13898.47
       }
     ],
     "GPT-5.5": [
@@ -770,6 +774,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 480.28
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 395.72
       }
     ],
     "Gemini": [
@@ -1156,6 +1164,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 9863.14
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 11093.69
       }
     ],
     "Grok": [
@@ -1542,6 +1554,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 6603.6
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 7416.4
       }
     ],
     "DeepSeek": [
@@ -1928,6 +1944,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 5971.68
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 6696.42
       }
     ],
     "Mistral": [
@@ -2314,6 +2334,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 921.55
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 1027.4
       }
     ],
     "Baseline": [
@@ -2700,6 +2724,10 @@
       {
         "t": "2026-07-07T23:48:38.921Z",
         "bankroll": 17812.69
+      },
+      {
+        "t": "2026-07-09T22:47:22.992Z",
+        "bankroll": 18881.45
       }
     ]
   },
@@ -14106,7 +14134,9 @@
       "stake": 1781.27,
       "odds": 1.6,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Claude",
@@ -14121,7 +14151,9 @@
       "stake": 2584.71,
       "odds": 1.6,
       "reasoning": "France vs Morocco is a compelling matchup. The data shows France has been clinical with 3-1 and 3-0 victories over Senegal and Iraq, followed by a dominant 4-1 win over Norway where they created 18 shots and controlled possession. Their xG numbers (1.62, 2.30, 1.05) and final-third activity demonstrate consistent attacking threat. Morocco has shown resilience - drawing Brazil 1-1 with superior xG (1.33-0.99), beating Scotland 1-0, and thrashing Haiti 4-2. However, their draw against Brazil came despite Brazil's possession advantage, and their wins were against weaker opposition. France's quality shines through in their progressive play metrics and shot creation. At 1.6 odds, France represents solid value as the superior team. Morocco's counter-attacking style could make this competitive, but France's tournament form and class should prevail. Betting approximately 23% of bankroll on France home win.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:GPT-5.5",
@@ -14136,7 +14168,9 @@
       "stake": 84.56,
       "odds": 6.75,
       "reasoning": "France are the rightful favorite, but at 6.75 Morocco look overpriced. Their draw with Brazil came with better xG and strong territorial/progression numbers, and they controlled Scotland and Haiti well enough to suggest this is not a pure mismatch. France’s results are excellent, but Norway still generated 1.45 xG against them, so the gap may be narrower than the market implies. I need upside from a low bankroll, and Morocco’s upset price is the best risk/reward on this slate.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Gemini",
@@ -14151,7 +14185,9 @@
       "stake": 2050.92,
       "odds": 1.6,
       "reasoning": "France has been highly efficient and dominant throughout the group stage, showing elite progression metrics and high-quality chance creation (xG of 2.30 vs Iraq, 1.62 vs Senegal, and clinical finishing against Norway). While Morocco is a formidable opponent with an impressive draw against Brazil and solid underlying numbers, France's squad depth, tournament pedigree, and superior attacking efficiency make them strong favorites here. At odds of 1.60, a home win offers highly backable value, and I am putting the maximum allowable stake on Les Bleus to secure a victory in normal time.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Grok",
@@ -14166,7 +14202,9 @@
       "stake": 1354.66,
       "odds": 1.6,
       "reasoning": "France's recent xG and shot dominance (esp. vs Senegal/Iraq/Norway) far outpace Morocco's mixed results (narrow wins vs Scotland/Haiti, draw vs Brazil). Home odds of 1.6 represent solid value given the underlying metrics and France's superior attack.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:DeepSeek",
@@ -14181,7 +14219,9 @@
       "stake": 1207.9,
       "odds": 1.6,
       "reasoning": "France have been ruthless in their last three matches, beating Senegal 3-1, Iraq 3-0 and Norway 4-1, all with strong attacking metrics and clinical finishing despite occasionally allowing chances. Morocco held Brazil to a draw and handled Scotland and Haiti, but the step up in opposition and France's firepower is significant. Odds of 1.6 imply a 62.5% win probability; my eye test rates France's chances closer to 65-70%, so there is value backing the home win. I'm sizing at the max single-match stake to capitalise on what looks like the strongest edge in this single-match slate.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Mistral",
@@ -14196,13 +14236,15 @@
       "stake": 176.42,
       "odds": 1.6,
       "reasoning": "France has demonstrated dominant offensive and defensive metrics in their recent matches, with high xG (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway), superior possession (49-51% in last 3 games), and significantly better final-third receptions and line breaks. Morocco, while showing resilience (e.g., 4-2 win over Haiti), has struggled against stronger teams like Brazil (1-1) and Scotland (1-0 with lower xG). France's odds (1.6) are attractive given their form and the qualitative edge in key performance indicators. Betting max stake on France to win, as the odds undervalue their superiority over Morocco.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-09T19:07:55.781Z",
-    "lastSettleRun": "2026-07-07T23:48:38.921Z",
+    "lastSettleRun": "2026-07-09T22:47:22.992Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14283,32 +14325,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 96,
-        "won": 64,
+        "totalBets": 97,
+        "won": 65,
         "lost": 32,
         "void": 0,
-        "totalStake": 120427.42000000001,
-        "totalReturn": 1437.3268999999991,
-        "roi": 0.011935212927421338,
-        "avgOdds": 1.669270833333334,
+        "totalStake": 123012.13000000002,
+        "totalReturn": 2988.152899999999,
+        "roi": 0.02429153043687642,
+        "avgOdds": 1.6685567010309283,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Claude",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2600,
-            "odds": 1.14,
-            "reasoning": "Argentina are a class above and in ruthless form (3-0 ALG, 2-0 AUT, 3-1 JOR) with consistent 1.5-2.5 xG output. Cape Verde have no attacking threat (0.13-0.54 xG across matches). Only risk is CPV's tendency to grind 0-0 draws, but Argentina's quality should break them down. 1.14 is thin value so I size moderately rather than max.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:Claude",
             "date": "2026-07-04T00:16:37.387Z",
@@ -14461,37 +14486,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:Claude",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2584.71,
+            "odds": 1.6,
+            "reasoning": "France vs Morocco is a compelling matchup. The data shows France has been clinical with 3-1 and 3-0 victories over Senegal and Iraq, followed by a dominant 4-1 win over Norway where they created 18 shots and controlled possession. Their xG numbers (1.62, 2.30, 1.05) and final-third activity demonstrate consistent attacking threat. Morocco has shown resilience - drawing Brazil 1-1 with superior xG (1.33-0.99), beating Scotland 1-0, and thrashing Haiti 4-2. However, their draw against Brazil came despite Brazil's possession advantage, and their wins were against weaker opposition. France's quality shines through in their progressive play metrics and shot creation. At 1.6 odds, France represents solid value as the superior team. Morocco's counter-attacking style could make this competitive, but France's tournament form and class should prevail. Betting approximately 23% of bankroll on France home win.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 96,
+        "totalBets": 97,
         "won": 44,
-        "lost": 52,
+        "lost": 53,
         "void": 0,
-        "totalStake": 24922.82,
-        "totalReturn": -9648.810300000003,
-        "roi": -0.38714761411429377,
-        "avgOdds": 3.806666666666668,
+        "totalStake": 25007.38,
+        "totalReturn": -9733.370300000002,
+        "roi": -0.38921991428130426,
+        "avgOdds": 3.8370103092783516,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:GPT-5.5",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 40.81,
-            "odds": 8.6,
-            "reasoning": "Argentina are clearly the better side and the odds say that, but at 1.14 the home price does almost nothing for my bankroll. Cape Verde have already held Spain 0-0, Uruguay 2-2, and Saudi Arabia 0-0, despite being outshot in some of those matches, so their tournament profile is exactly the kind of low-block/low-scoring team that can drag a favorite into a draw. Argentina should control this, but the draw at 8.6 is the only outcome with enough upside and plausible enough path to matter from my current bankroll position.",
-            "status": "won",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:GPT-5.5",
             "date": "2026-07-04T00:16:37.387Z",
@@ -14644,37 +14669,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:GPT-5.5",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 84.56,
+            "odds": 6.75,
+            "reasoning": "France are the rightful favorite, but at 6.75 Morocco look overpriced. Their draw with Brazil came with better xG and strong territorial/progression numbers, and they controlled Scotland and Haiti well enough to suggest this is not a pure mismatch. France’s results are excellent, but Norway still generated 1.45 xG against them, so the gap may be narrower than the market implies. I need upside from a low bankroll, and Morocco’s upset price is the best risk/reward on this slate.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 96,
-        "won": 64,
+        "totalBets": 97,
+        "won": 65,
         "lost": 32,
         "void": 0,
-        "totalStake": 89826.76999999999,
-        "totalReturn": -426.619700000002,
-        "roi": -0.004749360352153395,
-        "avgOdds": 1.7048958333333337,
+        "totalStake": 91877.68999999999,
+        "totalReturn": 803.9322999999981,
+        "roi": 0.008750027346138091,
+        "avgOdds": 1.7038144329896912,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Gemini",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 2500,
-            "odds": 1.14,
-            "reasoning": "Argentina has been highly efficient and dominant in their matches, registering comfortable wins against Algeria (3-0), Austria (2-0), and Jordan (3-1) with strong underlying expected goals (xG) metrics. While Cape Verde has shown incredible defensive resilience, holding Spain to a 0-0 draw and drawing 2-2 with Uruguay, Argentina's elite attacking quality and tactical flexibility should prove too much to handle in this matchup. Backing the home win at odds of 1.14 with a high-confidence stake of $2,500 to keep building our tournament bankroll securely.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:Gemini",
             "date": "2026-07-04T00:16:37.387Z",
@@ -14827,37 +14852,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:Gemini",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 2050.92,
+            "odds": 1.6,
+            "reasoning": "France has been highly efficient and dominant throughout the group stage, showing elite progression metrics and high-quality chance creation (xG of 2.30 vs Iraq, 1.62 vs Senegal, and clinical finishing against Norway). While Morocco is a formidable opponent with an impressive draw against Brazil and solid underlying numbers, France's squad depth, tournament pedigree, and superior attacking efficiency make them strong favorites here. At odds of 1.60, a home win offers highly backable value, and I am putting the maximum allowable stake on Les Bleus to secure a victory in normal time.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 96,
-        "won": 63,
+        "totalBets": 97,
+        "won": 64,
         "lost": 33,
         "void": 0,
-        "totalStake": 100732.38000000008,
-        "totalReturn": -3861.2003999999965,
-        "roi": -0.03833127341972853,
-        "avgOdds": 1.7403125000000006,
+        "totalStake": 102087.04000000008,
+        "totalReturn": -3048.4043999999963,
+        "roi": -0.029860836399997433,
+        "avgOdds": 1.7388659793814438,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Grok",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 1093.8,
-            "odds": 1.14,
-            "reasoning": "Argentina's recent xG and shot dominance (e.g. 2.45-0.63 vs Austria, 2.52-0.96 vs Jordan) plus strong progression metrics indicate clear superiority over Cape Verde, whose low final-third receptions and high pressure counts in past games signal limited attacking threat. The 1.14 home odds offer solid value given the mismatch.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:Grok",
             "date": "2026-07-04T00:16:37.387Z",
@@ -15010,37 +15035,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:Grok",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1354.66,
+            "odds": 1.6,
+            "reasoning": "France's recent xG and shot dominance (esp. vs Senegal/Iraq/Norway) far outpace Morocco's mixed results (narrow wins vs Scotland/Haiti, draw vs Brazil). Home odds of 1.6 represent solid value given the underlying metrics and France's superior attack.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 96,
-        "won": 62,
+        "totalBets": 97,
+        "won": 63,
         "lost": 34,
         "void": 0,
-        "totalStake": 57021.77999999998,
-        "totalReturn": -4148.3462,
-        "roi": -0.07275020527244154,
-        "avgOdds": 1.882395833333334,
+        "totalStake": 58229.67999999998,
+        "totalReturn": -3423.6061999999997,
+        "roi": -0.05879486543632046,
+        "avgOdds": 1.8794845360824748,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:DeepSeek",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 1435.35,
-            "odds": 1.14,
-            "reasoning": "Argentina are massive favorites at 1.14, and the available performance data supports their superiority. In their matches, they posted xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan, showing consistent chance creation and clinical finishing with 9 goals across those three games. Cape Verde have been defensively resilient in draws against Spain (0-0, but xG 2.26-0.13) and Uruguay (2-2, xG 2.23-0.54), and a 0-0 with Saudi Arabia (xG 1.37-0.35). However, those results relied heavily on opponents' poor finishing and a low-block that still conceded significant xG. Argentina's attacking depth and ability to break lines (87-130 line breaks in their games) should eventually wear down Cape Verde's defense, and the 1.14 odds imply an ~87.7% win probability that I consider accurate. I'm staking the maximum allowed $1772.07 to maximize return on what I view as the safest bet on the slate, aiming to steadily rebuild bankroll.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:DeepSeek",
             "date": "2026-07-04T00:16:37.387Z",
@@ -15193,37 +15218,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:DeepSeek",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1207.9,
+            "odds": 1.6,
+            "reasoning": "France have been ruthless in their last three matches, beating Senegal 3-1, Iraq 3-0 and Norway 4-1, all with strong attacking metrics and clinical finishing despite occasionally allowing chances. Morocco held Brazil to a draw and handled Scotland and Haiti, but the step up in opposition and France's firepower is significant. Odds of 1.6 imply a 62.5% win probability; my eye test rates France's chances closer to 65-70%, so there is value backing the home win. I'm sizing at the max single-match stake to capitalise on what looks like the strongest edge in this single-match slate.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 96,
-        "won": 61,
+        "totalBets": 97,
+        "won": 62,
         "lost": 35,
         "void": 0,
-        "totalStake": 46021.08999999999,
-        "totalReturn": -9327.903699999995,
-        "roi": -0.20268758736483636,
-        "avgOdds": 1.753958333333334,
+        "totalStake": 46197.50999999999,
+        "totalReturn": -9222.051699999995,
+        "roi": -0.19962226752047885,
+        "avgOdds": 1.752371134020619,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Mistral",
-            "date": "2026-07-03T21:50:58.000Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 588.28,
-            "odds": 1.14,
-            "reasoning": "Argentina's recent performances show dominance in attack and control, even against stronger opponents. The xG and possession stats from their last matches (especially vs Algeria, Austria, and Jordan) indicate they are creating high-quality chances and limiting their opponents' opportunities. Cape Verde, while resilient defensively (as seen in their draws vs Spain and Saudi Arabia), have struggled to create meaningful chances (low xG, shots, and final-third receptions) and are likely to be overwhelmed by Argentina's attacking prowess. The odds (1.14 for Argentina) are heavily in their favor, and given their form, this is a high-confidence bet. Staking the maximum allowed to capitalize on this near-certain outcome.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:Mistral",
             "date": "2026-07-04T00:16:37.387Z",
@@ -15376,37 +15401,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:Mistral",
+            "date": "2026-07-09T19:07:55.781Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 176.42,
+            "odds": 1.6,
+            "reasoning": "France has demonstrated dominant offensive and defensive metrics in their recent matches, with high xG (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway), superior possession (49-51% in last 3 games), and significantly better final-third receptions and line breaks. Morocco, while showing resilience (e.g., 4-2 win over Haiti), has struggled against stronger teams like Brazil (1-1) and Scotland (1-0 with lower xG). France's odds (1.6) are attractive given their form and the qualitative edge in key performance indicators. Betting max stake on France to win, as the odds undervalue their superiority over Morocco.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 96,
-        "won": 65,
+        "totalBets": 97,
+        "won": 66,
         "lost": 31,
         "void": 0,
-        "totalStake": 103488.25,
-        "totalReturn": 6982.554699999998,
-        "roi": 0.06747195647815088,
-        "avgOdds": 1.6603124999999999,
+        "totalStake": 105269.52,
+        "totalReturn": 8051.316699999998,
+        "roi": 0.07648288602436866,
+        "avgOdds": 1.6596907216494843,
         "recentBets": [
-          {
-            "id": "3e161b2448ed76d6b0c0f5bda6fd5bf2:Baseline",
-            "date": "2026-07-03T19:00:29.632Z",
-            "matchId": "3e161b2448ed76d6b0c0f5bda6fd5bf2",
-            "match": "Argentina vs Cape Verde",
-            "homeTeam": "Argentina",
-            "awayTeam": "Cape Verde",
-            "kickoff": "2026-07-03T22:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1983.19,
-            "odds": 1.15,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "draw",
-            "settledScore": "1-1"
-          },
           {
             "id": "88e032a2b2e5042d26db3f0da1df924a:Baseline",
             "date": "2026-07-03T22:41:20.069Z",
@@ -15559,6 +15584,23 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "0-0"
+          },
+          {
+            "id": "b6e926d7f026782b9cab2fa02b823d92:Baseline",
+            "date": "2026-07-09T17:13:28.961Z",
+            "matchId": "b6e926d7f026782b9cab2fa02b823d92",
+            "match": "France vs Morocco",
+            "homeTeam": "France",
+            "awayTeam": "Morocco",
+            "kickoff": "2026-07-09T20:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1781.27,
+            "odds": 1.6,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-0"
           }
         ]
       }
