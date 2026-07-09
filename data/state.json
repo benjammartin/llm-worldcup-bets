@@ -14110,7 +14110,7 @@
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Claude",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14118,14 +14118,14 @@
       "kickoff": "2026-07-09T20:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 2200,
+      "stake": 2584.71,
       "odds": 1.6,
-      "reasoning": "France are clear favorites at home odds of 1.6, reflecting their superior squad depth and tournament pedigree. Morocco proved dangerous in 2022 but France's quality edge is real. The 1.6 price offers reasonable value on a strong probability outcome. Sizing solid but not maxing out, since 1.6 favorites still lose often enough that I want to preserve capital given my healthy lead.",
+      "reasoning": "France vs Morocco is a compelling matchup. The data shows France has been clinical with 3-1 and 3-0 victories over Senegal and Iraq, followed by a dominant 4-1 win over Norway where they created 18 shots and controlled possession. Their xG numbers (1.62, 2.30, 1.05) and final-third activity demonstrate consistent attacking threat. Morocco has shown resilience - drawing Brazil 1-1 with superior xG (1.33-0.99), beating Scotland 1-0, and thrashing Haiti 4-2. However, their draw against Brazil came despite Brazil's possession advantage, and their wins were against weaker opposition. France's quality shines through in their progressive play metrics and shot creation. At 1.6 odds, France represents solid value as the superior team. Morocco's counter-attacking style could make this competitive, but France's tournament form and class should prevail. Betting approximately 23% of bankroll on France home win.",
       "status": "pending"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:GPT-5.5",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14135,12 +14135,12 @@
       "pick": "away",
       "stake": 84.56,
       "odds": 6.75,
-      "reasoning": "My bankroll is too small to climb the standings by taking the short favorite. France are the better side, but Morocco at 6.75 offers the kind of asymmetric upside I need, and their compact defensive style plus counterattacking threat gives them a real upset path. Max-staking the longshot for tournament leverage.",
+      "reasoning": "France are the rightful favorite, but at 6.75 Morocco look overpriced. Their draw with Brazil came with better xG and strong territorial/progression numbers, and they controlled Scotland and Haiti well enough to suggest this is not a pure mismatch. France’s results are excellent, but Norway still generated 1.45 xG against them, so the gap may be narrower than the market implies. I need upside from a low bankroll, and Morocco’s upset price is the best risk/reward on this slate.",
       "status": "pending"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Gemini",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14150,12 +14150,12 @@
       "pick": "home",
       "stake": 2050.92,
       "odds": 1.6,
-      "reasoning": "France enters this matchup as the clear class of the tie. While Morocco's defensive organization and counter-attacking threat are highly respected, France possesses the elite attacking depth, tactical flexibility, and tournament experience required to break down low blocks. At 1.60, the price on a straight French victory offers strong value. Given the high stakes of this tournament stage and my need to maximize returns to overtake the leader, I am backing the favorites with my maximum allowed stake.",
+      "reasoning": "France has been highly efficient and dominant throughout the group stage, showing elite progression metrics and high-quality chance creation (xG of 2.30 vs Iraq, 1.62 vs Senegal, and clinical finishing against Norway). While Morocco is a formidable opponent with an impressive draw against Brazil and solid underlying numbers, France's squad depth, tournament pedigree, and superior attacking efficiency make them strong favorites here. At odds of 1.60, a home win offers highly backable value, and I am putting the maximum allowable stake on Les Bleus to secure a victory in normal time.",
       "status": "pending"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Grok",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14165,12 +14165,12 @@
       "pick": "home",
       "stake": 1354.66,
       "odds": 1.6,
-      "reasoning": "France are clear favorites with superior squad depth and recent form; Morocco have shown fight but are outclassed here at these odds.",
+      "reasoning": "France's recent xG and shot dominance (esp. vs Senegal/Iraq/Norway) far outpace Morocco's mixed results (narrow wins vs Scotland/Haiti, draw vs Brazil). Home odds of 1.6 represent solid value given the underlying metrics and France's superior attack.",
       "status": "pending"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:DeepSeek",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14180,12 +14180,12 @@
       "pick": "home",
       "stake": 1207.9,
       "odds": 1.6,
-      "reasoning": "France is a top-tier side with depth, talent, and World Cup pedigree, while Morocco, though gritty, lacks the same quality and consistency. The odds heavily favor Les Bleus, and I expect a routine victory. With a 64.6% win rate overall, I’m betting the maximum allowed on a match I view as high-probability.",
+      "reasoning": "France have been ruthless in their last three matches, beating Senegal 3-1, Iraq 3-0 and Norway 4-1, all with strong attacking metrics and clinical finishing despite occasionally allowing chances. Morocco held Brazil to a draw and handled Scotland and Haiti, but the step up in opposition and France's firepower is significant. Odds of 1.6 imply a 62.5% win probability; my eye test rates France's chances closer to 65-70%, so there is value backing the home win. I'm sizing at the max single-match stake to capitalise on what looks like the strongest edge in this single-match slate.",
       "status": "pending"
     },
     {
       "id": "b6e926d7f026782b9cab2fa02b823d92:Mistral",
-      "date": "2026-07-09T18:13:34.806Z",
+      "date": "2026-07-09T19:07:55.781Z",
       "matchId": "b6e926d7f026782b9cab2fa02b823d92",
       "match": "France vs Morocco",
       "homeTeam": "France",
@@ -14195,13 +14195,13 @@
       "pick": "home",
       "stake": 176.42,
       "odds": 1.6,
-      "reasoning": "France is the clear favorite here, with odds of 1.6 reflecting their superior squad depth, recent form, and historical dominance in major tournaments. Morocco is a strong side, but their odds (6.75) seem inflated given their reliance on a few key players and the step up in quality against a top-tier European team. The draw (3.9) is tempting, but France's attacking prowess and Morocco's defensive vulnerabilities make a home win the most probable outcome. I'm allocating the maximum allowed stake to this bet to recover from recent losses, as this represents a high-confidence, lower-risk opportunity. The potential payout ($368.62) is modest but aligns with my need for steady, reliable gains to rebuild my bankroll.",
+      "reasoning": "France has demonstrated dominant offensive and defensive metrics in their recent matches, with high xG (1.62 vs Senegal, 2.30 vs Iraq, 1.05 vs Norway), superior possession (49-51% in last 3 games), and significantly better final-third receptions and line breaks. Morocco, while showing resilience (e.g., 4-2 win over Haiti), has struggled against stronger teams like Brazil (1-1) and Scotland (1-0 with lower xG). France's odds (1.6) are attractive given their form and the qualitative edge in key performance indicators. Betting max stake on France to win, as the odds undervalue their superiority over Morocco.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-09T18:13:34.806Z",
+    "lastBetsRun": "2026-07-09T19:07:55.781Z",
     "lastSettleRun": "2026-07-07T23:48:38.921Z",
     "failures": [
       {
@@ -14276,6 +14276,12 @@
         "homeTeam": "France",
         "awayTeam": "Morocco",
         "kickoff": "2026-07-09T20:00:00Z"
+      },
+      {
+        "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+        "homeTeam": "Spain",
+        "awayTeam": "Belgium",
+        "kickoff": "2026-07-10T19:00:00Z"
       }
     ],
     "liveMatches": [],
