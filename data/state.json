@@ -388,6 +388,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 13898.47
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 15711.13
       }
     ],
     "GPT-5.5": [
@@ -778,6 +782,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 395.72
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 438.88
       }
     ],
     "Gemini": [
@@ -1168,6 +1176,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 11093.69
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 12531.64
       }
     ],
     "Grok": [
@@ -1558,6 +1570,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 7416.4
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 8362.91
       }
     ],
     "DeepSeek": [
@@ -1948,6 +1964,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 6696.42
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 7541.03
       }
     ],
     "Mistral": [
@@ -2338,6 +2358,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 1027.4
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 1149.51
       }
     ],
     "Baseline": [
@@ -2728,6 +2752,10 @@
       {
         "t": "2026-07-09T22:47:22.992Z",
         "bankroll": 18881.45
+      },
+      {
+        "t": "2026-07-10T22:30:54.526Z",
+        "bankroll": 20033.22
       }
     ]
   },
@@ -14253,7 +14281,9 @@
       "stake": 1888.15,
       "odds": 1.61,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:Claude",
@@ -14268,7 +14298,9 @@
       "stake": 2923.65,
       "odds": 1.62,
       "reasoning": "Spain has been the tournament's most dominant side — 3.20 xG vs Saudi Arabia, 27 shots vs Cabo Verde, control of Uruguay. Their possession, line-break and final-third numbers are elite and consistent. Belgium is dangerous but drew Egypt and Iran, showing they stall against organized defenses, which Spain absolutely is. 1.62 is fair value on the clear best team; backing at max stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:GPT-5.5",
@@ -14283,7 +14315,9 @@
       "stake": 69.61,
       "odds": 1.62,
       "reasoning": "Spain are the clear side for me despite the short price. The odds make them the primary probability signal at 1.62, and the match reports support that profile: Spain have controlled territory and chance quality extremely well across the slate, including 4-0 vs Saudi Arabia and a professional 1-0 over Uruguay while allowing very little xG. Belgium have upside, but their best attacking report is heavily boosted by New Zealand, while the Egypt and Iran matches were more laboured. Draw is live in a knockout-style matchup, but I do not see enough to fade Spain. Max stake because this is the only listed match and Spain are the strongest position.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:Gemini",
@@ -14298,7 +14332,9 @@
       "stake": 2319.27,
       "odds": 1.62,
       "reasoning": "Spain has demonstrated elite control and high-efficiency performance throughout the tournament, highlighted by an impressive 4-0 win over Saudi Arabia (xG 3.20-0.11) and a highly disciplined 1-0 win against Uruguay (xG 1.12-0.22) where they completely choked out their opponents' attacking threat. Belgium, while possessing offensive weapons, has looked vulnerable and inconsistent against structured defenses, as seen in their draws with Egypt and Iran. Spain's superior possession dominance, final-third entry rates, and defensive organization make them strong favorites here. At odds of 1.62, the home win represents excellent value, and we are backing them with our maximum allowed unit size to maximize our lead at the top of the leaderboard.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:Grok",
@@ -14313,7 +14349,9 @@
       "stake": 1526.63,
       "odds": 1.62,
       "reasoning": "Spain has shown clear dominance in recent matches with high xG, shot volume, and possession control against multiple opponents. Belgium has been less convincing, frequently struggling to convert chances and drawing with weaker sides. The 1.62 odds on Spain reflect a realistic edge given their superior underlying metrics.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:DeepSeek",
@@ -14328,7 +14366,9 @@
       "stake": 1362.28,
       "odds": 1.62,
       "reasoning": "Spain has been imperious, controlling every match through possession and overwhelming xG advantages (2.26-0.13 vs Cabo Verde, 3.20-0.11 vs Saudi Arabia, 1.12-0.22 vs Uruguay). They haven't conceded from open play. Belgium struggled to break down Iran (0-0, 1.48 xG but no goal) and Egypt (1-1, 1.07 xG). Their big win came against an overmatched New Zealand. This Spain side's defensive structure and chance creation make the 1.62 price good value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     },
     {
       "id": "fca257de4583bd4bc592e8b2a8f24ad7:Mistral",
@@ -14343,13 +14383,15 @@
       "stake": 196.95,
       "odds": 1.62,
       "reasoning": "Spain's recent performances show dominant possession, high xG, and superior final-third metrics (e.g., 426 vs. Cabo Verde, 259 vs. Saudi Arabia). While Belgium has shown attacking prowess (e.g., 3.99 xG vs. New Zealand), their defensive metrics are inconsistent (0-0 vs. Iran, 1-1 vs. Egypt). Spain's odds (1.62) are favorable given their attacking output and Belgium's recent struggles to convert dominance into goals. The draw (4.0) is tempting, but Spain's consistency in breaking down defenses (4-0 vs. Saudi Arabia, 1-0 vs. Uruguay) makes them the safer pick. Betting max stake to recover from recent losses.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "2-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-10T17:58:51.149Z",
-    "lastSettleRun": "2026-07-09T22:47:22.992Z",
+    "lastSettleRun": "2026-07-10T22:30:54.526Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14430,32 +14472,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 97,
-        "won": 65,
+        "totalBets": 98,
+        "won": 66,
         "lost": 32,
         "void": 0,
-        "totalStake": 123012.13000000002,
-        "totalReturn": 2988.152899999999,
-        "roi": 0.02429153043687642,
-        "avgOdds": 1.6685567010309283,
+        "totalStake": 125935.78000000001,
+        "totalReturn": 4800.8159,
+        "roi": 0.03812114317313157,
+        "avgOdds": 1.6680612244897965,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:Claude",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 3142.33,
-            "odds": 1.43,
-            "reasoning": "Colombia has been the far superior side across all reports: 3-1 over Uzbekistan, 20 shots and 1.54 xG vs Congo DR, and territorial dominance even in a 0-0 with Portugal. Ghana's attack has been anemic (0.34 xG shut out by England, only beat Panama narrowly). At 1.43 the home price fairly reflects Colombia's edge in a favorable matchup. Solid conviction, sized appropriately for the shortish odds.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:Claude",
             "date": "2026-07-04T16:40:03.316Z",
@@ -14608,37 +14633,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:Claude",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2923.65,
+            "odds": 1.62,
+            "reasoning": "Spain has been the tournament's most dominant side — 3.20 xG vs Saudi Arabia, 27 shots vs Cabo Verde, control of Uruguay. Their possession, line-break and final-third numbers are elite and consistent. Belgium is dangerous but drew Egypt and Iran, showing they stall against organized defenses, which Spain absolutely is. 1.62 is fair value on the clear best team; backing at max stake.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 97,
-        "won": 44,
+        "totalBets": 98,
+        "won": 45,
         "lost": 53,
         "void": 0,
-        "totalStake": 25007.38,
-        "totalReturn": -9733.370300000002,
-        "roi": -0.38921991428130426,
-        "avgOdds": 3.8370103092783516,
+        "totalStake": 25076.99,
+        "totalReturn": -9690.212100000002,
+        "roi": -0.38641846968077115,
+        "avgOdds": 3.814387755102042,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:GPT-5.5",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 40.81,
-            "odds": 1.43,
-            "reasoning": "Colombia are the clear side on both market price and underlying tournament profile. Their reports show sustained control and chance creation: 3-1 over Uzbekistan, 1-0 over Congo DR with 20 shots and 1.54 xG, and a strong 0-0 vs Portugal where they led xG 1.85-0.97. Ghana have been resilient and high-pressure defensively, including the 0-0 with England, but their attacking output has been very limited against stronger teams: 0.34 xG vs England and only 2 shots, then 0.75 xG vs Croatia. The 1.43 is not a big payout, but Colombia look materially more likely to win than either the draw or Ghana upset. With only one match listed and needing to rebuild bankroll, I’m staking the max on the best-probability side.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:GPT-5.5",
             "date": "2026-07-04T16:40:03.316Z",
@@ -14791,37 +14816,37 @@
             "status": "lost",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:GPT-5.5",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 69.61,
+            "odds": 1.62,
+            "reasoning": "Spain are the clear side for me despite the short price. The odds make them the primary probability signal at 1.62, and the match reports support that profile: Spain have controlled territory and chance quality extremely well across the slate, including 4-0 vs Saudi Arabia and a professional 1-0 over Uruguay while allowing very little xG. Belgium have upside, but their best attacking report is heavily boosted by New Zealand, while the Egypt and Iran matches were more laboured. Draw is live in a knockout-style matchup, but I do not see enough to fade Spain. Max stake because this is the only listed match and Spain are the strongest position.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 97,
-        "won": 65,
+        "totalBets": 98,
+        "won": 66,
         "lost": 32,
         "void": 0,
-        "totalStake": 91877.68999999999,
-        "totalReturn": 803.9322999999981,
-        "roi": 0.008750027346138091,
-        "avgOdds": 1.7038144329896912,
+        "totalStake": 94196.95999999999,
+        "totalReturn": 2241.8796999999986,
+        "roi": 0.023799915623603975,
+        "avgOdds": 1.7029591836734699,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:Gemini",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 2450,
-            "odds": 1.43,
-            "reasoning": "Colombia has shown highly dominant underlying metrics throughout this tournament, generating 1.85 xG to Portugal's 0.97 in their 0-0 draw and comfortably controlling their games against Uzbekistan and Congo DR with high shot volumes and final-third entries. Ghana, on the other hand, has struggled to create meaningful offense, posting just 0.34 xG against England and relying on heavily defensive postures. At odds of 1.43, the implied probability of a Colombia victory is roughly 70%, which is well-supported by both their superior squad depth and tactical consistency. I am backing Colombia with a strong stake to continue our winning run.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:Gemini",
             "date": "2026-07-04T16:40:03.316Z",
@@ -14974,37 +14999,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:Gemini",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 2319.27,
+            "odds": 1.62,
+            "reasoning": "Spain has demonstrated elite control and high-efficiency performance throughout the tournament, highlighted by an impressive 4-0 win over Saudi Arabia (xG 3.20-0.11) and a highly disciplined 1-0 win against Uruguay (xG 1.12-0.22) where they completely choked out their opponents' attacking threat. Belgium, while possessing offensive weapons, has looked vulnerable and inconsistent against structured defenses, as seen in their draws with Egypt and Iran. Spain's superior possession dominance, final-third entry rates, and defensive organization make them strong favorites here. At odds of 1.62, the home win represents excellent value, and we are backing them with our maximum allowed unit size to maximize our lead at the top of the leaderboard.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 97,
-        "won": 64,
+        "totalBets": 98,
+        "won": 65,
         "lost": 33,
         "void": 0,
-        "totalStake": 102087.04000000008,
-        "totalReturn": -3048.4043999999963,
-        "roi": -0.029860836399997433,
-        "avgOdds": 1.7388659793814438,
+        "totalStake": 103613.67000000009,
+        "totalReturn": -2101.893799999996,
+        "roi": -0.02028587347596118,
+        "avgOdds": 1.7376530612244903,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:Grok",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 1093.8,
-            "odds": 1.43,
-            "reasoning": "Colombia clearly the better side per recent xG, possession, and chance creation metrics against solid opposition; Ghana's attack has been toothless in most outings. 1.43 offers solid value for the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:Grok",
             "date": "2026-07-04T16:40:03.316Z",
@@ -15157,37 +15182,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:Grok",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1526.63,
+            "odds": 1.62,
+            "reasoning": "Spain has shown clear dominance in recent matches with high xG, shot volume, and possession control against multiple opponents. Belgium has been less convincing, frequently struggling to convert chances and drawing with weaker sides. The 1.62 odds on Spain reflect a realistic edge given their superior underlying metrics.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 97,
-        "won": 63,
+        "totalBets": 98,
+        "won": 64,
         "lost": 34,
         "void": 0,
-        "totalStake": 58229.67999999998,
-        "totalReturn": -3423.6061999999997,
-        "roi": -0.05879486543632046,
-        "avgOdds": 1.8794845360824748,
+        "totalStake": 59591.95999999998,
+        "totalReturn": -2578.9925999999996,
+        "roi": -0.04327752602867905,
+        "avgOdds": 1.8768367346938781,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:DeepSeek",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 1435.35,
-            "odds": 1.43,
-            "reasoning": "Colombia’s underlying metrics from this tournament are elite: 1.85 xG vs Portugal, 1.54 vs Congo DR with heavy shot volume, and constant final‑third pressure. Ghana have been resilient but generated only 0.34 xG against England and 0.75 xG against Croatia, struggling to create against high‑level opponents. Colombia should dominate possession and territory, making the 1.43 home price a solid value. I’m staking $1500 to lock in the win without overcommitting.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:DeepSeek",
             "date": "2026-07-04T16:40:03.316Z",
@@ -15340,37 +15365,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:DeepSeek",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1362.28,
+            "odds": 1.62,
+            "reasoning": "Spain has been imperious, controlling every match through possession and overwhelming xG advantages (2.26-0.13 vs Cabo Verde, 3.20-0.11 vs Saudi Arabia, 1.12-0.22 vs Uruguay). They haven't conceded from open play. Belgium struggled to break down Iran (0-0, 1.48 xG but no goal) and Egypt (1-1, 1.07 xG). Their big win came against an overmatched New Zealand. This Spain side's defensive structure and chance creation make the 1.62 price good value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 97,
-        "won": 62,
+        "totalBets": 98,
+        "won": 63,
         "lost": 35,
         "void": 0,
-        "totalStake": 46197.50999999999,
-        "totalReturn": -9222.051699999995,
-        "roi": -0.19962226752047885,
-        "avgOdds": 1.752371134020619,
+        "totalStake": 46394.459999999985,
+        "totalReturn": -9099.942699999994,
+        "roi": -0.1961428735241233,
+        "avgOdds": 1.7510204081632659,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:Mistral",
-            "date": "2026-07-04T00:16:37.387Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 588.28,
-            "odds": 1.43,
-            "reasoning": "Colombia has shown consistent attacking prowess in their recent matches, with high xG values (1.16 vs Uzbekistan, 1.54 vs Congo DR, 1.85 vs Portugal) and dominant possession metrics. Their defensive structure is also solid, as evidenced by their clean sheet against Congo DR and a respectable xG conceded (0.97 vs Portugal). Ghana, while resilient, has struggled against stronger opponents (0.34 xG vs England, 0.75 xG vs Croatia) and relies heavily on counter-attacks, which Colombia's organized defense should limit. The odds (1.43 for Colombia) are favorable given their form and Ghana's defensive vulnerabilities. Allocating the maximum stake here due to high confidence in Colombia's ability to control the game and convert their chances.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:Mistral",
             "date": "2026-07-04T16:40:03.316Z",
@@ -15523,37 +15548,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:Mistral",
+            "date": "2026-07-10T17:58:51.149Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 196.95,
+            "odds": 1.62,
+            "reasoning": "Spain's recent performances show dominant possession, high xG, and superior final-third metrics (e.g., 426 vs. Cabo Verde, 259 vs. Saudi Arabia). While Belgium has shown attacking prowess (e.g., 3.99 xG vs. New Zealand), their defensive metrics are inconsistent (0-0 vs. Iran, 1-1 vs. Egypt). Spain's odds (1.62) are favorable given their attacking output and Belgium's recent struggles to convert dominance into goals. The draw (4.0) is tempting, but Spain's consistency in breaking down defenses (4-0 vs. Saudi Arabia, 1-0 vs. Uruguay) makes them the safer pick. Betting max stake to recover from recent losses.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 97,
-        "won": 66,
+        "totalBets": 98,
+        "won": 67,
         "lost": 31,
         "void": 0,
-        "totalStake": 105269.52,
-        "totalReturn": 8051.316699999998,
-        "roi": 0.07648288602436866,
-        "avgOdds": 1.6596907216494843,
+        "totalStake": 107157.67,
+        "totalReturn": 9203.088199999998,
+        "roi": 0.08588361617045237,
+        "avgOdds": 1.6591836734693877,
         "recentBets": [
-          {
-            "id": "88e032a2b2e5042d26db3f0da1df924a:Baseline",
-            "date": "2026-07-03T22:41:20.069Z",
-            "matchId": "88e032a2b2e5042d26db3f0da1df924a",
-            "match": "Colombia vs Ghana",
-            "homeTeam": "Colombia",
-            "awayTeam": "Ghana",
-            "kickoff": "2026-07-04T01:30:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1983.19,
-            "odds": 1.43,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "home",
-            "settledScore": "1-0"
-          },
           {
             "id": "9c7073ae2c29ee4881bb695f92168c68:Baseline",
             "date": "2026-07-04T14:12:56.802Z",
@@ -15706,6 +15731,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-0"
+          },
+          {
+            "id": "fca257de4583bd4bc592e8b2a8f24ad7:Baseline",
+            "date": "2026-07-10T16:03:13.512Z",
+            "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
+            "match": "Spain vs Belgium",
+            "homeTeam": "Spain",
+            "awayTeam": "Belgium",
+            "kickoff": "2026-07-10T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1888.15,
+            "odds": 1.61,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "2-1"
           }
         ]
       }
