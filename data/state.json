@@ -14417,7 +14417,14 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [],
+    "upcomingMatches": [
+      {
+        "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+        "homeTeam": "Norway",
+        "awayTeam": "England",
+        "kickoff": "2026-07-11T21:00:00Z"
+      }
+    ],
     "liveMatches": [],
     "lastCyclePostKey": "fca257de4583bd4bc592e8b2a8f24ad7",
     "performance": {
