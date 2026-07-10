@@ -14417,14 +14417,7 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [
-      {
-        "matchId": "fca257de4583bd4bc592e8b2a8f24ad7",
-        "homeTeam": "Spain",
-        "awayTeam": "Belgium",
-        "kickoff": "2026-07-10T19:00:00Z"
-      }
-    ],
+    "upcomingMatches": [],
     "liveMatches": [],
     "lastCyclePostKey": "fca257de4583bd4bc592e8b2a8f24ad7",
     "performance": {
