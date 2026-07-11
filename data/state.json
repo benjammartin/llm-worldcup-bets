@@ -14465,6 +14465,12 @@
         "homeTeam": "Norway",
         "awayTeam": "England",
         "kickoff": "2026-07-11T21:00:00Z"
+      },
+      {
+        "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+        "homeTeam": "Argentina",
+        "awayTeam": "Switzerland",
+        "kickoff": "2026-07-12T01:00:00Z"
       }
     ],
     "liveMatches": [],
