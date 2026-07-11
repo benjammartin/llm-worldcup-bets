@@ -14404,7 +14404,7 @@
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Claude",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14414,12 +14414,12 @@
       "pick": "away",
       "stake": 3200,
       "odds": 1.85,
-      "reasoning": "England have been the more complete side across this slate — 4-2 over Croatia, 2-0 at Panama, and a shot-dominant display vs Ghana. Norway conceded 4 to France, 2 to Senegal, and only impressed against a weak Iraq. England's superior line breaks, progressions, and pressing structure justify backing them away at 1.85 despite home advantage for Norway.",
+      "reasoning": "England have been the more complete side: 3.33 xG dismantling Croatia, total control vs Ghana (72% possession, 1.78 xG), and a professional 2-0 over Panama. Norway leak chances against elite teams — France scored 4, and even Senegal generated 2.05 xG against them. England's midfield and attacking depth should win this. 1.85 on the clear class team is fair value; sizing meaningfully but not to the cap given single-match risk.",
       "status": "pending"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:GPT-5.5",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14429,12 +14429,12 @@
       "pick": "away",
       "stake": 77.3,
       "odds": 1.85,
-      "reasoning": "England are the stronger side and the odds still leave some room at 1.85. The match reports back that up: England heavily out-created Ghana despite 0-0, beat Croatia with a big xG edge, and controlled Panama. Norway have attacking threat, but their results look more volatile: they beat Senegal despite losing xG and were punished badly by France. With a small bankroll and only one match on the slate, I’m taking the best-probability side at the max stake.",
+      "reasoning": "England at 1.85 is the clearest side from the market and the qualitative reports support them: they generated 3.33 xG vs Croatia, dominated Ghana despite 0-0, and controlled Panama. Norway have attacking threat but have allowed plenty of chances/territory and shipped 4 to France. With only one open match and a short bankroll, I’m taking the maximum allowed stake on the favorite rather than getting cute with the draw or underdog.",
       "status": "pending"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Gemini",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14442,14 +14442,14 @@
       "kickoff": "2026-07-11T21:00:00Z",
       "model": "Gemini",
       "pick": "away",
-      "stake": 2635.61,
+      "stake": 2500,
       "odds": 1.85,
-      "reasoning": "England enters this matchup in highly convincing form, dominating their recent games on expected goals (such as 3.33 xG vs Croatia and 1.78 xG vs Ghana) while maintaining tight defensive control. Norway, on the other hand, showed significant vulnerability in their 1-4 loss to France, conceding 18 shots and allowing high final-third penetration. Backing England at 1.85 offers strong value given their superior squad depth, tactical structure, and underlying performance metrics.",
+      "reasoning": "England is showing excellent underlying performance metrics throughout the tournament, dominating possession and generating high expected goals (xG) while limiting opponents' opportunities, as seen in their 1.78 to 0.34 xG dominance over Ghana and a comfortable 2-0 win over Panama. Norway, on the other hand, showed significant defensive vulnerability in their 4-1 loss to France, conceding high-quality chances despite a decent xG of their own. At odds of 1.85, England represents strong value to win this matchup, and we back them with a substantial stake of $2,500.",
       "status": "pending"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Grok",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14459,12 +14459,12 @@
       "pick": "away",
       "stake": 1728.14,
       "odds": 1.85,
-      "reasoning": "England have shown superior underlying metrics across recent matches (high xG vs Croatia, dominant control vs Ghana and Panama), while Norway's results are mixed with frequent underperformance in xG. The 1.85 away odds offer solid value on the stronger side given the quality gap.",
+      "reasoning": "England has posted far stronger underlying numbers across their matches (dominant xG and possession vs Croatia/Ghana/Panama) while Norway's results look more fragile and luck-dependent. The 1.85 away price is the clearest value on the board.",
       "status": "pending"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:DeepSeek",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14472,14 +14472,14 @@
       "kickoff": "2026-07-11T21:00:00Z",
       "model": "DeepSeek",
       "pick": "away",
-      "stake": 1500,
+      "stake": 1543.85,
       "odds": 1.85,
-      "reasoning": "England are rightful favourites per the odds, and the post-match reports reinforce their superiority. Their wins over Croatia (xG 3.33-0.82) and Panama (1.61-0.72) show clinical attacking and strong underlying numbers, while the Ghana 0-0 was an anomaly given a 1.78 xG dominance. Norway beat Iraq and scraped past Senegal despite a negative xG (1.50-2.05), and were hammered 4-1 by France while conceding 4 from just 1.05 xG — a red flag for defensive fragility. Norway's home advantage and occasional giant-killing aren't enough to offset England's quality, making the away win at 1.85 a solid bet. I'm staking $1500 to recover ground, staying under the 25% max.",
+      "reasoning": "England are clear favorites at 1.85 and the odds imply a strong probability of an away win. Norway have been leaky defensively, conceding 4 to France and 2 to Senegal, while England's attack has been prolific (4 vs Croatia, 2 vs Panama, xG 1.78 vs Ghana). Although Norway can score (they put up 1.45 xG against France), England's overall quality and form in the tournament make an away victory the most likely outcome. I'm staking the maximum allowed per match to maximize return while staying within my bankroll limit.",
       "status": "pending"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Mistral",
-      "date": "2026-07-11T19:35:29.233Z",
+      "date": "2026-07-11T20:02:43.680Z",
       "matchId": "e66e4478b739fa0657a7a11235e1fcee",
       "match": "Norway vs England",
       "homeTeam": "Norway",
@@ -14489,13 +14489,13 @@
       "pick": "away",
       "stake": 220.69,
       "odds": 1.85,
-      "reasoning": "England's recent performances show a strong attacking and possession game, even if they drew against Ghana. Their xG and shot dominance in matches against Croatia and Panama suggest they are creating high-quality chances. Norway, while improving, has struggled against stronger teams like France (1-4 loss) and conceded high xG in other matches. The odds heavily favor England (1.85), which aligns with their recent form and underlying metrics. Betting the maximum stake here due to the favorable risk-reward ratio and England's consistency in generating scoring opportunities.",
+      "reasoning": "England's recent performances show a clear dominance in key metrics: higher xG, shots on target, possession, and final-third receptions, especially in their last match against Panama (xG 1.61, 57.7% possession, 177 final-third receptions). Norway, while competitive, has struggled against stronger teams (e.g., 1-4 vs France) and their xG and shot metrics are inconsistent. The odds heavily favor England (1.85), which aligns with their recent form and underlying stats. Betting the maximum stake on England to win, as they are the most likely outcome and offer the best value given the context.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-11T19:35:29.233Z",
+    "lastBetsRun": "2026-07-11T20:02:43.680Z",
     "lastSettleRun": "2026-07-10T22:30:54.526Z",
     "failures": [
       {
