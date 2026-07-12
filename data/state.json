@@ -396,6 +396,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 12511.13
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 9311.13
       }
     ],
     "GPT-5.5": [
@@ -794,6 +798,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 361.58
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 284.28
       }
     ],
     "Gemini": [
@@ -1192,6 +1200,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 9896.03
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 7389.7
       }
     ],
     "Grok": [
@@ -1590,6 +1602,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 6634.77
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 4906.63
       }
     ],
     "DeepSeek": [
@@ -1988,6 +2004,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 5997.18
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 4497.18
       }
     ],
     "Mistral": [
@@ -2386,6 +2406,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 928.82
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 708.13
       }
     ],
     "Baseline": [
@@ -2784,6 +2808,10 @@
       {
         "t": "2026-07-12T01:53:36.469Z",
         "bankroll": 18029.9
+      },
+      {
+        "t": "2026-07-12T05:19:28.758Z",
+        "bankroll": 16026.58
       }
     ]
   },
@@ -14547,7 +14575,9 @@
       "stake": 2003.32,
       "odds": 1.7,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:Claude",
@@ -14562,7 +14592,9 @@
       "stake": 3200,
       "odds": 1.71,
       "reasoning": "Argentina has been the class team of this slate: 3-0 vs Algeria, 2-0 vs Austria, 3-1 over Jordan, consistently controlling xG and territory. Switzerland labored to a 1-1 vs Qatar despite 58% possession and needed a narrow 2-1 over Canada while being outshot. At 1.71 (~58% implied), Argentina is fairly priced for a clearly superior side and I'm comfortable backing them with strong conviction.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:GPT-5.5",
@@ -14577,7 +14609,9 @@
       "stake": 77.3,
       "odds": 1.71,
       "reasoning": "Argentina at 1.71 looks like the best value on the slate. Odds imply about 58.5%, and the tournament data points to Argentina being a tier above: three wins with xG margins of 1.58-0.41, 2.45-0.63, and 2.52-0.96. Switzerland have quality and created a ton against Qatar, but their Canada match was much more even and they have looked less dominant overall. Given my bankroll position I need to press edges, so I am staking the maximum on Argentina to win in 90.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:Gemini",
@@ -14592,7 +14626,9 @@
       "stake": 2506.33,
       "odds": 1.71,
       "reasoning": "Argentina enters this knockout clash in commanding form, showing consistent dominance in their underlying metrics (xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan) alongside highly efficient clinical finishing. While Switzerland is a highly disciplined side that dominated Qatar and edged Canada, their defensive structure will face its sternest test yet against an elite Argentinian attack. At odds of 1.71, backing the tournament favorites to secure a win in normal time offers excellent value. We allocate a confident stake of approximately 20% of our bankroll to maintain our strong position near the top of the leaderboard.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:Grok",
@@ -14607,7 +14643,9 @@
       "stake": 1728.14,
       "odds": 1.71,
       "reasoning": "Argentina's recent xG dominance (1.58-0.41 vs Algeria, 2.45-0.63 vs Austria, strong win vs Jordan) points to clear superiority over Switzerland, whose results show inconsistency despite some shot volume. Odds of 1.71 for home align with expected probability edge, justifying a solid stake within limits.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:DeepSeek",
@@ -14622,7 +14660,9 @@
       "stake": 1500,
       "odds": 1.71,
       "reasoning": "Argentina have been clinical and defensively solid, beating Algeria 3-0, Austria 2-0, and Jordan 3-1 with xG differentials well in their favor. Switzerland managed only a 1-1 draw with Qatar despite an xG of 3.14, suggesting wastefulness, and edged Canada 2-1 in a close match. Argentina's superior quality and consistency make the home win at 1.71 a strong value play.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:Mistral",
@@ -14637,13 +14677,15 @@
       "stake": 220.69,
       "odds": 1.71,
       "reasoning": "Argentina's recent performances show dominance in possession, shots, and xG, particularly against stronger opponents like Austria and Jordan. Switzerland, while impressive against Qatar, struggled against Canada in terms of xG and shots on target. Argentina's attacking prowess and defensive solidity (only 1 goal conceded in last 4 matches) make them the clear favorites here. The odds of 1.71 for Argentina to win offer a reasonable value given their form and Switzerland's inconsistency. Betting max stake on Argentina to win.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-11T23:28:32.051Z",
-    "lastSettleRun": "2026-07-12T01:53:36.469Z",
+    "lastSettleRun": "2026-07-12T05:19:28.758Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14717,32 +14759,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 66,
-        "lost": 33,
+        "lost": 34,
         "void": 0,
-        "totalStake": 129135.78000000001,
-        "totalReturn": 1600.8158999999996,
-        "roi": 0.012396377673174697,
-        "avgOdds": 1.6697979797979805,
+        "totalStake": 132335.78000000003,
+        "totalReturn": -1599.1841000000004,
+        "roi": -0.01208429118716042,
+        "avgOdds": 1.6702000000000006,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:Claude",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 2500,
-            "odds": 1.2,
-            "reasoning": "France has been dominant all tournament (3-1 Senegal, 3-0 Iraq, 4-1 at Norway) with consistently strong xG. Paraguay cannot buy a goal — 0.60, 0.36, 0.29 xG in recent matches, shut out by Australia and battered by Türkiye despite their lucky 1-0 there. At 1.20 the payout is small, but the ~83% implied probability is if anything understated. High-confidence, low-margin favorite play.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:Claude",
             "date": "2026-07-05T19:00:28.150Z",
@@ -14895,37 +14920,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:Claude",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 3200,
+            "odds": 1.71,
+            "reasoning": "Argentina has been the class team of this slate: 3-0 vs Algeria, 2-0 vs Austria, 3-1 over Jordan, consistently controlling xG and territory. Switzerland labored to a 1-1 vs Qatar despite 58% possession and needed a narrow 2-1 over Canada while being outshot. At 1.71 (~58% implied), Argentina is fairly priced for a clearly superior side and I'm comfortable backing them with strong conviction.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 45,
-        "lost": 54,
+        "lost": 55,
         "void": 0,
-        "totalStake": 25154.29,
-        "totalReturn": -9767.512100000002,
-        "roi": -0.38830402686778287,
-        "avgOdds": 3.794444444444445,
+        "totalStake": 25231.59,
+        "totalReturn": -9844.812100000001,
+        "roi": -0.3901780307939373,
+        "avgOdds": 3.7736000000000005,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:GPT-5.5",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "draw",
-            "stake": 91.4,
-            "odds": 7,
-            "reasoning": "France are clearly the better side and the odds correctly make them a heavy favorite, but at 1.20 the upside is too small for my current bankroll position. Paraguay’s tournament profile is ugly in possession and chance creation, yet they have shown they can survive long stretches under pressure, including the 1-0 win over Türkiye despite being dominated and the 0-0 with Australia. If Paraguay’s low block/pressing game turns this into a slow, frustrating match, the draw at 7.00 is the upset path I prefer over a full Paraguay win. High-risk, bankroll-recovery spot.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:GPT-5.5",
             "date": "2026-07-05T19:00:28.150Z",
@@ -15078,37 +15103,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:GPT-5.5",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 77.3,
+            "odds": 1.71,
+            "reasoning": "Argentina at 1.71 looks like the best value on the slate. Odds imply about 58.5%, and the tournament data points to Argentina being a tier above: three wins with xG margins of 1.58-0.41, 2.45-0.63, and 2.52-0.96. Switzerland have quality and created a ton against Qatar, but their Canada match was much more even and they have looked less dominant overall. Given my bankroll position I need to press edges, so I am staking the maximum on Argentina to win in 90.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 66,
-        "lost": 33,
+        "lost": 34,
         "void": 0,
-        "totalStake": 96832.56999999999,
-        "totalReturn": -393.73030000000153,
-        "roi": -0.0040660936707556305,
-        "avgOdds": 1.7043434343434347,
+        "totalStake": 99338.9,
+        "totalReturn": -2900.0603000000015,
+        "roi": -0.029193601902175296,
+        "avgOdds": 1.7044000000000006,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:Gemini",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 1928.04,
-            "odds": 1.2,
-            "reasoning": "France has been highly dominant throughout the tournament, scoring multiple goals in all their matches (3-1 vs Senegal, 3-0 vs Iraq, 4-1 vs Norway) while consistently controlling the pace. Paraguay, on the other hand, is heavily outmatched here, having suffered a heavy 4-1 defeat to the USA and showing very low offensive output (only 0.36 xG against Turkey and 0.29 xG against Australia). While the 1.2 odds are short, France is one of the safest selections on the board to advance, making them a highly secure option for a maximum stake bet to steadily rebuild our bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:Gemini",
             "date": "2026-07-05T19:00:28.150Z",
@@ -15261,37 +15286,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:Gemini",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 2506.33,
+            "odds": 1.71,
+            "reasoning": "Argentina enters this knockout clash in commanding form, showing consistent dominance in their underlying metrics (xG of 1.58 vs Algeria, 2.45 vs Austria, and 2.52 vs Jordan) alongside highly efficient clinical finishing. While Switzerland is a highly disciplined side that dominated Qatar and edged Canada, their defensive structure will face its sternest test yet against an elite Argentinian attack. At odds of 1.71, backing the tournament favorites to secure a win in normal time offers excellent value. We allocate a confident stake of approximately 20% of our bankroll to maintain our strong position near the top of the leaderboard.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 65,
-        "lost": 34,
+        "lost": 35,
         "void": 0,
-        "totalStake": 105341.81000000008,
-        "totalReturn": -3830.0337999999965,
-        "roi": -0.03635815446877164,
-        "avgOdds": 1.7386868686868693,
+        "totalStake": 107069.95000000008,
+        "totalReturn": -5558.173799999997,
+        "roi": -0.05191161292220639,
+        "avgOdds": 1.7384000000000006,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:Grok",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 739.16,
-            "odds": 1.2,
-            "reasoning": "France has looked the stronger side across multiple recent matches with superior xG, shots, and progression metrics, while Paraguay's results and underlying numbers have been poor. The 1.2 price is short but reflects the clear gap; max stake reflects high conviction.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:Grok",
             "date": "2026-07-05T19:00:28.150Z",
@@ -15444,37 +15469,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:Grok",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1728.14,
+            "odds": 1.71,
+            "reasoning": "Argentina's recent xG dominance (1.58-0.41 vs Algeria, 2.45-0.63 vs Austria, strong win vs Jordan) points to clear superiority over Switzerland, whose results show inconsistency despite some shot volume. Odds of 1.71 for home align with expected probability edge, justifying a solid stake within limits.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 64,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 61135.809999999976,
-        "totalReturn": -4122.8426,
-        "roi": -0.06743744132939437,
-        "avgOdds": 1.876464646464647,
+        "totalStake": 62635.809999999976,
+        "totalReturn": -5622.8426,
+        "roi": -0.08977041408101855,
+        "avgOdds": 1.8748000000000007,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:DeepSeek",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 1094.47,
-            "odds": 1.2,
-            "reasoning": "France are huge favorites for a reason. They've dismantled Senegal, Iraq, and Norway with strong underlying numbers. Paraguay have struggled to generate offense (0.29 xG vs Australia, 0.36 xG vs Türkiye) and rely on low-block defending, which France's firepower should eventually break. At 1.20, a max bet on France is a safe way to grind back bankroll.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:DeepSeek",
             "date": "2026-07-05T19:00:28.150Z",
@@ -15627,37 +15652,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:DeepSeek",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1500,
+            "odds": 1.71,
+            "reasoning": "Argentina have been clinical and defensively solid, beating Algeria 3-0, Austria 2-0, and Jordan 3-1 with xG differentials well in their favor. Switzerland managed only a 1-1 draw with Qatar despite an xG of 3.14, suggesting wastefulness, and edged Canada 2-1 in a close match. Argentina's superior quality and consistency make the home win at 1.71 a strong value play.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 63,
-        "lost": 36,
+        "lost": 37,
         "void": 0,
-        "totalStake": 46615.14999999999,
-        "totalReturn": -9320.632699999995,
-        "roi": -0.19994857251344245,
-        "avgOdds": 1.7519191919191925,
+        "totalStake": 46835.83999999999,
+        "totalReturn": -9541.322699999995,
+        "roi": -0.20371840667318014,
+        "avgOdds": 1.7515000000000007,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:Mistral",
-            "date": "2026-07-04T20:00:08.461Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 406.71,
-            "odds": 1.2,
-            "reasoning": "France's recent performances show dominance in possession, final-third receptions, and line breaks, even against strong opponents like Norway and Senegal. Paraguay, while resilient, has struggled offensively (low xG, shots, and progressions) and defensively (high pressures faced, low possession). The odds heavily favor France (1.2), and the qualitative data from FIFA reports align with this. Betting the maximum stake on France to win reflects high confidence based on both odds and underlying metrics.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:Mistral",
             "date": "2026-07-05T19:00:28.150Z",
@@ -15810,37 +15835,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:Mistral",
+            "date": "2026-07-11T23:28:32.051Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 220.69,
+            "odds": 1.71,
+            "reasoning": "Argentina's recent performances show dominance in possession, shots, and xG, particularly against stronger opponents like Austria and Jordan. Switzerland, while impressive against Qatar, struggled against Canada in terms of xG and shots on target. Argentina's attacking prowess and defensive solidity (only 1 goal conceded in last 4 matches) make them the clear favorites here. The odds of 1.71 for Argentina to win offer a reasonable value given their form and Switzerland's inconsistency. Betting max stake on Argentina to win.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 99,
+        "totalBets": 100,
         "won": 67,
-        "lost": 32,
+        "lost": 33,
         "void": 0,
-        "totalStake": 109160.99,
-        "totalReturn": 7199.768199999999,
-        "roi": 0.06595550480075343,
-        "avgOdds": 1.662020202020202,
+        "totalStake": 111164.31000000001,
+        "totalReturn": 5196.448199999999,
+        "roi": 0.046745652449063896,
+        "avgOdds": 1.6623999999999999,
         "recentBets": [
-          {
-            "id": "c798a1ffdeda28e82d930e7145a8ff10:Baseline",
-            "date": "2026-07-04T18:12:58.481Z",
-            "matchId": "c798a1ffdeda28e82d930e7145a8ff10",
-            "match": "Paraguay vs France",
-            "homeTeam": "Paraguay",
-            "awayTeam": "France",
-            "kickoff": "2026-07-04T21:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1671.83,
-            "odds": 1.18,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "a4634eae056c18d705e3feffb347163f:Baseline",
             "date": "2026-07-05T17:13:03.297Z",
@@ -15989,6 +16014,23 @@
             "pick": "away",
             "stake": 2003.32,
             "odds": 1.94,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
+          },
+          {
+            "id": "200d9cd5eda092c7eb778cc104cd2fd2:Baseline",
+            "date": "2026-07-11T22:13:40.194Z",
+            "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
+            "match": "Argentina vs Switzerland",
+            "homeTeam": "Argentina",
+            "awayTeam": "Switzerland",
+            "kickoff": "2026-07-12T01:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 2003.32,
+            "odds": 1.7,
             "reasoning": "Always bet the favorite.",
             "status": "lost",
             "settledResult": "draw",
