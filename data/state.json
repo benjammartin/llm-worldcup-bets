@@ -14669,14 +14669,7 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [
-      {
-        "matchId": "200d9cd5eda092c7eb778cc104cd2fd2",
-        "homeTeam": "Argentina",
-        "awayTeam": "Switzerland",
-        "kickoff": "2026-07-12T01:00:00Z"
-      }
-    ],
+    "upcomingMatches": [],
     "liveMatches": [],
     "lastCyclePostKey": "200d9cd5eda092c7eb778cc104cd2fd2",
     "performance": {
