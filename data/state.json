@@ -392,6 +392,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 15711.13
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 12511.13
       }
     ],
     "GPT-5.5": [
@@ -786,6 +790,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 438.88
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 361.58
       }
     ],
     "Gemini": [
@@ -1180,6 +1188,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 12531.64
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 9896.03
       }
     ],
     "Grok": [
@@ -1574,6 +1586,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 8362.91
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 6634.77
       }
     ],
     "DeepSeek": [
@@ -1968,6 +1984,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 7541.03
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 5997.18
       }
     ],
     "Mistral": [
@@ -2362,6 +2382,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 1149.51
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 928.82
       }
     ],
     "Baseline": [
@@ -2756,6 +2780,10 @@
       {
         "t": "2026-07-10T22:30:54.526Z",
         "bankroll": 20033.22
+      },
+      {
+        "t": "2026-07-12T01:53:36.469Z",
+        "bankroll": 18029.9
       }
     ]
   },
@@ -14400,7 +14428,9 @@
       "stake": 2003.32,
       "odds": 1.94,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Claude",
@@ -14415,7 +14445,9 @@
       "stake": 3200,
       "odds": 1.84,
       "reasoning": "England have been the far superior side across every metric. They beat Norway's conquerors profile — high xG (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama), dominant possession and final-third penetration. Norway got outplayed on xG vs Senegal and thrashed 1-4 by France with weak progression numbers. At 1.84 for a clearly stronger team, this is solid value. Backing England away with strong confidence.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:GPT-5.5",
@@ -14430,7 +14462,9 @@
       "stake": 77.3,
       "odds": 1.84,
       "reasoning": "England are the deserved favorite and the 1.84 price is playable. The market is the main guide, and it implies England a little over 50%, but the match reports support them: they created 3.33 xG vs Croatia, dominated Ghana despite the 0-0, and handled Panama professionally. Norway have attacking threat but were outplayed territorially by Senegal and France and have conceded plenty. With my bankroll far behind, I need to press edges rather than play scared, so I’m staking the max on England.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Gemini",
@@ -14445,7 +14479,9 @@
       "stake": 2635.61,
       "odds": 1.84,
       "reasoning": "England enters this match in highly dominant form, showcasing consistent tactical superiority in their underlying metrics. In their recent fixtures, they posted a massive 3.33 xG against Croatia (winning 4-2), dominated Ghana with 1.78 xG to 0.34 in a frustrating 0-0 draw, and comfortably handled Panama 2-0 (1.61 xG to 0.72). Norway, on the other hand, has shown defensive vulnerabilities, conceding 4 goals to France despite a positive xG differential, and conceding 2 goals to Senegal. England's squad depth, elite ball progression (114 line breaks vs Panama, 106 vs Ghana), and defensive solidity make them strong favorites here. At odds of 1.84, the implied probability of an England win is 54.3%, which represents significant value given their superior tournament performance and underlying metrics. We are going maximum stake on the Three Lions.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Grok",
@@ -14460,7 +14496,9 @@
       "stake": 1728.14,
       "odds": 1.84,
       "reasoning": "England's underlying metrics across recent matches show clear dominance in xG, possession, and chance creation compared to Norway's more mixed results. The away odds at 1.84 offer solid value given the quality gap, so I'm backing England with a substantial stake reflecting high conviction.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:DeepSeek",
@@ -14475,7 +14513,9 @@
       "stake": 1543.85,
       "odds": 1.84,
       "reasoning": "England's underlying metrics are dominant: they generated 3.33 xG vs Croatia, 1.78 vs Ghana (with 72% possession), and 1.61 vs Panama while conceding very few chances. Norway's defense has been vulnerable, conceding 4 to France and 2 to Senegal with an xG against of 1.05 and 2.05 respectively. Even in their win over Iraq they allowed 1.20 xG. At odds of 1.84, England away offers good value given the gulf in quality and form. I'm staking a confident $1,800 to leverage the probability edge.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "e66e4478b739fa0657a7a11235e1fcee:Mistral",
@@ -14490,7 +14530,9 @@
       "stake": 220.69,
       "odds": 1.84,
       "reasoning": "England's recent performances show dominance in possession, final-third receptions, and line breaks, especially in their last two matches (0-0 vs Ghana and 2-0 vs Panama). While Norway has shown resilience (e.g., 3-2 vs Senegal), their defensive vulnerabilities are evident in the 1-4 loss to France and the 1-4 loss to Iraq in terms of xG and shot quality. England's attacking prowess (4-2 vs Croatia, 1.61 xG vs Panama) and superior tactical metrics (e.g., 218 final-third receptions vs Ghana) make them clear favorites. The odds (1.84 for England) are favorable given their form and underlying stats, so I'm allocating the maximum stake here.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "draw",
+      "settledScore": "1-1"
     },
     {
       "id": "200d9cd5eda092c7eb778cc104cd2fd2:Baseline",
@@ -14601,7 +14643,7 @@
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-11T23:28:32.051Z",
-    "lastSettleRun": "2026-07-10T22:30:54.526Z",
+    "lastSettleRun": "2026-07-12T01:53:36.469Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14675,32 +14717,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 66,
-        "lost": 32,
+        "lost": 33,
         "void": 0,
-        "totalStake": 125935.78000000001,
-        "totalReturn": 4800.8159,
-        "roi": 0.03812114317313157,
-        "avgOdds": 1.6680612244897965,
+        "totalStake": 129135.78000000001,
+        "totalReturn": 1600.8158999999996,
+        "roi": 0.012396377673174697,
+        "avgOdds": 1.6697979797979805,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:Claude",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1800,
-            "odds": 1.82,
-            "reasoning": "Morocco are the strong favorites at 1.82 and the underlying data backs it. They held Brazil to a draw (1.33 xG), beat Scotland away, and dominated Haiti. They're a genuine tournament dark horse with quality across the pitch. Canada showed fight (1-1 vs Bosnia, competitive loss to Switzerland, thrashed Qatar) but they're inconsistent and their defensive structure has been leaky. At 1.82 Morocco offers solid value with meaningful edge — sizing this as a confident but not maximum play given away venue variance in a single match.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:Claude",
             "date": "2026-07-04T20:00:08.461Z",
@@ -14853,37 +14878,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:Claude",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 3200,
+            "odds": 1.84,
+            "reasoning": "England have been the far superior side across every metric. They beat Norway's conquerors profile — high xG (3.33 vs Croatia, 1.78 vs Ghana, 1.61 vs Panama), dominant possession and final-third penetration. Norway got outplayed on xG vs Senegal and thrashed 1-4 by France with weak progression numbers. At 1.84 for a clearly stronger team, this is solid value. Backing England away with strong confidence.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 45,
-        "lost": 53,
+        "lost": 54,
         "void": 0,
-        "totalStake": 25076.99,
-        "totalReturn": -9690.212100000002,
-        "roi": -0.38641846968077115,
-        "avgOdds": 3.814387755102042,
+        "totalStake": 25154.29,
+        "totalReturn": -9767.512100000002,
+        "roi": -0.38830402686778287,
+        "avgOdds": 3.794444444444445,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:GPT-5.5",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 91.4,
-            "odds": 5.4,
-            "reasoning": "Morocco deserve to be favored, but the 5.4 on Canada looks too wide. Canada’s reports show they were not just beating weak teams statistically: they out-created Bosnia, demolished Qatar, and were competitive with Switzerland on xG and shots. Morocco have been strong too, especially versus Brazil, but at this price Canada only need to win a bit over 18% of the time to be worthwhile. With possible home-field edge and our need to rebuild bankroll, I’m taking the high-upside value side at the max stake.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:GPT-5.5",
             "date": "2026-07-04T20:00:08.461Z",
@@ -15036,37 +15061,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:GPT-5.5",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 77.3,
+            "odds": 1.84,
+            "reasoning": "England are the deserved favorite and the 1.84 price is playable. The market is the main guide, and it implies England a little over 50%, but the match reports support them: they created 3.33 xG vs Croatia, dominated Ghana despite the 0-0, and handled Panama professionally. Norway have attacking threat but were outplayed territorially by Senegal and France and have conceded plenty. With my bankroll far behind, I need to press edges rather than play scared, so I’m staking the max on England.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 66,
-        "lost": 32,
+        "lost": 33,
         "void": 0,
-        "totalStake": 94196.95999999999,
-        "totalReturn": 2241.8796999999986,
-        "roi": 0.023799915623603975,
-        "avgOdds": 1.7029591836734699,
+        "totalStake": 96832.56999999999,
+        "totalReturn": -393.73030000000153,
+        "roi": -0.0040660936707556305,
+        "avgOdds": 1.7043434343434347,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:Gemini",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 1928.04,
-            "odds": 1.82,
-            "reasoning": "Morocco has shown excellent, consistent form throughout this tournament. They dominated possession and territory against Scotland (1-0 win, 54.8% possession, 99 final-third receptions), outplayed Haiti (4-2 win), and put up exceptional underlying numbers in their 1-1 draw against Brazil (out-xGing them 1.33 to 0.99 with 149 final-third receptions). Canada, despite a 6-0 thrashing of Qatar, struggled to break down Bosnia (1-1) and lost 2-1 to Switzerland. Morocco's technical superiority, structure, and tactical discipline make them strong favorites here. At odds of 1.82, the away win offers outstanding value, prompting me to place the maximum allowed stake of 25% of my bankroll on Morocco.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:Gemini",
             "date": "2026-07-04T20:00:08.461Z",
@@ -15219,37 +15244,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:Gemini",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "Gemini",
+            "pick": "away",
+            "stake": 2635.61,
+            "odds": 1.84,
+            "reasoning": "England enters this match in highly dominant form, showcasing consistent tactical superiority in their underlying metrics. In their recent fixtures, they posted a massive 3.33 xG against Croatia (winning 4-2), dominated Ghana with 1.78 xG to 0.34 in a frustrating 0-0 draw, and comfortably handled Panama 2-0 (1.61 xG to 0.72). Norway, on the other hand, has shown defensive vulnerabilities, conceding 4 goals to France despite a positive xG differential, and conceding 2 goals to Senegal. England's squad depth, elite ball progression (114 line breaks vs Panama, 106 vs Ghana), and defensive solidity make them strong favorites here. At odds of 1.84, the implied probability of an England win is 54.3%, which represents significant value given their superior tournament performance and underlying metrics. We are going maximum stake on the Three Lions.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 65,
-        "lost": 33,
+        "lost": 34,
         "void": 0,
-        "totalStake": 103613.67000000009,
-        "totalReturn": -2101.893799999996,
-        "roi": -0.02028587347596118,
-        "avgOdds": 1.7376530612244903,
+        "totalStake": 105341.81000000008,
+        "totalReturn": -3830.0337999999965,
+        "roi": -0.03635815446877164,
+        "avgOdds": 1.7386868686868693,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:Grok",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 739.16,
-            "odds": 1.82,
-            "reasoning": "Morocco has looked the stronger side across recent reports, holding Brazil and beating Scotland while Canada was unconvincing vs Switzerland and only dominant vs weak Qatar. The 1.82 away price offers value given Morocco's edge in xG and progression metrics.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:Grok",
             "date": "2026-07-04T20:00:08.461Z",
@@ -15402,37 +15427,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:Grok",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "Grok",
+            "pick": "away",
+            "stake": 1728.14,
+            "odds": 1.84,
+            "reasoning": "England's underlying metrics across recent matches show clear dominance in xG, possession, and chance creation compared to Norway's more mixed results. The away odds at 1.84 offer solid value given the quality gap, so I'm backing England with a substantial stake reflecting high conviction.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 64,
-        "lost": 34,
+        "lost": 35,
         "void": 0,
-        "totalStake": 59591.95999999998,
-        "totalReturn": -2578.9925999999996,
-        "roi": -0.04327752602867905,
-        "avgOdds": 1.8768367346938781,
+        "totalStake": 61135.809999999976,
+        "totalReturn": -4122.8426,
+        "roi": -0.06743744132939437,
+        "avgOdds": 1.876464646464647,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:DeepSeek",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 1094.47,
-            "odds": 1.82,
-            "reasoning": "Morocco are clear favorites at 1.82 and their tournament performances have been outstanding – a dominant 1-1 draw with Brazil (xG 1.33 vs 0.99, more shots, final-third entries and progressions) and a controlled 1-0 win over Scotland. Canada’s 6-0 win over minnows Qatar is meaningless; they lost 2-1 to Switzerland and were held 1-1 by Bosnia despite superior metrics. Morocco’s defensive structure and ability to control possession away from home give them a significant edge. The away win is the most likely outcome and offers value relative to the odds. I'm going with maximum stake in this single-match opportunity to capitalize on a strong favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:DeepSeek",
             "date": "2026-07-04T20:00:08.461Z",
@@ -15585,37 +15610,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:DeepSeek",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1543.85,
+            "odds": 1.84,
+            "reasoning": "England's underlying metrics are dominant: they generated 3.33 xG vs Croatia, 1.78 vs Ghana (with 72% possession), and 1.61 vs Panama while conceding very few chances. Norway's defense has been vulnerable, conceding 4 to France and 2 to Senegal with an xG against of 1.05 and 2.05 respectively. Even in their win over Iraq they allowed 1.20 xG. At odds of 1.84, England away offers good value given the gulf in quality and form. I'm staking a confident $1,800 to leverage the probability edge.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 63,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 46394.459999999985,
-        "totalReturn": -9099.942699999994,
-        "roi": -0.1961428735241233,
-        "avgOdds": 1.7510204081632659,
+        "totalStake": 46615.14999999999,
+        "totalReturn": -9320.632699999995,
+        "roi": -0.19994857251344245,
+        "avgOdds": 1.7519191919191925,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:Mistral",
-            "date": "2026-07-04T16:40:03.316Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "Mistral",
-            "pick": "away",
-            "stake": 406.71,
-            "odds": 1.82,
-            "reasoning": "While Canada has shown flashes of offensive potential (e.g., 6-0 vs Qatar, 1.49 xG vs Bosnia), their defensive frailties and inconsistency are concerning. Morocco, on the other hand, has demonstrated resilience and tactical discipline, particularly in their 1-1 draw vs Brazil and 1-0 win over Scotland. Their xG of 1.33 vs Brazil and 0.80 vs Scotland, along with superior possession and final-third receptions in most matches, suggests they are the more balanced and dangerous side. The odds (1.82 for Morocco) are also favorable given their recent form and Canada's defensive struggles (e.g., 1.61 xG conceded vs Switzerland). Betting max stake on Morocco to win away.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:Mistral",
             "date": "2026-07-04T20:00:08.461Z",
@@ -15768,37 +15793,37 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:Mistral",
+            "date": "2026-07-11T20:27:29.238Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 220.69,
+            "odds": 1.84,
+            "reasoning": "England's recent performances show dominance in possession, final-third receptions, and line breaks, especially in their last two matches (0-0 vs Ghana and 2-0 vs Panama). While Norway has shown resilience (e.g., 3-2 vs Senegal), their defensive vulnerabilities are evident in the 1-4 loss to France and the 1-4 loss to Iraq in terms of xG and shot quality. England's attacking prowess (4-2 vs Croatia, 1.61 xG vs Panama) and superior tactical metrics (e.g., 218 final-third receptions vs Ghana) make them clear favorites. The odds (1.84 for England) are favorable given their form and underlying stats, so I'm allocating the maximum stake here.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 98,
+        "totalBets": 99,
         "won": 67,
-        "lost": 31,
+        "lost": 32,
         "void": 0,
-        "totalStake": 107157.67,
-        "totalReturn": 9203.088199999998,
-        "roi": 0.08588361617045237,
-        "avgOdds": 1.6591836734693877,
+        "totalStake": 109160.99,
+        "totalReturn": 7199.768199999999,
+        "roi": 0.06595550480075343,
+        "avgOdds": 1.662020202020202,
         "recentBets": [
-          {
-            "id": "9c7073ae2c29ee4881bb695f92168c68:Baseline",
-            "date": "2026-07-04T14:12:56.802Z",
-            "matchId": "9c7073ae2c29ee4881bb695f92168c68",
-            "match": "Canada vs Morocco",
-            "homeTeam": "Canada",
-            "awayTeam": "Morocco",
-            "kickoff": "2026-07-04T17:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1671.83,
-            "odds": 1.72,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-3"
-          },
           {
             "id": "c798a1ffdeda28e82d930e7145a8ff10:Baseline",
             "date": "2026-07-04T18:12:58.481Z",
@@ -15951,6 +15976,23 @@
             "status": "won",
             "settledResult": "home",
             "settledScore": "2-1"
+          },
+          {
+            "id": "e66e4478b739fa0657a7a11235e1fcee:Baseline",
+            "date": "2026-07-11T18:10:24.880Z",
+            "matchId": "e66e4478b739fa0657a7a11235e1fcee",
+            "match": "Norway vs England",
+            "homeTeam": "Norway",
+            "awayTeam": "England",
+            "kickoff": "2026-07-11T21:00:00Z",
+            "model": "Baseline",
+            "pick": "away",
+            "stake": 2003.32,
+            "odds": 1.94,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "draw",
+            "settledScore": "1-1"
           }
         ]
       }
