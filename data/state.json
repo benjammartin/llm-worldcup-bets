@@ -14753,7 +14753,14 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [],
+    "upcomingMatches": [
+      {
+        "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+        "homeTeam": "France",
+        "awayTeam": "Spain",
+        "kickoff": "2026-07-14T19:00:00Z"
+      }
+    ],
     "liveMatches": [],
     "lastCyclePostKey": "200d9cd5eda092c7eb778cc104cd2fd2",
     "performance": {
