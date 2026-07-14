@@ -400,6 +400,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 9311.13
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 12321.13
       }
     ],
     "GPT-5.5": [
@@ -802,6 +806,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 284.28
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 391.74
       }
     ],
     "Gemini": [
@@ -1204,6 +1212,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 7389.7
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 5868.16
       }
     ],
     "Grok": [
@@ -1606,6 +1618,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 4906.63
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 3905.64
       }
     ],
     "DeepSeek": [
@@ -2008,6 +2024,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 4497.18
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 6439.21
       }
     ],
     "Mistral": [
@@ -2410,6 +2430,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 708.13
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 999.48
       }
     ],
     "Baseline": [
@@ -2812,6 +2836,10 @@
       {
         "t": "2026-07-12T05:19:28.758Z",
         "bankroll": 16026.58
+      },
+      {
+        "t": "2026-07-14T21:48:16.328Z",
+        "bankroll": 14423.92
       }
     ]
   },
@@ -14694,7 +14722,9 @@
       "stake": 1602.66,
       "odds": 2.4,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Claude",
@@ -14709,7 +14739,9 @@
       "stake": 1400,
       "odds": 3.15,
       "reasoning": "Spain has the strongest underlying metrics in this slate — dominant xG and possession across all four matches, plus a gritty road win at Uruguay proving they win without needing perfect conditions. The market prices France as home favorites at 2.55, but Spain at 3.15 offers value given their superior process. Moderate stake reflects genuine three-way uncertainty in a tight elite matchup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:GPT-5.5",
@@ -14724,7 +14756,9 @@
       "stake": 49.98,
       "odds": 3.15,
       "reasoning": "Max stake on Spain. Odds make France the favorite, but this looks closer to a coin-flip than 3.15 suggests. Spain’s tournament reports show elite control and chance suppression: they allowed xG of just 0.13, 0.11 and 0.22 in the listed matches, while France have looked more open, including conceding 1.45 xG to Norway despite winning 4-1. France are dangerous and the market respect is understandable, but at my bankroll position I need upside, and Spain at the biggest price is the best value/risk profile on the board.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Gemini",
@@ -14739,7 +14773,9 @@
       "stake": 1521.54,
       "odds": 2.55,
       "reasoning": "France has shown incredible tournament efficiency and clinical finishing throughout their campaign, consistently outperforming their expected goals (xG) metrics with high-quality shot conversion (e.g., 3 goals on 1.62 xG against Senegal, and 4 goals on 1.05 xG against Norway). While Spain dominates possession and progression statistics, they struggled to break down low blocks like Cabo Verde (0-0) and relied heavily on volume rather than clinical efficiency. France's direct transition play and defensive organization under pressure make them the stronger side in high-stakes knockout environments. At odds of 2.55, the implied probability of 39.2% undervalues a highly balanced and lethal French squad. I am placing the maximum allowed stake of 25% of my bankroll on France to win in regular time.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Grok",
@@ -14754,7 +14790,9 @@
       "stake": 1000.99,
       "odds": 2.55,
       "reasoning": "France home edge at 2.55 offers best value per odds; recent xG dominance in M17/M42 and strong away showing vs Norway outweigh Spain's controlled but lower-scoring results. Max stake allocated given single-match slate and bankroll rules.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:DeepSeek",
@@ -14769,7 +14807,9 @@
       "stake": 903.27,
       "odds": 3.15,
       "reasoning": "Spain's post-match data shows extreme territorial dominance (e.g., 426 final-third receptions vs Cabo Verde, 259 vs Saudi Arabia, and consistent xG creation). Even against Uruguay, they controlled possession and limited chances (0.22 xG against). France, while clinical, overperformed xG massively in the Norway win (1.05 xG produced 4 goals), hinting at possible regression. Spain's line-breaking ability (134 vs Uruguay) suggests they can disrupt France's press, and the away price of 3.15 offers value given Spain's underlying metrics. I'm backing Spain to edge it.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     },
     {
       "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Mistral",
@@ -14784,13 +14824,15 @@
       "stake": 135.51,
       "odds": 3.15,
       "reasoning": "Spain's recent performances show dominant possession, high xG, and superior final-third metrics (e.g., 426 vs. Cabo Verde, 259 vs. Saudi Arabia). While France is strong, their possession stats are less impressive (hovering around 50%), and Spain's ability to break lines (159 vs. Saudi Arabia, 134 vs. Uruguay) suggests they can exploit France's defensive structure. The away odds (3.15) are attractive given Spain's attacking prowess and recent form. Allocating the maximum stake here due to high conviction in Spain's ability to control the game and create chances, even if it's a tough matchup.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "0-2"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-14T18:53:07.367Z",
-    "lastSettleRun": "2026-07-12T05:19:28.758Z",
+    "lastSettleRun": "2026-07-14T21:48:16.328Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -14871,32 +14913,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 100,
-        "won": 66,
+        "totalBets": 101,
+        "won": 67,
         "lost": 34,
         "void": 0,
-        "totalStake": 132335.78000000003,
-        "totalReturn": -1599.1841000000004,
-        "roi": -0.01208429118716042,
-        "avgOdds": 1.6702000000000006,
+        "totalStake": 133735.78000000003,
+        "totalReturn": 1410.8158999999996,
+        "roi": 0.010549277837239962,
+        "avgOdds": 1.6848514851485157,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:Claude",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2942.59,
-            "odds": 1.79,
-            "reasoning": "Brazil showed dominant xG in decisive wins (3.78 vs Scotland, 1.42 vs Haiti) and control against tougher sides. Norway is dangerous going forward but leaks goals against elite teams (conceded 4 to France). At 1.79 home, Brazil's quality and home advantage make this the strongest edge on the slate. Sizeable but not maximum stake given Norway's genuine attacking threat and draw risk.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:Claude",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15049,37 +15074,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Claude",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "Claude",
+            "pick": "away",
+            "stake": 1400,
+            "odds": 3.15,
+            "reasoning": "Spain has the strongest underlying metrics in this slate — dominant xG and possession across all four matches, plus a gritty road win at Uruguay proving they win without needing perfect conditions. The market prices France as home favorites at 2.55, but Spain at 3.15 offers value given their superior process. Moderate stake reflects genuine three-way uncertainty in a tight elite matchup.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 100,
-        "won": 45,
+        "totalBets": 101,
+        "won": 46,
         "lost": 55,
         "void": 0,
-        "totalStake": 25231.59,
-        "totalReturn": -9844.812100000001,
-        "roi": -0.3901780307939373,
-        "avgOdds": 3.7736000000000005,
+        "totalStake": 25281.57,
+        "totalReturn": -9737.3551,
+        "roi": -0.385156266007214,
+        "avgOdds": 3.767425742574258,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:GPT-5.5",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "home",
-            "stake": 59.21,
-            "odds": 1.79,
-            "reasoning": "Taking Brazil at 1.79. Odds remain the anchor and imply Brazil as a clear favorite; after normalizing the market they are roughly mid-50s to win in 90, and I make them a bit higher than that. The training reports support the favorite: Brazil’s trend improved sharply after the Morocco draw, especially the 3.78 xG / 21-shot performance against Scotland, while Norway have been dangerous but have allowed a lot of territory and chances against Senegal and France. Norway can absolutely score, but Brazil look more likely to control the decisive attacking phases. With my bankroll low and only one listed match, I’m staking the maximum.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:GPT-5.5",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15232,37 +15257,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:GPT-5.5",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "away",
+            "stake": 49.98,
+            "odds": 3.15,
+            "reasoning": "Max stake on Spain. Odds make France the favorite, but this looks closer to a coin-flip than 3.15 suggests. Spain’s tournament reports show elite control and chance suppression: they allowed xG of just 0.13, 0.11 and 0.22 in the listed matches, while France have looked more open, including conceding 1.45 xG to Norway despite winning 4-1. France are dangerous and the market respect is understandable, but at my bankroll position I need upside, and Spain at the biggest price is the best value/risk profile on the board.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 100,
+        "totalBets": 101,
         "won": 66,
-        "lost": 34,
+        "lost": 35,
         "void": 0,
-        "totalStake": 99338.9,
-        "totalReturn": -2900.0603000000015,
-        "roi": -0.029193601902175296,
-        "avgOdds": 1.7044000000000006,
+        "totalStake": 100860.43999999999,
+        "totalReturn": -4421.600300000002,
+        "roi": -0.04383879645974182,
+        "avgOdds": 1.7127722772277234,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:Gemini",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 2360.48,
-            "odds": 1.79,
-            "reasoning": "Brazil's performances have progressively improved this tournament, culminating in a dominant 3-0 victory against Scotland where they generated a massive 3.78 xG while limiting their opponent. Norway, on the other hand, comes off a heavy 1-4 defeat to France where they conceded high-quality chances. Brazil's technical superiority, offensive fluency, and defensive structure make them strong favorites here. At odds of 1.79, the home win represents excellent value, and we are backing them with our maximum allowed stake to maximize our lead in the competition.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:Gemini",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15415,37 +15440,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Gemini",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1521.54,
+            "odds": 2.55,
+            "reasoning": "France has shown incredible tournament efficiency and clinical finishing throughout their campaign, consistently outperforming their expected goals (xG) metrics with high-quality shot conversion (e.g., 3 goals on 1.62 xG against Senegal, and 4 goals on 1.05 xG against Norway). While Spain dominates possession and progression statistics, they struggled to break down low blocks like Cabo Verde (0-0) and relied heavily on volume rather than clinical efficiency. France's direct transition play and defensive organization under pressure make them the stronger side in high-stakes knockout environments. At odds of 2.55, the implied probability of 39.2% undervalues a highly balanced and lethal French squad. I am placing the maximum allowed stake of 25% of my bankroll on France to win in regular time.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 100,
+        "totalBets": 101,
         "won": 65,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 107069.95000000008,
-        "totalReturn": -5558.173799999997,
-        "roi": -0.05191161292220639,
-        "avgOdds": 1.7384000000000006,
+        "totalStake": 108070.94000000009,
+        "totalReturn": -6559.163799999997,
+        "roi": -0.06069313175216197,
+        "avgOdds": 1.746435643564357,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:Grok",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "Grok",
-            "pick": "home",
-            "stake": 894.98,
-            "odds": 1.79,
-            "reasoning": "Brazil's underlying metrics across recent matches (dominant xG vs Scotland, solid control vs Haiti) point to clear superiority over Norway, whose results are inflated by weaker opposition. Odds of 1.79 already bake in a modest home edge; the value is in backing the stronger side at scale given only one available fixture.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:Grok",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15598,37 +15623,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Grok",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 1000.99,
+            "odds": 2.55,
+            "reasoning": "France home edge at 2.55 offers best value per odds; recent xG dominance in M17/M42 and strong away showing vs Norway outweigh Spain's controlled but lower-scoring results. Max stake allocated given single-match slate and bankroll rules.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 100,
-        "won": 64,
+        "totalBets": 101,
+        "won": 65,
         "lost": 36,
         "void": 0,
-        "totalStake": 62635.809999999976,
-        "totalReturn": -5622.8426,
-        "roi": -0.08977041408101855,
-        "avgOdds": 1.8748000000000007,
+        "totalStake": 63539.07999999997,
+        "totalReturn": -3680.8121,
+        "roi": -0.057929892910001245,
+        "avgOdds": 1.8874257425742582,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:DeepSeek",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 1000,
-            "odds": 1.79,
-            "reasoning": "Brazil are strong favorites at home with odds 1.79 reflecting their quality. Despite a draw with Morocco, they convincingly beat Scotland (xG 3.78) and Haiti. Norway have been inconsistent: a 4-1 win over Iraq but then needed luck to beat Senegal (xG against 2.05) and were dismantled by France 4-1. Brazil's pressure and attacking metrics are superior. I'm staking $1000, which is 15% of bankroll, as I'm confident Brazil will win.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:DeepSeek",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15781,37 +15806,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:DeepSeek",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 903.27,
+            "odds": 3.15,
+            "reasoning": "Spain's post-match data shows extreme territorial dominance (e.g., 426 final-third receptions vs Cabo Verde, 259 vs Saudi Arabia, and consistent xG creation). Even against Uruguay, they controlled possession and limited chances (0.22 xG against). France, while clinical, overperformed xG massively in the Norway win (1.05 xG produced 4 goals), hinting at possible regression. Spain's line-breaking ability (134 vs Uruguay) suggests they can disrupt France's press, and the away price of 3.15 offers value given Spain's underlying metrics. I'm backing Spain to edge it.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 100,
-        "won": 63,
+        "totalBets": 101,
+        "won": 64,
         "lost": 37,
         "void": 0,
-        "totalStake": 46835.83999999999,
-        "totalReturn": -9541.322699999995,
-        "roi": -0.20371840667318014,
-        "avgOdds": 1.7515000000000007,
+        "totalStake": 46971.34999999999,
+        "totalReturn": -9249.976199999996,
+        "roi": -0.1969280465645547,
+        "avgOdds": 1.765346534653466,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:Mistral",
-            "date": "2026-07-05T19:00:28.150Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 489.35,
-            "odds": 1.79,
-            "reasoning": "Brazil has shown strong offensive capabilities in recent matches (e.g., 3-0 vs Haiti, 3-0 vs Scotland) with high xG and shot dominance, even if their possession and final-third metrics are not always dominant. Norway, while capable (e.g., 4-1 vs Iraq, 3-2 vs Senegal), has struggled against top-tier teams (1-4 vs France) and has a tendency to concede goals despite creating chances. The odds (1.79 for Brazil) are favorable given Brazil's recent form and Norway's defensive vulnerabilities. Betting max stake on Brazil to win, as the qualitative and quantitative data align with the odds.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:Mistral",
             "date": "2026-07-05T23:44:04.824Z",
@@ -15964,37 +15989,37 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Mistral",
+            "date": "2026-07-14T18:53:07.367Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "Mistral",
+            "pick": "away",
+            "stake": 135.51,
+            "odds": 3.15,
+            "reasoning": "Spain's recent performances show dominant possession, high xG, and superior final-third metrics (e.g., 426 vs. Cabo Verde, 259 vs. Saudi Arabia). While France is strong, their possession stats are less impressive (hovering around 50%), and Spain's ability to break lines (159 vs. Saudi Arabia, 134 vs. Uruguay) suggests they can exploit France's defensive structure. The away odds (3.15) are attractive given Spain's attacking prowess and recent form. Allocating the maximum stake here due to high conviction in Spain's ability to control the game and create chances, even if it's a tough matchup.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 100,
+        "totalBets": 101,
         "won": 67,
-        "lost": 33,
+        "lost": 34,
         "void": 0,
-        "totalStake": 111164.31000000001,
-        "totalReturn": 5196.448199999999,
-        "roi": 0.046745652449063896,
-        "avgOdds": 1.6623999999999999,
+        "totalStake": 112766.97000000002,
+        "totalReturn": 3593.788199999999,
+        "roi": 0.03186915636732989,
+        "avgOdds": 1.6697029702970296,
         "recentBets": [
-          {
-            "id": "a4634eae056c18d705e3feffb347163f:Baseline",
-            "date": "2026-07-05T17:13:03.297Z",
-            "matchId": "a4634eae056c18d705e3feffb347163f",
-            "match": "Brazil vs Norway",
-            "homeTeam": "Brazil",
-            "awayTeam": "Norway",
-            "kickoff": "2026-07-05T20:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1822.29,
-            "odds": 1.78,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-2"
-          },
           {
             "id": "e61a7b471cadc8e3849158ed59d49cab:Baseline",
             "date": "2026-07-05T21:13:04.673Z",
@@ -16147,6 +16172,23 @@
             "status": "lost",
             "settledResult": "draw",
             "settledScore": "1-1"
+          },
+          {
+            "id": "f9aa13a662d1658e5a02cfc06d6a2d73:Baseline",
+            "date": "2026-07-14T16:13:09.311Z",
+            "matchId": "f9aa13a662d1658e5a02cfc06d6a2d73",
+            "match": "France vs Spain",
+            "homeTeam": "France",
+            "awayTeam": "Spain",
+            "kickoff": "2026-07-14T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1602.66,
+            "odds": 2.4,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "0-2"
           }
         ]
       }
