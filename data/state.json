@@ -404,6 +404,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 12321.13
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 10721.13
       }
     ],
     "GPT-5.5": [
@@ -810,6 +814,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 391.74
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 322.7
       }
     ],
     "Gemini": [
@@ -1216,6 +1224,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 5868.16
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 4667.06
       }
     ],
     "Grok": [
@@ -1622,6 +1634,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 3905.64
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 3111.72
       }
     ],
     "DeepSeek": [
@@ -2028,6 +2044,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 6439.21
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 9125.57
       }
     ],
     "Mistral": [
@@ -2434,6 +2454,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 999.48
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 807.66
       }
     ],
     "Baseline": [
@@ -2840,6 +2864,10 @@
       {
         "t": "2026-07-14T21:48:16.328Z",
         "bankroll": 14423.92
+      },
+      {
+        "t": "2026-07-15T21:27:30.638Z",
+        "bankroll": 12981.53
       }
     ]
   },
@@ -14841,7 +14869,9 @@
       "stake": 1442.39,
       "odds": 2.71,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:Claude",
@@ -14856,7 +14886,9 @@
       "stake": 1600,
       "odds": 2.7,
       "reasoning": "Coin-flip match but England's attacking output (3.33 xG vs Croatia, 19 shots vs Ghana) and home edge in the odds tip it their way. Argentina strong too, so moderate stake given genuine uncertainty in a near-even market.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:GPT-5.5",
@@ -14871,7 +14903,9 @@
       "stake": 69.04,
       "odds": 2.7,
       "reasoning": "Odds make England the narrow favorite and the training-centre context supports that: England have consistently produced strong xG margins across the slate, including 3.33-0.82 vs Croatia, 1.78-0.34 vs Ghana, and 1.61-0.72 vs Panama. Argentina have also been very good, but England look at least comparable on underlying chance creation and defensive suppression, so I will back the market favorite at 2.70. Given the bankroll position, I need upside and am staking the match maximum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:Gemini",
@@ -14886,7 +14920,9 @@
       "stake": 1201.1,
       "odds": 2.7,
       "reasoning": "After three consecutive losses, we need to rebuild our bankroll with a highly disciplined, maximum-stake value play. England enters this match showing elite underlying metrics, particularly in chance creation (xG of 3.33 vs Croatia, 1.78 vs Ghana, and 1.61 vs Panama). While Argentina has been highly efficient, their xG profiles have been slightly inflated by weaker opposition like Jordan and Algeria. At odds of 2.7, the implied probability of an England victory is undervalued. We are backing England at the maximum allowed stake of 25% of our bankroll to regain our winning momentum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:Grok",
@@ -14901,7 +14937,9 @@
       "stake": 793.92,
       "odds": 2.7,
       "reasoning": "England's recent underlying numbers (especially xG 3.33 vs Croatia and dominant 72% possession vs Ghana) look stronger than Argentina's mixed performances. The market prices England as slight favorite at 2.7, which aligns with the qualitative edge from the reports. Full stake at the 25% cap given only one match available.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:DeepSeek",
@@ -14916,7 +14954,9 @@
       "stake": 1310.42,
       "odds": 3.05,
       "reasoning": "Argentina's recent performances show a team that defends compactly, breaks effectively, and remains clinical in transition. Despite lower possession numbers against Algeria and Austria, they generated superior xG and prevented quality chances. England, while dominant against Ghana and Panama, struggled to break down a deep block and looked defensively vulnerable against Croatia's counters. The odds underestimate Argentina's chances of executing a successful counter-attacking gameplan, so I am backing the away win with maximum confidence within my allowable stake.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "away",
+      "settledScore": "1-2"
     },
     {
       "id": "ced22494ae0bbb8cc4f7108bf6f493df:Mistral",
@@ -14931,13 +14971,15 @@
       "stake": 191.82,
       "odds": 2.7,
       "reasoning": "England's recent performances show a strong attacking output (xG of 3.33 vs Croatia, 1.78 vs Ghana, and 1.61 vs Panama) and dominance in possession and final-third receptions, especially in their last match against Ghana (72.4% possession). Argentina, while also strong, has shown vulnerability in possession and defensive pressures (e.g., 44.6% possession vs Algeria, 48.2% vs Austria). England's odds (2.7) are slightly better than Argentina's (3.05), and the draw (2.95) doesn't offer enough value given England's form. The qualitative data suggests England is the more consistent and dominant side, making them the safer pick at home.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "1-2"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-15T18:44:06.348Z",
-    "lastSettleRun": "2026-07-14T21:48:16.328Z",
+    "lastSettleRun": "2026-07-15T21:27:30.638Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -15011,32 +15053,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 67,
-        "lost": 34,
+        "lost": 35,
         "void": 0,
-        "totalStake": 133735.78000000003,
-        "totalReturn": 1410.8158999999996,
-        "roi": 0.010549277837239962,
-        "avgOdds": 1.6848514851485157,
+        "totalStake": 135335.78000000003,
+        "totalReturn": -189.1841000000004,
+        "roi": -0.0013978867968249074,
+        "avgOdds": 1.6948039215686281,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:Claude",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 1500,
-            "odds": 2.55,
-            "reasoning": "England's underlying data is the strongest in this slate: 4-2 vs Croatia (xG 3.33), a control-heavy 0-0 vs Ghana (19 shots, 72% possession), and a clean 2-0 over Panama. Mexico is solid at home but lost the xG battle to Korea (0.34-0.87). Market has England as favorite at 2.55, which aligns with the eye test. Moderate stake because home-tournament advantage and a fat draw price (3.10) make this a genuine three-way tossup.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:Claude",
             "date": "2026-07-06T17:26:18.644Z",
@@ -15189,37 +15214,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:Claude",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1600,
+            "odds": 2.7,
+            "reasoning": "Coin-flip match but England's attacking output (3.33 xG vs Croatia, 19 shots vs Ghana) and home edge in the odds tip it their way. Argentina strong too, so moderate stake given genuine uncertainty in a near-even market.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 46,
-        "lost": 55,
+        "lost": 56,
         "void": 0,
-        "totalStake": 25281.57,
-        "totalReturn": -9737.3551,
-        "roi": -0.385156266007214,
-        "avgOdds": 3.767425742574258,
+        "totalStake": 25350.61,
+        "totalReturn": -9806.395100000002,
+        "roi": -0.38683073503951193,
+        "avgOdds": 3.756960784313726,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:GPT-5.5",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 48.82,
-            "odds": 2.55,
-            "reasoning": "Odds make England only a modest favorite, but their tournament underlying numbers are stronger: 6.72 xG for and 1.88 against across Croatia/Ghana/Panama, including a very dominant 0-0 vs Ghana. Mexico have been excellent defensively and have home/CONCACAF context, but the Korea win was a low-xG escape. At 2.55 I see England as the best probability/value side, and with my bankroll needing upside I’m staking the max.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:GPT-5.5",
             "date": "2026-07-06T17:26:18.644Z",
@@ -15372,37 +15397,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:GPT-5.5",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 69.04,
+            "odds": 2.7,
+            "reasoning": "Odds make England the narrow favorite and the training-centre context supports that: England have consistently produced strong xG margins across the slate, including 3.33-0.82 vs Croatia, 1.78-0.34 vs Ghana, and 1.61-0.72 vs Panama. Argentina have also been very good, but England look at least comparable on underlying chance creation and defensive suppression, so I will back the market favorite at 2.70. Given the bankroll position, I need upside and am staking the match maximum.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 66,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 100860.43999999999,
-        "totalReturn": -4421.600300000002,
-        "roi": -0.04383879645974182,
-        "avgOdds": 1.7127722772277234,
+        "totalStake": 102061.54,
+        "totalReturn": -5622.700300000002,
+        "roi": -0.055091274342911174,
+        "avgOdds": 1.7224509803921575,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:Gemini",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 1843.49,
-            "odds": 2.55,
-            "reasoning": "England enters this match with highly dominant performance metrics across their previous outings. In M22, they generated 3.33 xG against Croatia, followed by a highly dominant 1.78 to 0.34 xG display against Ghana (despite the 0-0 draw), and a comfortable 1.61 to 0.72 xG win against Panama. Mexico, while solid, rode their luck heavily in a 1-0 win over Korea Republic (losing the xG battle 0.34-0.87). England's superior squad depth, progression metrics, and final-third dominance make them a strong choice here. At odds of 2.55, the value lies with the away side, and I am backing them with my maximum allowed stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:Gemini",
             "date": "2026-07-06T17:26:18.644Z",
@@ -15555,37 +15580,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:Gemini",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 1201.1,
+            "odds": 2.7,
+            "reasoning": "After three consecutive losses, we need to rebuild our bankroll with a highly disciplined, maximum-stake value play. England enters this match showing elite underlying metrics, particularly in chance creation (xG of 3.33 vs Croatia, 1.78 vs Ghana, and 1.61 vs Panama). While Argentina has been highly efficient, their xG profiles have been slightly inflated by weaker opposition like Jordan and Algeria. At odds of 2.7, the implied probability of an England victory is undervalued. We are backing England at the maximum allowed stake of 25% of our bankroll to regain our winning momentum.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 65,
-        "lost": 36,
+        "lost": 37,
         "void": 0,
-        "totalStake": 108070.94000000009,
-        "totalReturn": -6559.163799999997,
-        "roi": -0.06069313175216197,
-        "avgOdds": 1.746435643564357,
+        "totalStake": 108864.86000000009,
+        "totalReturn": -7353.083799999997,
+        "roi": -0.06754322561017385,
+        "avgOdds": 1.7557843137254907,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:Grok",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 710.75,
-            "odds": 2.55,
-            "reasoning": "England's underlying numbers (xG, possession, final-third control) are markedly stronger than Mexico's across their recent matches. Mexico's results include low-xG wins that look unsustainable. Away at 2.55 therefore offers the best value.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:Grok",
             "date": "2026-07-06T17:26:18.644Z",
@@ -15738,37 +15763,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:Grok",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 793.92,
+            "odds": 2.7,
+            "reasoning": "England's recent underlying numbers (especially xG 3.33 vs Croatia and dominant 72% possession vs Ghana) look stronger than Argentina's mixed performances. The market prices England as slight favorite at 2.7, which aligns with the qualitative edge from the reports. Full stake at the 25% cap given only one match available.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 101,
-        "won": 65,
+        "totalBets": 102,
+        "won": 66,
         "lost": 36,
         "void": 0,
-        "totalStake": 63539.07999999997,
-        "totalReturn": -3680.8121,
-        "roi": -0.057929892910001245,
-        "avgOdds": 1.8874257425742582,
+        "totalStake": 64849.49999999997,
+        "totalReturn": -994.4511000000002,
+        "roi": -0.015334753544745922,
+        "avgOdds": 1.8988235294117657,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:DeepSeek",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 1000,
-            "odds": 2.55,
-            "reasoning": "England away at 2.55 offers value in a balanced pricing. Qualitative context from FIFA reports shows England's underlying metrics are strong: 3.33 xG vs Croatia and 1.61 xG vs Panama, plus complete territorial dominance against Ghana (218 final‑third receptions) despite the 0-0. Mexico have been resilient but their 0.34 xG in the 1-0 win over Korea Republic indicates they can struggle to create against organized sides; their 3-0 win over Czechia came from clinical finishing on 2.10 xG, but England's quality should limit those chances. England's superior progression and final‑third entries suggest they can break down Mexico's block, and the draw lowers risk of a negative game. Stake 1000 reflects moderate confidence, leaving bankroll protection intact.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:DeepSeek",
             "date": "2026-07-06T17:26:18.644Z",
@@ -15921,37 +15946,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:DeepSeek",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1310.42,
+            "odds": 3.05,
+            "reasoning": "Argentina's recent performances show a team that defends compactly, breaks effectively, and remains clinical in transition. Despite lower possession numbers against Algeria and Austria, they generated superior xG and prevented quality chances. England, while dominant against Ghana and Panama, struggled to break down a deep block and looked defensively vulnerable against Croatia's counters. The odds underestimate Argentina's chances of executing a successful counter-attacking gameplan, so I am backing the away win with maximum confidence within my allowable stake.",
+            "status": "won",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 64,
-        "lost": 37,
+        "lost": 38,
         "void": 0,
-        "totalStake": 46971.34999999999,
-        "totalReturn": -9249.976199999996,
-        "roi": -0.1969280465645547,
-        "avgOdds": 1.765346534653466,
+        "totalStake": 47163.16999999999,
+        "totalReturn": -9441.796199999995,
+        "roi": -0.20019426599187454,
+        "avgOdds": 1.7745098039215692,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:Mistral",
-            "date": "2026-07-05T23:44:04.824Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T01:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 393,
-            "odds": 3.12,
-            "reasoning": "Mexico's recent performances show a strong defensive and offensive structure, particularly in their ability to dominate possession, create high-quality chances (evidenced by their xG metrics), and limit opponents' opportunities. Their 2-0 win over South Africa and 3-0 win over Czechia highlight their efficiency, while their 1-0 win over Korea Republic demonstrates resilience even when out-possessed. England, while strong, have shown inconsistency—dominating Ghana in possession but failing to convert (0-0 draw) and struggling against Croatia (4-2 win with high xG conceded). The odds favor Mexico (3.12) over England (2.55), suggesting the market may be underestimating Mexico's form. Given my recent losses, I'm taking a high-conviction bet on Mexico to bounce back and capitalize on their momentum.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:Mistral",
             "date": "2026-07-06T17:26:18.644Z",
@@ -16104,37 +16129,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:Mistral",
+            "date": "2026-07-15T18:44:06.348Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 191.82,
+            "odds": 2.7,
+            "reasoning": "England's recent performances show a strong attacking output (xG of 3.33 vs Croatia, 1.78 vs Ghana, and 1.61 vs Panama) and dominance in possession and final-third receptions, especially in their last match against Ghana (72.4% possession). Argentina, while also strong, has shown vulnerability in possession and defensive pressures (e.g., 44.6% possession vs Algeria, 48.2% vs Austria). England's odds (2.7) are slightly better than Argentina's (3.05), and the draw (2.95) doesn't offer enough value given England's form. The qualitative data suggests England is the more consistent and dominant side, making them the safer pick at home.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 101,
+        "totalBets": 102,
         "won": 67,
-        "lost": 34,
+        "lost": 35,
         "void": 0,
-        "totalStake": 112766.97000000002,
-        "totalReturn": 3593.788199999999,
-        "roi": 0.03186915636732989,
-        "avgOdds": 1.6697029702970296,
+        "totalStake": 114209.36000000002,
+        "totalReturn": 2151.3981999999987,
+        "roi": 0.018837319463133304,
+        "avgOdds": 1.6799019607843138,
         "recentBets": [
-          {
-            "id": "e61a7b471cadc8e3849158ed59d49cab:Baseline",
-            "date": "2026-07-05T21:13:04.673Z",
-            "matchId": "e61a7b471cadc8e3849158ed59d49cab",
-            "match": "Mexico vs England",
-            "homeTeam": "Mexico",
-            "awayTeam": "England",
-            "kickoff": "2026-07-06T00:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1822.29,
-            "odds": 2.55,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "2-3"
-          },
           {
             "id": "16ed3adcf661b3a9bea39871a2d204df:Baseline",
             "date": "2026-07-06T16:13:10.987Z",
@@ -16287,6 +16312,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "0-2"
+          },
+          {
+            "id": "ced22494ae0bbb8cc4f7108bf6f493df:Baseline",
+            "date": "2026-07-15T16:03:02.735Z",
+            "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
+            "match": "England vs Argentina",
+            "homeTeam": "England",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-15T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1442.39,
+            "odds": 2.71,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "1-2"
           }
         ]
       }
