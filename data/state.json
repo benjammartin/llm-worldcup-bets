@@ -15005,14 +15005,7 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [
-      {
-        "matchId": "ced22494ae0bbb8cc4f7108bf6f493df",
-        "homeTeam": "England",
-        "awayTeam": "Argentina",
-        "kickoff": "2026-07-15T19:00:00Z"
-      }
-    ],
+    "upcomingMatches": [],
     "liveMatches": [],
     "lastCyclePostKey": "ced22494ae0bbb8cc4f7108bf6f493df",
     "performance": {
