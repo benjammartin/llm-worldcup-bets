@@ -15047,7 +15047,14 @@
         "reason": "Error: missing bets for matchIds: 8756200e539155e571557c4f2e0d7f05"
       }
     ],
-    "upcomingMatches": [],
+    "upcomingMatches": [
+      {
+        "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+        "homeTeam": "France",
+        "awayTeam": "England",
+        "kickoff": "2026-07-18T21:00:00Z"
+      }
+    ],
     "liveMatches": [],
     "lastCyclePostKey": "ced22494ae0bbb8cc4f7108bf6f493df",
     "performance": {
