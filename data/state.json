@@ -408,6 +408,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 10721.13
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 8721.13
       }
     ],
     "GPT-5.5": [
@@ -818,6 +822,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 322.7
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 265.87
       }
     ],
     "Gemini": [
@@ -1228,6 +1236,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 4667.06
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 3716.18
       }
     ],
     "Grok": [
@@ -1638,6 +1650,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 3111.72
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 2480.96
       }
     ],
     "DeepSeek": [
@@ -2048,6 +2064,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 9125.57
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 7625.57
       }
     ],
     "Mistral": [
@@ -2458,6 +2478,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 807.66
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 652.87
       }
     ],
     "Baseline": [
@@ -2868,6 +2892,10 @@
       {
         "t": "2026-07-15T21:27:30.638Z",
         "bankroll": 12981.53
+      },
+      {
+        "t": "2026-07-18T23:43:10.496Z",
+        "bankroll": 11683.38
       }
     ]
   },
@@ -14988,7 +15016,9 @@
       "stake": 1298.15,
       "odds": 1.85,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Claude",
@@ -15003,7 +15033,9 @@
       "stake": 2000,
       "odds": 1.74,
       "reasoning": "France have been the more consistent side: 3-1 Senegal, 3-0 Iraq, 4-1 at Norway with strong xG throughout. England are boom-or-bust — a superb 4-2 vs Croatia but a wasteful 0-0 vs Ghana despite 72% possession, a worrying sign in a tight knockout-type game. Market backs France at 1.74 (~57%) and their underlying attacking numbers justify it. Moderate stake given both are elite and top-vs-top carries variance.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:GPT-5.5",
@@ -15018,7 +15050,9 @@
       "stake": 56.83,
       "odds": 1.74,
       "reasoning": "France are the market favorite and the odds are still the best probability signal. The recent reports support that lean: France have consistently produced strong shot volume and territory, including 3-0 Iraq and 4-1 Norway, while England have been solid but a bit less convincing and recently failed to convert dominance against Ghana. At 1.74 I make France slightly better than the implied price, and with my bankroll situation I need to press any perceived edge, so I’m staking the match maximum.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Gemini",
@@ -15033,7 +15067,9 @@
       "stake": 950.88,
       "odds": 1.74,
       "reasoning": "France has demonstrated incredible clinical efficiency in front of goal throughout the tournament, notably outperforming their xG in a 4-1 win over Norway and commanding games against Senegal and Iraq. In contrast, England has shown some inconsistency in converting their chances (such as the 0-0 draw against Ghana) and has looked vulnerable against top-tier opposition. At 1.74, backing the more balanced and clinical French side to win in regular time offers solid value.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Grok",
@@ -15048,7 +15084,9 @@
       "stake": 630.76,
       "odds": 1.74,
       "reasoning": "France's recent xG and dominance metrics (especially vs Senegal/Iraq) look marginally stronger than England's, and 1.74 offers solid value on the favorite in what projects as a close match.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:DeepSeek",
@@ -15063,7 +15101,9 @@
       "stake": 1500,
       "odds": 1.74,
       "reasoning": "France have been clinical with high xG performances, beating Norway 4-1 and dominating Iraq. England struggled to convert chances against Ghana (0-0 despite 1.78 xG) and their away odds are long. Home advantage for France in a likely knockout match gives them the edge. Value on home win at 1.74.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Mistral",
@@ -15078,13 +15118,15 @@
       "stake": 154.79,
       "odds": 1.74,
       "reasoning": "France has shown dominant offensive metrics in their recent matches, particularly in final-third receptions and line breaks, which suggest a strong attacking presence. Their xG and shot dominance against quality opponents (Norway, Iraq, Senegal) indicate they are creating high-quality chances consistently. England, while strong, have had mixed performances—dominating possession against Ghana but struggling to convert (0-0 draw) and showing vulnerability in their defensive structure (4-2 win over Croatia despite high xG conceded). The odds favor France (1.74) as the more likely winner, and given their recent form and attacking prowess, this is a high-confidence bet. The stake is maxed out to reflect this conviction, especially given the need to recover from recent losses.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "away",
+      "settledScore": "4-6"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-18T20:54:09.507Z",
-    "lastSettleRun": "2026-07-15T21:27:30.638Z",
+    "lastSettleRun": "2026-07-18T23:43:10.496Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -15165,32 +15207,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 67,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 135335.78000000003,
-        "totalReturn": -189.1841000000004,
-        "roi": -0.0013978867968249074,
-        "avgOdds": 1.6948039215686281,
+        "totalStake": 137335.78000000003,
+        "totalReturn": -2189.1841000000004,
+        "roi": -0.015940376936003132,
+        "avgOdds": 1.6952427184466026,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:Claude",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "Claude",
-            "pick": "away",
-            "stake": 2600,
-            "odds": 1.94,
-            "reasoning": "Spain is the superior side by both odds (1.94 vs 4.1) and underlying data — high xG in multiple matches plus a controlling 1-0 road win over Uruguay showing they perform against elite opponents. Portugal has looked toothless in tight games (0.57 xG vs Congo, 0.97 xG in a 0-0 with Colombia while being outshot). Backing Spain with solid but not maximal conviction given single-match knockout variance.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:Claude",
             "date": "2026-07-06T23:43:23.035Z",
@@ -15343,37 +15368,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:Claude",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 2000,
+            "odds": 1.74,
+            "reasoning": "France have been the more consistent side: 3-1 Senegal, 3-0 Iraq, 4-1 at Norway with strong xG throughout. England are boom-or-bust — a superb 4-2 vs Croatia but a wasteful 0-0 vs Ghana despite 72% possession, a worrying sign in a tight knockout-type game. Market backs France at 1.74 (~57%) and their underlying attacking numbers justify it. Moderate stake given both are elite and top-vs-top carries variance.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 46,
-        "lost": 56,
+        "lost": 57,
         "void": 0,
-        "totalStake": 25350.61,
-        "totalReturn": -9806.395100000002,
-        "roi": -0.38683073503951193,
-        "avgOdds": 3.756960784313726,
+        "totalStake": 25407.440000000002,
+        "totalReturn": -9863.225100000001,
+        "roi": -0.388202239186632,
+        "avgOdds": 3.7373786407766993,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:GPT-5.5",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 62.17,
-            "odds": 1.94,
-            "reasoning": "Spain are the odds-on side and the training-centre reports support that market view: they have controlled all three listed matches by xG and territory, including 2.26 xG vs Cabo Verde, 3.20 vs Saudi Arabia, and a professional 1-0 over Uruguay. Portugal’s 5-0 over Uzbekistan was strong, but their other two reports were much less convincing, including being out-created by Colombia. At 1.94, Spain look like the best probability/value side, and with only one open match I’m staking the maximum allowed.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:GPT-5.5",
             "date": "2026-07-06T23:43:23.035Z",
@@ -15526,37 +15551,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:GPT-5.5",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 56.83,
+            "odds": 1.74,
+            "reasoning": "France are the market favorite and the odds are still the best probability signal. The recent reports support that lean: France have consistently produced strong shot volume and territory, including 3-0 Iraq and 4-1 Norway, while England have been solid but a bit less convincing and recently failed to convert dominance against Ghana. At 1.74 I make France slightly better than the implied price, and with my bankroll situation I need to press any perceived edge, so I’m staking the match maximum.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 66,
-        "lost": 36,
+        "lost": 37,
         "void": 0,
-        "totalStake": 102061.54,
-        "totalReturn": -5622.700300000002,
-        "roi": -0.055091274342911174,
-        "avgOdds": 1.7224509803921575,
+        "totalStake": 103012.42,
+        "totalReturn": -6573.580300000002,
+        "roi": -0.0638134731714875,
+        "avgOdds": 1.7226213592233015,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:Gemini",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "Gemini",
-            "pick": "away",
-            "stake": 2353.79,
-            "odds": 1.94,
-            "reasoning": "Spain has demonstrated elite under-the-hood metrics across their matches, dominating possession and consistently generating high xG (2.26 against Cabo Verde, 3.20 against Saudi Arabia, and a very controlled 1.12 to 0.22 xG victory over a tough Uruguay side). Portugal, while dangerous, has looked far more vulnerable, notably being heavily out-created by Colombia (1.85 to 0.97 xG) and struggling to break down Congo DR (0.57 xG). At odds of 1.94, the market strongly favors Spain, and the performance metrics back this up as they look far more cohesive and dominant in transition and final-third entries. Backing Spain to take the victory in this Iberian derby with a high-confidence stake.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:Gemini",
             "date": "2026-07-06T23:43:23.035Z",
@@ -15709,37 +15734,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:Gemini",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 950.88,
+            "odds": 1.74,
+            "reasoning": "France has demonstrated incredible clinical efficiency in front of goal throughout the tournament, notably outperforming their xG in a 4-1 win over Norway and commanding games against Senegal and Iraq. In contrast, England has shown some inconsistency in converting their chances (such as the 0-0 draw against Ghana) and has looked vulnerable against top-tier opposition. At 1.74, backing the more balanced and clinical French side to win in regular time offers solid value.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 65,
-        "lost": 37,
+        "lost": 38,
         "void": 0,
-        "totalStake": 108864.86000000009,
-        "totalReturn": -7353.083799999997,
-        "roi": -0.06754322561017385,
-        "avgOdds": 1.7557843137254907,
+        "totalStake": 109495.62000000008,
+        "totalReturn": -7983.843799999997,
+        "roi": -0.07291473211439865,
+        "avgOdds": 1.7556310679611657,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:Grok",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 938.18,
-            "odds": 1.94,
-            "reasoning": "Spain's recent matches show clear dominance (high xG, shots, possession vs Cabo Verde/Saudi/Uruguay) while Portugal has looked limited offensively. Odds make Spain the clear value pick at 1.94.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:Grok",
             "date": "2026-07-06T23:43:23.035Z",
@@ -15892,37 +15917,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:Grok",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 630.76,
+            "odds": 1.74,
+            "reasoning": "France's recent xG and dominance metrics (especially vs Senegal/Iraq) look marginally stronger than England's, and 1.74 offers solid value on the favorite in what projects as a close match.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 66,
-        "lost": 36,
+        "lost": 37,
         "void": 0,
-        "totalStake": 64849.49999999997,
-        "totalReturn": -994.4511000000002,
-        "roi": -0.015334753544745922,
-        "avgOdds": 1.8988235294117657,
+        "totalStake": 66349.49999999997,
+        "totalReturn": -2494.4511,
+        "roi": -0.03759562769877695,
+        "avgOdds": 1.8972815533980592,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:DeepSeek",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "DeepSeek",
-            "pick": "away",
-            "stake": 1452.07,
-            "odds": 1.94,
-            "reasoning": "Spain's recent match data shows far superior underlying metrics. Against Cabo Verde they racked up 2.26 xG from 27 shots and 426 final-third receptions despite a 0-0; they followed with 3.20 xG vs Saudi Arabia and a controlled 1-0 away win over Uruguay (1.12 xG to 0.22, line breaks 134-68). Portugal's last three games include a laboured 0-0 vs Colombia (opposition xG 1.85), a 1-1 with Congo DR where they managed just 0.57 xG and 7 shots, and a 5-0 win over minnows Uzbekistan. The odds (away 1.94) imply ~51.5% probability, which underrates Spain's dominance and cohesion. We bet $1500 on Spain to win.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:DeepSeek",
             "date": "2026-07-06T23:43:23.035Z",
@@ -16075,37 +16100,37 @@
             "status": "won",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:DeepSeek",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "DeepSeek",
+            "pick": "home",
+            "stake": 1500,
+            "odds": 1.74,
+            "reasoning": "France have been clinical with high xG performances, beating Norway 4-1 and dominating Iraq. England struggled to convert chances against Ghana (0-0 despite 1.78 xG) and their away odds are long. Home advantage for France in a likely knockout match gives them the edge. Value on home win at 1.74.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 64,
-        "lost": 38,
+        "lost": 39,
         "void": 0,
-        "totalStake": 47163.16999999999,
-        "totalReturn": -9441.796199999995,
-        "roi": -0.20019426599187454,
-        "avgOdds": 1.7745098039215692,
+        "totalStake": 47317.95999999999,
+        "totalReturn": -9596.586199999996,
+        "roi": -0.20281064948700234,
+        "avgOdds": 1.774174757281554,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:Mistral",
-            "date": "2026-07-06T17:26:18.644Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "Mistral",
-            "pick": "draw",
-            "stake": 316.18,
-            "odds": 3.6,
-            "reasoning": "Spain and Portugal are two of the most technically gifted teams in the tournament, and their recent performances reflect their dominance in possession, final-third receptions, and line breaks. Spain's xG and shot dominance in recent matches (especially against Uruguay and Saudi Arabia) suggest they are a potent attacking force, but their 0-0 draw against Cabo Verde and the tight 1-0 win over Uruguay indicate they can be stifled by organized defenses. Portugal, while less clinical in their 1-1 draw against Congo DR, showed creativity and progression in their 5-0 win over Uzbekistan and the 0-0 draw against Colombia. The head-to-head history and tactical styles of these teams often lead to tightly contested matches with few goals, as both prioritize possession and defensive structure. The draw odds (3.6) offer a favorable risk-reward balance, especially given the lack of clear superiority in their recent performances. I'm allocating the maximum stake here due to the high probability of a draw and the value in the odds.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:Mistral",
             "date": "2026-07-06T23:43:23.035Z",
@@ -16258,37 +16283,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:Mistral",
+            "date": "2026-07-18T20:54:09.507Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 154.79,
+            "odds": 1.74,
+            "reasoning": "France has shown dominant offensive metrics in their recent matches, particularly in final-third receptions and line breaks, which suggest a strong attacking presence. Their xG and shot dominance against quality opponents (Norway, Iraq, Senegal) indicate they are creating high-quality chances consistently. England, while strong, have had mixed performances—dominating possession against Ghana but struggling to convert (0-0 draw) and showing vulnerability in their defensive structure (4-2 win over Croatia despite high xG conceded). The odds favor France (1.74) as the more likely winner, and given their recent form and attacking prowess, this is a high-confidence bet. The stake is maxed out to reflect this conviction, especially given the need to recover from recent losses.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 102,
+        "totalBets": 103,
         "won": 67,
-        "lost": 35,
+        "lost": 36,
         "void": 0,
-        "totalStake": 114209.36000000002,
-        "totalReturn": 2151.3981999999987,
-        "roi": 0.018837319463133304,
-        "avgOdds": 1.6799019607843138,
+        "totalStake": 115507.51000000001,
+        "totalReturn": 853.2481999999986,
+        "roi": 0.007386949991390158,
+        "avgOdds": 1.6815533980582522,
         "recentBets": [
-          {
-            "id": "16ed3adcf661b3a9bea39871a2d204df:Baseline",
-            "date": "2026-07-06T16:13:10.987Z",
-            "matchId": "16ed3adcf661b3a9bea39871a2d204df",
-            "match": "Portugal vs Spain",
-            "homeTeam": "Portugal",
-            "awayTeam": "Spain",
-            "kickoff": "2026-07-06T19:00:00Z",
-            "model": "Baseline",
-            "pick": "away",
-            "stake": 1922.52,
-            "odds": 1.92,
-            "reasoning": "Always bet the favorite.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "0-1"
-          },
           {
             "id": "810f80b3ae79f5e86b3747ca15718ed8:Baseline",
             "date": "2026-07-06T21:06:32.538Z",
@@ -16441,6 +16466,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "1-2"
+          },
+          {
+            "id": "7a49e7985534a5ff3428740d0b630fd7:Baseline",
+            "date": "2026-07-18T18:12:52.401Z",
+            "matchId": "7a49e7985534a5ff3428740d0b630fd7",
+            "match": "France vs England",
+            "homeTeam": "France",
+            "awayTeam": "England",
+            "kickoff": "2026-07-18T21:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1298.15,
+            "odds": 1.85,
+            "reasoning": "Always bet the favorite.",
+            "status": "lost",
+            "settledResult": "away",
+            "settledScore": "4-6"
           }
         ]
       }
