@@ -14992,7 +14992,7 @@
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Claude",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
@@ -15000,29 +15000,29 @@
       "kickoff": "2026-07-18T21:00:00Z",
       "model": "Claude",
       "pick": "home",
-      "stake": 1900,
-      "odds": 1.85,
-      "reasoning": "Two elite sides, but France has been the more consistently clinical team (3-0 Iraq, 4-1 at Norway, 3-1 Senegal) and gets home advantage. England looked dominant vs Ghana but couldn't convert (0-0), hinting at finishing wobbles. France at 1.85 offers fair value as slight favorite. Moderate stake given how close this genuinely is — no huge edge in a coin-flip-leaning fixture between top teams.",
+      "stake": 1500,
+      "odds": 1.78,
+      "reasoning": "France favored at 1.78 (~56% implied) and their underlying numbers back it up: strong xG across the tournament, a 4-1 dismantling of Norway, clean 3-0 over Iraq. England are excellent too (4-2 vs Croatia) but the 0-0 vs Ghana exposed finishing issues. Two elite sides with real draw risk (4.15), so I take France at home with moderate conviction rather than a max stake.",
       "status": "pending"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:GPT-5.5",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
       "awayTeam": "England",
       "kickoff": "2026-07-18T21:00:00Z",
       "model": "GPT-5.5",
-      "pick": "away",
+      "pick": "home",
       "stake": 56.83,
-      "odds": 4,
-      "reasoning": "France are rightly favoured by the market, but England at 4.00 looks too long given the underlying tournament reports. England have produced strong xG edges in all three listed matches, including 3.33-0.82 vs Croatia and 1.78-0.34 in the Ghana draw, while France’s 4-1 over Norway was less convincing on xG than the scoreline. With my bankroll low I need upside, and I think England’s true win chance is closer to the high-20s than the implied mid-20s, so I’m taking the value underdog at the max stake.",
+      "odds": 1.78,
+      "reasoning": "France are the clear market favorite and the odds remain the primary signal. England have produced strong underlying numbers, but France have shown more consistent scoring output and progression threat across the reports. At 1.78 this is not a huge edge, but it is the most defensible side in the match, so I’m staking the maximum allowed.",
       "status": "pending"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Gemini",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
@@ -15031,13 +15031,13 @@
       "model": "Gemini",
       "pick": "home",
       "stake": 950.88,
-      "odds": 1.85,
-      "reasoning": "France has demonstrated incredible efficiency and clinical finishing throughout the tournament, notably outperforming their xG in the 4-1 win against Norway and commanding play against Senegal and Iraq. While England has a strong squad, their occasional lapses in breaking down low blocks and slightly lower defensive consistency give France the edge here. At 1.85, the odds represent strong value for a high-performing French side. We are placing the maximum allowed stake of $1,166.77 on a France victory to get back on winning terms.",
+      "odds": 1.78,
+      "reasoning": "France has shown excellent clinical efficiency throughout the tournament, consistently outperforming their expected goals and securing decisive wins. England has demonstrated high xG generation but has occasionally struggled with finishing, as seen in their scoreless draw against Ghana and recent inconsistent results. At odds of 1.78, France is valued highly to win this matchup.",
       "status": "pending"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Grok",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
@@ -15046,28 +15046,28 @@
       "model": "Grok",
       "pick": "home",
       "stake": 630.76,
-      "odds": 1.85,
-      "reasoning": "France's recent xG and shot dominance (especially vs Iraq and Senegal) edges out England's solid but less clinical displays. Odds correctly favor them at home, so max stake on home win.",
+      "odds": 1.78,
+      "reasoning": "France have shown consistent dominance in recent matches with strong xG and shot metrics against solid opposition, while England have been more variable. Home odds of 1.78 represent good value given France's edge in form and home advantage.",
       "status": "pending"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:DeepSeek",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
       "awayTeam": "England",
       "kickoff": "2026-07-18T21:00:00Z",
       "model": "DeepSeek",
-      "pick": "home",
-      "stake": 1800,
-      "odds": 1.85,
-      "reasoning": "France have the home edge and a 1.85 price that implies ~54% win probability, which I believe is close to fair. Their attacking numbers are consistently strong – they created high-quality chances against Senegal, Iraq and Norway, and scored in every game. England’s dominant but goalless draw with Ghana exposed vulnerability against deep blocks, and France’s pressing and final-third volume can punish any lapses. I see slight value in France to win inside 90 minutes, so I’m committing $1,800 from my bankroll.",
+      "pick": "draw",
+      "stake": 1889.5,
+      "odds": 4.15,
+      "reasoning": "France's 4-1 win over Norway flattered them (xG 1.05 vs 1.45), while England just beat Argentina away and have been defensively solid aside from a 4-goal outburst against Croatia. Both teams have quality, making a stalemate likely. The draw odds of 4.15 provide value in this evenly matched heavyweight clash.",
       "status": "pending"
     },
     {
       "id": "7a49e7985534a5ff3428740d0b630fd7:Mistral",
-      "date": "2026-07-18T18:39:25.719Z",
+      "date": "2026-07-18T19:52:04.230Z",
       "matchId": "7a49e7985534a5ff3428740d0b630fd7",
       "match": "France vs England",
       "homeTeam": "France",
@@ -15076,14 +15076,14 @@
       "model": "Mistral",
       "pick": "home",
       "stake": 154.79,
-      "odds": 1.85,
-      "reasoning": "France has shown dominant offensive metrics in their recent matches, particularly in final-third receptions and line breaks, which suggest a strong attacking presence. Their xG and shot numbers are consistently high, and they've controlled possession well in most games, especially against Norway (51.2%). England, while strong, has had mixed performances—dominating Ghana in possession but struggling to convert chances (only 3 shots on target from 19 attempts). Their xG against Croatia was high (3.33), but their recent draw against Ghana (xG 1.78) and the loss to Norway (where they were away) raise questions about their consistency. The odds favor France (1.85), and their recent form and underlying stats make them the safer bet. Allocating the maximum stake here due to high confidence.",
+      "odds": 1.78,
+      "reasoning": "France has shown dominant attacking metrics in their recent matches, particularly in final-third receptions, line breaks, and progressions, which are key indicators of offensive pressure and creativity. Their xG and shot dominance against strong opponents like Senegal and Norway, coupled with England's inconsistent form (a strong win against Panama but a draw against Ghana and a narrow win over Croatia), suggest France is the more reliable side. The odds for France (1.78) are also more favorable than England's (4.3), aligning better with the qualitative and quantitative data. While England has moments of brilliance, France's consistency and superior underlying stats make them the safer bet at this stage.",
       "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-18T18:39:25.719Z",
+    "lastBetsRun": "2026-07-18T19:52:04.230Z",
     "lastSettleRun": "2026-07-15T21:27:30.638Z",
     "failures": [
       {
@@ -15158,6 +15158,12 @@
         "homeTeam": "France",
         "awayTeam": "England",
         "kickoff": "2026-07-18T21:00:00Z"
+      },
+      {
+        "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+        "homeTeam": "Spain",
+        "awayTeam": "Argentina",
+        "kickoff": "2026-07-19T19:00:00Z"
       }
     ],
     "liveMatches": [],
