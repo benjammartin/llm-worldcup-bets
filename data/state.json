@@ -15123,36 +15123,6 @@
       "settledScore": "4-6"
     },
     {
-      "id": "fb30113e43d113f1ace48b8563ba1ee9:Claude",
-      "date": "2026-07-19T16:12:35.243Z",
-      "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
-      "match": "Spain vs Argentina",
-      "homeTeam": "Spain",
-      "awayTeam": "Argentina",
-      "kickoff": "2026-07-19T19:00:00Z",
-      "model": "Claude",
-      "pick": "home",
-      "stake": 1500,
-      "odds": 2.32,
-      "reasoning": "Spain's underlying metrics are elite — dominant xG, possession, and final-third penetration across every match, including a road win over Uruguay. Argentina is clinical but repeatedly loses the territorial/midfield battle, relying on finishing efficiency. At 2.32 home odds Spain offers value as the process-superior side. Sizing moderately after a rough run of overcommitting on favorites.",
-      "status": "pending"
-    },
-    {
-      "id": "fb30113e43d113f1ace48b8563ba1ee9:GPT-5.5",
-      "date": "2026-07-19T16:12:35.243Z",
-      "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
-      "match": "Spain vs Argentina",
-      "homeTeam": "Spain",
-      "awayTeam": "Argentina",
-      "kickoff": "2026-07-19T19:00:00Z",
-      "model": "GPT-5.5",
-      "pick": "home",
-      "stake": 46.79,
-      "odds": 2.32,
-      "reasoning": "Spain are the market favorite at 2.32 and the recent FIFA reports support that lean: they have consistently controlled territory and chance quality, with dominant xG/shot profiles against Cabo Verde and Saudi Arabia and a professional defensive win over Uruguay. Argentina have also been strong, but their group-stage territorial numbers were less convincing in some matches despite good scorelines. With only one match on the slate and a small bankroll, I’m taking the maximum allowed stake on the side I rate most likely to win in 90 minutes.",
-      "status": "pending"
-    },
-    {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:Baseline",
       "date": "2026-07-19T16:12:35.243Z",
       "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
@@ -15166,11 +15136,41 @@
       "odds": 2.32,
       "reasoning": "Always bet the favorite.",
       "status": "pending"
+    },
+    {
+      "id": "fb30113e43d113f1ace48b8563ba1ee9:Claude",
+      "date": "2026-07-19T16:36:37.675Z",
+      "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+      "match": "Spain vs Argentina",
+      "homeTeam": "Spain",
+      "awayTeam": "Argentina",
+      "kickoff": "2026-07-19T19:00:00Z",
+      "model": "Claude",
+      "pick": "home",
+      "stake": 1500,
+      "odds": 2.33,
+      "reasoning": "Spain's underlying metrics are clearly superior — elite xG, dominant possession, huge shot volumes and line breaks across all reports. Argentina wins results but is frequently outplayed on the ball, relying on clinical finishing. At home and at 2.33 implying only ~43%, Spain offers value as the better process team. Moderate stake given Argentina's proven efficiency and my recent losing run demanding discipline.",
+      "status": "pending"
+    },
+    {
+      "id": "fb30113e43d113f1ace48b8563ba1ee9:GPT-5.5",
+      "date": "2026-07-19T16:36:37.675Z",
+      "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+      "match": "Spain vs Argentina",
+      "homeTeam": "Spain",
+      "awayTeam": "Argentina",
+      "kickoff": "2026-07-19T19:00:00Z",
+      "model": "GPT-5.5",
+      "pick": "home",
+      "stake": 46.79,
+      "odds": 2.33,
+      "reasoning": "Spain are the market favorite and the qualitative reports support that: they have consistently controlled territory and chance quality, with very low xG conceded across the listed matches, including a solid knockout win over Uruguay. Argentina have been efficient and dangerous, but their underlying control has looked less consistent. At 2.33, Spain looks like the best side of the board, and given my low bankroll I need to press any perceived edge with the maximum stake.",
+      "status": "pending"
     }
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-19T16:14:32.156Z",
+    "lastBetsRun": "2026-07-19T16:36:37.675Z",
     "lastSettleRun": "2026-07-18T23:43:10.496Z",
     "failures": [
       {
@@ -15285,6 +15285,26 @@
       },
       {
         "date": "2026-07-19T16:14:32.156Z",
+        "model": "Mistral",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:36:37.675Z",
+        "model": "Gemini",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:36:37.675Z",
+        "model": "Grok",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:36:37.675Z",
+        "model": "DeepSeek",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:36:37.675Z",
         "model": "Mistral",
         "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
       }
