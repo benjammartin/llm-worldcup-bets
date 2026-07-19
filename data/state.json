@@ -412,6 +412,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 8721.13
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 10849.13
       }
     ],
     "GPT-5.5": [
@@ -826,6 +830,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 265.87
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 328.1
       }
     ],
     "Gemini": [
@@ -1240,6 +1248,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 3716.18
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 4719.59
       }
     ],
     "Grok": [
@@ -1654,6 +1666,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 2480.96
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 3148.34
       }
     ],
     "DeepSeek": [
@@ -2068,6 +2084,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 7625.57
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 6625.57
       }
     ],
     "Mistral": [
@@ -2482,6 +2502,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 652.87
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 819.09
       }
     ],
     "Baseline": [
@@ -2896,6 +2920,10 @@
       {
         "t": "2026-07-18T23:43:10.496Z",
         "bankroll": 11683.38
+      },
+      {
+        "t": "2026-07-19T22:13:57.432Z",
+        "bankroll": 13225.59
       }
     ]
   },
@@ -15135,7 +15163,9 @@
       "stake": 1168.34,
       "odds": 2.32,
       "reasoning": "Always bet the favorite.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:Claude",
@@ -15150,7 +15180,9 @@
       "stake": 1600,
       "odds": 2.33,
       "reasoning": "Spain's underlying metrics (xG 2.26/3.20/1.12, 60%+ possession, dominant shot volume) clearly outclass Argentina, who have overperformed their xG and been out-possessed repeatedly. At 2.33 with home advantage, Spain offers value versus the market's ~43% implied probability. Argentina's clinical finishing is the tail risk, so I'm confident but not maxing out.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:GPT-5.5",
@@ -15165,7 +15197,9 @@
       "stake": 46.79,
       "odds": 2.33,
       "reasoning": "Spain at 2.33 is my play. Odds remain the anchor, and this price only needs Spain to be a bit better than roughly a low-40s percent chance. The qualitative reports support that: Spain have consistently controlled territory and chance quality, with dominant xG performances against Cabo Verde and Saudi Arabia and a solid 1-0 win over Uruguay while conceding very little. Argentina have also been strong, but their reports show more even territorial profiles in some matches and a bit more defensive exposure. With my bankroll low, I need to press any perceived edge rather than protect capital, so I’m staking the maximum.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:Gemini",
@@ -15180,7 +15214,9 @@
       "stake": 754.44,
       "odds": 2.33,
       "reasoning": "Spain has demonstrated elite control and defensive suffocation throughout the tournament, conceding a cumulative xG of just 0.46 across three matches (including a dominant performance against Uruguay). Argentina has been highly efficient but has faced lower-tier opposition and shown a tendency to cede possession. Spain's ability to dominate the midfield and suppress high-quality chances gives them a distinct advantage, making the home win at 2.33 excellent value.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:Grok",
@@ -15195,7 +15231,9 @@
       "stake": 501.79,
       "odds": 2.33,
       "reasoning": "Spain's recent reports show far superior xG, shot volume, and possession dominance (e.g., 3.20 xG vs KSA, 2.26 xG vs CPV) compared to Argentina's more moderate outputs; home edge at 2.33 is the value pick.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:DeepSeek",
@@ -15210,7 +15248,9 @@
       "stake": 1000,
       "odds": 3.65,
       "reasoning": "Argentina have been clinical and defensively solid despite conceding final-third entries, while Spain dominated possession but failed to score against Cabo Verde and only edged Uruguay. Odds of 3.65 imply ~27% chance; I rate Argentina closer to 33%, offering clear value on the upset.",
-      "status": "pending"
+      "status": "lost",
+      "settledResult": "home",
+      "settledScore": "1-0"
     },
     {
       "id": "fb30113e43d113f1ace48b8563ba1ee9:Mistral",
@@ -15225,13 +15265,15 @@
       "stake": 124.98,
       "odds": 2.33,
       "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay. Their xG and shot dominance in matches against Cabo Verde and Saudi Arabia suggest they are creating high-quality chances consistently. Argentina, while strong, have shown vulnerability in possession and defensive pressures, particularly in their match against Austria where they had only a slight edge in xG despite winning. The odds for Spain (2.33) are favorable given their attacking prowess and Argentina's recent defensive lapses. Betting the maximum stake here to capitalize on Spain's form and the value in the home odds.",
-      "status": "pending"
+      "status": "won",
+      "settledResult": "home",
+      "settledScore": "1-0"
     }
   ],
   "meta": {
     "promptVersion": 1,
     "lastBetsRun": "2026-07-19T18:31:31.309Z",
-    "lastSettleRun": "2026-07-18T23:43:10.496Z",
+    "lastSettleRun": "2026-07-19T22:13:57.432Z",
     "failures": [
       {
         "date": "2026-06-13T00:58:55.780Z",
@@ -15375,32 +15417,15 @@
     "performance": {
       "Claude": {
         "model": "Claude",
-        "totalBets": 103,
-        "won": 67,
+        "totalBets": 104,
+        "won": 68,
         "lost": 36,
         "void": 0,
-        "totalStake": 137335.78000000003,
-        "totalReturn": -2189.1841000000004,
-        "roi": -0.015940376936003132,
-        "avgOdds": 1.6952427184466026,
+        "totalStake": 138935.78000000003,
+        "totalReturn": -61.1841000000004,
+        "roi": -0.0004403768417322045,
+        "avgOdds": 1.7013461538461547,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:Claude",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "Claude",
-            "pick": "home",
-            "stake": 2000,
-            "odds": 2.57,
-            "reasoning": "Near-even market means limited edge. USA solid at home (4-1 PAR, 2-0 AUS, strong xG), and host-nation advantage matters. Belgium's attack is dangerous (5-1 NZL) but they blanked twice vs weaker sides. Taking USA home value at 2.57 with a controlled stake given real uncertainty.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:Claude",
             "date": "2026-07-07T15:11:57.964Z",
@@ -15553,37 +15578,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:Claude",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "Claude",
+            "pick": "home",
+            "stake": 1600,
+            "odds": 2.33,
+            "reasoning": "Spain's underlying metrics (xG 2.26/3.20/1.12, 60%+ possession, dominant shot volume) clearly outclass Argentina, who have overperformed their xG and been out-possessed repeatedly. At 2.33 with home advantage, Spain offers value versus the market's ~43% implied probability. Argentina's clinical finishing is the tail risk, so I'm confident but not maxing out.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "GPT-5.5": {
         "model": "GPT-5.5",
-        "totalBets": 103,
-        "won": 46,
+        "totalBets": 104,
+        "won": 47,
         "lost": 57,
         "void": 0,
-        "totalStake": 25407.440000000002,
-        "totalReturn": -9863.225100000001,
-        "roi": -0.388202239186632,
-        "avgOdds": 3.7373786407766993,
+        "totalStake": 25454.230000000003,
+        "totalReturn": -9800.994400000001,
+        "roi": -0.38504383750755766,
+        "avgOdds": 3.723846153846154,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:GPT-5.5",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "GPT-5.5",
-            "pick": "away",
-            "stake": 72.52,
-            "odds": 2.9,
-            "reasoning": "Belgium are slight underdogs despite strong underlying numbers across the group: they dominated Iran without scoring and then produced a massive 3.99 xG / 35-shot performance against New Zealand. USA have also been good and have home advantage, so this is close, but at 2.90 Belgium look like the better value relative to the market. With my bankroll low, I need to press reasonable plus-money edges, so I’m staking the max.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:GPT-5.5",
             "date": "2026-07-07T15:11:57.964Z",
@@ -15736,37 +15761,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:GPT-5.5",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "GPT-5.5",
+            "pick": "home",
+            "stake": 46.79,
+            "odds": 2.33,
+            "reasoning": "Spain at 2.33 is my play. Odds remain the anchor, and this price only needs Spain to be a bit better than roughly a low-40s percent chance. The qualitative reports support that: Spain have consistently controlled territory and chance quality, with dominant xG performances against Cabo Verde and Saudi Arabia and a solid 1-0 win over Uruguay while conceding very little. Argentina have also been strong, but their reports show more even territorial profiles in some matches and a bit more defensive exposure. With my bankroll low, I need to press any perceived edge rather than protect capital, so I’m staking the maximum.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Gemini": {
         "model": "Gemini",
-        "totalBets": 103,
-        "won": 66,
+        "totalBets": 104,
+        "won": 67,
         "lost": 37,
         "void": 0,
-        "totalStake": 103012.42,
-        "totalReturn": -6573.580300000002,
-        "roi": -0.0638134731714875,
-        "avgOdds": 1.7226213592233015,
+        "totalStake": 103766.86,
+        "totalReturn": -5570.175100000002,
+        "roi": -0.05367971142231732,
+        "avgOdds": 1.7284615384615392,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:Gemini",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "Gemini",
-            "pick": "home",
-            "stake": 2450,
-            "odds": 2.57,
-            "reasoning": "Analyzing the training centre reports, the USA has shown highly consistent and efficient attacking metrics throughout the tournament, dominating possession and territory in their wins and holding their own in expected goals (1.78 xG) even in their narrow 3-2 defeat to Türkiye. Belgium, while coming off a heavy 5-1 win against New Zealand, struggled to break down low blocks earlier in the tournament (0-0 vs Iran, 1-1 vs Egypt) and looks vulnerable to the USA's high-pressing system (USA recorded 267 pressures against Türkiye). At odds of 2.57, the market is slightly underestimating the USA's home-soil advantage and tactical cohesion. I am backing the USA with a strong, calculated stake of $2,450.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:Gemini",
             "date": "2026-07-07T15:11:57.964Z",
@@ -15919,37 +15944,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:Gemini",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "Gemini",
+            "pick": "home",
+            "stake": 754.44,
+            "odds": 2.33,
+            "reasoning": "Spain has demonstrated elite control and defensive suffocation throughout the tournament, conceding a cumulative xG of just 0.46 across three matches (including a dominant performance against Uruguay). Argentina has been highly efficient but has faced lower-tier opposition and shown a tendency to cede possession. Spain's ability to dominate the midfield and suppress high-quality chances gives them a distinct advantage, making the home win at 2.33 excellent value.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Grok": {
         "model": "Grok",
-        "totalBets": 103,
-        "won": 65,
+        "totalBets": 104,
+        "won": 66,
         "lost": 38,
         "void": 0,
-        "totalStake": 109495.62000000008,
-        "totalReturn": -7983.843799999997,
-        "roi": -0.07291473211439865,
-        "avgOdds": 1.7556310679611657,
+        "totalStake": 109997.41000000008,
+        "totalReturn": -7316.463099999997,
+        "roi": -0.06651486703186914,
+        "avgOdds": 1.761153846153847,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:Grok",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "Grok",
-            "pick": "away",
-            "stake": 1100,
-            "odds": 2.9,
-            "reasoning": "Belgium's underlying numbers across the slate are superior to USA's. Dominant xG and shot volume vs NZ (3.99-0.30), controlled possession and chance creation vs Iran (1.48-0.48), and a solid result vs Egypt. USA posted good results vs weaker sides (Paraguay, Australia) but were out-shot and only marginally better on xG against Türkiye before losing. The market prices USA as slight favorites at 2.57, but Belgium's profile suggests value on the 2.9 away price.",
-            "status": "won",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:Grok",
             "date": "2026-07-07T15:11:57.964Z",
@@ -16102,37 +16127,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:Grok",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "Grok",
+            "pick": "home",
+            "stake": 501.79,
+            "odds": 2.33,
+            "reasoning": "Spain's recent reports show far superior xG, shot volume, and possession dominance (e.g., 3.20 xG vs KSA, 2.26 xG vs CPV) compared to Argentina's more moderate outputs; home edge at 2.33 is the value pick.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "DeepSeek": {
         "model": "DeepSeek",
-        "totalBets": 103,
+        "totalBets": 104,
         "won": 66,
-        "lost": 37,
+        "lost": 38,
         "void": 0,
-        "totalStake": 66349.49999999997,
-        "totalReturn": -2494.4511,
-        "roi": -0.03759562769877695,
-        "avgOdds": 1.8972815533980592,
+        "totalStake": 67349.49999999997,
+        "totalReturn": -3494.4511,
+        "roi": -0.05188533099726059,
+        "avgOdds": 1.9141346153846164,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:DeepSeek",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "DeepSeek",
-            "pick": "home",
-            "stake": 1500,
-            "odds": 2.57,
-            "reasoning": "USA benefit from massive home advantage as co-hosts, and their underlying numbers are solid: dominant final‑third receptions and pressure against Paraguay, controlled Australia, and narrowly lost a high‑xG shootout to Turkey. Belgium hammered a weak New Zealand side but laboured to a 0‑0 against Iran despite 1.48 xG and drew unconvincingly with Egypt. The odds of 2.57 likely underestimate USA’s true win probability given the host factor and Belgium’s inconsistent chance creation. I’m backing a home win with a stake that reflects my edge.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:DeepSeek",
             "date": "2026-07-07T15:11:57.964Z",
@@ -16285,37 +16310,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:DeepSeek",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "DeepSeek",
+            "pick": "away",
+            "stake": 1000,
+            "odds": 3.65,
+            "reasoning": "Argentina have been clinical and defensively solid despite conceding final-third entries, while Spain dominated possession but failed to score against Cabo Verde and only edged Uruguay. Odds of 3.65 imply ~27% chance; I rate Argentina closer to 33%, offering clear value on the upset.",
+            "status": "lost",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Mistral": {
         "model": "Mistral",
-        "totalBets": 103,
-        "won": 64,
+        "totalBets": 104,
+        "won": 65,
         "lost": 39,
         "void": 0,
-        "totalStake": 47317.95999999999,
-        "totalReturn": -9596.586199999996,
-        "roi": -0.20281064948700234,
-        "avgOdds": 1.774174757281554,
+        "totalStake": 47442.939999999995,
+        "totalReturn": -9430.362799999995,
+        "roi": -0.198772732044009,
+        "avgOdds": 1.7795192307692316,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:Mistral",
-            "date": "2026-07-06T23:43:23.035Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "Mistral",
-            "pick": "home",
-            "stake": 254.72,
-            "odds": 2.57,
-            "reasoning": "USA has shown strong attacking form in recent matches (M04: 4-1 vs Paraguay, M32: 2-0 vs Australia) with high xG (1.88 and 1.58) and dominant possession (59.5% and 56%). Their only loss (M59: 2-3 vs Türkiye) was a close game with nearly identical xG (1.78 vs 1.71) and high shot volume (18 shots, 7 on target). Belgium, while clinical in attack (M64: 5-1 vs NZL), struggled against Iran (0-0, xG 1.48-0.48) and Egypt (1-1, xG 1.07-0.73), showing vulnerability in converting chances. USA's home odds (2.57) are more favorable than Belgium's away odds (2.9), and their recent performances suggest they can exploit Belgium's defensive inconsistencies. The draw (3.25) is less appealing given USA's attacking intent and Belgium's recent defensive struggles. Betting max stake on USA to win.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:Mistral",
             "date": "2026-07-07T15:11:57.964Z",
@@ -16468,37 +16493,37 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:Mistral",
+            "date": "2026-07-19T18:31:31.309Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "Mistral",
+            "pick": "home",
+            "stake": 124.98,
+            "odds": 2.33,
+            "reasoning": "Spain's recent performances show dominant control in possession, final-third receptions, and line breaks, even against stronger opponents like Uruguay. Their xG and shot dominance in matches against Cabo Verde and Saudi Arabia suggest they are creating high-quality chances consistently. Argentina, while strong, have shown vulnerability in possession and defensive pressures, particularly in their match against Austria where they had only a slight edge in xG despite winning. The odds for Spain (2.33) are favorable given their attacking prowess and Argentina's recent defensive lapses. Betting the maximum stake here to capitalize on Spain's form and the value in the home odds.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       },
       "Baseline": {
         "model": "Baseline",
-        "totalBets": 103,
-        "won": 67,
+        "totalBets": 104,
+        "won": 68,
         "lost": 36,
         "void": 0,
-        "totalStake": 115507.51000000001,
-        "totalReturn": 853.2481999999986,
-        "roi": 0.007386949991390158,
-        "avgOdds": 1.6815533980582522,
+        "totalStake": 116675.85,
+        "totalReturn": 2395.4569999999985,
+        "roi": 0.02053087249846475,
+        "avgOdds": 1.6876923076923076,
         "recentBets": [
-          {
-            "id": "810f80b3ae79f5e86b3747ca15718ed8:Baseline",
-            "date": "2026-07-06T21:06:32.538Z",
-            "matchId": "810f80b3ae79f5e86b3747ca15718ed8",
-            "match": "USA vs Belgium",
-            "homeTeam": "USA",
-            "awayTeam": "Belgium",
-            "kickoff": "2026-07-07T00:00:00Z",
-            "model": "Baseline",
-            "pick": "home",
-            "stake": 1922.52,
-            "odds": 2.54,
-            "reasoning": "Always bet the favorite.",
-            "status": "lost",
-            "settledResult": "away",
-            "settledScore": "1-4"
-          },
           {
             "id": "190922affd0be754bfefd71548dbf90d:Baseline",
             "date": "2026-07-07T13:13:16.619Z",
@@ -16651,6 +16676,23 @@
             "status": "lost",
             "settledResult": "away",
             "settledScore": "4-6"
+          },
+          {
+            "id": "fb30113e43d113f1ace48b8563ba1ee9:Baseline",
+            "date": "2026-07-19T16:12:35.243Z",
+            "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
+            "match": "Spain vs Argentina",
+            "homeTeam": "Spain",
+            "awayTeam": "Argentina",
+            "kickoff": "2026-07-19T19:00:00Z",
+            "model": "Baseline",
+            "pick": "home",
+            "stake": 1168.34,
+            "odds": 2.32,
+            "reasoning": "Always bet the favorite.",
+            "status": "won",
+            "settledResult": "home",
+            "settledScore": "1-0"
           }
         ]
       }
