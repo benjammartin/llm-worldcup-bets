@@ -15170,7 +15170,7 @@
   ],
   "meta": {
     "promptVersion": 1,
-    "lastBetsRun": "2026-07-19T16:12:35.243Z",
+    "lastBetsRun": "2026-07-19T16:14:32.156Z",
     "lastSettleRun": "2026-07-18T23:43:10.496Z",
     "failures": [
       {
@@ -15255,6 +15255,36 @@
       },
       {
         "date": "2026-07-19T16:12:35.243Z",
+        "model": "Mistral",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
+        "model": "Claude",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
+        "model": "GPT-5.5",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
+        "model": "Gemini",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
+        "model": "Grok",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
+        "model": "DeepSeek",
+        "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
+      },
+      {
+        "date": "2026-07-19T16:14:32.156Z",
         "model": "Mistral",
         "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
       }
