@@ -15369,14 +15369,7 @@
         "reason": "GatewayInternalServerError: A positive credit balance is required for all requests, including BYOK, so fallback providers remain available. Add credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up to continue."
       }
     ],
-    "upcomingMatches": [
-      {
-        "matchId": "fb30113e43d113f1ace48b8563ba1ee9",
-        "homeTeam": "Spain",
-        "awayTeam": "Argentina",
-        "kickoff": "2026-07-19T19:00:00Z"
-      }
-    ],
+    "upcomingMatches": [],
     "liveMatches": [],
     "lastCyclePostKey": "fb30113e43d113f1ace48b8563ba1ee9",
     "performance": {
