@@ -37,51 +37,24 @@ const standings = Object.keys(state.series)
   .map((name) => ({ name, roll: bankroll(state, name), delta: bankroll(state, name) - STARTING_BANKROLL }));
 const maxAbsDelta = Math.max(100, ...standings.map((s) => Math.abs(s.delta)));
 const leader = standings[0];
-const pending = state.bets.filter((b) => b.status === "pending")
-  .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
 const settled = state.bets.filter((b) => b.status !== "pending")
   .sort((a, b) => b.kickoff.localeCompare(a.kickoff));
-
-const modelCycleStats = Object.fromEntries(standings.map((s) => {
-  const bets = pending.filter((b) => b.model === s.name);
-  const exposure = bets.reduce((sum, b) => sum + b.stake, 0);
-  const avgOdds = bets.length ? bets.reduce((sum, b) => sum + b.odds, 0) / bets.length : 0;
-  return [s.name, { bets: bets.length, exposure, avgOdds }];
-}));
 
 const byMatch = (bets: Bet[]) => {
   const m = new Map<string, Bet[]>();
   for (const b of bets) m.set(b.matchId, [...(m.get(b.matchId) ?? []), b]);
   return [...m.values()];
 };
-const pendingMatches = byMatch(pending);
 const settledMatches = byMatch(settled);
-const upcomingMatches = (state.meta.upcomingMatches ?? [])
-  .filter((m) => Date.parse(m.kickoff) > Date.now())
-  .sort((a, b) => a.kickoff.localeCompare(b.kickoff));
-const visibleMatchCount = pending.length > 0 ? pendingMatches.length : upcomingMatches.length;
-const badge = (s: string) => s === "won" ? "✅" : s === "lost" ? "❌" : s === "void" ? "↩︎" : "⏳";
+
 const pickLabel = (b: Bet) =>
   b.pick === "draw" ? "🤝 Draw"
   : b.pick === "home" ? `${flagOf(b.homeTeam)} ${b.homeTeam}`
   : `${flagOf(b.awayTeam)} ${b.awayTeam}`;
 const pickText = (pick: Bet["pick"], b: Bet) =>
   pick === "draw" ? "Draw" : pick === "home" ? b.homeTeam : b.awayTeam;
-const matchInsight = (bets: Bet[]) => {
-  const counts = { home: 0, draw: 0, away: 0 } as Record<Bet["pick"], number>;
-  for (const b of bets) counts[b.pick] += 1;
-  const entries = (Object.entries(counts) as [Bet["pick"], number][])
-    .filter(([, count]) => count > 0)
-    .sort((a, b) => b[1] - a[1]);
-  const top = entries[0];
-  const split = entries.map(([pick, count]) => `${count} ${pickText(pick, bets[0])}`).join(" / ");
-  const biggest = [...bets].sort((a, b) => b.stake - a.stake)[0];
-  const verdict = top[1] === bets.length
-    ? `Consensus: ${top[1]}/${bets.length} pick ${pickText(top[0], bets[0])}`
-    : `Split: ${split}`;
-  return `${verdict} · biggest stake: ${biggest.model} ${money(biggest.stake)}`;
-};
-const totalPendingExposure = pending.reduce((sum, b) => sum + b.stake, 0);
+
+
 const resultOrder: Record<Bet["status"], number> = { won: 0, lost: 1, void: 2, pending: 3 };
 const settledBetRows = (bets: Bet[]) =>
   [...bets].sort((a, b) => resultOrder[a.status] - resultOrder[b.status] || b.stake - a.stake || a.model.localeCompare(b.model));
@@ -120,18 +93,7 @@ const kickoff = (iso: string) =>
 const lastUpdate = state.meta.lastSettleRun ?? state.meta.lastBetsRun;
 const OG_IMAGE_LAYOUT_VERSION = "data-card-v1";
 const ogImageVersion = encodeURIComponent(`${lastUpdate ?? "initial"}-${OG_IMAGE_LAYOUT_VERSION}`);
-const todayFailures = state.meta.failures.slice(-6);
-const matchday = Math.max(1, Math.floor((Date.now() - Date.parse("2026-06-11T00:00:00Z")) / 86_400_000) + 1);
-const topExposure = Object.entries(modelCycleStats)
-  .filter(([, stats]) => stats.bets > 0)
-  .sort((a, b) => b[1].exposure - a[1].exposure)[0];
-const biggestSwing = [...pending].sort((a, b) => b.odds - a.odds)[0];
-const cycleSummary = pending.length === 0
-  ? "No live bets right now — upcoming matches are listed below; AI bets open 3 hours before kickoff."
-  : `${pendingMatches.length} matches currently open · ${pending.length} live bets${topExposure ? ` · most exposed: ${topExposure[0]} ${money(topExposure[1].exposure)}` : ""}${biggestSwing ? ` · biggest swing: ${biggestSwing.model} on ${pickText(biggestSwing.pick, biggestSwing)} @ ${biggestSwing.odds}` : ""}.`;
-const mobileCycleSummary = pending.length === 0
-  ? "Bets open 3h before kickoff."
-  : `${pendingMatches.length} matches · ${pending.length} pending bets.`;
+const settledMatchCount = settledMatches.length;
 const canonicalUrl = `${SITE_URL}/`;
 const ogImageUrl = `${SITE_URL}/og.png?v=${ogImageVersion}`;
 const jsonLd = {
@@ -139,7 +101,7 @@ const jsonLd = {
   "@type": "WebSite",
   name: "LLM World Cup Bets",
   url: canonicalUrl,
-  description: "We gave 6 AIs $10,000 each to bet on the World Cup. Watch the AI gambling reality show: live bankrolls, stupid bets, shame board, verbatim reasoning.",
+  description: "We gave 6 AIs $10,000 each to bet on the 2026 World Cup. Explore the final bankrolls, all 728 bets, and every model's verbatim reasoning.",
   image: ogImageUrl,
   inLanguage: "en",
   isAccessibleForFree: true,
@@ -153,18 +115,18 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>6 AIs. $10,000 each. One World Cup.</title>
-  <meta name="description" content="We gave 6 AIs $10,000 each to bet on the World Cup. Watch them bet, panic, and go broke: live bankrolls, stupid bets, shame board, and verbatim reasoning." />
+  <meta name="description" content="We gave 6 AIs $10,000 each to bet on the 2026 World Cup. Explore the final bankrolls, all 728 bets, and every model's verbatim reasoning." />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <link rel="canonical" href={canonicalUrl} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:site_name" content="LLM World Cup Bets" />
   <meta property="og:title" content="6 AIs. $10,000 each. One World Cup." />
-  <meta property="og:description" content="Watch the AI gambling reality show: live World Cup bets, bankrolls, model picks, and verbatim reasoning." />
+  <meta property="og:description" content="The tournament is over. Explore the final bankrolls, all 728 bets, and every model's verbatim reasoning." />
   <meta property="og:image" content={ogImageUrl} />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="6 AIs. $10,000 each. One World Cup." />
-  <meta name="twitter:description" content="Watch them bet, panic, and go broke. AI World Cup gambling reality show." />
+  <meta name="twitter:description" content="Final results: 6 AIs, $10,000 each, 728 bets, one World Cup." />
   <meta name="twitter:image" content={ogImageUrl} />
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <style>
@@ -189,11 +151,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     .ticker { display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
       border-bottom: 1px solid var(--line); padding: 10px 2px; font-size: 12px;
       text-transform: uppercase; letter-spacing: .08em; color: var(--dim); }
-    .live { color: var(--up); font-weight: 700; display: inline-flex; align-items: center; gap: 6px; }
-    .live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--up);
-      animation: pulse 1.6s ease-in-out infinite; }
-    @keyframes pulse { 50% { opacity: .15; } }
-    @media (prefers-reduced-motion: reduce) { .live::before { animation: none; } }
+    .final { color: var(--amber); font-weight: 700; }
     .ticker .lead b { color: var(--amber); }
 
     header { padding: 28px 0 6px; }
@@ -352,25 +310,25 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
 </head>
 <body>
   <div class="ticker">
-    <span class="live">Live</span>
-    <span>Matchday {matchday}/39</span>
-    <span>Bets open T-3h</span>
-    <span>{pending.length} pending bets</span>
-    <span class="lead">Leader: <b>{leader.name} {money(leader.roll)}</b></span>
+    <span class="final">Final</span>
+    <span>2026 tournament complete</span>
+    <span>{state.bets.length} bets settled</span>
+    <span>{settledMatchCount} matches</span>
+    <span class="lead">Winner: <b>{leader.name} {money(leader.roll)}</b></span>
   </div>
 
   
 
   <header class="hero">
     <h1>6 AIs. <span class="accent">$10,000 each.</span><br/>One World Cup.</h1>
-    <p class="hero-sub">Watch them bet, panic, and go broke.</p>
-    <p class="hero-proof">AI gambling reality show: upcoming matches stay visible, then every model places its bet 3 hours before kickoff against real bookmaker odds. Reasoning is published verbatim.</p>
-    <a class="hero-cta" href="#current-cycle">Jump to matches</a>
+    <p class="hero-sub">They bet, panicked, and mostly went broke. <b>Here are the final results.</b></p>
+    <p class="hero-proof">The 2026 tournament is complete: 728 virtual-money bets across 104 matches, placed against real bookmaker odds. Every model's reasoning remains published verbatim.</p>
+    <a class="hero-cta" href="#match-history">Explore final results</a>
   </header>
 
   <!-- Priority order: bankroll/leaderboard first, then today's bets. Viral/shame modules are below the fold. -->
   <section>
-    <h2>Bankroll leaderboard <span class="count">{lastUpdate && `· updated ${kickoff(lastUpdate)}`}</span></h2>
+    <h2>Final bankroll leaderboard <span class="count">{lastUpdate && `· finalized ${kickoff(lastUpdate)}`}</span></h2>
     <div class="standings">
       {standings.map((s, i) => (
         <div class={`standing${i === 0 ? " first" : ""}`} style={`--c:${COLORS[s.name] ?? "#fff"}`}>
@@ -385,11 +343,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
               width:${(Math.abs(s.delta) / maxAbsDelta) * 50}%`}></span>}
             <span class="pl-bar" style="left:50%;width:1px;background:var(--line)"></span>
           </span>
-          <span class="cycle-risk">
-            {modelCycleStats[s.name].bets > 0
-              ? `Pending ${money(modelCycleStats[s.name].exposure)} · Avg odds ${modelCycleStats[s.name].avgOdds.toFixed(2)}`
-              : "No live exposure"}
-          </span>
+          <span class="cycle-risk">Final bankroll</span>
           <span class={`delta ${s.delta > 0 ? "up" : s.delta < 0 ? "down" : "flat"}`}>
             {s.delta === 0 ? "±$0" : (s.delta > 0 ? "+$" : "−$") + Math.round(Math.abs(s.delta)).toLocaleString("en-US")}
           </span>
@@ -405,50 +359,7 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
     <div class="chart chart-mobile" set:html={svgMobile} />
   </section>
 
-  <section id="current-cycle">
-    <h2>Today’s matches <span class="count">· bets open 3h before kickoff · {pending.length} bets / {visibleMatchCount} matches</span></h2>
-    <p class="cycle-summary"><span class="desktop-only">{cycleSummary}</span><span class="mobile-only">{mobileCycleSummary}</span></p>
-    {pendingMatches.map((bets) => (
-      <div class="match">
-        <div class="match-head">
-          <span class="match-title">{flagOf(bets[0].homeTeam)} {bets[0].homeTeam} <span class="vs">vs</span> {bets[0].awayTeam} {flagOf(bets[0].awayTeam)}</span>
-          <span class="match-meta">
-            <span class="bet-count">{bets.length} bets</span>
-            <span class="match-ko">kicks off {kickoff(bets[0].kickoff)}</span>
-          </span>
-        </div>
-        <div class="match-insight">{matchInsight(bets)}</div>
-
-        {bets.map((b) => (
-          <details style={`--c:${COLORS[b.model] ?? "#fff"}`}>
-            <summary>
-              {LOGOS[b.model]
-                ? <img class={`logo${LOGOS[b.model].invert ? " invert" : ""}`} src={LOGOS[b.model].src} alt={b.model} width="20" height="20" />
-                : <span class="dot"></span>}
-              <span class="name"><b>{b.model}</b><span class="model-id">{MODEL_DETAILS[b.model]}</span></span>
-              <span class="bet-pick">{pickLabel(b)}</span>
-              <span class="bet-stake">${b.stake.toLocaleString()}</span>
-              <span class="bet-odds">@ {b.odds}</span>
-              <span class="reason-toggle" aria-label={`Open ${b.model} reasoning`}>Why</span>
-            </summary>
-            <p class="reasoning">{b.reasoning}</p>
-          </details>
-        ))}
-      </div>
-    ))}
-    {pending.length === 0 && upcomingMatches.map((m) => (
-      <div class="upcoming-card">
-        <span class="match-title">{flagOf(m.homeTeam)} {m.homeTeam} <span class="vs">vs</span> {m.awayTeam} {flagOf(m.awayTeam)}</span>
-        <span class="match-meta">
-          <span class="match-ko">kicks off {kickoff(m.kickoff)}</span>
-          <span class="upcoming-status">AI bets open 3h before kickoff</span>
-        </span>
-      </div>
-    ))}
-    {pending.length === 0 && upcomingMatches.length === 0 && <p class="failures">No upcoming matches in the next 24 hours. AI bets open 3 hours before kickoff.</p>}
-  </section>
-
-  <section>
+  <section id="match-history">
     <h2>Match history <span class="count">· {settledMatches.length} settled matches · winners first, P/L shown per bet</span></h2>
     <p class="result-legend">Each settled match now shows the winning outcome, how many models cashed, and every model’s profit/loss. Green rows won; red rows lost; profit is net return after stake.</p>
     {settledMatches.map((bets) => (
@@ -477,15 +388,13 @@ const POSTHOG_HOST = import.meta.env.PUBLIC_POSTHOG_HOST ?? "https://wc.llmworld
       </div>
     ))}
     {settled.length === 0 && <p class="failures">Nothing settled yet — first results land tonight.</p>}
-    {todayFailures.length > 0 && (
-      <p class="failures">⚠ {todayFailures.map((f) => f.model).join(", ")} couldn't produce a valid bet on the last run.</p>
-    )}
+
   </section>
 
   <footer>
     <strong>Built because benchmarks are boring. Let the models lose money instead.</strong><br/>
-    Virtual money only — not financial advice. Bets are generated 3 hours before each kickoff using the same prompt for every model.
-    Odds: median across ~25 bookmakers. Results: football-data.org, settled on the 90-minute score.<br/>
+    Virtual money only — not financial advice. Bets were generated 3 hours before each kickoff using the same prompt for every model.
+    Odds were the median across ~25 bookmakers. Results came from football-data.org and were settled on the 90-minute score.<br/>
     <a class="source-link" href="https://github.com/benjammartin/llm-worldcup-bets">Source / full bet history</a>
   </footer>
 </body>
